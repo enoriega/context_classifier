@@ -1,0 +1,84 @@
+Files in A contain only the annotation ids
+Files in AC also contain the text of context annotations
+Files in E also contain the text of the event annotations
+Files in curated tsv contains files with a normalized species ID and removed headers to be processed, as well as small typo fixes if necessary
+
+tsvlint.py is a script that checks curated tsv files for format errors and warnings
+
+Files digitalized:
+
+ PMC113262,
+ PMC2063868,
+ PMC2064233,
+ PMC2064697,
+ PMC2132836,
+ PMC2034365,
+ PMC2156142,
+ PMC2171832,
+ PMC2173277,
+ PMC2193052,
+ PMC2195994,
+ PMC2196001,
+ PMC2211846,
+ PMC2212421,
+ PMC2259347,
+ PMC2364253,
+ PMC2504490,
+ PMC2671642,
+ PMC2773002,
+ PMC2792345,
+ PMC2817493,
+ PMC2852518,
+ PMC2958468,
+ PMC2861648,
+ PMC2978746,
+ PMC3058384,
+ PMC3155019,
+ PMC3182062,
+ PMC3190874,
+ PMC3203906,
+ PMC3233644,
+ PMC3242165,
+ PMC3392545,
+ PMC3398920,
+ PMC534114,
+ PMC2575426,
+ PMC3717960,
+ PMC3789032,
+ PMC3973207,
+
+Files in process of digitalization:
+
+PMC2185068,
+PMC2172741
+PMC420486
+PMC3378484
+PMC3032653
+PMC2193139
+
+Files digitalized using brat (legacy annotation schema):
+PMC2212994	J_Exp_Med_2005_Nov_21_20210_1423-1431
+PMC3174055	Biochem_J_2011_Aug_15_438(Pt_1)_53-62
+PMC2386837	PLoS_Biol_2008_May_20_65_e128
+PMC2211849	J_Exp_Med_2004_Oct_18_2008_991-1000
+PMC2118421	J_Exp_Med_2007_Jan_22_204(1)_93-103
+PMC2156131	J_Cell_Biol_1999_Aug_23_1464_697-702
+PMC2168101	J_Cell_Biol_1999_Dec_13_147(6)_1129-1136
+PMC2148195	J_Cell_Biol_1999_Mar_8_144(5)_1033-1045
+PMC2199152	J_Exp_Med_1997_Dec_1_186(11)_1897-1910
+PMC3355962	Front_Endocrinol_Lausanne_2012_Feb_28_3_34
+PMC2195799	J_Exp_Med_2000_Jan_3_1911_47-60
+PMC2171339	J_Cell_Biol_2005_Aug_29_1705_837-845
+PMC2118676	J_Exp_Med_2007_Aug_6_204(8)_1825-1835
+PMC1702562	PLoS_Biol_2007_Jan_19_51_e5
+
+Files pending to annotate by a biologist:
+
+PMC2173491
+PMC2783775
+PMC2375387
+PMC2172498
+PMC2139800
+PMC2413109
+PMC2743561
+PMC3461631
