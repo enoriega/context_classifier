@@ -253,9 +253,69 @@ def main(paths, annDir):
 
     fnames = dv.feature_names_
 
+    print "General classifier"
     print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
     machineLearning(X, y, fnames)
+    print
+
+    vSpecies = [dict(v) for v in vectors if v['ctxType'] == 'S']
+    lSpecies = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'S']
+
+    for v in vSpecies:
+        del v['ctxType']
+
+    dv = DictVectorizer()
+
+    X = dv.fit_transform(vSpecies)
+    y = np.asarray(lSpecies)
+
+    fnames = dv.feature_names_
+
+    print "Species classifier"
+    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # Train and test a classifier
+    machineLearning(X, y, fnames)
+    print
+
+    vCells = [dict(v) for v in vectors if v['ctxType'] == 'C']
+    lCells = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'C']
+
+    for v in vCells:
+        del v['ctxType']
+
+    dv = DictVectorizer()
+
+    X = dv.fit_transform(vCells)
+    y = np.asarray(lCells)
+
+    fnames = dv.feature_names_
+
+    print "Cell classifier"
+    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # Train and test a classifier
+    machineLearning(X, y, fnames)
+    print
+
+    vTissue = [dict(v) for v in vectors if v['ctxType'] == 'T']
+    lTissue = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'T']
+
+    for v in vTissue:
+        del v['ctxType']
+
+    dv = DictVectorizer()
+
+    X = dv.fit_transform(vTissue)
+    y = np.asarray(lTissue)
+
+    fnames = dv.feature_names_
+
+    print "Tissue classifier"
+    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # Train and test a classifier
+    machineLearning(X, y, fnames)
+    print
+
 
 # Entry point
 if __name__ == "__main__":
