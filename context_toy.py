@@ -88,7 +88,7 @@ def extractData(tsv):
                 except e:
                     print e
 
-    return true+false
+    return set(true+false)
 
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
@@ -130,10 +130,8 @@ def parseTSV(path):
     return rows
 
 
-def createFeatures(datum, tsv, annotationData):
+def createFeatures(datum, otherData, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
-
-
 
     # Distance in sections
     sections = annotationData['sections']
@@ -154,7 +152,8 @@ def createFeatures(datum, tsv, annotationData):
         'ctxFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
         'ctxType':datum.ctx[0].upper(),
-        #'ctxInTitle':titles[datum.ctxIx]
+        #'ctxInTitle':titles[datum.ctxIx],
+        #'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0
     }
 
     return ret
@@ -216,7 +215,7 @@ def main(paths, annDir):
         tsv = parseTSV(path)
         data = extractData(tsv)
         annotationData = extractAnnotationData(pmcid, annDir)
-        vectors += [createFeatures(datum, tsv, annotationData) for datum in data]
+        vectors += [createFeatures(datum, data-{datum}, tsv, annotationData) for datum in data]
         labels += [datum.label for datum in data]
 
     dv = DictVectorizer()
