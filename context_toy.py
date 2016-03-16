@@ -54,7 +54,13 @@ def extractData(tsv):
             probs /= probs.sum()
 
             choices = np.random.choice(len(candidateContexts), num if len(candidateContexts) > num else len(candidateContexts), p=probs, replace=False)
-            return {candidateContexts[choice][0] for choice in choices}
+
+            # TODO: Really fix this!!
+            x = filter(lambda a: not a.isdigit(), {candidateContexts[choice][0] for choice in choices})
+            # for a in x:
+            #     if a.isdigit():
+            #         print x
+            return x
         else:
             return None
 
@@ -82,6 +88,8 @@ def extractData(tsv):
 
         if ctx2s is not None:
             for ctx2 in ctx2s:
+            #     if ctx2.isdigit():
+            #         print ctx2
                 try:
                     cLine2 = cLines[ctx2]
                     true.append(Datum(line, cLine2, ctx2, 0))
@@ -118,7 +126,7 @@ def parseTSV(path):
     rows = []
     with open(path) as f:
         dr = csv.DictReader(f, delimiter='\t', fieldnames=fieldNames)
-        for row in dr:
+        for ix, row in enumerate(dr):
             row['ctxId'] = split(row['ctxId']) if row['ctxId'] is not None else None
             row['ctxTxt'] = split(row['ctxTxt']) if row['ctxTxt'] is not None else None
             row['evtTxt'] = split(row['evtTxt']) if row['evtTxt'] is not None else None
@@ -132,6 +140,24 @@ def parseTSV(path):
 
 def createFeatures(datum, otherData, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
+
+    # if datum.ctx[0].upper() == '4':
+    #     print datum.ctx
+
+    def sectionType(section):
+        ''' Returns a string identifying the section type '''
+        section = section.lower()
+
+        if section.startswith('abstract'):
+            return 'abstract'
+        elif section.startswith('s'):
+            return 'section'
+        elif section.startswith('fig'):
+            return 'figure'
+        elif section == "":
+            return 'section'
+        else:
+            return section
 
     # Distance in sections
     sections = annotationData['sections']
@@ -149,9 +175,11 @@ def createFeatures(datum, otherData, tsv, annotationData):
     ret = {
         'distance':float(abs(datum.evtIx - datum.ctxIx))/len(tsv),
         'sameSection':changes == 0,
-        'ctxFirst':(datum.evtIx < datum.ctxIx),
+        #'ctxFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
         'ctxType':datum.ctx[0].upper(),
+        #'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        #'evtSecitonType':sectionType(sections[datum.ctxIx]),
         #'ctxInTitle':titles[datum.ctxIx],
         #'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0
     }
