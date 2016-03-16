@@ -90,6 +90,23 @@ def extractData(tsv):
 
     return true+false
 
+def extractAnnotationData(pmcid, annDir):
+    ''' Extracts data from annotations into a dictionary '''
+
+    pdir = os.path.join(annDir, pmcid)
+
+    fsections = os.path.join(pdir, 'sections.txt')
+    with open(fsections) as f:
+        sections = [l[:-1] for l in f]
+
+    ftitles = os.path.join(pdir, 'titles.txt')
+    with open(ftitles) as f:
+        titles = [bool(l[:-1]) for l in f]
+
+    return {
+        'sections':sections,
+        'titles':titles
+    }
 
 def parseTSV(path):
     ''' Parses a tsv file '''
@@ -113,14 +130,31 @@ def parseTSV(path):
     return rows
 
 
-def createFeatures(datum, tsv):
+def createFeatures(datum, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
+
+
+
+    # Distance in sections
+    sections = annotationData['sections']
+    titles = annotationData['titles']
+
+    secSlice = sections[datum.evtIx:datum.ctxIx+1]
+    changes = 0
+    if len(secSlice) > 0:
+        currSec = secSlice[0]
+        for s in secSlice[1:]:
+            if currSec != s:
+                changes += 1
+                currSec = s
     # Location relative
     ret = {
         'distance':float(abs(datum.evtIx - datum.ctxIx))/len(tsv),
+        'sameSection':changes == 0,
         'ctxFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
         'ctxType':datum.ctx[0].upper(),
+        #'ctxInTitle':titles[datum.ctxIx]
     }
 
     return ret
@@ -170,7 +204,7 @@ def lkocv(predictor, X, y, k):
     return predictions, y, coef
 
 
-def main(paths):
+def main(paths, annDir):
     ''' Puts all together '''
 
     # Read everything
@@ -178,9 +212,11 @@ def main(paths):
     labels = []
 
     for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
         data = extractData(tsv)
-        vectors += [createFeatures(datum, tsv) for datum in data]
+        annotationData = extractAnnotationData(pmcid, annDir)
+        vectors += [createFeatures(datum, tsv, annotationData) for datum in data]
         labels += [datum.label for datum in data]
 
     dv = DictVectorizer()
@@ -197,7 +233,8 @@ def main(paths):
 # Entry point
 if __name__ == "__main__":
     directory = sys.argv[1]
+    annDir = sys.argv[2]
     paths = glob.iglob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    main(paths)
+    main(paths, annDir)
