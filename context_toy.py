@@ -175,13 +175,13 @@ def createFeatures(datum, otherData, tsv, annotationData):
     ret = {
         'distance':float(abs(datum.evtIx - datum.ctxIx))/len(tsv),
         'sameSection':changes == 0,
-        #'ctxFirst':(datum.evtIx < datum.ctxIx),
+        'ctxFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
         'ctxType':datum.ctx[0].upper(),
-        #'ctxSecitonType':sectionType(sections[datum.ctxIx]),
-        #'evtSecitonType':sectionType(sections[datum.ctxIx]),
-        #'ctxInTitle':titles[datum.ctxIx],
-        #'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0
+        'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        'evtSecitonType':sectionType(sections[datum.ctxIx]),
+        # 'ctxInTitle':titles[datum.ctxIx],
+        # 'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0
     }
 
     return ret
