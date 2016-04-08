@@ -1,5 +1,9 @@
+from __future__ import division
 import csv, glob, sys, os, itertools
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from collections import defaultdict
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
@@ -111,9 +115,14 @@ def extractAnnotationData(pmcid, annDir):
     with open(ftitles) as f:
         titles = [bool(l[:-1]) for l in f]
 
+    fcitations = os.path.join(pdir, 'citations.txt')
+    with open(fcitations) as f:
+        citations = [bool(l[:-1]) for l in f]
+
     return {
         'sections':sections,
-        'titles':titles
+        'titles':titles,
+        'citations':citations
     }
 
 def parseTSV(path):
@@ -137,6 +146,33 @@ def parseTSV(path):
 
     return rows
 
+
+def pandas(tsv, name):
+    ''' Creates pandas data frames for rows '''
+
+    def isEvent(s):
+        return len(s) > 0 and s[0].upper().startswith('E')
+
+    def isContext(s):
+        return len(s) > 0 and not isEvent(s)
+
+    events, context = [], []
+    for x in tsv:
+        tbs, ix, cxs = x['tbAnn'], int(x['num'])-1, x['ctx']
+        for tb in tbs:
+            if isEvent(tb):
+                for cx in cxs:
+                    events.append({"eid":tb, "name":name, "sentence":ix, "context":cx})
+            elif isContext(tb):
+                # This would be context annotations
+                context.append({"cid":tb, "name":name, "sentence":ix, "type":tb[0].lower()})
+
+    fEvents = pd.DataFrame(events)
+    fContext = pd.DataFrame(context)
+    # eLines = {e[0]:e[1] for e in events}
+    # cLines = {c[0]:c[1] for c in context}
+
+    return fEvents, fContext
 
 def createFeatures(datum, otherData, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
@@ -181,7 +217,9 @@ def createFeatures(datum, otherData, tsv, annotationData):
         'ctxSecitonType':sectionType(sections[datum.ctxIx]),
         'evtSecitonType':sectionType(sections[datum.ctxIx]),
         # 'ctxInTitle':titles[datum.ctxIx],
-        # 'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0
+        # 'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0,
+        'evtHasCitation':titles[datum.evtIx],
+        'ctxHasCitation':titles[datum.ctxIx],
     }
 
     return ret
@@ -238,18 +276,71 @@ def main(paths, annDir):
     vectors = []
     labels = []
 
+    eFrames, cFrames = [], []
+
+    sentenceNumbers = {}
+
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
+        sentenceNumbers[pmcid] = len(tsv)
         data = extractData(tsv)
         annotationData = extractAnnotationData(pmcid, annDir)
         vectors += [createFeatures(datum, data-{datum}, tsv, annotationData) for datum in data]
         labels += [datum.label for datum in data]
 
+        # Do stats
+        fEvents, fContext = pandas(tsv, pmcid)
+
+        eFrames.append(fEvents)
+        cFrames.append(fContext)
+
+    eFrame = pd.concat(eFrames)
+    cFrame = pd.concat(cFrames)
+
+    linesPerCtxCount = defaultdict(int)
+    refs = {}
+    proportionLinesWRef = {}
+    proportionLinesWCtx = {}
+    for name in eFrame.name.unique():
+        # Number of refs
+        refs[name] = eFrame[eFrame.name == name].shape[0]
+        # proportion of sentences with context mentions
+        numSentencesWithRef = eFrame[eFrame.name == name]["sentence"].unique().shape[0]
+        proportionLinesWRef[name] =  numSentencesWithRef/sentenceNumbers[name]
+
+        numSentencesWithCtx = cFrame[cFrame.name == name]["sentence"].unique().shape[0]
+        proportionLinesWCtx[name] =  numSentencesWithCtx/sentenceNumbers[name]
+
+        for s in eFrame[eFrame.name == name].sentence.unique():
+            linesPerCtxCount[eFrame[(eFrame.name == name) & (eFrame.sentence == s)].shape[0]] += 1
+
+    # Context per sentence: Cols: Num of contexts, rows: Number of sentences
+    linesPerCtxCount = pd.Series(linesPerCtxCount)
+    # Dist of context type
+    # print cFrame[(cFrame.type == 's') | (cFrame.type == 'c') | (cFrame.type == 't')].type.value_counts()
+
+    refs = pd.Series(refs)
+    refs.sort(ascending=False)
+    proportionLinesWRef = pd.Series(proportionLinesWRef)
+    proportionLinesWRef.sort(ascending=False)
+    proportionLinesWCtx = pd.Series(proportionLinesWCtx)
+    proportionLinesWCtx.sort(ascending=False)
+    linesPerCtxCount = pd.Series(linesPerCtxCount)
+    linesPerCtxCount.sort(ascending=False)
+
+    # Uncomment for stats
+    # print refs
+    # print proportionLinesWRef
+    # print proportionLinesWCtx
+    # print linesPerCtxCount
+
     dv = DictVectorizer()
 
     X = dv.fit_transform(vectors)
     y = np.asarray(labels)
+
+
 
     fnames = dv.feature_names_
 
@@ -272,56 +363,56 @@ def main(paths, annDir):
 
     fnames = dv.feature_names_
 
-    print "Species classifier"
-    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # Train and test a classifier
-    machineLearning(X, y, fnames)
-    print
-
-    vCells = [dict(v) for v in vectors if v['ctxType'] == 'C']
-    lCells = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'C']
-
-    for v in vCells:
-        del v['ctxType']
-
-    dv = DictVectorizer()
-
-    X = dv.fit_transform(vCells)
-    y = np.asarray(lCells)
-
-    fnames = dv.feature_names_
-
-    print "Cell classifier"
-    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # Train and test a classifier
-    machineLearning(X, y, fnames)
-    print
-
-    vTissue = [dict(v) for v in vectors if v['ctxType'] == 'T']
-    lTissue = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'T']
-
-    for v in vTissue:
-        del v['ctxType']
-
-    dv = DictVectorizer()
-
-    X = dv.fit_transform(vTissue)
-    y = np.asarray(lTissue)
-
-    fnames = dv.feature_names_
-
-    print "Tissue classifier"
-    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # Train and test a classifier
-    machineLearning(X, y, fnames)
-    print
+    # print "Species classifier"
+    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # # Train and test a classifier
+    # machineLearning(X, y, fnames)
+    # print
+    #
+    # vCells = [dict(v) for v in vectors if v['ctxType'] == 'C']
+    # lCells = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'C']
+    #
+    # for v in vCells:
+    #     del v['ctxType']
+    #
+    # dv = DictVectorizer()
+    #
+    # X = dv.fit_transform(vCells)
+    # y = np.asarray(lCells)
+    #
+    # fnames = dv.feature_names_
+    #
+    # print "Cell classifier"
+    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # # Train and test a classifier
+    # machineLearning(X, y, fnames)
+    # print
+    #
+    # vTissue = [dict(v) for v in vectors if v['ctxType'] == 'T']
+    # lTissue = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'T']
+    #
+    # for v in vTissue:
+    #     del v['ctxType']
+    #
+    # dv = DictVectorizer()
+    #
+    # X = dv.fit_transform(vTissue)
+    # y = np.asarray(lTissue)
+    #
+    # fnames = dv.feature_names_
+    #
+    # print "Tissue classifier"
+    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # # Train and test a classifier
+    # machineLearning(X, y, fnames)
+    # print
 
 
 # Entry point
 if __name__ == "__main__":
     directory = sys.argv[1]
     annDir = sys.argv[2]
-    paths = glob.iglob(os.path.join(directory, '*.tsv'))
+    paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
     main(paths, annDir)
