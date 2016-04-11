@@ -60,8 +60,11 @@ def createFeatures(datum, otherData, tsv, annotationData):
 
     return ret
 
-def machineLearning(X, y, fnames):
-    ''' Do the ML stuff '''
+def machineLearning(X, y, fnames, clusters, eval_type=EVAL1):
+    ''' Do the ML stuff
+         - clusters is a variable that is used to implement type 2 eval:
+           We only consider the set of unique refs per sentence, instead of multiple equivalent refs as in type 1
+           They key is the index in the design matrix and the value the index in the reduced vector'''
 
     # Normalize the data in-place
     normalize(X, norm='l2', copy=False)
@@ -70,7 +73,7 @@ def machineLearning(X, y, fnames):
     lr = LogisticRegression(penalty='l2', C=.1)
 
     #predictions, y, coef = train_test(lr, X, y)
-    predictions, y, coef = lkocv(lr, X, y, X.shape[0]*.01) # Hold 1% of the data out each fold
+    predictions, y, coef = lkocv(lr, X, y, X.shape[0]*.01, clusters) # Hold 1% of the data out each fold
 
     if coef is not None:
         weigths = ["%s:%.3f std:%.3f" % (fn, c, s) for fn, c, s in zip(fnames, coef.mean(axis=0), coef.std(axis=0))]
@@ -88,9 +91,11 @@ def machineLearning(X, y, fnames):
     print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
 
 
-def lkocv(predictor, X, y, k):
+def lkocv(predictor, X, y, k, clusters):
     ''' Does LKO-CV over the data and returns predictions '''
-    predictions = np.zeros(X.shape[0])
+
+    predictions = np.zeros(len(set(clusters.values())))
+    new_y = np.zeros(len(set(clusters.values())))
 
     # Cross validation
     cv = cross_validation.KFold(y.shape[0], n_folds=y.shape[0]//k, random_state=76654, shuffle=True)
@@ -99,13 +104,17 @@ def lkocv(predictor, X, y, k):
     for ix, split in enumerate(cv):
         train_ix, test_ix = split
         predictor.fit(X[train_ix], y[train_ix])
-        predictions[test_ix] = predictor.predict(X[test_ix])
+        predicted = predictor.predict(X[test_ix])
+        for p, t, j in zip(predicted, y[test_ix], test_ix):
+            predictions[clusters[j]] = p
+            new_y[clusters[j]] = t
+        # predictions[test_ix] = predicted
         coef[ix] = predictor.coef_[0]
 
-    return predictions, y, coef
+    return predictions, new_y, coef
 
 
-def main(paths, annDir):
+def main(paths, annDir, eval_type=EVAL2):
     ''' Puts all together '''
 
     # Read everything
@@ -115,20 +124,33 @@ def main(paths, annDir):
     eFrames, cFrames = [], []
 
     sentenceNumbers = {}
-
+    hashes = {}
+    accumulator = 0
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
-        data = extractData(tsv)
+        data = extractData(tsv, path)
         annotationData = extractAnnotationData(pmcid, annDir)
-        vectors += [createFeatures(datum, data-{datum}, tsv, annotationData) for datum in data]
+        for ix, datum in enumerate(data):
+            vector = createFeatures(datum, data-{datum}, tsv, annotationData)
+            vectors.append(vector)
+            # Generate clusters for type 2 eval
+            hashes[accumulator+ix] = hash(datum)
+
         labels += [datum.label for datum in data]
+        accumulator += len(data)
 
     dv = DictVectorizer()
 
     X = dv.fit_transform(vectors)
     y = np.asarray(labels)
 
+    if eval_type == EVAL1:
+        clusters = {i:i for i in xrange(X.shape[0])}
+    else:
+        # Type two eval indexes
+        indexes = {h:ix for ix, h in enumerate(set(hashes.values()))}
+        clusters = {i:indexes[hashes[i]] for i in xrange(X.shape[0])}
 
 
     fnames = dv.feature_names_
@@ -136,7 +158,7 @@ def main(paths, annDir):
     print "General classifier"
     print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
-    machineLearning(X, y, fnames)
+    machineLearning(X, y, fnames, clusters)
     print
 
     vSpecies = [dict(v) for v in vectors if v['ctxType'] == 'S']

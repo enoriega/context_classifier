@@ -17,18 +17,19 @@ EVAL2="sentence"
 class Datum(object):
     ''' Represents an event/candidate context mention pair '''
 
-    def __init__(self, evtIx, ctxIx, ctx, label):
+    def __init__(self, namespace, evtIx, ctxIx, ctx, label):
+        self.namespace = namespace
         self.evtIx = evtIx
         self.ctxIx = ctxIx
         self.ctx = ctx
         self.label = label
 
     def __hash__(self):
-        s = str(self.evtIx)+str(self.ctxIx)+self.ctx
+        s = self.namespace+str(self.evtIx)+str(self.ctxIx)+self.ctx
         return hash(s)
 
 
-def extractData(tsv, eval_type=EVAL1):
+def extractData(tsv, name):
     ''' Reads a parsed TSV and yields a sequence of data
      with positive and negative examples'''
 
@@ -86,7 +87,7 @@ def extractData(tsv, eval_type=EVAL1):
         # Get the context line
         try:
             cLine = cLines[ctx]
-            true.append(Datum(line, cLine, ctx, 1))
+            true.append(Datum(name, line, cLine, ctx, 1))
         except e:
             print e
 
@@ -102,7 +103,7 @@ def extractData(tsv, eval_type=EVAL1):
             for ctx2 in ctx2s:
                 try:
                     cLine2 = cLines[ctx2]
-                    true.append(Datum(line, cLine2, ctx2, 0))
+                    true.append(Datum(name, line, cLine2, ctx2, 0))
                 except e:
                     print e
 
