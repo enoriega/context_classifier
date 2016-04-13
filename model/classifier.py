@@ -9,6 +9,9 @@ from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
 from parsing import *
+from model import *
+
+np.random.seed(0)
 
 def createFeatures(datum, otherData, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
@@ -98,7 +101,7 @@ def lkocv(predictor, X, y, k, clusters):
     new_y = np.zeros(len(set(clusters.values())))
 
     # Cross validation
-    cv = cross_validation.KFold(y.shape[0], n_folds=y.shape[0]//k, random_state=76654, shuffle=True)
+    cv = cross_validation.KFold(y.shape[0], n_folds=y.shape[0]//k, shuffle=True)
     coef = np.zeros((len(cv), X.shape[1]))
 
     for ix, split in enumerate(cv):
