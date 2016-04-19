@@ -117,7 +117,7 @@ def lkocv(predictor, X, y, k, clusters):
     return predictions, new_y, coef
 
 
-def main(paths, annDir, eval_type=EVAL2):
+def main(paths, annDir, eval_type=EVAL1):
     ''' Puts all together '''
 
     # Read everything

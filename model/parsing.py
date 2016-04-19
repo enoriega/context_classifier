@@ -81,31 +81,34 @@ def extractData(tsv, name):
 
     # Extract data points
     true, false = [], []
+    added = set()
     for e in events:
         eid, line, ctx = e
+        if (eid, ctx) not in added:
+            # Get the context line
+            try:
+                cLine = cLines[ctx]
+                true.append(Datum(name, line, cLine, ctx, 1))
+            except e:
+                print e
 
-        # Get the context line
-        try:
-            cLine = cLines[ctx]
-            true.append(Datum(name, line, cLine, ctx, 1))
-        except e:
-            print e
 
+            #print '%s: %s' % (k, [x[2] for x in g])
 
-        #print '%s: %s' % (k, [x[2] for x in g])
+            localContext = groups[eid]
 
-        localContext = groups[eid]
+            added.add((eid, ctx))
 
-        # Pick a negative example
-        ctx2s = getOtherContext(line, localContext)
+            # Pick a negative example
+            ctx2s = getOtherContext(line, localContext)
 
-        if ctx2s is not None:
-            for ctx2 in ctx2s:
-                try:
-                    cLine2 = cLines[ctx2]
-                    true.append(Datum(name, line, cLine2, ctx2, 0))
-                except e:
-                    print e
+            if ctx2s is not None:
+                for ctx2 in ctx2s:
+                    try:
+                        cLine2 = cLines[ctx2]
+                        true.append(Datum(name, line, cLine2, ctx2, 0))
+                    except e:
+                        print e
 
     return set(true+false)
 
