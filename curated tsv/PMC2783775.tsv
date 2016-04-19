@@ -1,0 +1,217 @@
+1							SOX2 Is an Amplified Lineage Survival Oncogene in Lung and Esophageal Squamous Cell Carcinomas
+2							Lineage survival oncogenes are activated by somatic DNA alterations in cancers arising from the cell lineages in which these genes play a role in normal development .
+3							, Here we show that a peak of genomic amplification on chromosome 3q26 .33 , found in squamous cell carcinomas ( SCCs ) of the lung and esophagus , contains the transcription factor gene SOX2 -- which is mutated in hereditary human esophageal malformations and necessary for normal esophageal squamous development , promotes differentiation and proliferation of basal tracheal cells and co-operates in induction of pluripotent stem cells .
+4							, , SOX2 expression is required for proliferation and anchorage independent growth of lung and esophageal cell lines , as shown by RNA interference experiments .
+5							Furthermore , ectopic expression of SOX2 cooperated with FOXE1 or FGFR2 to transform immortalized tracheobronchial epithelial cells .
+6							SOX2 driven tumors show expression of markers of both squamous differentiation and pluripotency .
+7							These observations identify SOX2 as a novel lineage survival oncogene in lung and esophageal SCC .
+8							To identify genomic aberrations in lung and esophageal SCCs , we determined copy number for 40 esophageal SCC DNA samples ( 29 primary tumors and 11 cell lines ) and 47 primary lung SCC DNA samples using 250K Sty I Affymetrix single-nucleotide polymorphism ( SNP ) arrays .
+9							Data were analyzed using GISTIC ( Genomic Identification of Significant Targets in Cancer ) , , which scores the significance of recurrent gains or losses and identifies peak regions likely to contain the driver gene ( s ) .
+10							For lung SCC , the most significant amplification peak is located on chromosome segment 3q26 .33 , with the next most significant peaks encompassing the tyrosine kinase genes EGFR on 7p11 .2 and FGFR1 on 8p12 .
+11							In esophageal SCC , the most significant amplification peak spans the cyclin gene CCND1 on 11q13 .2 ; additional amplifications are found at EGFR , FGFR1 , chromosome segment 3q26 .33 and on 8q24 .21 near MYC and POU5F1B .
+12							Significant focal deletions including deletions of CDKN2A and B on 9p21 .3 were also identified .
+13							Chromosome segment 3q26 .33 is amplified in 11 of the 47 ( 23 % ) lung and 6 of the 40 ( 15 % ) esophageal SCCs analyzed , as defined by SNP array derived copy number of 3.6 or greater , which is generally a significant underestimate due to high tumor ploidy , normal DNA admixture , or signal saturation at high copy number .
+14							As five of the six amplified esophageal SCCs cases were cell lines , we performed fluorescence in situ hybridization ( FISH ) on tissue microarrays ( TMA ) from 63 independent primary esophageal SCC samples and noted amplifications in 7 of 63 cases to confirm recurrent amplifications in primary tumors ( data not shown ) .
+15							The peaks on chromosome segment 3q26 .33 occur within a previously defined focus of amplification within 3q26-3q28 in SCCs , containing candidate oncogenes including TP63 , PIK3CA and DCUN1D1 .
+16							In our lung SCC analysis , the peak contains four genes ( SOX2 , ATP11B , DCUN1D1 , and MCCC1 ) .
+17							In esophageal SCC , the 3q amplification peak includes only one annotated gene , SOX2 .
+18							Even for those samples with the highest copy number at PIK3CA and TP63 , SOX2 is amplified to higher levels in the majority of these samples .
+19							While these results argue that SOX2 is a target of amplification , the absence of other genes from a GISTIC peak does not exclude an oncogenic role , nor does it exclude polygenic contributions .
+20							Indeed , one lung SCC sample did harbor higher amplification at DCUN1D1 and ATP11B than at SOX2 , and also one lung SCC sample showed amplification at 183.03-183 .27 Mb on chromosome 3 , syntenic to the region containing lincRNA-Sox2 , a non coding RNA identified as a target of Sox2 in mouse ES cells .
+21							To evaluate the impact of 3q26 .33 amplification on SOX2 expression , we measured SOX2 mRNA levels by quantitative RT-PCR in 27 lung SCCs for which matched SNP array data and RNA were available .
+22							Cases with SOX2 amplification had higher mRNA expression ( p-value = 0.001 ; ) .
+23							We noted several cases without 3q26 .33 amplification with high SOX2 mRNA expression , suggesting that mechanisms other than amplification also can induce SOX2 overexpression .
+24							For esophageal SCC , we also documented the correlation of amplification and expression using immunohistochemistry and FISH on matched TMAs .
+25							We next evaluated the essentiality of genes within and near the amplification peak at 3q26 .33 for SCC cell lines bearing the amplification .
+26							We performed an arrayed RNAi screen targeting SOX2 , ten neighboring genes , two additional candidates ( PIK3CA and TP63 ) and control short hairpin RNAs ( shRNA ) specific for GFP and LacZ .
+27							Three to ten independent shRNAs were tested and analyzed after introduction into four SCC cell lines ( esophageal lines TE10 and TT and lung lines NCI-H520 and HCC95 ) that harbor 3q26 .33 amplification and two control lung adenocarcinoma cell lines that lack 3q26 .33 amplification , NCI-H1437 and NCI-H1355 .
+28							Each shRNA construct was evaluated for its differential impact on proliferation , comparing its effect on the four amplified SCC lines to the two control cell lines .
+29							Expression of several independent shRNAs targeting SOX2 reduced proliferation of the SCC cell lines compared to their effects in controls .
+30							Analysis with the RIGER , algorithm shows that suppression of SOX2 has the largest differential anti-proliferative effects on the 3q26 .33 amplified SCC cell lines among all genes tested .
+31							Since prior work had implicated DCUN1D1 as a potential transforming oncogene we further validated the results of shRNA constructs targeting this gene and noted consistently less effect for knockdown of this gene relative to SOX2 .
+32							These observations suggest that SOX2 is an essential gene in SCCs with 3q26 .33 amplifications .
+33							To determine in more detail the requirement for amplified SOX2 , we examined cell lines expressing SOX2 directed or control shRNAs ( shSOX2a , shSOX2b and shGFP ) .
+34							Suppression of SOX2 with either of two shRNA constructs reduced proliferation in the four 3q26.33-amplified lines but not in controls without appreciable Sox2 expression .
+35							We next evaluated anchorage independent growth .
+36							TE10 , TT and NCI-H1355 were not tested as these cell lines fail to form colonies in soft agar .
+37							ShRNA targeting SOX2 decreases colony formation in SOX2 amplified HCC95 and NCI-H520 cells compared to NCI-H1437 cells .
+38							Further results suggest that the reduction in anchorage-independence upon SOX2 knockdown exceeds the reduction in proliferation and that SOX2 is essential for some tumor cells with lower-level copy-gain at 3q26 .33 .
+39							To confirm that the effects of SOX2 shRNA are attributable to SOX2 suppression , we tested whether we could rescue the effects of suppression of SOX2 with ectopic wild-type SOX2 or SOX2 R74P , a loss-of-function DNA binding domain mutant identified in a patient with congenital tracheoesophageal fistula .
+40							We introduced wild-type and mutant SOX2 into HCC95 cells and subsequently introduced shSOX2b , which targets the SOX2 3 ' UTR .
+41							Expression of wild-type SOX2 restored anchorage independent growth , whereas SOX2 R74P or GFP control failed to do so .
+42							These observations demonstrate a clear requirement for SOX2 and argue against the possibility that the effects of shSOX2b on HCC95 cells are due to off-target toxicity .
+43							We next examined the ability of SOX2 to transform immortalized tracheobronchial epithelial ( AALE ) cells .
+44							As SOX2 alone was not transforming , we searched lung SCC expression data for genes whose expression correlates with SOX2 expression as candidates for co-operative transformation .
+45							The most highly correlated gene is FOXE1 , a forkhead transcription factor gene on chromosome 9q22 .33 , which is also the locus of the most significant germ-line risk allele for thyroid cancer ( followed by the NKX2-1 locus ) .
+46							FOXE1 is expressed in the epithelium of the developing esophagus , and congenital mutations cause cleft palate and hypothyroidism .
+47							Another highly correlated gene , the receptor tyrosine kinase gene FGFR2 , was of particular interest given that activating mutations are observed in lung SCC .
+48							While neither SOX2 nor FOXE1 ectopic expression alone was transforming , their co-expression induced anchorage independent growth .
+49							However , we were unable to demonstrate a stable physical interaction of Sox2 and FoxE1 with co-immunoprecipitation ( data not shown ) , the suppression of FOXE1 with RNAi failed to reduce proliferation of SCC cell lines , and FoxE1 protein was not appreciably expressed in all SOX2 dependent SCC lines ( data not shown ) , suggesting that FOXE1 is not broadly required for SOX2 function .
+50							To investigate potential cooperation between SOX2 and FGFR2 , we similarly generated stable AALE lines by ectopic expression of SOX2 , wild-type FGFR2 in the IIIb or IIIc splice variants , or both genes .
+51							Neither SOX2 nor FGFR2 expression alone could transform AALE cells , but the combination of SOX2 with the FGFR2 IIIb isoform found in epithelial cancers promoted anchorage independent growth .
+52							In contrast , expression of the ' mesenchymal ' isoform IIIc failed to transform these cells with SOX2 .
+53							These results demonstrate that SOX2 can be transforming with multiple cooperating genes .
+54							Further work will be required to elaborate the genes which can act with SOX2 in tumorigenesis and the subtypes of tumors in which these genes are active .
+55							In prior reports , we and others have identified that the developmental transcription factor NKX2-1 ( or TITF1 ) is an amplified lineage survival oncogene in lung adenocarcinoma .
+56							, , , Within the primitive foregut there is reciprocal expression of Nkx2 .1 and Sox2 in compartments that form the trachea and esophagus , respectively .
+57							Experimentally , Nkx2 .1-/- mice form hypoplastic lungs that stem from an undivided foregut with Sox2 + / p63 + squamous epithelium .
+58							By contrast , mice that express a hypomorphic Sox2 allele develop tracheoesophageal fistulae and form an esophagus with a ciliated Nkx2 .1+ / p63- mucosa .
+59							Hypothesizing that SOX2 may similarly represent a lineage survival oncogene , we compared the expression and amplification patterns of these two genes between lung adenocarcinomas and SCCs .
+60							We found SOX2 amplifications to be enriched in the lung SCC tumor population , while NKX2-1 amplification was enriched in lung adenocarcinoma , consistent with a previous study of NKX2-1 and with a report that the copy-number of lung adenocarcinoma and SCC are distinguished by SCC specific amplification chromosome 3q at 180-200 Mb .
+61							SNP array analysis from multiple adenocarcinoma lineages including esophageal adenocarcinomas failed to identify significant SOX2 amplification ( Beroukhim et al ; submitted ) .
+62							Furthermore , mRNA expression data , show that SOX2 mRNA levels are significantly higher in the lung SCC population compared to adenocarcinomas while NKX2-1 expression is significantly higher in adenocarcinomas .
+63							The complementary roles of SOX2 and NKX2-1 in distinct cancer lineages thus parallel their actions in development .
+64							In addition to its role in the development and maintenance of esophageal and tracheal tissues , SOX2 is also a key factor in pluripotency and one of the factors that allows reprogramming of mature cells to pluripotent stem cells .
+65							, , Although the lineage restricted nature of SOX2 amplifications in lung and esophageal SCC argues for a role as a lineage survival oncogene , we sought to determine how SOX2 's role as a pluripotency factor could contribute to its oncogenic activity .
+66							Expression analysis across other tumor lineages has identified signatures of embryonic stem cells ( ES cells ) in subsets of tumors ; these tumors tend to be poorly differentiated and associated with decreased survival .
+67							Querying lung SCC expression data with these signatures , we noted ES like signatures and expression of targets of the core ES transcription factors in tumors with higher SOX2 expression .
+68							However , patients presenting with lung SCC tumors exhibiting the ES-signature had improved survival compared to those without the signature ( p-value for Kaplan-Meier plot 0.03 ; not shown ) , and we did not identify significant association of SOX2 amplification or expression with clinical grade .
+69							In contrast , expression of SOX2 correlates with markers of squamous differentiation in lung SCCs .
+70							TP63 and KRT6A , which encode for the squamous markers p63 and cytokeratin 6A , respectively , were among the 50 transcripts most correlated with SOX2 expression in lung SCCs .
+71							When SOX2 was ectopically expressed in the lung adenocarcinoma line NCI-H2009 , both TP63 and KRT6A were induced , demonstrating actions of SOX2 that promote squamous identity rather than de-differentiation to a pluripotent state , thus consistent with a role as a lineage survival oncogene .
+72							This is the first report to show that SOX2 is an amplified oncogene in lung or esophageal SCC .
+73							SOX2 has critical roles in foregut development where it regulates initial dorsal and ventral patterning , shapes epithelial-mesenchymal interactions and is required for proper differentiation of both the squamous esophagus and of multiple respiratory cell types .
+74							SOX2 retains essential functions in the adult foregut where it is expressed in the proliferative basal esophagus and in the putative tracheal and airway stem cells , where SOX2 is necessary for proliferation and response to injury .
+75							SOX2 driven SCCs likely co-opt multiple functions regulated by SOX2 in the normal foregut and may activate additional pathways controlled by SOX2 in early pluripotent cells .
+76							Given the complexity of these functions and the involvement of interactions of multiple cell types , further study of the oncogenic function of SOX2 will require engineered animal and organotypic tissue culture models .
+77							The elucidation of SOX2 dependent pathways in these models may identify novel therapeutic vulnerabilities in SCC and may uncover additional common pathways between cancer , normal development and the maintenance of pluripotency .
+78							METHODS
+79							Tumor Samples
+80							DNA was provided for 47 lung SCC tumors with 17 matched normal samples ( M.S.T , L.R.C. , M.S.B and K.K.W ) , 29 esophageal SCCs and 11 matched normal samples ( H.N. , D.B.S , I.C. , U.R.Jr. , S.K.M. and A.K.R ) , and 11 esophageal SCC cell lines ( A.K.R ) .
+81							Clinical information is listed in .
+82							Primary tumors were all fresh-frozen with efforts to use samples with tumor content > 70 % .
+83							Tissue microarrays ( TMAs ) of esophageal SCC were provided by H.N. , D.B.S and A.K.R. .
+84							SNP Array Experiments and Analysis
+85							DNA was genotyped using the Sty I chip of the 500K Human Mapping Arrays ( Affymetrix Inc ) .
+86							Data were analyzed using GISTIC .
+87							, Copy number estimates were obtained using a tangent normalization , in which tumor signal intensities are divided by signal intensities from the linear combination of normal samples that are most similar to the tumor ( manuscript describing methodology in preparation ) .
+88							After data normalization and segmentation and smoothing , GISTIC scores each SNP locus ( G-score ) as the product of frequency and mean amplitude of amplifications .
+89							Only amplifications exceeding log2 copy number ratio of 0.848 above diploid for amplifications or of 0.737 below diploid for deletions were included as has been standard in copy-number analyses with SNP arrays .
+90							This copy-number threshold for amplifications is lower than what is conventionally used to score FISH as done below .
+91							SNP array copy-numbers are diminished due to admixture of DNA from normal tissue and from microarray probe saturation effects leading to attenuation of inferred copy-number .
+92							G-scores were compared against a null model to determine a false discovery rate ( q-value ) .
+93							Peaks with q-values below 0.005 were considered .
+94							Genomic coordinates of peaks of amplification were identified after capping copy number estimates at a log2 value of 1.0 to minimize peak calling due to hyper-segmentation ; peak finding also employed a peel-off step to remove the peak borders defined by the single sample ( s ) responsible for the minimal common regions .
+95							Genomic positions are mapped the hg18 genome build .
+96							Two-Color Interphase FISH Assay
+97							Probes for SOX2 ( clone CTD-2348H10 ) and reference ( clone RP11-286G5 ) were obtained from the BACPAC Resource Center ( Oakland , CA ) and also from Invitrogen ( Carlsbad , CA ) .
+98							Tissue hybridization , washing , and color detection were performed as described previously .
+99							The samples were analyzed under a 60x oil immersion objective using an Olympus BX-51 fluorescence microscope , and the CytoVision FISH imaging and capturing software ( Applied Imaging , San Jose , CA ) .
+100							Semi-quantitative evaluation of the assays was independently performed by three evaluators ( S.P. , C.J.L. and P.W. ) .
+101							Samples were called as high-level amplification if ten or more inferred copies of SOX2 were detected .
+102							Cell Lines and Culture Conditions
+103							AALE cells were generated as previously described .
+104							HCC95 , NCI-H1355 , NCI-H2009 and NCI-H1437 were provided by J.D.M. NCI-H520 cells were purchased from ATCC .
+105							TT , TE10 and TE11 cell lines were provided by A.K.R. .
+106							Lung cancer cell lines were maintained in RPMI with 10 % fetal bovine serum .
+107							Esophageal SCC lines were maintained in DMEM with 10 % fetal bovine serum .
+108							AALE cells were grown in SAGM media ( Lonza ) .
+109							NIH-3T3 cells ( ATCC ) were grown in DMEM with 10 % calf serum .
+110							All cells were grown in 1mM penicillin and streptomycin cells other than AALE 's also were grown with 2mM L-Glutamine .
+111							RNAi Screen
+112							Lentiviral vectors containing shRNA sequences were obtained from the RNAi Consortium ( TRC ) ( http://www.broadinstitute.org/rnai/trc; ) .
+113							For three genes , FXR1 , MCCC1 and PIK3CA , the TRC had performed knockdown validation ; for these genes the three top scoring constructs were used .
+114							For the remaining 10 genes ( SOX2 , MCF2L2 , DNAJC19 , TTC14 , KLHL6 , DCUN1D1 , B3GNT5 , TP63 , ATP11B , LAMP3 ) , all shRNAs in the TRC collection ( five to ten per gene ) were used and analyzed including six shRNAs targeting SOX2 .
+115							For the controls , two shRNAs against GFP and two against LacZ were included .
+116							Cells were plated in 384-well plates and on the following day infected with 1-3 ul of lentivirus with 8 ug and ml polybrene .
+117							Screens were performed with two replicates with and two replicates without puromycin , added 24 hours post-infection .
+118							Six days post-infection , wells were assayed using Cell-Titre Glo ( Promega ) .
+119							Raw luminescence scores against the replicate wells with puromycin for a given shRNA construct in each cell line were normalized against readings for shGFP and shLacZ in that line .
+120							Analysis was performed with RIGER ( RNAi Gene Enrichment Ranking ) , to compare the effects of each construct on the four 3q26.33-amplified lines to the construct 's effects in control cell lines to determine an enrichment score for each construct .
+121							Lower enrichment scores signify a greater decrease in proliferation in the 3q26.33-amplified cell lines .
+122							The enrichment scores were normalized against an enrichment score that would be generated by random permutation of an shRNA set of the same size to generate a normalized enrichment score for each gene .
+123							Comparison of the actual data to this permutation allows calculation of nominal P values and false discovery rate ( FDR ) .
+124							RNAi
+125							Vectors with shRNA targeting SOX2 and GFP were produced using TRC protocols ( http://www.broadinstitute.org/rnai/trc ) .
+126							Cells were plated the day prior to infection and subsequently incubated with diluted virus in 8ug and mL polybrene for six hours .
+127							Puromycin was added the following day .
+128							After selection , cells were plated for proliferation or soft-agar assays .
+129							Protein was prepared for immunoblotting with anti-Sox2 polyclonal antibody ( Abcam ) , anti-DCUN1D1 monoclonal antibody ( Abcam ) and anti-vinculin monoclonal antibody ( Sigma ) using standard techniques .
+130							Retroviral Introduction of Genes
+131							SOX2 , and GFP were cloned into the pWZL vector with blasticidin resistance or the pBABE vector with puromycin resistance .
+132							FOXE1 and FGFR2 were cloned into the pBABE puro vector .
+133							Infections were performed with standard methods .
+134							Protein expression was confirmed via immunoblotting with antibodies to Sox2 ( Abcam ) , vinculin ( Sigma ) , FGFR2 ( Santa Cruz ) or FoxE1 ( antibody kindly provided by Robert Di Lauro ) .
+135							Anchorage Independent Growth Assays
+136							Cells were plated in triplicate in a top layer of growth media with 0.33 % Noble Agar and plated onto a bottom layer of media with 0.5 % Agar in a 6-well plate .
+137							Soft-agar colonies were counted at two to five weeks based upon growth rate .
+138							Images were acquired using Magnifire software by inverted microscopy ( Olympus SZX9 ) .
+139							ImageJ software ( http://rsb.info.nih.gov/ij/ ) was used to quantify colony number .
+140							Comparison of anchorage independent growth vs. non-anchorage-independent growth was performed in NCI-H520 cells .
+141							Equal numbers of cells ( in triplicate ) were plated with either Noble Agar as above or regular growth media .
+142							Colony numbers in soft-agar were quantified as above .
+143							Foci formed in cells in regular media were identified with crystal violet staining using standard methods with foci quantified as for soft-agar .
+144							Cell Proliferation Assays
+145							Cells with stable expression of each shRNA construct were plated onto four replicate wells of a 96-well plate ; and three identical plates were prepared .
+146							Cell proliferation was assayed at 24 , 72 and 96 hours after plating with Cell-Titre Glo ( Promega ) on a Spectra Max5 plate reader .
+147							Cell numbers at 72 and 96 hours were corrected for the ratio of shSOX2 to shGFP cells from the 24-hour reading to correct for plating unevenness .
+148							A representative experiment is shown with viability + /- a standard deviation of the reading from the four wells shown .
+149							Expression Analysis
+150							From existing raw expression files expression data were generated using a gene-centric CDF file .
+151							We applied RMA and quantile normalization and the matchprobes package in the Bioconductor framework to create one single data set .
+152							Only patients with pathologic stage I and II disease and less than 80 years old at diagnosis had their tumor 's expression profile included in the analysis .
+153							To identify genes linked to SOX2 , we identified the 10 lung SCCs with the highest and 10 lowest SOX2 expressions .
+154							To identify correlated genes , differential expression was calculated using the same package in Bioconductor .
+155							We used gene-set expression analysis to assess whether the signatures that define ES cell identity are active and related to SOX2 expression level in lung SCC tumors .
+156							SOX2 mRNA expression was characterized as high and low in cases with expression 0.5 standard deviations above or below the mean , respectively .
+157							The analysis utilized nine gene sets that were previously defined to be over-expressed in ES cells and performed as previously described .
+158							Real-Time PCR Assays
+159							For expression analysis , RNA was extracted from cells using the Qiagen RNeasy kit and cDNA prepared with the Qiagen QuanTiTECT cDNA synthesis kit .
+160							All real-time PCRs were performed in triplicate with Power PCR SYBR Green Master Mix ( Applied Biosystems ) on a 7300 Real-Time PCR System ( Applied Biosystems ) with results normalized to GAPDH expression .
+161							Primers are listed in .
+162							Immunohistochemistry
+163							TMAs were stained with a polyclonal Sox2 antibody ( Chemicon ) at 1:5000 dilution following Dako antigen retrieval .
+164							After staining , we scanned the TMAs with the ZEISS MIRAX Scanner ( Zeiss , Oberkochen , Germany ) and then used the AxioVision Software to measure the grey scale value .
+165							Protein expression was quantified by the grey scale values of the epithelial cells and defined as a value from 0 ( black ) to 255 ( white ) .
+166							For statistical analysis , values were inverted so that higher expression ( black ) corresponded to higher numerical values .
+167							Statistical Analysis
+168							For comparisons of all continuous variables between experimental groups , Student 's T-tests were used .
+169							Effects of SOX2 RNAi on cellular proliferation was modeled by fitting the growth curve of each cell line to an exponential growth model using GraphPad Prism software .
+170							Modeled growth curves for each shSOX2 expressing cell line were compared to that for the appropriate shGFP expressing cell line curve ; F-tests were used to determine p-value .
+171							P-values < 0.05 were considered significant ; Bonferroni correction was performed for all experimental results in cell lines .
+172							Supplementary Material
+173							1
+174							Figures and Table
+175							Figure 1
+176							Recurrent genomic amplifications of 3q target SOX2 in lung and esophageal squamous cell carcinomas
+177							A ) Plots of recurrent high-level amplifications in 47 SCCs of the lung from GISTIC analysis of SNP array data .
+178							X-axis shows the G-score ( top ) and false discovery rate ( q-value ; bottom ) for recurrent amplification across the genome with a green line demarcating an arbitrary FDR cut-off of 0.005 .
+179							Labels on right denote the position of peaks of the most significantly altered regions .
+180							B ) Depiction of GISTIC amplification peaks for 40 esophageal squamous cell carcinomas ( 29 primary tumors and 11 cell lines ) C ) Plot of copy-number data from chromosome 3q from lung SCC .
+181							Each sample is represented with a vertical line from centromere ( top ) to telomere ( bottom ) .
+182							Areas of red indicate gain ; blue indicates loss .
+183							The positions of SOX2 and TP63 are noted with horizontal lines .
+184							An inset box shows the 10-Mb region centered on SOX2 in greater detail in the 15 samples with highest SOX2 copy number .
+185							The grey lines depict the positions of the two nearest RefSeq genes to SOX2 -- ATP11B and DNAJC19 -- as well as PIK3CA .
+186							D ) Plot of copy-number on chromosome 3q in esophageal SCC as described for panel C.
+187							Figure 2
+188							SOX2 knockdown via RNAi reduces anchorage independent growth and proliferation of SOX2 overexpressing cell lines
+189							A ) RIGER analysis of shRNA against SOX2 and genes neighboring SOX2 .
+190							Differential effects of each shRNA construct on proliferation of the four 3q26.33-amplified SCC cell lines was calculated by comparison of the effect of each shRNA construct in the SCC cell lines compared to the construct 's effect in two control lung adenocarcinoma cell lines .
+191							Blue lines represent differential proliferation scores for each shRNA construct .
+192							Negative enrichment scores represent reduced proliferation in the four SCC cell lines .
+193							Red lines represent the normalized enrichment score calculated for each gene based upon the proliferative effect of all shRNAs to that gene compared to effects of other shRNAs in this screen .
+194							False discovery rates ( FDRs ) for significant enrichment are listed below the graph ; FDRs for SCC cell specific reduced proliferation are shown in plain text and for control cell specific reduced proliferation in italics .
+195							All results were normalized against the effects of control shRNAs ( shGFP , shLacZ ) in each cell line .
+196							B ) Anti-Sox2 and control anti-vinculin immunoblots of lysates from established tumor cell lines stably expressing shRNA targeting SOX2 ( shSOX2a or shSOX2b ) or shRNA specific for green fluorescent protein ( shGFP ) .
+197							HCC95 and NCI-H520 are lung SCC lines ; TT and TE10 are esophageal SCC cell lines ; and NCI-H1437 and NCI-H1355 are lung adenocarcinoma cell lines used as controls .
+198							C ) Effect of SOX2 specific shRNA on viable cell numbers over time .
+199							Cells were measured at 24 , 72 and 96 hours after plating and corrected to equalize 24-hr values .
+200							Mean cell viabilities ( + /- standard deviations of cell plated in quadruplicate ) are plotted as percentage of 24-hour measurement at 24 , 72 and 96 hours after plating .
+201							( Note , due to low standard deviations of some measurements , error bars are not visible for all data points . )
+202							Significance levels are indicated with * marking p < 0.05 , ** for p < 0.01 and *** for p < 0.001 .
+203							D ) Soft agar colony formation for HCC95 and NCI-H520 and control NCI-H1437 cells expressing SOX2 shRNA is shown relative to shGFP ( + /- standard deviation ) with p-values marked as above .
+204							E ) Soft agar colony formation for HCC95 cells engineered with ectopic expression of GFP , SOX2 or SOX2 R74P followed by infection with shSOX2b or shGFP .
+205							Data are shown relative to shGFP in HCC95-GFP cells ( + /- standard deviation ) with p-values marked as above .
+206							Immunoblots for Sox2 and vinculin are shown .
+207							Figure 3
+208							SOX2 can transform FOXE1- or FGFR2IIIb expressing immortalized tracheobronchial epithelial cells
+209							A ) Soft agar colony formation for AALE tracheobronchial epithelial cells expressing either SOX2 , FOXE1 or the combination of factors .
+210							Graph shows number of colonies ( + /- standard deviation of experiment ) with p-values labeled with asterisks as in .
+211							Also pictured are representative soft-agar images and immunoblots showing expression of Sox2 and FoxE1 .
+212							B ) Soft agar colony formation data ( + /- standard deviations ) , immunoblots and representative soft-agar images from co-transformation assays in AALE cells with SOX2 and FGFR2 IIIb and FGFR2 IIIc ectopic expression .
+213							Figure 4
+214							SOX2 induces expression of markers of both pluripotency and squamous differentiation
+215							A ) The percentages of lung SCC tumors showing over-expression of each of nine gene sets that are characteristically induced in ES cells are shown for samples with and without elevated SOX2 expression .
+216							Gene sets for which the FDR corrected hypergeometric enrichment P-value for the differences in over-expression in cases with and without SOX2 over-expression are marked as in .
+217							B ) Quantitative RT-PCR for mRNA expression of squamous markers TP63 and KRT6A in NCI-H2009 cells with ectopic SOX2 compared to ectopic GFP with asterisks indicating p-values .
