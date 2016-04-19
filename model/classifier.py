@@ -16,9 +16,6 @@ np.random.seed(0)
 def createFeatures(datum, otherData, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
 
-    # if datum.ctx[0].upper() == '4':
-    #     print datum.ctx
-
     def sectionType(section):
         ''' Returns a string identifying the section type '''
         section = section.lower()
@@ -93,6 +90,16 @@ def machineLearning(X, y, fnames, clusters, eval_type=EVAL1):
     print "Accuracy: %.2f\n" % accuracy
     print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
 
+    # Return a list of tuples (Index in the data list, error type) for debuging
+    errors = []
+    for ix, predicted, real in zip(xrange(len(y)), predictions, y):
+        if predicted == 1 and real == 0:
+            errors.append((ix, 'FP'))
+        elif predicted == 0 and real == 1:
+            errors.append((ix, 'FN'))
+
+    return errors
+
 
 def lkocv(predictor, X, y, k, clusters):
     ''' Does LKO-CV over the data and returns predictions '''
@@ -117,10 +124,11 @@ def lkocv(predictor, X, y, k, clusters):
     return predictions, new_y, coef
 
 
-def main(paths, annDir, eval_type=EVAL1):
+def main(paths, annDir, eval_type=EVAL2):
     ''' Puts all together '''
 
     # Read everything
+    accumulated_data = []
     vectors = []
     labels = []
 
@@ -135,6 +143,7 @@ def main(paths, annDir, eval_type=EVAL1):
         data = extractData(tsv, path)
         annotationData = extractAnnotationData(pmcid, annDir)
         for ix, datum in enumerate(data):
+            accumulated_data.append(datum)
             vector = createFeatures(datum, data-{datum}, tsv, annotationData)
             vectors.append(vector)
             # Generate clusters for type 2 eval
@@ -142,6 +151,13 @@ def main(paths, annDir, eval_type=EVAL1):
 
         labels += [datum.label for datum in data]
         accumulator += len(data)
+
+    print "General classifier"
+    errors = pipeline(labels, vectors, hashes, eval_type)
+
+    return map(lambda e: (accumulated_data[e[0]], e[1]), errors)
+
+def pipeline(labels, vectors, hashes, eval_type):
 
     dv = DictVectorizer()
 
@@ -158,24 +174,26 @@ def main(paths, annDir, eval_type=EVAL1):
 
     fnames = dv.feature_names_
 
-    print "General classifier"
+
     print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
-    machineLearning(X, y, fnames, clusters)
+    errors = machineLearning(X, y, fnames, clusters)
     print
 
-    vSpecies = [dict(v) for v in vectors if v['ctxType'] == 'S']
-    lSpecies = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'S']
+    return errors
 
-    for v in vSpecies:
-        del v['ctxType']
-
-    dv = DictVectorizer()
-
-    X = dv.fit_transform(vSpecies)
-    y = np.asarray(lSpecies)
-
-    fnames = dv.feature_names_
+    # vSpecies = [dict(v) for v in vectors if v['ctxType'] == 'S']
+    # lSpecies = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'S']
+    #
+    # for v in vSpecies:
+    #     del v['ctxType']
+    #
+    # dv = DictVectorizer()
+    #
+    # X = dv.fit_transform(vSpecies)
+    # y = np.asarray(lSpecies)
+    #
+    # fnames = dv.feature_names_
 
     # print "Species classifier"
     # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
@@ -229,4 +247,4 @@ if __name__ == "__main__":
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    main(paths, annDir)
+    errors = main(paths, annDir)

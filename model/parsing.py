@@ -35,6 +35,18 @@ class Datum(object):
     def __repr__(self):
         return str(self)
 
+def saveErrors(errors, path):
+    ''' Save the classification errors to a csv file '''
+    labels = ['File', 'Line', 'EvtID', 'CtxID', 'EType']
+    rows = []
+    for err in errors:
+        datum, etype = err
+        rows.append([datum.namespace, datum.evtIx, datum.eid, datum.ctx, etype])
+
+    with open(path, 'w') as f:
+        writter = csv.writer(f)
+        writter.writerow(labels)
+        writter.writerows(rows)
 
 def extractData(tsv, name):
     ''' Reads a parsed TSV and yields a sequence of data
@@ -162,7 +174,6 @@ def parseTSV(path):
             rows.append(row)
 
     return rows
-
 
 def pandas(tsv, name):
     ''' Creates pandas data frames for rows '''
