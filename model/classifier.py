@@ -60,7 +60,7 @@ def createFeatures(datum, otherData, tsv, annotationData):
 
     return ret
 
-def machineLearning(X, y, fnames, clusters, eval_type=EVAL1):
+def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, crossvalidation):
     ''' Do the ML stuff
          - clusters is a variable that is used to implement type 2 eval:
            We only consider the set of unique refs per sentence, instead of multiple equivalent refs as in type 1
@@ -68,12 +68,28 @@ def machineLearning(X, y, fnames, clusters, eval_type=EVAL1):
 
     # Normalize the data in-place
     normalize(X, norm='l2', copy=False)
+    normalize(X_test, norm='l2', copy=False)
 
     # Use a logistic regression model. Has regularization with l2 norm, fits the intercept
     lr = LogisticRegression(penalty='l2', C=.1)
+    lr_test = LogisticRegression(penalty='l2', C=.1)
 
-    #predictions, y, coef = train_test(lr, X, y)
-    predictions, y, coef = lkocv(lr, X, y, X.shape[0]*.01, clusters) # Hold 1% of the data out each fold
+
+    if not crossvalidation:
+        lr_test.fit(X, y)
+        predictions = np.zeros(len(set(clusters_test.values())))
+        new_y = np.zeros(len(set(clusters_test.values())))
+
+        predicted = lr_test.predict(X_test)
+        coef = lr_test.coef_
+        for p, t, j in zip(predicted, y_test, xrange(X_test.shape[0])):
+            predictions[clusters_test[j]] = p
+            new_y[clusters_test[j]] = t
+        # TODO refactor this to avoid hiding the original y array
+        y = new_y
+    else:
+            predictions, y, coef = lkocv(lr, X, y, X.shape[0]*.01, clusters) # Hold 1% of the data out each fold
+
 
     if coef is not None:
         weigths = ["%s:%.3f std:%.3f" % (fn, c, s) for fn, c, s in zip(fnames, coef.mean(axis=0), coef.std(axis=0))]
@@ -123,18 +139,14 @@ def lkocv(predictor, X, y, k, clusters):
 
     return predictions, new_y, coef
 
-
-def main(paths, annDir, eval_type=EVAL2):
-    ''' Puts all together '''
+def parse_data(paths, annDir):
+    ''' Reads and process stuff '''
 
     # Read everything
     accumulated_data = []
     vectors = []
     labels = []
 
-    eFrames, cFrames = [], []
-
-    sentenceNumbers = {}
     hashes = {}
     accumulator = 0
     for path in paths:
@@ -152,24 +164,48 @@ def main(paths, annDir, eval_type=EVAL2):
         labels += [datum.label for datum in data]
         accumulator += len(data)
 
+    return labels, vectors, hashes, accumulated_data
+
+def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
+    ''' Puts all together '''
+
+    training_paths, testing_paths = [], []
+    for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
+        if pmcid in testingIds:
+            testing_paths.append(path)
+        else:
+            training_paths.append(path)
+
+    training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir)
+
     print "General classifier"
-    errors = pipeline(labels, vectors, hashes, eval_type)
+    errors = pipeline(training_labels, training_vectors, training_hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation)
 
-    return map(lambda e: (accumulated_data[e[0]], e[1]), errors)
+    return map(lambda e: (training_data[e[0]], e[1]), errors)
 
-def pipeline(labels, vectors, hashes, eval_type):
+def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation):
 
     dv = DictVectorizer()
+    dv.fit(vectors + testing_vectors)
 
-    X = dv.fit_transform(vectors)
+    X = dv.transform(vectors)
     y = np.asarray(labels)
+
+    X_test = dv.transform(testing_vectors)
+    y_test = np.asarray(testing_labels)
 
     if eval_type == EVAL1:
         clusters = {i:i for i in xrange(X.shape[0])}
+        testing_clusters = {i:i for i in xrange(X_test.shape[0])}
     else:
         # Type two eval indexes
         indexes = {h:ix for ix, h in enumerate(set(hashes.values()))}
         clusters = {i:indexes[hashes[i]] for i in xrange(X.shape[0])}
+
+        indexes_t = {h:ix for ix, h in enumerate(set(testing_hashes.values()))}
+        testing_clusters = {i:indexes_t[testing_hashes[i]] for i in xrange(X_test.shape[0])}
 
 
     fnames = dv.feature_names_
@@ -177,7 +213,7 @@ def pipeline(labels, vectors, hashes, eval_type):
 
     print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
-    errors = machineLearning(X, y, fnames, clusters)
+    errors = machineLearning(X, y, clusters, X_test, y_test, testing_clusters, fnames, crossvalidation)
     print
 
     return errors
@@ -244,7 +280,8 @@ def pipeline(labels, vectors, hashes, eval_type):
 if __name__ == "__main__":
     directory = sys.argv[1]
     annDir = sys.argv[2]
+    testing_ids = {s[:-1] for s in open(sys.argv[3])} if len(sys.argv) > 3 else set()
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    errors = main(paths, annDir)
+    errors = main(paths, annDir, testing_ids)
