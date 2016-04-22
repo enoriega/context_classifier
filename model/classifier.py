@@ -106,6 +106,29 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
     print "Accuracy: %.2f\n" % accuracy
     print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
 
+    # Print the classification ratios
+    tp, fp, tn, fn = 0, 0, 0, 0
+    for predicted, real in zip(predictions, y):
+        if real == 1:
+            if predicted == 1:
+                tp += 1
+            else:
+                fn += 1
+        else:
+            if predicted == 1:
+                fp += 1
+            else:
+                tn += 1
+
+    positives = predictions.sum()
+    negatives = y.shape[0] - positives
+
+    print
+    print "True positives ratio:\t%f" % (tp/positives)
+    print "False positives ratio:\t%f" % (fp/positives)
+    print "True negatives ratio:\t%f" % (tn/negatives)
+    print "False negatives ratio:\t%f" % (fn/negatives)
+
     # Return a list of tuples (Index in the data list, error type) for debuging
     errors = []
     for ix, predicted, real in zip(xrange(len(y)), predictions, y):
