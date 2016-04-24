@@ -5,6 +5,8 @@ import csv, glob, sys, os, itertools
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import itertools as it
+from random import shuffle
 from collections import defaultdict
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import normalize
@@ -13,6 +15,12 @@ from sklearn.feature_extraction import DictVectorizer
 
 EVAL1="ref"
 EVAL2="sentence"
+
+def get_pmcid(name):
+    ''' returns the pmcid out of a tsv file name '''
+    pmcid = name.split(os.path.sep)[-1].split('.')[0]
+
+    return pmcid
 
 class Datum(object):
     ''' Represents an event/candidate context mention pair '''
@@ -201,3 +209,51 @@ def pandas(tsv, name):
     # cLines = {c[0]:c[1] for c in context}
 
     return fEvents, fContext
+
+def powerset(iterable):
+    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+    s = list(iterable)
+    return it.chain.from_iterable(it.combinations(s, r) for r in range(35, len(s)+1))
+
+def split_dataset(directory, training_size, num_samples=1):
+    ''' Splits the dataset with proportion of 'training_size' "refs".
+        training_size should be > 0 and < 1
+        Returns two lists [[training_ids], [testing_ids]] '''
+
+    # Complete dataset
+    paths = glob.glob(os.path.join(directory, '*.tsv'))
+
+    # All pmc ids
+    ids = []
+
+    numrefs = {}
+    for path in paths:
+        pmcid = get_pmcid(path)
+        ids.append(pmcid)
+        tsv = parseTSV(path)
+        data = extractData(tsv, path)
+        # Count the number of positive examples
+        num = len([d for d in data if d.label == 1])
+        numrefs[pmcid] = num
+
+    # Make ids a set to support set operations
+    ids_set = set(ids)
+
+    total_refs = sum(numrefs.values())
+
+    # I'm going dumb with a brute force approach because the number or papers is small
+    # Generate the powerset of all the pmcids
+    ret = []
+
+    for x in xrange(num_samples):
+        shuffle(ids)
+        sizes = [numrefs[pmcid] for pmcid in ids]
+        for i in xrange(len(ids)):
+            size = sum(sizes[:i])/total_refs
+            if size >= training_size - .02 and size <= training_size + .02:
+                candidate = set(ids[:i])
+                ret.append((candidate, ids_set-candidate))
+                print size
+                break
+
+    return ret
