@@ -136,6 +136,10 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
             errors.append((ix, 'FP'))
         elif predicted == 0 and real == 1:
             errors.append((ix, 'FN'))
+        elif predicted == 1 and real == 1:
+            errors.append((ix, 'TP'))
+        elif predicted == 0 and real == 0:
+            errors.append((ix, 'TN'))
 
     return errors
 
@@ -189,7 +193,7 @@ def parse_data(paths, annDir):
 
     return labels, vectors, hashes, accumulated_data
 
-def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
+def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=True):
     ''' Puts all together '''
 
     training_paths, testing_paths = [], []

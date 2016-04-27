@@ -228,13 +228,18 @@ def split_dataset(directory, training_size, num_samples=1):
 
     numrefs = {}
     for path in paths:
+        counter = 0
         pmcid = get_pmcid(path)
         ids.append(pmcid)
         tsv = parseTSV(path)
         data = extractData(tsv, path)
         # Count the number of positive examples
-        num = len([d for d in data if d.label == 1])
-        numrefs[pmcid] = num
+        positive = [d for d in data if d.label == 1]
+        filtered = set()
+        for p in positive:
+            filtered.add(p.evtIx)
+
+        numrefs[pmcid] = len(filtered)
 
     # Make ids a set to support set operations
     ids_set = set(ids)
