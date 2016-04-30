@@ -49,11 +49,10 @@ def createFeatures(datum, otherData, tsv, annotationData):
         'sameSection':changes == 0,
         'ctxFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
-        'ctxType':datum.ctx[0].upper(),
-        'ctxSecitonType':sectionType(sections[datum.ctxIx]),
-        'evtSecitonType':sectionType(sections[datum.ctxIx]),
+        # 'ctxType':datum.ctx[0].upper(),
+        # 'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
         # 'ctxInTitle':titles[datum.ctxIx],
-        # 'ctxOfOtherEvt':len({d for d in otherData if d.ctx == datum.ctx}) > 0,
         'evtHasCitation':titles[datum.evtIx],
         'ctxHasCitation':titles[datum.ctxIx],
     }
@@ -71,8 +70,8 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
     normalize(X_test, norm='l2', copy=False)
 
     # Use a logistic regression model. Has regularization with l2 norm, fits the intercept
-    lr = LogisticRegression(penalty='l2', C=.1)
-    lr_test = LogisticRegression(penalty='l2', C=.1)
+    lr = LogisticRegression(penalty='l1', C=.1)
+    lr_test = LogisticRegression(penalty='l1', C=.1)
 
 
     if not crossvalidation:
@@ -169,6 +168,10 @@ def lkocv(predictor, X, y, k, clusters):
 def parse_data(paths, annDir):
     ''' Reads and process stuff '''
 
+    import ipdb; ipdb.set_trace()
+    # Set this to false to generate negative examples instead of reach context annotations
+    use_reach = True
+
     # Read everything
     accumulated_data = []
     vectors = []
@@ -179,8 +182,14 @@ def parse_data(paths, annDir):
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
-        data = extractData(tsv, path)
+        data = extractData(tsv, path, use_reach)
         annotationData = extractAnnotationData(pmcid, annDir)
+
+        if use_reach:
+            # We need negative examples
+            negatives = generateNegativesFromNER(data, annotationData)
+            data = set(list(data) + negatives)
+
         for ix, datum in enumerate(data):
             accumulated_data.append(datum)
             vector = createFeatures(datum, data-{datum}, tsv, annotationData)
@@ -193,7 +202,7 @@ def parse_data(paths, annDir):
 
     return labels, vectors, hashes, accumulated_data
 
-def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=True):
+def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
     ''' Puts all together '''
 
     training_paths, testing_paths = [], []

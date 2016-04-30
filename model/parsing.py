@@ -56,7 +56,7 @@ def saveErrors(errors, path):
         writter.writerow(labels)
         writter.writerows(rows)
 
-def extractData(tsv, name):
+def extractData(tsv, name, true_only=False):
     ''' Reads a parsed TSV and yields a sequence of data
      with positive and negative examples'''
 
@@ -108,6 +108,8 @@ def extractData(tsv, name):
 
     # Extract data points
     true, false = [], []
+
+
     added = set()
     for e in events:
         eid, line, ctx = e
@@ -126,18 +128,41 @@ def extractData(tsv, name):
 
             added.add((eid, ctx))
 
-            # Pick a negative example
-            ctx2s = getOtherContext(line, localContext)
+            if not true_only:
+                # Pick a negative example
+                ctx2s = getOtherContext(line, localContext)
 
-            if ctx2s is not None:
-                for ctx2 in ctx2s:
-                    try:
-                        cLine2 = cLines[ctx2]
-                        true.append(Datum(name, line, cLine2, ctx2, eid, 0))
-                    except e:
-                        print e
+                if ctx2s is not None:
+                    for ctx2 in ctx2s:
+                        try:
+                            cLine2 = cLines[ctx2]
+                            true.append(Datum(name, line, cLine2, ctx2, eid, 0))
+                        except e:
+                            print e
 
     return set(true+false)
+
+def generateNegativesFromNER(positives, annotationData):
+    ''' Generates all the negative examples out of the annotation data '''
+    mentions = annotationData['mentions']
+
+    # Generate a context label for contex
+    alternatives = {}
+    offset = 9000
+    for k, v in enumerate(mentions):
+        for i in v:
+            alternatives['S%i' % offset] = k
+            offset += 1
+
+
+    negatives = []
+    for datum in positives:
+        for alternative, ix in alternatives.iteritems():
+            if datum.ctxIx != ix:
+                new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative, datum.eid, 0)
+                negatives.append(new_datum)
+    
+    return negatives
 
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
@@ -156,10 +181,25 @@ def extractAnnotationData(pmcid, annDir):
     with open(fcitations) as f:
         citations = [bool(l[:-1]) for l in f]
 
+    fmentions = os.path.join(pdir, 'mention_intervals.txt')
+    with open(fmentions) as f:
+        indices = defaultdict(list)
+        for line in f:
+            tokens = line.split()
+            ix = int(tokens[0])
+            intervals = []
+            for t in tokens[1:]:
+                x = t.split('-')
+                intervals.append((int(x[0]), int(x[1])))
+            indices[ix] += intervals
+
+        mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
+
     return {
         'sections':sections,
         'titles':titles,
-        'citations':citations
+        'citations':citations,
+        'mentions':mentions
     }
 
 def parseTSV(path):
@@ -209,11 +249,6 @@ def pandas(tsv, name):
     # cLines = {c[0]:c[1] for c in context}
 
     return fEvents, fContext
-
-def powerset(iterable):
-    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
-    s = list(iterable)
-    return it.chain.from_iterable(it.combinations(s, r) for r in range(35, len(s)+1))
 
 def split_dataset(directory, training_size, num_samples=1):
     ''' Splits the dataset with proportion of 'training_size' "refs".
