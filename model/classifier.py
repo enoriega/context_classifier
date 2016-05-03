@@ -1,5 +1,5 @@
 from __future__ import division
-import csv, glob, sys, os, itertools
+import csv, glob, sys, os, itertools, copy
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,10 +10,11 @@ from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
 from parsing import *
 from model import *
+from unbalanced_dataset import *
 
 np.random.seed(0)
 
-def createFeatures(datum, otherData, tsv, annotationData):
+def createFeatures(datum, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
 
     def sectionType(section):
@@ -48,7 +49,7 @@ def createFeatures(datum, otherData, tsv, annotationData):
         'distance':float(abs(datum.evtIx - datum.ctxIx))/len(tsv),
         'sameSection':changes == 0,
         'ctxFirst':(datum.evtIx < datum.ctxIx),
-        'sameLine':(datum.evtIx == datum.ctxIx),
+        # 'sameLine':(datum.evtIx == datum.ctxIx),
         # 'ctxType':datum.ctx[0].upper(),
         # 'ctxSecitonType':sectionType(sections[datum.ctxIx]),
         # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
@@ -70,12 +71,28 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
     normalize(X_test, norm='l2', copy=False)
 
     # Use a logistic regression model. Has regularization with l2 norm, fits the intercept
-    lr = LogisticRegression(penalty='l1', C=.1)
-    lr_test = LogisticRegression(penalty='l1', C=.1)
+    lr = LogisticRegression(penalty='l2', C=.1)
+    lr_test = LogisticRegression(penalty='l2', C=.1)
 
+    verbose = False
+    ratio = float(np.count_nonzero(y==0)) / float(np.count_nonzero(y==1))
+
+    # smote = SMOTE(ratio=ratio, verbose=verbose, kind='regular')
+    # smote = SMOTETomek(ratio=ratio, verbose=verbose)
+    # smote = UnderSampler(verbose=verbose)
+    # smote = TomekLinks(verbose=verbose)
+    # smote = ClusterCentroids(verbose=verbose)
+    # smote = NearMiss(version=1, verbose=verbose)
+    # smote = NearMiss(version=2, verbose=verbose)
+    # smote = NearMiss(version=3, verbose=verbose)
+    # smote = NeighbourhoodCleaningRule(size_ngh=51, verbose=verbose)
+    # smox, smoy = smote.fit_transform(X.todense(), y)
+    smox, smoy = X, y
+
+    print "Training class sizes: Is Context: %i\t Isn't Context: %s" % (smoy.sum(), smoy.shape[0]-smoy.sum())
 
     if not crossvalidation:
-        lr_test.fit(X, y)
+        lr_test.fit(smox, smoy)
         predictions = np.zeros(len(set(clusters_test.values())))
         new_y = np.zeros(len(set(clusters_test.values())))
 
@@ -87,7 +104,7 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
         # TODO refactor this to avoid hiding the original y array
         y = new_y
     else:
-            predictions, y, coef = lkocv(lr, X, y, X.shape[0]*.01, clusters) # Hold 1% of the data out each fold
+            predictions, y, coef = lkocv(lr, smox, smoy, smox.shape[0]*.01, clusters) # Hold 1% of the data out each fold
 
 
     if coef is not None:
@@ -165,12 +182,22 @@ def lkocv(predictor, X, y, k, clusters):
 
     return predictions, new_y, coef
 
-def parse_data(paths, annDir):
+def parse_data(paths, annDir, testing=False):
     ''' Reads and process stuff '''
 
-    import ipdb; ipdb.set_trace()
     # Set this to false to generate negative examples instead of reach context annotations
     use_reach = True
+
+    def copy_positives(data, factor, randomize = False):
+        ''' Creates an augmented copy of data by factor factor '''
+        ret = []
+        # if not randomize:
+        for i in range(factor):
+            ret += copy.deepcopy(data)
+        # else:
+        #     combinations = list(it.combinations_with)
+
+        return ret
 
     # Read everything
     accumulated_data = []
@@ -179,26 +206,44 @@ def parse_data(paths, annDir):
 
     hashes = {}
     accumulator = 0
+    pos, neg = 0, 0
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
         data = extractData(tsv, path, use_reach)
         annotationData = extractAnnotationData(pmcid, annDir)
+        augmented = data
 
         if use_reach:
             # We need negative examples
             negatives = generateNegativesFromNER(data, annotationData)
-            data = set(list(data) + negatives)
 
-        for ix, datum in enumerate(data):
+            if len(negatives) > 0:
+                # Randomly pick a subset of negatives
+                # size = len(data)*4
+                size = len(negatives)
+                if not testing:
+                    data = copy_positives(data, len(negatives)//len(data))
+                negatives = np.random.choice(negatives, size=size if size <= len(negatives) else len(negatives), replace=False)
+                augmented = data + list(negatives)
+            pos += len(data)
+            neg += len(negatives)
+            print '%s Positives:%i Negatives:%i Total:%i' % (pmcid, len(data), len(negatives), len(data)+len(negatives))
+
+
+        for ix, datum in enumerate(augmented):
             accumulated_data.append(datum)
-            vector = createFeatures(datum, data-{datum}, tsv, annotationData)
+            vector = createFeatures(datum, tsv, annotationData)
             vectors.append(vector)
             # Generate clusters for type 2 eval
             hashes[accumulator+ix] = hash(datum)
 
-        labels += [datum.label for datum in data]
-        accumulator += len(data)
+        labels += [datum.label for datum in augmented]
+        accumulator += len(augmented)
+
+    print
+    print 'Positives: %i Negatives:%i Total:%i' % (pos, neg, pos + neg)
+    print
 
     return labels, vectors, hashes, accumulated_data
 
@@ -213,8 +258,9 @@ def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
         else:
             training_paths.append(path)
 
+
     training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
-    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, testing=True)
 
     print "General classifier"
     errors = pipeline(training_labels, training_vectors, training_hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation)

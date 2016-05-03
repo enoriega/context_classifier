@@ -140,7 +140,7 @@ def extractData(tsv, name, true_only=False):
                         except e:
                             print e
 
-    return set(true+false)
+    return true+false
 
 def generateNegativesFromNER(positives, annotationData):
     ''' Generates all the negative examples out of the annotation data '''
@@ -161,9 +161,11 @@ def generateNegativesFromNER(positives, annotationData):
             if datum.ctxIx != ix:
                 new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative, datum.eid, 0)
                 negatives.append(new_datum)
-    
+
     return negatives
 
+not_permited_context = {'go', 'uniprot'}
+not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast'}
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
 
@@ -182,16 +184,42 @@ def extractAnnotationData(pmcid, annDir):
         citations = [bool(l[:-1]) for l in f]
 
     fmentions = os.path.join(pdir, 'mention_intervals.txt')
+
     with open(fmentions) as f:
         indices = defaultdict(list)
         for line in f:
-            tokens = line.split()
+            line = line[:-1]
+            tokens = [t for t in line.split(' ') if t != '']
             ix = int(tokens[0])
             intervals = []
             for t in tokens[1:]:
                 x = t.split('-')
-                intervals.append((int(x[0]), int(x[1])))
-            indices[ix] += intervals
+                grounding_id = x[3].split(':')[0]
+                #if len(x) >= 4: # Hack to handle absence of nsID (reach grounding bug)
+                word = x[2].lower()
+                if grounding_id not in not_permited_context and word not in not_permited_words:
+                    intervals.append((int(x[0]), int(x[1])))
+
+            # Merge succesive intervals
+            merged = []
+            if len(intervals) > 0:
+                prev = intervals[0]
+                for curr in intervals[1:]:
+                    if prev[1] == curr[0]:
+                        x = (prev[0], curr[1])
+                        merged.append(x)
+                        prev = x
+                    else:
+                        merged.append(prev)
+                        merged.append(curr)
+                        prev = curr
+
+            # Pick only one interval per line
+            # if len(merged) > 1:
+            #     merged = [merged[0]]
+            indices[ix] += merged
+
+
 
         mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
 
@@ -201,6 +229,58 @@ def extractAnnotationData(pmcid, annDir):
         'citations':citations,
         'mentions':mentions
     }
+
+
+
+def annotationStats(paths, annotationsDir):
+
+    rows = []
+
+    for p in paths:
+        pid = get_pmcid(p)
+        row = {}
+        row['id'] = pid
+        mentions = mentionCounts(os.path.join(annotationsDir, pid, 'mention_intervals.txt'))
+        row['mentions'] = mentions.shape[0]
+        row['species_mentions'] = mentions[mentions['type'] == 'Species'].shape[0]
+        row['ct_mentions'] = mentions[mentions['type'] == 'CT'].shape[0]
+        row['cl_mentions'] = mentions[mentions['type'] == 'CL'].shape[0]
+        row['org_mentions'] = mentions[mentions['type'] == 'ORG'].shape[0]
+        tsv = parseTSV(p)
+        annotations = [d for d in extractData(tsv, p, False) if d.label == 1]
+        row['refs'] = len(annotations)
+        row['ctx_annotations'] = len({a.ctx for a in annotations})
+        row['evt_annotations'] = len({a.eid for a in annotations})
+        rows.append(row)
+
+    return pd.DataFrame(rows).set_index('id')
+
+def mentionCounts(path):
+    def ctxType(s):
+        if "taxonomy" in s:
+            return "Species"
+        elif "ua-ct" in s:
+            return "CT"
+        elif "org" in s:
+            return "ORG"
+        elif "ua-cl" in s:
+            return "CL"
+
+    mentions = []
+    with open(path) as f:
+        for line in f:
+            line = line[:-1].lower()
+            ix, intervals = line.split(' ', 1)
+            intervals = [i for i in intervals.split(' ') if i != '']
+
+            for interval in intervals:
+                start, end, word, ctxid = interval.split('-', 3)
+                t = ctxType(ctxid)
+                if t is not None and word not in not_permited_words:
+                    mentions.append({'type':t})
+
+    ret = pd.DataFrame(mentions)
+    return ret
 
 def parseTSV(path):
     ''' Parses a tsv file '''
