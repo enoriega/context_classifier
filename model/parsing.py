@@ -151,16 +151,31 @@ def generateNegativesFromNER(positives, annotationData):
     offset = 9000
     for k, v in enumerate(mentions):
         for i in v:
-            alternatives['S%i' % offset] = k
+            start, end, cid = i
+            # Figure out the context type
+            if 'UA-ORG' in cid:
+                ctype = 'T'
+            elif 'UA-CLine' in cid:
+                ctype = 'C'
+            elif 'taxonomy' in cid:
+                ctype = 'S'
+            elif 'UA-CT' in cid:
+                ctype = 'C'
+            else:
+                print cid
+                ctype = 'C'
+
+            alternatives['%s%i' % (ctype, offset)] = k
             offset += 1
 
 
     negatives = []
     for datum in positives:
         for alternative, ix in alternatives.iteritems():
-            if datum.ctxIx != ix:
+            if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
                 new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative, datum.eid, 0)
                 negatives.append(new_datum)
+
 
     return negatives
 
@@ -168,6 +183,9 @@ not_permited_context = {'go', 'uniprot'}
 not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast'}
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
+
+    def parseBoolean(s):
+        return True if s == 'true' else False
 
     pdir = os.path.join(annDir, pmcid)
 
@@ -177,11 +195,15 @@ def extractAnnotationData(pmcid, annDir):
 
     ftitles = os.path.join(pdir, 'titles.txt')
     with open(ftitles) as f:
-        titles = [bool(l[:-1]) for l in f]
+        titles = [parseBoolean(l[:-1]) for l in f]
 
     fcitations = os.path.join(pdir, 'citations.txt')
     with open(fcitations) as f:
-        citations = [bool(l[:-1]) for l in f]
+        citations = [parseBoolean(l[:-1]) for l in f]
+
+    fdocnums = os.path.join(pdir, 'docnums.txt')
+    with open(fdocnums) as f:
+        docnums = [int(l[:-1]) for l in f]
 
     fmentions = os.path.join(pdir, 'mention_intervals.txt')
 
@@ -193,12 +215,12 @@ def extractAnnotationData(pmcid, annDir):
             ix = int(tokens[0])
             intervals = []
             for t in tokens[1:]:
-                x = t.split('-')
+                x = t.split('-', 3)
                 grounding_id = x[3].split(':')[0]
                 #if len(x) >= 4: # Hack to handle absence of nsID (reach grounding bug)
                 word = x[2].lower()
                 if grounding_id not in not_permited_context and word not in not_permited_words:
-                    intervals.append((int(x[0]), int(x[1])))
+                    intervals.append((int(x[0]), int(x[1]), x[3]))
 
             # Merge succesive intervals
             merged = []
@@ -227,7 +249,8 @@ def extractAnnotationData(pmcid, annDir):
         'sections':sections,
         'titles':titles,
         'citations':citations,
-        'mentions':mentions
+        'mentions':mentions,
+        'docnums':docnums
     }
 
 

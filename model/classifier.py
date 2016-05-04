@@ -4,7 +4,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import *
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import *
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
@@ -35,6 +37,9 @@ def createFeatures(datum, tsv, annotationData):
     # Distance in sections
     sections = annotationData['sections']
     titles = annotationData['titles']
+    citations = annotationData['citations']
+    docnums = annotationData['docnums']
+
 
     secSlice = sections[datum.evtIx:datum.ctxIx+1]
     changes = 0
@@ -44,21 +49,38 @@ def createFeatures(datum, tsv, annotationData):
             if currSec != s:
                 changes += 1
                 currSec = s
+
+    # Distance in "paragraphs" (number of docs)
+    distanceDocs = abs(docnums[datum.ctxIx] - docnums[datum.evtIx])
+
     # Location relative
-    ret = {
-        'distance':float(abs(datum.evtIx - datum.ctxIx))/len(tsv),
+    features = {
+        'distance':abs(datum.evtIx - datum.ctxIx),
+        'distanceDocs':distanceDocs,
         'sameSection':changes == 0,
         'ctxFirst':(datum.evtIx < datum.ctxIx),
-        # 'sameLine':(datum.evtIx == datum.ctxIx),
+        'sameLine':(datum.evtIx == datum.ctxIx),
         # 'ctxType':datum.ctx[0].upper(),
-        # 'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        'ctxSecitonType':sectionType(sections[datum.ctxIx]),
         # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
-        # 'ctxInTitle':titles[datum.ctxIx],
-        'evtHasCitation':titles[datum.evtIx],
-        'ctxHasCitation':titles[datum.ctxIx],
+        'ctxInTitle':titles[datum.ctxIx],
+        # 'evtHasCitation':citations[datum.evtIx],
+        'ctxHasCitation':citations[datum.ctxIx],
     }
 
+    # ret = features
+    ret = feda(datum.ctx[0].upper(), features)
     return ret
+
+# Frustratingly easy domain adaptation
+def feda(ctype, features):
+    new_dict = {}
+    for k, v in features.iteritems():
+        new_dict[k] = v
+        new_dict['%s_%s' % (ctype, k)] = v
+
+    return new_dict
+
 
 def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, crossvalidation):
     ''' Do the ML stuff
@@ -71,13 +93,19 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
     normalize(X_test, norm='l2', copy=False)
 
     # Use a logistic regression model. Has regularization with l2 norm, fits the intercept
-    lr = LogisticRegression(penalty='l2', C=.1)
-    lr_test = LogisticRegression(penalty='l2', C=.1)
+    # lr = RandomForestClassifier(max_depth=10)
+    # lr_test = RandomForestClassifier(max_depth=10)
+    # lr = LogisticRegression(penalty='l2', C=10)
+    # lr_test = LogisticRegression(penalty='l2', C=10)
+    # lr = SVC(kernel='sigmoid')
+    # lr_test = SVC(kernel='sigmoid')
+    lr = Perceptron(penalty='l2')
+    lr_test = Perceptron(penalty='l2')
 
     verbose = False
     ratio = float(np.count_nonzero(y==0)) / float(np.count_nonzero(y==1))
 
-    # smote = SMOTE(ratio=ratio, verbose=verbose, kind='regular')
+    smote = SMOTE(ratio=ratio, verbose=verbose, kind='regular')
     # smote = SMOTETomek(ratio=ratio, verbose=verbose)
     # smote = UnderSampler(verbose=verbose)
     # smote = TomekLinks(verbose=verbose)
@@ -97,7 +125,11 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
         new_y = np.zeros(len(set(clusters_test.values())))
 
         predicted = lr_test.predict(X_test)
-        coef = lr_test.coef_
+        try:
+            coef = lr_test.coef_
+        except:
+            coef = None
+
         for p, t, j in zip(predicted, y_test, xrange(X_test.shape[0])):
             predictions[clusters_test[j]] = p
             new_y[clusters_test[j]] = t
@@ -194,8 +226,6 @@ def parse_data(paths, annDir, testing=False):
         # if not randomize:
         for i in range(factor):
             ret += copy.deepcopy(data)
-        # else:
-        #     combinations = list(it.combinations_with)
 
         return ret
 
@@ -220,10 +250,14 @@ def parse_data(paths, annDir, testing=False):
 
             if len(negatives) > 0:
                 # Randomly pick a subset of negatives
-                # size = len(data)*4
-                size = len(negatives)
                 if not testing:
-                    data = copy_positives(data, len(negatives)//len(data))
+                    size = len(negatives)/2.
+                else:
+                    size = len(negatives)
+                # data = copy_positives(data, len(negatives)//len(data))
+                # else:
+                #     size = len(negatives)
+
                 negatives = np.random.choice(negatives, size=size if size <= len(negatives) else len(negatives), replace=False)
                 augmented = data + list(negatives)
             pos += len(data)
@@ -247,7 +281,50 @@ def parse_data(paths, annDir, testing=False):
 
     return labels, vectors, hashes, accumulated_data
 
-def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
+def baseline(paths, annDir, testingIds, eval_type, k=3):
+
+    def policy(datum, k):
+        if abs(datum.ctxIx-datum.evtIx) <= k:
+            return 1
+        else:
+            return 0
+
+    training_paths, testing_paths = [], []
+    for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
+        if pmcid in testingIds:
+            testing_paths.append(path)
+        else:
+            training_paths.append(path)
+
+    # training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, testing=True)
+
+    filtered_data, included = [], set()
+    import ipdb; ipdb.set_trace()
+    for datum in testing_data:
+        if eval_type == EVAL1:
+            filtered_data.append(datum)
+        else:
+            k = datum.evtIx
+            if not k in included:
+                included.add(k)
+                filtered_data.append(datum)
+
+    predictions = [policy(d, k) for d in filtered_data]
+    y = [d.label for d in filtered_data]
+
+    print "Baseline policy"
+    labels = ["Isn't context", "Is context"]
+    accuracy = metrics.accuracy_score(y, predictions)
+    report = metrics.classification_report(y, predictions, target_names=labels)
+    confusion = metrics.confusion_matrix(y, predictions)
+
+    print report
+    print "Accuracy: %.2f\n" % accuracy
+    print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
+
+def main(paths, annDir, testingIds, eval_type, crossvalidation):
     ''' Puts all together '''
 
     training_paths, testing_paths = [], []
@@ -262,10 +339,38 @@ def main(paths, annDir, testingIds, eval_type=EVAL2, crossvalidation=False):
     training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
     testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, testing=True)
 
+
     print "General classifier"
     errors = pipeline(training_labels, training_vectors, training_hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation)
 
-    return map(lambda e: (training_data[e[0]], e[1]), errors)
+    a = training_data if crossvalidation else testing_data
+    #return map(lambda e: (a[e[0]], e[1]), errors)
+    return error_frame(map(lambda e: (a[e[0]], e[1]), errors), training_paths, annDir)
+
+def error_frame(errors, training_paths, annDir):
+
+    tsvs, annotationData = {}, {}
+    for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
+        tsv = parseTSV(path)
+        aData = extractAnnotationData(pmcid, annDir)
+        tsvs[path] = tsv
+        annotationData[path] = aData
+
+    rows = []
+    for e in errors:
+        features = createFeatures(e[0],tsvs[e[0].namespace], annotationData[e[0].namespace])
+        features['point'] = e[0]
+        features['etype'] = e[1]
+
+        for k in features.keys():
+            if k[1] == '_':
+                del features[k]
+
+        rows.append(features)
+
+    return pd.DataFrame(rows)
+
 
 def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation):
 
@@ -300,63 +405,6 @@ def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_h
 
     return errors
 
-    # vSpecies = [dict(v) for v in vectors if v['ctxType'] == 'S']
-    # lSpecies = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'S']
-    #
-    # for v in vSpecies:
-    #     del v['ctxType']
-    #
-    # dv = DictVectorizer()
-    #
-    # X = dv.fit_transform(vSpecies)
-    # y = np.asarray(lSpecies)
-    #
-    # fnames = dv.feature_names_
-
-    # print "Species classifier"
-    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # # Train and test a classifier
-    # machineLearning(X, y, fnames)
-    # print
-    #
-    # vCells = [dict(v) for v in vectors if v['ctxType'] == 'C']
-    # lCells = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'C']
-    #
-    # for v in vCells:
-    #     del v['ctxType']
-    #
-    # dv = DictVectorizer()
-    #
-    # X = dv.fit_transform(vCells)
-    # y = np.asarray(lCells)
-    #
-    # fnames = dv.feature_names_
-    #
-    # print "Cell classifier"
-    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # # Train and test a classifier
-    # machineLearning(X, y, fnames)
-    # print
-    #
-    # vTissue = [dict(v) for v in vectors if v['ctxType'] == 'T']
-    # lTissue = [label for label, v in zip(labels, vectors) if v['ctxType'] == 'T']
-    #
-    # for v in vTissue:
-    #     del v['ctxType']
-    #
-    # dv = DictVectorizer()
-    #
-    # X = dv.fit_transform(vTissue)
-    # y = np.asarray(lTissue)
-    #
-    # fnames = dv.feature_names_
-    #
-    # print "Tissue classifier"
-    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
-    # # Train and test a classifier
-    # machineLearning(X, y, fnames)
-    # print
-
 
 # Entry point
 if __name__ == "__main__":
@@ -366,4 +414,6 @@ if __name__ == "__main__":
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    errors = main(paths, annDir, testing_ids)
+    ev = EVAL1
+    errors = main(paths, annDir, testing_ids, eval_type=ev, crossvalidation=False)
+    # baseline(paths, annDir, testing_ids, k=3, eval_type=ev)
