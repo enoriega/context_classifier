@@ -12,6 +12,7 @@ from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
 from parsing import *
 from model import *
+from scipy.stats import bernoulli
 from unbalanced_dataset import *
 
 np.random.seed(0)
@@ -58,7 +59,7 @@ def createFeatures(datum, tsv, annotationData):
         'distance':abs(datum.evtIx - datum.ctxIx),
         'distanceDocs':distanceDocs,
         'sameSection':changes == 0,
-        'ctxFirst':(datum.evtIx < datum.ctxIx),
+        'evtFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
         # 'ctxType':datum.ctx[0].upper(),
         'ctxSecitonType':sectionType(sections[datum.ctxIx]),
@@ -66,6 +67,8 @@ def createFeatures(datum, tsv, annotationData):
         'ctxInTitle':titles[datum.ctxIx],
         # 'evtHasCitation':citations[datum.evtIx],
         'ctxHasCitation':citations[datum.ctxIx],
+        # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
+        # 'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx]
     }
 
     # ret = features
@@ -139,11 +142,11 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
             predictions, y, coef = lkocv(lr, smox, smoy, smox.shape[0]*.01, clusters) # Hold 1% of the data out each fold
 
 
-    if coef is not None:
-        weigths = ["%s:%.3f std:%.3f" % (fn, c, s) for fn, c, s in zip(fnames, coef.mean(axis=0), coef.std(axis=0))]
-        print
-        print "Logistic regression coeficients:\n%s" % "\n".join(weigths)
-        print
+    # if coef is not None:
+    #     weigths = ["%s:%.3f std:%.3f" % (fn, c, s) for fn, c, s in zip(fnames, coef.mean(axis=0), coef.std(axis=0))]
+    #     print
+    #     print "Logistic regression coeficients:\n%s" % "\n".join(weigths)
+    #     print
 
     labels = ["Isn't context", "Is context"]
     accuracy = metrics.accuracy_score(y, predictions)
@@ -214,11 +217,10 @@ def lkocv(predictor, X, y, k, clusters):
 
     return predictions, new_y, coef
 
-def parse_data(paths, annDir, testing=False):
+def parse_data(paths, annDir, use_reach, testing=False):
     ''' Reads and process stuff '''
 
     # Set this to false to generate negative examples instead of reach context annotations
-    use_reach = True
 
     def copy_positives(data, factor, randomize = False):
         ''' Creates an augmented copy of data by factor factor '''
@@ -251,10 +253,11 @@ def parse_data(paths, annDir, testing=False):
             if len(negatives) > 0:
                 # Randomly pick a subset of negatives
                 if not testing:
-                    size = len(negatives)/2.
+                    size = len(negatives)
+                    # data = copy_positives(data, len(negatives)//len(data))
                 else:
                     size = len(negatives)
-                # data = copy_positives(data, len(negatives)//len(data))
+
                 # else:
                 #     size = len(negatives)
 
@@ -262,7 +265,7 @@ def parse_data(paths, annDir, testing=False):
                 augmented = data + list(negatives)
             pos += len(data)
             neg += len(negatives)
-            print '%s Positives:%i Negatives:%i Total:%i' % (pmcid, len(data), len(negatives), len(data)+len(negatives))
+            # print '%s Positives:%i Negatives:%i Total:%i' % (pmcid, len(data), len(negatives), len(data)+len(negatives))
 
 
         for ix, datum in enumerate(augmented):
@@ -276,12 +279,49 @@ def parse_data(paths, annDir, testing=False):
         accumulator += len(augmented)
 
     print
-    print 'Positives: %i Negatives:%i Total:%i' % (pos, neg, pos + neg)
+    # print 'Positives: %i Negatives:%i Total:%i' % (pos, neg, pos + neg)
     print
 
     return labels, vectors, hashes, accumulated_data
 
-def baseline(paths, annDir, testingIds, eval_type, k=3):
+def random(paths, annDir, testingIds, eval_type, use_reach):
+    training_paths, testing_paths = [], []
+    for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
+        if pmcid in testingIds:
+            testing_paths.append(path)
+        else:
+            training_paths.append(path)
+
+    # training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, use_reach, testing=True)
+
+    filtered_data, included = [], set()
+
+    for datum in testing_data:
+        if eval_type == EVAL1:
+            filtered_data.append(datum)
+        else:
+            k = (datum.namespace, datum.evtIx, datum.ctxIx)
+            if not k in included:
+                included.add(k)
+                filtered_data.append(datum)
+
+    rv = bernoulli(1/50.)
+    predictions = rv.rvs(size=len(filtered_data))
+    y = [d.label for d in filtered_data]
+
+    print "Random choice (Bernoulli p=.5)"
+    labels = ["Isn't context", "Is context"]
+    accuracy = metrics.accuracy_score(y, predictions)
+    report = metrics.classification_report(y, predictions, target_names=labels)
+    confusion = metrics.confusion_matrix(y, predictions)
+
+    print report
+    print "Accuracy: %.2f\n" % accuracy
+    print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
+
+def baseline(paths, annDir, testingIds, k, eval_type, use_reach):
 
     def policy(datum, k):
         if abs(datum.ctxIx-datum.evtIx) <= k:
@@ -298,15 +338,15 @@ def baseline(paths, annDir, testingIds, eval_type, k=3):
             training_paths.append(path)
 
     # training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
-    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, testing=True)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, use_reach, testing=True)
 
     filtered_data, included = [], set()
-    import ipdb; ipdb.set_trace()
+
     for datum in testing_data:
         if eval_type == EVAL1:
             filtered_data.append(datum)
         else:
-            k = datum.evtIx
+            k = (datum.namespace, datum.evtIx, datum.ctxIx)
             if not k in included:
                 included.add(k)
                 filtered_data.append(datum)
@@ -324,7 +364,7 @@ def baseline(paths, annDir, testingIds, eval_type, k=3):
     print "Accuracy: %.2f\n" % accuracy
     print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
 
-def main(paths, annDir, testingIds, eval_type, crossvalidation):
+def main(paths, annDir, testingIds, eval_type, crossvalidation, use_reach):
     ''' Puts all together '''
 
     training_paths, testing_paths = [], []
@@ -336,8 +376,8 @@ def main(paths, annDir, testingIds, eval_type, crossvalidation):
             training_paths.append(path)
 
 
-    training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir)
-    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, testing=True)
+    training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir, use_reach)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, use_reach, testing=True)
 
 
     print "General classifier"
@@ -359,9 +399,13 @@ def error_frame(errors, training_paths, annDir):
 
     rows = []
     for e in errors:
-        features = createFeatures(e[0],tsvs[e[0].namespace], annotationData[e[0].namespace])
+        tsv = tsvs[e[0].namespace]
+        aData = annotationData[e[0].namespace]
+        features = createFeatures(e[0], tsv, aData)
         features['point'] = e[0]
         features['etype'] = e[1]
+        features['tsv'] = tsv
+        features['annotationData'] = aData
 
         for k in features.keys():
             if k[1] == '_':
@@ -398,13 +442,53 @@ def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_h
     fnames = dv.feature_names_
 
 
-    print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
+    # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
     errors = machineLearning(X, y, clusters, X_test, y_test, testing_clusters, fnames, crossvalidation)
     print
 
     return errors
 
+def split_errors_by_type(errors):
+    tp = errors[errors.etype == 'TP']
+    fp = errors[errors.etype == 'FP']
+    tn = errors[errors.etype == 'TN']
+    fn = errors[errors.etype == 'FN']
+
+    return tp, fp, tn, fn
+
+def print_tsv_segment(element):
+
+    datum, tsv, annotationData = element.point, element.tsv, element.annotationData
+    points = (datum.evtIx, datum.ctxIx)
+    start, end = min(points), max(points)+1
+
+
+    sections, docnums = annotationData['sections'], annotationData['docnums']
+
+    print '%s %s %s' % (datum.namespace, datum.eid, datum.ctx)
+    if datum.evtIx <= datum.ctxIx:
+        print "EVENT ->"
+    else:
+        print "CONTEXT ->"
+
+    prev_docnum = None
+    for i in range(start, end):
+
+        text = tsv[i]['text']
+        section = sections[i]
+        docnum = docnums[i]
+
+        if prev_docnum is not None and prev_docnum != docnum:
+            print '_________________________________'
+
+        prev_docnum = docnum
+        print '%s: %s' % (section, text)
+
+    if datum.evtIx <= datum.ctxIx:
+        print "<- CONTEXT"
+    else:
+        print "<- EVENT"
 
 # Entry point
 if __name__ == "__main__":
@@ -414,6 +498,11 @@ if __name__ == "__main__":
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
+    use_reach = True
     ev = EVAL1
-    errors = main(paths, annDir, testing_ids, eval_type=ev, crossvalidation=False)
-    # baseline(paths, annDir, testing_ids, k=3, eval_type=ev)
+
+    if use_reach:
+        print "Using REACH's data"
+    errors = main(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach, crossvalidation=True)
+    # baseline(paths, annDir, testing_ids, k=7, eval_type=ev, use_reach = use_reach)
+    # random(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach)

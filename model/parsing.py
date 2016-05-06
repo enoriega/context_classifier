@@ -86,7 +86,7 @@ def extractData(tsv, name, true_only=False):
 
     sortedContext = [c[0] for c in sorted(context, key=lambda x: x[1])]
 
-    def getOtherContext(location, excluded, num=3):
+    def getOtherContext(location, excluded, num=100):
         ''' Pick randomly another context with a probability proportional to it's distance from pivot '''
 
         candidateContexts = [(k, abs(v-location)) for k, v in cLines.iteritems() if k not in excluded]
@@ -102,6 +102,16 @@ def extractData(tsv, name, true_only=False):
             #     if a.isdigit():
             #         print x
             return x
+        else:
+            return None
+
+    def getAllOtherContext(location, excluded):
+        ''' Pick all the other contexts from Xia's annotations '''
+
+        candidateContexts = [(k, abs(v-location)) for k, v in cLines.iteritems() if k not in excluded]
+        if len(candidateContexts) > 0:
+
+            return {c[0] for c in candidateContexts}
         else:
             return None
 
@@ -130,7 +140,8 @@ def extractData(tsv, name, true_only=False):
 
             if not true_only:
                 # Pick a negative example
-                ctx2s = getOtherContext(line, localContext)
+                # ctx2s = getOtherContext(line, localContext)
+                ctx2s = getAllOtherContext(line, localContext)
 
                 if ctx2s is not None:
                     for ctx2 in ctx2s:
