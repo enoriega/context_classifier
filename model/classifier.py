@@ -459,6 +459,8 @@ def split_errors_by_type(errors):
 
 def print_tsv_segment(element):
 
+    ret = []
+
     datum, tsv, annotationData = element.point, element.tsv, element.annotationData
     points = (datum.evtIx, datum.ctxIx)
     start, end = min(points), max(points)+1
@@ -468,9 +470,9 @@ def print_tsv_segment(element):
 
     print '%s %s %s' % (datum.namespace, datum.eid, datum.ctx)
     if datum.evtIx <= datum.ctxIx:
-        print "EVENT ->"
+        ret.append("EVENT ->")
     else:
-        print "CONTEXT ->"
+        ret.append("CONTEXT ->")
 
     prev_docnum = None
     for i in range(start, end):
@@ -480,15 +482,17 @@ def print_tsv_segment(element):
         docnum = docnums[i]
 
         if prev_docnum is not None and prev_docnum != docnum:
-            print '_________________________________'
+            ret.append('_________________________________')
 
         prev_docnum = docnum
-        print '%s: %s' % (section, text)
+        ret.append('%s: %s' % (section, text))
 
     if datum.evtIx <= datum.ctxIx:
-        print "<- CONTEXT"
+        ret.append("<- CONTEXT")
     else:
-        print "<- EVENT"
+        ret.append("<- EVENT")
+
+    return ret
 
 # Entry point
 if __name__ == "__main__":
