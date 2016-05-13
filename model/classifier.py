@@ -14,8 +14,15 @@ from parsing import *
 from model import *
 from scipy.stats import bernoulli
 from unbalanced_dataset import *
+from sklearn.metrics import f1_score
 
 np.random.seed(0)
+
+def policy(datum, k):
+    if abs(datum.ctxIx-datum.evtIx) <= k:
+        return 1
+    else:
+        return 0
 
 def createFeatures(datum, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
@@ -85,7 +92,7 @@ def feda(ctype, features):
     return new_dict
 
 
-def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, crossvalidation):
+def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, crossvalidation, training_data):
     ''' Do the ML stuff
          - clusters is a variable that is used to implement type 2 eval:
            We only consider the set of unique refs per sentence, instead of multiple equivalent refs as in type 1
@@ -139,7 +146,8 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
         # TODO refactor this to avoid hiding the original y array
         y = new_y
     else:
-            predictions, y, coef = lkocv(lr, smox, smoy, smox.shape[0]*.01, clusters) # Hold 1% of the data out each fold
+            predictions, y, coef = lkocv(lr, smox, smoy, smox.shape[0]*.01, clusters, training_data) # Hold 1% of the data out each fold
+            # predictions, y, coef = lkocv(lr, smox, smoy, 10, clusters, training_data) # Hold 1% of the data out each fold
 
 
     # if coef is not None:
@@ -195,7 +203,9 @@ def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, cross
     return errors
 
 
-def lkocv(predictor, X, y, k, clusters):
+error_hists, success_hists = [], []
+f1_differences = []
+def lkocv(predictor, X, y, k, clusters, data):
     ''' Does LKO-CV over the data and returns predictions '''
 
     predictions = np.zeros(len(set(clusters.values())))
@@ -205,15 +215,46 @@ def lkocv(predictor, X, y, k, clusters):
     cv = cross_validation.KFold(y.shape[0], n_folds=y.shape[0]//k, shuffle=True)
     coef = np.zeros((len(cv), X.shape[1]))
 
+
+    included = set()
     for ix, split in enumerate(cv):
         train_ix, test_ix = split
         predictor.fit(X[train_ix], y[train_ix])
         predicted = predictor.predict(X[test_ix])
+
+        error_hist, success_hist = [], []
+
+        policy_predictions = []
+        for i in test_ix:
+            datum = data[i]
+            policy_predictions.append(policy(datum, 3))
+
         for p, t, j in zip(predicted, y[test_ix], test_ix):
             predictions[clusters[j]] = p
             new_y[clusters[j]] = t
+            datum = data[clusters[j]]
+
+            # Do the histograms
+            hbin = abs(datum.ctxIx - datum.evtIx)
+
+            if datum.label == 1 and hash(datum) not in included:
+                included.add(hash(datum))
+                if p == t:
+                    success_hist.append(hbin)
+                else:
+                    error_hist.append(hbin)
+
+        # Record the F1 of the classifier and of the baseline
+        predicted_f1 = f1_score(y[test_ix], predicted)
+        baseline_f1 = f1_score(y[test_ix], np.asarray(policy_predictions))
+
+        f1_differences.append(predicted_f1 - baseline_f1)
+
+        error_hists.append(error_hist)
+        success_hists.append(success_hist)
         # predictions[test_ix] = predicted
         coef[ix] = predictor.coef_[0]
+
 
     return predictions, new_y, coef
 
@@ -323,11 +364,6 @@ def random(paths, annDir, testingIds, eval_type, use_reach):
 
 def baseline(paths, annDir, testingIds, k, eval_type, use_reach):
 
-    def policy(datum, k):
-        if abs(datum.ctxIx-datum.evtIx) <= k:
-            return 1
-        else:
-            return 0
 
     training_paths, testing_paths = [], []
     for path in paths:
@@ -364,6 +400,22 @@ def baseline(paths, annDir, testingIds, k, eval_type, use_reach):
     print "Accuracy: %.2f\n" % accuracy
     print "Confusion matrix:\n\t\tIsn't context\tIs context\nIsn't context\t    %i\t\t  %i\nIs context\t    %i\t\t  %i" % (confusion[0][0], confusion[0][1], confusion[1][0], confusion[1][1])
 
+def temp(paths, annDir, testingIds, eval_type, crossvalidation, use_reach):
+
+    training_paths, testing_paths = [], []
+    for path in paths:
+        pmcid = path.split(os.path.sep)[-1].split('.')[0]
+        if pmcid in testingIds:
+            testing_paths.append(path)
+        else:
+            training_paths.append(path)
+
+
+    training_labels, training_vectors, training_hashes, training_data = parse_data(training_paths, annDir, use_reach)
+    testing_labels, testing_vectors, testing_hashes, testing_data = parse_data(testing_paths, annDir, use_reach, testing=True)
+
+    return [i for i in testing_data+training_data if i.label == 1]
+
 def main(paths, annDir, testingIds, eval_type, crossvalidation, use_reach):
     ''' Puts all together '''
 
@@ -381,7 +433,7 @@ def main(paths, annDir, testingIds, eval_type, crossvalidation, use_reach):
 
 
     print "General classifier"
-    errors = pipeline(training_labels, training_vectors, training_hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation)
+    errors = pipeline(training_labels, training_vectors, training_hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation, training_data)
 
     a = training_data if crossvalidation else testing_data
     #return map(lambda e: (a[e[0]], e[1]), errors)
@@ -416,7 +468,7 @@ def error_frame(errors, training_paths, annDir):
     return pd.DataFrame(rows)
 
 
-def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation):
+def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_hashes, eval_type, crossvalidation, training_data):
 
     dv = DictVectorizer()
     dv.fit(vectors + testing_vectors)
@@ -444,7 +496,7 @@ def pipeline(labels, vectors, hashes, testing_labels, testing_vectors, testing_h
 
     # print "Total positive instances: %i\tTotal negative instances: %i" % (y[y == 1].shape[0], y[y == 0].shape[0])
     # Train and test a classifier
-    errors = machineLearning(X, y, clusters, X_test, y_test, testing_clusters, fnames, crossvalidation)
+    errors = machineLearning(X, y, clusters, X_test, y_test, testing_clusters, fnames, crossvalidation, training_data)
     print
 
     return errors
@@ -494,6 +546,7 @@ def print_tsv_segment(element):
 
     return ret
 
+
 # Entry point
 if __name__ == "__main__":
     directory = sys.argv[1]
@@ -502,11 +555,12 @@ if __name__ == "__main__":
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    use_reach = True
+    use_reach = False
     ev = EVAL1
 
     if use_reach:
         print "Using REACH's data"
+
     errors = main(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach, crossvalidation=True)
     # baseline(paths, annDir, testing_ids, k=7, eval_type=ev, use_reach = use_reach)
     # random(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach)
