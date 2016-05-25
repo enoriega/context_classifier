@@ -1,9 +1,9 @@
 1						"the developmental role of warthog , the notch Modifier Encoding drab6"
-2	ncbitax:species:ncbi:7215	drosophila	S1			"the warthog ( wrt ) gene , recover as a modifier for notch signaling , be find to encode the drosophila homologue of rab6 , drab6 ."
+2	taxonomy:7215	drosophila	S1			"the warthog ( wrt ) gene , recover as a modifier for notch signaling , be find to encode the drosophila homologue of rab6 , drab6 ."
 3						vertebrate and yeast homologue of this protein have be show to regulate golgus network to TGN trafficking .
 4						"to study the function of this protein in the development of a multicellular organism , we analyze three different warthog mutant ."
 5						"the first be a r62c point mutation , the second a genomic null , and the third be a engineered gtp bind form ."
-6	ncbitax:species:ncbi:4932	yeast	S2			"we study show , contrary to yeast , that the drosophila homologue of rab6 be a essential gene ."
+6	taxonomy:4932	yeast	S2			"we study show , contrary to yeast , that the drosophila homologue of rab6 be a essential gene ."
 7						"however , it have limit effect on development beyond the larval stage ."
 8						"only the mechanosensory bristle on the head , notum , and scutellum be affect by warthog mutation ."
 9						we present model for the modify effect of drab6 on notch signaling .

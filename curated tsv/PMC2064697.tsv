@@ -89,8 +89,8 @@
 89						sahf do not show histone modification that characterize other type of chromatin condensation
 90			"E10,E11,E12"	"C4,C5"	"phosphorylation of histone h3 at ser10 and ser28 ( h3 ( s10 ) ph and h3 ( s28 ) ph ) in mitotic chromosome , phosphorylation of histone h2b at ser14 ( h2b ( s14 ) ph ) in apoptotic chromatin , and methylation of histone h3 at lys9 ( h3 ( k9 ) I ) in transcriptionally inactive heterochromatin "	"three type of condensed chromatin be characterize by specific posttranslational modification of core histone : phosphorylation of histone h3 at ser10 and ser28 ( h3 ( s10 ) ph and h3 ( s28 ) ph ) in mitotic chromosome , phosphorylation of histone h2b at ser14 ( h2b ( s14 ) ph ) in apoptotic chromatin , and methylation of histone h3 at lys9 ( h3 ( k9 ) I ) in transcriptionally inactive heterochromatin ."
 91						it have be argue that sahf represent transcriptionally inactive heterochromatin because sahf be colocalize with h3 ( k9 ) I and heterochromatin protein 1 .
-92	uazid:UA-CLine-888	WI-38 cells	C4			"to investigate to which of these distinct chromatin condensation sahf be related , we examine the posttranslational modification of histone h2b and histone h3 in rasg12v transfect senescent wi-38 cell ."
-93	uazid:UA-CLine-4798	helum	C5			"in if experiment , neither anti-h3 ( s10 ) ph , anti-h3 ( s28 ) ph , nor anti-h2b ( s14 ) ph antibody stain sahf in senescent wi-38 cell , whereas they stain mitotic wi-38 chromosome and apoptotic helum nucleus ."
+92	uaz:UA-CLine-888	WI-38 cells	C4			"to investigate to which of these distinct chromatin condensation sahf be related , we examine the posttranslational modification of histone h2b and histone h3 in rasg12v transfect senescent wi-38 cell ."
+93	uaz:UA-CLine-4798	helum	C5			"in if experiment , neither anti-h3 ( s10 ) ph , anti-h3 ( s28 ) ph , nor anti-h2b ( s14 ) ph antibody stain sahf in senescent wi-38 cell , whereas they stain mitotic wi-38 chromosome and apoptotic helum nucleus ."
 94						"similarly , in immunoblotting experiment , neither anti-h3 ( s10 ) ph nor anti-h3 ( s28 ) ph antibody detect substantial protein band in acid extract ( ae ) histone fraction derive from mock- or rasg12v transfect wi-38 cell , whereas strong signal be observe in histone fraction from colcemid treat helum cell ."
 95						"although anti-h2b ( s14 ) ph signal be observe in histone fraction derive from mock- and rasg12v transfect wi-38 cell , they be much weaker than those observe in colcemid-_NN or uv treated helum derive histone fraction ."
 96						these result indicate that sahf be a type of chromatin condensation that be distinct from those find in mitotic chromosome or apoptotic cell .
@@ -146,12 +146,12 @@
 146						these result indicate that histone h1 be lose from the entire cell in the ra induce senescence .
 147						histone h1 be lose from various type of senescent cell
 148						"we extend the experiment to include other type of normal human fibroblast ( mrc-5 , imr-90 , and BJ ; ) ."
-149	"uazid:UA-CLine-6350,uazid:UA-CLine-7214"	"MRC-5, IMR-90"	"E13,C6,C7"	"C6,C7"	"the amount of histone h1 be moderately decrease in rasg12v transfect mrc-5 and imr-90 cell ( , lane 4 and 6 ) but not in bj cell"	"the amount of histone h1 be moderately decrease in rasg12v transfect mrc-5 and imr-90 cell ( , lane 4 and 6 ) but not in bj cell ( , lane 8 ) ."
+149	"uaz:UA-CLine-6350,uaz:UA-CLine-7214"	"MRC-5, IMR-90"	"E13,C6,C7"	"C6,C7"	"the amount of histone h1 be moderately decrease in rasg12v transfect mrc-5 and imr-90 cell ( , lane 4 and 6 ) but not in bj cell"	"the amount of histone h1 be moderately decrease in rasg12v transfect mrc-5 and imr-90 cell ( , lane 4 and 6 ) but not in bj cell ( , lane 8 ) ."
 150			E14	"C6,C7"	the extent of histone h1 reduction be well correlate with the frequency of sahf positive cell after rasg12v expression	"importantly , as show in , the extent of histone h1 reduction be well correlate with the frequency of sahf positive cell after rasg12v expression ."
 151						we also examine histone h1 in cellular senescence induce by other type of stimulus .
 152			"E15,E16"	"C6,C7"	histone h1 be lose from or considerably decrease in senescent cell induce by extensive culture ( replicative senescence ) or by the ectopic expression of a constitutive active form of mkk6 ( mkk6ee ) that activate the stress induce mapk p38	histone h1 be lose from or considerably decrease in senescent cell induce by extensive culture ( replicative senescence ) or by the ectopic expression of a constitutive active form of mkk6 ( mkk6ee ) that activate the stress induce mapk p38 .
 153						"moreover , the extent of histone h1 reduction be correlate with the frequency of sahf positive cell ."
-154	uazid:UA-CLine-888	WI-38	"E17,C8"	"C6,C7,C8"	" the loss of histone h1 be observe not only in rasg12v transfect wi-38 cell but also in other type of rasg12v transfect normal human fibroblast and in senescent cell induce by other stimulus , extend its correlation with sahf formation "	"together , the loss of histone h1 be observe not only in rasg12v transfect wi-38 cell but also in other type of rasg12v transfect normal human fibroblast and in senescent cell induce by other stimulus , extend its correlation with sahf formation ."
+154	uaz:UA-CLine-888	WI-38	"E17,C8"	"C6,C7,C8"	" the loss of histone h1 be observe not only in rasg12v transfect wi-38 cell but also in other type of rasg12v transfect normal human fibroblast and in senescent cell induce by other stimulus , extend its correlation with sahf formation "	"together , the loss of histone h1 be observe not only in rasg12v transfect wi-38 cell but also in other type of rasg12v transfect normal human fibroblast and in senescent cell induce by other stimulus , extend its correlation with sahf formation ."
 155						Figure 5 .
 156						histone h1 be lose from various type of senescent cell .
 157						"( a ) mock-_NN or rasg12v transfect cell ( wi-38 , mrc-5 , imr-90 , and BJ ) be fractionate as show in at day 5 after drug selection ."
@@ -166,9 +166,9 @@
 166						loss of histone h1 from senescent cell chromatin be posttranslationally regulate
 167						the expression of most histone gene be couple with dna replication .
 168						"as senescent cell do not undergo dna replication , it be expect that histone h1 be transcriptionally repress ."
-169	uazid:UA-CLine-888	WI-38	"E18,C9"	C9	"one of the major histone h1 gene encode histone h1 .3 , be repress in rasg12v transfect senescent wi-38 cell compare with young proliferating cell"	"indeed , rt-pcr analysis show that the mrna expression of hist1h1d , one of the major histone h1 gene encode histone h1 .3 , be repress in rasg12v transfect senescent wi-38 cell compare with young proliferating cell ( 10 % fb ; , lane 1 and 3 ) ."
+169	uaz:UA-CLine-888	WI-38	"E18,C9"	C9	"one of the major histone h1 gene encode histone h1 .3 , be repress in rasg12v transfect senescent wi-38 cell compare with young proliferating cell"	"indeed , rt-pcr analysis show that the mrna expression of hist1h1d , one of the major histone h1 gene encode histone h1 .3 , be repress in rasg12v transfect senescent wi-38 cell compare with young proliferating cell ( 10 % fb ; , lane 1 and 3 ) ."
 170						this raise the possibility that the loss of histone h1 from senescent cell chromatin be simply cause by the repression of de novo histone h1 synthesis .
-171	uazid:UA-CLine-888	WI-38	"C10, E19"	C10	rasg12v expression to cause histone h1 loss	"we find that the mrna expression of hist1h1d be not detect in quiescent wi-38 cell that have be serum starve for 1 wk ( note that 1 wk be long enough for rasg12v expression to cause histone h1 loss ; and , lane 2 ) , as expect from the observation that the fraction of quiescent cell in s phase be very small ( , right ) ."
+171	uaz:UA-CLine-888	WI-38	"C10, E19"	C10	rasg12v expression to cause histone h1 loss	"we find that the mrna expression of hist1h1d be not detect in quiescent wi-38 cell that have be serum starve for 1 wk ( note that 1 wk be long enough for rasg12v expression to cause histone h1 loss ; and , lane 2 ) , as expect from the observation that the fraction of quiescent cell in s phase be very small ( , right ) ."
 172						"nevertheless , the serum starve quiescent wi-38 cell contain the same amount of chromatin bind histone h1 protein as proliferate wi-38 cell culture with 10 % fb , argue that repression of the de novo histone h1 synthesis itself be not sufficient for the loss of histone h1 protein from chromatin ."
 173						"therefore , the loss of histone h1 from senescent cell be most likely posttranslationally regulate ."
 174						Figure 6 .
@@ -199,7 +199,7 @@
 199						fluorescence microscopy reveal that all histone h1 fusion protein be localized in nucleus and colocalize with mitotic chromosome ( and fig .
 200						"s3 a , available at http://www.jcb.org/cgi/content/full/jcb.200604005/dc1 ) , indicate they proficient chromatin binding in nucleus ."
 201			E20	C11	 cell express n-terminal egfp-h1 fusion protein ( n fusion 1 and 2 ) show decrease level of chromatin bind endogenous histone h1 compare with cell express c fusion or ha-h1 .	"unexpectedly , cell express n-terminal egfp-h1 fusion protein ( n fusion 1 and 2 ) show decrease level of chromatin bind endogenous histone h1 compare with cell express c fusion or ha-h1 ."
-202	uazid:UA-CLine-888	WI-38	C11			n fusion 1 and 2 have different linker amino acid sequence between egfp and the histone h1 open reading frame ( see Materials and method ) but show the same phenotype in wi-38 cell .
+202	uaz:UA-CLine-888	WI-38	C11			n fusion 1 and 2 have different linker amino acid sequence between egfp and the histone h1 open reading frame ( see Materials and method ) but show the same phenotype in wi-38 cell .
 203						Figure 8 .
 204						ectopic expression of n-terminally egfp tag histone h1 induce premature senescence .
 205						( a ) nuclear localization of histone h1 fusion protein .
@@ -218,18 +218,18 @@
 218						the percentage of brdu-_NN and sahf positive cell be indicate ( bottom ; n = 200 ) .
 219						"bar , 10 mum ."
 220						"interestingly , concomitant with the decrease in histone h1 protein level , the expression of n fusion cause severe growth defect in young wi-38 cell as reveal by the growth curve and the brdu incorporation assay ( , top ) ."
-221	uazid:UA-CLine-888	WI-38	C12			"n fusion also induce a large , flat morphology and increase the percentage of sa-beta-gal-positive cell , suggest that the ectopic expression of n fusion induce premature senescence in wi-38 cell ."
+221	uaz:UA-CLine-888	WI-38	C12			"n fusion also induce a large , flat morphology and increase the percentage of sa-beta-gal-positive cell , suggest that the ectopic expression of n fusion induce premature senescence in wi-38 cell ."
 222			"E21,E22,E23,E24,E25,E26,E27"	C12	"cell express n fusion show decrease level of phosphorylate rb and cyclin a and increase level of p21 and phosphorylate p53 , "	"consistent with this idea , cell express n fusion show decrease level of phosphorylate rb and cyclin a and increase level of p21 and phosphorylate p53 , which be typical molecular marker for senescent cell ."
 223						"in contrast , the ectopic expression of c fusion or ha-h1 do not induce senescence marker or decrease the level of endogenous histone h1 ."
 224						"the ectopic expression of untagged histone h1 slightly increase the level of histone h1 protein but do not induce senescence phenotype in wi-38 cell either ( , lane 3 ) ."
 225						"collectively , these result suggest that the induction of senescence phenotype be correlate with the decreased level of chromatin bind endogenous histone h1 ."
 226						"notably , n fusion do not induce the accumulation of p16 or sahf formation ( , dna ) ."
 227						coexpression of n-fusion histone h1 and ha tag hmga2 induce sahf formation
-228	uazid:UA-CLine-888	WI-38	"E28,C13"	C13	"a apparent molecular mass of 22 kd be accumulate in the ae fraction prepare from rasg12v transfect senescent wi-38 cell ( , arrowhead ) ."	"we find that a protein band show a apparent molecular mass of 22 kd be accumulate in the ae fraction prepare from rasg12v transfect senescent wi-38 cell ( , arrowhead ) ."
+228	uaz:UA-CLine-888	WI-38	"E28,C13"	C13	"a apparent molecular mass of 22 kd be accumulate in the ae fraction prepare from rasg12v transfect senescent wi-38 cell ( , arrowhead ) ."	"we find that a protein band show a apparent molecular mass of 22 kd be accumulate in the ae fraction prepare from rasg12v transfect senescent wi-38 cell ( , arrowhead ) ."
 229						mass spectrometric analysis and immunoblotting analysis identify this protein as high mobility group a2 ( hmga2 ; ) .
 230						similar observation have be report recently .
 231						"time-course experiment indicate that the accumulation of chromatin bind hmga2 be inversely correlate with the loss of histone h1 from chromatin ( , lane 5-8 ) ."
-232	uazid:UA-CLine-888	WI-38 cells	"E29,C14"	C14	the amount of chromatin bind hmga2 be also increase in senescent wi-38 cell express both histone h1 and rasg12v .	"interestingly , the amount of chromatin bind hmga2 be also increase in senescent wi-38 cell express both histone h1 and rasg12v ."
+232	uaz:UA-CLine-888	WI-38 cells	"E29,C14"	C14	the amount of chromatin bind hmga2 be also increase in senescent wi-38 cell express both histone h1 and rasg12v .	"interestingly , the amount of chromatin bind hmga2 be also increase in senescent wi-38 cell express both histone h1 and rasg12v ."
 233						"we also show that macroh2a be incorporate into chromatin in rasg12v transfect cell as previously report ( , lane 5-8 ; ) ."
 234						Figure 9 .
 235						coexpression of ha tag hmga2 and n-fusion histone h1 induce sahf formation .
@@ -302,7 +302,7 @@
 302						"s3 a ) , suggest that senescence be not induce by nonspecific effect cause by the overproduction of nonfunctional histone h1 protein ."
 303						"interestingly , the senescence induction and reduce level of endogenous histone h1 be well correlate : only n fusion show both effect , whereas the other recombinant histone h1 protein show neither ."
 304						we do not know why n fusion but not c fusion affect the level of endogenous histone h1 and induce sahf formation .
-305	uazid:UA-CT-100226764	SK-N-SH neuroblastoma cells	"E30,E31,C15"	C15	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .
+305	uaz:TS-20000	SK-N-SH neuroblastoma cells	"E30,E31,C15"	C15	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .
 306						it be possible that such different affinity cause different stability of endogenous histone h1 protein .
 307						"alternatively , n-terminal gfp may perturb the incorporation of endogenous histone h1 into neighbor nucleosome by steric hindrance , for example ."
 308						embryonic stem cell homozygously delete of three out of six somatic histone h1 variant gene be viable and show apparently normal growth .
@@ -328,7 +328,7 @@
 328						"alternatively , senescent cell chromatin may be incompetent to incorporate newly synthesize histone h1 ."
 329						it be also not clear how endogenous histone h1 disappear from senescent cell .
 330						further study be warrant to determine whether histone h1 loss play a causative role in senescence induction .
-331	uazid:UA-CLine-888	WI-38 cells	C16			"when hmga2 be ectopically express in young wi-38 cell to the level find in rasg12v expressing cell , no senescence phenotype be induce ( and fig ."
+331	uaz:UA-CLine-888	WI-38 cells	C16			"when hmga2 be ectopically express in young wi-38 cell to the level find in rasg12v expressing cell , no senescence phenotype be induce ( and fig ."
 332						s4 ) .
 333			E36	C16	when the amount of chromatin bind histone h1 be reduce by n-fusion expression	"conversely , when the amount of chromatin bind histone h1 be reduce by n-fusion expression , no sahf be form either ."
 334						sahf be form only when n fusion accompany histone h1 loss and hmga2 be coexpress .
@@ -338,7 +338,7 @@
 338						"additional condition may be require to trigger the full-blown senescence program , include the activation of p16 ."
 339						[ Supplemental Material Index ]
 340						cell culture and retroviral gene transfer
-341	"uazid:UA-CLine-888,uazid:UA-CLine-6350,uazid:UA-CLine-7214"	"WI-38, MRC-5, IMR-90"	"C1,C2,C3"			"normal human fibroblast wi-38 , mrc-5 , and imr-90 be purchase from Coriell Cell Repositories ."
+341	"uaz:UA-CLine-888,uaz:UA-CLine-6350,uaz:UA-CLine-7214"	"WI-38, MRC-5, IMR-90"	"C1,C2,C3"			"normal human fibroblast wi-38 , mrc-5 , and imr-90 be purchase from Coriell Cell Repositories ."
 342						BJ be purchase from american type culture collection .
 343						the cell be culture in dme supplement with 10 % fb .
 344						"Phoenix cell ( provide by G. Nolan , Stanford University , Stanford , CA ) be transfect with retroviral vector use FuGene 6 ( Roche ) ."

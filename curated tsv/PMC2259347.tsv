@@ -9,7 +9,7 @@
 9						"to address the role of c-flip in tnfr1 mediated apoptosis , we examine the molecular interaction between c-flip and traf2 ."
 10						"as expect , western blot analysis reveal that traf2 antibody immunoprecipitate a greater amount of c-flip than c-flipl ."
 11						"also , we measure the involvement of c-flip in tnf-alpha-induced jnk activation and apoptosis by compare these in tnf-alpha-resistant and tnf-alpha-sensitive cell line ."
-12	"uazid:UA-CLine-200112289,uazid:UA-CLine-1982"	"SNU719,T24 cells"	"E1,C1,C2"	"C1,C2"	tnf-alpha increase the phosphorylated jnk level	"treatment with tnf-alpha increase the phosphorylated jnk level in snu719 and t24 cell , whereas du145 and ag cell be resistant to tnf-alpha-mediated apoptosis ."
+12	"uaz:UA-CLine-100072,uaz:UA-CLine-1982"	"SNU719,T24 cells"	"E1,C1,C2"	"C1,C2"	tnf-alpha increase the phosphorylated jnk level	"treatment with tnf-alpha increase the phosphorylated jnk level in snu719 and t24 cell , whereas du145 and ag cell be resistant to tnf-alpha-mediated apoptosis ."
 13						conclusion
 14						we now report that the short form of c-flip be a more efficient inhibitor of tnf-receptor 1 mediated apoptosis signaling than the long form of the protein .
 15						background
@@ -80,7 +80,7 @@
 80						apoptotic cell be evaluate 24 h after transfection for each construct use flow cytometric analysis as describe in Materials and method .
 81						"( e ) to confirm the result , we examine caspase 3 activity in the same condition as describe in fig. 2 ."
 82						D. beta-Actin be use as a load control .
-83	uazid:UA-CLine-200112289	SNU-719	C3			"to further examine the role of c-flip in jnk activation , we transfect c-flipl and c-flip expression vector into snu-719 cell , which constitutively express tnf ."
+83	uaz:UA-CLine-100072	SNU-719	C3			"to further examine the role of c-flip in jnk activation , we transfect c-flipl and c-flip expression vector into snu-719 cell , which constitutively express tnf ."
 84			E2	C3	tnf-alpha-induced activation of jnk	we find other significant difference in the effect of these c-flip variant on the tnf-alpha-induced activation of jnk .
 85			"E3,E4"	C3	 tnf induce the phosphorylation of jnk | the phosphorylation of jnk be not change	"in c-flipl-transfected cell , tnf induce the phosphorylation of jnk , whereas in c-flips-expressing cell , the phosphorylation of jnk be not change ."
 86			"E5,E6"	C3	" traf2 , a mediator of tnf induce jnk and nf-kappab activation ."	"to address the role of c-flip in the activation of jnk , we examine the molecular interaction between c-flip and traf2 , a mediator of tnf induce jnk and nf-kappab activation ."
@@ -96,7 +96,7 @@
 96						"the tnfr1 mediate apoptotic response have two pathway : type 1 apoptosis achieve through fadd-caspase 8 activation , and type 2 mitochondrial dependent apoptosis , which be less dependent on the fadd-caspase 8 pathway ."
 97			E9	"C4,C5"	tnf-alpha enhance the activity of jnk	"tnf-alpha enhance the activity of jnk , which lead to dysfunctional mitochondrium and contribute to tnf-alpha-induced apoptosis ."
 98			E10	"C4,C5"	tnf-alpha-induced jnk activation	we examine the involvement of c-flip in tnf-alpha-induced jnk activation and apoptosis by compare these in tnf-alpha-resistant and tnf-alpha-sensitive cell line .
-99	"uazid:UA-CLine-200112289,uazid:UA-CLine-1982"	"SNU-719, T24 cells"	"E11,C4,C5"	"C4,C5"	tnf-alpha increase the phosphorylated jnk level	"treatment with tnf-alpha increase the phosphorylated jnk level in snu719 and t24 cell , whereas du145 and ag cell be resistant to tnf-alpha-mediated apoptosis ."
+99	"uaz:UA-CLine-100072,uaz:UA-CLine-1982"	"SNU-719, T24 cells"	"E11,C4,C5"	"C4,C5"	tnf-alpha increase the phosphorylated jnk level	"treatment with tnf-alpha increase the phosphorylated jnk level in snu719 and t24 cell , whereas du145 and ag cell be resistant to tnf-alpha-mediated apoptosis ."
 100			E12	"C4,C5"	 tnf induce activation of jnk .	these result indicate that the sensitivity to tnf-alpha be associate with the tnf induce activation of jnk .
 101						Figure 3
 102						jnk activation in tnf resistant cell line .
@@ -112,7 +112,7 @@
 112						"cell be incubate for 48 h , and the level of c-flip protein be assess by immunoblot analysis ."
 113						the result confirm the ability of oligonucleotide c2 and c3 to knock down expression of c-flip .
 114						"to verify the effect of c-flip knockdown on jnk activation , we study several cancer cell line ."
-115	"uazid:UA-CLine-1982,uazid:UA-CLine-200112289"	"T24, SNU719"	"E13,C6,C7"	"C6,C7"	phosphorylate jnk level	"phosphorylate jnk level increase in t24 and snu719 cell , whereas ag and du145 cell be resistant to tnf-alpha ."
+115	"uaz:UA-CLine-1982,uaz:UA-CLine-100072"	"T24, SNU719"	"E13,C6,C7"	"C6,C7"	phosphorylate jnk level	"phosphorylate jnk level increase in t24 and snu719 cell , whereas ag and du145 cell be resistant to tnf-alpha ."
 116						we also examine the susceptibility of these cell line to tnf-alpha in c-flip sirna .
 117						"the basal level of c-flip be marginal in t24 and snu719 cell , but DU145 and AGS cell line express some degree of c-flip protein in the control condition ."
 118						"relative to the basal level of c-flip , the ratio of apoptosis increase more in du145 ( 7 fold ) and ag cell ( 6 fold ) than in t24 cell ( 2.5 fold ) , although these difference be not considerable ."

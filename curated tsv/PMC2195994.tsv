@@ -1,12 +1,12 @@
 1						cdc42h facilitate cytoskeletal reorganization and neurite outgrowth by localize the 58-kd insulin receptor substrate to Filamentous Actin
-2	uazid:UA-CLine-6607	n1e-115 cell	C1			cdc42h be involve in cytoskeletal reorganization and be require for neurite outgrowth in n1e-115 cell .
+2	uaz:UA-CLine-6607	n1e-115 cell	C1			cdc42h be involve in cytoskeletal reorganization and be require for neurite outgrowth in n1e-115 cell .
 3						"to investigate the molecular mechanism by which cdc42h regulate these process , a search for novel cdc42h protein partner be undertake by yeast two-hybrid assay ."
 4			E1	"C1,C2"	the 58-kd substrate of the insulin receptor tyrosine kinase ( irs-58 ) as a cdc42h target .	"here , we identify the 58-kd substrate of the insulin receptor tyrosine kinase ( irs-58 ) as a cdc42h target ."
 5						"IRS-58 be a brain enriched protein comprise at least four protein protein interaction site : a cdc42h binding site , a src homology ( sh ) 3 binding site , a sh3 domain , and a tryptophan , tyrptophan ( ww ) - binding domain ."
 6						"expression of irs-58 in swiss 3t3 cell lead to reorganization of the filamentous ( f ) - actin cytoskeleton , involve loss of stress fiber and formation of filopodium and cluster ."
 7						in n1e-115 cell irs-58 induce neurite outgrowth with high complexity .
 8						"expression of a deletion mutant of irs-58 , which lack the sh3-_NN and ww binding domain , induce neurite extension without complexity in n1e-115 cell ."
-9	uazid:UA-CLine-4815	swiss 3t3 cell	C2			"in swiss 3t3 cell and n1e-115 cell , irs-58 colocalize with f-actin in cluster and filopodium ."
+9	uaz:UA-CLine-4815	swiss 3t3 cell	C2			"in swiss 3t3 cell and n1e-115 cell , irs-58 colocalize with f-actin in cluster and filopodium ."
 10						a IRS 581267n mutant unable to bind cdc42h fail to localize with f-actin to induce neurite outgrowth or significant cytoskeletal reorganization .
 11						these result suggest that cdc42h facilitate cytoskeletal reorganization and neurite outgrowth by localize protein complex via adaptor protein such as irs-58 to f-actin .
 12						introduction
@@ -16,7 +16,7 @@
 16			E2	C3	"cdc42h play a role in cytokinesis , cell transformation , cell polarization , cell-cell adhesion , hiv viral replication , and can stimulate c-jun nh2-terminal kinase activity ."	"cdc42h play a role in cytokinesis , cell transformation , cell polarization , cell-cell adhesion , hiv viral replication , and can stimulate c-jun nh2-terminal kinase activity ."
 17						"cdc42h induce the formation of filopodium and retraction fiber with associated "" focal complex "" ( fc ) in response to growth factor such as bradykinin ."
 18			E3	C3	"cdc42h can also induce the loss of stress fiber and , as a secondary event , the formation of membrane ruffle and lamellipodium via activation of rac1 ."	"cdc42h can also induce the loss of stress fiber and , as a secondary event , the formation of membrane ruffle and lamellipodium via activation of rac1 ."
-19	uazid:UA-CLine-6607	n1e-115 cell	C3			cdc42h be essential and sufficient to drive neurite outgrowth in neuroblastoma n1e-115 cell .
+19	uaz:UA-CLine-6607	n1e-115 cell	C3			cdc42h be essential and sufficient to drive neurite outgrowth in neuroblastoma n1e-115 cell .
 20						one approach to understand the mechanism by which cdc42h regulate cellular process be to isolate and characterize protein that interact with it .
 21						"cdc42h target have be isolate by protein purification ( e.g. , activate cdc42 associated kinase [ ack ] , p21 activate kinase [ pak ] , myotonic dystrophy kinase related cdc42 binding kinase [ mrck ] , and wiskott-aldrich syndrome protein [ WASP ] ; , ; ; ) and by yeast two-hybrid screening ."
 22						"overexpression of pak in swiss 3t3 cell can induce membrane ruffling and filopodium formation , and loss of focal adhesion ."
@@ -89,7 +89,7 @@
 89						after incubation the blot be wash several time in wash solution 1 ( 2x ssc and 0 .05 % sd ) for 40 min at room temperature and then at a higher stringency with wash solution 2 ( 0.1 x ssc and 0 .1 % sd ) at 50degreesc for 40 min .
 90						the blot be then expose to x-omat film ( Eastman Kodak Co. ) at -70 degreesc for 48 h.
 91						cell culture and microinjection
-92	"uazid:UA-CLine-4815,uazid:UA-CLine-6607"	"swiss 3t3, n1e-115"	"C4,C5"			swiss 3t3 and n1e-115 cell be grow and maintain as describe previously .
+92	"uaz:UA-CLine-4815,uaz:UA-CLine-6607"	"swiss 3t3, n1e-115"	"C4,C5"			swiss 3t3 and n1e-115 cell be grow and maintain as describe previously .
 93						swiss 3t3 cell be grow on acid wash glass coverslip .
 94						"dna be inject at 0.5 mug and ml into the nucleus use a eppendorf microinjector and axiovert microscope ( ZEISS ) and cell be leave to express protein for between 30 min and 3 h. for phase-contrast time-lapse analysis , cell be incubate on a heated stage at 37degreesc with co2 ."
 95						"for transient transfection , n1e-115 cell be plate out at ~ 105 cell per laminin ( 100 mug and ml ) coated slide ( 6 x 2 cm ) and grow overnight at 37degreesc in dme and 5 % fc and 1 % antibiotic ."
@@ -135,10 +135,10 @@
 135						these be located at amino acid residue 220-320 and at the extreme cooh-terminal end 460-534 .
 136						the sequence divergence between amino acid residue 510 and 534 be probably due to alternate splicing of the message .
 137						outside these area of divergence the human and hamster be > 99 % similar .
-138	ncbitax:species:ncbi:9606	human	"S1,E4"	S1	 irs-58 appear to be the hamster 58-kd substrate of the insulin receptor 	human irs-58 appear to be the hamster 58-kd substrate of the insulin receptor .
+138	taxonomy:9606	human	"S1,E4"	S1	 irs-58 appear to be the hamster 58-kd substrate of the insulin receptor 	human irs-58 appear to be the hamster 58-kd substrate of the insulin receptor .
 139						"in addition , another three full-length human isoform have be identify from independent yeast two-hybrid screen use the cytoplasmic domain of the brain specific angiogenesis inhibitor 1 ( bai1 ; ) and atrophin-1 ."
 140						"all of these clone appear to be product of alternate splicing as they exhibit sequence heterogeneity at the same cooh-terminal position , but otherwise exhibit 100 % sequence identity ."
-141	ncbitax:species:ncbi:9606	human	"S2,E5"	S2	 p58 have be isolate in another two-hybrid screen use the cytoplasmic domain of the fa ligand as bait ( genbank/embl/ddbj accession number u70669 ) .	a partial human clone of p58 have be isolate in another two-hybrid screen use the cytoplasmic domain of the fa ligand as bait ( genbank/embl/ddbj accession number u70669 ) .
+141	taxonomy:9606	human	"S2,E5"	S2	 p58 have be isolate in another two-hybrid screen use the cytoplasmic domain of the fa ligand as bait ( genbank/embl/ddbj accession number u70669 ) .	a partial human clone of p58 have be isolate in another two-hybrid screen use the cytoplasmic domain of the fa ligand as bait ( genbank/embl/ddbj accession number u70669 ) .
 142						the significance of these protein protein interaction be unclear .
 143						"blast search with irs-58 show the presence of three putative domain , a polyproline rich sequence ( a potential sh3 binding site ) , a ppxy motif ( a ww domain bind site ) , and a sh3 domain ( amino acid residue 400-460 ; and ) ."
 144						the polyproline stretch ( amino acid residue 267-285 ) also align with channel protein ( datum not show ) .
@@ -234,7 +234,7 @@
 234						"in contrast , irs-58i267n do not induce neurite outgrowth , although in some case cell be see to elongate ( b , panel a , cell on right ) ."
 235						"IRS-58I267N be distribute throughout the cytoplasm in small aggregate , but be never find at the cell periphery and do not colocalize with f-actin structure ( b ) ."
 236						"use monoclonal antibody specific to irs-58 , we have find endogenous protein to colocalize with f-actin in filopodium in neuroblastoma cell ."
-237	uazid:UA-CLine-6607	n1e-115 cell	C6			a summary of the irs-58 and mutant phenotype obtain by cell transfection in n1e-115 cell be present in .
+237	uaz:UA-CLine-6607	n1e-115 cell	C6			a summary of the irs-58 and mutant phenotype obtain by cell transfection in n1e-115 cell be present in .
 238						discussion
 239			E13	C6	cdc42h interaction with irs-58	cdc42h interaction with irs-58
 240						the cdc42h binding region of irs-58 be relate to the crib motif but also distinct from it .

@@ -128,7 +128,7 @@
 128						mfm223 be find to express high level of fgfr2 protein and to harbour fgfr2 gene amplification by acgh .
 129						"fgfr2 amplification be confirm by fgfr2 fish in mfm223 , and by copy number pcr ."
 130						"both amplified cell line express substantially higher fgfr2 mrna than all other cell line ( sum52pe 67 fold and mfm223 26 fold higher than median expression of non amplify line , ) ."
-131	"uazid:UA-CLine-10000234,uazid:UA-CLine-200112290"	"MFM223, SUM52"	"C1,C2"			"both mfm223 and sum52 be find to be triple negative , with neither cell line express er or pr by western blotting nor harbour her2 gene amplification ."
+131	"uaz:UA-CLine-6058,uaz:UA-CLine-100073"	"MFM223, SUM52"	"C1,C2"			"both mfm223 and sum52 be find to be triple negative , with neither cell line express er or pr by western blotting nor harbour her2 gene amplification ."
 132						fgfr2 expression and tyrosine kinase activity be require for the survival of cell line with fgfr2 gene amplification
 133						we transfect a panel of cell line with fgfr2 sirna .
 134						"fgfr2 silencing selectively reduce the survival of mfm223 cell , fgfr2 amplify cell line , compare to all transfectable non amplify cell line ."
@@ -139,9 +139,9 @@
 139			"E2,E3,E4,E5"	"C1,C2"	"signalling through the fgfr family of growth receptor be reliant on the adapter protein fibroblast receptor substrate 2 alpha ( frs2 ) , which bind directly to phosphorylate fgfr form a frs2-sos-grb2 complex to activate mapk signalling and a frs2-sos-gab1 complex to activate pi3k-akt signalling ."	"signalling through the fgfr family of growth receptor be reliant on the adapter protein fibroblast receptor substrate 2 alpha ( frs2 ) , which bind directly to phosphorylate fgfr form a frs2-sos-grb2 complex to activate mapk signalling and a frs2-sos-gab1 complex to activate pi3k-akt signalling ."
 140			E6	"C1,C2"	 pd173074 to inhibit fgfr2	we examine the signal transduction pathway activate downstream of fgfr2 in serum starve condition with and without pd173074 to inhibit fgfr2 kinase activity .
 141			"E7,E8"	"C1,C2"	"frs2 exhibit a mobility shift , reflect phosphorylation , in serum starve amplify cell line , which be abolish by treatment with pd173074"	"frs2 exhibit a mobility shift , reflect phosphorylation , in serum starve amplify cell line , which be abolish by treatment with pd173074 , indicate ligand independent constitutive activation of the receptor ."
-142	uazid:UA-CLine-10000234	MFM223	"E9,E10,C3"	C3	"frs2 exhibit a mobility shift , reflect phosphorylation , in serum starve amplify cell line , which be abolish by treatment with pd173074"	"in both cell line harbour fgfr2 gene amplification , akt ser473 be phosphorylate in a fgfr kinase dependent manner , with erk1 and 2 thr202 and tyr204 phosphorylate in a fgfr kinase dependent fashion in mfm223 ."
-143	uazid:UA-CLine-200112290	SUM52	"C4,E11"	C4	phosphorylate erk 	"sum52pe express low level of phosphorylate erk , which presumably be reflect in the low proliferative rate of this cell line ( datum not show ) ."
-144	"uazid:UA-CLine-6058,uazid:UA-CLine-100223300,uazid:UA-CLine-5216"	"MCF7, SKBR3, HCC1143"	"E12,E13,C5,C6,C7"	"C5,C6,C7"	phosphorylation of akt and erk1 	"phosphorylation of akt and erk1 and 2 be independent of fgfr kinase activity in control cell line mcf7 , skbr3 and hcc1143 ."
+142	uaz:UA-CLine-6058	MFM223	"E9,E10,C3"	C3	"frs2 exhibit a mobility shift , reflect phosphorylation , in serum starve amplify cell line , which be abolish by treatment with pd173074"	"in both cell line harbour fgfr2 gene amplification , akt ser473 be phosphorylate in a fgfr kinase dependent manner , with erk1 and 2 thr202 and tyr204 phosphorylate in a fgfr kinase dependent fashion in mfm223 ."
+143	uaz:UA-CLine-100073	SUM52	"C4,E11"	C4	phosphorylate erk 	"sum52pe express low level of phosphorylate erk , which presumably be reflect in the low proliferative rate of this cell line ( datum not show ) ."
+144	"uaz:UA-CLine-6058,uaz:UA-CLine-100223300,uaz:UA-CLine-5216"	"MCF7, SKBR3, HCC1143"	"E12,E13,C5,C6,C7"	"C5,C6,C7"	phosphorylation of akt and erk1 	"phosphorylation of akt and erk1 and 2 be independent of fgfr kinase activity in control cell line mcf7 , skbr3 and hcc1143 ."
 145						fgfr2 amplify MFM223 die by apoptosis follow fgfr inhibition
 146						we investigate the mechanism of loss of survival in mfm223 on pd173074 treatment .
 147						"after 48 hr treatment with pd173074 there be no significant alteration of the cell cycle profile of the mcf7 control cell line , but there be a substantial increase in subg1 cell in mfm223 ."
@@ -151,14 +151,14 @@
 151						in the absence of serum mfm223 proliferate at a similar rate compare to cell grow in 10 % serum .
 152						"in the absence of serum mfm223 be dependent on fgfr for proliferation , and undergo apoptosis in the presence of pd173074 ."
 153						fgfr2 amplify cell line also have pi3 kinase pathway aberration
-154	uazid:UA-CLine-10000234	MFM223	"E15,E14,C8"	C8	"AKT be highly phosphorylate in mfm223 , but that this be substantially decrease in pd173074 treat cell ."	"we note that AKT be highly phosphorylate in mfm223 , but that this be substantially decrease in pd173074 treat cell ."
+154	uaz:UA-CLine-6058	MFM223	"E15,E14,C8"	C8	"AKT be highly phosphorylate in mfm223 , but that this be substantially decrease in pd173074 treat cell ."	"we note that AKT be highly phosphorylate in mfm223 , but that this be substantially decrease in pd173074 treat cell ."
 155						"to investigate whether this reflect a activate mutation in pik3ca , we sequence the helical and kinase domain of pik3ca and identify a classical h1047r kinase mutation in mfm223 ."
 156						the h1047r mutation have be describe to active pi3 kinase function and transform human mammary epithelial cell .
 157						we therefore examine the effect of dual targeting of pi3 kinase and fgfr .
-158	uazid:UA-CLine-10000234	MFM223	"C9,E16,E17,E18,E19"	C9	dual pi3 kinase and mtor inhibitor bez235	treatment of mfm223 with the dual pi3 kinase and mtor inhibitor bez235 abolish akt phosphorylation and substantially increase the subg1 fraction .
+158	uaz:UA-CLine-6058	MFM223	"C9,E16,E17,E18,E19"	C9	dual pi3 kinase and mtor inhibitor bez235	treatment of mfm223 with the dual pi3 kinase and mtor inhibitor bez235 abolish akt phosphorylation and substantially increase the subg1 fraction .
 159						treatment with combination of bez235 and pd173074 increase the subg1 fraction to a greater extent than either drug give individually .
 160						"similarly , dual treatment with both inhibitor have a additive effect as assess by combination index ( ci ) assay ( , ci 1.02 ) ."
-161	uazid:UA-CLine-200112290	SUM52	"C10,E20,E21"	"C9,C10"	 pd173074 and bez235 ( ci 0.985 ) .	"sum52 have wild-type pik3ca , but do not express pten protein , and a similar additive ci be observe in sum52 cell between pd173074 and bez235 ( ci 0.985 ) ."
+161	uaz:UA-CLine-100073	SUM52	"C10,E20,E21"	"C9,C10"	 pd173074 and bez235 ( ci 0.985 ) .	"sum52 have wild-type pik3ca , but do not express pten protein , and a similar additive ci be observe in sum52 cell between pd173074 and bez235 ( ci 0.985 ) ."
 162					these datum suggest that dual targeting of fgfr2 and pik3ca	these datum suggest that dual targeting of fgfr2 and pik3ca may be of benefit in cancer with fgfr2 amplification .
 163						"take together , we datum provide strong circumstantial evidence that fgfr2 may be a therapeutic target for a subset of TNBC harbour fgfr2 gene amplification , and that we method of integrated analysis of transcriptomic and genomic datum , focus on gene that be over-express when amplify , identify potential treatment target ."
 164						discussion
@@ -181,7 +181,7 @@
 181						"activate mutation in fgfr2 be find in endometrial cancer , but be rare in breast cancer ."
 182			E22	"C9,C10"	oncogene addiction in cell line with fgfr2 gene amplification be activation of pi3k-akt signallin	"we confirm that a mechanism underlie oncogene addiction in cell line with fgfr2 gene amplification be activation of pi3k-akt signalling , and result inhibition of apoptosis ."
 183			"E23,E24"	"C9,C10"	activate AKT in a fgfr kinase dependent manner	"signalling in cell line harbour fgfr2 amplification appear to be ligand independent , with both cell line activate AKT in a fgfr kinase dependent manner ."
-184	uazid:UA-CLine-10000234	MFM223	"C11,E25,E24"	C11	phosphorylation be predominantly under control of upstream fgfr signalling despite the presence of a activate pi3kca kinase mutation	"interestingly , in mfm223 , akt phosphorylation be predominantly under control of upstream fgfr signalling despite the presence of a activate pi3kca kinase mutation , suggest that in this cell line pi3kca kinase domain mutation predominantly amplify upstream signal ."
+184	uaz:UA-CLine-6058	MFM223	"C11,E25,E24"	C11	phosphorylation be predominantly under control of upstream fgfr signalling despite the presence of a activate pi3kca kinase mutation	"interestingly , in mfm223 , akt phosphorylation be predominantly under control of upstream fgfr signalling despite the presence of a activate pi3kca kinase mutation , suggest that in this cell line pi3kca kinase domain mutation predominantly amplify upstream signal ."
 185						"likewise sum52 remain sensitive to fgfr inhibition , despite lack pten expression , concur with previous result find in fgfr2 mutant endometrial cancer cell line ."
 186						we note that hcc1143 have be show to harbour a fgfr2 mutation .
 187						"hcc1143 show no evidence of fgfr dependent signalling , nor dependence on fgfr for proliferation , suggest the mutation identify ( r203c ) do not active the receptor ."

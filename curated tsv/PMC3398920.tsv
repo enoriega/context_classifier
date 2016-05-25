@@ -4,7 +4,7 @@
 4						"in addition , we discuss a recently describe , cytoskeletal dependent feed-back loop that favor the efficient translocation and activation of rac subfamily protein during cell signaling ."
 5					"this route be mediate by a heteromolecular protein complex compose of the cytoskeletal protein coronin1a , the Dbl family member arhgef7 , the serine and threonine kinase pak1 , and the rac1 and rhogdus dimer ."	"this route be mediate by a heteromolecular protein complex compose of the cytoskeletal protein coronin1a , the Dbl family member arhgef7 , the serine and threonine kinase pak1 , and the rac1 and rhogdus dimer ."
 6			"E5,E6,E7"	C1	"this route promote the translocation of rac1 and RhoGDI to f-actin-rich juxtamembrane area , the pak1 dependent release of rac1 from the rac1 and rhogdus complex , and rac1 activation ."	"this route promote the translocation of rac1 and RhoGDI to f-actin-rich juxtamembrane area , the pak1 dependent release of rac1 from the rac1 and rhogdus complex , and rac1 activation ."
-7	uazid:UA-CT-200012	T-cell	C1			"this pathway be important for optimal rac1 activation during the signaling of the egf receptor , integrin , and the antigenic t-cell receptor ."
+7	uaz:TS-1001	T-cell	C1			"this pathway be important for optimal rac1 activation during the signaling of the egf receptor , integrin , and the antigenic t-cell receptor ."
 8						"rac1 , one of the best characterize member of the rho and rac gtpase subfamily , regulate ubiquitous process such as the formation of membrane ruffle and lamellipodium , cell adhesion , proliferation , intercellular attraction and repulsion , and transcriptomal dynamics ."
 9						"in addition , it modulate cell-type-specific process such as axon migration and guidance , phagocytosis , or the formation of the immunological synapse ."
 10						"to trigger most of those function , rac1 have to fulfill two basic condition ."
@@ -56,12 +56,12 @@
 56						"- in any case , it be still difficult to explain how the cytosolic rhogdus and rac1 complex manage to get close to those kinase during cell stimulation ."
 57						"to shed light on this process , we decide to search for protein involve in the regulation of the translocation of rac1 to the plasma membrane use a genome-wide functional screen ."
 58						"this approach lead to the isolation of coronin1a ( coro1a ) as a protein capable of induce the translocation and activation of rac1 during cell signaling ( , bottom ) ."
-59	ncbitax:species:ncbi:9606	human	S1			coro1a belong to a large family of cytoskeletal regulator that show a phylogenetic distribution from unicellular eukaryote to human .
+59	taxonomy:9606	human	S1			coro1a belong to a large family of cytoskeletal regulator that show a phylogenetic distribution from unicellular eukaryote to human .
 60						"these protein control the bundle of f-actin filament , the growth and orientation angle of new f-actin branch , and the disassembly of old actin cable ."
 61						such activity suggest to we that coro1a could be possibly involve in a cross-talk between the f-actin cytoskeleton and the process of rac1 translocation and and or activation .
 62			E8	"C2,C3,C4,S1"	coro1a induce the f-actin-dependent translocation and activation of rac1 in the plasma membrane .	"consistent with this idea , we could demonstrate that the overexpression of coro1a induce the f-actin-dependent translocation and activation of rac1 in the plasma membrane ."
 63					"conversely , its inactivation lead to ineffective activation of rac1 and rac1-downstream route ."	"conversely , its inactivation lead to ineffective activation of rac1 and rac1-downstream route ."
-64	"uazid:UA-CLine-100030,uazid:UA-CLine-100002,uazid:UA-CT-2244"	"COS1, 293T, Jurkat"	"C2,C3,C4"			"this pathway be active in a number of cell type ( cos1 , 293t , jurkat cell ) and cellular stimulation condition ( egf signaling , integrin mediate adhesion , t-cell receptor stimulation ) ."
+64	"uaz:UA-CLine-100030,uaz:UA-CLine-100002,uaz:UA-CLine-2244"	"COS1, 293T, Jurkat"	"C2,C3,C4"			"this pathway be active in a number of cell type ( cos1 , 293t , jurkat cell ) and cellular stimulation condition ( egf signaling , integrin mediate adhesion , t-cell receptor stimulation ) ."
 65						figure2 .
 66						scheme of the cellomic screen use in the work review here .
 67						"the first screening be conduct use a expression library of 135,000 independent cdna clone obtain from human t cell ."
