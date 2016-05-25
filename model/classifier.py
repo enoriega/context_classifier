@@ -75,7 +75,7 @@ def createFeatures(datum, tsv, annotationData):
         # 'evtHasCitation':citations[datum.evtIx],
         'ctxHasCitation':citations[datum.ctxIx],
         # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
-        # 'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx]
+        'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx]
     }
 
     # ret = features
@@ -561,6 +561,6 @@ if __name__ == "__main__":
     if use_reach:
         print "Using REACH's data"
 
-    errors = main(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach, crossvalidation=True)
+    errors = main(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach, crossvalidation=False)
     # baseline(paths, annDir, testing_ids, k=7, eval_type=ev, use_reach = use_reach)
     # random(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach)

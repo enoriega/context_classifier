@@ -67,8 +67,11 @@ def extractData(tsv, name, true_only=False):
         return len(s) > 0 and not isEvent(s)
 
     events, context = [], []
-    for x in tsv:
-        tbs, ix, cxs = x['tbAnn'], int(x['num'])-1, x['ctx']
+    for i, x in enumerate(tsv):
+        j = int(x['num'])
+
+        #print j-i
+        tbs, ix, cxs = x['tbAnn'], i, x['ctx']
         for tb in tbs:
             if isEvent(tb):
                 for cx in cxs:
@@ -172,9 +175,15 @@ def generateNegativesFromNER(positives, annotationData):
                 ctype = 'S'
             elif 'UA-CT' in cid:
                 ctype = 'C'
+            elif 'TS-' in cid:
+                ctype = 'C'
             else:
                 print cid
-                ctype = 'C'
+                ctype = 'X'
+
+            
+            if ctype == 'X':
+                continue
 
             alternatives['%s%i' % (ctype, offset)] = k
             offset += 1
