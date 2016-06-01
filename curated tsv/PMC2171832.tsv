@@ -32,7 +32,7 @@
 32						"furthermore , we find that level of arfgap1 and coatomer bind to golgus membrane can be modulate by transit secretory cargo , imply a role of cargo in the regulation of coat lattice dynamics ."
 33						result
 34						ArfGAP1-GFP localize to the golgus and function as a gap for arf1
-35		NRK	c1			"to study arfgap dynamics in living cell , we fuse cfp or yfp to the carboxy terminus of arfgap1 ( arfgap1-c and yfp ) and generate a stable nrk cell line express the chimera at low level ."
+35	uaz:UA-CT-200009	NRK	c1			"to study arfgap dynamics in living cell , we fuse cfp or yfp to the carboxy terminus of arfgap1 ( arfgap1-c and yfp ) and generate a stable nrk cell line express the chimera at low level ."
 36						"in these cell , arfgap1-yfp could be see distribute on golgus membrane ( colocalize with the golgus marker , galactosyltransferase tag with cfp ) in the cytoplasm ( a ) with approximately four time more arfgap1-yfp in the cytoplasm than on golgus membrane ."
 37						"in addition to be present in the cytoplasm and on golgus membrane , a small amount of arfgap1-yfp could be see associate with peripheral structure contain epsiloncopi-yfp ( i.e. , ergic ; fig ."
 38						"s1 , available at http://www.jcb.org/cgi/content/full/jcb.200410142/dc1 ) ."
@@ -57,7 +57,7 @@
 57						"base on these finding , we conclude that arfgap1-yfp correctly function as a gap for arf1 when express in cell ."
 58						arfgap 's membrane association dissociation cycle and its modulation by arf1
 59						"give that arfgap1-yfp appropriately target and function within cell , we use the chimera in experiment aim at investigate the kinetic property of arfgap1 's association with golgus membrane ."
-60		NRK	c2			"these and subsequent experiment be perform in the stable nrk cell line that express arfgap1-yfp at low level ( 2.5-fold above endogenous arfgap1 ) , unless indicate otherwise ."
+60	uaz:UA-CT-200009	NRK	c2			"these and subsequent experiment be perform in the stable nrk cell line that express arfgap1-yfp at low level ( 2.5-fold above endogenous arfgap1 ) , unless indicate otherwise ."
 61						we first address whether arfgap1 reside stably or only transiently after be recruit to golgus membrane .
 62						this be accomplish use frap .
 63						"upon photobleach the golgus pool of fluorescence , we observe rapid recovery from the nonbleached cytoplasmic pool , with the original , prebleach fraction of golgus fluorescence ( i.e. , 20 % of the total cellular pool ) completely restore in just under 1 min ."
@@ -135,7 +135,7 @@
 135						the cell be incubate either at the permissive temperature of 32degreesc or for 3 h at the restrictive temperature of 40degreesc ( which cause depletion of > 75 % of all cellular coatomer ; ) .
 136						alf be then add for 10 min .
 137						golgus fluorescence be subsequently photobleach and the extent of fluorescence recovery onto the golgus be measure .
-138		ldlF cells	c3			"the effect of alf in ldlf cell incubate at 32degreesc be similar to what we observe for other cell type treat with alf , with ~ 40 % of the golgus pool of arfgap1-yfp fail to recover after photobleach ( d ) ."
+138	uaz:UA-CLine-100104	ldlF cells	c3			"the effect of alf in ldlf cell incubate at 32degreesc be similar to what we observe for other cell type treat with alf , with ~ 40 % of the golgus pool of arfgap1-yfp fail to recover after photobleach ( d ) ."
 139						"by contrast , after alf treatment of ldlf cell incubate at 40degreesc , close to 100 % of the golgus pool of arfgap1-yfp recover after photobleach ."
 140						"recovery in these cell be slightly slower than in cell incubate at 32degreesc in the absence of alf , potentially due to coatomer not be completely deplete during the 3 h of incubation at 40degreesc ."
 141			e25	c3		"together , these result suggest that depletion of coatomer prevent stabilize fluoride-arf1-arfgap1 complex from form during alf treatment ."
@@ -145,7 +145,7 @@
 145			e28	c3		"this suggest that during alf treatment , fluoride-arf1-arfgap1 complex associate with coatomer and not other golgus coat protein ."
 146			e29	c3		"this property could serve to ensure that arfgap1 only interact with arf1 molecule that have coatomer associate with they , thereby allow the arf1 dependent pathway to function specifically in COPI lattice formation ."
 147			e30	"c4,c5"		"to obtain biochemical evidence that arfgap1 interact with coatomer , we examine whether arfgap1 and beta-cop undergo coimmunoprecipitation ."
-148		"COS-7 cells, NRK cells"	"c4,c5"			"in both cos-7 cell and nrk cell , endogenous beta-cop coimmunoprecipitate with endogenous arfgap1 ( a ) ."
+148	uaz:UA-CLine-100020,uaz:UA-CLine-3989	"COS-7 cells, NRK cells"	"c4,c5"			"in both cos-7 cell and nrk cell , endogenous beta-cop coimmunoprecipitate with endogenous arfgap1 ( a ) ."
 149						"and , in cell express arfgap1-gfp , immunoprecipitation use gfp antibody result in coimmunoprecipitation of beta-cop ."
 150			e31	"c4,c5"		"the complex between arfgap and beta-cop be dependent on arf1-gtp on membrane as bfa treatment , which inactivate arf1 , prevent arfgap1 and beta-cop from interact ( b ) ."
 151			e32	"c4,c5"		"alf treatment increase the association between arfgap and beta-cop , as predict if alf stabilize complex of fluoride-arf1-arfgap1-coatomer on membrane ."
@@ -226,8 +226,8 @@
 226			e39	"c4,c5"		"significantly , release of arfgap1 into the cytoplasm from this pathway be dependent on gtp hydrolysis on arf1 ."
 227			e40	"c4,c5"		"this be support by we finding that when gtp hydrolysis on arf1 be inhibit by arf1 [ q71l ] expression or by alf treatment , a proportion of the golgus pool of arfgap1 no longer cycle between golgus and cytoplasm ."
 228						arfgap1 entry into the arf1 dependent pathway be find to be dependent on coatomer .
-229		ldlF cells	"e41,c6,e42"	c6		"this be support by we finding that COPI and ArfGAP1 interact in biochemical assay , and ( b ) in ldlf cell deplete of coatomer and treat with alf , no formation of stable complex of fluoride-arf1-arfgap1 occur ."
-230		yeast	"s1,e43"	s1		the formation of immobilize pool of arfgap1 and coatomer on the golgus observe normally in cell treat with alf likely correspond to complex of fluoride-arf1-arfgap1-coatomer .
+229	uaz:UA-CLine-100104	ldlF cells	"e41,c6,e42"	c6		"this be support by we finding that COPI and ArfGAP1 interact in biochemical assay , and ( b ) in ldlf cell deplete of coatomer and treat with alf , no formation of stable complex of fluoride-arf1-arfgap1 occur ."
+230	taxonomy:4932	yeast	"s1,e43"	s1		the formation of immobilize pool of arfgap1 and coatomer on the golgus observe normally in cell treat with alf likely correspond to complex of fluoride-arf1-arfgap1-coatomer .
 231						"this would be consistent with previous study in yeast show interaction between coatomer subunit and arfgap , and a recent in vitro system report direct binding of coatomer to arfgap1 , as well as with study examine the effect of alf on liposome incubate with arf1 , arfgap1 , and coatomer ."
 232						"because virtually all coatomer become stabilize on membrane during alf treatment , compare with ~ 40 % of arfgap1 and < 10 % of arf1 ( unpublished datum ) , coatomer would appear to be the rate limit component of the complex of arf1-arfgap1-coatomer in the cell be examine ."
 233			e44	c6		the formation of arf1-arfgap1-coatomer complex suggest that coatomer serve to spatially localize arfgap1 on membrane so that arfgap1 catalytic activity be confine to arf1 molecule in association with the COPI coat .

@@ -28,7 +28,7 @@
 28						"The linkage between the actin cytoskeleton and the plasma membrane is also important for neuron specific events , such as growth cone pathfinding and the subsequent formation and maintenance of synaptic junction ."
 29						"However , it remains to be clarified which molecules link the actin cytoskeleton to the plasma membrane in these neuron specific events ."
 30						"To address this issue , we attempted to isolate novel F-actin-binding proteins from the rat brain by using a blot overlay method with 125 I labeled F-actin ."
-31	NA	synapse	"e2,c1"	c1	 F-actin-binding protein that is concentrated at synapse and named it neurabin .	We had isolated a neural tissue specific F-actin-binding protein that is concentrated at synapse and named it neurabin .
+31	uaz:UA-ORG-861	synapse	"e2,c1"	c1	 F-actin-binding protein that is concentrated at synapse and named it neurabin .	We had isolated a neural tissue specific F-actin-binding protein that is concentrated at synapse and named it neurabin .
 32			e1	c1	Neurabin has one F-actin- binding domain and one PDZ domain .	Neurabin has one F-actin- binding domain and one PDZ domain .
 33						"The PDZ domain has been found in a variety of proteins , some of which are localized at cell-to-cell junctions , such as PSD-95 / SAP90 at synaptic junction , Dlg at septate junction , and ZO-1 and ZO-2 at tight junction ( ; Gumbiner , 1991 ; ; ; ; ) ."
 34						"Recent studies have revealed that the PDZ domain binds to unique COOH-terminal motifs of target proteins , which are found in a large number of transmembrane proteins , such as N-methyl-d-aspartate receptors and Shaker-type K + channel ."

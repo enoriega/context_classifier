@@ -1,6 +1,6 @@
 1						the integrin effector pinch regulate jnk activity and epithelial migration in concert with ra suppressor 1
 2						"cell adhesion and migration be dynamic process require the coordinated action of multiple signaling pathway , but the mechanism underlie signal integration have remain elusive ."
-3	NA	"drosophila,  embryonic "	"S1,T1"			"drosophila embryonic dorsal closure ( dc ) require both integrin function and c-jun amino-terminal kinase ( jnk ) signaling for opposed epithelial sheet to migrate , meet , and suture ."
+3	taxonomy:7227,tissuelist:TS-0229	"drosophila,  embryonic "	"S1,T1"			"drosophila embryonic dorsal closure ( dc ) require both integrin function and c-jun amino-terminal kinase ( jnk ) signaling for opposed epithelial sheet to migrate , meet , and suture ."
 4						"here , we show that pinch , a protein require for integrin dependent cell adhesion and actin-membrane anchorage , be present at the lead edge of these migrate epithelium and be require for dc ."
 5			e1	"s1,t1"	"we identify rsu-1 , a regulator of ra signaling in mammalian cell , as a novel pinch binding partner that contribute to pinch stability ."	"by analysis of native protein complex , we identify rsu-1 , a regulator of ra signaling in mammalian cell , as a novel pinch binding partner that contribute to pinch stability ."
 6						"mutation of the gene encode rsu-1 result in wing blistering in drosophila , demonstrate its role in integrin dependent cell adhesion ."
@@ -29,7 +29,7 @@
 29						involvement of pinch in both integrin mediate adhesion and actin-membrane linkage make it a attractive candidate for coordination of integrin and jnk function during dc .
 30						result and discussion
 31						"to determine if pinch could contribute to dc , we examine its localization in stage 14 embryo ."
-32	NA	"le, amnioserosa"	"t2,t3,e4"	"t3,t2,s1"	 consistent with pinch 's established role as a integrin effector	"pinch and beta-p integrin be colocalize in both the LE and the amnioserosa ( a ) , consistent with pinch 's established role as a integrin effector ."
+32	uaz:UA-CLine-5318,uaz:UA-ORG-252	"le, amnioserosa"	"t2,t3,e4"	"t3,t2,s1"	 consistent with pinch 's established role as a integrin effector	"pinch and beta-p integrin be colocalize in both the LE and the amnioserosa ( a ) , consistent with pinch 's established role as a integrin effector ."
 33						the amnioserosa be a extraembryonic tissue present on the dorsal surface of the embryo .
 34						"as it have be establish that coordinate signaling between the amnioserosa and migrate epithelium be key to formation of LE focal complex , pinch could exert a effect in the LE epithelium , the amnioserosa , or both tissue ."
 35						stck homozygous mutant embryo rescue with a pinch : gfp transgene under the control of the endogenous pinch promoter display pinch-gfp at the LE of the advance epithelial sheet .
@@ -51,7 +51,7 @@
 51						cuticle from embryo lack both maternal and zygotic pinch have the same array of phenotype .
 52						"pinch be compose of five lim domain , each of which could serve as a protein binding interface ."
 53						"the sh2-sh3 adaptor protein , nck2 , have be report to interact with mammalian pinch ."
-54	NA	drosophila	"s2,e5"	s2	" Dreadlocks , interact directly with misshapen ( Msn ) , a map4k in the jnk signaling cascade ."	"this association be intriguing because the drosophila homologue of nck2 , Dreadlocks , interact directly with misshapen ( Msn ) , a map4k in the jnk signaling cascade ."
+54	taxonomy:7227	drosophila	"s2,e5"	s2	" Dreadlocks , interact directly with misshapen ( Msn ) , a map4k in the jnk signaling cascade ."	"this association be intriguing because the drosophila homologue of nck2 , Dreadlocks , interact directly with misshapen ( Msn ) , a map4k in the jnk signaling cascade ."
 55						"as with other component of the jnk pathway , null mutation in msn result in embryonic lethality due to failure of dc ."
 56						"although we be unable to detect direct binding of pinch to Dreadlocks in drosophila , we uncover a link between pinch 's role in dc and the jnk cascade by testing for genetic interaction between stck and msn ."
 57			e6	s2	 pinch function as a negative regulator of jnk signaling .	"reduction of pinch protein level by introduction of a single copy of the loss-of-function allele , stck18 , into the msn102 homozygous null background allow partial restoration of dc ( p = 0.003 ; a ) , suggest that pinch function as a negative regulator of jnk signaling ."
@@ -81,12 +81,12 @@
 81						"in a stck18 heterozygous background , a greater percentage of msn3349 homozygote be able to eclose ( p < 0.0001 ; d ) , support the hypothesis that pinch be a negative regulator of the jnk pathway in both dorsal and thorax closure ."
 82						we purify drosophila pinch in complex with its bind partner use tandem affinity purification ( tap ) - tag pinch ( tap-pinch ; ) .
 83						"stck homozygous mutant embryo rescue with a tap : pinch transgene drive by the endogenous stck promoter to wild-type level ( a ) afford material for purification of soluble , cytoplasmic tap-pinch complex in the absence of endogenous pinch protein ."
-84	NA	" drosophila, s2r+ cell "	"s3,c1"			"three partner that copurify stoichiometrically with tap-pinch from embryo , as well as in complex with tap-pinch from culture drosophilum s2r+ cell ( b ) , be identify by mass spectrometric analysis ."
+84	taxonomy:7227,uaz:UA-CLine-100094	" drosophila, s2r+ cell "	"s3,c1"			"three partner that copurify stoichiometrically with tap-pinch from embryo , as well as in complex with tap-pinch from culture drosophilum s2r+ cell ( b ) , be identify by mass spectrometric analysis ."
 85			e10	"s3,c1"	ilk copurify with pinch .	"consistent with what be observe in mammalian cell and we previous finding in drosophilum , ilk copurify with pinch ."
-86	NA	drosophila	"s4,e11"	s4	" cg32528 , be also present in pinch protein complex ."	"the drosophila homologue of the parvin and actopaxin family of protein , cg32528 , be also present in pinch protein complex ."
-87	NA		"e12,e13"	s4	"Parvin be know to bind ilk and actin in mammalian system , but the isolated parvin/ilk/pinch complex be the first to be describe in drosophila ."	"Parvin be know to bind ilk and actin in mammalian system , but the isolated parvin/ilk/pinch complex be the first to be describe in drosophila ."
-88	NA				"additionally , a novel 31-kd protein be identify as drosophila cg9031 ."	"additionally , a novel 31-kd protein be identify as drosophila cg9031 ."
-89	NA	human	"s5,e14"	s5	" rsu-1 , a leucine rich repeat contain protein first identify as a suppressor of cell transformation by v-ra "	"the cg9031 protein be 55 % identical and 74 % similar to human rsu-1 , a leucine rich repeat contain protein first identify as a suppressor of cell transformation by v-ra and subsequently implicate in regulation of map kinase signaling , specifically the jnk and erk cascade , when overexpress in culture cell ."
+86	taxonomy:7227	drosophila	"s4,e11"	s4	" cg32528 , be also present in pinch protein complex ."	"the drosophila homologue of the parvin and actopaxin family of protein , cg32528 , be also present in pinch protein complex ."
+87			"e12,e13"	s4	"Parvin be know to bind ilk and actin in mammalian system , but the isolated parvin/ilk/pinch complex be the first to be describe in drosophila ."	"Parvin be know to bind ilk and actin in mammalian system , but the isolated parvin/ilk/pinch complex be the first to be describe in drosophila ."
+88					"additionally , a novel 31-kd protein be identify as drosophila cg9031 ."	"additionally , a novel 31-kd protein be identify as drosophila cg9031 ."
+89	taxonomy:9606	human	"s5,e14"	s5	" rsu-1 , a leucine rich repeat contain protein first identify as a suppressor of cell transformation by v-ra "	"the cg9031 protein be 55 % identical and 74 % similar to human rsu-1 , a leucine rich repeat contain protein first identify as a suppressor of cell transformation by v-ra and subsequently implicate in regulation of map kinase signaling , specifically the jnk and erk cascade , when overexpress in culture cell ."
 90			e15	s5	 rsu-1 .	"despite its potent ability to act as a tumor suppressor , little be know about the mechanism of action of rsu-1 ."
 91			e15	s5	its partnership with the pinch protein	its partnership with the pinch protein allow placement of rsu-1 in a molecular pathway that be link to integrin .
 92						Figure 3 .
@@ -99,7 +99,7 @@
 99						( e ) confocal image of p [ w+ gfp-pinch ] stck18 and l ( 3 ) 097 stage 16 embryo show that pinch : gfp ( green ) and rsu-1 ( magenta ) colocalize ( white ) at muscle attachment site ( arrow ) and in the pharynx ( arrowhead ) and gut ( asterisk ) .
 100						"bar , 100 mum ."
 101			e16	s6	interaction between pinch and rsu-1 	"to assess the specificity and nature of the interaction between pinch and rsu-1 , domain mapping study be perform in cell culture and in yeast two-hybrid assay ."
-102	NA	drosophila	"e17,s6"	s6	"rsu-1 copurify with full-length he tag pinch , but not with a truncate he tag pinch contain only lim1-3 ( c ) , confirm the specificity of the interaction and suggest lim4 and and or 5 be the site of binding ."	"drosophila rsu-1 copurify with full-length he tag pinch , but not with a truncate he tag pinch contain only lim1-3 ( c ) , confirm the specificity of the interaction and suggest lim4 and and or 5 be the site of binding ."
+102	taxonomy:7227	drosophila	"e17,s6"	s6	"rsu-1 copurify with full-length he tag pinch , but not with a truncate he tag pinch contain only lim1-3 ( c ) , confirm the specificity of the interaction and suggest lim4 and and or 5 be the site of binding ."	"drosophila rsu-1 copurify with full-length he tag pinch , but not with a truncate he tag pinch contain only lim1-3 ( c ) , confirm the specificity of the interaction and suggest lim4 and and or 5 be the site of binding ."
 103			"e18,e19,e20"	s6	"ILK , which bind lim1 of pinch , copurify with both full-length and the truncated lim1-3 version of he tag pinch ( c ) , serve as a positive control ."	"ILK , which bind lim1 of pinch , copurify with both full-length and the truncated lim1-3 version of he tag pinch ( c ) , serve as a positive control ."
 104				s6	both pinch and ilk be copurify with he tag rsu-1 ( c ) .	both pinch and ilk be copurify with he tag rsu-1 ( c ) .
 105					"moreover , endogenous pinch and rsu-1 can be coimmunoprecipitate ( unpublished datum ) ."	"moreover , endogenous pinch and rsu-1 can be coimmunoprecipitate ( unpublished datum ) ."
@@ -143,8 +143,8 @@
 143						"because the phenotype associate with loss of rsu-1 represent a subset of stck phenotype , the process disturb in ic mutant may be exquisitely sensitive to pinch level ."
 144						"alternately , rsu-1 may have function that be independent of its role in pinch stabilization ."
 145						we datum be consistent with a model ( f ) in which pinch could modulate jnk signaling in two distinct way .
-146	NA		e22	s7	pinch be present at area where jnk be active and antagonize jnk signaling .	"first , pinch be present at area where jnk be active and antagonize jnk signaling ."
-147		drosophila	"e23,s7"	s7	"this behavior be reminiscent of drosophila puc , a phosphatase regulator of the jnk cascade that establish a negative feedback loop ."	"this behavior be reminiscent of drosophila puc , a phosphatase regulator of the jnk cascade that establish a negative feedback loop ."
+146			e22	s7	pinch be present at area where jnk be active and antagonize jnk signaling .	"first , pinch be present at area where jnk be active and antagonize jnk signaling ."
+147	taxonomy:7227	drosophila	"e23,s7"	s7	"this behavior be reminiscent of drosophila puc , a phosphatase regulator of the jnk cascade that establish a negative feedback loop ."	"this behavior be reminiscent of drosophila puc , a phosphatase regulator of the jnk cascade that establish a negative feedback loop ."
 148						"pinch have no intrinsic catalytic activity , but might recruit protein that could alter the availability or activity of jnk signaling component ."
 149						"like Puc , pinch expression be up regulate in response to constitutive jnk signaling ."
 150						availability of rsu-1 at these site of active jnk signaling could independently regulate jnk signaling or modulate the effect of pinch on jnk through regulation of pinch stability .
@@ -152,7 +152,7 @@
 152						"pinch have previously be show to link integrin to the actin cytoskeleton via ILK and Parvin , and these connection could influence both integrin dependent adhesion and signaling ."
 153						"integrin signaling , through a variety of tyrosine kinase and rac , stimulate the jnk cascade ; therefore , pinch may also exert a influence on jnk signaling via integrin ."
 154						we finding illustrate that the cellular concentration of pinch affect the level of rsu-1 and vice versa .
-155	NA	drosophila	s8			"thus , modulation of the ratio of rsu-1 to pinch could provide a mechanism to regulate jnk signaling during dc and thorax closure in drosophila ."
+155	taxonomy:7227	drosophila	s8			"thus , modulation of the ratio of rsu-1 to pinch could provide a mechanism to regulate jnk signaling during dc and thorax closure in drosophila ."
 156			e24	s8	 pinch and rsu -1 complex	"we hypothesize that pinch and rsu -1 complex fine-tune and integrate the jnk and integrin signaling cascade require during morphogenesis , highlight the potential role of integrin associate apical junctional complex as signal coordination point for epithelial morphogenesis ."
 157						Materials and method
 158						fly genetics

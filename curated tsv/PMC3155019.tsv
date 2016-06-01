@@ -1,5 +1,5 @@
 2						Summary
-3		lymphocytic leukemias	C1			Phosphoinositide 3-kinase delta is upregulated in lymphocytic leukemias .
+3	tissuelist:TS-1342	lymphocytic leukemias	C1			Phosphoinositide 3-kinase delta is upregulated in lymphocytic leukemias .
 4			E2	C1		"Because the p85-regulatory subunit binds to any class IA subunit , it was assumed there is a single universal p85 mediated regulatory mechanism ; however , we find isozyme specific inhibition by p85alpha ."
 5			E3	C1		"Using deuterium exchange mass spectrometry ( DXMS ) , we mapped regulatory interactions of p110delta with p85alpha ."
 6			"E4,E5,E6"	C1		"Both nSH2 and cSH2 domains of p85alpha contribute to full inhibition of p110delta , the nSH2 by contacting the helical domain and the cSH2 via the C terminus of p110delta ."
@@ -12,10 +12,10 @@
 13						Introduction
 14			E12	C1		Phosphoinositide 3-kinases ( PI3Ks ) are a family of enzymes that catalyze the phosphorylation of the D3-hydroxyl of inositol phospholipids .
 15						"The lipid products of the reaction act as second messengers and lead to downstream recruitment of phosphoinositide binding proteins , which orchestrate many important functions including cell proliferation and survival ."
-16		chronic lymphocytic leukemia	"E13,C2"	C2		"PI3Kdelta is upregulated in some leukemias , and a specific inhibitor of it ( CAL-101 ) has entered clinical trials for chronic lymphocytic leukemia ."
+16	tissuelist:TS-0547	chronic lymphocytic leukemia	"E13,C2"	C2		"PI3Kdelta is upregulated in some leukemias , and a specific inhibitor of it ( CAL-101 ) has entered clinical trials for chronic lymphocytic leukemia ."
 17						"This isoform is abundant in leukocytes and has important roles in immunity , inflammation and allergy ."
 18			"E14,E15,E16,E17,E18,E19,E20"	"C2,S1"		"Like other class IA PI3Ks , it is an obligate heterodimer of a p110 catalytic subunit ( p110delta ) anda p85-type regulatory subunit ( p85alpha , p55alpha , p50alpha , p85beta , or p55gamma ) and produces PtdIns ( 3,4,5 ) P3 lipids invivo ."
-19		human	S1			"The p110alpha catalytic subunit is one of the most frequently mutated oncogenes in human tumors , and PI3K inhibition is a major pharmacological target for drug discovery ."
+19	taxonomy:9606	human	S1			"The p110alpha catalytic subunit is one of the most frequently mutated oncogenes in human tumors , and PI3K inhibition is a major pharmacological target for drug discovery ."
 20						The cancer associated p110alpha mutations upregulate the enzyme activity by different mechanisms .
 21						"Because any one of the regulatory subunits can interact tightly with any of the class IA catalytic subunits , it is generally assumed that all p110 subunits are inhibited in the same way ."
 22						The importance of understanding isoform specific regulation of PI3Ks by p85 led us to examine this assumption .
@@ -212,7 +212,7 @@
 213						Our DXMS results provide a framework for designing further structural and biochemical approaches to understand regulation of the PI3K and PI3K like enzyme families .
 214						Experimental Procedures
 215						Protein Expression and Kinase Assays
-216		Sf9 cells	C3			All protein constructs were expressed in Sf9 cells as described for the DeltaABD-p110delta .
+216	uaz:UA-CLine-1696	Sf9 cells	C3			All protein constructs were expressed in Sf9 cells as described for the DeltaABD-p110delta .
 217						Full details are described in the .
 218						Lipid Kinase Assays
 219						The lipid kinase activity was determined using a modified membrane capture assay measuring production of 32P labeled PIP3 .

@@ -12,13 +12,13 @@
 12			"e8,e9"	s1		stimulation of cell by dsdna induce the recruitment of protein kinase tbk1 and transcription factor irf3 to sting .
 13			"e10,e11,e12,e13"	s1		"the proximity of tbk1 and irf3 facilitate irf3 phosphorylation , lead to its dimerization and translocation to the nucleus to activate ifn-beta gene transcription ."
 14						the molecular structure of the sting bind to a cyclic dinucleotide will help to understand the mechanism of sting activation .
-15		human	s1			"we have conduct systematic screening of mouse and human sting construct and identify a fragment of human sting c-terminal domain ( ctd ) contain residue 155 to 341 , which be soluble and can be crystallize ."
+15	taxonomy:9606	human	s1			"we have conduct systematic screening of mouse and human sting construct and identify a fragment of human sting c-terminal domain ( ctd ) contain residue 155 to 341 , which be soluble and can be crystallize ."
 16						gel filtration chromatography show that the STING CTD form a dimer in solution .
 17			e15	s1		isothermal titration calorimetry ( ITC ) show that STING CTD bind c-di-gmp with a affinity ( kd ) of ~ 5 mum .
 18			e16	s1		"two sting molecule bind one c-di-gmp , indicate a sting dimer share one c-di-gmp binding site ."
 19						"the binding interaction be enthalpy driven ( deltah = -14.5 kcal mol-1 , delta = -24.3 cal mol-1 k-1 ) ."
 20						"a slightly larger sting construct contain residue 155 to 379 have a similar affinity ( kd ~ 2.4 mum ) for c-di-gmp , demonstrate that truncation of the 38 c-terminal residue do not affect cdi-gmp binding ."
-21		human	"s2,e17"	s2		"to elucidate the structural basis of cyclic dinucleotide recognition by sting , we have determine the 1.5 a resolution structure of human sting ctd bind to c-di-gmp ."
+21	taxonomy:9606	human	"s2,e17"	s2		"to elucidate the structural basis of cyclic dinucleotide recognition by sting , we have determine the 1.5 a resolution structure of human sting ctd bind to c-di-gmp ."
 22						the crystallographic asymmetric unit contain a sting dimer in complex with a c-di-gmp molecule .
 23			e18	s2		the sting dimer have a v shaped structure and the c-di-gmp binding site be located at the bottom of the v of the dimer interface .
 24						the c-di-gmp also adopt a v shaped conformation and contact the sting dimer through stack of both guanine basis against the phenolic ring of tyr167 .
@@ -69,7 +69,7 @@
 69						"the affinity of these two mutant be reduce to 28 and 52 mum , respectively ."
 70						mutation of t263a and pro264a also reduce c-di-gmp binding .
 71						"in addition , mutation t267a reduce c-di-gmp binding affinity by nearly 7 fold ( kd of ~ 31 mum , ) ."
-72		HEK293T	c1			"since human sting be not sensitive to c-di-gmp when express in hek293t cell , we establish a ifn-beta luciferase reporter assay for the mouse sting that respond to c-di-gmp ."
+72	uaz:UA-CLine-100079	HEK293T	c1			"since human sting be not sensitive to c-di-gmp when express in hek293t cell , we establish a ifn-beta luciferase reporter assay for the mouse sting that respond to c-di-gmp ."
 73						mutation in mouse sting that correspond to the human sting residue involve in c-di-gmp binding be examine use the assay .
 74						"consistent with previous study , mutant i199n do not express well and fail to respond to c-di-gmp ."
 75						"although the remain six mutant express normally , mutant y239 and e259a also fail to respond to c-di-gmp ."
@@ -80,7 +80,7 @@
 80						Time course of the phosphorylation experiment show that sting dephosphorylate after 30 minute at the atp concentration of 1 mm and that phosphatase inhibitor reduce the dephosphorylation of sting .
 81			e25	"s3,s4"		phosphorylation assay with 5 mm atp result in persistent phosphorylation of sting .
 82						we also test the effect of sting and c-di-gmp on irf3 activation by tbk1 use purify protein .
-83		"human, mouse"	"e26,e27,s3,s4"	"s3,s4"		the rate of tbk1 dependent phosphorylation and dimerization of irf3 be not affect by human sting ( contain residue 155 to 379 ) or human sting in complex with c-di-gmp .
+83	taxonomy:9606,taxonomy:10090	"human, mouse"	"e26,e27,s3,s4"	"s3,s4"		the rate of tbk1 dependent phosphorylation and dimerization of irf3 be not affect by human sting ( contain residue 155 to 379 ) or human sting in complex with c-di-gmp .
 84						similar result be observe with the mouse sting .
 85			e29	s3		the high-resolution structure of sting bind to c-di-gmp provide a detailed picture of how the protein recognize the cyclic dinucleotide .
 86						"however , it be still not clear how c-di-gmp activate the tbk1 and irf3 signaling pathway ."

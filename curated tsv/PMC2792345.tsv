@@ -2,10 +2,10 @@
 2						abstract .
 3						the parvin be a family of protein involve in link integrin and associate protein with intracellular pathway that regulate actin cytoskeletal dynamics and cell survival .
 4						"both alpha-parvin ( PARVA ) and beta-parvin ( parvb ) localize to focal adhesion and function in cell adhesion , spreading , motility and survival through interaction with partner , such as integrin link kinase ( ilk ) , paxillin , alpha-actinin and testicular kinase 1 ."
-5		"kidney podocytes, cardiac myocytes"	"e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,c1,c2"	"c1,c2"		"a complex of parva with ilk and the lim protein pinch-1 be critical for cell survival in a variety of cell , include certain cancer cell , kidney podocyte and cardiac myocyte ."
+5	tissuelist:TS-0510,tissuelist:TS-0115	"kidney podocytes, cardiac myocytes"	"e1,e2,e3,e4,e5,e6,e7,e8,e9,e10,c1,c2"	"c1,c2"		"a complex of parva with ilk and the lim protein pinch-1 be critical for cell survival in a variety of cell , include certain cancer cell , kidney podocyte and cardiac myocyte ."
 6			"e11,e12,e13,e14,e15"	s1		"while parva inhibit the activity of rac1 and testicular kinase 1 and cell spreading , parvb bind alphapix and alpha-actinin , and can promote cell spreading ."
 7						"in contrast to PARVA , parvb inhibit ilk activity and reverse some of its oncogenic effect in cancer cell ."
-8		human	s1			this review focus on the structure and function of the parvin and some possible role in human disease .
+8	taxonomy:9606	human	s1			this review focus on the structure and function of the parvin and some possible role in human disease .
 9						introduction
 10						"the actin cytoskeleton play a critical role in maintain cellular shape , regulate cell motility and respond to mechanical strain ."
 11						"it be highly dynamic and respond to extracellular stimulus , such as hormone and growth factor , cell-cell adhesion and variation in the extracellular matrix ( ecm ) ."
@@ -18,7 +18,7 @@
 18						structural feature
 19						"the mammalian parvin protein family have three member ( alpha - , beta-_NN and gamma-parvin ) ."
 20						they be identify independently at approximately the same time by several laboratory base on they protein binding activity or sequence homology .
-21		rat	"e16,s2"	s2		"approximately 5 year ago , Nikolopoulos and Turner identify and clone a new f-actin and paxillin ld1 motif binding protein from a rat complementary dna ( cdna ) library and name it actopaxin ."
+21	taxonomy:10116	rat	"e16,s2"	s2		"approximately 5 year ago , Nikolopoulos and Turner identify and clone a new f-actin and paxillin ld1 motif binding protein from a rat complementary dna ( cdna ) library and name it actopaxin ."
 22						"in a yeast two-hybrid screening of ilk binding partner , tu et al. ."
 23						identify and clone a new ilk binding protein that contain two ch domain and hence name it calponin homology domain contain ILK binding protein or ch-ilkbp .
 24						"in a independent yeast two hybrid screening , Yamaji et al. ."
@@ -43,7 +43,7 @@
 43						"in human rhabdomyosarcoma cell , a additional alternatively splice isoform of parvb be identify , name CLINT ."
 44						this isoform originate from a alternative upstream exon code for 70 amino acid and result in a protein with 397 amino acid .
 45						for a comprehensive study of the genomic organization of the parvin see .
-46		human	s3			"human parva and parvb share 74 % identity and 85 % similarity , whereas the more distantly related PARVG share 42 % identity and 67 % similarity with PARVA ."
+46	taxonomy:9606	human	s3			"human parva and parvb share 74 % identity and 85 % similarity , whereas the more distantly related PARVG share 42 % identity and 67 % similarity with PARVA ."
 47						"the most distinct feature of parvin be the presence of two calponin homology ( ch ) domain in they c-terminal region , name ch1 and ch2 ."
 48						"each ch domain comprise approximately 100 amino acid , separate by a 60-amino acid linker ."
 49						"these ch domain be consider ' atypical ' in that they do not exactly match the consensus sequence of type 1 and type 2 ch domain present in a large number of actin binding protein such as alpha-actinin , spectrin and filamin ."
@@ -141,8 +141,8 @@
 141			"e18,e19"	c3		parva phosphorylation increase during cell spreading .
 142						phosphorylation during cell attachment and spreading appear to depend on erk activity .
 143						erk be recruit to fa by paxillin during cell spreading .
-144		osteosarcoma (U2OS) cells	c3			"a quintuple mutant of PARVA , in which all four n-terminal serine and t16 be mutate , be not phosphorylate and function as dominant negative , inhibit cell spreading and motility but increase f-actin formation in human osteosarcoma ( u2o ) cell ."
-145		kidney podocytes	"c4,e20,e21"	c4		"in kidney podocyte , overexpression of a PARVA mutant , in which the nterminal proline direct serine phosphorylation site be delete , reduce PARVA complex formation with ilk and inhibit podocyte adhesion , spread and survival , suggest a important role of parva phosphorylation in regulation of these process ."
+144	tissuelist:TS-0723	osteosarcoma (U2OS) cells	c3			"a quintuple mutant of PARVA , in which all four n-terminal serine and t16 be mutate , be not phosphorylate and function as dominant negative , inhibit cell spreading and motility but increase f-actin formation in human osteosarcoma ( u2o ) cell ."
+145	tissuelist:TS-0510	kidney podocytes	"c4,e20,e21"	c4		"in kidney podocyte , overexpression of a PARVA mutant , in which the nterminal proline direct serine phosphorylation site be delete , reduce PARVA complex formation with ilk and inhibit podocyte adhesion , spread and survival , suggest a important role of parva phosphorylation in regulation of these process ."
 146						the interaction of parva with tesk1 be also regulate by proline direct serine phosphorylation of PARVA .
 147						"unphosphorylated parva bind to tesk1 and inhibit its activity , therefore allow cofilin to reduce actin polymerization and spreading ."
 148						"upon cell adhesion , erk be activate to increase the phosphorylation at the n-terminus of PARVA , lead to release of tesk1 , phosphorylation of cofilin , f-actin polymerization at the lamellipodium , and increase spreading and motility ."
@@ -158,7 +158,7 @@
 158			e24	c5		"since both rac1 and parvin regulate the formation of lamellipodium , it be of great interest to study the interaction between integrins/PINCH/ILK / parvin and rac1 ."
 159						depletion of ILK and pinch-1 significantly ( 50-55 % ) reduce adhesion dependent activation of rac1 .
 160						"in striking contrast , depletion of PARVA result in a significant increase in rac1 activity and increase spreading ."
-161		Hela cells	c5			"in contrast , depletion of parvb in helum cell do not increase rac1 activity and cell spreading ."
+161	uaz:UA-CLine-100025	Hela cells	c5			"in contrast , depletion of parvb in helum cell do not increase rac1 activity and cell spreading ."
 162						"in fact , depletion of parvb in helum cell appear to slightly reduce rac1 activity ."
 163						"interestingly , overexpression of the ch1 fragment of parvb in mdck cell result in rac1 and cdc42 activation and increase cell spreading and motility with increase formation of lamellipodium and filopodium , a effect block by dominant negative racn17 and cdc42n17 ."
 164						"these effect appear to be mediate by interaction of the ch1 domain with apix ( arhgef6 ) , a gef activator of cdc42 and rac1 , since a inactive mutant of arhgef6 block this effect of ch1 ."
@@ -184,8 +184,8 @@
 184						"consistent with these observation , overexpression of unphosphorylatable PARVA mutant ( by deletion or mutation of n-terminal site ) act as dominant negative inhibitor of cell spreading , presumably by stay lock into a inactive tesk1 complex ."
 185						"similarly , overexpression of the ch2 domain of PARVA also inhibit cell spreading , despite proper localization to fa ."
 186						"it be unclear whether ch1 interacting protein , equivalent to the binding of arhgef6 to PARVB , also interact with parva and modulate its function at the fa ."
-187		platelets	"c6,e25,e26,e27,e28"	c6		"in platelet , a ilk and parvb complex be rapidly recruit to integrin beta3 upon thrombin stimulation , result in a transient increase in ilk activity and phosphorylation of parvb follow by translocation of the ILK and PARVB complex to the cytoskeletal fraction , where it may promote integrin-cytoskeleton interaction ."
-188		CHO cells	c7			"in cho cell , overexpression of the ch2 domain of parvb block cell spreading ."
+187	uaz:UA-CT-100034	platelets	"c6,e25,e26,e27,e28"	c6		"in platelet , a ilk and parvb complex be rapidly recruit to integrin beta3 upon thrombin stimulation , result in a transient increase in ilk activity and phosphorylation of parvb follow by translocation of the ILK and PARVB complex to the cytoskeletal fraction , where it may promote integrin-cytoskeleton interaction ."
+188	uaz:UA-CLine-100019	CHO cells	c7			"in cho cell , overexpression of the ch2 domain of parvb block cell spreading ."
 189			e29	c7		"this effect be reverse by cotransfection of ilk with intact kinase activity , suggest that phosphorylation of parvb by ILK may play a role in promote cell spreading ."
 190						"the n-terminus of parvb ch2 domain ( amino acid 249-272 ) interact with alpha-actinin ( n-terminal abd and c-terminal ef-hand domain ) only upon engagement of integrin with the ECM , with a peak at 60 min post-adhesion , when cell spreading be most active ."
 191						the interaction with alpha-actinin require phosphorylation of the ch2 domain of parvb by ILK upon cell adhesion .
@@ -210,7 +210,7 @@
 210						"transfection of PARVA restore ilk activity , as demonstrate by increase ilk kinase activity , gsk3beta s9 phosphorylation , akt s473 phosphorylation and beta-catenin/tcf/lef transcriptional activity ."
 211						"although ilk and pinch-1 likely work in concert with PARVA in regulation of akt phosphorylation , akt be not the only downstream target in ILK and pinch-1-mediated cell survival signaling ."
 212						role of parvin in striated muscle
-213		C. elegans	s3			"in C. elegan , the integrin dependent pathway involve in myofibrillogenesis have be clarify by forward genetic screen ."
+213	taxonomy:6239	C. elegans	s3			"in C. elegan , the integrin dependent pathway involve in myofibrillogenesis have be clarify by forward genetic screen ."
 214			"e30,e31"	s3		"deposition of the ecm protein perlecan and UNC -52 initiate outside-in signaling transduce by the integrin receptor , pat-3 , which then recruit two complex : ( i ) vinculin and deb1 , and ( ii ) ilk and PAT -4 + mig-2 / unc-112 ."
 215						"both of these complex be require for the formation of rudimentary fa , which will become the initial site of myofibril formation ( the dense body ) and subsequently of muscle attachment to the body wall ."
 216			"e32,e33"	s3		"maturation of dense body involve recruitment of PARVA and PAT -6 and pinch-1 / unc-97 , both of which bind to ILK and PAT -4 , as determine by yeast three-hybrid assay ."
@@ -224,7 +224,7 @@
 224						"the ch1 domain be dispensable for proper localization , but it be require for downstream event lead to myofibrillogenesis ."
 225						"recent study have demonstrate the presence of a pinch-1-ilk-parva complex in neonatal cardiac myocyte , and its recruitment to costamere associate with the z-disk of newly form sarcomere in response to hypertrophic stimulation with fibronectin and phenylephrine ."
 226						"a dominant negative mutant of ilk lack pinch-1 binding ( ilk-c ) remove ILK and PARVA from costamere location and induce mild hypertrophy , while promote apoptosis ."
-227		cardiac myocyte	c8			these observation suggest a role for PARVA in promote cell survival and inhibit hypertrophy in the cardiac myocyte .
+227	tissuelist:TS-0115	cardiac myocyte	c8			these observation suggest a role for PARVA in promote cell survival and inhibit hypertrophy in the cardiac myocyte .
 228			e35	c8		"since parva inhibit rac1 activity and this small g protein play a critical role in cardiac hypertrophy , we be currently investigate the possibility that PARVA and other ilk complex regulate the level of rac1 activity in cardiac myocyte ."
 229						parvb and ilk co-localize at region of the sarcolemma correspond to the z-disk in skeletal muscle ( costamere ) .
 230						"in another study , parvb co-localize and interact with the sarcolemmal protein , dysferlin , in human skeletal muscle ."
@@ -239,7 +239,7 @@
 239						overexpression of ilk with hyperactive kinase function have be show to occur in several transform epithelial cell and inhibition of ilk kinase or expression of ILK dominant negative mutant can reverse several feature of the transformed phenotype .
 240						the respective role of PARVA and PARVB in this oncogenic role of ILK have not be fully characterize .
 241						PARVA have be show to promote anti-apoptotic signaling from activate ilk .
-242		breast	"e36,t1"	t1		"in contrast , in breast cancer parvb appear to be a inhibitor of ilk kinase ."
+242	tissuelist:TS-0595	breast	"e36,t1"	t1		"in contrast , in breast cancer parvb appear to be a inhibitor of ilk kinase ."
 243						"in one recent study , parvb mrna and protein level be find to be markedly downregulate in a number of advanced tumor , together with increase in ilk protein level and kinase activity ."
 244						"low parvb level correlate with low adhesion to collagen and restore the level of parvb result in increase adhesion , and reversal of anchorage independent growth coincident with decrease ilk activity ."
 245						"in addition , overexpression of parvb increase apoptosis ."

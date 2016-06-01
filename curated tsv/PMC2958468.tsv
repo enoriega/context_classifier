@@ -1,6 +1,6 @@
 1						family-wide characterization of the denn domain Rab GDP-GTP exchange factor
 2						target or substrate rab gtpase be identify for 17 protein with denn domain .
-3	NA	human	s1			"a key requirement for rab function in membrane trafficking be site specific activation by gdp-gtp exchange factor ( gef ) , but the majority of the 63 human rab have no known gef ."
+3	taxonomy:9606	human	s1			"a key requirement for rab function in membrane trafficking be site specific activation by gdp-gtp exchange factor ( gef ) , but the majority of the 63 human rab have no known gef ."
 4						we have perform a systematic characterization of the 17 human denn domain protein and demonstrate that they be specific gef for 10 rab .
 5			"e1e2,e3,e4"	"s1,c1,c2"	dennd1a and 1b localize to clathrin patch at the plasma membrane and activate rab35 in a endocytic pathway trafficking shiga toxin to the trans-golgi network .	dennd1a and 1b localize to clathrin patch at the plasma membrane and activate rab35 in a endocytic pathway trafficking shiga toxin to the trans-golgi network .
 6			e5	"s1,c1,c2"	dennd2 gef target to actin filament and control rab9 dependent trafficking of mannose-6-phosphate receptor to lysosome .	dennd2 gef target to actin filament and control rab9 dependent trafficking of mannose-6-phosphate receptor to lysosome .
@@ -17,16 +17,16 @@
 17						gef and gap therefore play a key role in the specific activation and inactivation of Rab gtpase .
 18						the known Rab gef and gap typically fall into discrete family define by conserve protein domain .
 19			e29	s2	Rab gap characteristically contain a tbc domain that catalyze nucleotide hydrolysis by a arginine-glutamine two-finger mechanism .	"with the exception of the rab3gap1 and 2 protein , Rab gap characteristically contain a tbc domain that catalyze nucleotide hydrolysis by a arginine-glutamine two-finger mechanism ."
-20	NA	human	"s2,e29"	s2	"in human , the tbc domain family have over 40 member , and it be likely that these regulate all 63 human rab , with some tbc domain protein act on several closely related rab ."	"in human , the tbc domain family have over 40 member , and it be likely that these regulate all 63 human rab , with some tbc domain protein act on several closely related rab ."
+20	taxonomy:9606	human	"s2,e29"	s2	"in human , the tbc domain family have over 40 member , and it be likely that these regulate all 63 human rab , with some tbc domain protein act on several closely related rab ."	"in human , the tbc domain family have over 40 member , and it be likely that these regulate all 63 human rab , with some tbc domain protein act on several closely related rab ."
 21						"Rab gef be more diverse , and several conserve , yet structurally unrelated protein and protein complex have be show to have specific Rab gef activity ."
-22	NA	drosophila	"e30,e32,e33,e34,e35,e36,s3"	"s2,s3"	"the TRAPP and I complex activate ypt1p and rab1 , vps9 domain protein activate rab5 and ypt51p subfamily gtpase , sec2p and rabin protein activate sec4p gtpase , the ric1p and rgp1p complex activate ypt6p and possibly rab6 , the mon1p and ccz1p complex act on ypt7p and rab7 | the rcc1 domain protein claret , which may act as a gef for the unique rab lightoid in drosophila ."	"these be : the TRAPP and I complex activate ypt1p and rab1 , vps9 domain protein activate rab5 and ypt51p subfamily gtpase , sec2p and rabin protein activate sec4p gtpase , the ric1p and rgp1p complex activate ypt6p and possibly rab6 , the mon1p and ccz1p complex act on ypt7p and rab7 , and the rcc1 domain protein claret , which may act as a gef for the unique rab lightoid in drosophila ."
+22	taxonomy:7227	drosophila	"e30,e32,e33,e34,e35,e36,s3"	"s2,s3"	"the TRAPP and I complex activate ypt1p and rab1 , vps9 domain protein activate rab5 and ypt51p subfamily gtpase , sec2p and rabin protein activate sec4p gtpase , the ric1p and rgp1p complex activate ypt6p and possibly rab6 , the mon1p and ccz1p complex act on ypt7p and rab7 | the rcc1 domain protein claret , which may act as a gef for the unique rab lightoid in drosophila ."	"these be : the TRAPP and I complex activate ypt1p and rab1 , vps9 domain protein activate rab5 and ypt51p subfamily gtpase , sec2p and rabin protein activate sec4p gtpase , the ric1p and rgp1p complex activate ypt6p and possibly rab6 , the mon1p and ccz1p complex act on ypt7p and rab7 , and the rcc1 domain protein claret , which may act as a gef for the unique rab lightoid in drosophila ."
 23						"apart from claret , these gef and they target Rab gtpase act in trafficking pathway conserve from mammal to yeast ."
 24						"however , mammalian cell possess > 60 rab , compare with the 11 of bud yeast , and therefore require additional gef to activate these extra rab ."
 25						"at present , most of the 60 mammalian rab lack a defined gef activity , and it be therefore unclear how they would be specifically activate ."
 26						additional rab gef be therefore likely to exist .
 27						denn domain protein be first implicate as Rab gef by the biochemical purification of a rab3 gef from bovine brain .
 28						"this be subsequently identify as a denn domain protein , although it remain unclear which domain in the protein be responsible for gef activity ."
-29	NA	"caenorhabditis elegan, synapse"	"s4,e37,e38,t1"	"s4,t1"	MADD homologue aex-3 be responsible for control the activity of rab3 and rab27	further study reveal that the caenorhabditis elegan MADD homologue aex-3 be responsible for control the activity of rab3 and rab27 at the synapse .
+29	taxonomy:6239,uaz:UA-ORG-861	"caenorhabditis elegan, synapse"	"s4,e37,e38,t1"	"s4,t1"	MADD homologue aex-3 be responsible for control the activity of rab3 and rab27	further study reveal that the caenorhabditis elegan MADD homologue aex-3 be responsible for control the activity of rab3 and rab27 at the synapse .
 30						"more recently , a screen for defective receptor mediate yolk protein endocytosis in C. elegan identify another denn domain protein rme-4 , and indicate that it act on rab35 ."
 31						this be confirm by complementary study in mammalian cell show that the rme-4 homologue dennd1a and connecdenn be in fact a rab35 gef .
 32						these finding support the idea that denn domain protein might form a family of Rab gef .
@@ -36,7 +36,7 @@
 36						sequence search of the human genome use the denn domain of the rab3 gef MADD reveal the presence of 17 protein share this domain .
 37						"all these protein carry a full denn domain comprise the three upstream ( u-denn ) , core ( DENN ) , and downstream ( d-denn ) subregion ."
 38						"systematic search of the genome sequence database reveal that although widely conserve in metazoan and protozoan , these DENN domain protein be absent from the bud yeast saccharomyces cerevisiae use as a model for trafficking study ."
-39	NA	humans	"e40,s6"	s6	denn domain protein may act as gef for some of the many additional rab	this suggest that denn domain protein may act as gef for some of the many additional rab find in human and other metazoan .
+39	taxonomy:9606	humans	"e40,s6"	s6	denn domain protein may act as gef for some of the many additional rab	this suggest that denn domain protein may act as gef for some of the many additional rab find in human and other metazoan .
 40						"further analysis indicate that in addition to these protein , there be a group of related protein contain partial denn homology ."
 41						some of these such as avl9 and its homologue be conserve to bud yeast and other fungus .
 42						"because avl9 may be a gef for the non Rab ra family gtpase gtr2 in late golgus trafficking , these be unlikely to be Rab gef and they be not pursue further in this study ."
@@ -75,9 +75,9 @@
 75						"for these assay , 10 nm of flag tag dennd1a or dennd1c purify from helum cell , or 10 nm of his6 tag dennd1b-l purify from bacterium be use ."
 76						error bar show the standard error from the mean .
 77						the red line mark double the median value take as a threshold .
-78	NA	human	s7			human rab35 have previously be identify in a screen for regulator of shiga toxin trafficking from the plasma membrane to the trans-golgi network .
+78	taxonomy:9606	human	s7			human rab35 have previously be identify in a screen for regulator of shiga toxin trafficking from the plasma membrane to the trans-golgi network .
 79			e49	s7	dennd1a and dennd1b be specific gef for rab35	"if dennd1a and dennd1b be specific gef for rab35 , then they might be expect to localize to a membrane compartment of this trafficking pathway ."
-80	NA	HeLa cells	c3			"dennd1a localization be therefore examine in helum cell , where it be find to target to small punctate structure overlap with clathrin and the plasma membrane ap-2 clathrin adaptor ."
+80	uaz:UA-CLine-100025	HeLa cells	c3			"dennd1a localization be therefore examine in helum cell , where it be find to target to small punctate structure overlap with clathrin and the plasma membrane ap-2 clathrin adaptor ."
 81						the ap-1 and ap-3 clathrin adaptor associate with other trafficking step do not overlap with dennd1a .
 82						analysis of dennd1a complex use mass spectrometry show that they contain clathrin and component of the ap and 2 complex but not other clathrin adaptor .
 83			"e50,e51"	c3	 dennd1a specifically interact with clathrin and the ap and 2 complex	western blotting confirm that dennd1a specifically interact with clathrin and the ap and 2 complex but not other adaptor .
@@ -167,7 +167,7 @@
 167			e54	c4	analysis of the dennd4 family protein show that these specifically promote GDP release from and gtp binding to rab10	analysis of the dennd4 family protein show that these specifically promote GDP release from and gtp binding to rab10 and have no activity toward rab8 .
 168						"in contrast , sec2 domain protein rabin3 and rabin8 and rabin3-like and GRAB be specific gef for rab8a and rab8b and have no activity toward rab10 ."
 169			"e56,e57,e58"	c4	" the sec2 domain protein rabin8 and GRAB , and the denn domain protein of the dennd4 family could provide a means to activate rab8 and rab10 "	"thus , the sec2 domain protein rabin8 and GRAB , and the denn domain protein of the dennd4 family could provide a means to activate rab8 and rab10 , respectively , and thus independently control polarize trafficking ."
-170	NA	HeLa cells	c4			"although dennd4a and dennd4c show a diffuse cytoplasmic localization in helum cell , dennd4b be present on a tubular membrane compartment emanate from the perinuclear region ( and s1 ) ."
+170	uaz:UA-CLine-100025	HeLa cells	c4			"although dennd4a and dennd4c show a diffuse cytoplasmic localization in helum cell , dennd4b be present on a tubular membrane compartment emanate from the perinuclear region ( and s1 ) ."
 171						"strikingly , dennd4b staining be coincident with that of its target rab10 ."
 172						"this compartment do not overlap with marker for early endosome , recycle endosome , or lysosome , but do show partial overlap with the golgus marker gm130 ."
 173						Figure 6 .
@@ -213,7 +213,7 @@
 213						"denn protein be conserve in primitive unicellular eukaryote such as protozoan of the Naegleria genus , fission yeast , filamentous fungus , and plant ; however , they be absent from bud yeast ."
 214						"consistent with this , none of the DENN target rab identify by this study be present in bud yeast ."
 215						"as report previously , MADD act on rab27a , which function in melanosome transport ."
-216	NA	c. elegans	"s8,e64"	s8	 rme-4 act on rab35	dennd1 and the C. elegan equivalent rme-4 act on rab35 in endocytic trafficking pathway absent from bud yeast .
+216	taxonomy:6239	c. elegans	"s8,e64"	s8	 rme-4 act on rab35	dennd1 and the C. elegan equivalent rme-4 act on rab35 in endocytic trafficking pathway absent from bud yeast .
 217						previous investigation of the dennd1 and connecdenn protein in human cell have show that rab35 and dennd1a and connecdenn 1 play a role in recycling of mhc class i at a early endosomal compartment .
 218						"these author have also show that connecdenn protein interact with clathrin , and we finding confirm this for dennd1a and connecdenn 1 ."
 219						"we find that clathrin be require for shiga toxin delivery to the TGN , but not its endocytosis ."
@@ -311,7 +311,7 @@
 311						"fraction of 500 microl be collect , and absorption be measure at 280 and 552 nm ."
 312						"use molar extinction coefficient of 150,000 m-1cm-1 for cy3 and 170,000 m-1cm-1 for pentameric stxb , dye labeling be calculate as 1 cy3 per toxin subunit with a concentration of 0.7 mg and ml ."
 313						cell culture and protein purification from mammalian cell
-314	NA	"Hela, hek293"	"c1,c2"			helum and hek293 cell be culture in dme contain 10 % bovine calf serum ( Invitrogen ) at 37degreesc and 5 % co2 .
+314	tissuelist:TS-0136,uaz:UA-CLine-100079	"Hela, hek293"	"c1,c2"			helum and hek293 cell be culture in dme contain 10 % bovine calf serum ( Invitrogen ) at 37degreesc and 5 % co2 .
 315						"for plasmid transfection and sirna transfection , Mirus lt1 ( Mirus Bio LLC ) , and oligofectamine ( Invitrogen ) , respectively , be use accord to the manufacturer ' instruction ."
 316						"flag tag form of dennd1a , dennd1c , dennd3 , dennd4a , dennd4b , dennd4c , dennd5a , dennd5b , mtmr5 , mtmr13 , and MADD in pcdna5/frt/to be transiently express in 10 x 15-cm dish of 70 % confluent helum cell ."
 317						"after 48 h of growth , the cell pellet be lyse for 20 min on ice in 5 ml of cell lysis buffer ( 50 mm tris-hcl , ph 7.4 , 1 mm edta , 150 mm nacl , 0.5 % Triton x-100 , and protease inhibitor cocktail ) ."

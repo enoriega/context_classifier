@@ -24,7 +24,7 @@
 24						"We recently showed that the SASP is correlated with genotoxic stress , suggesting it is controlled by DDR signaling ."
 25						"However , p53 , a key DDR effector , was not required for the SASP , raising the possibility that the SASP and DDR are not linked ."
 26						"Here , we asked whether DDR components upstream of p53 regulate the SASP , focusing on two principal SASP factors , the inflammatory cytokines IL-6 and IL-8 ."
-27	NA	hca2	c1			We synchronously damaged DNA in HCA2 human diploid fibroblasts using ionizing radiation ( X-ray ) .
+27	uaz:UA-CLine-100103	hca2	c1			We synchronously damaged DNA in HCA2 human diploid fibroblasts using ionizing radiation ( X-ray ) .
 28						"A relatively low dose ( 0.5 Gy ) rapidly induced multiple 53BP1 foci in all nuclei and engaged the DDR , as indicated by p53 serine15 phosphorylation and upregulation of p21 , a cell cycle inhibitor and p53 target ."
 29						"Both indicators returned to near-baseline levels within 10 h , as cells resolved the 53BP1 foci and resumed growth ."
 30						"A senescence inducing dose ( 10 Gy ) also triggered a rapid DDR ; however , several 53BP1 foci failed to resolve , and increased in size ."
@@ -33,7 +33,7 @@
 33						"Therefore , low dose radiation induced a transient DDR , from which cells recovered , whereas a high dose generated PDDF , localized but constitutive DDR signaling , and senescence ."
 34						"Low dose radiation did not increase IL-6 secretion , which remained at control levels ."
 35						"A high dose , in contrast , increased IL-6 and IL-8 secretion 5- to 6-fold within 2-4 d , and to replicatively senescent levels within 3-5 d ."
-36	NA	WI-38	c2			Human WI-38 fibroblasts behaved similarly ( not shown ) .
+36	uaz:UA-CLine-100075	WI-38	c2			Human WI-38 fibroblasts behaved similarly ( not shown ) .
 37						"Thus , DNA damage and the DDR alone do not induce inflammatory cytokine secretion ; rather , secretion develops , after a delay , when the damage is sufficient to generate PDDF and persistent DDR signaling ."
 38						"To test this idea further , we used lentiviruses to express p16 INK4a , a cyclin dependent kinase inhibitor that causes a senescence arrest ."
 39						"The infected cells displayed few PDDF and secreted little IL-6 , yet expressed other senescence markers , including increased intracellular reactive oxygen species ."
@@ -46,7 +46,7 @@
 46						"We used immunostaining to assess cytokine expression , growth arrest ( absence of DNA synthesis ) and PDDF in single cells within senescing HCA2 populations ."
 47						Proliferating cells can acquire dysfunctional telomeres prior to arresting growth .
 48						"Indeed , PDDF positive cells did not necessarily fail to synthesize DNA , although they synthesized DNA less frequently than cells without PDDF ."
-49	NA	IMR90	c3			IMR90 fibroblasts behaved similarly .
+49	uaz:UA-CLine-100070	IMR90	c3			IMR90 fibroblasts behaved similarly .
 50						"Further , in late passage populations , many cells that synthesized DNA also showed robust immunostaining for IL-6 and MMP3 , another SASP factor ."
 51						"Together with the p16 INK4a results , these findings suggest that PDDF , rather than the senescence arrest per se , correlate with inflammatory cytokine secretion ."
 52						"To corroborate this idea , we suppressed telomeric PDDF in early passage HCA2 cells by expressing telomerase ( catalytic subunit , hTERT ) for 20 population doublings ( PDs ) ."
@@ -56,7 +56,7 @@
 56						Radiation generated PDDF and greatly increased IL-6 secretion in these cells .
 57						"Thus , hTERT reduced telomeric PDDF , but not radiation induced PPDF ( most of which are presumably non telomeric ) ."
 58						These results strengthen the idea that PDDF and persistent DDR signaling are responsible for inflammatory cytokine secretion .
-59	NA	hca2	"e10,e11,e12,c4"	c4	" GSE22 ( a dominant peptide suppressor of p53 activity ) or SV-40 T antigen ( SV40LT , which inactivates p53 and pRb )"	"To determine whether the tumor suppressors p53 and pRb were required for IL-6 secretion , we used lentiviruses to express either a short-hairpin RNA against p53 ( shp53 ) , GSE22 ( a dominant peptide suppressor of p53 activity ) or SV-40 T antigen ( SV40LT , which inactivates p53 and pRb ) in replicatively senescent HCA2 cells ."
+59	uaz:UA-CLine-100103	hca2	"e10,e11,e12,c4"	c4	" GSE22 ( a dominant peptide suppressor of p53 activity ) or SV-40 T antigen ( SV40LT , which inactivates p53 and pRb )"	"To determine whether the tumor suppressors p53 and pRb were required for IL-6 secretion , we used lentiviruses to express either a short-hairpin RNA against p53 ( shp53 ) , GSE22 ( a dominant peptide suppressor of p53 activity ) or SV-40 T antigen ( SV40LT , which inactivates p53 and pRb ) in replicatively senescent HCA2 cells ."
 60						"As expected for HCA2 , which express low levels of endogenous p16 INK4a , p53 inactivation reversed the senescence growth arrest and drove cells into crisis ( ; not shown ) ."
 61						"3-4 PDs after infection , IL-6 secretion did not decline , but rather increased ."
 62						"Thus , neither p53 , pRB nor the senescence arrest was required for IL-6 secretion ."

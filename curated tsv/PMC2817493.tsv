@@ -57,7 +57,7 @@
 57						the average age of patient positive for fgfr3 or hra mutation ( 74.9 year ) be significantly greater than for mutation negative case ( 57.6 year ) ( student t-test p = 0.0009 ) .
 58						"to evaluate further the role of fgfr3 and hra in spermatocytic seminoma , we examine protein distribution in 26 tumor , include all 7 mutation positive case ."
 59						fgfr3 ( ref . )
-60	NA	spermatocytes	"e1,c1"	c1	" perk1 and 2 , a activated effector of the mapk pathway"	"and HRAS be express in subpopulation of cell in normal seminiferous tubule ( inset ) ; perk1 and 2 , a activated effector of the mapk pathway , be present in the nucleus of a subset of spermatogonium , primary spermatocyte and a subset of round spermatid ( not show ) ."
+60	tissuelist:TS-0951	spermatocytes	"e1,c1"	c1	" perk1 and 2 , a activated effector of the mapk pathway"	"and HRAS be express in subpopulation of cell in normal seminiferous tubule ( inset ) ; perk1 and 2 , a activated effector of the mapk pathway , be present in the nucleus of a subset of spermatogonium , primary spermatocyte and a subset of round spermatid ( not show ) ."
 61						"in spermatocytic seminoma , we find strong positive staining for fgfr3 in 5 and 24 tumor ( include 1 and 2 that be fgfr3 mutation positive ) and for hra in 15 and 26 tumor ( include 4 and 5 that be hra mutation positive ) ; 18 and 26 ( 70 % ) of tumor be strongly positive for one or both protein ."
 62						"in most tumor ( 18 and 24 ) , include 6 and 7 mutate case , the presence of fgfr3 and hra be mutually exclusive , but this do not show a simple correlation with the gene mutate in the mutation positive case ."
 63						perk1 and 2 be detect in 14 and 25 ( 56 % ) of tumor .
@@ -71,7 +71,7 @@
 71						"the encoded protein be physiologically connect , as hra lie downstream of fgfr in the growth factor receptor signaling pathway , ."
 72						"by consider the additional gene ( RET , ptpn11 ) subject to paternal age effect mutation , these connection can be extend ."
 73			"e2,e3"	c1	" RET be , like fgfr , a receptor tyrosine kinase ( rtk )"	"hence , RET be , like fgfr , a receptor tyrosine kinase ( rtk ) that signal through ra and play a critical role in spermatogonial renewal ."
-74	NA	"spermatogonia,testicular,mice"	"e4,c2,c3,s1"	"c2,c3,s1"	"GDNF , the RET ligand"	"overexpression of GDNF , the RET ligand , lead to accumulation of undifferentiated spermatogonium and testicular tumor in older mouse ."
+74	uaz:UA-CT-200012,tissuelist:TS-1030,taxonomy:10090	"spermatogonia,testicular,mice"	"e4,c2,c3,s1"	"c2,c3,s1"	"GDNF , the RET ligand"	"overexpression of GDNF , the RET ligand , lead to accumulation of undifferentiated spermatogonium and testicular tumor in older mouse ."
 75			e5	"c2,c3,s1"	ptpn11 ( encode shp2 ) positively regulate rtk-ra signaling .	ptpn11 ( encode shp2 ) positively regulate rtk-ra signaling .
 76						a central role for abnormal fgfr3-ra signaling in the origin of spermatocytic seminoma be support by the immunohistochemical analysis .
 77						"both fgfr3 and ra be present in normal testis , but be markedly elevated in spermatocytic seminoma , include case lack fgfr3 and hra mutation ( in which other mechanism be presumably lead to upregulation of the protein ) ."
@@ -81,7 +81,7 @@
 81			"e6,e7"	c4	ra activate multiple pathway include those typically involve in proliferation ( mapk ) and survival ( pi3k ) .	ra activate multiple pathway include those typically involve in proliferation ( mapk ) and survival ( pi3k ) .
 82						"activate mutation of gene encode downstream component of the mapk pathway ( braf , raf1 , mek1 and mek2 ) , cause neuro-cardio-facial-cutaneous syndrome that overlap with ptpn11 and hra mutation , ; inhibition of the mapk pathway in mouse modeling specific fgfr2 and ptpn11 mutation ameliorate they abnormal phenotype , ."
 83						"we observe perk1 and 2 staining in 56 % of spermatocytic seminoma , indicate pathological activation of the mapk pathway ."
-84	NA	spermatogonial	c4			however the pi3k pathway have also be functionally implicate in spermatogonial self-renewal .
+84	uaz:UA-CT-200012	spermatogonial	c4			however the pi3k pathway have also be functionally implicate in spermatogonial self-renewal .
 85						we envisage a range of consequence for these selfish mutation occur in spermatogonial cell .
 86						"heterozygosity for the most highly activate mutation , such as fgfr3 k650e and hra q61r and k , cause severe , lethal phenotype when transmit in the germline , ."
 87						"additional secondary genetic change at these locus would lead , in combination with other mutation , to spermatocytic seminoma ."

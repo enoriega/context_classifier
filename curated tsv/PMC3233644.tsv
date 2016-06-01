@@ -2,7 +2,7 @@
 2			"e1,e2"	"s2,s1"		"raf kinase regulate cell proliferation and survival and can be dysregulate in tumor , ."
 3						a role for raf in cell proliferation have be link to its ability to activate mek and erk .
 4						"here , we identify a mek independent role for raf in tumor growth ."
-5		"murine, patients"	"e3,s1,s2"	"s2,s1"		"specifically , in mitotic cell , craf become phosphorylate on serine 338 and localize to the mitotic spindle of proliferate tumor cell in vitro and in murine tumor model or biopsy from cancer patient ."
+5	taxonomy:10090,taxonomy:9606	"murine, patients"	"e3,s1,s2"	"s2,s1"		"specifically , in mitotic cell , craf become phosphorylate on serine 338 and localize to the mitotic spindle of proliferate tumor cell in vitro and in murine tumor model or biopsy from cancer patient ."
 6			e4	"s2,s1"		"treatment of tumor with allosteric , but not atp-competitive raf inhibitor prevent craf phosphorylation on serine 338 , localization to the mitotic spindle and cause cell cycle arrest at pro-metaphase ."
 7						"furthermore , we identify phospho-s338 craf as a potential biomarker for tumor progression and a surrogate marker for allosteric raf blockade ."
 8			"e5,e6"	"s2,s1"		"mechanistically , craf , but not braf associate with aurora-a and Polo like kinase 1 at the centrosome and spindle pole during g2 and Mitosis ."
@@ -18,16 +18,16 @@
 18						"to address this , we evaluate kg1 , a structural analogue of kg5 that inhibit the same target except raf ."
 19			e11	"t1,t2"		"kg1 do not inhibit cell proliferation , indicate the effect of kg5 be due to raf inhibition ."
 20			e12	"t1,t2"		"phosphorylation of craf on serine 338 have be link to cancer progression - , - ."
-21		"breast, brain"	"e13,t1,t2"	"t1,t2"		"to determine whether kg5 could suppress this activity in vivo , we analyze orthotopic breast and brain tumor tissue for phospho-s338 craf before or after systemic delivery of the drug ."
+21	tissuelist:TS-0595,tissuelist:TS-0095	"breast, brain"	"e13,t1,t2"	"t1,t2"		"to determine whether kg5 could suppress this activity in vivo , we analyze orthotopic breast and brain tumor tissue for phospho-s338 craf before or after systemic delivery of the drug ."
 22						a single kg5 treatment lead to a qualitative decrease in phospho-s338 craf and a accumulation of cell at pro-metaphase .
 23						"importantly , while ectopic expression of active mek fail to rescue the effect of kg5 on cell proliferation , cell express a phospho-mimetic s338d craf mutant show resistance to kg5 suggest CRAF s338 play a mek independent role in cell proliferation that can be reverse by a allosteric inhibitor ."
-24		"mouse, embryonic fibroblasts"	"s3,c2"			we next examine mouse embryonic fibroblast ( mef ) derive from CRAF knockout embryo ( craf-/- ) .
+24	taxonomy:10090,uaz:UA-CLine-100060	"mouse, embryonic fibroblasts"	"s3,c2"			we next examine mouse embryonic fibroblast ( mef ) derive from CRAF knockout embryo ( craf-/- ) .
 25						"asynchronize craf-/- mef show a significant increase in the number of cell in g2 and m and pro-metaphase , compare to wildtype ( wt ) mef ."
 26						"follow synchronization , craf-/- mef accumulate in pro-metaphase with a dramatic delay in mitotic progression ."
 27						"depletion of CRAF in tumor cell , similarly lead to a accumulation of cell in g2 and m ."
 28			e14	"s3,c2"		"importantly , expression of kinase dead ( k375m ) , phospho-mimetic s338d or wt craf rescue this mitotic defect , whereas a non phosphorylatable ( s338a ) craf mutant , fail to do so , even though this mutant maintain kinase activity and can dimerize with braf ( datum not show ) ."
 29						"accordingly , xpa-1 human pancreatic cancer cell express WT CRAF complete mitosis in twenty minute whereas cell express craf s338a do so in 120 minute provide genetic evidence to support a kinase independent role for phospho-s338 craf in mitosis ."
-30		"breast,mice,patients"	"e15,t3,s4,s5"	"t3,s4,s5"		"furthermore , phospho-s338 craf be strongly increase in mitosis where it co-precipitate with gamma-tubulin and localized in g2 and m to the centrosome and mitotic spindle pole of tumor cell in vitro , or breast cancer tissue from mouse or patient ."
+30	tissuelist:TS-0595,taxonomy:10090,taxonomy:9606	"breast,mice,patients"	"e15,t3,s4,s5"	"t3,s4,s5"		"furthermore , phospho-s338 craf be strongly increase in mitosis where it co-precipitate with gamma-tubulin and localized in g2 and m to the centrosome and mitotic spindle pole of tumor cell in vitro , or breast cancer tissue from mouse or patient ."
 31						"importantly , kg5 , but not atp-competitive raf inhibitor , prevent this localization ."
 32						"moreover , in cell treat with the microtubule stabilize agent paclitaxel , craf remain localized to the mitotic spindle suggest that kg5 and paclitaxel arrest cell at pro-metaphase via distinct mechanism ."
 33			e16	"s4,s5"		previous study have reveal that craf and braf can form heterodimer and that braf can play a role in mitosis - .

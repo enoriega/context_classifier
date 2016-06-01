@@ -1,5 +1,5 @@
 1						Regulation of lipid binding underlies the activation mechanism of class IA PI3-kinases
-2	NA	human	s1	s1	"Somatic missense mutations in PIK3CA , which encodes the p110alpha catalytic subunit of phosphoinositide 3-kinases ( PI3Ks ) , occur frequently in human cancers ."	"Somatic missense mutations in PIK3CA , which encodes the p110alpha catalytic subunit of phosphoinositide 3-kinases ( PI3Ks ) , occur frequently in human cancers ."
+2	taxonomy:9606	human	s1	s1	"Somatic missense mutations in PIK3CA , which encodes the p110alpha catalytic subunit of phosphoinositide 3-kinases ( PI3Ks ) , occur frequently in human cancers ."	"Somatic missense mutations in PIK3CA , which encodes the p110alpha catalytic subunit of phosphoinositide 3-kinases ( PI3Ks ) , occur frequently in human cancers ."
 3					"Activating mutations spread across multiple domains , some of which are located at inhibitory contact sites formed with the regulatory subunit p85alpha ."	"Activating mutations spread across multiple domains , some of which are located at inhibitory contact sites formed with the regulatory subunit p85alpha ."
 4			e1	s1	"PIK3R1 , which encodes p85alpha , also has activating somatic mutations ."	"PIK3R1 , which encodes p85alpha , also has activating somatic mutations ."
 5			e2	"s1,s2"	 complexes of p110alpha and p85alpha .	"We find a strong correlation between lipid kinase and lipid binding activities , for both wild-type ( WT ) and a representative set of oncogenic mutant complexes of p110alpha and p85alpha ."
@@ -22,7 +22,7 @@
 22						"Central among these are PDK1 and PKB and AKT , which orchestrate signalling cascades promoting cell growth , proliferation , survival , metabolism and migration ."
 23						"Cellular levels of PtdIns ( 3,4,5 ) P 3 are tightly regulated ."
 24			e15	s3	"PTEN down-regulates p110 signalling by removing the 3 ' - phosphate of PtdIns ( 3,4,5 ) P 3 ."	"PTEN down-regulates p110 signalling by removing the 3 ' - phosphate of PtdIns ( 3,4,5 ) P 3 ."
-25	NA	human	"e16,e17,e18,e19,s3"	s3	"Up regulation of PI3K signalling , through amplification or gain-of-function mutations of RTKs , p110alpha and AKTs , as well as loss of PTEN function and expression"	"Up regulation of PI3K signalling , through amplification or gain-of-function mutations of RTKs , p110alpha and AKTs , as well as loss of PTEN function and expression , occurs frequently in human cancers ."
+25	taxonomy:9606	human	"e16,e17,e18,e19,s3"	s3	"Up regulation of PI3K signalling , through amplification or gain-of-function mutations of RTKs , p110alpha and AKTs , as well as loss of PTEN function and expression"	"Up regulation of PI3K signalling , through amplification or gain-of-function mutations of RTKs , p110alpha and AKTs , as well as loss of PTEN function and expression , occurs frequently in human cancers ."
 26			e20	"s2,s3"	"Uniquely among the four class I PI3K isoforms that produce PtdIns ( 3,4,5 ) P 3"	"Uniquely among the four class I PI3K isoforms that produce PtdIns ( 3,4,5 ) P 3 , p110alpha has been identified with activating cancer linked somatic mutations ."
 27						"Over 80 % of the missense mutations cluster in two ' hotspots ' commonly represented by E545K in the helical domain , and H1047R in the kinase domain ."
 28						Both display transforming activities in cell culture .
@@ -49,7 +49,7 @@
 49						We also noted unusual structural features of the kinase C-terminal tail and tested their function .
 50						"We observe global conformational changes that might be of relevance to allosteric regulation of p110alpha , and provide a structural context to understand the functional data presented here ."
 51						Results
-52	NA	"mouse, human"	"s4,s5"	"s4,s5"	Structure of a wildtype p110alpha and p85alpha-iSH 2 complex	Structure of a wildtype p110alpha and p85alpha-iSH 2 complex
+52	taxonomy:10090,taxonomy:9606	"mouse, human"	"s4,s5"	"s4,s5"	Structure of a wildtype p110alpha and p85alpha-iSH 2 complex	Structure of a wildtype p110alpha and p85alpha-iSH 2 complex
 53			"e34,e35"	"s4,s5"	A crystal structure of mouse WT p110alpha in complex with human p85alpha niSH2 fragment and the p110beta and p110delta selective inhibitor PIK-108	A crystal structure of mouse WT p110alpha in complex with human p85alpha niSH2 fragment and the p110beta and p110delta selective inhibitor PIK-108 has been determined and refined to 3.5 A ( R work / R free = 0.184 / 0.228 ) ( acronyms of p110alpha and p85alpha domain structures and mutations are illustrated in ) .
 54						Details of crystallographic statistics are provided in .
 55						"Although other compounds that inhibit p110alpha more specifically were surveyed for co-crystallization , the p110beta and delta selective PIK-108 produced the best crystals ."
@@ -203,7 +203,7 @@
 203						"Investigating the influence of upstream RTK signalling could elucidate the yet unclear roles of the different PI3K mutations in cancer initiation , progression and maintenance , and in identifying suitable biomarkers for cancer therapy targeting the PI3K pathway ."
 204						Materials and methods
 205						Plasmids
-206	NA	mouse	s2			"Details of expression constructs for p110alpha , p110beta , p110delta ( all mouse ) , p85alpha ( mouse , except for the ' ni ' fragment which is human ) , and Grp1-PH ( human ) are provided in ."
+206	taxonomy:10090	mouse	s2			"Details of expression constructs for p110alpha , p110beta , p110delta ( all mouse ) , p85alpha ( mouse , except for the ' ni ' fragment which is human ) , and Grp1-PH ( human ) are provided in ."
 207						Domain boundaries of p85alpha fragments are shown in .
 208						Protein expression and purification
 209						All p110 and p85 complexes were co-expressed in Sf9 insect cells .
