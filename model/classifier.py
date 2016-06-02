@@ -520,7 +520,7 @@ def print_tsv_segment(element):
 
     sections, docnums = annotationData['sections'], annotationData['docnums']
 
-    print '%s %s %s' % (datum.namespace, datum.eid, datum.ctx)
+    print '%s %s %s' % (datum.namespace, datum.evt, datum.ctx)
     if datum.evtIx <= datum.ctxIx:
         ret.append("EVENT ->")
     else:

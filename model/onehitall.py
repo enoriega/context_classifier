@@ -17,6 +17,8 @@ from model import *
 from scipy.stats import bernoulli, ttest_1samp
 from unbalanced_dataset import *
 from sklearn.metrics import f1_score
+from scipy.sparse import vstack
+from classification_results import *
 import classifier
 
 np.random.seed(0)
@@ -26,11 +28,11 @@ def parse_data(paths, annDir, use_reach, testing=False):
 
     # Read everything
     accumulated_data = []
-    vectors = []
-    labels = []
+    features = {}
+    labels = {}
 
     hashes = {}
-    accumulator = 0
+    #accumulator = 0
     pos, neg = 0, 0
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
@@ -48,6 +50,7 @@ def parse_data(paths, annDir, use_reach, testing=False):
             # We need negative examples
             negatives = generateNegativesFromNER(data, annotationData)
 
+            # TODO: Consider Zechy's heuristic here
             if len(negatives) > 0:
                 # Randomly pick a subset of negatives
                 if not testing:
@@ -67,31 +70,28 @@ def parse_data(paths, annDir, use_reach, testing=False):
         for ix, datum in enumerate(augmented):
             accumulated_data.append(datum)
             vector = classifier.createFeatures(datum, tsv, annotationData)
-            vectors.append(vector)
-            # Generate clusters for type 2 eval
-            hashes[accumulator+ix] = hash(datum)
+            features[datum] = vector
 
-        labels += [datum.label for datum in augmented]
-        accumulator += len(augmented)
 
-    print
+        for datum in augmented:
+            labels[datum] = datum.label
+
+        #accumulator += len(augmented)
+
+    # print
     # print 'Positives: %i Negatives:%i Total:%i' % (pos, neg, pos + neg)
-    print
+    # print
 
-    return labels, vectors, hashes, accumulated_data
+    return labels, features, accumulated_data
 
 @np.vectorize
 def policy(datum):
     return classifier.policy(datum, 3)
 
-def machine_learning(X, y, data, train_ix, test_ix):
-    X_train, X_test = X[train_ix], X[test_ix]
-    y_train, y_test = y[train_ix], y[test_ix]
-    data_test = data[test_ix]
+def machine_learning(X_train, y_train, X_test, y_test):
 
-    y_policy = policy(data_test)
-    policy_f1 = f1_score(y_test, y_policy)
-
+    # y_policy = policy(data_test)
+    # policy_f1 = f1_score(y_test, y_policy)
     normalize(X_train, norm='l2', copy=False)
     normalize(X_test, norm='l2', copy=False)
 
@@ -99,16 +99,15 @@ def machine_learning(X, y, data, train_ix, test_ix):
 
     lr.fit(X_train, y_train)
     y_pred = lr.predict(X_test)
-    model_f1 = f1_score(y_test, y_pred)
 
-    return policy_f1, model_f1
+    return y_pred
 
 def testing(paths, annDir, testing_ids, eval_type, use_reach):
     ''' Puts all together for measuring the test set '''
 
     print "Parsing data"
     paths = set(paths)
-    labels, vectors, hashes, data = parse_data(paths, annDir, use_reach)
+    labels, features, hashes, data = parse_data(paths, annDir, use_reach)
 
     # Group indexes by paper id
     groups = {p:[] for p in paths}
@@ -130,9 +129,9 @@ def testing(paths, annDir, testing_ids, eval_type, use_reach):
     data = np.asarray(data)
 
     dv = DictVectorizer()
-    dv.fit(vectors)
+    dv.fit(features)
 
-    X = dv.transform(vectors)
+    X = dv.transform(features)
     y = np.asarray(labels)
 
     indices = set(range(len(data)))
@@ -152,7 +151,7 @@ def crossval(paths, annDir, eval_type, use_reach):
 
     print "Parsing data"
     paths = set(paths)
-    labels, vectors, hashes, data = parse_data(paths, annDir, use_reach)
+    labels, features, data = parse_data(paths, annDir, use_reach)
 
     # Group indexes by paper id
     groups = {p:[] for p in paths}
@@ -174,29 +173,46 @@ def crossval(paths, annDir, eval_type, use_reach):
     data = np.asarray(data)
 
     dv = DictVectorizer()
-    dv.fit(vectors)
+    dv.fit(features.values())
 
-    X = dv.transform(vectors)
-    y = np.asarray(labels)
+    # Build a feature vector and attach it to each datum
+    vectors = {k:dv.transform(v) for k, v in features.iteritems()}
 
-    f1_diffs = []
-    model_f1s = {}
 
-    indices = set(range(len(data)))
+    c_results, p_results = [], []
+
     # Do the "Cross-validation" only on those papers that have more than N papers
     for path in groups.keys():
 
-        others = paths - {path}
-        test_ix = set(groups[path])
-        train_ix = list(indices - test_ix)
-        test_ix = list(test_ix)
+        training_paths = paths - {path}
 
-        policy_f1, model_f1 = machine_learning(X, y, data, train_ix, test_ix)
+        X_train, X_test = [], []
+        y_train, y_test = [], []
+        data_test = []
 
-        f1_diffs.append(model_f1 - policy_f1)
-        model_f1s[path] = model_f1
+        for datum in data:
+            if datum.namespace in training_paths:
+                X_train.append(vectors[datum])
+                y_train.append(labels[datum])
+            else:
+                X_test.append(vectors[datum])
+                y_test.append(labels[datum])
+                data_test.append(datum)
 
-    return pd.Series(f1_diffs), model_f1s
+
+        model_pred = machine_learning(vstack(X_train), y_train, vstack(X_test), y_test)
+
+        policy_results = ClassificationResults("Model %s" % path, y_test, model_pred)
+
+        policy_pred = policy(np.asarray(data_test))
+        policy_result = ClassificationResults("Policy %s" % path, y_test, policy_pred)
+
+        c_results.append(policy_results)
+        p_results.append(policy_result)
+
+
+    #return pd.Series(f1_diffs), model_f1s
+    return c_results, p_results
 
 
 # Entry point
@@ -214,15 +230,14 @@ if __name__ == "__main__":
     if use_reach:
         print "Using REACH's data"
 
-    f1_diffs, model_f1s = crossval(paths, annDir, eval_type=ev, use_reach = use_reach)
-    t = ttest_1samp(f1_diffs, 0)
+    model_results, policy_results = crossval(paths, annDir, eval_type=ev, use_reach = use_reach)
 
-    # print "Individual F1 scores"
-    # for k, v in model_f1s.iteritems():
-    #     print '%s: %f' % (k, v)
 
-    print "Mean diff:  %f" % f1_diffs.mean()
-    print "p-value: %f" % t.pvalue
+    # t test
+    # t = ttest_1samp(f1_diffs, 0)
+    #
+    # print "Mean diff:  %f" % f1_diffs.mean()
+    # print "p-value: %f" % t.pvalue
 
     # testing_f1_diff = testing(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach)
     # print "testing F1 diff: %f" % testing_f1_diff

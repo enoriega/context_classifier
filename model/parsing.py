@@ -25,20 +25,47 @@ def get_pmcid(name):
 class Datum(object):
     ''' Represents an event/candidate context mention pair '''
 
-    def __init__(self, namespace, evtIx, ctxIx, ctx, eid, label):
+
+
+    def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, evt, label):
         self.namespace = namespace
         self.evtIx = evtIx
         self.ctxIx = ctxIx
         self.ctx = ctx
         self.label = label
-        self.eid = eid
+        self.evt = evt
+        self.ctxGrounded = ctxGrounded
+        self._hash = None
+
+    def __eq__(self, other):
+        if isinstance(other, Datum):
+            if self.namespace == other.namespace and \
+                self.evtIx == other.evtIx and \
+                self.ctxIx == other.ctxIx and \
+                self.evt == other.evt and \
+                self.ctx == other.ctx:
+                #self.ctxGrounded == other.ctxGrounded:
+                return True
+            else:
+                return False
+        else:
+            return False
+
+    def __neq__(self, other):
+        return not self.__eq__(other)
 
     def __hash__(self):
-        s = self.namespace+str(self.evtIx)+str(self.ctxIx)+self.ctx
-        return hash(s)
+        if self._hash is None:
+            self._hash = hash(self.namespace) + \
+                hash('EvtIx %i' % self.evtIx) + \
+                hash('EvtIx %i' % self.ctxIx) + \
+                hash(self.ctx) + \
+                hash(self.evt)
+
+        return self._hash
 
     def __str__(self):
-        return "%s line %i %s %s" % (self.namespace, self.evtIx, self.eid, self.ctx)
+        return "%s line %i %s %s %s" % (self.namespace, self.evtIx, self.evt, self.ctx, self.ctxGrounded)
 
     def __repr__(self):
         return str(self)
@@ -49,7 +76,7 @@ def saveErrors(errors, path):
     rows = []
     for err in errors:
         datum, etype = err
-        rows.append([datum.namespace, datum.evtIx, datum.eid, datum.ctx, etype])
+        rows.append([datum.namespace, datum.evtIx, datum.evt, datum.ctx, etype])
 
     with open(path, 'w') as f:
         writter = csv.writer(f)
@@ -71,17 +98,22 @@ def extractData(tsv, name, true_only=False):
         j = int(x['num'])
 
         #print j-i
-        tbs, ix, cxs = x['tbAnn'], i, x['ctx']
+        tbs, ix, cxs, cxgrounding = x['tbAnn'], i, x['ctx'], x['ctxId']
+        contextCounter = 0
         for tb in tbs:
             if isEvent(tb):
                 for cx in cxs:
                     events.append((tb, ix, cx))
             elif isContext(tb):
                 # This would be context annotations
-                context.append((tb, ix))
+                try:
+                    context.append((tb, ix, cxgrounding[contextCounter]))
+                    contextCounter += 1
+                except:
+                    print "Error in grounding id for file %s in line %i" % (name, i)
 
     eLines = {e[0]:e[1] for e in events}
-    cLines = {c[0]:c[1] for c in context}
+    cLines = {c[0]:(c[1], c[2]) for c in context}
 
     # Generate negative examples
     sortedEvents = sorted(events, key=lambda x: x[0])
@@ -92,7 +124,7 @@ def extractData(tsv, name, true_only=False):
     def getOtherContext(location, excluded, num=100):
         ''' Pick randomly another context with a probability proportional to it's distance from pivot '''
 
-        candidateContexts = [(k, abs(v-location)) for k, v in cLines.iteritems() if k not in excluded]
+        candidateContexts = [(k, abs(v[0]-location)) for k, v in cLines.iteritems() if k not in excluded]
         if len(candidateContexts) > 0:
             probs = np.asarray([x[1] for x in candidateContexts], dtype=float)
             probs /= probs.sum()
@@ -111,7 +143,7 @@ def extractData(tsv, name, true_only=False):
     def getAllOtherContext(location, excluded):
         ''' Pick all the other contexts from Xia's annotations '''
 
-        candidateContexts = [(k, abs(v-location)) for k, v in cLines.iteritems() if k not in excluded]
+        candidateContexts = [(k, abs(v[0]-location)) for k, v in cLines.iteritems() if k not in excluded]
         if len(candidateContexts) > 0:
 
             return {c[0] for c in candidateContexts}
@@ -125,21 +157,21 @@ def extractData(tsv, name, true_only=False):
 
     added = set()
     for e in events:
-        eid, line, ctx = e
-        if (eid, ctx) not in added:
+        evt, line, ctx = e
+        if (evt, ctx) not in added:
             # Get the context line
             try:
-                cLine = cLines[ctx]
-                true.append(Datum(name, line, cLine, ctx, eid, 1))
-            except e:
-                print e
+                cLine, cGrounding = cLines[ctx]
+                true.append(Datum(name, line, cLine, ctx, cGrounding, evt, 1))
+            except:
+                print "Key error %s %s" % (ctx, name)
 
 
             #print '%s: %s' % (k, [x[2] for x in g])
 
-            localContext = groups[eid]
+            localContext = groups[evt]
 
-            added.add((eid, ctx))
+            added.add((evt, ctx))
 
             if not true_only:
                 # Pick a negative example
@@ -149,8 +181,8 @@ def extractData(tsv, name, true_only=False):
                 if ctx2s is not None:
                     for ctx2 in ctx2s:
                         try:
-                            cLine2 = cLines[ctx2]
-                            true.append(Datum(name, line, cLine2, ctx2, eid, 0))
+                            cLine2, cGrounding2 = cLines[ctx2]
+                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, evt, 0))
                         except e:
                             print e
 
@@ -163,6 +195,7 @@ def generateNegativesFromNER(positives, annotationData):
     # Generate a context label for contex
     alternatives = {}
     offset = 9000
+
     for k, v in enumerate(mentions):
         for i in v:
             start, end, cid = i
@@ -181,26 +214,26 @@ def generateNegativesFromNER(positives, annotationData):
                 print cid
                 ctype = 'X'
 
-            
+
             if ctype == 'X':
                 continue
 
-            alternatives['%s%i' % (ctype, offset)] = k
+            alternatives['%s%i' % (ctype, offset)] = (k, cid)
             offset += 1
 
 
     negatives = []
     for datum in positives:
         for alternative, ix in alternatives.iteritems():
-            if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
-                new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative, datum.eid, 0)
+            if datum.ctxIx != ix[0] or datum.ctx[0].upper() != alternative[0].upper():
+                new_datum = Datum(datum.namespace, datum.evtIx, ix[0], alternative.upper(), ix[1].upper(), datum.evt, 0)
                 negatives.append(new_datum)
 
 
     return negatives
 
 not_permited_context = {'go', 'uniprot'}
-not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast'}
+not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast', 'head', 'neck', 'arm', 'leg'}
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
 
@@ -293,7 +326,7 @@ def annotationStats(paths, annotationsDir):
         annotations = [d for d in extractData(tsv, p, False) if d.label == 1]
         row['refs'] = len(annotations)
         row['ctx_annotations'] = len({a.ctx for a in annotations})
-        row['evt_annotations'] = len({a.eid for a in annotations})
+        row['evt_annotations'] = len({a.evt for a in annotations})
         rows.append(row)
 
     return pd.DataFrame(rows).set_index('id')
@@ -361,7 +394,7 @@ def pandas(tsv, name):
         for tb in tbs:
             if isEvent(tb):
                 for cx in cxs:
-                    events.append({"eid":tb, "name":name, "sentence":ix, "context":cx})
+                    events.append({"evt":tb, "name":name, "sentence":ix, "context":cx})
             elif isContext(tb):
                 # This would be context annotations
                 context.append({"cid":tb, "name":name, "sentence":ix, "type":tb[0].lower()})
