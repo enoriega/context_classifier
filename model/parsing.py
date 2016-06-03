@@ -27,7 +27,7 @@ class Datum(object):
 
 
 
-    def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, evt, label):
+    def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, evt, label, golden):
         self.namespace = namespace
         self.evtIx = evtIx
         self.ctxIx = ctxIx
@@ -35,6 +35,7 @@ class Datum(object):
         self.label = label
         self.evt = evt
         self.ctxGrounded = ctxGrounded
+        self.golden = golden
         self._hash = None
 
     def __eq__(self, other):
@@ -162,7 +163,7 @@ def extractData(tsv, name, true_only=False):
             # Get the context line
             try:
                 cLine, cGrounding = cLines[ctx]
-                true.append(Datum(name, line, cLine, ctx, cGrounding, evt, 1))
+                true.append(Datum(name, line, cLine, ctx, cGrounding, evt, 1, golden=True))
             except:
                 print "Key error %s %s" % (ctx, name)
 
@@ -182,7 +183,7 @@ def extractData(tsv, name, true_only=False):
                     for ctx2 in ctx2s:
                         try:
                             cLine2, cGrounding2 = cLines[ctx2]
-                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, evt, 0))
+                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, evt, 0, golden=False))
                         except e:
                             print e
 
@@ -226,7 +227,7 @@ def generateNegativesFromNER(positives, annotationData):
     for datum in positives:
         for alternative, ix in alternatives.iteritems():
             if datum.ctxIx != ix[0] or datum.ctx[0].upper() != alternative[0].upper():
-                new_datum = Datum(datum.namespace, datum.evtIx, ix[0], alternative.upper(), ix[1].upper(), datum.evt, 0)
+                new_datum = Datum(datum.namespace, datum.evtIx, ix[0], alternative.upper(), ix[1].upper(), datum.evt, 0, golden=False)
                 negatives.append(new_datum)
 
 
