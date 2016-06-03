@@ -23,7 +23,7 @@ import classifier
 
 np.random.seed(0)
 
-def parse_data(paths, annDir, use_reach, testing=False):
+def parse_data(paths, annDir, use_reach, relabeling, testing=False):
     ''' Reads and process stuff '''
 
     # Read everything
@@ -48,9 +48,8 @@ def parse_data(paths, annDir, use_reach, testing=False):
 
         if use_reach:
             # We need negative examples
-            negatives = generateNegativesFromNER(data, annotationData)
+            negatives = generateNegativesFromNER(data, annotationData, relabeling)
 
-            # TODO: Consider Zechy's heuristic here
             if len(negatives) > 0:
                 # Randomly pick a subset of negatives
                 if not testing:
@@ -61,6 +60,7 @@ def parse_data(paths, annDir, use_reach, testing=False):
 
 
                 negatives = np.random.choice(negatives, size=size if size <= len(negatives) else len(negatives), replace=False)
+
                 augmented = data + list(negatives)
             pos += len(data)
             neg += len(negatives)
@@ -146,12 +146,12 @@ def testing(paths, annDir, testing_ids, eval_type, use_reach):
 
     return f1_diff
 
-def crossval(paths, annDir, eval_type, use_reach):
+def crossval(paths, annDir, eval_type, use_reach, relabeling):
     ''' Puts all together '''
 
     print "Parsing data"
     paths = set(paths)
-    labels, features, data = parse_data(paths, annDir, use_reach)
+    labels, features, data = parse_data(paths, annDir, use_reach, relabeling)
 
     # Group indexes by paper id
     groups = {p:[] for p in paths}
@@ -225,14 +225,16 @@ if __name__ == "__main__":
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
     use_reach = True
+    relabeling = True
     ev = EVAL1
 
     if use_reach:
         print "Using REACH's data"
 
-    model_results, policy_results = crossval(paths, annDir, eval_type=ev, use_reach = use_reach)
+    model_results, policy_results = crossval(paths, annDir, eval_type=ev, use_reach = use_reach, relabeling=relabeling)
 
-
+    macro_results, micro_results = MacroAverage("Macro model", model_results), MicroAverage("Micro model", model_results)
+    macro_policy, micro_policy = MacroAverage("Macro policy", model_results), MicroAverage("Micro policy", model_results)
     # t test
     # t = ttest_1samp(f1_diffs, 0)
     #

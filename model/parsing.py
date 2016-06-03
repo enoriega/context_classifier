@@ -189,10 +189,9 @@ def extractData(tsv, name, true_only=False):
 
     return true+false
 
-def generateNegativesFromNER(positives, annotationData):
+def generateNegativesFromNER(positives, annotationData, relabeling):
     ''' Generates all the negative examples out of the annotation data '''
     mentions = annotationData['mentions']
-
     # Generate a context label for contex
     alternatives = {}
     offset = 9000
@@ -225,11 +224,17 @@ def generateNegativesFromNER(positives, annotationData):
 
     negatives = []
     for datum in positives:
-        for alternative, ix in alternatives.iteritems():
-            if datum.ctxIx != ix[0] or datum.ctx[0].upper() != alternative[0].upper():
-                new_datum = Datum(datum.namespace, datum.evtIx, ix[0], alternative.upper(), ix[1].upper(), datum.evt, 0, golden=False)
-                negatives.append(new_datum)
+        for alternative, val in alternatives.iteritems():
+            ix, cid = val
+            if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
+                # Do the relabeling
+                if relabeling:
+                    label = 1 if cid.upper() == datum.ctxGrounded else 0
+                else:
+                    label = 0
 
+                new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative.upper(), cid.upper(), datum.evt, label, golden=False)
+                negatives.append(new_datum)
 
     return negatives
 
