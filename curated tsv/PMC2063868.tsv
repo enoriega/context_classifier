@@ -32,10 +32,10 @@
 32			E21	C1	 sema4d and plexin-b 1 induce suppression of beta1 integrin activity	we also reveal that down regulation of phosphatydylinositol 3-kinase ( pi3-k ) activity be responsible for sema4d and plexin-b 1 induce suppression of beta1 integrin activity and cell migration .
 33						result
 34						sema4d antagonize integrin mediated cell migration
-35	uaz:TS-0801	PC12 cells	C1			we examine the effect of sema4d on integrin mediated migration of pc12 cell in a cell migration assay .
+35	tissuelist:TS-0801	PC12 cells	C1			we examine the effect of sema4d on integrin mediated migration of pc12 cell in a cell migration assay .
 36						"transwell chamber be coat on the lower side with vary concentration of collagen i. pc12 cell exhibit a collagen concentration dependent promotion of cell migration , which be antagonize by sema4d ."
 37						"the collagen dependent pc12 cell migration be mediate by alpha1 and beta1 integrin subunit , as functional block antibody against alpha1 and beta1 integrin subunit strongly impair the migration ."
-38	uaz:TS-0801	PC12	"E22,C3"	C3	sema4d antagonize the collagen receptor	"these result indicate that sema4d antagonize the collagen receptor , alpha1 and beta1 integrin dependent pc12 cell migration ."
+38	tissuelist:TS-0801	PC12	"E22,C3"	C3	sema4d antagonize the collagen receptor	"these result indicate that sema4d antagonize the collagen receptor , alpha1 and beta1 integrin dependent pc12 cell migration ."
 39						Figure 1 .
 40						sema4d antagonize integrin mediated cell migration .
 41						( a ) pc12 cell be test in the transwell assay either in the presence or absence of sema4d .
@@ -48,7 +48,7 @@
 48						sema4d through plexin-b1 inhibit ECM mediate activation of r-ra and beta1 integrin
 49						"R-Ras be implicate in integrin mediate cell migration , and expression of a constitutively active form of r-ra have be show to stimulate cell migration ."
 50			E23	C4	sema4d stimulation down-regulate ngf stimulate r-ra activity via the r-ra gap activity of plexin-b1 to induce neurite retraction .	we previously report that sema4d stimulation down-regulate ngf stimulate r-ra activity via the r-ra gap activity of plexin-b1 to induce neurite retraction .
-51	uaz:TS-0801	PC12 cells	C4			we next test whether stimulation of pc12 cell with collagen and sema4d affect r-ras activity .
+51	tissuelist:TS-0801	PC12 cells	C4			we next test whether stimulation of pc12 cell with collagen and sema4d affect r-ras activity .
 52						"pc12 cell be plate onto collagen coated dish and lyse , and the lysate be incubate with the gst fuse ra binding domain of c-raf-1 ( gst-rbd ) to pull down activate r-ra ."
 53						"as show in , cell plate on collagen coated dish show a collagen concentration dependent increase in endogenous r-ra activity , whereas those keep in suspension or plate onto the non-integrin-dependent substrate poly-d-lysine do not ."
 54			"E24,E25"	C4	"collagen dependent activation of r-ra be inhibit by a functional block antibody against beta1 integrin , p5d2 , and be enhance by affinity related activation of beta1 integrin by the monoclonal antibody 8a2 , which mechanically induce a high-affinity state of beta1 integrin ."	"furthermore , the collagen dependent activation of r-ra be inhibit by a functional block antibody against beta1 integrin , p5d2 , and be enhance by affinity related activation of beta1 integrin by the monoclonal antibody 8a2 , which mechanically induce a high-affinity state of beta1 integrin ."
@@ -91,7 +91,7 @@
 91						( c ) relative cell migration be determine by the number of the migrated cell normalize to the total number of cell .
 92						result be the means + /- sem of three independent experiment .
 93						"bar , 1 mm ."
-94	uaz:TS-0801	PC12 cells	"E55,C5"	C5	sema4d be mediate by suppression of beta1 integrin activity	inhibition of cell migration by sema4d be mediate by suppression of beta1 integrin activity
+94	tissuelist:TS-0801	PC12 cells	"E55,C5"	C5	sema4d be mediate by suppression of beta1 integrin activity	inhibition of cell migration by sema4d be mediate by suppression of beta1 integrin activity
 95						we test whether sema4d mediate inhibition of cell migration be mediate by suppression of beta1 integrin activity .
 96						pc12 cell preincubate with 5 mug and ml beta1 integrin activate monoclonal antibody ( 8a2 ) be subject to the transwell assay .
 97						we test the migration at relatively low concentration of collagen ( ~ 3.0 mug and ml ) because this antibody inhibit cell migration at high concentration of the ecm ligand by freezing beta1 at a high-affinity state .
@@ -186,7 +186,7 @@
 186						relative cell migration be determine by the number of the migrated cell normalize to the total number of the transfected cell .
 187						result be the means + /- sem of three independent experiment .
 188						"bar , 1 mm ."
-189	uaz:TS-0801	PC12 cells	C11			we further confirm that the r-ra gap activity exhibit by endogenous plexin-b1 be require for sema4d mediate inhibition of ECM mediate pc12 cell migration .
+189	tissuelist:TS-0801	PC12 cells	C11			we further confirm that the r-ra gap activity exhibit by endogenous plexin-b1 be require for sema4d mediate inhibition of ECM mediate pc12 cell migration .
 190			E105	C11	we recently report that the cytoplasmic region of plexin-b1 by nature take the intramolecularly tethered form and that disruption of the interaction between the nh2-terminal region ( n-cyt ) and the cooh-terminal region ( c-cyt ) within the cytoplasmic domain by rnd1 binding to n-cyt be essential for exhibit the r-ra gap activity .	we recently report that the cytoplasmic region of plexin-b1 by nature take the intramolecularly tethered form and that disruption of the interaction between the nh2-terminal region ( n-cyt ) and the cooh-terminal region ( c-cyt ) within the cytoplasmic domain by rnd1 binding to n-cyt be essential for exhibit the r-ra gap activity .
 191						"C-Cyt associate with n-cyt-gga , which have no ability to interact with rnd1 , and rnd1 can not disrupt this interaction ."
 192			"E106,E107,E108"	C11	" overexpression of plexin-b1-n-cyt-gga could effectively block the sema4d and plexin-b 1 and rnd1 complex mediate r-ras gap activity , suggest that plexin-b1-_NN n-cyt-gga could be a effective tool to inhibit the r-ra gap activity of plexin-b1 in a dominant negative manner ."	"as show in , overexpression of plexin-b1-n-cyt-gga could effectively block the sema4d and plexin-b 1 and rnd1 complex mediate r-ras gap activity , suggest that plexin-b1-_NN n-cyt-gga could be a effective tool to inhibit the r-ra gap activity of plexin-b1 in a dominant negative manner ."
@@ -203,7 +203,7 @@
 203						result be the means + /- sem of three independent experiment .
 204						"bar , 1 mm ."
 205						we also examine the role of endogenous r-ras protein in pc12 cell migration .
-206	uaz:TS-0801	PC12 cells	C12			"transfection of the r-ras sirna effectively reduce the expression of endogenous r-ras protein in pc12 cell , whereas the control sirna do not work , and expression of r-ras sirna almost completely suppress the collagen dependent cell migration , suggest that r-ra be a prime regulator for integrin mediate cell migration in pc12 cell ."
+206	tissuelist:TS-0801	PC12 cells	C12			"transfection of the r-ras sirna effectively reduce the expression of endogenous r-ras protein in pc12 cell , whereas the control sirna do not work , and expression of r-ras sirna almost completely suppress the collagen dependent cell migration , suggest that r-ra be a prime regulator for integrin mediate cell migration in pc12 cell ."
 207			E109	C12	sema4d and plexin-b 1 mediate r-ras gap activity	these result demonstrate that activation of endogenous r-ras protein be essential for the ecm mediate cell migration and that regulation of r-ra activity through sema4d and plexin-b 1 mediate r-ras gap activity play a key role in ECM mediate cell migration .
 208			E110	C13	sema4d and plexin-b 1-rnd1 inhibit pi3-k activity through its r-ra gap activity	sema4d and plexin-b 1-rnd1 inhibit pi3-k activity through its r-ra gap activity
 209						"PI3-K be the predominant effector of r-ra , and r-ras-mediated cell migration be sensitive to pharmacological pi3-k inhibitor ."
@@ -235,7 +235,7 @@
 235			E140	C14	down regulation of pi3-k activity downstream of sema4d and plexin-b 1 be necessary for inhibition of beta1 integrin activity .	we next examine whether the down regulation of pi3-k activity downstream of sema4d and plexin-b 1 be necessary for inhibition of beta1 integrin activity .
 236			"E141,E142"	C14	 overexpression of p110alpha-caax block sema4d and plexin-b 1 dependent inactivation of beta1 integrin .	"as show in , overexpression of p110alpha-caax block sema4d and plexin-b 1 dependent inactivation of beta1 integrin ."
 237						we also examine the ability of sema4d to inhibit cell migration in cell express p110alpha-caax .
-238	uaz:TS-0801	PC12 cells	C15			"as show in , overexpression of p110alpha-caax in pc12 cell almost completely block the sema4d mediate inhibition of cell migration ."
+238	tissuelist:TS-0801	PC12 cells	C15			"as show in , overexpression of p110alpha-caax in pc12 cell almost completely block the sema4d mediate inhibition of cell migration ."
 239			E143	"C14,C15"	"down regulation of pi3-k activity , downstream of sema4d and plexin-b 1 , be responsible for suppression of beta1 integrin activity"	"these result suggest that down regulation of pi3-k activity , downstream of sema4d and plexin-b 1 , be responsible for suppression of beta1 integrin activity and inhibition of the ecm mediate cell migration ."
 240						Figure 10 .
 241						down regulation of pi3-k activity be responsible for sema4d and plexin-b 1 induce suppression of beta1 integrin activity .

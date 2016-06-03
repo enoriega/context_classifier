@@ -121,7 +121,7 @@
 121						protein ( wish and and or n-wasp ) which be purify as describe above be inject at a final concentration of 4 mum .
 122						result
 123						"identification of a Ash and grb2-binding protein , wish"
-124	"taxonomy:10090,uaz:UA-ORG-879,uaz:TS-0650"	"mouse, skeletal muscle, c2 myoblasts"	"s1,t4,c3"			"to clarify the downstream signaling of Ash and grb2 , we search for binding protein by screen a lambdazapius cdna expression library of mouse skeletal muscle c2 myoblast with gst-ash and grb2 fusion protein express in e. coli ."
+124	"taxonomy:10090,uaz:UA-ORG-879,tissuelist:TS-0650"	"mouse, skeletal muscle, c2 myoblasts"	"s1,t4,c3"			"to clarify the downstream signaling of Ash and grb2 , we search for binding protein by screen a lambdazapius cdna expression library of mouse skeletal muscle c2 myoblast with gst-ash and grb2 fusion protein express in e. coli ."
 125			"e8,e9,e10"	"s1,t4,c3"	"Ash and grb2 binding protein include c-cbl , dynamin , and ack"	"we isolate clone that encode Ash and grb2 binding protein include c-cbl , dynamin , and ack , as well as several novel protein ."
 126						"among the novel clone , there be a 2,848-bp cdna ( sequence datum available from genbank/embl/ddbj under accession no ."
 127						af130313 ) contain a open reading frame that encode a 711-amino acid protein ( a ) .

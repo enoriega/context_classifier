@@ -160,7 +160,7 @@
 160						"while the mechanism underlie these defect be unknown , it be possible that p107 may be act as a co-factor for neuron specific protein such as neurod1 , a basic helix-loop-helix transcription factor know to be important in the development of mature neuron ."
 161						"thus , p107 can partially or fully compensate for the loss of rb in several tissue during development ."
 162						tumor suppression
-163	"uaz:TS-087,uaz:UA-CLine-100071"	"pediatric retinoblastoma,osteosarcoma"	"c6,c7"			"rb be mutate in a variety of sporadic and familiar human cancer , most notably in pediatric retinoblastoma and osteosarcoma ."
+163	"tissuelist:TS-087,uaz:UA-CLine-100071"	"pediatric retinoblastoma,osteosarcoma"	"c6,c7"			"rb be mutate in a variety of sporadic and familiar human cancer , most notably in pediatric retinoblastoma and osteosarcoma ."
 164	taxonomy:9606	human	s1			mutation in p107 itself have not be observe in human tumor .
 165						"so far , the only observe deletion of p107 have be characterize in myeloproliferative disorder , where a large region of chromosome 20q contain up to 115 gene be delete [ - ] ."
 166						"despite the lack of mutation or deletion of p107 in human tumor , it still may play a role in tumorigenesis , as mutation in upstream regulator of the rb family be common ."
@@ -210,7 +210,7 @@
 210						these difference in p107 transcriptional regulation may also be see within the different tissue of the same organism .
 211						"for example , if deregulation of the rb pathway can be find in almost all human tumor , why , then , do rb heterozygous patient primarily only develop a narrow spectrum of tumor , mainly retinoblastoma and osteosarcoma ?"
 212						"this discrepancy may be explain by the fact that some tissue can upregulate p107 in response to rb loss , whereas other can not ."
-213	"uaz:UA-ORG-623,uaz:TS-087,uaz:UA-CT-200005,uaz:UA-CT-15,taxonomy:10090,uaz:UA-ORG-537"	"retinal progenitors,keratinocytes,hepatocytes,epithelial cells, mouse, lung"	"e16,c8,c9,c10,c11,s4,t4"	"c8,c9,c10,c11,s4,t4"	upregulation of p107 be see in several cell type upon rb loss	"indeed upregulation of p107 be see in several cell type upon rb loss , include mouse retinal progenitor , keratinocyte , hepatocyte , and lung epithelial cell ."
+213	"uaz:UA-ORG-623,tissuelist:TS-087,uaz:UA-CT-200005,uaz:UA-CT-15,taxonomy:10090,uaz:UA-ORG-537"	"retinal progenitors,keratinocytes,hepatocytes,epithelial cells, mouse, lung"	"e16,c8,c9,c10,c11,s4,t4"	"c8,c9,c10,c11,s4,t4"	upregulation of p107 be see in several cell type upon rb loss	"indeed upregulation of p107 be see in several cell type upon rb loss , include mouse retinal progenitor , keratinocyte , hepatocyte , and lung epithelial cell ."
 214						"interestingly , p107 seem to be the main rb family member that can perform this function , as upregulation of p130 be generally not see in response to rb or p107 or both ."
 215						conclusion
 216						"to fully understand the tumor suppressor function of rb in human tumor , it be important to understand the function of each of the family member , both individually and as a group ."

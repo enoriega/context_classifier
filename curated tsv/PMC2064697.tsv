@@ -302,7 +302,7 @@
 302						"s3 a ) , suggest that senescence be not induce by nonspecific effect cause by the overproduction of nonfunctional histone h1 protein ."
 303						"interestingly , the senescence induction and reduce level of endogenous histone h1 be well correlate : only n fusion show both effect , whereas the other recombinant histone h1 protein show neither ."
 304						we do not know why n fusion but not c fusion affect the level of endogenous histone h1 and induce sahf formation .
-305	uaz:TS-20000	SK-N-SH neuroblastoma cells	"E30,E31,C15"	C15	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .
+305	tissuelist:TS-20000	SK-N-SH neuroblastoma cells	"E30,E31,C15"	C15	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .	it have be report that n-terminal gfp tag histone h1 .1 bind to chromatin with higher affinity than c-terminal gfp tag histone h1 .1 in sk-n-sh neuroblastoma cell .
 306						it be possible that such different affinity cause different stability of endogenous histone h1 protein .
 307						"alternatively , n-terminal gfp may perturb the incorporation of endogenous histone h1 into neighbor nucleosome by steric hindrance , for example ."
 308						embryonic stem cell homozygously delete of three out of six somatic histone h1 variant gene be viable and show apparently normal growth .

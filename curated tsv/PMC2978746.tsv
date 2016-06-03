@@ -123,7 +123,7 @@
 123						"to confirm these finding , we perform a bromodeoxyuridine ( brdu ) assay use uninfected wi-38 cell , or sort wi-38 cell express t7-c and ebpbeta1 and gfp or gfp only , as show in ."
 124						"the wi-38-t7-c / ebpbeta1 cell have significantly less brdu staining than control ( p = 0.027 ) , confirm the result from that c and ebpbeta1 expression in wi-38 cell inhibit they proliferation ."
 125	uaz:UA-CLine-888	wi-38 fibroblasts	"e43,c23"	c23	c and ebpbeta1 induce il6	c and ebpbeta1 induce il6 in wi-38 fibroblast
-126	uaz:TS-0650	HDFs	c24			report that activate raf ( e600 ) - induce senescence in hdf be due to activation of a inflammatory transcriptome .
+126	tissuelist:TS-0650	HDFs	c24			report that activate raf ( e600 ) - induce senescence in hdf be due to activation of a inflammatory transcriptome .
 127			e44	c24	 il6 activation by c and ebpbeta .	this elegant study demonstrate that activate raf ( e600 ) - induce senescence be dependent upon il6 activation by c and ebpbeta .
 128						thus we examine if a specific transactivator isoform of c and ebpbeta be induce il6 expression .
 129						"rna be prepare six day posti-infection from wi-38 cell infect with lzrs-t7-c / ebpbeta1-ires-egfp , lzrs-t7-c / ebpbeta2-ires-egfp , lzrs-gfp , or pbabe-ras ( v12 ) - puromycin ."
@@ -198,7 +198,7 @@
 198						"importantly , one study have examine the specific role of c and ebpbeta2 in activate macrophage by generate a knock-in mouse in which the second in-frame methionine necessary for translation of c and ebpbeta2 be replace with a alanine ."
 199						this abolish expression of c and ebpbeta2 in these mouse .
 200			e70	c37	" induction of c and ebpbeta target gene , such as il6"	"the induction of c and ebpbeta target gene , such as il6 , be examine in this study ."
-201	uaz:TS-0650	HDFs	c37			"activate macrophage in the mouse unable to express c and ebpbeta2 be still able to induce il6 expression , consistent with we current finding that c and ebpbeta2 be not the primary isoform responsible for induction of il6 in hdf ."
+201	tissuelist:TS-0650	HDFs	c37			"activate macrophage in the mouse unable to express c and ebpbeta2 be still able to induce il6 expression , consistent with we current finding that c and ebpbeta2 be not the primary isoform responsible for induction of il6 in hdf ."
 202						"c and ebpbeta play many functional role in the cell , even role that seem conflict such as cell survival , cell death , proliferation , senescence , and transformation ."
 203						this may be explain in part by the presence of the different isoform of c and ebpbeta and they functional difference .
 204						future study on c and ebpbeta will need to take into consideration that the different isoform of this transcription factor be likely playing functionally distinct role .
