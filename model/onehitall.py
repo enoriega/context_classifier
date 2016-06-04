@@ -246,7 +246,7 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling, conservative_eval,
                 else:
                     train_negative.append(datum)
 
-            k = 1# Ratio of negatives per positives for balancing
+            k = 4# Ratio of negatives per positives for balancing
             size = len(train_positive)*k
             if size < len(train_negative):
                 balanced_negatives = np.random.choice(train_negative, size, replace=False).tolist()
@@ -274,32 +274,47 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling, conservative_eval,
 
         # One-hit-all approach
         if one_hit_all:
-            # Build a map of positive decisions per event
-            hits = defaultdict(set)
-            policy_hits = defaultdict(set)
-            for y, py, datum in it.izip(model_pred, policy_pred, data_test):
-                event, context = datum.evt, datum.ctxGrounded
-                if y == 1:
-                    hits[event].add(context)
-                if py == 1:
-                    policy_hits[event].add(context)
-            # Now, relabel the predictions
-            new_preds, new_policy = [], []
-            for y, py, datum in it.izip(model_pred, policy_pred, data_test):
-                event, context = datum.evt, datum.ctxGrounded
-                if context in hits[event]:
-                    new_preds.append(1)
-                else:
-                    new_preds.append(0)
+            ctx_types = list({d.ctxGrounded for d in data_test})
+            ctx_types.sort()
+            local_events = list({d.evt for d in data_test})
+            local_events.sort
 
-                if context in policy_hits[event]:
-                    new_policy.append(1)
-                else:
-                    new_policy.append(0)
+            predicted_bag = set()
+            for datum, prediction in it.izip(data_test, model_pred):
+                if prediction == 1:
+                    predicted_bag.add((datum.evt, datum.ctxGrounded))
 
-            # Assign the postprocessed predictions
-            model_pred = new_preds
-            policy_pred = new_policy
+            policy_bag = set()
+            for datum, prediction in it.izip(data_test, policy_pred):
+                if prediction == 1:
+                    policy_bag.add((datum.evt, datum.ctxGrounded))
+
+            truth_bag = set()
+            for datum, prediction in it.izip(data_test, y_test):
+                if prediction == 1:
+                    truth_bag.add((datum.evt, datum.ctxGrounded))
+
+            new_model_pred, new_policy_pred, new_truth = [], [], []
+            for evt in local_events:
+                for ctx in ctx_types:
+                    if (evt, ctx) in predicted_bag:
+                        new_model_pred.append(1)
+                    else:
+                        new_model_pred.append(0)
+
+                    if (evt, ctx) in policy_bag:
+                        new_policy_pred.append(1)
+                    else:
+                        new_policy_pred.append(0)
+
+                    if (evt, ctx) in truth_bag:
+                        new_truth.append(1)
+                    else:
+                        new_truth.append(0)
+
+        y_test = new_truth
+        model_pred = new_model_pred
+        policy_pred = new_policy_pred
         ######################
 
         model_results = ClassificationResults("Model %s" % path, y_test, model_pred)
@@ -325,9 +340,9 @@ if __name__ == "__main__":
     use_reach = True # Use reach's context extractions to extend the data set
     relabeling = RELABEL # Relabel alternative examples if they have the same type as one of Xia's choices for it's event
     conservative_eval = False # Only evaluate over Xia's annotations
-    limit_training = True # Only use the training examples that are in the neighborhood of the golden annotations
+    limit_training = False # Only use the training examples that are in the neighborhood of the golden annotations
     one_hit_all = True # If one datum is classified positively, all data with the same context grounded id are postclassified as positive
-    balance_dataset = False # Use a 1:K ratio of positive to negative examples during training
+    balance_dataset = True # Use a 1:K ratio of positive to negative examples during training
 
     ev = EVAL1
 
