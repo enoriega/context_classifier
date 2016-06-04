@@ -16,6 +16,10 @@ from sklearn.feature_extraction import DictVectorizer
 EVAL1="ref"
 EVAL2="sentence"
 
+NO=0
+RELABEL=1
+EXCLUDE=2
+
 def get_pmcid(name):
     ''' returns the pmcid out of a tsv file name '''
     pmcid = name.split(os.path.sep)[-1].split('.')[0]
@@ -228,10 +232,14 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
             ix, cid = val
             if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
                 # Do the relabeling
-                if relabeling:
+                if relabeling != NO:
                     label = 1 if cid.upper() == datum.ctxGrounded else 0
                 else:
                     label = 0
+
+
+                if label == EXCLUDE:
+                    continue
 
                 new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative.upper(), cid.upper(), datum.evt, label, golden=False)
                 negatives.append(new_datum)

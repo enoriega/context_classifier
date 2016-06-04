@@ -52,11 +52,11 @@ class ClassificationResults(object):
 
     @property
     def f1(self):
-        den = 2*(self.precision+self.recall)
+        den = (self.precision+self.recall)
         if den == 0.:
             return 0
         else:
-            return (self.precision*self.recall)/den
+            return 2*((self.precision*self.recall)/den)
 
     def __repr__(self):
         return "CR %s - P:%f\tR:%f\tF1:%f" % (self.name, self.precision, self.recall, self.f1)

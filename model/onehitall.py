@@ -20,6 +20,7 @@ from sklearn.metrics import f1_score
 from scipy.sparse import vstack
 from classification_results import *
 import classifier
+import os
 
 np.random.seed(0)
 
@@ -40,7 +41,7 @@ def parse_data(paths, annDir, use_reach, relabeling, testing=False):
         data = extractData(tsv, path, use_reach)
 
         # Skip this paper if it has less than 10 positive annotations
-        if len([d for d in data if d.label == 1]) < 20:
+        if len([d for d in data if d.label == 1]) < 1:
             continue
 
         annotationData = extractAnnotationData(pmcid, annDir)
@@ -59,9 +60,9 @@ def parse_data(paths, annDir, use_reach, relabeling, testing=False):
                     size = len(negatives)
 
 
-                negatives = np.random.choice(negatives, size=size if size <= len(negatives) else len(negatives), replace=False)
+                negatives = list(np.random.choice(negatives, size=size if size <= len(negatives) else len(negatives), replace=False))
 
-                augmented = data + list(negatives)
+                augmented = data + negatives
             pos += len(data)
             neg += len(negatives)
             # print '%s Positives:%i Negatives:%i Total:%i' % (pmcid, len(data), len(negatives), len(data)+len(negatives))
@@ -75,12 +76,6 @@ def parse_data(paths, annDir, use_reach, relabeling, testing=False):
 
         for datum in augmented:
             labels[datum] = datum.label
-
-        #accumulator += len(augmented)
-
-    # print
-    # print 'Positives: %i Negatives:%i Total:%i' % (pos, neg, pos + neg)
-    # print
 
     return labels, features, accumulated_data
 
@@ -146,8 +141,18 @@ def testing(paths, annDir, testing_ids, eval_type, use_reach):
 
     return f1_diff
 
-def crossval(paths, annDir, eval_type, use_reach, relabeling):
+def crossval(paths, annDir, eval_type, use_reach, relabeling, conservative_eval, limit_training, balance_dataset):
     ''' Puts all together '''
+
+    def in_neighborhood(datum, intervals):
+        ''' Used to filter a datum if it's not within the neighborhood of (min, max) '''
+
+        for interval in intervals:
+            minIx, maxIx = interval
+            if datum.ctxIx >= minIx and datum.ctxIx <= maxIx:
+                return True
+
+        return False
 
     print "Parsing data"
     paths = set(paths)
@@ -167,7 +172,25 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling):
 
     groups = groups2
 
+    print
+    print "Cross-validation"
     print "Using %i papers" % len(groups2)
+    if relabeling: print "Doing relabeling"
+    if conservative_eval: print "Doing conservative evaluation"
+    if limit_training: print "Limiting training data range"
+    if balance_dataset: print "Balancing data set during training"
+    if one_hit_all: print "One-hit-all"
+    print "Total golden data: %i\tTotal expanded data: %i" % (len([d for d in data if d.golden]), len([d for d in data if not d.golden]))
+    print
+
+    # Only use the training data
+    if limit_training:
+        # Compute the range of the annotations
+        intervals = defaultdict(list)
+        k = 2
+        for datum in data:
+            if datum.golden:
+                intervals[datum.namespace].append((datum.ctxIx-k, datum.ctxIx+k))
 
     # Make it a numpy array to index it more easily
     data = np.asarray(data)
@@ -182,32 +205,107 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling):
     c_results, p_results = [], []
 
     # Do the "Cross-validation" only on those papers that have more than N papers
-    for path in groups.keys():
+    for ix, path in enumerate(groups.keys()):
+
+        print "Fold: %i" % (ix+1)
 
         training_paths = paths - {path}
 
         X_train, X_test = [], []
         y_train, y_test = [], []
-        data_test = []
+        data_train, data_test = [], []
 
         for datum in data:
             if datum.namespace in training_paths:
+
+                if limit_training:
+                    if not in_neighborhood(datum, intervals[datum.namespace]):
+                        continue
+
                 X_train.append(vectors[datum])
                 y_train.append(labels[datum])
-            else:
+                data_train.append(datum)
+
+
+        for datum in data:
+            if datum.namespace not in training_paths:
+                if conservative_eval:
+                    if not datum.golden:
+                        continue
+
                 X_test.append(vectors[datum])
                 y_test.append(labels[datum])
                 data_test.append(datum)
 
+        # Balance the dataset if necessary
+        if balance_dataset:
+            train_positive, train_negative = [], []
+            for datum in data_train:
+                if datum.label == 1:
+                    train_positive.append(datum)
+                else:
+                    train_negative.append(datum)
+
+            k = 1# Ratio of negatives per positives for balancing
+            size = len(train_positive)*k
+            if size < len(train_negative):
+                balanced_negatives = np.random.choice(train_negative, size, replace=False).tolist()
+            else:
+                balanced_negatives = train_negative
+
+            data_train = train_positive + balanced_negatives
+
+            X_train = [vectors[datum] for datum in data_train]
+            y_train = [labels[datum] for datum in data_train]
+
+        p = len([d for d in data_train if d.label == 1])
+        n = len([d for d in data_train if d.label == 0])
+        r = n/float(p)
+        print "Training data: %i positives\t%i negatives\t%f N:P ratio" % (p, n, r)
+        p = len([d for d in data_test if d.label == 1])
+        n = len([d for d in data_test if d.label == 0])
+        r = n/float(p)
+        print "Testing data: %i positives\t%i negatives\t%f N:P ratio" % (p, n, r)
+        print
+
 
         model_pred = machine_learning(vstack(X_train), y_train, vstack(X_test), y_test)
-
-        policy_results = ClassificationResults("Model %s" % path, y_test, model_pred)
-
         policy_pred = policy(np.asarray(data_test))
+
+        # One-hit-all approach
+        if one_hit_all:
+            # Build a map of positive decisions per event
+            hits = defaultdict(set)
+            policy_hits = defaultdict(set)
+            for y, py, datum in it.izip(model_pred, policy_pred, data_test):
+                event, context = datum.evt, datum.ctxGrounded
+                if y == 1:
+                    hits[event].add(context)
+                if py == 1:
+                    policy_hits[event].add(context)
+            # Now, relabel the predictions
+            new_preds, new_policy = [], []
+            for y, py, datum in it.izip(model_pred, policy_pred, data_test):
+                event, context = datum.evt, datum.ctxGrounded
+                if context in hits[event]:
+                    new_preds.append(1)
+                else:
+                    new_preds.append(0)
+
+                if context in policy_hits[event]:
+                    new_policy.append(1)
+                else:
+                    new_policy.append(0)
+
+            # Assign the postprocessed predictions
+            model_pred = new_preds
+            policy_pred = new_policy
+        ######################
+
+        model_results = ClassificationResults("Model %s" % path, y_test, model_pred)
         policy_result = ClassificationResults("Policy %s" % path, y_test, policy_pred)
 
-        c_results.append(policy_results)
+        c_results.append(model_results)
         p_results.append(policy_result)
 
 
@@ -224,17 +322,26 @@ if __name__ == "__main__":
     paths = glob.glob(os.path.join(directory, '*.tsv'))
     #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
 
-    use_reach = True
-    relabeling = True
+    use_reach = True # Use reach's context extractions to extend the data set
+    relabeling = RELABEL # Relabel alternative examples if they have the same type as one of Xia's choices for it's event
+    conservative_eval = False # Only evaluate over Xia's annotations
+    limit_training = True # Only use the training examples that are in the neighborhood of the golden annotations
+    one_hit_all = True # If one datum is classified positively, all data with the same context grounded id are postclassified as positive
+    balance_dataset = False # Use a 1:K ratio of positive to negative examples during training
+
     ev = EVAL1
 
     if use_reach:
         print "Using REACH's data"
 
-    model_results, policy_results = crossval(paths, annDir, eval_type=ev, use_reach = use_reach, relabeling=relabeling)
+    model_results, policy_results = crossval(paths, annDir, eval_type=ev, use_reach = use_reach,\
+                                            relabeling=relabeling, conservative_eval=conservative_eval,\
+                                            limit_training=limit_training, balance_dataset=balance_dataset)
 
     macro_results, micro_results = MacroAverage("Macro model", model_results), MicroAverage("Micro model", model_results)
-    macro_policy, micro_policy = MacroAverage("Macro policy", model_results), MicroAverage("Micro policy", model_results)
+    macro_policy, micro_policy = MacroAverage("Macro policy", policy_results), MicroAverage("Micro policy", policy_results)
+
+    os.system('say "your program has finished"')
     # t test
     # t = ttest_1samp(f1_diffs, 0)
     #
