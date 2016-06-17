@@ -1,0 +1,273 @@
+embryonic	uaz:TS-0229
+10T1/2 cells	uaz:UA-CLine-5106
+293T	uaz:UA-CLine-100002
+293T cells	uaz:UA-CLine-100002
+8505c	uaz:UA-CLine-2081
+A375	uaz:UA-CLine-5240
+B cells	uaz:UA-CLine-100005
+B lymphocytes	uaz:UA-CLine-100009
+BCPAP	uaz:UAZ00002
+BMMCs	uaz:UA-CLine-100011
+BaF3 cells	uaz:UA-CLine-6116
+C. elegans	taxonomy:6239
+C2C12	uaz:UA-CLine-1001000
+CHO cells	uaz:UA-CLine-100019
+COS cells	uaz:UA-CLine-100020
+COS-7	uaz:UA-CLine-100020
+COS-7 cell	uaz:UA-CLine-100020
+COS-7 cells	uaz:UA-CLine-100020
+COS1	uaz:UA-CLine-100091
+COS7	uaz:UA-CLine-100020
+COS7 cells	uaz:UA-CLine-100020
+Cos-7	uaz:UA-CLine-100020
+Daudi	uaz:UA-CLine-7023
+Drosophila	taxonomy:7215
+Drosophila melanogaster	taxonomy:7215
+Eol-3	uaz:UA-CLine-100089
+F3 cells	uaz:UAZ00003
+GBM	uaz:UA-CLine-5317
+H1264	uaz:UA-CLine-100085
+H647	uaz:UA-CLine-5683
+HCC	tissuelist:TS-0455
+HCC cells	tissuelist:TS-0455
+HCC1143	uaz:UA-CLine-8443
+HDFs	uaz:UA-CLine-100087
+HEK 293	uaz:UA-CLine-7847
+HEK cells	uaz:UA-CLine-7847
+HEK293T	uaz:UA-CLine-100104
+HEK293T cells	uaz:UA-CLine-100104
+HSCs	uaz:UA-CT-30000
+HT1080	uaz:UA-CLine-8015
+HTc-7	uaz:UA-CT-30001
+HTh7	uaz:UA-CLine-100110
+HUVECs	uaz:UA-CT-30002
+HeLa	uaz:UA-CLine-5369
+HeLa cells	tissuelist:TS-0136
+Hela	uaz:UA-CLine-5369
+Hela cells	tissuelist:TS-0136
+Hep3B	uaz:UA-CLine-2495
+HepG2	uaz:UA-CLine-6371
+HepG2-(SBE)4-Lux	uaz:UA-CLine-6371
+IMR-90	uaz:UA-CLine-7214
+IMR90	uaz:UA-CLine-7214
+Jurkat	uaz:UA-CLine-2244
+Langerhans cells	uaz:UA-CT-10
+M307	uaz:UA-CLine-100096
+MCF-7 cells	uaz:UA-CLine-6345
+MCF10As	uaz:UA-CLine-100076
+MCF7	uaz:UA-CLine-6345
+MDCK cells	uaz:UA-CLine-5690
+MECs	uaz:UA-CT-30003
+MEFs	uaz:UA-CLine-6096
+MFM223	uaz:UA-CLine-831
+MOLT-4	uaz:UA-CLine-6453
+MRC-5	uaz:UA-CLine-6350
+MvLu	uaz:UAZ00007
+NIH-3T3 cells	uaz:UA-CLine-7618
+NIH3T fibroblasts	uaz:UA-CLine-100060
+NRK	uaz:UA-CLine-3989
+NRK cells	uaz:UA-CLine-3989
+OUMS-23	uaz:UA-CLine-100098
+PC12	uaz:UA-CLine-100093
+PC12 cells	uaz:UA-CLine-100093
+RAW264.7 cells	uaz:UA-CLine-6471
+RPMI-7951	uaz:UA-CLine-4664
+Raji	uaz:UA-CLine-8027
+Ramos	uaz:UA-CLine-6550
+SK-N-SH neuroblastoma cells	tissuelist:TS-20000
+SKBR3	uaz:UA-CLine-8182
+SNU-449	uaz:UA-CLine-8041
+SNU-719	uaz:UA-CLine-100082
+SNU719	uaz:UA-CLine-100082
+SUM52	uaz:UA-CLine-100102
+SW1736	uaz:UA-CLine-100078
+SW480	uaz:UA-CLine-4399
+SWA480	uaz:UA-CLine-100094
+Sf9 cells	uaz:UA-CLine-1696
+Shp2 -/- cells	uaz:UA-CLine-100111
+T-cell	tissuelist:TS-1001
+T24	uaz:UA-CLine-1982
+T24 cells	uaz:UA-CLine-1982
+TF-1	uaz:UA-CLine-12
+THP-1	uaz:UA-CLine-2919
+TMLC	uaz:UA-CLine-100112
+VPC	uaz:UA-CLine-100113
+VPCs	uaz:UA-CLine-100114
+Vascular smooth muscle ( VSM ) cells	tissuelist:TS-1107
+WI-26	uaz:UA-CLine-899
+WI-38	uaz:UA-CLine-888
+WI-38 cells	uaz:UA-CLine-888
+WI-38 normal HDFs	uaz:UA-CLine-100087
+a20	uaz:UA-CLine-7403
+adipocytes	tissuelist:TS-0012
+adipose tissue	tissuelist:TS-0013
+amnioserosa	uaz:UA-ORG-252
+and alveolar pneumocyte	uaz:UA-CT-200010
+astrocytomas	UA-CT-30004
+b cells	uaz:UA-CLine-100005
+b lymphocyte	tissuelist:TS-0068
+baf3	uaz:UA-CLine-6116
+basophils	uaz:UA-ORG-83
+bcpap	uaz:UA-CT-15
+bladder	tissuelist:TS-1090
+brain	tissuelist:TS-0095
+breast	tissuelist:TS-0595
+breast cancer cell lines	tissuelist:TS-0591
+breast carcinoma cell	tissuelist:TS-0592
+bronchial gland cell	uaz:UA-ORG-1095
+c. elegans	taxonomy:6239
+c2 myoblasts	tissuelist:TS-0650
+c2c12 cell	uaz:UA-CLine-1001000
+caco-2 cells	uaz:UA-CLine-750
+caenorhabditis elegan	taxonomy:6239
+caenorhabditis elegans	taxonomy:6239
+cardiac muscle	tissuelist:TS-0440
+cardiac myocyte	tissuelist:TS-0115
+cardiac myocytes	tissuelist:TS-0115
+cardiomyocytes	tissuelist:TS-20002
+central nervous system	tissuelist:TS-0150
+chicken	taxonomy:9031
+chondrocytes	tissuelist:TS-0138
+chronic lymphocytic leukemia	tissuelist:TS-0547
+circulation	uaz:UA-ORG-92
+colon	tissuelist:TS-0158
+colon carcinoma cell line	tissuelist:TS-0161
+colorectal	tissuelist:TS-20003
+cos7 cell	uaz:UA-CLine-100020
+dendritic cells	uaz:UA-CT-30004
+developing chondrocytes	tissuelist:TS-0138
+drosophila	taxonomy:7215
+embryonic fibroblasts	uaz:UA-CLine-100060
+embryos	uaz:UA-ORG-239
+endothelial cells	tissuelist:TS-0278
+endothelium	tissuelist:TS-0278
+enterocytes	uaz:UA-CT-30005
+eosinophils	uaz:UA-ORG-246
+epithelial cells	uaz:UA-CT-30006
+fibroblast cells	uaz:UA-CLine-100060
+fibroblasts	uaz:UA-CLine-100060
+figroblasts	uaz:UA-CLine-100060
+gastric	tissuelist:TS-0978
+gastric cancer	tissuelist:TS-0978
+glioblastoma	tissuelist:TS-0417
+glioblastoma cell	tissuelist:TS-0417
+glioma cell	tissuelist:TS-0416
+glioma cells	tissuelist:TS-0416
+h1299	uaz:UA-CLine-3884
+h1299 cell	uaz:UA-CLine-3884
+h647	uaz:UA-CLine-5683
+hca2	uaz:UA-CLine-100115
+hce cells	uaz:UA-CLine-8216
+hek cells	uaz:UA-CLine-7847
+hek293	uaz:UA-CLine-100085
+hek293t	uaz:UA-CLine-100104
+helum	uaz:UA-CT-30008
+hematopoetic cells	UAZ:UA-CT-30009
+hepatic	tissuelist:TS-0564
+hepatic stellate cells	tissuelist:TS-0564
+hepatocytes	tissuelist:TS-0454
+hippocampal neurons	uaz:UA-ORG-623
+human	taxonomy:9606
+human aortic smooth muscle cells (HASMCs)	tissuelist:TS-0048
+human embryonic kidney 293 cells	tissuelist:TS-0249
+human enbryonic kidney (HEK) 293 cells	tissuelist:TS-0249
+human fetal kidney cells	tissuelist:TS-0342
+humans	taxonomy:9606
+intestinal	tissuelist:TS-0490
+j14 cells	uaz:UA-CLine-100071
+jurkat cells	uaz:UA-CLine-2244
+keratinocytes	tissuelist:TS-0500
+kidney	tissuelist:TS-0510
+kidney podocytes	tissuelist:TS-0510
+ldlF cells	uaz:UA-CLine-100116
+le	uaz:UA-CT-30007
+liver	tissuelist:TS-0564
+liver cells	tissuelist:TS-0564
+liver progenitor cell line	tissuelist:TS-0564
+liver stem/progenitor cells	uaz:UA-ORG-520
+lung	tissuelist:TS-0568
+lung carcinoma (A549)	uaz:UA-CLine-7361
+lymphocytic leukemias	tissuelist:TS-20004
+macrophages	uaz:UA-CT-16
+mammalian	taxonomy:40674
+mast cell	tissuelist:TS-0603
+mast cells	uaz:UA-CLine-100061
+mcf10a	uaz:UA-CLine-6278
+mda231	uaz:UAZ00013
+mda435	uaz:UA-CLine-100083
+mdck	uaz:UA-CLine-5690
+melanoma cells	tissuelist:TS-0614
+mice	taxonomy:10090
+monocyte	tissuelist:TS-0638
+monocytes	uaz:UA-CT-24
+mouse	taxonomy:10090
+murine	taxonomy:10090
+myeloid cells	uaz:UA-CT-200006
+myoblast	tissuelist:TS-0650
+myoblasts	tissuelist:TS-0650
+myogenic	tissuelist:TS-20001
+n1e-115	uaz:UA-CLine-6607
+n1e-115 cell	uaz:UA-CLine-6607
+nervous system	tissuelist:TS-1313
+neural precursors	uaz:UA-ORG-623
+neural progenitors	uaz:UA-ORG-623
+neural tissue	uaz:UA-ORG-623
+neuronal growth cone	uaz:UA-ORG-623
+neurons	uaz:UA-ORG-623
+nih-3t3	uaz:UA-CLine-7618
+nk cell	uaz:UA-CLine-100036
+normal bronchial epithelial cell	tissuelist:TS-1240
+osteosarcoma	tissuelist:TS-0723
+osteosarcoma (U2OS) cells	tissuelist:TS-0723
+ovarian	tissuelist:TS-0730
+pDC	tissuelist:TS-0801
+pancreatic	tissuelist:TS-0739
+pancreatic cancer	tissuelist:TS-0739
+pancreatic cancer cells	tissuelist:TS-0739
+patient	taxonomy:9606
+patients	taxonomy:9606
+pediatric retinoblastoma	tissuelist:TS-0871
+peripheral lymphoid tissues	uaz:UA-ORG-1085
+plasmacytoid dendritic cells	tissuelist:TS-0194
+platelets	uaz:UA-ORG-727
+progenitor	taxonomy:9606
+prostate	tissuelist:TS-0828
+prostate cancer	tissuelist:TS-1224
+prostate carcinoma cells (LnCAP)	tissuelist:TS-0830
+rat	taxonomy:10116
+rats	taxonomy:10116
+retinal neurons	uaz:UA-ORG-623
+retinal progenitors	uaz:UA-ORG-805
+retinas	uaz:UA-ORG-805
+s2r+ cell	uaz:UA-CLine-100106
+sk-Br-3	uaz:UA-CLine-8182
+sk-br-3	uaz:UA-CLine-8182
+skeletal	tissuelist:TS-0933
+skeletal muscle	tissuelist:TS-0933
+skeletal myoblasts	tissuelist:TS-0650
+skin	tissuelist:TS-0934
+spermatocytes	tissuelist:TS-0951
+spermatogonia	uaz:UA-CT-200012
+spermatogonial	uaz:UA-CT-200012
+spleen	tissuelist:TS-0956
+sw1736	uaz:UA-CLine-100078
+swiss 3t3	uaz:UA-CLine-1347
+swiss 3t3 cell	uaz:UA-CLine-1347
+synapse	go:GO:0045202
+t cell	uaz:UA-CLine-100050
+t cells	uaz:UA-CLine-100050
+tcp-1	uaz:UA-CLine-100117
+tcp-1 	uaz:UA-CLine-100117
+testicular	tissuelist:TS-1030
+testis	tissuelist:TS-1030
+thyroid	tissuelist:TS-1047
+thyroid cancer	tissuelist:TS-1226
+thyroid cancer cells	tissuelist:TS-1226
+tyroid	tissuelist:TS-1047
+umbilical vein endothelial cells (HUVECs)	tissuelist:TS-0278
+vsm cells	uaz:UA-ORG-1094
+vulval precursor cells (VPC)	uaz:UA-ORG-1083
+wi-38	uaz:UA-CLine-888
+wi-38 cells	uaz:UA-CLine-888
+wi-38 fibroblasts	uaz:UA-CLine-888
+yeast	taxonomy:4932
