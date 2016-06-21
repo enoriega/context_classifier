@@ -37,7 +37,7 @@
 37						result
 38						p110gamma deficiency specifically increase il-10 production upon cpg stimulation in macrophage
 39	taxonomy:10090,uaz:UA-CT-16	mouse, macrophages	S6,C10	S6,C10	generate il-10 in response to cpg .	mouse macrophage generate il-10 in response to cpg .
-40			E38,E39,E40,E41	S6,C10,C11,S7	 tlr induce il-10 production | we test the effect of p110gamma depletion on il-10 production .	since pi3k have be implicate in the regulation of tlr induce il-10 production , we test the effect of p110gamma depletion on il-10 production .
+40			E38,E39,E40	S6,C10,C11,S7	 tlr induce il-10 production | we test the effect of p110gamma depletion on il-10 production .	since pi3k have be implicate in the regulation of tlr induce il-10 production , we test the effect of p110gamma depletion on il-10 production .
 41	uaz:UA-CT-16	macrophages	E41,C11,S7	C11,S7	cpg induce il-10 production be dramatically increase	cpg induce il-10 production be dramatically increase in macrophage from p110gamma-/- mouse .
 42						although il-10 production sometimes vary extremely between experiment , il-10 production in wild type mouse be always approximately half of that in p110gamma-/- mouse in each paired experiment .
 43	taxonomy:10090	mice	S8			we also test the cytokine production use macrophage from p85alpha-/- mouse , and from p110deltakd and kd mouse ; neither display cpg specific change in il-10 production similar to what be see with p110gamma-/- cell ( datum not show ) .

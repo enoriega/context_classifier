@@ -73,8 +73,8 @@
 73						Overexpression of GEF-H1 did not induce contraction of the perijunctional actinomyosin ring .
 74						These data indicate that junctional contraction is a p114RhoGEF specific function and requires a functional GEF domain .
 75						As p114RhoGEF regulates the junctional recruitment of myosin , we next tested whether the two proteins are part of a common complex .
-76			e20,e21,e22,e23	c3,c4,c5	p114RhoGEF immunoprecipitates contained myosin IIA and the RhoA effector Rock II .	p114RhoGEF immunoprecipitates contained myosin IIA and the RhoA effector Rock II .
-77			e20,e21,e22,e23	c3,c4,c5	Cingulin , a tight junction associated adaptor known to form a complex with myosin and to regulate RhoA signalling , was also coprecipitating with p114RhoGEF , .	Cingulin , a tight junction associated adaptor known to form a complex with myosin and to regulate RhoA signalling , was also coprecipitating with p114RhoGEF , .
+76			e20	c3,c4,c5	p114RhoGEF immunoprecipitates contained myosin IIA and the RhoA effector Rock II .	p114RhoGEF immunoprecipitates contained myosin IIA and the RhoA effector Rock II .
+77			e21,e22,e23	c3,c4,c5	Cingulin , a tight junction associated adaptor known to form a complex with myosin and to regulate RhoA signalling , was also coprecipitating with p114RhoGEF , .	Cingulin , a tight junction associated adaptor known to form a complex with myosin and to regulate RhoA signalling , was also coprecipitating with p114RhoGEF , .
 78						Coprecipitation of myosin IIA , cingulin and RockII was not detected when cells were not allowed to form junctions by culturing in low calcium medium .
 79						Cingulin can also bind GEF-H1 ; however , coprecipitation of the two GEFs was not observed ( not shown ) , suggesting that they are part of distinct complexes .
 80						We next used GST fusion proteins of p114RhoGEF to map the domain of p114RhoGEF required for these interactions .

@@ -55,7 +55,7 @@
 55						notably , re absorption be ~ 6 time higher in wt , ptl-ko , cel-ko , and ptl-ko and cel-ko mouse when retinyl palmitate be administer in pl-vesicle as compare to olive oil emulsion implicate that dietary tg content have a great impact on intestinal re catabolism .
 56						moreover , the absorption pattern of retinyl palmitate and tg be similar in all four genotype investigate suggest that efficient re clearance may depend on tg absorption .
 57	taxonomy:10090	mice	s4			in contrast to tg and re catabolism , ce absorption be normal in ptl-ko animal whereas it be almost completely blunt in cel-ko mouse .
-58	tissuelist:TS-0490	intestinal	e12,t8,s4,t8	s4,t8		thus , cel be the major ce hydrolase in the intestinal luman .
+58	tissuelist:TS-0490	intestinal	e12,t8	s4,t8		thus , cel be the major ce hydrolase in the intestinal luman .
 59						take together , these in vivo study clearly demonstrate that PTL and CEL affect intestinal retinol uptake .
 60	taxonomy:10090	mice	s5			however , the rate of re absorption in double ko mouse be still around ~ 50 % of that of wt mouse implicate the existence of other yet uncharacterized intestinal reh .
 61						one possible candidate for this catalytic activity be pancreatic lipase related protein 2 ( plrp2 , EC 3.1.1.26 ) .
@@ -223,8 +223,8 @@
 223						furthermore , recent study by Mello et al. .
 224						report that the expression of several carboxylesterase ( rat es3 , es4 , and es10 ) be not detectable in hsc , but be rather exclusive in hepatocyte .
 225						several other well describe lipase such as hsl and PTL be not find to be express in hsc .
-226	taxonomy:10116,uaz:UA-CT-30000	rat,HSCs	s11,c6			interestingly , adipose triglyceride lipase ( atgl ) be find to be express in rat hsc .
-227			e58	s11,c6		as atgl have be report to specifically hydrolyze tg but not re or ce it render a role for atgl as reh unlikely .
+226	taxonomy:10116,uaz:UA-CT-30000	rat,HSCs	s11,c70			interestingly , adipose triglyceride lipase ( atgl ) be find to be express in rat hsc .
+227			e58	s11,c70		as atgl have be report to specifically hydrolyze tg but not re or ce it render a role for atgl as reh unlikely .
 228						despite the fact that a number of reh have be show to be express in hsc , the preferred localization in the extracellular space ( see CEL ) , in hepatocyte rather than hsc ( see es10 ) , and they substrate specificity ( see atgl ) challenge they potential role in re mobilization in hsc .
 229						importantly , enzyme ( s ) involve in intracellular mobilization of re from hsc require ( s ) ld localization and lipid and water interphase activation .
 230						most likely , more sophisticated approach be need to identify the so far unknown reh ( s ) in hsc .
@@ -316,7 +316,7 @@
 316						Goodman et al. .
 317						suggest that retinol uptake from plasma and subsequent esterification reflect equilibrium between plasma and renal pool .
 318						moreover , kidney have be identify as a major determinant for plasma retinol turnover and recycling which make intracellular reh ( s ) inevitable .
-319	taxonomy:10116,tissuelist:TS-0510	rat, kidney	e60,s12,t22	s12,t22		in fact , cholate independent re hydrolysis be identify in rat kidney homogenate of which the majority be associate with membrane and microsome .
+319	taxonomy:10116,tissuelist:TS-0510	rat, kidney	e600,s12,t22	s12,t22		in fact , cholate independent re hydrolysis be identify in rat kidney homogenate of which the majority be associate with membrane and microsome .
 320						use kidney fraction from gel permeation chromatography , hydrolysis of re and to a lesser extent tg but not ce be demonstrate with a optimum at neutral ph. more detailed analysis apply anion-exchange chromatography reveal that at least three different reh exist in kidney .
 321						yet , they identity and physiological relevance be unknown .
 322						in mammal , lung comprise a enormous epithelial surface area prone to infectious disease .

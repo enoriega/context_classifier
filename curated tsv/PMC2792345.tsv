@@ -135,10 +135,10 @@
 135						the formation of the pinch-1-ilk-parva complex allow it to be recruit to fa via interaction with multiple fa protein such as integrin , paxillin and and or mig-2 .
 136						functional role of parva phosphorylation
 137						as mention earlier , the n-terminal domain of PARVA contain phosphorylation consensus region for prolinedirected serine and threonine kinase , include erk and cdc2 .
-138			e17	c3		the cdc2 kinase , in combination with cyclin b1 , have be show to phosphorylate s4 , s8 , s14 and s19 of PARVA , and erk can also phosphorylate the n-terminus of PARVA .
+138			e170	c3		the cdc2 kinase , in combination with cyclin b1 , have be show to phosphorylate s4 , s8 , s14 and s19 of PARVA , and erk can also phosphorylate the n-terminus of PARVA .
 139						during mitosis , phosphorylation of s4 and s8 by cdc2 cause gel mobility shift of PARVA .
 140						these site be not present in parvb .
-141			e18,e19	c3		parva phosphorylation increase during cell spreading .
+141			e180,e19	c3		parva phosphorylation increase during cell spreading .
 142						phosphorylation during cell attachment and spreading appear to depend on erk activity .
 143						erk be recruit to fa by paxillin during cell spreading .
 144	tissuelist:TS-0723	osteosarcoma (U2OS) cells	c3			a quintuple mutant of PARVA , in which all four n-terminal serine and t16 be mutate , be not phosphorylate and function as dominant negative , inhibit cell spreading and motility but increase f-actin formation in human osteosarcoma ( u2o ) cell .
@@ -210,11 +210,11 @@
 210						transfection of PARVA restore ilk activity , as demonstrate by increase ilk kinase activity , gsk3beta s9 phosphorylation , akt s473 phosphorylation and beta-catenin/tcf/lef transcriptional activity .
 211						although ilk and pinch-1 likely work in concert with PARVA in regulation of akt phosphorylation , akt be not the only downstream target in ILK and pinch-1-mediated cell survival signaling .
 212						role of parvin in striated muscle
-213	taxonomy:6239	C. elegans	s3			in C. elegan , the integrin dependent pathway involve in myofibrillogenesis have be clarify by forward genetic screen .
-214			e30,e31	s3		deposition of the ecm protein perlecan and UNC -52 initiate outside-in signaling transduce by the integrin receptor , pat-3 , which then recruit two complex : ( i ) vinculin and deb1 , and ( ii ) ilk and PAT -4 + mig-2 / unc-112 .
+213	taxonomy:6239	C. elegans	s4			in C. elegan , the integrin dependent pathway involve in myofibrillogenesis have be clarify by forward genetic screen .
+214			e30,e31	s4		deposition of the ecm protein perlecan and UNC -52 initiate outside-in signaling transduce by the integrin receptor , pat-3 , which then recruit two complex : ( i ) vinculin and deb1 , and ( ii ) ilk and PAT -4 + mig-2 / unc-112 .
 215						both of these complex be require for the formation of rudimentary fa , which will become the initial site of myofibril formation ( the dense body ) and subsequently of muscle attachment to the body wall .
-216			e32,e33	s3		maturation of dense body involve recruitment of PARVA and PAT -6 and pinch-1 / unc-97 , both of which bind to ILK and PAT -4 , as determine by yeast three-hybrid assay .
-217			e34	s3		in addition to this pinch-ilk-parvin complex , vinculin and talin be require for initiation of myofibril formation by attract sarcomeric actin filament .
+216			e32,e33	s4		maturation of dense body involve recruitment of PARVA and PAT -6 and pinch-1 / unc-97 , both of which bind to ILK and PAT -4 , as determine by yeast three-hybrid assay .
+217			e34	s4		in addition to this pinch-ilk-parvin complex , vinculin and talin be require for initiation of myofibril formation by attract sarcomeric actin filament .
 218						alpha-actinin seem to be add to functional dense body at a later stage after larval hatching .
 219						recruitment of myosin filament do not require vinculin ; instead unc-89 be require at the m-line .
 220						interestingly , unc-89 be the ortologue of a alternatively splice isoform of obscurin contain several immunoglobulin domain and a rho guanidine nucleotide exchange factor ( gef ) domain .

@@ -2,8 +2,8 @@
 3	tissuelist:TS-20004	lymphocytic leukemias	C1			Phosphoinositide 3-kinase delta is upregulated in lymphocytic leukemias .
 4			E2	C1		Because the p85-regulatory subunit binds to any class IA subunit , it was assumed there is a single universal p85 mediated regulatory mechanism ; however , we find isozyme specific inhibition by p85alpha .
 5			E3	C1		Using deuterium exchange mass spectrometry ( DXMS ) , we mapped regulatory interactions of p110delta with p85alpha .
-6			E4,E5,E6	C1		Both nSH2 and cSH2 domains of p85alpha contribute to full inhibition of p110delta , the nSH2 by contacting the helical domain and the cSH2 via the C terminus of p110delta .
-7			E4,E5,E6	C1		The cSH2 inhibits p110beta and p110delta , but not p110alpha , implying that p110alpha is uniquely poised for oncogenic mutations .
+6			E4,E5	C1		Both nSH2 and cSH2 domains of p85alpha contribute to full inhibition of p110delta , the nSH2 by contacting the helical domain and the cSH2 via the C terminus of p110delta .
+7			E6	C1		The cSH2 inhibits p110beta and p110delta , but not p110alpha , implying that p110alpha is uniquely poised for oncogenic mutations .
 8						Binding RTK phosphopeptides disengages the SH2 domains , resulting in exposure of the catalytic subunit .
 9						We find that phosphopeptides greatly increase the affinity of the heterodimer for PIP2 containing membranes measured by FRET .
 10						DXMS identified regions decreasing exposure at membranes and also regions gaining exposure , indicating loosening of interactions within the heterodimer at membranes .
@@ -103,7 +103,7 @@
 104			E43	C3		This peptide contains E525 , equivalent to E545 in p110alpha , which has been shown biochemically and structurally to be important in binding the nSH2 .
 105						Experiments were also carried out with the p110delta+ nicSH2 complex in the presence of PDGFR pY ( B ) .
 106			E44	C3		The presence of PDGFR pY exposed this region to exchange to the same extent as the free catalytic domain , suggesting that PDGFR pY binding breaks the contacts between the nSH2 and p110delta .
-107			E54	C3		This is consistent with our lipid kinase assays showing that the presence of PDGFR pY activates the p110delta+ niSH2 complex to the same level as the p110delta+ iSH2 complex , and agrees with previous results for p110alpha .
+107			E45	C3		This is consistent with our lipid kinase assays showing that the presence of PDGFR pY activates the p110delta+ niSH2 complex to the same level as the p110delta+ iSH2 complex , and agrees with previous results for p110alpha .
 108						Kinase Domain Changes Caused by nicSH2 and PDGFR pY
 109						Peptides spanning the substrate binding loop ( 920-935 ) and the C-terminal end of the kinase domain ( 1010-1019 , 1020-1022 , and 1023-1033 ) also showed decreases in exchange in the presence of the p110delta+ nicSH2 complex compared to the p110delta+ iSH2 complex ( A ) .
 110						None of these peptides are near the nSH2 contact site with the catalytic domain of p110alpha , and we postulate that they may form a contact site for the cSH2 in p110delta .

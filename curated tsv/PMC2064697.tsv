@@ -313,7 +313,7 @@
 313						in rad53 cell , chromatin-unbound core histone persist at the completion of s phase , lead to impaired cell growth .
 314						therefore , another interesting possibility be that the production of free histone h1 , not the reduction of chromatin bind histone h1 , positively trigger a signal lead to senescence .
 315						a hypothesis reminiscent of this case be report previously : after exposure to x ray , histone h1 .2 , a histone h1 variant , move to the cytoplasm , where it induce cytochrome c release from mitochondrium to activate caspase dependent destruction cascade .
-316			E32,E33	C1	histone h1 and hmga2 bind to chromatin	altered balance between histone h1 and hmga2 bind to chromatin in sahf formation
+316			E32,E33	C17	histone h1 and hmga2 bind to chromatin	altered balance between histone h1 and hmga2 bind to chromatin in sahf formation
 317						recent study have emphasize the dynamic binding of histone h1 to chromatin .
 318						histone h1 associate with and dissociate from chromatin in a rapid turnover .
 319						histone h1 dissociation from chromatin may be enhance by activity that destabilize the histone h1-chromatin association .
@@ -338,7 +338,7 @@
 338						additional condition may be require to trigger the full-blown senescence program , include the activation of p16 .
 339						[ Supplemental Material Index ]
 340						cell culture and retroviral gene transfer
-341	uaz:UA-CLine-888,uaz:UA-CLine-6350,uaz:UA-CLine-7214	WI-38, MRC-5, IMR-90	C1,C2,C3			normal human fibroblast wi-38 , mrc-5 , and imr-90 be purchase from Coriell Cell Repositories .
+341	uaz:UA-CLine-888,uaz:UA-CLine-6350,uaz:UA-CLine-7214	WI-38, MRC-5, IMR-90	C17,C2,C3			normal human fibroblast wi-38 , mrc-5 , and imr-90 be purchase from Coriell Cell Repositories .
 342						BJ be purchase from american type culture collection .
 343						the cell be culture in dme supplement with 10 % fb .
 344						Phoenix cell ( provide by G. Nolan , Stanford University , Stanford , CA ) be transfect with retroviral vector use FuGene 6 ( Roche ) .

@@ -7,7 +7,7 @@
 7						additionally , osm-11 and similar c. elegan protein share a common motif with notch ligand from other species in a sequence define here as the delta and osm-11 ( DOS ) motif .
 8						osm-11 loss-of-function defect in vulval development be exacerbate by loss of other dos-motif gene or by loss of the notch ligand dsl-1 , suggest that dos-motif and dsl protein act together to activate notch signaling in vivo .
 9						the mammalian dos-motif protein deltalike1 ( dlk1 ) can substitute for osm-11 in C. elegan development , suggest that dos-motif function be conserve across species .
-10	taxonomy:6239	C. elegans	s2,e6	s2		we hypothesize that c. elegan osm-11 and homologous protein act as coactivator for notch receptor , allow precise regulation of notch receptor signaling in developmental program in both vertebrate and invertebrate .
+10	taxonomy:6239	C. elegans	s100,e6	s100		we hypothesize that c. elegan osm-11 and homologous protein act as coactivator for notch receptor , allow precise regulation of notch receptor signaling in developmental program in both vertebrate and invertebrate .
 11						author Summary
 12						the classic view of notch receptor activation involve receptor binding to transmembrane notch ligand that contain a conserved dsl ( Delta , Serrate , and lag-2 ) domain .
 13	taxonomy:6239	caenorhabditis elegans	s3,e7	s3		here , we find that the caenorhabditis elegan osm-11 protein be a novel ligand of the well characterize notch signal transduction pathway and play a role in cell fate specification during development .
@@ -331,7 +331,7 @@
 331			e31	s16		we find that expression of a soluble , mature dlk1 protein isoform name fa1 in osm-11 ( lf ) animal significantly rescue vulval development , consistent with dlk1 protein increase lin-12 signaling ( d ) .
 332						this result suggest that the function of C. elegan dos-motif protein be to increase notch receptor signaling and that the molecular mechanism may be conserve across species .
 333						discussion
-334	taxonomy:6239	C. elegans	s17			the datum present herein demonstrate that osm-11 be require for normal vulval development in C. elegan .
+334						the datum present herein demonstrate that osm-11 be require for normal vulval development in C. elegan .
 335						osm-11 encode a novel cegf-1 protein that be similar to , but distinct from , previously characterize notch ligand in vertebrate .
 336						OSM-11 contain a previously unidentified protein motif that we have name DOS ( Delta and osm-11 ) overlap the egf motif .
 337						the DOS motif be conserve across species and find in canonical notch ligand .
