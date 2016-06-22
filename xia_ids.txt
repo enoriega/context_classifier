@@ -271,3 +271,4 @@ wi-38	uaz:UA-CLine-888
 wi-38 cells	uaz:UA-CLine-888
 wi-38 fibroblasts	uaz:UA-CLine-888
 yeast	taxonomy:4932
+slp-76	uaz:UA-CLine-100047
