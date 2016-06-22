@@ -4,7 +4,7 @@
 4						recent study indicate that the inducible nitric oxide synthase ( ino ) , vascular endothelial growth factor ( vegf ) and the tumor suppressor p53 be fundamental play-marker of the angiogenic process .
 5						overexpression of ino and vegf have be show to induce angiogenesis in tumor .
 6			E1,E2	T1,S1	p53 suppress angiogenesis by down regulate vegf and ino .	p53 suppress angiogenesis by down regulate vegf and ino .
-7	tissuelist:TS-0978,taxonomy:9606	gastric,patients	T1			the correlation of expression of p53 , vegf and ino and clinical feature in gastric carcinogenesis , however , have not be well characterize .
+7	tissuelist:TS-0978,taxonomy:9606	gastric,patients	T1,S0			the correlation of expression of p53 , vegf and ino and clinical feature in gastric carcinogenesis , however , have not be well characterize .
 8						method
 9	taxonomy:9606	patient	S1			the expression of p53 , ino and vegf in gastric precancerous and cancerous lesion and its relation with the clinical feature be determine with immunohistochemistry ( avidin-biotin-peroxidase complex method ) on 55 randomly select gc patient and 60 symptom-free subject from the mass survey in the high-incidence area for gc in Henan , northern China .
 10						result

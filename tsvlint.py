@@ -87,7 +87,22 @@ def check_transcriptions(line, cols, errors, warnings):
     elif ctx_ids != '' and ctx_trans == '':
         errors.append((line, 'Context id present but transcription missing'))
 
-CHECKERS = [check_header, check_num_cols, check_col_formats, check_transcriptions]
+def check_context_numbers(line, cols, errors, warnings):
+    tbann = cols[3].replace(' ', '')
+    ctx_trans = filter(lambda s: s != '', cols[2].replace(' ', '').split(','))
+    ctx_ids = filter(lambda s: s != '', cols[1].replace(' ', '').split(','))
+
+
+
+    if tbann != '':
+        # get the context tsv ids
+        tsvids = filter(lambda s: s.lower()[0] != 'e', tbann.split(','))
+        if not (len(tsvids) == len(ctx_trans) == len(ctx_ids)):
+
+            errors.append((line, 'The number of context tsv ids, transcriptions and grounded ids don\'t match'))
+
+CHECKERS = [check_header, check_num_cols, check_col_formats, check_transcriptions, check_context_numbers]
+# CHECKERS = [check_context_numbers]
 
 def main(paths):
     ''' Main execution loop '''
