@@ -72,7 +72,7 @@
 72						"we previously report a signal transducing adaptor molecule , stam , which be associate with janus kinase ( jak ) 2 and jak3 and be involve in signal transduction mediate by il-2 and gm-csf ."
 73			E25	S2	"name AMSH , which bind to stam"	"we have also recently clone a cdna clone encode a novel molecule , name AMSH , which bind to stam ( we unpublished result ) ."
 74						"to address the functional significance of AMSH , we attempt to identify molecule associate with amsh use the yeast two-hybrid assay system ."
-75	taxonomy:9606		S2			one full-length cdna clone be isolate from a human pha-pbl cdna library .
+75	taxonomy:9606	human	S2			one full-length cdna clone be isolate from a human pha-pbl cdna library .
 76						"the cdna clone encode a molecule homologous to grb2 , name grf40 ( for grb2 family member of 40 kd ) ."
 77						"the nucleotide sequence of the grf40 gene have be deposit with genbank , and be available from embl/genbank/ddbj under accession no ."
 78						af042380 .

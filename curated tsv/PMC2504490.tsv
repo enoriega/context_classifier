@@ -288,7 +288,7 @@
 288						dsl-1 ; osm-11 double-mutant animal have significantly more severe 2degree fate specification defect compare to either single mutant alone ( p < 0.005 by chi2 ) .
 289						n > = 48 for each genotype in all panel .
 290			e19	s11		OSM-11 function with dsl ligand to increase notch signaling
-291			s11			classical c. elegan notch dsl ligand be express in vpc and function redundantly during cell specification .
+291	taxonomy:6239	c. elegan	s11			classical c. elegan notch dsl ligand be express in vpc and function redundantly during cell specification .
 292						"accordingly , dos-motif protein may also function redundantly in VPC specification ."
 293						one might expect that dsl-domain protein and dos-motif protein would act together to activate notch signaling .
 294						"therefore , loss of a dsl protein should exacerbate osm-11 developmental defect ."
