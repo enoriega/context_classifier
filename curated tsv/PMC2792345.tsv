@@ -19,12 +19,9 @@
 19						the mammalian parvin protein family have three member ( alpha - , beta-_NN and gamma-parvin ) .
 20						they be identify independently at approximately the same time by several laboratory base on they protein binding activity or sequence homology .
 21	taxonomy:10116	rat	e16,s2	s2		approximately 5 year ago , Nikolopoulos and Turner identify and clone a new f-actin and paxillin ld1 motif binding protein from a rat complementary dna ( cdna ) library and name it actopaxin .
-22						in a yeast two-hybrid screening of ilk binding partner , tu et al. .
-23						identify and clone a new ilk binding protein that contain two ch domain and hence name it calponin homology domain contain ILK binding protein or ch-ilkbp .
-24						in a independent yeast two hybrid screening , Yamaji et al. .
-25						identify and clone another new protein that interact with ilk , which they name affixin .
-26						base on sequence homology with the actin binding domain of alpha-actinin , Olski et al. .
-27						identify and clone three structurally related protein and name they alpha - , beta-_NN and gamma-parvin , respectively .
+22						in a yeast two-hybrid screening of ilk binding partner , tu et al. . identify and clone a new ilk binding protein that contain two ch domain and hence name it calponin homology domain contain ILK binding protein or ch-ilkbp .
+24						in a independent yeast two hybrid screening , Yamaji et al. . identify and clone another new protein that interact with ilk , which they name affixin .
+26						base on sequence homology with the actin binding domain of alpha-actinin , Olski et al. . identify and clone three structurally related protein and name they alpha - , beta-_NN and gamma-parvin , respectively .
 28						a comparison of the dna and protein sequence show that actopaxin and ch-ilkbp be identical to the alpha member and affixin be identical to the beta member of the parvin family .
 29						the member of the parvin family be encode by three different gene ( parva , parvb and parvg ) in mammalian organism .
 30						protein that be structurally and functionally related to parvin have be identify in invertebrate such as caenorhabditis elegan by sequence analysis and independent genetic study .
@@ -96,16 +93,14 @@
 96						in addition to interact with ilk and paxillin , PARVA can interact with f-actin .
 97						parva bind to f-actin with a affinity that be comparable to those of many other actin binding protein ( kd = 8.4 microm ) .
 98						detailed characterization of the f-actin binding site in the ch domain of parva remain to be do .
-99						recently , Lalonde et al. .
-100						show that PARVA bind to testicular protein kinase 1 ( tesk1 ) .
+99						recently , Lalonde et al. . show that PARVA bind to testicular protein kinase 1 ( tesk1 ) .
 101						tesk1 can phosphorylate cofilin and promote f-actin polymerization and cell spreading [ - ] .
 102						interestingly , parva bind to tesk1 and inhibit its activity .
 103						rna interference ( rnaus ) - mediate depletion of PARVA promote cell spreading .
 104						PARVA likely suppress cell spreading by regulate multiple signaling pathway , include suppression of rac1 activation and inhibition of tesk1 .
 105						as mention above , parvb , like PARVA , interact with ilk .
 106						however , despite the structural similarity and extensive effort , parvb have not be demonstrate to bind to actin or paxillin .
-107						Yamaji et al. .
-108						recently demonstrate that parvb interact with alpha-actinin via the ch2 domain .
+107						Yamaji et al. . recently demonstrate that parvb interact with alpha-actinin via the ch2 domain .
 109						in addition , parvb interact with alphapix , a guanine nucleotide exchange factor ( gef ) for rac1 and possibly other rho gtpase , through its ch1 domain .
 110						parvb likely function in actin cytoskeletal remodeling and cell spreading via interaction with multiple partner , include ILK , alpha-actinin and alphapix .
 111						subcellular localization

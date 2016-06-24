@@ -1,3 +1,4 @@
+1						TITLE PADDING
 2						Summary
 3	tissuelist:TS-20004	lymphocytic leukemias	C1			Phosphoinositide 3-kinase delta is upregulated in lymphocytic leukemias .
 4			E2	C1		Because the p85-regulatory subunit binds to any class IA subunit , it was assumed there is a single universal p85 mediated regulatory mechanism ; however , we find isozyme specific inhibition by p85alpha .
@@ -229,15 +230,13 @@
 230						Deuterium Exchange Measurements
 231						Stock solutions of protein ( 30 pmol and mul ) were prepared in 20mM Tris pH-7 .2 , 50mM ammonium sulfate , 1 % ethylene glycol , and 5mM DTT following the procedure in the .
 232						Measurements in the presence of PDGFR pY were carried out by a 5-fold dilution of a 1mM PDGFR pY ( mouse PDGFR residues 735-767 , peptide sequence ESDGG ( pY ) MDMSKDESID ( pY ) VPMLDMKGDIKYADIE ) stock in 10mM HEPES pH-7 .2 , 2 % DMSO giving a final concentration of 200muM PDGFR pY before addition of deuterium .
-233						Exchange reactions were initiated by the addition of 4mul of protein stock to 1mul of either PDGFR pY solution or blank and allowed to equilibrate for 10min followed by the addition of 25mul of a 98 % D2O solution containing 10mM HEPES pD-7 .2 , 50mM NaCl , and 2mM DTT , giving a final concentration of 82 % D2O .
-234						Deuterium exchange reactions were allowed to carry on for five time points , 3 , 10 , 100 , 1000 , and 3000s of on-exchange at 23degreesC , before addition of quench buffer .
+233						Exchange reactions were initiated by the addition of 4mul of protein stock to 1mul of either PDGFR pY solution or blank and allowed to equilibrate for 10min followed by the addition of 25mul of a 98 % D2O solution containing 10mM HEPES pD-7 .2 , 50mM NaCl , and 2mM DTT , giving a final concentration of 82 % D2O . Deuterium exchange reactions were allowed to carry on for five time points , 3 , 10 , 100 , 1000 , and 3000s of on-exchange at 23degreesC , before addition of quench buffer .
 235						For 3s of on-exchange , an experiment was also performed at 0degreesC to examine exchange rates of extremely rapidly exchanging amide hydrogens .
 236						On-exchange was stopped by addition of 40mul of quench buffer containing 1.2 % formic acid and 1.66 M Guanidine-HCl , which lowered the pH to 2.6 .
 237						Samples were then immediately frozen in liquid nitrogen until mass analysis .
 238						Every time point and condition was a unique experiment , and every DXMS experiment was repeated in duplicate .
 239						For DXMS studies on the K379E , Y685A , and double mutants , on-exchange experiments were carried out on the full length complexes of p110delta and p85alpha at two time points ( 3 and 1000 s ) that between them covered all time points with differences in exchange on nicSH2 binding .
-240						For lipid binding experiments , lipid vesicles were prepared at 5mg and ml as described in and were diluted 5-fold with a 98 % D2O solution containing 10mM HEPES pD-7 .2 , 50mM NaCl , and 2mM DTT .
-241						Deuterium exchange reactions were started by mixing 5mul of a protein stock solution ( 15 pmol and mul ) with 25mul of deuterated lipid buffer ( 25mug phospholipid ) giving a final solution of 65 % D2O .
+240						For lipid binding experiments , lipid vesicles were prepared at 5mg and ml as described in and were diluted 5-fold with a 98 % D2O solution containing 10mM HEPES pD-7 .2 , 50mM NaCl , and 2mM DTT . Deuterium exchange reactions were started by mixing 5mul of a protein stock solution ( 15 pmol and mul ) with 25mul of deuterated lipid buffer ( 25mug phospholipid ) giving a final solution of 65 % D2O .
 242						Half as much protein was used in lipid binding experiments to maximize the ratio of lipid to protein in the sample .
 243						Higher concentrations of protein or lipid in the sample led to sample aggregation .
 244						For this reason there was no chance to preincubate the protein solution with lipid vesicles before addition of D2O due to aggregation of protein when combined with high levels of lipid vesicles .
