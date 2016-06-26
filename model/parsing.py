@@ -88,7 +88,7 @@ def saveErrors(errors, path):
         writter.writerow(labels)
         writter.writerows(rows)
 
-def extractData(tsv, name, true_only=False):
+def extractData(tsv, name, annotationData, true_only=False):
     ''' Reads a parsed TSV and yields a sequence of data
      with positive and negative examples'''
 
@@ -98,12 +98,16 @@ def extractData(tsv, name, true_only=False):
     def isContext(s):
         return len(s) > 0 and not isEvent(s)
 
-    events, context = [], []
-    for i, x in enumerate(tsv):
-        j = int(x['num'])
+    sections = annotationData['real_sections']
 
-        #print j-i
-        tbs, ix, cxs, cxgrounding = x['tbAnn'], i, x['ctx'], x['ctxId']
+    events, context = [], []
+    line_counter = 0
+    for i, x in enumerate(tsv):
+        # Filter out figures
+        if sections[i].startswith('fig'):
+            continue
+
+        tbs, ix, cxs, cxgrounding = x['tbAnn'], line_counter, x['ctx'], x['ctxId']
         contextCounter = 0
         for tb in tbs:
             if isEvent(tb):
@@ -116,6 +120,8 @@ def extractData(tsv, name, true_only=False):
                     contextCounter += 1
                 except:
                     print "Error in grounding id for file %s in line %i" % (name, i)
+
+        line_counter += 1
 
     eLines = {e[0]:e[1] for e in events}
     cLines = {c[0]:(c[1], c[2]) for c in context}
@@ -200,6 +206,7 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
     alternatives = {}
     offset = 9000
 
+    #TODO: Check this routine!! the CTX IX is WRONG!!
     for k, v in enumerate(mentions):
         for i in v:
             start, end, cid = i
@@ -258,28 +265,35 @@ def extractAnnotationData(pmcid, annDir):
 
     fsections = os.path.join(pdir, 'sections.txt')
     with open(fsections) as f:
-        sections = [l[:-1] for l in f]
+        real_sections = [l[:-1] for l in f]
+        sections = filter(lambda s: not s.startswith('fig'), real_sections)
 
     ftitles = os.path.join(pdir, 'titles.txt')
     with open(ftitles) as f:
-        titles = [parseBoolean(l[:-1]) for l in f]
+        titles = map(lambda x: x[1], filter(lambda x: not x[0].startswith('fig'), zip(real_sections, [parseBoolean(l[:-1]) for l in f])))
 
     fcitations = os.path.join(pdir, 'citations.txt')
     with open(fcitations) as f:
-        citations = [parseBoolean(l[:-1]) for l in f]
+        citations = map(lambda x: x[1], filter(lambda x: not x[0].startswith('fig'), zip(real_sections, [parseBoolean(l[:-1]) for l in f])))
 
     fdocnums = os.path.join(pdir, 'docnums.txt')
     with open(fdocnums) as f:
-        docnums = [int(l[:-1]) for l in f]
+        docnums = map(lambda x: x[1], filter(lambda x: not x[0].startswith('fig'), zip(real_sections, [int(l[:-1]) for l in f])))
 
     fmentions = os.path.join(pdir, 'mention_intervals.txt')
 
     with open(fmentions) as f:
         indices = defaultdict(list)
         for line in f:
+
+            # TODO: Counting problem may be here!
             line = line[:-1]
             tokens = [t for t in line.split(' ') if t != '']
             ix = int(tokens[0])
+            if ix < len(real_sections):
+                if real_sections[ix].startswith('fig'):
+                    continue
+
             intervals = []
             for t in tokens[1:]:
                 x = t.split('-', 3)
@@ -308,11 +322,18 @@ def extractAnnotationData(pmcid, annDir):
             #     merged = [merged[0]]
             indices[ix] += merged
 
+        tuples = []
+        counter = 0
+        for i, s in enumerate(real_sections):
+            if s.startswith('fig'):
+                counter += 1
+            tuples.append((i, s, i-counter))
 
-
-        mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
+        #mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
+        mentions = [indices[j] for i, s, j in tuples if not s.startswith('fig')]
 
     return {
+        'real_sections':real_sections,
         'sections':sections,
         'titles':titles,
         'citations':citations,

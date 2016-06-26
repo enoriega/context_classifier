@@ -38,7 +38,8 @@ def parse_data(paths, annDir, use_reach, relabeling, testing=False):
     for path in paths:
         pmcid = path.split(os.path.sep)[-1].split('.')[0]
         tsv = parseTSV(path)
-        data = extractData(tsv, path, use_reach)
+        annotationData = extractAnnotationData(pmcid, annDir)
+        data = extractData(tsv, path, annotationData, use_reach)
 
         # Skip this paper if it has less than 10 positive annotations
         if len([d for d in data if d.label == 1]) < 1:
@@ -261,12 +262,12 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling, conservative_eval,
         p = len([d for d in data_train if d.label == 1])
         n = len([d for d in data_train if d.label == 0])
         r = n/float(p)
+        print path
         print "Training data: %i positives\t%i negatives\t%f N:P ratio" % (p, n, r)
         p = len([d for d in data_test if d.label == 1])
         n = len([d for d in data_test if d.label == 0])
         r = n/float(p)
         print "Testing data: %i positives\t%i negatives\t%f N:P ratio" % (p, n, r)
-        print
 
 
         model_pred = machine_learning(vstack(X_train), y_train, vstack(X_test), y_test)
@@ -319,6 +320,9 @@ def crossval(paths, annDir, eval_type, use_reach, relabeling, conservative_eval,
 
         model_results = ClassificationResults("Model %s" % path, y_test, model_pred)
         policy_result = ClassificationResults("Policy %s" % path, y_test, policy_pred)
+        print "Model scores: %s" % model_results
+        print "Policy scores %s" % policy_result
+        print
 
         c_results.append(model_results)
         p_results.append(policy_result)
