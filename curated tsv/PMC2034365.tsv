@@ -1,6 +1,6 @@
 1						the integrin effector pinch regulate jnk activity and epithelial migration in concert with ra suppressor 1
 2						cell adhesion and migration be dynamic process require the coordinated action of multiple signaling pathway , but the mechanism underlie signal integration have remain elusive .
-3	taxonomy:7215,uaz:TS-0229	drosophila,  embryonic 	S1,T1			drosophila embryonic dorsal closure ( dc ) require both integrin function and c-jun amino-terminal kinase ( jnk ) signaling for opposed epithelial sheet to migrate , meet , and suture .
+3	taxonomy:7215,tissuelist:TS-0229	drosophila,  embryonic 	S1,T1			drosophila embryonic dorsal closure ( dc ) require both integrin function and c-jun amino-terminal kinase ( jnk ) signaling for opposed epithelial sheet to migrate , meet , and suture .
 4						here , we show that pinch , a protein require for integrin dependent cell adhesion and actin-membrane anchorage , be present at the lead edge of these migrate epithelium and be require for dc .
 5			e1	s1,t1	we identify rsu-1 , a regulator of ra signaling in mammalian cell , as a novel pinch binding partner that contribute to pinch stability .	by analysis of native protein complex , we identify rsu-1 , a regulator of ra signaling in mammalian cell , as a novel pinch binding partner that contribute to pinch stability .
 6						mutation of the gene encode rsu-1 result in wing blistering in drosophila , demonstrate its role in integrin dependent cell adhesion .
