@@ -6,6 +6,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import itertools as it
+import operator
+import networkx as nx
 from random import shuffle
 from collections import defaultdict
 from sklearn.linear_model import LogisticRegression
@@ -280,7 +282,34 @@ def extractAnnotationData(pmcid, annDir):
     with open(fdocnums) as f:
         docnums = map(lambda x: x[1], filter(lambda x: not x[0].startswith('fig'), zip(real_sections, [int(l[:-1]) for l in f])))
 
+    fpostags = os.path.join(pdir, 'pos.txt')
+    with open(fpostags) as f:
+        postags = {int(k):v.split(' ') for k,v in [l.split('\t') for l in f]}
+
+    fdeps = os.path.join(pdir, 'deps.txt')
+    with open(fdeps) as f:
+        # The file has an edge_list format to be parsed by networkx
+        lines = [l[:-1].split('\t') for l in f]
+        # Group the entries by their sentence index
+        gb = it.groupby(lines, operator.itemgetter(0))
+        # Create a networkx graph from the edge list for each sentence
+        deps = {int(k):nx.parse_edgelist([x[1] for x in v]) for k, v in gb}
+
+    fdiscourse = os.path.join(pdir, 'disc.txt')
+    with open(fdiscourse) as f:
+        # Parse the tsv. Cols: 1-starting sentence, 2-finishin sentence + 1, 3-Tree-like dict
+        lines = [l[:-1].split('\t') for l in f]
+        disc = dict()
+        for s, e, t in lines:
+            s, e = int(s), int(e)
+            try:
+                t = eval(t)
+                disc[(s, e)] = t
+            except:
+                print "Error parsing discourse in %s for ix: %i-%i" % (fdiscourse, s, e)
+
     fmentions = os.path.join(pdir, 'mention_intervals.txt')
+
 
     with open(fmentions) as f:
         indices = defaultdict(list)
@@ -338,7 +367,10 @@ def extractAnnotationData(pmcid, annDir):
         'titles':titles,
         'citations':citations,
         'mentions':mentions,
-        'docnums':docnums
+        'docnums':docnums,
+        'postags':postags,
+        'deps':deps,
+        'disc':disc
     }
 
 
