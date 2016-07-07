@@ -313,9 +313,11 @@ def extractAnnotationData(pmcid, annDir):
 
     with open(fmentions) as f:
         indices = defaultdict(list)
+
+        # filter out the figures
+        indices = filter(indices, )
         for line in f:
 
-            # TODO: Counting problem may be here!
             line = line[:-1]
             tokens = [t for t in line.split(' ') if t != '']
             ix = int(tokens[0])
@@ -361,6 +363,25 @@ def extractAnnotationData(pmcid, annDir):
         #mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
         mentions = [indices[j] for i, s, j in tuples if not s.startswith('fig')]
 
+    with open('mention_intervals.txt') as f:
+        tokens = []
+        for l in f:
+            l = l.strip().split()
+            if len(l)
+        # Ignore the first token, which is the line number
+        tokens = filter(tokens, lambda t: not real_sections[int(t[0])].startswith('fig'))
+
+        g = it.groupby(tokens, lambda x: x[0])
+
+        for k, v in g:
+            key = int(k)
+            elements = [t for t in v]
+            if len(elements) > 1:
+
+                elements = elements[1:]
+                # Keep only the first subtoken, which is the token index in the sentence
+
+
     return {
         'real_sections':real_sections,
         'sections':sections,
@@ -370,7 +391,8 @@ def extractAnnotationData(pmcid, annDir):
         'docnums':docnums,
         'postags':postags,
         'deps':deps,
-        'disc':disc
+        'disc':disc,
+        'context_intervals':context_intervals
     }
 
 
