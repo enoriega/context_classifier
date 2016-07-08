@@ -22,6 +22,8 @@ NO=0
 RELABEL=1
 EXCLUDE=2
 
+triggers = {'phosphorylates', 'phosphorylated', 'phosphorylation', 'ubiquitinates', 'ubiquitinated', 'ubiquitination', 'expression', 'expresses', 'complex'}
+
 def get_pmcid(name):
     ''' returns the pmcid out of a tsv file name '''
     pmcid = name.split(os.path.sep)[-1].split('.')[0]
@@ -33,13 +35,15 @@ class Datum(object):
 
 
 
-    def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, evt, label, golden):
+    def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, ctxToken, evt, evtToken, label, golden):
         self.namespace = namespace
         self.evtIx = evtIx
         self.ctxIx = ctxIx
         self.ctx = ctx
+        self.ctxToken = ctxToken
         self.label = label
         self.evt = evt
+        self.evtToken = evtToken
         self.ctxGrounded = ctxGrounded
         self.golden = golden
         self._hash = None
@@ -101,6 +105,9 @@ def extractData(tsv, name, annotationData, true_only=False):
         return len(s) > 0 and not isEvent(s)
 
     sections = annotationData['real_sections']
+    manual_ctx = annotationData['manual_context_intervals']
+    event_triggers = annotationData['manual_event_triggers']
+    sentences = annotationData['sentences']
 
     events, context = [], []
     line_counter = 0
@@ -127,6 +134,20 @@ def extractData(tsv, name, annotationData, true_only=False):
 
     eLines = {e[0]:e[1] for e in events}
     cLines = {c[0]:(c[1], c[2]) for c in context}
+
+    # Build the manual event token indices dictionary
+    manual_evt = {}
+    for line_num, items in it.groupby(eLines.iteritems(), lambda x: x[1]):
+        sentence = sentences[line_num]
+        trigger_nums = find_evt_anchors(sentence, triggers)
+
+        event_ids = [i[0] for i in items]
+
+        if len(trigger_nums) < len(event_ids):
+            print 'DEBUG: %s Line %i has fewer triggers than events' % (name ,line_num)
+
+        for eid, tn in zip(event_ids, trigger_nums):
+            manual_evt[eid] = tn
 
     # Generate negative examples
     sortedEvents = sorted(events, key=lambda x: x[0])
@@ -169,13 +190,24 @@ def extractData(tsv, name, annotationData, true_only=False):
 
 
     added = set()
+    missing_manual_ctx = set()
     for e in events:
         evt, line, ctx = e
         if (evt, ctx) not in added:
             # Get the context line
             try:
                 cLine, cGrounding = cLines[ctx]
-                true.append(Datum(name, line, cLine, ctx, cGrounding, evt, 1, golden=True))
+
+                try:
+                    ctx_token = manual_ctx[ctx]
+                    try:
+                        evt_token = manual_evt[evt]
+                        true.append(Datum(name, line, cLine, ctx, cGrounding, ctx_token, evt, evt_token, 1, golden=True))
+                    except:
+                        missing_manual_ctx.add("Manual anchor evt missing %s %s" % (evt, name))
+                except:
+                    missing_manual_ctx.add("Manual anchor ctx missing %s %s" % (ctx, name))
+
             except:
                 print "Key error %s %s" % (ctx, name)
 
@@ -195,15 +227,18 @@ def extractData(tsv, name, annotationData, true_only=False):
                     for ctx2 in ctx2s:
                         try:
                             cLine2, cGrounding2 = cLines[ctx2]
-                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, evt, 0, golden=False))
+                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, manual_ctx[ctx2], evt, manual_evt[evt], 0, golden=False))
                         except e:
                             print e
+
+    for s in missing_manual_ctx: print s
 
     return true+false
 
 def generateNegativesFromNER(positives, annotationData, relabeling):
     ''' Generates all the negative examples out of the annotation data '''
     mentions = annotationData['mentions']
+
     # Generate a context label for contex
     alternatives = {}
     offset = 9000
@@ -231,14 +266,15 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
             if ctype == 'X':
                 continue
 
-            alternatives['%s%i' % (ctype, offset)] = (k, cid)
+            alternatives['%s%i' % (ctype, offset)] = (k, cid, start)
             offset += 1
+
 
 
     negatives = []
     for datum in positives:
         for alternative, val in alternatives.iteritems():
-            ix, cid = val
+            ix, cid, start = val
             if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
                 # Do the relabeling
                 if relabeling != NO:
@@ -250,13 +286,14 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
                 if label == EXCLUDE:
                     continue
 
-                new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative.upper(), cid.upper(), datum.evt, label, golden=False)
+                new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative.upper(), cid.upper(), int(start), datum.evt, datum.evtToken, label, golden=False)
                 negatives.append(new_datum)
 
     return negatives
 
 not_permited_context = {'go', 'uniprot'}
 not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast', 'head', 'neck', 'arm', 'leg'}
+
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
 
@@ -313,9 +350,6 @@ def extractAnnotationData(pmcid, annDir):
 
     with open(fmentions) as f:
         indices = defaultdict(list)
-
-        # filter out the figures
-        indices = filter(indices, )
         for line in f:
 
             line = line[:-1]
@@ -363,23 +397,20 @@ def extractAnnotationData(pmcid, annDir):
         #mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
         mentions = [indices[j] for i, s, j in tuples if not s.startswith('fig')]
 
-    with open('mention_intervals.txt') as f:
-        tokens = []
+    fmanual_context_intervals = os.path.join(pdir, 'manual_context_intervals.txt')
+    with open(fmanual_context_intervals) as f:
+        manual_context_intervals = {}
         for l in f:
-            l = l.strip().split()
-            if len(l)
-        # Ignore the first token, which is the line number
-        tokens = filter(tokens, lambda t: not real_sections[int(t[0])].startswith('fig'))
+            l = l[:-1]
+            line, interval, cid = l.split()
+            interval = interval.split('-')
+            manual_context_intervals[cid] = int(interval[0])
 
-        g = it.groupby(tokens, lambda x: x[0])
-
-        for k, v in g:
-            key = int(k)
-            elements = [t for t in v]
-            if len(elements) > 1:
-
-                elements = elements[1:]
-                # Keep only the first subtoken, which is the token index in the sentence
+    # Do the manual event intervals
+    fsentences = os.path.join(pdir, 'sentences.txt')
+    with open(fsentences) as f:
+        sentences = map(lambda x: x[1], filter(lambda x: not x[0].startswith('fig'), zip(real_sections, [l[:-1] for l in f])))
+        manual_event_triggers = {i:find_evt_anchors(s, triggers) for i, s in enumerate(sentences)}
 
 
     return {
@@ -392,7 +423,9 @@ def extractAnnotationData(pmcid, annDir):
         'postags':postags,
         'deps':deps,
         'disc':disc,
-        'context_intervals':context_intervals
+        'manual_context_intervals':manual_context_intervals,
+        'manual_event_triggers':manual_event_triggers,
+        'sentences':sentences
     }
 
 
@@ -540,5 +573,17 @@ def split_dataset(directory, training_size, num_samples=1):
                 ret.append((candidate, ids_set-candidate))
                 print size
                 break
+
+    return ret
+
+
+
+def find_evt_anchors(sentence, triggers):
+    # Split by tokens
+    tokens = sentence.strip().split()
+    ret = []
+    for i, t in enumerate(tokens):
+        if t.lower() in triggers:
+            ret.append(i)
 
     return ret
