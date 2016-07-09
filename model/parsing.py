@@ -14,6 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
+from model import triggers
 
 EVAL1="ref"
 EVAL2="sentence"
@@ -21,8 +22,9 @@ EVAL2="sentence"
 NO=0
 RELABEL=1
 EXCLUDE=2
+DEBUG=False
 
-triggers = {'phosphorylates', 'phosphorylated', 'phosphorylation', 'ubiquitinates', 'ubiquitinated', 'ubiquitination', 'expression', 'expresses', 'complex'}
+
 
 def get_pmcid(name):
     ''' returns the pmcid out of a tsv file name '''
@@ -32,7 +34,6 @@ def get_pmcid(name):
 
 class Datum(object):
     ''' Represents an event/candidate context mention pair '''
-
 
 
     def __init__(self, namespace, evtIx, ctxIx, ctx, ctxGrounded, ctxToken, evt, evtToken, label, golden):
@@ -47,6 +48,9 @@ class Datum(object):
         self.ctxGrounded = ctxGrounded
         self.golden = golden
         self._hash = None
+        self.tsv = None
+        self.annotationData = None
+        self.vector = None
 
     def __eq__(self, other):
         if isinstance(other, Datum):
@@ -54,8 +58,10 @@ class Datum(object):
                 self.evtIx == other.evtIx and \
                 self.ctxIx == other.ctxIx and \
                 self.evt == other.evt and \
-                self.ctx == other.ctx:
-                #self.ctxGrounded == other.ctxGrounded:
+                self.ctx == other.ctx and \
+                self.evtToken == other.evtToken and \
+                self.ctxToken == other.ctxToken and \
+                self.ctxGrounded == other.ctxGrounded:
                 return True
             else:
                 return False
@@ -69,14 +75,20 @@ class Datum(object):
         if self._hash is None:
             self._hash = hash(self.namespace) + \
                 hash('EvtIx %i' % self.evtIx) + \
-                hash('EvtIx %i' % self.ctxIx) + \
+                hash('CtxIx %i' % self.ctxIx) + \
                 hash(self.ctx) + \
-                hash(self.evt)
+                hash(self.evt) + \
+                hash('EvtToken %i' % self.ctxToken) + \
+                hash('CtxToken %i' % self.evtToken) + \
+                hash(self.ctxGrounded)
 
         return self._hash
 
+    def __index__(self):
+        return self.__hash__()
+
     def __str__(self):
-        return "%s line %i %s %s %s" % (self.namespace, self.evtIx, self.evt, self.ctx, self.ctxGrounded)
+        return "%s line %i %i %s %s %i %i %s %i %i" % (self.namespace, self.evtIx, self.evtToken, self.evt, self.ctx, self.ctxIx, self.ctxToken, self.ctxGrounded, self.label, self.golden)
 
     def __repr__(self):
         return str(self)
@@ -144,7 +156,8 @@ def extractData(tsv, name, annotationData, true_only=False):
         event_ids = [i[0] for i in items]
 
         if len(trigger_nums) < len(event_ids):
-            print 'DEBUG: %s Line %i has fewer triggers than events' % (name ,line_num)
+            if DEBUG:
+                print 'DEBUG: %s Line %i has fewer triggers than events' % (name ,line_num)
 
         for eid, tn in zip(event_ids, trigger_nums):
             manual_evt[eid] = tn
@@ -204,9 +217,13 @@ def extractData(tsv, name, annotationData, true_only=False):
                         evt_token = manual_evt[evt]
                         true.append(Datum(name, line, cLine, ctx, cGrounding, ctx_token, evt, evt_token, 1, golden=True))
                     except:
-                        missing_manual_ctx.add("Manual anchor evt missing %s %s" % (evt, name))
+                        if DEBUG:
+                            missing_manual_ctx.add("DEBUG: Manual anchor evt missing %s %s" % (evt, name))
+                        # missing_manual_ctx.add(sentences[line])
                 except:
-                    missing_manual_ctx.add("Manual anchor ctx missing %s %s" % (ctx, name))
+                    # pass
+                    if DEBUG:
+                        missing_manual_ctx.add("DEBUG: Manual anchor ctx missing %s %s" % (ctx, name))
 
             except:
                 print "Key error %s %s" % (ctx, name)
@@ -289,7 +306,9 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
                 new_datum = Datum(datum.namespace, datum.evtIx, ix, alternative.upper(), cid.upper(), int(start), datum.evt, datum.evtToken, label, golden=False)
                 negatives.append(new_datum)
 
-    return negatives
+
+
+    return list(set(negatives))
 
 not_permited_context = {'go', 'uniprot'}
 not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast', 'head', 'neck', 'arm', 'leg'}
@@ -583,7 +602,9 @@ def find_evt_anchors(sentence, triggers):
     tokens = sentence.strip().split()
     ret = []
     for i, t in enumerate(tokens):
-        if t.lower() in triggers:
-            ret.append(i)
+        t = t.lower()
+        for trigger in triggers:
+            if trigger in t:
+                ret.append(i)
 
     return ret
