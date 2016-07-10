@@ -380,14 +380,18 @@ def extractAnnotationData(pmcid, annDir):
                 if real_sections[ix].startswith('fig'):
                     continue
 
+
+
             intervals = []
             for t in tokens[1:]:
                 x = t.split('%', 3)
                 grounding_id = x[3].split(':')[0]
-                #if len(x) >= 4: # Hack to handle absence of nsID (reach grounding bug)
+
                 word = x[2].lower()
-                if grounding_id not in not_permited_context and word not in not_permited_words:
+
+                if grounding_id.lower() not in not_permited_context and word not in not_permited_words:
                     intervals.append((int(x[0]), int(x[1]), x[3]))
+
 
             # Merge succesive intervals
             merged = []

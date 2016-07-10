@@ -61,14 +61,30 @@ def createFeatures(datum, tsv, annotationData):
     # Distance in "paragraphs" (number of docs)
     distanceDocs = abs(docnums[datum.ctxIx] - docnums[datum.evtIx])
 
+    # Context type, which is basically the KB where it was grounded from
+    cid = datum.ctxGrounded
+    if cid.startswith('TAXONOMY'):
+        ctxType = 'Species'
+    elif cid.startswith('TISSUELIST'):
+        ctxType = 'Tissue'
+    elif 'UA-CLINE' in cid:
+        ctxType = 'CellLine'
+    elif 'UA-CT' in cid:
+        ctxType = 'CellType'
+    elif 'UA-ORG' in cid:
+        ctxType = 'Tissue'
+    else:
+        raise Exception("Undefined context type")
+
+
     # Location relative
     features = {
-        'distance':abs(datum.evtIx - datum.ctxIx),
-        'distanceDocs':distanceDocs,
+        'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
+        'distanceDocs':'distdocs:%i' % distanceDocs,
         'sameSection':changes == 0,
         'evtFirst':(datum.evtIx < datum.ctxIx),
         'sameLine':(datum.evtIx == datum.ctxIx),
-        # 'ctxType':datum.ctx[0].upper(),
+        # 'ctxType':ctxType
         'ctxSecitonType':sectionType(sections[datum.ctxIx]),
         # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
         'ctxInTitle':titles[datum.ctxIx],
@@ -78,8 +94,8 @@ def createFeatures(datum, tsv, annotationData):
         'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx]
     }
 
-    # ret = features
-    ret = feda(datum.ctx[0].upper(), features)
+    ret = features
+    # ret = feda(ctxType, features)
     return ret
 
 # Frustratingly easy domain adaptation
