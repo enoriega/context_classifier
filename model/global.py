@@ -111,11 +111,12 @@ def vectorize_data(data):
 def crossval_baseline(folds, conservative_eval):
     # This is essentially a "one-hit-all" evaluation of policy 4
 
-    predictions = {}
-    truths = {}
     results = {}
 
     for fold_name, data in folds:
+        predictions = {}
+        truths = {}
+        
         for datum in data:
             prediction = classifier.policy(datum, 3)
             truth = datum.label
@@ -135,7 +136,7 @@ def crossval_baseline(folds, conservative_eval):
                 truths[key] = truth
 
         keys = predictions.keys()
-        result = ClassificationResults(fold_name, [truths[k] for k in keys], [predictions[k] for k in keys])
+        result = ClassificationResults(fold_name, [truths[k] for k in keys], [predictions[k] for k in keys], [k for k in keys])
         results[fold_name] = result
 
     return results
@@ -175,7 +176,7 @@ def add_vectors(data, average=False):
     return new_points, vstack(vectors), np.asarray(labels)
 
 
-def train_eval_model(name, X_train, X_test, y_train, y_test):
+def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
     ''' Configure the selected algorithm here and return a ClassificationResults object '''
 
     # Edit the algorithm here
@@ -186,7 +187,7 @@ def train_eval_model(name, X_train, X_test, y_train, y_test):
     model.fit(X_train, y_train)
     predictions = model.predict(X_test)
 
-    return ClassificationResults(name, y_test, predictions)
+    return ClassificationResults(name, y_test, predictions, point_labels)
 
 
 def crossval_model(folds, conservative_eval, limit_training, balance_dataset):
@@ -201,11 +202,12 @@ def crossval_model(folds, conservative_eval, limit_training, balance_dataset):
     for fold_name in folds:
         point_labels, X_test, y_test = aggregated_data[fold_name]
 
+
         X_train = vstack([aggregated_data[f][1] for f in aggregated_data if f != fold_name])
         y_train = np.concatenate([aggregated_data[f][2] for f in aggregated_data if f != fold_name])
 
         print "Testing on %s ..." % fold_name
-        results[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test)
+        results[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test, point_labels)
 
     return results
 

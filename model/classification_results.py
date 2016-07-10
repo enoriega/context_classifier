@@ -1,8 +1,9 @@
 import itertools as it
 
 class ClassificationResults(object):
-    def __init__(self, name, truth, predictions):
+    def __init__(self, name, truth, predictions, keys):
         self.name = name
+        self.keys = keys
         self.update(truth, predictions)
 
     def update(self, truth, predictions):
@@ -70,7 +71,9 @@ class MicroAverage(ClassificationResults):
         truth = list(it.chain(*[r.truth for r in results]))
         predictions = list(it.chain(*[r.predictions for r in results]))
 
-        super(MicroAverage, self).__init__(name, truth, predictions)
+        keys = list(it.chain(*[['%s:%s' % (r.name, k) for k in r.keys] for r in results]))
+
+        super(MicroAverage, self).__init__(name, truth, predictions, keys)
 
 class MacroAverage(ClassificationResults):
     def __init__(self, name, results):
