@@ -382,7 +382,7 @@ def extractAnnotationData(pmcid, annDir):
 
             intervals = []
             for t in tokens[1:]:
-                x = t.split('-', 3)
+                x = t.split('%', 3)
                 grounding_id = x[3].split(':')[0]
                 #if len(x) >= 4: # Hack to handle absence of nsID (reach grounding bug)
                 word = x[2].lower()
