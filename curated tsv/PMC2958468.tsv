@@ -26,7 +26,7 @@
 26						additional rab gef be therefore likely to exist .
 27						denn domain protein be first implicate as Rab gef by the biochemical purification of a rab3 gef from bovine brain .
 28						"this be subsequently identify as a denn domain protein , although it remain unclear which domain in the protein be responsible for gef activity ."
-29	"taxonomy:6239,go:GO:0045202"	"caenorhabditis elegan, synapse"	"s4,e37,e38,t1"	"s4,t1"	MADD homologue aex-3 be responsible for control the activity of rab3 and rab27	further study reveal that the caenorhabditis elegan MADD homologue aex-3 be responsible for control the activity of rab3 and rab27 at the synapse .
+29	"taxonomy:6239"	"caenorhabditis elegan"	"s4,e37,e38"	"s4"	MADD homologue aex-3 be responsible for control the activity of rab3 and rab27	further study reveal that the caenorhabditis elegan MADD homologue aex-3 be responsible for control the activity of rab3 and rab27 at the synapse .
 30						"more recently , a screen for defective receptor mediate yolk protein endocytosis in C. elegan identify another denn domain protein rme-4 , and indicate that it act on rab35 ."
 31						this be confirm by complementary study in mammalian cell show that the rme-4 homologue dennd1a and connecdenn be in fact a rab35 gef .
 32						these finding support the idea that denn domain protein might form a family of Rab gef .
