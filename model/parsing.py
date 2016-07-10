@@ -260,20 +260,21 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
     alternatives = {}
     offset = 9000
 
+
     #TODO: Check this routine!! the CTX IX is WRONG!!
     for k, v in enumerate(mentions):
         for i in v:
             start, end, cid = i
             # Figure out the context type
-            if 'UA-ORG' in cid:
+            if cid.startswith('uaz:UA-ORG'):
                 ctype = 'T'
-            elif 'UA-CLine' in cid:
+            elif cid.startswith('uaz:UA-CLine' ):
                 ctype = 'C'
-            elif 'taxonomy' in cid:
+            elif cid.startswith('taxonomy:'):
                 ctype = 'S'
-            elif 'UA-CT' in cid:
+            elif cid.startswith('uaz:UA-CT'):
                 ctype = 'C'
-            elif 'TS-' in cid:
+            elif cid.startswith('tissuelist:TS-'):
                 ctype = 'C'
             else:
                 print cid
@@ -292,7 +293,8 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
     for datum in positives:
         for alternative, val in alternatives.iteritems():
             ix, cid, start = val
-            if datum.ctxIx != ix or datum.ctx[0].upper() != alternative[0].upper():
+            # if datum.ctxIx != ix and datum.ctxGrounded.upper() != cid.upper():
+            if datum.ctxIx != ix and datum.ctxToken != start:
                 # Do the relabeling
                 if relabeling != NO:
                     label = 1 if cid.upper() == datum.ctxGrounded else 0
