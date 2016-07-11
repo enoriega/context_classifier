@@ -368,7 +368,7 @@ def extractAnnotationData(pmcid, annDir):
         lines = [l[:-1].split('\t') for l in f]
         disc = dict()
         for s, e, t in lines:
-            s, e = int(s), int(e)
+            s, e = int(s), int(e)-1 # The second number is deliberately +1
             try:
                 t = eval(t)
                 disc[(s, e)] = t

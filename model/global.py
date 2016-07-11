@@ -153,33 +153,40 @@ def generate_features(datum, tsv, annotationData):
 
     # Dependecy path between ctx and evt
     dpath = dependency_path(datum, annotationData)
+    deps_len = len(dpath) if len(dpath) >= 1 else -1
 
     # Negation in the path between ctx and evt
     dep_negation = negation_in_dep_path(datum, annotationData)
 
     # Discourse path
-    disc_path, disc_len = discourse_path(datum, annotationData)
+    disc_path = discourse_path(datum, annotationData)
+    disc_len = len(disc_path) if disc_path != [] else -1
+    # Remove duplicates from the discourse path, to reduce dimensionality
+    # disc_path = [k for k, v in it.groupby(disc_path)]
+    # Remove "elaborates"
+    # disc_path = filter(lambda s: s != 'elaboration', disc_path)
 
     # Location relative
     features = {
-        'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
-        'distanceDocs':'distdocs:%i' % distanceDocs,
-        'sameSection':changes == 0,
-        'evtFirst':(datum.evtIx < datum.ctxIx),
-        'sameLine':(datum.evtIx == datum.ctxIx),
+        # 'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
+        # 'distanceDocs':'distdocs:%i' % distanceDocs,
+        # 'sameSection':changes == 0,
+        # 'evtFirst':(datum.evtIx < datum.ctxIx),
+        # 'sameLine':(datum.evtIx == datum.ctxIx),
         # 'ctxType':ctxType
-        'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        # 'ctxSecitonType':sectionType(sections[datum.ctxIx]),
         # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
-        'ctxInTitle':titles[datum.ctxIx],
+        # 'ctxInTitle':titles[datum.ctxIx],
         # 'evtHasCitation':citations[datum.evtIx],
-        'ctxHasCitation':citations[datum.ctxIx],
+        # 'ctxHasCitation':citations[datum.ctxIx],
         # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
-        'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx],
-        'ctxTag':ctxTag,
-        'evtTag':evtTag,
-        'dependency_path':dpath,
-        'dep_negation':dep_negation,
-        'discourse_path':disc_path,
+        # 'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx],
+        # 'ctxTag':ctxTag,
+        # 'evtTag':evtTag,
+        # 'dependency_path':'-'.join(dpath),
+        # 'dependency_length':deps_len,
+        # 'dep_negation':dep_negation,
+        'discourse_path':'-'.join(disc_path),
         'disc_len':disc_len
     }
 
@@ -192,9 +199,9 @@ def generate_features(datum, tsv, annotationData):
     #     else:
     #         features[key] = 1
     #
-    if 'neg' in ctxContext:
-        print "Context negation!"
-        features['ctxNegation'] = True
+    # if 'neg' in ctxContext:
+    #     print "Context negation!"
+    #     features['ctxNegation'] = True
 
     evtContext = dependency_context(datum, annotationData, ctx=False)
     # for x in evtContext:
@@ -204,9 +211,9 @@ def generate_features(datum, tsv, annotationData):
     #     else:
     #         features[key] = 1
 
-    if 'neg' in evtContext:
-        print "Event negation!"
-        features['evtNegation'] = True
+    # if 'neg' in evtContext:
+    #     print "Event negation!"
+    #     features['evtNegation'] = True
 
     ret = features
     # ret = feda(ctxType, features)
@@ -231,17 +238,17 @@ def dependency_path(datum, annotationData):
                 path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
                 edges = pairwise(path)
                 labels = map(lambda e: deps.get_edge_data(*e)['label'], edges)
-                return '-'.join(labels)
+                return labels
             except nx.NetworkXNoPath:
-                return "None"
+                return []
             except nx.NetworkXError as e:
                 print "DEBUG: %s - NetworkX: %s" % (datum, e)
-                return "None"
+                return []
         else:
             print "DEBUG: Missing dependencies for %s" % datum
-            return "None"
+            return []
     else:
-        return "None"
+        return []
 
 def get_neighborhood(deps, node):
     neighbors = deps.neighbors(node)
@@ -318,7 +325,43 @@ def discourse_path(datum, annotationData):
 
     def edu_contains(sen, tok, edu):
         # TODO: Continue here!!
-        pass
+        start, end = edu['start'], edu['end']
+
+        if start[0] == end[0]:
+            interval = start[1], end[1]
+            if sen == start[0]:
+                return contains(tok, interval)
+            else:
+                return False
+        else:
+            if sen == start[0]:
+                if tok >= start[1]:
+                    return True
+                else:
+                    return False
+            elif sen == end[0]:
+                if tok <= end[1]:
+                    return True
+                else:
+                    return False
+            elif sen > start[0] and sen < end[0]:
+                return True
+            else:
+                return False
+
+    def find_leaf(sen, tok, edu):
+        if 'children' not in edu:
+            if edu_contains(sen, tok, edu):
+                return [(edu, "Terminal")]
+            else:
+                return None
+        else:
+            for c in edu['children']:
+                l = find_leaf(sen, tok, c)
+                if l is not None:
+                    return [(edu, edu['label'])] + l
+            return None
+            raise Exception("DEBUG: Find leaf - Shouln't reach here")
 
 
     def common_ancestor(datum, offset, disc):
@@ -327,7 +370,24 @@ def discourse_path(datum, annotationData):
         ctxSen = datum.ctxIx - offset
         evtSen = datum.evtIx - offset
 
+        ctxToken, evtToken = datum.ctxToken, datum.evtToken
 
+        ctxPath = find_leaf(ctxSen, ctxToken, disc)
+        evtPath = find_leaf(evtSen, evtToken, disc)
+
+        for c, e in zip(ctxPath, evtPath):
+            if c == e:
+                common = c
+                ctxPath = ctxPath[1:]
+                evtPath = evtPath[1:]
+
+        ctxLabels = map(lambda x: x[1], ctxPath)
+        evtLabels = map(lambda x: x[1], evtPath)
+
+        # Remove the terminal labels and connect both via the common ancestor
+        path = ctxLabels[:-1] + [common[1]] + evtLabels[:-1]
+
+        return path
 
 
 
@@ -342,9 +402,9 @@ def discourse_path(datum, annotationData):
         disc = alldisc[ctxKey]
         offset = ctxKey[0]
         path = common_ancestor(datum, offset, disc)
-        return "None", 0
+        return path
     else:
-        return "None", 0
+        return []
 
 def create_features(data):
     ''' Creates a feature vector and attaches it to the datum object '''
@@ -401,7 +461,7 @@ def add_vectors(data, average=False):
     ''' Adds all the vectors from an event mention to a context type
         Optionally averages them '''
 
-    def key(datum): return datum.evt, datum.ctxGrounded
+    def key(datum): return datum.namespace, datum.evt, datum.ctxGrounded
 
     data = sorted(data, key=key)
     groups = it.groupby(data, key)
@@ -437,7 +497,7 @@ def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
     verbose = False
     # Edit the algorithm here
     # model = Perceptron(penalty='l2')
-    model = LogisticRegression(penalty='l1', C=10)
+    model = LogisticRegression(penalty='l2', C=5)
     # model = SVC(verbose=verbose, kernel='rbf', C=50)
     # model = SVC(verbose=verbose, kernel='poly', degree=3, C=50)
     #########################
@@ -502,6 +562,7 @@ if __name__ == "__main__":
     print "Vectorizing features"
     vectorize_data(list(it.chain(*cv_folds.values())))
 
+    print "# of features: %i" % cv_folds.values()[0][0].vector.shape[1]
     print "Machine Learning cross validation"
     model_results = crossval_model(cv_folds, conservative_eval=conservative_eval,\
                                             limit_training=limit_training, balance_dataset=balance_dataset)
