@@ -168,24 +168,24 @@ def extractData(tsv, name, annotationData, true_only=False):
 
     sortedContext = [c[0] for c in sorted(context, key=lambda x: x[1])]
 
-    def getOtherContext(location, excluded, num=100):
-        ''' Pick randomly another context with a probability proportional to it's distance from pivot '''
-
-        candidateContexts = [(k, abs(v[0]-location)) for k, v in cLines.iteritems() if k not in excluded]
-        if len(candidateContexts) > 0:
-            probs = np.asarray([x[1] for x in candidateContexts], dtype=float)
-            probs /= probs.sum()
-
-            choices = np.random.choice(len(candidateContexts), num if len(candidateContexts) > num else len(candidateContexts), p=probs, replace=False)
-
-            # TODO: Really fix this!!
-            x = filter(lambda a: not a.isdigit(), {candidateContexts[choice][0] for choice in choices})
-            # for a in x:
-            #     if a.isdigit():
-            #         print x
-            return x
-        else:
-            return None
+    # def getOtherContext(location, excluded, num=100):
+    #     ''' Pick randomly another context with a probability proportional to it's distance from pivot '''
+    #
+    #     candidateContexts = [(k, abs(v[0]-location)) for k, v in cLines.iteritems() if k not in excluded]
+    #     if len(candidateContexts) > 0:
+    #         probs = np.asarray([x[1] for x in candidateContexts], dtype=float)
+    #         probs /= probs.sum()
+    #
+    #         choices = np.random.choice(len(candidateContexts), num if len(candidateContexts) > num else len(candidateContexts), p=probs, replace=False)
+    #
+    #         # TODO: Really fix this!!
+    #         x = filter(lambda a: not a.isdigit(), {candidateContexts[choice][0] for choice in choices})
+    #         # for a in x:
+    #         #     if a.isdigit():
+    #         #         print x
+    #         return x
+    #     else:
+    #         return None
 
     def getAllOtherContext(location, excluded):
         ''' Pick all the other contexts from Xia's annotations '''
@@ -235,18 +235,18 @@ def extractData(tsv, name, annotationData, true_only=False):
 
             added.add((evt, ctx))
 
-            if not true_only:
-                # Pick a negative example
-                # ctx2s = getOtherContext(line, localContext)
-                ctx2s = getAllOtherContext(line, localContext)
-
-                if ctx2s is not None:
-                    for ctx2 in ctx2s:
-                        try:
-                            cLine2, cGrounding2 = cLines[ctx2]
-                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, manual_ctx[ctx2], evt, manual_evt[evt], 0, golden=False))
-                        except e:
-                            print e
+            # if not true_only:
+            #     # Pick a negative example
+            #     # ctx2s = getOtherContext(line, localContext)
+            #     ctx2s = getAllOtherContext(line, localContext)
+            #
+            #     if ctx2s is not None:
+            #         for ctx2 in ctx2s:
+            #             try:
+            #                 cLine2, cGrounding2 = cLines[ctx2]
+            #                 true.append(Datum(name, line, cLine2, ctx2, cGrounding2, manual_ctx[ctx2], evt, manual_evt[evt], 0, golden=False))
+            #             except e:
+            #                 print e
 
     for s in missing_manual_ctx: print s
 
@@ -315,6 +315,15 @@ def generateNegativesFromNER(positives, annotationData, relabeling):
 not_permited_context = {'go', 'uniprot'}
 not_permited_words = {'mum', 'hand', 'gatekeeper', 'muscle', 'spine', 'breast', 'head', 'neck', 'arm', 'leg'}
 
+def map_2_filtered_ix(i, real_sections):
+    ''' gets the correct index of the line after filtering out the figures '''
+
+    sec_slice = real_sections[:i+1]
+
+    figs = filter(lambda s: s.startswith('fig'), sec_slice)
+
+    return i - len(figs)
+
 def extractAnnotationData(pmcid, annDir):
     ''' Extracts data from annotations into a dictionary '''
 
@@ -342,7 +351,7 @@ def extractAnnotationData(pmcid, annDir):
 
     fpostags = os.path.join(pdir, 'pos.txt')
     with open(fpostags) as f:
-        postags = {int(k):v.split(' ') for k,v in [l.split('\t') for l in f]}
+        postags = {int(k):v.split(' ') for k,v in [l[:-1].split('\t') for l in f]}
 
     fdeps = os.path.join(pdir, 'deps.txt')
     with open(fdeps) as f:
@@ -351,7 +360,7 @@ def extractAnnotationData(pmcid, annDir):
         # Group the entries by their sentence index
         gb = it.groupby(lines, operator.itemgetter(0))
         # Create a networkx graph from the edge list for each sentence
-        deps = {int(k):nx.parse_edgelist([x[1] for x in v]) for k, v in gb}
+        deps = {int(k):nx.parse_edgelist([x[1] for x in v], nodetype=int) for k, v in gb}
 
     fdiscourse = os.path.join(pdir, 'disc.txt')
     with open(fdiscourse) as f:
@@ -368,7 +377,6 @@ def extractAnnotationData(pmcid, annDir):
 
     fmentions = os.path.join(pdir, 'mention_intervals.txt')
 
-
     with open(fmentions) as f:
         indices = defaultdict(list)
         for line in f:
@@ -380,7 +388,7 @@ def extractAnnotationData(pmcid, annDir):
                 if real_sections[ix].startswith('fig'):
                     continue
 
-
+            ix = map_2_filtered_ix(ix, real_sections)
 
             intervals = []
             for t in tokens[1:]:

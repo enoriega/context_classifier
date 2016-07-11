@@ -24,7 +24,7 @@ from scipy.sparse import vstack
 from classification_results import *
 import classifier
 import os
-from joblib import Parallel, delayed
+from model import *
 
 def in_neighborhood(datum, intervals):
     ''' Used to filter a datum if it's not within the neighborhood of (min, max) '''
@@ -91,11 +91,266 @@ def parse_data(paths, annDir, use_reach, relabeling, skip_amount=10):
     print
     return accumulated_data
 
+
+def generate_features(datum, tsv, annotationData):
+    ''' Extracts a feature vector from a datum and the data '''
+
+    def sectionType(section):
+        ''' Returns a string identifying the section type '''
+        section = section.lower()
+
+        if section.startswith('abstract'):
+            return 'abstract'
+        elif section.startswith('s'):
+            return 'section'
+        elif section.startswith('fig'):
+            return 'figure'
+        elif section == "":
+            return 'section'
+        else:
+            return section
+
+    sections = annotationData['sections']
+    titles = annotationData['titles']
+    citations = annotationData['citations']
+    docnums = annotationData['docnums']
+    postags = annotationData['postags']
+    deps = annotationData['deps']
+    disc = annotationData['disc']
+    sentences = annotationData['sentences']
+
+    # POS Tags
+    ctxTag = postags[datum.ctxIx][datum.ctxToken] if datum.ctxIx in postags else None
+    evtTag = postags[datum.evtIx][datum.evtToken] if datum.evtIx in postags else None
+
+    # Distance in sections
+    secSlice = sections[datum.evtIx:datum.ctxIx+1]
+    changes = 0
+    if len(secSlice) > 0:
+        currSec = secSlice[0]
+        for s in secSlice[1:]:
+            if currSec != s:
+                changes += 1
+                currSec = s
+
+    # Distance in "paragraphs" (number of docs)
+    distanceDocs = abs(docnums[datum.ctxIx] - docnums[datum.evtIx])
+
+    # Context type, which is basically the KB where it was grounded from
+    cid = datum.ctxGrounded
+    if cid.startswith('TAXONOMY'):
+        ctxType = 'Species'
+    elif cid.startswith('TISSUELIST'):
+        ctxType = 'Tissue'
+    elif 'UA-CLINE' in cid:
+        ctxType = 'CellLine'
+    elif 'UA-CT' in cid:
+        ctxType = 'CellType'
+    elif 'UA-ORG' in cid:
+        ctxType = 'Tissue'
+    else:
+        raise Exception("Undefined context type")
+
+    # Dependecy path between ctx and evt
+    dpath = dependency_path(datum, annotationData)
+
+    # Negation in the path between ctx and evt
+    dep_negation = negation_in_dep_path(datum, annotationData)
+
+    # Discourse path
+    disc_path, disc_len = discourse_path(datum, annotationData)
+
+    # Location relative
+    features = {
+        'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
+        'distanceDocs':'distdocs:%i' % distanceDocs,
+        'sameSection':changes == 0,
+        'evtFirst':(datum.evtIx < datum.ctxIx),
+        'sameLine':(datum.evtIx == datum.ctxIx),
+        # 'ctxType':ctxType
+        'ctxSecitonType':sectionType(sections[datum.ctxIx]),
+        # 'evtSecitonType':sectionType(sections[datum.ctxIx]),
+        'ctxInTitle':titles[datum.ctxIx],
+        # 'evtHasCitation':citations[datum.evtIx],
+        'ctxHasCitation':citations[datum.ctxIx],
+        # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
+        'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx],
+        'ctxTag':ctxTag,
+        'evtTag':evtTag,
+        'dependency_path':dpath,
+        'dep_negation':dep_negation,
+        'discourse_path':disc_path,
+        'disc_len':disc_len
+    }
+
+    # Dependency contexts
+    ctxContext = dependency_context(datum, annotationData, ctx=True)
+    # for x in ctxContext:
+    #     key = 'ctxContext:%s' % x
+    #     if key in features:
+    #         features[key] += 1
+    #     else:
+    #         features[key] = 1
+    #
+    if 'neg' in ctxContext:
+        print "Context negation!"
+        features['ctxNegation'] = True
+
+    evtContext = dependency_context(datum, annotationData, ctx=False)
+    # for x in evtContext:
+    #     key = 'evtContext:%s' % x
+    #     if key in features:
+    #         features[key] += 1
+    #     else:
+    #         features[key] = 1
+
+    if 'neg' in evtContext:
+        print "Event negation!"
+        features['evtNegation'] = True
+
+    ret = features
+    # ret = feda(ctxType, features)
+    return ret
+
+# Taken from https://docs.python.org/3/library/itertools.html#itertools-recipes
+def pairwise(iterable):
+    "s -> (s0,s1), (s1,s2), (s2, s3), ..."
+    a, b = it.tee(iterable)
+    next(b, None)
+    return zip(a, b)
+
+def dependency_path(datum, annotationData):
+    ''' Extracts the shortest dependency path from an event to the context mention
+        or returns None if it doesn't exist '''
+
+    if datum.evtIx == datum.ctxIx:
+        alldeps = annotationData['deps']
+        deps = alldeps.get(datum.ctxIx, None)
+        if deps is not None:
+            try:
+                path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
+                edges = pairwise(path)
+                labels = map(lambda e: deps.get_edge_data(*e)['label'], edges)
+                return '-'.join(labels)
+            except nx.NetworkXNoPath:
+                return "None"
+            except nx.NetworkXError as e:
+                print "DEBUG: %s - NetworkX: %s" % (datum, e)
+                return "None"
+        else:
+            print "DEBUG: Missing dependencies for %s" % datum
+            return "None"
+    else:
+        return "None"
+
+def get_neighborhood(deps, node):
+    neighbors = deps.neighbors(node)
+    ret = []
+    for n in neighbors:
+        neighbors2 = deps.neighbors(n)
+        for n2 in neighbors2:
+            ret.append((node, n, n2))
+        # ret.append((node, n))
+
+    return ret
+
+def dependency_context(datum, annotationData, ctx=True):
+    line_ix = datum.ctxIx if ctx else datum.evtIx
+    token_ix = datum.ctxToken if ctx else datum.evtToken
+    alldeps = annotationData['deps']
+    deps = alldeps.get(line_ix, None)
+
+
+    if deps is not None:
+        try:
+            paths = get_neighborhood(deps, token_ix)
+            ret = []
+            for p in paths:
+                edges = pairwise(p)
+                labels = map(lambda e: deps.get_edge_data(*e)['label'], edges)
+                ret.append('-'.join(labels))
+            return ret
+        except nx.NetworkXNoPath:
+            return []
+        except nx.NetworkXError as e:
+            print "DEBUG Dependency contexts: %s - NetworkX: %s" % (datum, e)
+            return []
+    else:
+        return []
+
+
+def negation_in_dep_path(datum, annotationData):
+
+    if datum.evtIx == datum.ctxIx:
+        alldeps = annotationData['deps']
+        deps = alldeps.get(datum.ctxIx, None)
+        if deps is not None:
+            try:
+                path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
+                for s in path:
+                    path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
+                    edges = pairwise(path)
+                    labels = map(lambda e: deps.get_edge_data(*e)['label'], edges)
+                    if 'neg' in labels:
+                        print "Path negation!"
+                        return True
+                return False
+
+            except nx.NetworkXNoPath:
+                return False
+            except nx.NetworkXError as e:
+                print "DEBUG: %s - NetworkX: %s" % (datum, e)
+                return False
+        else:
+            print "DEBUG: Missing dependencies for %s" % datum
+            return False
+    else:
+        return False
+
+
+def discourse_path(datum, annotationData):
+    def contains(i, interval):
+        start, end = interval
+        if i >= start and i <= end:
+            return True
+        else:
+            return False
+
+    def edu_contains(sen, tok, edu):
+        # TODO: Continue here!!
+        pass
+
+
+    def common_ancestor(datum, offset, disc):
+        # Offset is necessary because the tree sentence ix starts in 0
+
+        ctxSen = datum.ctxIx - offset
+        evtSen = datum.evtIx - offset
+
+
+
+
+
+    alldisc = annotationData['disc']
+    for k in alldisc.keys():
+        if contains(datum.ctxIx, k):
+            ctxKey = k
+        if contains(datum.evtIx, k):
+            evtKey = k
+
+    if ctxKey == evtKey:
+        disc = alldisc[ctxKey]
+        offset = ctxKey[0]
+        path = common_ancestor(datum, offset, disc)
+        return "None", 0
+    else:
+        return "None", 0
+
 def create_features(data):
     ''' Creates a feature vector and attaches it to the datum object '''
 
     for datum in data:
-        datum.features = classifier.createFeatures(datum, datum.tsv, datum.annotationData)
+        datum.features = generate_features(datum, datum.tsv, datum.annotationData)
 
 def vectorize_data(data):
     ''' Creates Numpy feature vectors out of datum objects '''
@@ -116,7 +371,7 @@ def crossval_baseline(folds, conservative_eval):
     for fold_name, data in folds:
         predictions = {}
         truths = {}
-        
+
         for datum in data:
             prediction = classifier.policy(datum, 3)
             truth = datum.label
@@ -179,9 +434,12 @@ def add_vectors(data, average=False):
 def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
     ''' Configure the selected algorithm here and return a ClassificationResults object '''
 
+    verbose = False
     # Edit the algorithm here
     # model = Perceptron(penalty='l2')
-    model = LogisticRegression(penalty='l2', C=10)
+    model = LogisticRegression(penalty='l1', C=10)
+    # model = SVC(verbose=verbose, kernel='rbf', C=50)
+    # model = SVC(verbose=verbose, kernel='poly', degree=3, C=50)
     #########################
 
     model.fit(X_train, y_train)
@@ -194,7 +452,7 @@ def crossval_model(folds, conservative_eval, limit_training, balance_dataset):
 
     aggregated_data = {}
     for fold_name, data in folds.iteritems():
-        aggregated_data[fold_name] = add_vectors(data)
+        aggregated_data[fold_name] = add_vectors(data, False)
 
 
     results = {}
