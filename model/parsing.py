@@ -9,7 +9,7 @@ import itertools as it
 import operator
 import networkx as nx
 from random import shuffle
-from collections import defaultdict
+from collections import defaultdict, Counter
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
@@ -430,6 +430,15 @@ def extractAnnotationData(pmcid, annDir):
         #mentions = [indices[i] for i in xrange(max(indices.keys())+1)]
         mentions = [indices[j] for i, s, j in tuples if not s.startswith('fig')]
 
+    # Do the mention counts
+    # First count the reach mentions
+    ctxCounts = Counter(n[2] for n in it.chain(*[m for m in mentions if m]))
+    # Normalize it
+    total = sum(ctxCounts.values())
+    for key in ctxCounts:
+        ctxCounts[key] /= total
+
+
     fmanual_context_intervals = os.path.join(pdir, 'manual_context_intervals.txt')
     with open(fmanual_context_intervals) as f:
         manual_context_intervals = {}
@@ -438,6 +447,7 @@ def extractAnnotationData(pmcid, annDir):
             line, interval, cid = l.split()
             interval = interval.split('-')
             manual_context_intervals[cid] = int(interval[0])
+
 
     # Do the manual event intervals
     fsentences = os.path.join(pdir, 'sentences.txt')
@@ -458,7 +468,8 @@ def extractAnnotationData(pmcid, annDir):
         'disc':disc,
         'manual_context_intervals':manual_context_intervals,
         'manual_event_triggers':manual_event_triggers,
-        'sentences':sentences
+        'sentences':sentences,
+        'ctxCounts':ctxCounts
     }
 
 

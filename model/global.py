@@ -11,6 +11,7 @@ import parsing
 from collections import defaultdict
 from sklearn.linear_model import *
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.svm import *
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
@@ -118,6 +119,7 @@ def generate_features(datum, tsv, annotationData):
     deps = annotationData['deps']
     disc = annotationData['disc']
     sentences = annotationData['sentences']
+    counts = annotationData['ctxCounts']
 
     # POS Tags
     ctxTag = postags[datum.ctxIx][datum.ctxToken] if datum.ctxIx in postags else None
@@ -166,6 +168,9 @@ def generate_features(datum, tsv, annotationData):
     # Remove "elaborates"
     # disc_path = filter(lambda s: s != 'elaboration', disc_path)
 
+
+    ctx_frequency = counts[cid] if cid in counts else 1
+
     # Location relative
     features = {
         # 'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
@@ -181,17 +186,19 @@ def generate_features(datum, tsv, annotationData):
         # 'ctxHasCitation':citations[datum.ctxIx],
         # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
         # 'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx],
-        # 'ctxTag':ctxTag,
-        # 'evtTag':evtTag,
-        # 'dependency_path':'-'.join(dpath),
-        # 'dependency_length':deps_len,
+        # 'ctxId':cid,
+        'ctxTag':ctxTag,
+        'evtTag':evtTag,
+        'dependency_path':'|'.join(dpath),
+        'dependency_length':'distdeps:%i' % deps_len,
         # 'dep_negation':dep_negation,
-        'discourse_path':'-'.join(disc_path),
-        'disc_len':disc_len
+        'discourse_path':'|'.join(disc_path),
+        'disc_len':'distdisc:%i' % disc_len,
+        'ctx_frequency':ctx_frequency
     }
 
     # Dependency contexts
-    ctxContext = dependency_context(datum, annotationData, ctx=True)
+    # ctxContext = dependency_context(datum, annotationData, ctx=True)
     # for x in ctxContext:
     #     key = 'ctxContext:%s' % x
     #     if key in features:
@@ -199,21 +206,28 @@ def generate_features(datum, tsv, annotationData):
     #     else:
     #         features[key] = 1
     #
-    # if 'neg' in ctxContext:
-    #     print "Context negation!"
+    # if 'neg' in '-'.join(ctxContext):
     #     features['ctxNegation'] = True
 
-    evtContext = dependency_context(datum, annotationData, ctx=False)
+    # evtContext = dependency_context(datum, annotationData, ctx=False)
     # for x in evtContext:
     #     key = 'evtContext:%s' % x
     #     if key in features:
     #         features[key] += 1
     #     else:
     #         features[key] = 1
-
-    # if 'neg' in evtContext:
-    #     print "Event negation!"
+    #
+    # if 'neg' in '-'.join(evtContext):
     #     features['evtNegation'] = True
+
+    # for d in disc_path:
+    #     key = 'discourse_path:%s' % str(d)
+    #     if key in features:
+    #         features[key] += 1
+    #     else:
+    #         features[key] = 1
+
+    # Counts of context mentions of each type in a paper
 
     ret = features
     # ret = feda(ctxType, features)
@@ -381,11 +395,11 @@ def discourse_path(datum, annotationData):
                 ctxPath = ctxPath[1:]
                 evtPath = evtPath[1:]
 
-        ctxLabels = map(lambda x: x[1], ctxPath)
-        evtLabels = map(lambda x: x[1], evtPath)
+        ctxLabels = filter(lambda x: x != 'Terminal', map(lambda x: x[1], ctxPath))
+        evtLabels = filter(lambda x: x != 'Terminal', map(lambda x: x[1], evtPath))
 
         # Remove the terminal labels and connect both via the common ancestor
-        path = ctxLabels[:-1] + [common[1]] + evtLabels[:-1]
+        path = ctxLabels + [common[1]] + evtLabels
 
         return path
 
@@ -423,7 +437,7 @@ def vectorize_data(data):
     for i, datum in enumerate(data):
         datum.vector = X[i, :]
 
-def crossval_baseline(folds, conservative_eval):
+def crossval_baseline(folds):
     # This is essentially a "one-hit-all" evaluation of policy 4
 
     results = {}
@@ -500,15 +514,17 @@ def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
     model = LogisticRegression(penalty='l2', C=5)
     # model = SVC(verbose=verbose, kernel='rbf', C=50)
     # model = SVC(verbose=verbose, kernel='poly', degree=3, C=50)
+    # model = GradientBoostingClassifier(n_estimators=10, learning_rate=1.0, max_depth=2)
+    # model = RandomForestClassifier(n_estimators=10, max_depth=2)
     #########################
 
-    model.fit(X_train, y_train)
-    predictions = model.predict(X_test)
+    model.fit(X_train.todense(), y_train)
+    predictions = model.predict(X_test.todense())
 
     return ClassificationResults(name, y_test, predictions, point_labels)
 
 
-def crossval_model(folds, conservative_eval, limit_training, balance_dataset):
+def crossval_model(folds, limit_training, balance_dataset):
 
     aggregated_data = {}
     for fold_name, data in folds.iteritems():
@@ -524,7 +540,30 @@ def crossval_model(folds, conservative_eval, limit_training, balance_dataset):
         X_train = vstack([aggregated_data[f][1] for f in aggregated_data if f != fold_name])
         y_train = np.concatenate([aggregated_data[f][2] for f in aggregated_data if f != fold_name])
 
+        if balance_dataset:
+            # Downsample negatives
+            k = 3
+            neg_ix = np.where(y_train == 0)[0]
+            pos_ix = np.where(y_train == 1)[0]
+            subsampled_negs = np.random.choice(neg_ix, size=int(len(pos_ix)*k), replace=False)
+            new_ix = np.concatenate([subsampled_negs, pos_ix])
+            np.random.shuffle(new_ix)
+            X_train = X_train[new_ix, :]
+            y_train = y_train[new_ix]
+
+            # # Upsample positives
+            # l = 1.5
+            # pos_ix = np.where(y_train == 1)[0]
+            # neg_ix = np.where(y_train == 0)[0]
+            # upsampled_pos = np.random.choice(pos_ix, size=int(len(pos_ix)*l), replace=True)
+            # new_ix = np.concatenate([upsampled_pos, neg_ix])
+            # np.random.shuffle(new_ix)
+            # X_train = X_train[new_ix, :]
+            # y_train = y_train[new_ix]
+
+
         print "Testing on %s ..." % fold_name
+        print "%i positive - %i negative" % (y_train.sum(), len(y_train)-y_train.sum())
         results[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test, point_labels)
 
     return results
@@ -543,7 +582,6 @@ if __name__ == "__main__":
     # CONFIG ###
     use_reach = True # Use reach's context extractions to extend the data set
     relabeling = parsing.RELABEL # Relabel alternative examples if they have the same type as one of Xia's choices for it's event
-    conservative_eval = False # Only evaluate over Xia's annotations
     limit_training = False # Only use the training examples that are in the neighborhood of the golden annotations
     # This is been deprecated, as we use aggregation now
     # one_hit_all = True # If one datum is classified positively, all data with the same context grounded id are postclassified as positive
@@ -557,14 +595,14 @@ if __name__ == "__main__":
     create_features(it.chain(*cv_folds.values()))
 
     print "Baseline cross validation"
-    policy_results = crossval_baseline(cv_folds.iteritems(), conservative_eval=conservative_eval)
+    policy_results = crossval_baseline(cv_folds.iteritems())
 
     print "Vectorizing features"
     vectorize_data(list(it.chain(*cv_folds.values())))
 
     print "# of features: %i" % cv_folds.values()[0][0].vector.shape[1]
     print "Machine Learning cross validation"
-    model_results = crossval_model(cv_folds, conservative_eval=conservative_eval,\
+    model_results = crossval_model(cv_folds,\
                                             limit_training=limit_training, balance_dataset=balance_dataset)
 
     macro_model, micro_model = MacroAverage("Macro model", model_results.values()), MicroAverage("Micro model", model_results.values())
