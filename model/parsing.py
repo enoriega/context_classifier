@@ -235,18 +235,18 @@ def extractData(tsv, name, annotationData, true_only=False):
 
             added.add((evt, ctx))
 
-            # if not true_only:
-            #     # Pick a negative example
-            #     # ctx2s = getOtherContext(line, localContext)
-            #     ctx2s = getAllOtherContext(line, localContext)
-            #
-            #     if ctx2s is not None:
-            #         for ctx2 in ctx2s:
-            #             try:
-            #                 cLine2, cGrounding2 = cLines[ctx2]
-            #                 true.append(Datum(name, line, cLine2, ctx2, cGrounding2, manual_ctx[ctx2], evt, manual_evt[evt], 0, golden=False))
-            #             except e:
-            #                 print e
+            if not true_only:                
+                # Pick a negative example
+                # ctx2s = getOtherContext(line, localContext)
+                ctx2s = getAllOtherContext(line, localContext)
+
+                if ctx2s is not None:
+                    for ctx2 in ctx2s:
+                        try:
+                            cLine2, cGrounding2 = cLines[ctx2]
+                            true.append(Datum(name, line, cLine2, ctx2, cGrounding2, manual_ctx[ctx2], evt, manual_evt[evt], 0, golden=False))
+                        except e:
+                            print e
 
     for s in missing_manual_ctx: print s
 

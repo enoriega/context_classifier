@@ -124,6 +124,27 @@ def generate_features(datum, tsv, annotationData):
     # POS Tags
     ctxTag = postags[datum.ctxIx][datum.ctxToken] if datum.ctxIx in postags else None
     evtTag = postags[datum.evtIx][datum.evtToken] if datum.evtIx in postags else None
+    # POS NGrams
+    # if datum.ctxIx in postags:
+    #     tags = postags[datum.ctxIx]
+    #     x = []
+    #     for i in range(datum.ctxIx-1, datum.ctxIx+2):
+    #         if i >= 0 and i < len(tags):
+    #             x.append(tags[i])
+    #     ctxTag = '-'.join(x)
+    # else:
+    #     None
+    #
+    # if datum.evtIx in postags:
+    #     tags = postags[datum.evtIx]
+    #     x = []
+    #     for i in range(datum.evtIx-1, datum.evtIx+2):
+    #         if i >= 0 and i < len(tags):
+    #             x.append(tags[i])
+    #     evtTag = '-'.join(x)
+    # else:
+    #     None
+
 
     # Distance in sections
     secSlice = sections[datum.evtIx:datum.ctxIx+1]
@@ -157,6 +178,9 @@ def generate_features(datum, tsv, annotationData):
     dpath = dependency_path(datum, annotationData)
     deps_len = len(dpath) if len(dpath) >= 1 else -1
 
+    # POS Tag path
+    ppath = postag_path(datum, annotationData)
+
     # Negation in the path between ctx and evt
     dep_negation = negation_in_dep_path(datum, annotationData)
 
@@ -171,11 +195,29 @@ def generate_features(datum, tsv, annotationData):
 
     ctx_frequency = counts[cid] if cid in counts else 1
 
+    #Binned distance in sentences
+    if datum.evtIx == datum.ctxIx:
+        distsents = "SAME"
+    elif abs(datum.evtIx - datum.ctxIx) <= 5:
+        distsents = "CLOSE"
+    else:
+        distsents = "FAR"
+
+    #Binned distance in EDUs
+    if disc_len == 0:
+        binned_disclen = "SAME"
+    elif abs(datum.evtIx - datum.ctxIx) <= 3:
+        binned_disclen = "CLOSE"
+    else:
+        binned_disclen = "FAR"
+
     # Location relative
     features = {
         # 'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
+        # 'binned_distance':distsents,
         # 'distanceDocs':'distdocs:%i' % distanceDocs,
         # 'sameSection':changes == 0,
+        # 'binned_dist_section_change':'%s_%i' % (distsents, changes == 0),
         # 'evtFirst':(datum.evtIx < datum.ctxIx),
         # 'sameLine':(datum.evtIx == datum.ctxIx),
         # 'ctxType':ctxType
@@ -191,9 +233,11 @@ def generate_features(datum, tsv, annotationData):
         'evtTag':evtTag,
         'dependency_path':'|'.join(dpath),
         'dependency_length':'distdeps:%i' % deps_len,
+        # 'postag_path':'|'.join(ppath),
         # 'dep_negation':dep_negation,
         'discourse_path':'|'.join(disc_path),
-        'disc_len':'distdisc:%i' % disc_len,
+        # 'disc_len':'distdisc:%i' % disc_len,
+        'binned_disc_len':binned_disclen,
         'ctx_frequency':ctx_frequency
     }
 
@@ -230,7 +274,7 @@ def generate_features(datum, tsv, annotationData):
     # Counts of context mentions of each type in a paper
 
     ret = features
-    # ret = feda(ctxType, features)
+    # ret = classifier.feda(ctxType, features)
     return ret
 
 # Taken from https://docs.python.org/3/library/itertools.html#itertools-recipes
@@ -252,6 +296,27 @@ def dependency_path(datum, annotationData):
                 path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
                 edges = pairwise(path)
                 labels = map(lambda e: deps.get_edge_data(*e)['label'], edges)
+                return labels
+            except nx.NetworkXNoPath:
+                return []
+            except nx.NetworkXError as e:
+                print "DEBUG: %s - NetworkX: %s" % (datum, e)
+                return []
+        else:
+            print "DEBUG: Missing dependencies for %s" % datum
+            return []
+    else:
+        return []
+
+def postag_path(datum, annotationData):
+    if datum.evtIx == datum.ctxIx:
+        alldeps = annotationData['deps']
+        deps = alldeps.get(datum.ctxIx, None)
+        if deps is not None:
+            try:
+                path = nx.shortest_path(deps, datum.ctxToken, datum.evtToken)
+                tags = annotationData['postags'][datum.ctxIx]
+                labels = map(lambda e: tags[e], path)
                 return labels
             except nx.NetworkXNoPath:
                 return []
@@ -547,7 +612,7 @@ def crossval_model(folds, limit_training, balance_dataset):
             pos_ix = np.where(y_train == 1)[0]
             subsampled_negs = np.random.choice(neg_ix, size=int(len(pos_ix)*k), replace=False)
             new_ix = np.concatenate([subsampled_negs, pos_ix])
-            np.random.shuffle(new_ix)
+            # np.random.shuffle(new_ix)
             X_train = X_train[new_ix, :]
             y_train = y_train[new_ix]
 
