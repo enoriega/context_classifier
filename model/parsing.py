@@ -235,7 +235,7 @@ def extractData(tsv, name, annotationData, true_only=False):
 
             added.add((evt, ctx))
 
-            if not true_only:                
+            if not true_only:
                 # Pick a negative example
                 # ctx2s = getOtherContext(line, localContext)
                 ctx2s = getAllOtherContext(line, localContext)
@@ -432,7 +432,7 @@ def extractAnnotationData(pmcid, annDir):
 
     # Do the mention counts
     # First count the reach mentions
-    ctxCounts = Counter(n[2] for n in it.chain(*[m for m in mentions if m]))
+    ctxCounts = Counter(n[2].upper() for n in it.chain(*[m for m in mentions if m]))
     # Normalize it
     total = sum(ctxCounts.values())
     for key in ctxCounts:

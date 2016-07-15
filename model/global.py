@@ -10,18 +10,18 @@ import matplotlib.pyplot as plt
 import parsing
 from collections import defaultdict
 from sklearn.linear_model import *
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import *
 from sklearn.svm import *
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
-from sklearn.feature_extraction import DictVectorizer
+from sklearn.feature_extraction import *
 from parsing import *
 from model import *
 from scipy.stats import bernoulli, ttest_1samp
 from unbalanced_dataset import *
 from sklearn.metrics import f1_score
-from scipy.sparse import vstack
+from sklearn.feature_selection import RFE
+from scipy.sparse import vstack, hstack
 from classification_results import *
 import classifier
 import os
@@ -93,7 +93,7 @@ def parse_data(paths, annDir, use_reach, relabeling, skip_amount=10):
     return accumulated_data
 
 
-def generate_features(datum, tsv, annotationData):
+def generate_datum_features(datum, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
 
     def sectionType(section):
@@ -122,8 +122,9 @@ def generate_features(datum, tsv, annotationData):
     counts = annotationData['ctxCounts']
 
     # POS Tags
-    ctxTag = postags[datum.ctxIx][datum.ctxToken] if datum.ctxIx in postags else None
-    evtTag = postags[datum.evtIx][datum.evtToken] if datum.evtIx in postags else None
+    ctxTag = cluster_postag(postags[datum.ctxIx][datum.ctxToken]) if datum.ctxIx in postags else None
+    evtTag = cluster_postag(postags[datum.evtIx][datum.evtToken]) if datum.evtIx in postags else None
+
     # POS NGrams
     # if datum.ctxIx in postags:
     #     tags = postags[datum.ctxIx]
@@ -176,6 +177,7 @@ def generate_features(datum, tsv, annotationData):
 
     # Dependecy path between ctx and evt
     dpath = dependency_path(datum, annotationData)
+    dpath = cluster_dependencies(dpath)
     deps_len = len(dpath) if len(dpath) >= 1 else -1
 
     # POS Tag path
@@ -186,6 +188,8 @@ def generate_features(datum, tsv, annotationData):
 
     # Discourse path
     disc_path = discourse_path(datum, annotationData)
+    disc_path = filter(lambda s: s not in {'Terminal'}, disc_path)
+    disc_path = cluster_discourse(disc_path)
     disc_len = len(disc_path) if disc_path != [] else -1
     # Remove duplicates from the discourse path, to reduce dimensionality
     # disc_path = [k for k, v in it.groupby(disc_path)]
@@ -193,12 +197,12 @@ def generate_features(datum, tsv, annotationData):
     # disc_path = filter(lambda s: s != 'elaboration', disc_path)
 
 
-    ctx_frequency = counts[cid] if cid in counts else 1
+    ctx_doc_frequency = counts[cid] if cid in counts else 1
 
     #Binned distance in sentences
     if datum.evtIx == datum.ctxIx:
         distsents = "SAME"
-    elif abs(datum.evtIx - datum.ctxIx) <= 5:
+    elif abs(datum.evtIx - datum.ctxIx) <= 13:
         distsents = "CLOSE"
     else:
         distsents = "FAR"
@@ -206,15 +210,28 @@ def generate_features(datum, tsv, annotationData):
     #Binned distance in EDUs
     if disc_len == 0:
         binned_disclen = "SAME"
-    elif abs(datum.evtIx - datum.ctxIx) <= 3:
+    elif abs(datum.evtIx - datum.ctxIx) <= 8:
         binned_disclen = "CLOSE"
+    elif disc_len == -1:
+        binned_disclen = "NULL"
     else:
         binned_disclen = "FAR"
+
+    #Binned distance in dependencies
+    if deps_len <= 5:
+        binned_depslen = "CLOSE"
+    elif disc_len == -1:
+        binned_depslen = "NULL"
+    else:
+        binned_depslen = "FAR"
+
+    #All binned distances
+    all_bin_dists = '%s_%s_%s' % (distsents, binned_disclen, binned_depslen)
 
     # Location relative
     features = {
         # 'distance':'distsents:%i' % abs(datum.evtIx - datum.ctxIx),
-        # 'binned_distance':distsents,
+        'binned_distance':distsents,
         # 'distanceDocs':'distdocs:%i' % distanceDocs,
         # 'sameSection':changes == 0,
         # 'binned_dist_section_change':'%s_%i' % (distsents, changes == 0),
@@ -226,23 +243,49 @@ def generate_features(datum, tsv, annotationData):
         # 'ctxInTitle':titles[datum.ctxIx],
         # 'evtHasCitation':citations[datum.evtIx],
         # 'ctxHasCitation':citations[datum.ctxIx],
-        # 'ctxInAbstract':sectionType(sections[datum.ctxIx]) == 'abstract',
+        # 'ctxInAbstract':'%s-%i' %  (distsents, sectionType(sections[datum.ctxIx]) == 'abstract'),
         # 'sameDocId':docnums[datum.ctxIx] == docnums[datum.evtIx],
         # 'ctxId':cid,
         'ctxTag':ctxTag,
         'evtTag':evtTag,
-        'dependency_path':'|'.join(dpath),
-        'dependency_length':'distdeps:%i' % deps_len,
+        # 'dependency_path':'|'.join(dpath),
+        # 'dependency_length':'distdeps:%i' % deps_len,
+        'binned_dependency_length':binned_depslen,
         # 'postag_path':'|'.join(ppath),
         # 'dep_negation':dep_negation,
-        'discourse_path':'|'.join(disc_path),
+        # 'discourse_path':'|'.join(disc_path),
         # 'disc_len':'distdisc:%i' % disc_len,
         'binned_disc_len':binned_disclen,
-        'ctx_frequency':ctx_frequency
+        # 'ctx_doc_frequency':ctx_doc_frequency,
+        # 'all_binned_dists':all_bin_dists
     }
 
+    # Dependency unigrams
+    for dep in dpath:
+        key = 'dep_path_unigrams:%s' % dep
+        if key in features:
+            features[key] = 1
+        else:
+            features[key] = 1
+
+    # Dependency bigrams
+    # for dep in pairwise(dpath):
+    #     key = 'dep_path_bigrams:%s' % str(dep)
+    #     if key in features:
+    #         features[key] += 1
+    #     else:
+    #         features[key] = 1
+
+    # POS unigrams
+    for tag in ppath:
+        key = 'pos_path_unigrams:%s' % tag
+        if key in features:
+            features[key] += 1
+        else:
+            features[key] = 1
+
     # Dependency contexts
-    # ctxContext = dependency_context(datum, annotationData, ctx=True)
+    ctxContext = cluster_dependencies(dependency_context(datum, annotationData, ctx=True))
     # for x in ctxContext:
     #     key = 'ctxContext:%s' % x
     #     if key in features:
@@ -250,10 +293,10 @@ def generate_features(datum, tsv, annotationData):
     #     else:
     #         features[key] = 1
     #
-    # if 'neg' in '-'.join(ctxContext):
-    #     features['ctxNegation'] = True
+    if 'neg' in '-'.join(ctxContext):
+        features['ctxNegation'] = True
 
-    # evtContext = dependency_context(datum, annotationData, ctx=False)
+    evtContext = cluster_dependencies(dependency_context(datum, annotationData, ctx=False))
     # for x in evtContext:
     #     key = 'evtContext:%s' % x
     #     if key in features:
@@ -261,21 +304,81 @@ def generate_features(datum, tsv, annotationData):
     #     else:
     #         features[key] = 1
     #
-    # if 'neg' in '-'.join(evtContext):
-    #     features['evtNegation'] = True
+    if 'neg' in '-'.join(evtContext):
+        features['evtNegation'] = True
 
-    # for d in disc_path:
-    #     key = 'discourse_path:%s' % str(d)
+    # Discourse unigrams
+    # if binned_disclen == "CLOSE":
+    #     k = 1
+    #     for i, d in enumerate(disc_path[:k] + disc_path[-k:]):
+    #         key = 'discourse_unigrams:%i-%s' % (disc_len, d)
+    #         if key in features:
+    #             features[key] = 1
+    #         else:
+    #             features[key] = 1
+    #
+    #     # Discourse bigrams
+    #     k = 3
+    #     for i, d in enumerate(pairwise(disc_path[:k] + disc_path[-k:])):
+    #         key = 'discourse_bigrams:%i-%s' % (disc_len, str(d))
+    #         if key in features:
+    #             features[key] = 1
+    #         else:
+    #             features[key] = 1
+
+
+    # for i, d in enumerate(disc_path):
+    #     key = 'discourse_path-%i:%s' % (i, str(d))
     #     if key in features:
     #         features[key] += 1
     #     else:
     #         features[key] = 1
 
-    # Counts of context mentions of each type in a paper
 
-    ret = features
-    # ret = classifier.feda(ctxType, features)
+    # ret = features
+    ret = classifier.feda(ctxType, features)
     return ret
+
+def cluster_dependencies(deps):
+    ret = []
+    for d in deps:
+        if d.startswith('prep'):
+            ret.append('prep')
+        elif d.startswith('conj'):
+            ret.append('conj')
+        elif d.endswith('obj'):
+            ret.append('obj')
+        elif d.endswith('mod'):
+            ret.append('mod')
+        elif 'subj' in d:
+            ret.append('subj')
+        else:
+            ret.append(d)
+    return ret
+
+def cluster_discourse(disc):
+    ret = []
+    for edu in disc:
+        if edu in {'attribution', 'cause', 'enablement', 'manner-means'}:
+            ret.append('causal')
+        elif edu in {'topic-change', 'topic-comment'}:
+            ret.append('topic')
+        elif edu in {'joint', 'same-unit'}:
+            ret.append('misc')
+        else:
+            ret.append(edu)
+
+    return ret
+
+def cluster_postag(tag):
+    if tag.startswith('NN'):
+        return 'NN'
+    elif tag.startswith('VB'):
+        return 'VB'
+    elif tag in {',', '-RRB-'}:
+        return 'BOGUS'
+    else:
+        return tag
 
 # Taken from https://docs.python.org/3/library/itertools.html#itertools-recipes
 def pairwise(iterable):
@@ -489,18 +592,36 @@ def create_features(data):
     ''' Creates a feature vector and attaches it to the datum object '''
 
     for datum in data:
-        datum.features = generate_features(datum, datum.tsv, datum.annotationData)
+        datum.features = generate_datum_features(datum, datum.tsv, datum.annotationData)
+        datum.doc_features = generate_doc_features(datum, datum.tsv, datum.annotationData)
+
+def generate_doc_features(datum, tsv, annotationData):
+
+    # Mention counts
+    cid = datum.ctxGrounded
+    mention_counts = datum.annotationData['ctxCounts']
+
+    ctx_freq = mention_counts[cid]
+
+    features = {
+        'ctx_freq':ctx_freq
+    }
+
+    return features
 
 def vectorize_data(data):
     ''' Creates Numpy feature vectors out of datum objects '''
 
-    cv = DictVectorizer()
-    X = cv.fit_transform([d.features for d in data])
+    cv, cv2 = DictVectorizer(), DictVectorizer()
+    X, X2 = cv.fit_transform([d.features for d in data]), cv.fit_transform([d.doc_features for d in data])
     # Normalize the matrix
     normalize(X, norm='max', copy=False)
+    normalize(X2, norm='max', copy=False)
 
     for i, datum in enumerate(data):
-        datum.vector = X[i, :]
+        datum.vector = hstack([X[i, :], X2[i, :]])
+
+    return cv
 
 def crossval_baseline(folds):
     # This is essentially a "one-hit-all" evaluation of policy 4
@@ -512,7 +633,7 @@ def crossval_baseline(folds):
         truths = {}
 
         for datum in data:
-            prediction = classifier.policy(datum, 3)
+            prediction = classifier.policy(datum, 6)
             truth = datum.label
             key = (datum.evt, datum.ctxGrounded)
 
@@ -571,22 +692,48 @@ def add_vectors(data, average=False):
 
 
 def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
-    ''' Configure the selected algorithm here and return a ClassificationResults object '''
+    ''' Configure the selected algorithm here and return a ClassificationResults object and a feature mask '''
 
     verbose = False
     # Edit the algorithm here
     # model = Perceptron(penalty='l2')
-    model = LogisticRegression(penalty='l2', C=5)
-    # model = SVC(verbose=verbose, kernel='rbf', C=50)
+    algorithm = LogisticRegression(penalty='l2', C=.1)
+    # model = SVC(verbose=verbose, kernel='linear', C=1)
+    # algorithm = SVC(verbose=verbose, kernel='rbf', C=1)
     # model = SVC(verbose=verbose, kernel='poly', degree=3, C=50)
     # model = GradientBoostingClassifier(n_estimators=10, learning_rate=1.0, max_depth=2)
     # model = RandomForestClassifier(n_estimators=10, max_depth=2)
     #########################
 
-    model.fit(X_train.todense(), y_train)
-    predictions = model.predict(X_test.todense())
+    algorithm.fit(X_train, y_train)
+    predictions = algorithm.predict(X_test)
+    coefficients = []#algorithm.coef_
 
-    return ClassificationResults(name, y_test, predictions, point_labels)
+    # Recursive feature selection
+    # selector = RFE(algorithm, step=25, verbose=1)
+    # selector = selector.fit(X_train, y_train)
+    # print selector.support_.astype(int).sum()
+    # Dimension-reduced data
+    # mask = selector.support_
+    # X_train, X_test = X_train[:, mask], X_test[:, mask]
+    # Ensemble
+    # ensemble = BaggingClassifier(LogisticRegression(penalty='l2', C=5), n_estimators=50, max_samples=1.0, verbose=2, n_jobs=3)
+    # ensemble.fit(X_train, y_train)
+    # coefficients = np.asarray([e.coef_[0] for e in ensemble.estimators_]).mean()
+    # predictions = ensemble.predict(X_test)
+
+    # Ensemble
+    # ensemble = BaggingClassifier(LogisticRegression(penalty='l2', C=5), n_estimators=50, max_samples=.70, verbose=2, n_jobs=-1)
+    # ensemble.fit(X_train, y_train)
+    # coefficients = np.asarray([e.coef_[0] for e in ensemble.estimators_]).mean()
+    # predictions = ensemble.predict(X_test)
+
+    # coefficients = selector.estimator_.coef_[0]
+    # predictions = selector.predict(X_test)
+
+
+    mask = np.ones(X_train.shape[1]).astype(bool)
+    return ClassificationResults(name, y_test, predictions, point_labels), mask, coefficients
 
 
 def crossval_model(folds, limit_training, balance_dataset):
@@ -596,7 +743,7 @@ def crossval_model(folds, limit_training, balance_dataset):
         aggregated_data[fold_name] = add_vectors(data, False)
 
 
-    results = {}
+    results, masks, coeffictients = {}, {}, {}
 
     for fold_name in folds:
         point_labels, X_test, y_test = aggregated_data[fold_name]
@@ -629,9 +776,9 @@ def crossval_model(folds, limit_training, balance_dataset):
 
         print "Testing on %s ..." % fold_name
         print "%i positive - %i negative" % (y_train.sum(), len(y_train)-y_train.sum())
-        results[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test, point_labels)
+        results[fold_name], masks[fold_name], coeffictients[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test, point_labels)
 
-    return results
+    return results, masks, coeffictients
 
 
 # Entry point
@@ -659,18 +806,18 @@ if __name__ == "__main__":
     print "Extracting features"
     create_features(it.chain(*cv_folds.values()))
 
-    print "Baseline cross validation"
+    # print "Baseline cross validation"
     policy_results = crossval_baseline(cv_folds.iteritems())
 
     print "Vectorizing features"
-    vectorize_data(list(it.chain(*cv_folds.values())))
+    vectorizer = vectorize_data(list(it.chain(*cv_folds.values())))
 
     print "# of features: %i" % cv_folds.values()[0][0].vector.shape[1]
     print "Machine Learning cross validation"
-    model_results = crossval_model(cv_folds,\
-                                            limit_training=limit_training, balance_dataset=balance_dataset)
+    model_results, masks, coefficients  = crossval_model(cv_folds,\
+                            limit_training=limit_training, balance_dataset=balance_dataset)
 
     macro_model, micro_model = MacroAverage("Macro model", model_results.values()), MicroAverage("Micro model", model_results.values())
     macro_policy, micro_policy = MacroAverage("Macro policy", policy_results.values()), MicroAverage("Micro policy", policy_results.values())
-
+    #
     os.system('say "your program has finished"')
