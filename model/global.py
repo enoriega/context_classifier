@@ -613,15 +613,16 @@ def vectorize_data(data):
     ''' Creates Numpy feature vectors out of datum objects '''
 
     cv, cv2 = DictVectorizer(), DictVectorizer()
-    X, X2 = cv.fit_transform([d.features for d in data]), cv.fit_transform([d.doc_features for d in data])
+    X, X2 = cv.fit_transform([d.features for d in data]), cv2.fit_transform([d.doc_features for d in data])
     # Normalize the matrix
     normalize(X, norm='max', copy=False)
     normalize(X2, norm='max', copy=False)
 
     for i, datum in enumerate(data):
         datum.vector = hstack([X[i, :], X2[i, :]])
+        # datum.vector = hstack([X[i, :]])
 
-    return cv
+    return cv, cv2
 
 def crossval_baseline(folds):
     # This is essentially a "one-hit-all" evaluation of policy 4
@@ -707,7 +708,7 @@ def train_eval_model(name, X_train, X_test, y_train, y_test, point_labels):
 
     algorithm.fit(X_train, y_train)
     predictions = algorithm.predict(X_test)
-    coefficients = []#algorithm.coef_
+    coefficients = algorithm.coef_
 
     # Recursive feature selection
     # selector = RFE(algorithm, step=25, verbose=1)
@@ -745,8 +746,12 @@ def crossval_model(folds, limit_training, balance_dataset):
 
     results, masks, coeffictients = {}, {}, {}
 
+    tests = []
+
     for fold_name in folds:
         point_labels, X_test, y_test = aggregated_data[fold_name]
+
+        tests.append(X_test)
 
 
         X_train = vstack([aggregated_data[f][1] for f in aggregated_data if f != fold_name])
@@ -778,7 +783,8 @@ def crossval_model(folds, limit_training, balance_dataset):
         print "%i positive - %i negative" % (y_train.sum(), len(y_train)-y_train.sum())
         results[fold_name], masks[fold_name], coeffictients[fold_name] = train_eval_model(fold_name, X_train, X_test, y_train, y_test, point_labels)
 
-    return results, masks, coeffictients
+
+    return results, masks, coeffictients, vstack(tests)
 
 
 # Entry point
@@ -810,11 +816,11 @@ if __name__ == "__main__":
     policy_results = crossval_baseline(cv_folds.iteritems())
 
     print "Vectorizing features"
-    vectorizer = vectorize_data(list(it.chain(*cv_folds.values())))
+    vectorizer, vectorizer2 = vectorize_data(list(it.chain(*cv_folds.values())))
 
     print "# of features: %i" % cv_folds.values()[0][0].vector.shape[1]
     print "Machine Learning cross validation"
-    model_results, masks, coefficients  = crossval_model(cv_folds,\
+    model_results, masks, coefficients, X  = crossval_model(cv_folds,\
                             limit_training=limit_training, balance_dataset=balance_dataset)
 
     macro_model, micro_model = MacroAverage("Macro model", model_results.values()), MicroAverage("Micro model", model_results.values())

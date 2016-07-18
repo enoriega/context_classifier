@@ -59,8 +59,60 @@ class ClassificationResults(object):
         else:
             return 2*((self.precision*self.recall)/den)
 
+    def get_true_positives_keys(self):
+        return [k for k, t, p in zip(self.keys, self.truth, self.predictions) if t == p == 1]
+
+    def get_true_negatives_keys(self):
+        return [ k for k, t, p in zip(self.keys, self.truth, self.predictions) if t == p == 0]
+
+    def get_false_positives_keys(self):
+        return [k for k, t, p in zip(self.keys, self.truth, self.predictions) if t != p and t == 0]
+
+    def get_false_positives_keys(self):
+        return [k for k, t, p in zip(self.keys, self.truth, self.predictions) if t != p and t == 1]
+
     def __repr__(self):
         return "CR %s - P:%f\tR:%f\tF1:%f" % (self.name, self.precision, self.recall, self.f1)
+
+    def get_tp_mask(self):
+        ret = []
+        for t, p in zip(self.truth, self.predictions):
+            if t == p == 1:
+                ret.append(True)
+            else:
+                ret.append(False)
+
+        return ret
+
+    def get_tn_mask(self):
+        ret = []
+        for t, p in zip(self.truth, self.predictions):
+            if t == p == 0:
+                ret.append(True)
+            else:
+                ret.append(False)
+
+        return ret
+
+    def get_fp_mask(self):
+        ret = []
+        for t, p in zip(self.truth, self.predictions):
+            if t != p and t == 0:
+                ret.append(True)
+            else:
+                ret.append(False)
+
+        return ret
+
+    def get_fn_mask(self):
+        ret = []
+        for t, p in zip(self.truth, self.predictions):
+            if t != p and t == 1:
+                ret.append(True)
+            else:
+                ret.append(False)
+
+        return ret
 
     def __len__(self):
         return len(self.truth)
