@@ -14,7 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import normalize
 from sklearn import cross_validation, metrics
 from sklearn.feature_extraction import DictVectorizer
-from model import triggers
+from context import triggers
 
 EVAL1="ref"
 EVAL2="sentence"
@@ -93,18 +93,6 @@ class Datum(object):
     def __repr__(self):
         return str(self)
 
-def saveErrors(errors, path):
-    ''' Save the classification errors to a csv file '''
-    labels = ['File', 'Line', 'EvtID', 'CtxID', 'EType']
-    rows = []
-    for err in errors:
-        datum, etype = err
-        rows.append([datum.namespace, datum.evtIx, datum.evt, datum.ctx, etype])
-
-    with open(path, 'w') as f:
-        writter = csv.writer(f)
-        writter.writerow(labels)
-        writter.writerows(rows)
 
 def extractData(tsv, name, annotationData, true_only=False):
     ''' Reads a parsed TSV and yields a sequence of data
@@ -167,25 +155,6 @@ def extractData(tsv, name, annotationData, true_only=False):
     groups = {k:list({x[2] for x in g}) for k, g in itertools.groupby(sortedEvents, key=lambda x: x[0])}
 
     sortedContext = [c[0] for c in sorted(context, key=lambda x: x[1])]
-
-    # def getOtherContext(location, excluded, num=100):
-    #     ''' Pick randomly another context with a probability proportional to it's distance from pivot '''
-    #
-    #     candidateContexts = [(k, abs(v[0]-location)) for k, v in cLines.iteritems() if k not in excluded]
-    #     if len(candidateContexts) > 0:
-    #         probs = np.asarray([x[1] for x in candidateContexts], dtype=float)
-    #         probs /= probs.sum()
-    #
-    #         choices = np.random.choice(len(candidateContexts), num if len(candidateContexts) > num else len(candidateContexts), p=probs, replace=False)
-    #
-    #         # TODO: Really fix this!!
-    #         x = filter(lambda a: not a.isdigit(), {candidateContexts[choice][0] for choice in choices})
-    #         # for a in x:
-    #         #     if a.isdigit():
-    #         #         print x
-    #         return x
-    #     else:
-    #         return None
 
     def getAllOtherContext(location, excluded):
         ''' Pick all the other contexts from Xia's annotations '''
@@ -473,57 +442,6 @@ def extractAnnotationData(pmcid, annDir):
     }
 
 
-
-def annotationStats(paths, annotationsDir):
-
-    rows = []
-
-    for p in paths:
-        pid = get_pmcid(p)
-        row = {}
-        row['id'] = pid
-        mentions = mentionCounts(os.path.join(annotationsDir, pid, 'mention_intervals.txt'))
-        row['mentions'] = mentions.shape[0]
-        row['species_mentions'] = mentions[mentions['type'] == 'Species'].shape[0]
-        row['ct_mentions'] = mentions[mentions['type'] == 'CT'].shape[0]
-        row['cl_mentions'] = mentions[mentions['type'] == 'CL'].shape[0]
-        row['org_mentions'] = mentions[mentions['type'] == 'ORG'].shape[0]
-        tsv = parseTSV(p)
-        annotations = [d for d in extractData(tsv, p, False) if d.label == 1]
-        row['refs'] = len(annotations)
-        row['ctx_annotations'] = len({a.ctx for a in annotations})
-        row['evt_annotations'] = len({a.evt for a in annotations})
-        rows.append(row)
-
-    return pd.DataFrame(rows).set_index('id')
-
-def mentionCounts(path):
-    def ctxType(s):
-        if "taxonomy" in s:
-            return "Species"
-        elif "ua-ct" in s:
-            return "CT"
-        elif "org" in s:
-            return "ORG"
-        elif "ua-cl" in s:
-            return "CL"
-
-    mentions = []
-    with open(path) as f:
-        for line in f:
-            line = line[:-1].lower()
-            ix, intervals = line.split(' ', 1)
-            intervals = [i for i in intervals.split(' ') if i != '']
-
-            for interval in intervals:
-                start, end, word, ctxid = interval.split('-', 3)
-                t = ctxType(ctxid)
-                if t is not None and word not in not_permited_words:
-                    mentions.append({'type':t})
-
-    ret = pd.DataFrame(mentions)
-    return ret
-
 def parseTSV(path):
     ''' Parses a tsv file '''
     fieldNames = ['num', 'ctxId', 'ctxTxt', 'tbAnn', 'ctx', 'evtTxt', 'text']
@@ -544,82 +462,6 @@ def parseTSV(path):
             rows.append(row)
 
     return rows
-
-def pandas(tsv, name):
-    ''' Creates pandas data frames for rows '''
-
-    def isEvent(s):
-        return len(s) > 0 and s[0].upper().startswith('E')
-
-    def isContext(s):
-        return len(s) > 0 and not isEvent(s)
-
-    events, context = [], []
-    for x in tsv:
-        tbs, ix, cxs = x['tbAnn'], int(x['num'])-1, x['ctx']
-        for tb in tbs:
-            if isEvent(tb):
-                for cx in cxs:
-                    events.append({"evt":tb, "name":name, "sentence":ix, "context":cx})
-            elif isContext(tb):
-                # This would be context annotations
-                context.append({"cid":tb, "name":name, "sentence":ix, "type":tb[0].lower()})
-
-    fEvents = pd.DataFrame(events)
-    fContext = pd.DataFrame(context)
-    # eLines = {e[0]:e[1] for e in events}
-    # cLines = {c[0]:c[1] for c in context}
-
-    return fEvents, fContext
-
-def split_dataset(directory, training_size, num_samples=1):
-    ''' Splits the dataset with proportion of 'training_size' "refs".
-        training_size should be > 0 and < 1
-        Returns two lists [[training_ids], [testing_ids]] '''
-
-    # Complete dataset
-    paths = glob.glob(os.path.join(directory, '*.tsv'))
-
-    # All pmc ids
-    ids = []
-
-    numrefs = {}
-    for path in paths:
-        counter = 0
-        pmcid = get_pmcid(path)
-        ids.append(pmcid)
-        tsv = parseTSV(path)
-        data = extractData(tsv, path)
-        # Count the number of positive examples
-        positive = [d for d in data if d.label == 1]
-        filtered = set()
-        for p in positive:
-            filtered.add(p.evtIx)
-
-        numrefs[pmcid] = len(filtered)
-
-    # Make ids a set to support set operations
-    ids_set = set(ids)
-
-    total_refs = sum(numrefs.values())
-
-    # I'm going dumb with a brute force approach because the number or papers is small
-    # Generate the powerset of all the pmcids
-    ret = []
-
-    for x in xrange(num_samples):
-        shuffle(ids)
-        sizes = [numrefs[pmcid] for pmcid in ids]
-        for i in xrange(len(ids)):
-            size = sum(sizes[:i])/total_refs
-            if size >= training_size - .02 and size <= training_size + .02:
-                candidate = set(ids[:i])
-                ret.append((candidate, ids_set-candidate))
-                print size
-                break
-
-    return ret
-
 
 
 def find_evt_anchors(sentence, triggers):

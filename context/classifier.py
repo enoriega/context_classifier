@@ -16,13 +16,7 @@ from scipy.stats import bernoulli
 from unbalanced_dataset import *
 from sklearn.metrics import f1_score
 
-np.random.seed(0)
 
-def policy(datum, k):
-    if abs(datum.ctxIx-datum.evtIx) <= k:
-        return 1
-    else:
-        return 0
 
 def createFeatures(datum, tsv, annotationData):
     ''' Extracts a feature vector from a datum and the data '''
@@ -106,15 +100,6 @@ def createFeatures(datum, tsv, annotationData):
     ret = features
     # ret = feda(ctxType, features)
     return ret
-
-# Frustratingly easy domain adaptation
-def feda(ctype, features):
-    new_dict = {}
-    for k, v in features.iteritems():
-        new_dict[k] = v
-        new_dict['%s_%s' % (ctype, k)] = v
-
-    return new_dict
 
 
 def machineLearning(X, y, clusters, X_test, y_test, clusters_test, fnames, crossvalidation, training_data):
@@ -570,22 +555,3 @@ def print_tsv_segment(element):
         ret.append("<- EVENT")
 
     return ret
-
-
-# Entry point
-if __name__ == "__main__":
-    directory = sys.argv[1]
-    annDir = sys.argv[2]
-    testing_ids = {s[:-1] for s in open(sys.argv[3])} if len(sys.argv) > 3 else set()
-    paths = glob.glob(os.path.join(directory, '*.tsv'))
-    #paths = ['/Users/enoriega/Dropbox/Context Annotations/curated tsv/PMC2063868_E.tsv']
-
-    use_reach = False
-    ev = EVAL1
-
-    if use_reach:
-        print "Using REACH's data"
-
-    errors = main(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach, crossvalidation=False)
-    # baseline(paths, annDir, testing_ids, k=7, eval_type=ev, use_reach = use_reach)
-    # random(paths, annDir, testing_ids, eval_type=ev, use_reach = use_reach)
