@@ -1,0 +1,17 @@
+Event	124	Tissue	2914	125
+Event	33	Species	1934	33
+Event	33	Tissue	2505	33
+Event	33	Tissue	3279	33
+Event	31	Species	1934	31
+Event	31	Tissue	2357	31
+Event	31	Cell	2283	31
+Event	29	Cell	2220	26
+Event	5	Tissue	2914	6
+Event	5	Species	1934	8
+Event	25	Cell	2220	26
+Event	5	Tissue	2914	6
+Event	5	Species	1934	8
+Event	28	Cell	2220	26
+Event	28	Cell	2220	26
+Event	30	Cell	2220	26
+Event	30	Cell	3335	30

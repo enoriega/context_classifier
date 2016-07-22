@@ -1,0 +1,272 @@
+The parvins
+Abstract .
+The parvins are a family of proteins involved in linking integrins and associated proteins with intracellular pathways that regulate actin cytoskeletal dynamics and cell survival .
+Both alpha-parvin ( PARVA ) and beta-parvin ( PARVB ) localize to focal adhesions and function in cell adhesion , spreading , motility and survival through interactions with partners , such as integrin linked kinase ( ILK ) , paxillin , alpha-actinin and testicular kinase 1 .
+A complex of PARVA with ILK and the LIM protein PINCH-1 is critical for cell survival in a variety of cells , including certain cancer cells , kidney podocytes and cardiac myocytes .
+While PARVA inhibits the activities of Rac1 and testicular kinase 1 and cell spreading , PARVB binds alphaPIX and alpha-actinin , and can promote cell spreading .
+In contrast to PARVA , PARVB inhibits ILK activity and reverses some of its oncogenic effects in cancer cells .
+This review focuses on the structure and function of the parvins and some possible roles in human diseases .
+Introduction
+The actin cytoskeleton plays a critical role in maintaining cellular shape , regulating cell motility and responding to mechanical strain .
+It is highly dynamic and responds to extracellular stimuli , such as hormones and growth factors , cell-cell adhesion and variations in the extracellular matrix ( ECM ) .
+Cell-ECM adhesion is mediated primarily by integrins and associated proteins .
+Integrins function as transmembrane receptors for ECM proteins such as fibronectin , laminin and collagen .
+Through protein complexes associated with their cytoplasmic domain , such as those containing talin , integrin linked kinase ( ILK ) , PINCH , parvin , paxillin and and or focal adhesion kinase ( FAK ) , integrins transduce bi-directional signals between the ECM and intracellular signaling pathways .
+Integrin associated proteins can integrate cell adhesion mediated signaling with other extracellular signals , such as those originating from growth factor receptors , through a variety of intracellular signaling pathways .
+In addition to regulating cell survival , proliferation and gene expression , integrin mediated signaling often results in changes in the actin cytoskeleton leading to cell shape change and motility .
+In this article , we will review current knowledge about a family of proteins , the parvins , which play a critical role in transducing signals from integrins to the actin cytoskeleton and intracellular signaling proteins .
+Structural features
+The mammalian parvin protein family has three members ( alpha - , beta- and gamma-parvin ) .
+They were identified independently at approximately the same time by several laboratories based on their protein binding activities or sequence homology .
+Approximately 5 years ago , Nikolopoulos and Turner [ ] identified and cloned a new F-actin and paxillin LD1 motif binding protein from a rat complementary DNA ( cDNA ) library and named it actopaxin .
+In a yeast two-hybrid screening of ILK binding partners , Tu et al. [ ] identified and cloned a new ILK binding protein that contains two CH domains and hence named it Calponin Homology domain containing ILK Binding Protein or CH-ILKBP .
+In an independent yeast two hybrid screening , Yamaji et al. [ ] identified and cloned another new protein that interacts with ILK , which they named affixin .
+Based on sequence homology with the actin binding domain of alpha-actinin , Olski et al. [ ] identified and cloned three structurally related proteins and named them alpha - , beta- and gamma-parvin , respectively .
+A comparison of the DNA and protein sequences shows that actopaxin and CH-ILKBP are identical to the alpha member and affixin is identical to the beta member of the parvin family .
+The members of the parvin family are encoded by three different genes ( parva , parvb and parvg ) in mammalian organisms .
+Proteins that are structurally and functionally related to parvins have been identified in invertebrates such as Caenorhabditis elegans by sequence analyses [ ] and independent genetic studies [ ] .
+Thus , Parvin appears to be an ancient protein family and is well conserved during evolution .
+Figure 1
+Structural features of PARVA and PARVB proteins .
+Numbers indicate amino acid positions .
+Protein binding sites are indicated with a horizontal line .
+Effect of point mutations is indicated by v. Sequences required for localization are indicated by ^ .
+Both PARVA and PARVB contain two calponin homology domains ( CH ) and nuclear localization sequences ( NLS ) at their N-termini .
+In addition to full-length PARVB ( PARVB-l ) , PARVB-s and PARVB-ss can be produced by alternative translation initiation .
+A PARVB isoform expressed from alternative 5 ' exons ( CLINT ) has also been detected in certain cell types .
+Human PARVA , PARVB and PARVG contain 372 , 364 and 331 amino acids ( with theoretical molecular masses of 42,330 , 41,770 and 37,485 ) , respectively .
+In addition , PARVB transcript has two alternative initiation sites , which result in proteins of 350 and 313 amino acids ( with theoretical molecular masses of 40,130 and 35,924 ) .
+The shorter forms of PARVB are herein respectively abbreviated as PARVB-s and PARVB-ss in contrast with full-length PARVB-l .
+In human rhabdomyosarcoma cells , an additional alternatively spliced isoform of PARVB was identified , named CLINT [ ] .
+This isoform originates from an alternative upstream exon coding for 70 amino acids and results in a protein with 397 amino acids .
+For a comprehensive study of the genomic organization of the parvins see [ ] .
+Human PARVA and PARVB share 74 % identity and 85 % similarity , whereas the more distantly related PARVG shares 42 % identity and 67 % similarity with PARVA .
+The most distinct feature of parvins is the presence of two calponin homology ( CH ) domains in their C-terminal regions , named CH1 and CH2 .
+Each CH domain comprises approximately 100 amino acids , separated by a 60-amino acid linker .
+These CH domains are considered ' atypical ' in that they do not exactly match the consensus sequences of type 1 and type 2 CH domains present in a large number of actin binding proteins such as alpha-actinin , spectrin and filamin .
+The parvin CH1 domain is more related to the type 1 CH domain of spectrin , whereas the second CH domain is more related to the type 1 CH domain of alpha-actinin .
+The CH1 and CH2 domains of the parvins are tentatively classified as type 4 and type 5 CH domains , respectively [ ] .
+In addition to the conserved CH domains , the parvins have a 60-amino acid linker with some homology to regions preceding the CH1 of beta-spectrin and plectin , as well as N-terminal extensions that show a high degree of variability between the various parvins , from 82 amino acids in PARVG to 125 amino acids in PARVB and 133 amino acids in PARVA .
+Both PARVA and PARVB have nuclear localization signals in the N-terminal extensions , as well as src-homology SH3 binding sites of the consensus PXXP , where X is any amino acid but cysteine [ ] .
+Tissue distribution
+In mammalian organisms , PARVA and PARVB are ubiquitously expressed but enriched in heart and skeletal muscle .
+In the spleen and platelets [ ] , the predominant isoform of PARVB is a short form translated from a downstream initiation codon , PARVB-ss .
+PARVG has a more restricted tissue distribution , as determined from messenger RNA ( mRNA ) blots , with predominance of lymphoid and hematopoietic tissues [ ] .
+Since currently there are no published studies addressing the functions of PARVG , we will focus on PARVA and PARVB in our discussions .
+Parvin interactions
+Figure 2
+A working model for the functions of parvins and their binding proteins .
+ILK binds PINCH through its N-terminal domain and binds PARVA or PARVB through its C-terminal domain , resulting in formation of PINCH-ILK-parvin ternary complexes .
+Formation of these complexes occurs before localization to integrin rich adhesion sites and is required for preventing degradation of ILK , PINCH1 and parvins .
+Recruitment of these complexes to integrin rich adhesion sites is mediated by interactions of the complexes with additional proteins , such as beta1-integrin , Mig-2 and paxillin .
+Phosphorylation of the N-terminus of PARVA increases binding to ILK and inhibits binding to TESK-1 .
+Since PARVA inhibits TESK-1 activity , release of TESK-1 upon phosphorylation of PARVA results in inhibition of cofilin by phosphorylation and consequently , reduction of the turnover rates of actin filaments .
+PARVA can bind to F-actin in vitro but the functional significance of this interaction remains to be established .
+The PINCH1-ILK-PARVA complex plays a critical role in cell survival by promoting membrane recruitment of Akt and its activation by phosphorylation .
+PARVA and PARVB compete for binding to ILK and have opposite effects on ILK kinase activity .
+While PARVA binding increases ILK kinase activity , PARVB binding represses it .
+Also , PARVB promotes adhesion and spreading through binding of alpha-actinin , alpha-PIX and activation of Rac1 , while PARVA represses Rac1 .
+Parvin proteins do not possess intrinsic catalytic activities and therefore their functions are mediated through interactions with various binding partners .
+One of the key parvin binding partners is ILK [ - ] .
+PARVA and PARVB have clearly been demonstrated to interact with ILK by different binding assays including yeast two-hybrid , co-immunoprecipitation and glutathione Stransferase ( GST ) fusion pull-down assays .
+The ILK binding site has been mapped to the CH2 domain of PARVA and PARVB .
+F271 within this domain appears to be critical for the ILK binding activity of PARVA , as a single point mutation at this position ( F271D ) abolished its interaction with ILK [ ] .
+Although the CH2 domain is sufficient for interacting with ILK , residues located outside of the CH2 domain can modulate the interaction with ILK .
+The N-terminus of PARVA contains multiple proline directed Ser and Thr phosphorylation sites [ ] .
+Deletion of 22 residues from the N-terminus of PARVA inhibits the proline directed Ser and Thr phosphorylation of PARVA and reduces its complex formation with ILK [ ] .
+On the other side of the binding interface , the parvin binding site has been mapped to the C-terminal kinase domain of ILK .
+The binding of PARVA and PARVB to ILK is mutually exclusive [ ] , suggesting that a single CH2 binding site in the ILK C-terminal domain mediates the interactions with PARVA and PARVB .
+ILK contains a PH like motif that partially overlaps with the C-terminal kinase domain .
+The PH like motif can interact with certain phospholipids such as PIP3 , which is produced by the action of PI3-kinase .
+The PI3-kinase signaling pathway appears important for regulation of the ILK-PARVA interaction , since PI3-kinase inhibition or overexpression of the PIP3 phosphatase PTEN can reduce the interaction [ ] .
+However , deletion of amino acid residues 180-190 within the PH like motif does not inhibit the PARVA interaction [ ] .
+In addition to binding PARVA or PARVB through the C-terminal domain , ILK interacts with PINCH-1 and PINCH-2 , members of a family of focal adhesion proteins that consist of five LIM domains , through the N-terminal ankyrin repeat domain of ILK [ - ] .
+Through these interactions , PINCH , ILK and parvin proteins form ternary complexes in cells .
+The formation of the PINCH-ILK-parvin complexes occurs prior to their localization to cell-matrix adhesions [ ] .
+One important consequence of the formation of the PINCH-ILKparvin complexes is the stabilization of these proteins by protecting them from proteosomal degradation [ ] .
+Furthermore , formation of the PINCH-ILK-parvin complexes facilitates their localization to cell-matrix adhesions .
+Interestingly , treatment of cells with calphostin C dramatically inhibits the formation of the PINCH-ILKparvin complexes [ ] , suggesting a role of protein kinase C ( PKC ) or other calphostin C responsive signaling pathways in this process .
+Another interaction mediated by PARVA is that with paxillin , an important component of focal adhesions .
+Nikolopoulos et al. have mapped the paxillin binding site to amino acids 273-290 of PARVA and the PARVA binding sites to LD1 and LD4 motifs of paxillin .
+Interestingly , paxillin also interacts with ILK through the LD1 motif [ ] .
+The interactions of paxillin with ILK and PARVA likely contribute to the localization of the PINCH-ILK-parvin complexes to focal adhesions .
+In addition to interacting with ILK and paxillin , PARVA can interact with F-actin .
+PARVA binds to F-actin with an affinity that is comparable to those of many other actin binding proteins ( Kd = 8.4 microM ) [ ] .
+Detailed characterization of the F-actin binding sites in the CH domains of PARVA remains to be done .
+Recently , Lalonde et al. [ ] showed that PARVA binds to testicular protein kinase 1 ( TESK1 ) .
+TESK1 can phosphorylate cofilin and promote F-actin polymerization and cell spreading [ - ] .
+Interestingly , PARVA binds to TESK1 and inhibits its activity [ ] .
+RNA interference ( RNAi ) - mediated depletion of PARVA promotes cell spreading [ ] .
+PARVA likely suppresses cell spreading by regulating multiple signaling pathways , including suppression of Rac1 activation [ ] and inhibition of TESK1 [ ] .
+As mentioned above , PARVB , like PARVA , interacts with ILK .
+However , despite the structural similarity and extensive efforts , PARVB has not been demonstrated to bind to actin or paxillin .
+Yamaji et al. [ ] recently demonstrated that PARVB interacts with alpha-actinin via the CH2 domain .
+In addition , PARVB interacts with alphaPIX [ ] , a guanine nucleotide exchange factor ( GEF ) for Rac1 and possibly other Rho GTPases , through its CH1 domain .
+PARVB likely functions in actin cytoskeletal remodeling and cell spreading via interactions with multiple partners , including ILK , alpha-actinin and alphaPIX .
+Subcellular Localization
+When cells attach to the ECM , several changes occur at the membrane and cytoskeleton .
+First , nascent cell-ECM contacts ( focal complexes ) are established , where integrins engage with the ECM and recruit proteins , such as talin , paxillin , PINCH , ILK , parvins , alpha-actinin , vinculin , FAK and VASP .
+This leads to recruitment of additional F-actin and F-actin associated proteins and maturation into focal adhesions ( FAs ) .
+In addition to the establishment of FAs , spreading cells will extend wide membrane protrusions , called lamellipodia , also present in some cells initiating directional migration .
+Soon after identification of parvins as ILK and paxillin binding proteins , it became apparent that protein protein interactions of parvins with these partners were critical for their subcellular localization .
+More specifically , the formation of complexes of ILK with parvins and the LIM proteins PINCH-1 and PINCH-2 became a paradigm for multiprotein complex formation , stabilization and localization in the context of cell adhesion .
+Both PARVA and PARVB , together with ILK , are observed in lamellipodia in spreading cells , although it appears that ILK , PARVB and PINCH-1 are expressed very early at the plasma membrane during lamellipodia extension before FAK , vinculin and paxillin are recruited .
+Established FAs clearly contain both PARVA and PARVB .
+In addition to FAs and lamellipodia , ILK , PINCH and PARVA staining is observed in a fibrillar pattern more intense towards the center of the cells .
+PARVA containing central fibers correspond to tensin containing fibrillar adhesions [ ] .
+Tensin containing fibrillar adhesions are highly dynamic structures that overlay fibronectin fibrils in the ECM and move towards the center through the action of actomyosin .
+Localization of PARVA to epithelial cell-cell adhesion junctions , rich in cadherins and catenins , has been observed in some epithelial cells [ ] but not in others , possibly indicating some cell-type specificity .
+PARVB has been found associated with thin stress fibers ( involved in lamellipodia protrusion ) , where it co-localizes with alpha-actinin , but is excluded from mature stress fibers ( involved in maintaining cell architecture ) , where alpha-actinin crosslinks actin filaments [ ] .
+The domains responsible for the various subcellular localizations of PARVA and PARVB were investigated by transfecting cells with various parvin mutants fused to green fluorescent protein ( GFP ) .
+In general the GFP fused full sized parvins co-localized with their endogenous counterparts .
+Using this method , localization to FAs and fibrillar adhesions was determined to depend on the CH2 domains of both PARVA and PARVB [ ] .
+The CH2 domain alone was sufficient for FA localization , although the other regions appear to increase the intensity of FA localization .
+A single point mutation ( F271D ) in the CH2 domain of PARVA , a residue also conserved in PARVB , is sufficient to abolish FA localization [ ] .
+Mutations in the putative paxillin binding site ( PBS , amino acids 273-290 of PARVA ) also abolish FA localization without affecting ILK binding .
+Thus , the interaction with ILK is likely necessary but not sufficient for efficient localization of PARVA to FAs .
+A mutant of ILK ( F438A ) , which does not affect PARVA binding , is unable to localize to FAs , indicating that other interactions are also necessary for FA localization of ILK [ ] .
+Since this site is away from the paxillin binding region , it is more likely that additional proteins , such as Mig-2 or integrins , are also involved in recruitment of the ILK and PARVA complex to the FAs .
+Since the binding between PARVA and ILK appears stronger than that between ILK and paxillin and the ILK and PARVA complex is formed even in cells without cell-matrix contacts [ ] , we favor a model whereby PINCH-1 , ILK and PARVA form a complex prior to their localization to cell-matrix adhesions .
+The formation of the PINCH-1-ILK-PARVA complex allows it to be recruited to FAs via interactions with multiple FA proteins such as integrins , paxillin and and or Mig-2 .
+Functional role of PARVA phosphorylation
+As mentioned earlier , the N-terminal domain of PARVA contains phosphorylation consensus regions for prolinedirected serine and threonine kinase , including ERK and Cdc2 .
+The Cdc2 kinase , in combination with cyclin B1 , has been shown to phosphorylate S4 , S8 , S14 and S19 of PARVA [ ] , and ERK can also phosphorylate the N-terminus of PARVA [ ] .
+During mitosis , phosphorylation of S4 and S8 by Cdc2 causes gel mobility shift of PARVA .
+These sites are not present in PARVB .
+PARVA phosphorylation increases during cell spreading .
+Phosphorylation during cell attachment and spreading appears to depend on ERK activity [ ] .
+ERK is recruited to FAs by paxillin during cell spreading .
+A quintuple mutant of PARVA , in which all four N-terminal serines and T16 were mutated , was not phosphorylated and functioned as dominant negative , inhibiting cell spreading and motility but increasing F-actin formation in human osteosarcoma ( U2OS ) cells [ ] .
+In kidney podocytes , overexpression of a PARVA mutant , in which the Nterminal proline directed serine phosphorylation sites are deleted , reduced PARVA complex formation with ILK and inhibited podocyte adhesion , spreading and survival , suggesting an important role of PARVA phosphorylation in regulation of these processes [ ] .
+The interaction of PARVA with TESK1 is also regulated by proline directed serine phosphorylation of PARVA .
+Unphosphorylated PARVA binds to TESK1 and inhibits its activity [ ] , therefore allowing cofilin to reduce actin polymerization and spreading .
+Upon cell adhesion , ERK is activated to increase the phosphorylation at the N-terminus of PARVA , leading to release of TESK1 , phosphorylation of cofilin , F-actin polymerization at the lamellipodia , and increased spreading and motility [ ] .
+Interestingly , ILK was not pulled down by GST-TESK1 [ ] , indicating that the interactions of PARVA with ILK and TESK1 are mutually exclusive .
+These results suggest an interesting possibility that phosphorylation of PARVA , which promotes the complex formation of PARVA with ILK and PINCH [ ] , likely removes the inhibitory effect of PARVA on the interaction with TESK1 and consequently the inhibitory effect on its kinase activity .
+While the defect in cell spreading caused by mutation of the N-terminus of PARVA was partially corrected by overexpression of TESK1 lacking the PARVA binding site , the defect in cell spreading caused by a PBS mutant of PARVA deficient in paxillin binding was not [ ] , indicating that PARVA affects cell spreading via multiple signaling pathways .
+Regulation of Rac1 activation
+The small G-proteins of the Rho family play a critical role in signal transduction pathways connecting integrin signaling and cytoskeletal dynamics [ ] .
+In particular , Rac1 and Cdc42 promote cell spreading and motility , while RhoA promotes formation of actin stress fibers .
+Rac1 is involved in the formation of wide protrusions , or lamellipodia , associated with early events in cellular attachment and spreading , and in certain types of cellular motility .
+In contrast , Cdc42 is more involved in the formation of thin protrusion , or filopodia .
+However , considerable overlap and cross talking occur between these various Rho family members .
+Since both Rac1 and parvins regulate the formation of lamellipodia , it is of great interest to study the interaction between integrins/PINCH/ILK / parvins and Rac1 .
+Depletion of ILK and PINCH-1 significantly ( 50-55 % ) reduced adhesion dependent activation of Rac1 [ ] .
+In striking contrast , depletion of PARVA resulted in a significant increase in Rac1 activity and increased spreading [ ] .
+In contrast , depletion of PARVB in Hela cells did not increase Rac1 activity and cell spreading [ ] .
+In fact , depletion of PARVB in HeLa cells appears to slightly reduce Rac1 activity .
+Interestingly , overexpression of the CH1 fragment of PARVB in MDCK cells resulted in Rac1 and Cdc42 activation and increased cell spreading and motility with increased formation of lamellipodia and filopodia , an effect blocked by dominant negative RacN17 and Cdc42N17 [ ] .
+These effects appear to be mediated by interaction of the CH1 domain with aPIX ( ARHGEF6 ) , a GEF activator of Cdc42 and Rac1 , since an inactive mutant of ARHGEF6 blocked this effect of CH1 .
+Since the interaction of PARVB and aPIX appears to decrease with fulllength PARVB , two possibilities are suggested : ( i ) ILK complexes with PARVB inhibit interaction with alphaPIX ; and ( ii ) the C-terminus of PARVB inhibits the interaction with alphaPIX .
+Because the CH2 domain of PARVB can be phosphorylated by ILK , it is possible that this induces a conformational change that allows the CH1 domain to bind to alphaPIX .
+Alpha-PIX , ILK and PARVB can be found at the leading edge of spreading cells [ ] .
+It is likely that in some cells activation of Rac1 and Cdc42 at the lamellipodia is stimulated by interactions of alphaPIX with PARVB and regulated by interaction of ILK and PARVB .
+In addition , PINCH , ILK and parvin proteins may regulate Rac activation through other GEFs such as DOCK180 [ ] .
+Role of parvins in cell spreading and motility
+The localization of both PARVA and PARVB at FAs as well as in the leading edge of lamellipodia suggests a role for these proteins in regulating cell adhesion , spreading and motility .
+Table summarizes studies on the function of parvin , ILK and PINCH proteins in cell adhesion , spreading , motility and actin polymerization .
+These studies have demonstrated that ILK , PINCH-1 , PARVA and PARVB complexes modulate early cellular events triggered by interaction with ECM , including formation and and or turnover of FA , actin dynamics and protrusion of lamellipodia to promote cellular spreading and motility .
+More specifically , ILK and PINCH-1 are required for all of these processes , since depletion with small interfering RNAs ( siRNAs ) significantly inhibit them .
+The role of the parvins is more complex .
+Based on their subcellular localization , PARVB appears to play an earlier role in lamellipodia formation .
+Consistent with an early role in cell adhesion , depletion of PARVB with siRNA caused inhibition of lamellipodia formation [ ] .
+In contrast , depletion of PARVA actually increased cell spreading [ ] .
+As we discussed above , this observation is consistent with the respective roles of PARVA and PARVB in modulating Rac1 activity , which is critical for lamellipodia formation , with PARVA inhibiting and PARVB possibly promoting Rac1 activation .
+In addition , PARVA suppresses cell spreading through inhibition of TESK1 activity [ ] .
+It will be interesting to test whether PARVB plays an opposite role in regulation of TESK1 .
+As we have discussed , phosphorylation of PARVA regulates its function and enhances PINCH-ILK-PARVA complex formation .
+Interestingly , cell adhesion to fibronectin promotes PARVA phosphorylation , which could dissociate the active TESK1 from PARVA and contribute to an increase of actin polymerization and cell spreading .
+Consistent with these observations , overexpression of unphosphorylatable PARVA mutants ( by deletion or mutation of N-terminal sites ) acted as dominant negative inhibitor of cell spreading , presumably by staying locked into an inactive TESK1 complex [ ] .
+Similarly , overexpression of the CH2 domain of PARVA also inhibited cell spreading , despite proper localization to FAs .
+It is unclear whether CH1 interacting proteins , equivalent to the binding of ARHGEF6 to PARVB , also interact with PARVA and modulate its function at the FAs .
+In platelets , an ILK and PARVB complex was rapidly recruited to integrin beta3 upon thrombin stimulation , resulting in a transient increase in ILK activity and phosphorylation of PARVB followed by translocation of the ILK and PARVB complex to the cytoskeletal fraction , where it may promote integrin-cytoskeleton interactions [ ] .
+In CHO cells , overexpression of the CH2 domain of PARVB blocked cell spreading .
+This effect was reversed by cotransfection of ILK with intact kinase activity , suggesting that phosphorylation of PARVB by ILK may play a role in promoting cell spreading [ ] .
+The N-terminus of PARVB CH2 domain ( amino acids 249-272 ) interacts with alpha-actinin ( N-terminal ABD and C-terminal EF-hand domains ) only upon engagement of integrins with the ECM , with a peak at 60 min post-adhesion , when cell spreading is most active [ ] .
+The interaction with alpha-actinin required phosphorylation of the CH2 domain of PARVB by ILK upon cell adhesion .
+Over-expression of a PARVB mutant containing only amino acids 249-272 , which can bind alpha-actinin but not ILK , disrupted the PARVB-alpha-actinin interaction and markedly inhibited lamellipodia formation and cell spreading .
+This effect was also seen with depletion of PARVB by siRNA .
+These results , together with results from other studies , suggest a model by which a PINCH-ILK-PARVB complex forms at integrin attachment sites in very early membrane blebs , where ILK kinase activity is induced , resulting in phosphorylation of the PARVB CH2 domain .
+PARVB then recruits alpha-actinin ( or stabilizes the integrin-alpha-actinin complex ) to the leading edge of the lamellipodia .
+PINCH , ILK , PARVB and alpha-actinin can promote lamellipodia extension by attracting actin polymerization complexes , including proteins of the Nck and ARP2 and 3 ( through Rac / Cdc42 and WASP ) families [ , - ] .
+Role of parvins on Akt activation and cell survival
+PARVA plays an important role in protection of cells from apoptosis [ ] .
+By contrast , depletion of PARVB in HeLa cells does not induce apoptosis , indicating it is not essential for cell survival [ ] .
+PARVA protects cells from apoptosis by facilitating the activation of Akt ( protein kinase B ) , a key survival signaling intermediate .
+In response to cell-matrix adhesion and soluble survival factors such as IGF-1 , inactive Akt is translocated to plasma membrane , where it is phosphorylated on T308 and S473 and consequently fully activated .
+Loss of PARVA impairs the membrane translocation of Akt [ ] .
+Furthermore , expression of a constitutively membrane bound ( myristoylated ) Akt ( Myr-Akt ) rescued the defects in the activating phosphorylation of Akt and cell survival induced by the loss of PARVA .
+Thus , PARVA protects cells from apoptosis via facilitating the activating phosphorylation of Akt [ ] .
+ILK depletion also affects Akt phosphorylation and activation in some cell types , particularly transformed cells ( reviewed in ) .
+ILK kinase activity is transiently increased during cell attachment and enriched in the cytoskeletal fraction [ ] .
+PARVA depleted cells show much lower ILK kinase activity [ ] , indicating that the formation of the PARVA and ILK complex also plays a role for the activation of ILK .
+Mutations in ILK that abolish the ILK-PARVA interaction also inhibit the ability of ILK to promote Akt S473 phosphorylation .
+In cells overexpressing PTEN , ILK kinase activity and PARVA interaction are inhibited .
+Transfection of PARVA restores ILK activity , as demonstrated by increased ILK kinase activity , GSK3beta S9 phosphorylation , Akt S473 phosphorylation and beta-catenin/TCF/LEF transcriptional activity [ ] .
+Although ILK and PINCH-1 likely work in concert with PARVA in regulation of Akt phosphorylation , Akt is not the only downstream target in ILK and PINCH-1-mediated cell survival signaling [ ] .
+Role of parvins in striated muscle
+In C. elegans , the integrin dependent pathways involved in myofibrillogenesis have been clarified by forward genetic screens .
+Deposition of the ECM protein perlecan and UNC -52 initiates outside-in signaling transduced by the integrin receptor , PAT-3 , which then recruits two complexes : ( i ) vinculin and DEB1 , and ( ii ) ILK and PAT -4 + Mig-2 / UNC-112 [ ] .
+Both of these complexes are required for the formation of rudimentary FAs , which will become the initial sites of myofibril formation ( the dense bodies ) and subsequently of muscle attachment to the body wall .
+Maturation of dense bodies involves recruitment of PARVA and PAT -6 and PINCH-1 / UNC-97 , both of which bind to ILK and PAT -4 , as determined by yeast three-hybrid assay [ ] .
+In addition to this PINCH-ILK-parvin complex , vinculin and talin are required for initiation of myofibril formation by attracting sarcomeric actin filaments [ ] .
+Alpha-actinin seems to be added to functional dense bodies at a later stage after larval hatching .
+Recruitment of myosin filaments does not require vinculin ; instead UNC-89 is required at the M-line [ ] .
+Interestingly , UNC-89 is the ortologue of an alternatively spliced isoform of obscurin containing several immunoglobulin domains and a Rho guanidine nucleotide exchange factor ( GEF ) domain .
+Obscurin and titin co-localize during myofibrillogenesis in cardiac myocytes [ ] , and the obscurin-RhoGEF isoform is upregulated during cardiac hypertrophy [ - ] .
+Since obscurin interacts with titin at the Z-line [ ] and PARVA-ILK complexes are localized in the costameres overlapping the Z-line of cardiac myocytes and play a role in myocyte hypertrophy [ ] , these observations suggest that modulation of obscurin activity and and or localization by ILK-PARVA complexes may play a role in sarcomere assembly during cardiac hypertrophy .
+In concordance with the studies in mammalian cells , the CH2 domain of PARVA and PAT6 was necessary and sufficient for binding to ILK and for efficient localization to dense bodies .
+The CH1 domain was dispensable for proper localization , but it was required for downstream events leading to myofibrillogenesis .
+Recent studies have demonstrated the presence of a PINCH-1-ILK-PARVA complex in neonatal cardiac myocytes , and its recruitment to costameres associated with the Z-disks of newly formed sarcomeres in response to hypertrophic stimulation with fibronectin and phenylephrine [ ] .
+A dominant negative mutant of ILK lacking PINCH-1 binding ( ILK-C ) removed ILK and PARVA from costamere locations and induced mild hypertrophy , while promoting apoptosis .
+These observations suggest a role for PARVA in promoting cell survival and inhibiting hypertrophy in the cardiac myocyte .
+Since PARVA inhibits Rac1 activity and this small G protein plays a critical role in cardiac hypertrophy [ ] , we are currently investigating the possibility that PARVA and other ILK complexes regulate the level of Rac1 activity in cardiac myocytes .
+PARVB and ILK co-localized at regions of the sarcolemma corresponding to the Z-disk in skeletal muscle ( costameres ) [ ] .
+In another study , PARVB co-localized and interacted with the sarcolemmal protein , dysferlin , in human skeletal muscle [ ] .
+The sarcolemmal localization of PARVB was reduced in muscle dystrophy with dysferlin mutations and may indicate a role for PARVB in membrane integrity .
+Taken together , these results suggest that parvin proteins may play both physical and signaling roles in muscle cells .
+Role of parvins in pathological processes
+Given the importance of the parvins in regulating actin cytoskeleton and survival signaling , they are probably involved in a number of pathological processes .
+In particular , recent studies have implicated parvins in two human diseases , namely breast cancer and diabetic nephropathy .
+Breast cancer
+Anchorage independent growth and resistant to apoptosis induced by loss of integrin-ECM contact ( anoikis ) is a hallmark of cancer cells .
+Moreover , changes in cell-ECM interaction can lead to increased motility characteristic of metastatic cells .
+Overexpression of ILK with hyperactive kinase function has been shown to occur in several transformed epithelial cells [ ] and inhibition of ILK kinase or expression of ILK dominant negative mutants can reverse several features of the transformed phenotype .
+The respective roles of PARVA and PARVB in this oncogenic role of ILK have not been fully characterized .
+PARVA has been shown to promote anti-apoptotic signaling from activated ILK .
+In contrast , in breast cancer PARVB appears to be an inhibitor of ILK kinase [ ] .
+In one recent study , PARVB mRNA and protein levels were found to be markedly downregulated in a number of advanced tumors , together with increases in ILK protein level and kinase activity [ ] .
+Low PARVB levels correlated with low adhesion to collagen and restoring the levels of PARVB resulted in increased adhesion , and reversal of anchorage independent growth coincident with decreased ILK activity .
+In addition , overexpression of PARVB increases apoptosis [ ] .
+The activating phosphorylation of Akt was reduced by increased levels of PARVB [ ] , which may translate in increased susceptibility of the cancer cells to apoptosis .
+Another target of ILK is GSK3beta , which can regulate nuclear accumulation of beta-catenin , frequently observed in transformed cells .
+Increased ILK activity leads to nuclear accumulation of beta-catenin and upregulation of TCF and LEF targets , whereas restoring PARVB levels in cancer cells appears to downregulate nuclear beta-catenin [ ] .
+This tumor-suppressive role of PARVB is consistent with deletions in the PARVB locus ( 22q13 .21 ) observed in some colon and breast cancers [ ] .
+The PARVG gene was suspected to have a similar tumor suppressive role in a locus 12 Kb away ( 22q13 .31 ) , but no mutations were identified in colon and breast tumors [ ] .
+Kidney disease
+ILK , PARVA and PINCH-1 are expressed in glomerular mesangial cells and podocytes [ ] .
+By mRNA differential display analysis , ILK was identified as a candidate gene in Finnish type congenital nephritic proteinuria [ ] .
+ILK expression was found to be increased in glomeruli [ ] , which could contribute to the increased matrix deposition in glomerulosclerosis in human patients .
+ILK is involved in mesangial cell matrix deposition in response to hyperglycemia [ ] .
+In mesangial cells , the PINCH-1-ILK-PARVA complex locates to FAs and fibrillar adhesions where it promotes fibronectin matrix deposition [ ] .
+Disruption of the PINCH-1-ILK-PARVA complex with ILK-C or ILK-N dominant negative mutants resulted in decreased cell proliferation , fibronectin synthesis and matrix deposition [ ] .
+The levels of PINCH-1 , ILK and PARVA increase with podocyte differentiation , and the PINCH-1-ILK-PARVA complex plays a critical role in podocyte adhesion , architecture and survival [ ] .
+In these cells , interference with the formation of the PINCH-1-ILK-PARVA complex by dominant negative ILK and PARVA constructs reduced podocyte adhesion , spreading and survival .
+ILK also promotes upregulation of matrix metalloproteinase-9 ( MMP-9 ) mRNA levels and beta-catenin translocation during podocyte stress [ - ] .
+In addition to its role in the glomerulus , ILK complexes play an important role in tubular cell epithelial to mesenchymal transition and interstitial fibrosis in response to TGF-beta , tubular obstruction or hyperglycemia [ ] .
+A dominant negative mutant of ILK largely reversed these effects .
+Given the important role of the ILK-PINCH1-PARVA complex in renal physiology and pathology , this complex is a potential target for therapeutic intervention , provided that beneficial effects , such as podocyte adhesion and survival , are not significantly inhibited .
+Conclusions and Future Studies
+From the studies discussed in this review , it is apparent that PARVA and PARVB play critical roles in several cell functions , regulating cytoskeletal activity in connection with the ECM , and that these functions are mediated by their ability to form complexes with key proteins at the different subcellular locations , such as FAs , lamellipodia , fibrillar adhesions and possibly nuclei .
+In particular , the formation and regulation of complexes involving parvin , ILK and PINCH proteins as well as interactions with other ancillary proteins , such as Mig-2 [ ] , paxillin , ARHGEF6 , alpha-actinin and TESK1 , together with differential phosphorylation by Cdc2 , ERK and ILK , mediate the various effects of PARVA and PARVB .
+Clearly , despite their high homology , different members of the parvin family have distinct functions imparted by their ability to form alternative complexes and differential regulation .
+Table summarizes some of the features distinguishing the two parvins .
+Despite considerable progress , much remains to be investigated to clarify the roles of parvins in cell physiology and pathological processes .
+For example , PARVG appears similar to PARVA and PARVB , but as we have learned , similar domains could mediate quite different effects .
+Clarifying the role of PARVG , particularly in hematological cells and pathologies , will be an interesting area of future research .
+Further investigation on the various PINCH-ILK-parvin complexes and their binding proteins in different cell types under different stimulatory events should help us to elucidate the role of each complex in cell physiology .
+Of particular interest is the elucidation of the mechanisms by which PARVA and PARVB regulate the activity of Rho family GTPases in the various cell types .
+Searching for additional proteins interacting with the CH domains , in particular the CH1 domain of PARVA and the CH2 of PARVB , should reveal additional details on how parvin proteins regulate cell spreading , motility and survival .
+Undoubtedly , this field will continue to progress at a rapid pace .
+Further interactions and cross talking pathways involving parvins and their partners will be uncovered .
+Ultimately , only a comprehensive systems biology approach well grounded on experimental observation and powerful computational resources will be able to model and make reliable predictions about the functioning of this important complex network in transducing signaling between the ECM and the cell .

@@ -1,0 +1,373 @@
+An essential role for RasGRP1 in mast cell function and IgE mediated allergic response
+Cross linking of the FcepsilonRI activates the phosphatidyl inositol 3 kinase ( PI3K ) and mitogen activated protein kinase pathways .
+Previous studies demonstrate that Ras guanyl nucleotide releasing protein ( RasGRP ) 1 is essential in T cell receptor mediated Ras-Erk activation .
+Here , we report that RasGRP1 plays an important role in FcepsilonRI mediated PI3K activation and mast cell function .
+RasGRP1 deficient mice failed to mount anaphylactic allergic reactions .
+RasGRP1 -/ - mast cells had markedly reduced degranulation and cytokine production .
+Although FcepsilonRI mediated Erk activation was normal , PI3K activation was diminished .
+Consequently , activation of Akt , PIP 3 -dependent kinase , and protein kinase C delta was defective .
+Expression of a constitutively active form of N-Ras could rescue the degranulation defect and Akt activation .
+We further demonstrated that RasGRP1 -/ - mast cells were defective in granule translocation , microtubule formation , and RhoA activation .
+Our results identified RasGRP1 as an essential regulator of mast cell function .
+FcepsilonRI evoked allergic responses are initiated by mast cells through releasing granules containing histamine , beta-hexosaminidase , and mast cell specific proteases and by secreting inflammatory cytokines ( ) .
+As a member of the immune receptor superfamily , the FcepsilonRI is composed of IgE binding alpha subunit and signal transducing beta and gamma subunits ( ) .
+Upon cross linking of the FcepsilonRI , the Src family protein tyrosine kinase Lyn is activated and phosphorylates the immunoreceptor tyrosine based activation motifs in the cytoplasmic domains of the beta and gamma subunits leading to recruitment of Syk .
+Syk is then activated and further phosphorylates linker for activation of T cells ( LAT ) , SLP-76 , and several other signaling molecules ( ) .
+Upon phosphorylation , LAT assembles a complex of signaling proteins containing Grb2 , Gads , SLP-76 , and phospholipase C ( PLC ) gamma1 and gamma2 .
+Recruitment of Sos to LAT by Grb2 likely leads to activation of the Ras-mitogen-activated protein kinase ( MAPK ) pathway .
+Binding of PLCgamma to LAT is necessary for activation of PLCgamma .
+PLCgamma catalyzes the generation of inositol 1,4,5-triphosphate and diacylglycerol ( DAG ) , which are responsible for inducing calcium influx and protein kinase C ( PKC ) activation , respectively .
+In the absence of LAT , signaling pathways downstream of the FcepsilonRI are impaired .
+The phosphorylation of SLP-76 and PLCgamma1 and gamma2 as well as calcium flux are significantly reduced .
+Consequently , mast cell degranulation and cytokine production are severely affected in LAT -/ - mast cells ( ) .
+After FcepsilonRI aggregation , another Src family kinase , Fyn , is also activated and phosphorylates Gab2 .
+After phosphorylation , Gab2 binds the p85 subunit of phosphatidyl inositol 3 kinase ( PI3K ) .
+Studies using Gab2 -/ - mast cells show that Gab2 is essential for PI3K activation .
+However , it is not clear how PI3K is activated after recruitment to the plasma membrane by Gab2 .
+Previous data show that in platelet derived growth factor receptor mediated signaling , GTP bound Ras is capable of activating PI3K by binding to the p110 catalytic subunit ( ) .
+After PI3K activation , phosphatidyl inositol-3 ,4,5 - triphosphate ( PIP 3 ) - dependent kinase 1 ( PDK1 ) is relocated to the membrane by binding to PIP 3 and activated through intermolecular auto-phosphorylation ( ) .
+PDK1 then phosphorylates and activates Akt and PKCdelta .
+Fyn deficient mast cells have impaired PI3K activation and degranulation ( ) , indicating that the Fyn initiated pathway is important in mast cell degranulation .
+Recent studies show that cytoskeleton rearrangement , which is regulated by the PI3K pathway , is required for granule translocation and mast cell degranulation ( - ) .
+It has been suggested that degranulation is a two-step process : granule translocation to the plasma membrane and granule-plasma membrane fusion .
+Although granule translocation requires Fyn and Gab2 , RhoA , and microtubule formation , granule-plasma membrane fusion is calcium dependent ( ) .
+Ras guanyl nucleotide releasing proteins ( RasGRPs ) are a family of proteins that contain a DAG binding C1 domain , a Ras exchange motif domain , two EF-hands , and a guanine-nucleotide exchange factor ( GEF ) domain ( ) .
+After PLCgamma activation , RasGRPs are recruited to the plasma membrane by binding to DAG for subsequent activation of Ras family proteins .
+Among the four RasGRP proteins , RasGRP1 has been shown to play an important role in TCR signaling and T cell development .
+T cell development is partially blocked at the double positive stage in RasGRP1 -/ - mice ( ) .
+Thymocytes from these mice show a complete lack of Erk activation in response to PMA , a DAG analogue , or TCR cross linking , demonstrating that RasGRP1 links the TCR to Ras signaling .
+It has been suggested that RasGRP1 interacts with and activates Ras in the Golgi instead of the plasma membrane ( ) .
+RasGRP2 is a candidate oncogene causing leukemia and regulates platelet activation .
+RasGRP3 is preferentially expressed in B cells .
+It is phosphorylated after BCR stimulation ( ) .
+It has been demonstrated in the DT40 cell line that RasGRP3 is required for optimal activation of Erk upon BCR cross linking ( ) .
+RasGRP4 is a new member of the RasGRP family .
+It is highly expressed in myeloid cells , including mast cells .
+It is not known whether RasGRP4 functions in mast cells .
+Despite the fact that RasGRP1 plays an essential role in TCR mediated Ras-MAPK activation , whether it functions in FcepsilonRI mediated signaling in mast cells has not been explored .
+In this study , we demonstrate that RasGRP1 plays an important role in FcepsilonRI mediated PI3K activation and mast cell function .
+RESULTS
+Expression of RasGRP1 in mast cells
+To assess the potential function of RasGRP1 in mast cells and allergic responses , we first examined whether RasGRP1 is expressed in mast cells .
+Bone marrow derived mast cells ( BMMCs ) were derived from the bone marrow cells from WT and RasGRP1 -/ - mice .
+After growing in medium with IL-3 for 3 wk , > 99 % of cultured cells were c-Kit + and FcepsilonRI + .
+RasGRP1 -/ - cells expressed similar levels of c-Kit and FcepsilonRI as WT cells ( ) , suggesting that RasGRP1 is dispensable for mast cell differentiation and maturation in vitro .
+These mast cells were used for detection of RasGRP1 protein and subsequent biochemical and functional assays .
+To detect RasGRP1 expression , lysates of WT and RasGRP1 -/ - mast cells were subjected to anti-RasGRP1 immunoprecipitation .
+Lysates from WT and RasGRP1 -/ - thymocytes were used as controls .
+The total lysates and immunoprecipitates were analyzed by an anti-RasGRP1 Western blot .
+As shown in , RasGRP1 protein was clearly detected in WT BMMCs , although not as abundant as in thymocytes .
+We also examined the expression of RasGRP4 by Western blotting with anti-RasGRP4 antibodies .
+As reported previously , mast cells expressed high amounts of RasGRP4 , which was not detected in thymocytes ( ) .
+Figure 1 .
+RasGRP1 in FcepsilonRI mediated degranulation .
+( A ) Expression of c-Kit and FcepsilonRI in WT and RasGRP1 -/ - BMMCs .
+( B ) Expression of RasGRP1 and RasGRP4 in mast cells .
+Mast cell lysates were analyzed by Western blotting with anti-RasGRP1 , RasGRP4 , Erk2 , or HSP70 antibodies or immunoprecipitated with anti-RasGRP1 antibodies .
+The numbers shown are relative quantification of RasGRP1 in thymocytes and BMMCs .
+( C ) Effect of RasGRP1 inactivation on FcepsilonRI mediated degranulation .
+BMMCs were sensitized with anti-DNP IgE and then stimulated with various concentrations of DNP-HSA for 10 min .
+Degranulation data were expressed as percentages of the released verses total beta-hexosaminidase activity and reflect three independent experiments .
+( D ) Thapsigargin induced degranulation .
+RasGRP1 is required for mast cell degranulation
+Next , we investigated whether RasGRP1 functions in FcepsilonRI evoked degranulation .
+BMMCs were sensitized with anti-DNP IgE and stimulated with DNP-HSA at 1 , 10 , 100 , and 1,000 ng and ml to induce degranulation , which was determined by measuring the release of beta-hexosaminidase .
+As shown in , FcepsilonRI evoked degranulation was markedly impaired in RasGRP1 -/ - BMMCs .
+This defect was not due to their inability to degranulate because thapsigargin , a calcium ATPase inhibitor , was capable of inducing RasGRP1 -/ - BMMCs to degranulate ( ) .
+To determine whether granule formation was normal in RasGRP1 -/ - mast cells , we stained mast cells with toluidine blue .
+Similar granules were seen in WT and RasGRP1 -/ - cells ( not depicted ) .
+Thus , defective signaling after FcepsilonRI engagement likely caused the diminished degranulation .
+Impaired cytokine production in RasGRP1 -/ - BMMCs
+Upon FcepsilonRI cross linking , mast cells secrete cytokines , such as IL-6 , TNFalpha , IL-3 , and IL-4 .
+These cytokines play an important role in the allergic response ( ) .
+Next , we examined FcepsilonRI mediated cytokine production by RasGRP1 -/ - BMMCs .
+Total RNAs were prepared from mast cells activated for 1 h and were used in RT-PCR .
+Amplification of the beta-actin transcript indicated that similar amounts of cDNAs were used ( ) .
+Although IL-6 RNA synthesis was reduced slightly , transcription of TNFalpha , IL-4 , and IL-3 was significantly decreased in RasGRP1 -/ - BMMCs ( ) .
+These results were further confirmed by quantitation of cytokines secreted into the culture medium at 8 h after stimulation .
+Although IL-6 production was relatively normal , secretion of TNFalpha , IL-3 , and IL-4 by RasGRP1 -/ - cells after stimulation was significantly reduced ( ) .
+These results indicated that RasGRP1 is required for cytokine production upon FcepsilonRI engagement .
+Figure 2 .
+Effect of RasGRP1 deficiency on cytokine release and passive systemic anaphylaxis .
+( A ) FcepsilonRI induced cytokine RNA synthesis in WT and RasGRP1 -/ - BMMCs .
+Sensitized BMMCs were stimulated with 30 ng and ml DNP-HSA for 1 h or left unstimulated before RNA preparation .
+cDNAs were serially diluted and used in RT-PCR .
+Data shown are representative of two independent experiments with similar results .
+( B ) FcepsilonRI induced cytokine secretion .
+Data shown are representative of two independent experiments with similar results .
+( C ) Effect of RasGRP1 inactivation on passive systemic anaphylaxis .
+WT and RasGRP1 -/ - mice were sensitized with anti-DNP IgE .
+Anaphylaxis was induced by injection with DNP-HSA .
+Histamine concentration in the blood was determined by ELISA ( n = 5 for both WT and RasGRP1 -/ - mice ) .
+The horizontal bars indicate mean values .
+( D ) Normal numbers of mast cells in the peritoneum , back skin , and ear dermis .
+Severely defective systemic anaphylaxis in RasGRP1 -/ - mice
+To investigate the impact of RasGRP1 inactivation on allergic response in vivo , we performed IgE evoked systemic anaphylaxis on WT and RasGRP1 -/ - mice .
+Anti-DNP IgE was intravenously injected into mice 24 h before challenge by systemic administration of DNP-HSA .
+At 1.5 min after challenge , blood was harvested from these mice .
+The concentration of histamine released into the blood was then measured to evaluate IgE initiated allergic response .
+A dramatic reduction ( > 95 % ) in histamine release was observed in RasGRP1 -/ - mice compared with that in WT mice ( ) .
+To assess whether the severe defect in systemic anaphylaxis was due to a developmental defect of mast cells in RasGRP1 -/ - mice , we determined the distribution of mast cells in RasGRP1 -/ - mice .
+Comparable numbers of mast cells were detected in the ear and back skin dermis ( and not depicted ) in WT and RasGRP1 -/ - mice .
+Similar percentages of mast cells were also detected in peritoneal cavities using toluidine blue staining and flow cytometry analysis .
+Normal numbers of mast cells in RasGRP1 -/ - mice indicated that RasGRP1 is not required during mast cell development and excluded the possibility that the defective anaphylaxis is a consequence of mast cell developmental defects .
+This conclusion was consistent with our biochemical data showing that stem cell factor ( SCF ) or IL-3-mediated Erk and Akt activation was normal in RasGRP1 -/ - BMMCs ( not depicted ) .
+Therefore , our in vivo and in vitro data suggested that RasGRP1 plays an important role in FcepsilonRI initiated mast cell degranulation and systemic anaphylaxis .
+FcepsilonRI mediated proximal signaling in RasGRP1 -/ - BMMCs
+Our data suggested that defective intracellular signaling might be responsible for the impaired degranulation and anaphylaxis in the absence of RasGRP1 .
+We next investigated whether FcepsilonRI evoked signaling events are affected in RasGRP1 -/ - mast cells .
+BMMCs were sensitized with anti-DNP IgE and activated with DNP-HSA for 0 , 2 , 5 , 10 , and 20 min or with PMA for 5 min .
+Total lysates were prepared and analyzed by Western blotting with different antibodies as indicated in .
+Tyrosine phosphorylation of proteins was relatively normal in RasGRP1 -/ - cells ( ) .
+Because of the important role of LAT in organizing the signaling complexes downstream of the FcepsilonRI , we examined phosphorylation of LAT by blotting with an anti-LATpY191 antibody .
+Normal LAT phosphorylation was detected in RasGRP1 -/ - BMMCs ( ) .
+Tyrosine phosphorylation of PLCgamma1 and PLCgamma2 was also comparable in WT and RasGRP1 -/ - BMMCs ( ) .
+In agreement with normal phosphorylation of PLCgamma1 and PLCgamma2 , FcepsilonRI initiated calcium influx was intact in RasGRP1 -/ - BMMCs ( ) .
+These results were consistent with previous reports showing that RasGRP1 functions downstream of PLCgamma .
+Figure 3 .
+FcepsilonRI mediated proximal signaling in WT and RasGRP1 -/ - BMMCs .
+( A ) Tyrosine phosphorylation of proteins after FcepsilonRI engagement .
+After sensitization with anti-DNP IgE , BMMCs were stimulated with DNA-HSA or PMA ( P ) for 5 min .
+Total lysates were blotted with an anti-phosphotyrosine ( pY ) or anti-LATpY191 antibody .
+A similar amount of lysates loaded in each lane was indicated by an anti-LAT blot .
+( B ) Tyrosine phosphorylation of PLCgamma1 and PLCgamma2 .
+( C ) FcepsilonRI induced calcium influx .
+Sensitized mast cells were loaded with Indo-1 and stimulated with DNP-HSA .
+The fluorescence emission ratio at 405-495 nm was monitored by flow cytometry .
+( D ) Activation of MAPKs .
+Whole cell lysates were analyzed by Western blotting with antibodies against Erk , Jnk , and p38 and their phosphorylated forms .
+MAPK activation in RasGRP1 -/ - mast cells
+RasGRP1 has an established role in TCR mediated Ras-Erk activation .
+It is also required in PMA ( a DAG analogue ) -induced Erk activation ( ) .
+Because RasGRP1 was expressed in mast cells , we next examined whether the Ras-Erk pathway was affected in the absence of RasGRP1 .
+Surprisingly , in contrast with the defective Erk activation in RasGRP1 -/ - thymocytes , FcepsilonRI mediated Erk activation was normal in RasGRP1 -/ - BMMCs ( ) .
+These data indicated that RasGRP1 is not required for Ras-Erk activation in the FcepsilonRI signaling pathway .
+It is possible that other Ras guanyl nucleotide exchange factors , such as Sos , or other members of the RasGRP family may be the primary activators of this pathway .
+Jnk and p38 were previously shown to be important for production of certain cytokines , such as IL-6 .
+We also examined Jnk and p38 activation by Western blotting with anti-phospho-Jnk and p38 .
+No differences in the activation of these MAPKs were observed between WT and RasGRP1 -/ - BMMCs ( ) .
+In addition , PMA induced MAPK activation was also normal in the absence of RasGRP1 ( ) .
+Collectively , these data suggested that RasGRP1 is not required in FcepsilonRI mediated MAPK activation .
+Diminished activation of PI3K pathway
+PI3K and its downstream signaling pathway play important roles in mast cell function and development .
+Genetic inactivation of the p110delta isoform of PI3K leads to defective mast cell development and reduced IgE induced degranulation and cytokine release ( ) .
+We asked whether RasGRP1 could be involved in the activation of the PI3K pathway in FcepsilonRI evoked signaling .
+To assess the effect of RasGRP1 deficiency on PI3K activation , we first assayed the PI3K activity by determining production of PIP 3 after FcepsilonRI stimulation .
+32 P labeled mast cells were stimulated with DNP-HSA for 0 , 2 , 5 , and 10 min , and lipid fractions were extracted and separated by thin layer chromatography .
+WT BMMCs had a threefold increase of PIP 3 at 2 min after FcepsilonRI stimulation ; however , RasGRP1 -/ - cells only had an increase of 50 % ( ) .
+The residual PI3K activity in RasGRP1 -/ - BMMCs might be due to the compensation of RasGRP1 function by other members of the RasGRP family .
+A previous study has shown that the membrane recruitment of PI3K by Gab2 is required for its activation ( ) .
+We examined Gab2 phosphorylation and its interaction with p85 .
+Gab2 was phosphorylated normally and interacted with p85 in RasGRP1 -/ - BMMCs ( ) , suggesting that RasGRP1 likely controls PI3K activation through a mechanism other than regulating its membrane recruitment by Gab2 .
+SHIP acts as a gatekeeper of mast cell degranulation through hydrolyzing PIP 3 ( ) .
+To investigate whether decreased PIP 3 production in RasGRP1 -/ - cells was caused by increased SHIP activation in RasGRP1 -/ - mast cells , we examined SHIP expression and phosphorylation .
+No substantial differences were seen between WT and RasGRP1 -/ - cells ( ) .
+Figure 4 .
+Impaired PI3K pathway in RasGRP1 -/ - BMMCs .
+( A ) Effect of RasGRP1 deficiency on FcepsilonRI induced PIP 3 production in RasGRP1 -/ - BMMCs .
+Sensitized cells were labeled with [ 32 P ] orthophosphate and stimulated with DNP-HSA .
+Lipids were then extracted and subjected to thin layer chromatography .
+Increased PIP 3 production is plotted in the bottom panel .
+Data shown were from a representative of three independent experiments .
+( B ) Gab2 phosphorylation and its association with p85 .
+Lysates were immunoprecipitated with anti-Gab2 followed by Western blotting with anti-pY , Gab2 , and p85 antibodies .
+( C ) FcepsilonRI induced SHIP1 ( Tyr1020 ) phosphorylation .
+Whole cell lysates were blotted with anti-pSHIP ( Tyr1020 ) and SHIP antibodies .
+( D and E ) Effect of RasGRP1 deficiency on the PI3K pathway .
+DNP-HSA or PMA ( P ) -activated mast cell lysates were analyzed by Western blotting with antibodies against phosphorylated AKT ( Ser473 and Thr308 ) , PDK1 ( Ser241 ) , PKCdelta ( Thr505 ) , and GSK3beta ( Ser9 ) .
+The numbers shown were normalized relative intensities for the phosphorylated Akt , PKD1 , and PKCdelta , respectively .
+We next investigated the impact of impaired PI3K activation on the phosphorylation of molecules in the PI3K pathway .
+Akt is recruited to the cell membrane by PIP 3 and phosphorylated by PDK1 ( ) .
+After activation , Akt phosphorylates GSK3beta and inhibits its activity .
+Akt and GSK3beta are critical in FcepsilonRI induced production of TNFalpha and IL-2 by regulating the transcriptional activity of NF-kappaB , NFAT , and AP-1 ( ) .
+We examined Akt activation by Western blotting with antibodies against Akt phosphorylated at Ser473 ( ) or Thr308 ( ) .
+FcepsilonRI mediated Akt phosphorylation at these two residues was significantly reduced in RasGRP1 -/ - BMMCs .
+The phosphorylation of GSK3beta ( Ser9 ) was also decreased in RasGRP1 -/ - BMMCs ( ) .
+These results could explain the reduced cytokine production in RasGRP1 -/ - cells .
+Another molecule downstream of PI3K activation is PDK1 .
+Consistent with reduced PIP 3 production , phosphorylation of PDK1 was also markedly diminished ( ) .
+As a result of the defective PI3K pathway , phosphorylation of PKCdelta , which is mediated by PDK1 ( ) , was significantly diminished ( ) .
+Defective activation of Akt , PDK1 , and PKCdelta in RasGRP1 -/ - cells could not be bypassed by stimulation with PMA ( ) , suggesting that RasGRP1 is required for signaling downstream of DAG production .
+Collectively , these data indicated that activation of molecules in the PI3K pathway is affected by RasGRP1 deficiency .
+N-Ras mediates regulation of PI3K by RasGRP1
+To examine whether FcepsilonRI mediated Ras activation was normal , we performed a Ras assay using the GST protein fused with the Ras binding domain ( RBD ) of Raf ( GST-Raf-RBD ) .
+GTP bound Ras proteins precipitated by GST-Raf-RBD were detected by Western blotting with antibodies against H-Ras , N-Ras , and K-Ras , respectively .
+As shown in , the amount of GTP bound N-Ras precipitated by GST-Raf-RBD was reduced in RasGRP1 -/ - cells , whereas the amount of GTP bound K-Ras was similar in WT and RasGRP1 -/ - cells .
+GTP bound H-Ras was not detected ( not depicted ) .
+These data indicated that RasGRP1 is likely required for N-Ras activation in FcepsilonRI signaling .
+Figure 5 .
+Activation of N-Ras by RasGRP1 .
+( A ) Reduced activation of N-Ras in RasGRP1 -/ - BMMCs .
+Sensitized WT and RasGRP1 -/ - cells were activated with DNP-HSA .
+Lysates were subjected to GST-Raf-RBD precipitation followed by Western blotting with anti-N-Ras and anti-K-Ras antibodies .
+( B ) Reconstitution of Akt activation by constitutively active N-Ras .
+WT and RasGRP1 -/ - BMMCs transduced with empty vector or retroviruses expressing constitutively active forms of N-Ras , K-Ras , and H-Ras were sensitized with anti-DNP IgE and cross linked with DNP-HSA .
+Whole cell lysates were blotted with anti-pAkt , anti-Akt , and anti-HA antibodies .
+( C ) Effect of a constitutively active Ras on mast cell degranulation .
+Mast cells were transduced as in B. Mast cell degranulation was assayed by measuring the release of beta-hexosaminidase .
+To determine whether the reduced N-Ras activation was indeed the cause for defective PI3K activation and degranulation , we introduced the constitutively activated forms ( G12V ) of N-Ras , K-Ras , and H-Ras into RasGRP1 -/ - BMMCs by retroviral transduction .
+Stable transductants were selected and expanded .
+First , we examined whether PI3K activation could be restored by detecting Akt activation .
+As shown in , phosphorylation of Akt in RasGRP1 -/ - cells expressing G12V N-Ras was similar to that in WT cells .
+Expression of G12V K-Ras slightly enhanced Akt phosphorylation in RasGRP1 -/ - cells , whereas expression of G12V H-Ras had no effect .
+These Ras proteins were expressed at comparable amounts as detected by an antibody against the HA epitope tag ( ) .
+Next , we assayed whether the defects in FcepsilonRI mediated degranulation could be corrected by expression of constitutively active Ras .
+We performed the beta-hexosaminidase release assay with transduced mast cells .
+Although G12V N-Ras rescued the defective degranulation in RasGRP1 -/ - BMMCs , G12V K-Ras or H-Ras had little effect ( ) .
+These data indicated that N-Ras is the Ras member that is activated by RasGRP1 in mast cells .
+Impaired granule translocation in RasGRP1 -/ - BMMCs
+Degranulation is thought to be a two-step process .
+After granules are translocated to the plasma membrane , they are fused with the plasma membrane to release their contents ( ) .
+To visualize the granule release , we introduced a CD63-GFP fusion protein into BMMCs and monitored granule movement under a confocal microscope as described previously ( ) .
+CD63 is mainly localized in the granules of mast cells .
+Before cross linking with DNP-HSA , mast cell granules , as revealed by the CD63-GFP fluorescence , were mostly in the cytosol .
+After cross linking , the majority of granules moved close to the plasma membrane in WT BMMCs .
+In contrast , granules in RasGRP1 -/ - cells still remained in the cytosol after FcepsilonRI aggregation ( ) .
+After granules are fused with the plasma membrane , CD63 can be detected at the cell surface ( ) .
+We also examined CD63 surface expression in WT and RasGRP1 -/ - cells by staining cells with an anti-CD63 antibody followed by FACS analysis .
+We detected an increase of CD63 surface expression on WT cells but a very minimal increase on RasGRP1 -/ - cells ( ) .
+These data indicated that RasGRP1 is critical for granule movement in mast cells .
+Without RasGRP1 , mast cells failed to move their granules to the plasma membrane to release their contents .
+Figure 6 .
+Defective granule translocation , microtubule formation , and RhoA activation in RasGRP1 -/ - BMMCs .
+( A ) FcepsilonRI induced granule translocation in WT and RasGRP1 -/ - BMMCs .
+BMMCs expressing CD63GFP were visualized by confocal microscopy .
+( B ) FcepsilonRI induced surface CD63 expression analyzed by FACS .
+( C ) FcepsilonRI induced cytoskeleton rearrangement .
+Sensitized BMMCs were stimulated with DNP-HSA ( + ) or buffer only ( - ) and stained with anti-alpha-tubulin ( green ) and rhodamine-phalloidin ( red ) .
+( D ) Rac1 and RhoA activation .
+Whole cell lysates were subjected to precipitation by GST-PAK-RBD or GST-Rhotekin-RBD beads , respectively .
+Rac1 and RhoA were detected by Western blotting with an anti-Rac1 or anti-RhoA antibody .
+Lysates were also blotted with these antibodies , showing that similar amounts of proteins were used in this assay .
+One representative of three independent experiments was shown .
+Cytoskeleton rearrangement in RasGRP1 -/ - BMMCs
+FcepsilonRI engagement induces cytoskeleton rearrangement that includes microtubule formation and disassembly of F-actin ring .
+Granule translocation and degranulation require microtubule formation .
+To investigate why granules failed to translocate in RasGRP1 -/ - BMMCs , we examined formation of microtubule and disassembly of the F-actin structures by staining BMMCs with anti-alpha-tubulin and rhodamine-phalloidin , respectively , before and after FcepsilonRI engagement .
+Cross linking of sensitized WT mast cells with DNP-HSA intensified network like staining ( green ) of tubulin in the cytosol , an indication of the formation of microtubules ( ) .
+In the meantime , F-actin ring , indicated by phalloidin staining ( red ) , collapsed after stimulation .
+In activated RasGRP1 -/ - BMMCs , fluorescence from anti-tubulin staining was only seen near the plasma membrane as in unstimulated cells , whereas F-actin disassembly was normal ( ) .
+These results indicated that RasGRP1 mediated signaling is required for the formation of microtubules after FcepsilonRI engagement .
+Rac and Rho GTPases can regulate cytoskeletal organization in eukaryotic cells ( ) .
+Recently , RhoA activation has been shown to be important for microtubule formation and degranulation in mast cells ( ) .
+PI3K and its products are required for activation of Rho family proteins in several pathways .
+We next examined the activation of Rac1 and RhoA by using GST-PAK-PBD and GST-Rhotekin RBD fusion proteins to pull down GTP bound Rac1 and RhoA .
+As shown in , activation of Rac1 in RasGRP1 -/ - cells was similar to that in WT cells .
+However , activation of RhoA was reduced in RasGRP1 -/ - cells .
+These results suggested that RasGRP1 plays an important role in FcepsilonRI mediated RhoA activation .
+DISCUSSION
+Disruption of RasGRP1 had no effect on the proximal signaling events after FcepsilonRI engagement .
+Overall , tyrosine phosphorylation of proteins , phosphorylation of LAT and PLCgamma1 and gamma2 , and calcium influx were intact in RasGRP1 -/ - mast cells .
+Calcium influx in mast cells is dependent on LAT , SLP-76 , and PLCgamma .
+LAT or SLP76 deficiency causes a marked decrease of PLCgamma phosphorylation and calcium flux .
+RasGRP proteins are activated after binding to DAG , a product of PLCgamma hydrolysis .
+Thus , it was not surprising that RasGRP1 deficiency did not affect FcepsilonRI mediated proximal signaling and calcium mobilization .
+Although PI3K lipid products are important for optimal recruitment and activation of PLCgamma1 ( ) , as well as Tec family kinases ( ) , their importance in FcepsilonRI mediated calcium mobilization is not entirely clear .
+Mast cells deficient in Gab2 or Fyn , two critical molecules in FcepsilonRI mediated PI3K activation , only have slightly reduced calcium flux .
+It is possible that in mast cells , FcepsilonRI mediated PLCgamma activation and calcium mobilization are mainly dependent on recruitment of PLCgamma to the plasma membrane by LAT .
+Normal PLCgamma phosphorylation and calcium mobilization in RasGRP1 -/ - mast cells suggested that DAG production is likely normal in these cells .
+Defective PI3K activation and mast cell function were less likely due to failed DAG production because PMA induced activation of Akt , PKCdelta , and PDK1 was still diminished ( ) .
+RasGRP1 deficiency affects Ras-Erk activation in the TCR signaling pathway ( ) , but not in the FcepsilonRI pathway based on our data here .
+Normal activation of Erk in RasGRP1 -/ - mast cells suggested that Sos or other RasGRP family members might play a major role in FcepsilonRI mediated Ras-Erk activation .
+Even though we showed that RasGRP1 was expressed in BMMCs , its abundance was not as high as in T cells .
+RasGRP4 is a new member of the RasGRP family and is highly expressed in mast cells .
+C3H and HeJ mice express a unique isoform of RasGRP4 due to an aberrant splicing .
+This aberrant splicing produces a dysfunctional protein that lacks a DAG binding domain ( C1 domain ) .
+These mice are hyporesponsive to methacholine stimulation via the airway ( ) , suggesting that RasGRP4 may have an important role in mast cell function , although other genes in these mice can also contribute to the hyporesponsiveness .
+We speculate that RasGRP4 might play a similar role in mast cells as RasGRP1 in T cells in Ras-Erk activation .
+It is also possible that FcepsilonRI mediated Erk activation might be independent of RasGRP proteins .
+In mast cells , Shc is phosphorylated upon FcepsilonRI engagement ( ) .
+Through binding to the phosphorylated FcepsilonRI beta and gamma chains , Shc might recruit the Grb2 and Sos complex to the plasma membrane to initiate Ras-MAPK activation .
+Published studies have indicated that PI3K is important in mast cell function .
+Gene inactivation or pharmacological inhibition of PI3K impairs FcepsilonRI mediated degranulation and cytokine release .
+Recruitment of the p85 subunit of PI3K by Gab2 is required for its activation ( ) .
+However , the mechanism underlying how PI3K is directly activated after its localization to membrane has not been clearly characterized in mast cells .
+Our data suggested that full activation of PI3K after FcepsilonRI engagement requires not only membrane recruitment of p85 by Gab2 , but also activation by RasGRP1 .
+Our results indicated that RasGRP1 is likely involved in PI3K activation through N-Ras .
+The constitutively active form of N-Ras could rescue defective Akt activation and degranulation .
+GTP bound Ras has been shown to interact with the p110 subunit of PI3K and induce its activation .
+Efficient PI3K activation in platelet derived growth factor induced signaling requires the function of Ras ( ) .
+Because RasGRP1 deficiency did not affect Gab2 phosphorylation and the recruitment of p85 , it is likely that RasGRP1 activates N-Ras , which further induces PI3K activation through its interaction with p110 in FcepsilonRI signaling ( ) .
+It is not clear why RasGRP1 is only involved in the activation of N-Ras , not K-Ras or H-Ras .
+Despite the structural similarities among these Ras proteins , their differential posttranslational modifications target them to different microdomains at the membrane or subcellular compartments .
+Recent studies suggest that upon T cell activation , RasGRP1 translocates to the Golgi apparatus to activate Ras ( ) .
+Subsequent studies show that N-Ras is activated upon engagement of the TCR and PLCgamma1 activation , and RasGRP1 may activate N-Ras in the Golgi ( ) .
+It remains to be determined whether activation of N-Ras by RasGRP1 in mast cells occurs in the Golgi or the plasma membrane .
+Figure 7 .
+A proposed model of RasGRP1 in FcepsilonRI mediated signaling .
+Upon FcepsilonRI cross linking and PIP 2 hydrolysis , RasGRP1 is recruited to the membrane by DAG to activate N-Ras .
+N-Ras interacts with the catalytic p110 subunit of PI3K , which binds phosphorylated Gab2 , and activates the PI3K pathway .
+RasGRP1 also controls RhoA activation indirectly through the PI3K pathway .
+In contrast with its role in FcepsilonRI mediated signaling , RasGRP1 is not essential for PI3K and Erk activation in IL-3 or SCF signaling .
+IL-3 initiates the Jak-Stat pathway , whereas SCF activates the c-Kit receptor tyrosine kinase .
+Upon phosphorylation , the IL-3 receptor and c-Kit bind to the Shc-Grb2-Sos complex directly to activate the Ras-MAPK pathway and to p85 to activate the PI3K pathway .
+Why RasGRP1 is required for the FcepsilonRI pathway , but not the IL-3- or SCF mediated pathway , is not clear .
+It is possible that IL-3- or SCF mediated PI3K activation does not require Ras .
+To investigate why RasGRP1 -/ - cells failed to degranulate , we analyzed FcepsilonRI mediated granule translocation and cytoskeletal rearrangement .
+Our data indicated that granules failed to translocate to the plasma membrane , and the formation of microtubules was defective in RasGRP1 -/ - cells after FcepsilonRI engagement .
+F-actin rearrangement , which is regulated by Ca 2+ and Ca 2+ -dependent PKCs ( ) , was normal in RasGRP1 -/ - cells .
+This result was expected because Ca 2+ flux was normal in these cells .
+Our data showed that RhoA activation was defective in RasGRP1 -/ - cells .
+Vav proteins are GEFs for Rho family GTPases ( ) and can be regulated by the substrates and products of PI3K ( ) .
+Different members of the Vav family ( Vav1 , Vav2 , and Vav3 ) may have different specificities toward different Rho GTPases , such as Cdc42 , Rac1 , and RhoA ( ) .
+It is not clear which GEF specifically activates Rac1 and RhoA .
+In RasGRP1 -/ - cells , Rac1 activation was relatively normal , whereas RhoA activation was reduced .
+It is possible that RasGRP1 activates the PI3K pathway , which in turns activates a specific GEF for RhoA , although we can not exclude the possibility that RasGRP1 is also an exchange factor for RhoA in the FcepsilonRI signaling pathway .
+Lyn and Fyn activate two independent pathways upon engagement of the FcepsilonRI ( ) .
+Activation of the Lyn-Syk-LAT pathway leads to calcium flux and MAPK activation , whereas the Fyn-Gab2-PI3K pathway is responsible for AKT , PKCdelta activation , and degranulation .
+It has been proposed that there might be cross talks between these two pathways to synergize cytokine production and degranulation ( ) .
+Our data suggested that RasGRP1 might link LAT phosphorylation and PLCgamma activation to PI3K activation , thereby connecting the Lyn initiated pathway to the Fyn initiated pathway in mast cells ( ) .
+In summary , our results indicated that RasGRP1 is an essential regulator of FcepsilonRI mediated allergic responses .
+MATERIALS AND METHODS
+Mice and antibodies .
+RasGRP1 -/ - mice were provided by J.C. Stone ( University of Alberta , Canada ) .
+Mice were housed in specific pathogen-free conditions , and the use of mice in the experiments described in this study was approved by the Duke University Institutional Animal Care Committee .
+The following antibodies were used in this study : anti-DNP IgE ( SPE-7 ; Sigma-Aldrich ) , FcepsilonRIalpha , and c-Kit ( eBioscience ) ; PLCgamma2 , Erk2 , K-Ras , RhoA , and RasGRP1 ( Santa Cruz Biotechnology , Inc. ) , p85 , pTyr ( 4G10 ) , PLCgamma1 , Rac1 , and phospho-LATpY191 ( Upstate Biotechnology ) ; and pan-Ras and N-Ras ( Calbiochem ) .
+AKT , Jnk , p38 , PKCdelta , PDK1 , and other phospho specific antibodies were from Cell Signaling .
+Anti-LAT ( 11B12 ) was described previously ( ) .
+Anti-RasGRP4 sera were raised by immunizing rabbits with a GST-RasGRP4 fusion protein .
+Mast cell culture , stimulation , and degranulation .
+Bone marrow cells were taken from the femurs of WT and RasGRP1 -/ - mice and were cultured in IMDM supplemented with 10 % FBS , beta-mercaptoethanol , penicillin , and streptomycin in the presence of 5 ng and ml of recombinant IL-3 at 37degreesC for 3-6 wk .
+For stimulation through the FcepsilonRI , 2 x 10 6 / ml mast cells were sensitized with 0.5 mug and ml anti-DNP IgE in IMDM medium without IL-3 for 4 h overnight before stimulation with 20 ng and ml DNP-HSA for the indicated time points in each figure .
+For IL-3 or SCF stimulation , cells were starved for 24 h in IMDM medium without IL-3 and stimulated with 20 ng and ml IL-3 or SCF , respectively .
+Mast cell degranulation was performed as described previously ( ) .
+For systemic anaphylaxis , WT and RasGRP1 -/ - mice were sensitized with anti-DNP IgE for 24 h and challenged with DNP-HSA for 1.5 min .
+Blood was collected by cardiac puncture , and histamine concentration in the blood was determined by ELISA .
+Western blotting .
+Cells were lysed in RIPA buffer for analysis of whole cell lysates or Brij lysis buffer for immunoprecipitation .
+For Western blotting , samples were separated by SDS-PAGE and transferred onto nitrocellulose membranes .
+After blocking with 1 % fish gelatin , membranes were incubated with primary antibodies , washed three times , and probed with either goat anti-mouse or anti-rabbit Ig conjugated with Alexa Fluor 680 ( Invitrogen ) or IRDye 800 ( Rockland ) .
+Membranes were then visualized and quantified with an infrared fluorescence imaging system ( LI-COR Bioscience Odyssey system ) .
+For most of Western blots , samples were resolved on multiple gels and analyzed by immunoblotting with different antibodies .
+Numeration of mast cells .
+Peritoneal flushes were stained with toluidine blue .
+Percentages of mast cells in the peritoneum were calculated as mast cell numbers to total cell numbers in five fields under 200x magnification .
+Skin sections from the back skin and ear dermis were stained with toluidine blue .
+Mast cell numbers were counted from at least five sections from each WT ( n = 3 ) and RasGRP1 -/ - mouse ( n = 3 ) .
+Data are presented as mean + /- SD .
+Calcium influx , cytokine production , and PIP 3 measurement .
+For calcium influx , cells were sensitized with 0.5 mug and ml anti-DNP IgE for 4 h and loaded with 1.5 muM Indo-1 in 1 % FBS-HBSS media for 30 min at 30degreesC .
+Cells were stimulated with 30 ng and ml DNP-HSA to induce calcium flux .
+The fluorescence emission ratio at 405-495 nm was monitored by flow cytometry .
+For cytokine production , 2 x 10 6 anti-DNP IgE sensitized cells were stimulated with DNP-HSA for 1 h for RT-PCR and for 8 h for the measurement of cytokines released into supernatants using a Bio-Plex cytokine assay ( Bio-Rad Laboratories ) .
+PIP 3 production was determined using a protocol described previously ( ) .
+Ras , Rac1 , and RhoA activation .
+For Ras activation , 2 x 10 7 / ml mast cells were lysed in a buffer containing 25 mM Hepes , pH 7.5 , 150 mM NaCl , 1 % NP-40 , 0.25 % sodium deoxycholate , 10 % glycerol , 10 mM MgCl 2 , 1 mM EDTA , and 1 mM Na 3 VO 4 .
+The lysates were incubated with 20 mug GST-Raf-RBD on glutathione beads for 40 min .
+Beads were washed and boiled in 1x SDS sample buffer .
+GST-Rhotekin RBD and GST-PAK-PBD fusion protein were provided by K. Burridge ( University of North Carolina , Chapel Hill , NC ) .
+Rac1 and RhoA activation was examined by pull-down assays as described previously ( ) .
+GTP bound pan-Ras , H-Ras , K-Ras , N-Ras , Rac1 , and RhoA were detected by Western blotting with antibodies against each of these proteins , respectively .
+Ras reconstitution by retroviral transduction .
+Constitutively active forms ( G12V ) of H-Ras , K-Ras , and N-Ras with an HA tag were subcloned into a retroviral vector , pMSCV/IRES/Bla .
+The retroviral plasmids were used to transfect Phoenix cells for retrovirus packaging .
+12-d-old BMMCs were transduced with retroviruses by spin infection .
+48 h after transduction , cells were selected with 5 mug and ml blasticidin and expanded for 10-14 d for subsequent experiments .
+Granule translocation and cytoskeletal rearrangement .
+Examination of granule translocation by confocal microscopy was performed as described previously ( ) .
+In brief , BMMCs were transduced with pMX-CD63GFP retroviruses at day 5 after bone marrow culture in IL-3 medium .
+At 3 wk after the initial culture , BMMCs were sensitized with anti-DNP IgE and stimulated with DNP-HSA for 10 min .
+Cells were immediately fixed with 4 % paraformaldehyde before cytospin and visualized by confocal microscopy .
+For cytoskeletal rearrangement , cells were permeabilized in a buffer containing 0.1 % saponin ( 2 % FBS , 1 % BSA , and 0.02 % sodium azide in PBS ) for 20 min at room temperature .
+After cytospin , cells were stained with anti-alpha-tubulin ( Sigma-Aldrich ) at 1:50 dilution and incubated with Alexa Fluor 488 goat anti-mouse IgG and rhodamine phalloidin ( Invitrogen ) .
+Confocal microscopy was performed using a Zeiss LSM410 confocal system .

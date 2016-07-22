@@ -1,0 +1,11 @@
+Event	74	Cell	11755	73
+Event	74	Cell	2966	73
+Event	74	Species	1694	73
+Event	73	Cell	11755	73
+Event	73	Cell	2966	73
+Event	73	Species	1694	73
+Event	80	Cell	11755	83
+Event	59	Cell	2887	59
+Event	80	Cell	11755	83
+Event	72	Cell	2887	59
+Event	72	Cell	2887	59

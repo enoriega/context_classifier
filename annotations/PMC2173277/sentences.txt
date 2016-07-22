@@ -1,0 +1,452 @@
+The integrin alphavbeta8 mediates epithelial homeostasis through MT1-MMP-dependent activation of TGF-beta1
+Integrins , matrix metalloproteases ( MMPs ) , and the cytokine TGF-beta have each been implicated in homeostatic cell behaviors such as cell growth and matrix remodeling .
+TGF-beta exists mainly in a latent state , and a major point of homeostatic control is the activation of TGF-beta .
+Because the latent domain of TGF-beta1 possesses an integrin binding motif ( RGD ) , integrins have the potential to sequester latent TGF-beta ( SLC ) to the cell surface where TGF-beta activation could be locally controlled .
+Here , we show that SLC binds to alphavbeta8 , an integrin expressed by normal epithelial and neuronal cells in vivo .
+This binding results in the membrane type 1 ( MT1 ) - MMP dependent release of active TGF-beta , which leads to autocrine and paracrine effects on cell growth and matrix production .
+These data elucidate a novel mechanism of cellular homeostasis achieved through the coordination of the activities of members of three major gene families involved in cell-matrix interactions .
+Introduction
+Cellular homeostasis is maintained in the organism through the correct responses to extra - , intra - , and intercellular signals ( ) .
+Imbalances in these signals can result in disruption of cellular homeostasis , leading to changes in cell mass and and or tissue organization .
+The cellular homeostatic machinery consists of secreted , cell surface , and intracellular molecules that together maintain cellular differentiation and the balance between quiescence and entry into the cell cycle ( ) .
+Homeostasis is regulated through the control of cell proliferation mediated through cell-extracellular matrix interactions in concert with growth promoting and inhibitory cytokines .
+A growth inhibitory cytokine of particular importance in tissue homeostasis is the multifunctional cytokine TGF-beta ( ) .
+The important role of TGF-beta in homeostasis is illustrated by the fact that TGF-beta1-deficient mice develop epithelial hyperplasias ( in addition to lethal multiorgan inflammation ) within weeks after birth .
+TGF-beta1 is normally maintained in a latent or inactive state by the noncovalent association of the bioactive peptide of TGF-beta1 with its NH 2 -terminal propeptide , latency associated peptide ( LAP ) - beta1 ( ) .
+Therefore , normal TGF-beta function is thought to be largely controlled by its activation from the latent state , a process that is not understood completely ( ) .
+However , recent evidence suggests that cell surface molecules or secreted extracellular molecules can activate TGF-beta .
+Specifically , the integrin alphavbeta6 and the secreted extracellular matrix molecule thrombospondin ( TSP ) -1 have been implicated in activation of TGF-beta1 through nonproteolytic mechanisms .
+In addition , plasmin or the cell surface localization of matrix metalloprotease MMP-9 by CD44 has been proposed to lead to activation of TGF-beta through proteolytic degradation of LAP-beta1 and LAP-beta2 , respectively .
+Although these mechanisms may be important to activation of TGF-beta , particularly in response to injury or during neoplastic progression ( ) , they individually do not explain the activation of TGF-beta1 in normal tissues .
+Indeed , mice deficient in TSP-1 ( ) , plasminogen ( ) , CD44 ( ) , or alphavbeta6 ( ) are all born viable and are able to reproduce , in marked contrast to the uniform lethality of TGF-beta1-null mice ( ) .
+The propeptide of TGF-beta1 , LAP-beta1 , contains an RGD motif that is recognized by a subset of integrins sharing in common the alphav integrin subunit ( ) .
+Thus , three of the five alphav integrins , alphavbeta1 , alphavbeta5 , and alphavbeta6 , have been shown to bind to LAP-beta1 , and of these only alphavbeta6 can mediate TGF-beta activation .
+Recently , evidence suggests that alphavbeta6 mediated activation of TGF-beta1 plays an important role in response to injury ( ) .
+Of the two remaining alphav integrins , alphavbeta3 does not bind to LAP-beta1 or mediate activation of TGF-beta1 ( ) , and alphavbeta8 has not been investigated since , until recently , a system has not been available to study its function ( ) .
+The alphavbeta8 integrin is of particular interest , since it has been identified recently as an epithelial growth inhibitory molecule ( ) .
+alphavbeta8 is expressed in the normal human airway epithelium but is lost in its malignant counterpart , suggesting a role in epithelial homeostasis ( ) .
+Furthermore , heterologous expression of alphavbeta8 inhibits lung carcinoma cell growth both in vivo and in vitro ( ) .
+Since alphavbeta8 and TGF-beta1 are coexpressed in normal tissues , such as the human airway , we considered the possibility that alphavbeta8 may participate in the maintenance of airway homeostasis through activation of TGF-beta .
+In this article , we demonstrate a novel mechanism of cell growth regulation mediated by activation of TGF-beta1 via the integrin alphavbeta8 .
+We show that alphavbeta8 can bind LAP-beta1 and that the consequence of this interaction is activation of TGF-beta1 .
+This mechanism of activation of TGF-beta1 differs from other reported mechanisms because it is regulated through the coordinated interactions of integrins , TGF-beta , and MMPs on the cell surface .
+Furthermore , we show that when lung cancer cells are reconstituted with alphavbeta8 , which is normally present on the epithelial cells from which they are derived , growth is now inhibited by TGF-beta1 .
+These data provide novel insights into the mechanisms underlying cellular homeostasis .
+Results
+The integrin alphavbeta8 binds with high affinity to the RGD site of recombinant LAP-beta1
+To determine if alphavbeta8 can bind to the RGD containing LAP-beta1 , we performed affinity chromatography using surface radiolabeled alphavbeta8 and immobilized LAP-beta1 .
+Two bands of the appropriate kD for the alphav and beta8 subunits ( 150 and 90 kD , respectively ) bound to immobilized LAP-beta1 in a divalent cation dependent fashion as shown by elution with EDTA ( a , lanes 4-8 ) .
+This binding was also dependent on the RGD sequence of LAP-beta1 as demonstrated by the inability of RGE ( a , lanes 1 ' -3 ' ) and the ability of RGD to elute alphavbeta8 ( a , lanes 4 ' -7 ' ) .
+The identity of the alphav and beta8 subunits in the elution fractions was confirmed by immunoprecipitation ( b ) .
+Anti-beta8 antibodies immunoprecipitated 150- and 90-kD bands from the RGD and EDTA elution fractions , which comigrated exactly with the two bands immunoprecipitated with anti-alphav and anti-beta8 antibodies from cell lysates ( b , RGD , EDTA , and LYSATE ) .
+Immunoprecipitations of the elution fractions using antibodies to the other RGD binding integrins present on HT1080 cells , namely alphavbeta5 and alpha5beta1 , failed to detect any proteins ( unpublished data ) .
+To measure the relative ability of truncated alphavbeta8 to bind to LAP-beta1 and vitronectin ( VN ) , the only other known ligand for alphavbeta8 ( ) , we developed solid phase binding assays for alphavbeta8-ligand interactions using alkaline phosphatase ( AP ) - tagged alphavbeta8 ( AP-alphavbeta8 ) .
+The ability of AP-alphavbeta8 to bind to immobilized LAP-beta1 was confirmed by metabolic labeling and affinity chromatography ( c ) .
+Two bands of the appropriate molecular weight for the truncated alphav ( 140 kD ) and beta8-AP ( 130 kD ) subunits were eluted by RGD peptide ( c ) .
+No other metabolically labeled proteins from the cell supernatants were shown to bind to LAP-beta1 by this method ( c ) .
+In solid phase assays , considerably more AP-alphavbeta8 bound to wells coated with LAP-beta1 ( 10 mug and ml ) than to wells coated with VN ( 100 mug and ml ) .
+AP-alphavbeta8 did not bind to a mutant form of LAP ( LAP [ RGE ] ) with a single amino acid substitution in the integrin recognition sequence and was completely eluted by either RGD ( 1 mg and ml ) or EDTA ( 10 mM ) ( unpublished data ) .
+Furthermore , alphavbeta8 binding was almost completely inhibited by the monoclonal antibody 37E1 , specific to beta8 .
+The affinity of AP-alphavbeta8 for LAP-beta1-Sepharose was determined by saturation binding experiments .
+AP-alphavbeta8 bound to LAP-beta1 with high affinity ( Kd 13 pM ) with binding saturation reached at ~ 50 % ligand occupancy ( e , Bmax : 0.5 fM and 1 .0 fM LAP-beta1 ) .
+Scatchard analysis revealed a single high affinity state of AP-alphavbeta8 , consistent with other reports that secreted alphav integrins are expressed in a constitutively active affinity state .
+In contrast to the high affinity of AP-alphavbeta8 for LAP-beta1 , the affinity of AP-alphavbeta8 for VN , the only other known ligand for alphavbeta8 ( ) , was too low to be determined using this assay ( unpublished data ) .
+Thus , alphavbeta8 binds preferentially to LAP-beta1 with high affinity , and this binding is both RGD and divalent cation dependent .
+Figure 1 .
+alphavbeta8 binds to LAP-beta1 in an RGD- and cation dependent fashion .
+n-octylglucoside lysates from 125 I-cell surface labeled beta8 expressing HT1080 cells ( 1 ml ) were passed over two identical LAP-beta1-Sepharose columns ( 1 ml ) and washed with 12 ml of wash buffer ( shown in lanes 1 , 2 , and 3 are the 4th , 11th and 12th wash fractions ) .
+One column was eluted with 1-ml fractions containing 10 mM EDTA ( fractions 4-8 ) , and the other column was eluted with 1-ml fractions containing 1 mg and ml GRGESNK ( lanes 1 ' -3 ' ) or 1 mg and ml GRGDSNK ( lanes 4 ' -7 ' ) .
+Samples were resolved by 7.5 % SDS-PAGE under nonreducing conditions and visualized by autoradiography .
+( b ) EDTA and RGD elution fractions were immunoprecipitated with anti-beta8 ( 14E5 ) and compared with anti-alphav ( L230 ) and anti-beta8 ( 14E5 ) immunoprecipitations from cell lysates .
+The migration of the MW markers is shown on the left , and the expected migration of the alphav ( 150 kD ) and beta8 ( 90 kD ) subunits is shown on the right .
+Samples were resolved by 7.5 % SDS-PAGE under nonreducing conditions and visualized by autoradiography .
+( c ) 35 S metabolically labeled , ( Translabel and ICN Biomedicals ) truncated secreted alphavbeta8-AP fusion protein was applied to a 0.5-ml column of LAP-beta1-Sepharose , washed sequentially with six fractions of wash buffer ( lane 1 , last wash fraction ) , and then eluted with 1 mg and ml GRGDSPK ( lanes 2-6 ) .
+On the left are the migrations of the MW markers , and on the right are the expected migrations of the truncated alphav ( 140 kD ) and the truncated beta8-AP ( 130 kD ) subunits .
+Samples were resolved by 10 % SDS-PAGE under nonreducing conditions and visualized by autoradiography .
+Supernatant containing secreted truncated alphavbeta8 with a COOH-terminal AP tag ( AP-alphavbeta8 ) was applied to wells of a 96-well plate coated with either LAP-beta1 ( 10 mug and ml ) containing the RGD or the RGE binding motif or with VN ( 100 mug and ml ) in the presence or absence of an anti-beta8-blocking monoclonal antibody , 37E1 .
+Specific binding was determined colorimetrically .
+An asterisk indicates increased binding of receptor to LAP ( RGD ) compared with antibody treated or LAP ( RGE ) controls ( p < 0.001 ) .
+( e ) Binding affinity of alphavbeta8 for LAP-beta1 was determined using concentrated AP-alphavbeta8 and LAP-beta1-Sepharose ( 1fM LAP-beta1 / bead ) .
+Receptor concentration was determined using purified placental AP ( Applied Biosystems ) as a standard .
+Dilutions of AP-beta8 were incubated under equilibrium binding conditions ( overnight at 4degreesC ) with 10 mul LAP-beta1-Sepharose .
+Bound receptor was determined by luminescence using a CSPD substrate ( Tropix ; Applied Biosystems ) .
+( f ) Adhesion of beta8 expressing versus mock transduced HT1080 cells to LAP-beta1 ( LAP ) and SLC coated wells of a 96-well plate .
+Cells ( 5 x 10 4 / well ) were applied to each well , and after incubation for 1 h at 37degreesC unbound cells were removed by centrifugation .
+Absorbance ( A 595 ) after staining with Crystal violet is shown on the right .
+* p < 0.05 ; ** p < 0.01 .
+To determine if alphavbeta8 expressed on the cell surface could bind latent TGF-beta ( SLC ) under physiologic conditions , we performed cell adhesion assays using both SLC and LAP-beta1 as immobilized ligands .
+beta8 expressing HT1080 cells bound significantly better to SLC than to LAP-beta1 at the 1.0 and 2.5 mug and ml coating concentrations , whereas mock transduced HT1080 cells did not bind at all ( f ) .
+The reason for the increase in the alphavbeta8 dependent cell adhesion to SLC compared with LAP-beta1 is unclear .
+However , it is likely that the presence of the mature TGF-beta1 peptide in SLC results in conformational differences between SLC and LAP-beta1 , which could affect either receptor binding , stability , or coating efficiency .
+Thus , we show that SLC is the first and only known ligand capable of supporting stable alphavbeta8 mediated adhesion , since VN , the only other known alphavbeta8 ligand , does not support stable alphavbeta8 mediated adhesion ( ) .
+The integrin alphavbeta8 mediates activation of SLC
+To determine the functional consequence of LAP-alphavbeta8 interactions , we assessed the ability of alphavbeta8 to activate the endogenous SLC present in coculture systems .
+These systems consisted of beta8 expressing or mock transduced cells cocultured with reporter cell lines ( TMLC [ ] or HepG2 - [ SBE ] 4 -Lux [ Jonk et al. , 1998 ] ) responsive to active TGF-beta .
+We found that the TMLC reporter cell system was a more specific bioassay system for TGF-beta activity than the HepG2- ( SBE ) 4 -Lux system and was therefore used for most of these studies .
+The TMLC system consists of mink lung epithelial cells stably transfected with a TGF-beta responsive fragment of the plasminogen activator inhibitor-1 promoter driving the luciferase gene ( ) .
+TMLC cells are highly responsive to TGF-beta and produce a very low background of TGF-beta activation .
+TMLC cells can thus be used in coculture with other cell lines or cell-free fractions to test for the presence of active TGF-beta using luminescence as a readout .
+In the HT1080 , SW480 , and H647 cell lines , heterologous expression of beta8 had either no effect or a slight effect on the cell surface expression of the other integrin beta subunits known to interact with the RGD motif ( ) .
+The only significant differences were a reduction of surface expression of the beta5 subunit in beta8 transduced compared with mock transduced HT1080 and SW480 cells .
+It is possible that these slight reductions in surface expression of alphavbeta5- on beta8 expressing HT1080 and SW480 cells could potentially reduce the magnitude of the beta8 effect on adhesion to LAP-beta1 or influence the activation of TGF-beta .
+However , this is unlikely , since the alphavbeta5 integrin binds very weakly and does not mediate adhesion to SLC ( f , mock ) .
+Heterologous expression of alphavbeta8 mediated activation of TGF-beta in HT1080 , SW480 , and MvLu cells as determined by coculture with either TMLC ( , a-d ) or HepG2 - ( SBE ) 4 -Lux reporter cells ( unpublished data ) .
+TGF-beta activation was specifically mediated by alphavbeta8 , since it was substantially inhibited by the anti-beta8 antibody , 37E1 ( , a-c ) .
+The other RGD binding integrin heterodimers normally present in SW480 , HT1080 , and MvLu cells ( ) did not mediate significant activation of TGF-beta because mock transduced cells did not activate TGF-beta ( , a-c ) .
+However , H647 cells , which normally express alphavbeta6 ( ) , activated TGF-beta ( note the higher activation in mock H647 cells than in other cell lines in d ) .
+This activation in mock transduced H647 cells could be completely inhibited by antibodies to beta6 ; activation in beta8 expressing H647 cells could be completely inhibited by a combination of beta8 and beta6 antibodies ( unpublished data ) .
+These data demonstrate that when beta8 and beta6 are coexpressed the resulting TGF-beta activation is additive .
+The TGF-beta isoform that was primarily responsible for TGF-beta activation in our system was TGF-beta1 , since TGF-beta1 isoform specific antibodies inhibited 80-90 % of the activation in SW480 , HT1080 , MvLu , and H647 cells , whereas TGF-beta2 and TGF-beta3 isoform specific antibodies had minimal effect ( unpublished data ) .
+Figure 2 .
+Cell surface expression of alphavbeta8 mediates activation of TGF-beta .
+HT1080 , MvLu ( b ) , SW480 ( c ) , and H647 cells either beta8 transduced or mock transduced were cocultured with TMLC reporter cells in the presence or absence of a neutralizing anti-beta8 antibody ( 37E1 ) or pan-TGF-beta neutralizing antibody ( 1D11 ) .
+Relative luciferase units represent arbitrary units minus the TMLC background .
+Asterisks indicate increased luciferase activity of untreated beta8 expressing cells compared with antibody treated or mock controls .
+p < 0.001 .
+Evidence that the beta8 cytoplasmic domain is not required for alphavbeta8 mediated activation of TGF-beta
+The mechanism of integrin alphavbeta6 mediated activation of TGF-beta is likely to depend on the transduction of mechanical forces to induce conformational changes of SLC ( ) .
+Thus , alphavbeta6 mediated activation of TGF-beta is critically dependent on specific sequences within the beta6 cytoplasmic domain ( ) .
+However , the beta8 cytoplasmic domain has no similarity with the cytoplasmic domain of beta6 or any other integrin beta subunit ( ) .
+We have shown previously that the beta8 cytoplasmic domain is incapable of linking to the cytoskeleton to stabilize cell adhesion .
+Therefore , we sought to determine whether the beta8 cytoplasmic domain would influence interactions with LAP-beta1 .
+We expressed and tested a series of beta8 cytoplasmic deletion mutants ( , a-c ) for their ability to mediate adhesion to LAP-beta1 and to activate TGF-beta ( ) .
+The complete ( TM ) cytoplasmic deletion mutant was expressed at sixfold lower surface levels than the partial ( 759 ) cytoplasmic deletion mutant or the wild-type ( FL ) subunit ( c ) .
+Low levels of surface expression of the TM mutant could be due to a decreased ability to associate with the alphav subunit , alterations in intracellular transport , or increased degradation .
+SW480 cells expressing sixfold lower surface levels of the TM mutant compared with SW480 cells expressing the 759 mutant or the FL subunit adhered only slightly less well to LAP-beta1 ( TM adhesion saturation reached at 5 compared with 2.5 mug and ml coating concentration for 759 and FL ) .
+Unlike beta6 transduced SW480 cells ( ) , SW480 cells transduced with full-length or mutant forms of beta8 failed to spread appreciably on LAP-beta1 ( unpublished data ) .
+Figure 3 .
+The cytoplasmic domain of beta8 is not required for cell adhesion to LAP-beta1 or activation of TGF-beta .
+Construction of beta8 subunit cytoplasmic truncation mutants .
+The full-length beta8 ( FL ) subunit , a partial truncation mutant missing the COOH-terminal 11 amino acids ( 759 ) , and a complete truncation mutant missing the complete beta8 cytoplasmic domain ( TM ) were assembled by PCR mutagenesis and subcloned into retroviral vectors .
+( b ) Immunoprecipitation analysis of surface labeled SW480 cells , expressing FL , 759 , TM , or retroviral backbone ( mock ) using an anti-beta8 monoclonal antibody ( 37E1 ) .
+The results demonstrate the presence and dimerization with the alphav subunit on the cell surface and absence of the cytoplasmic domain in the TM construct .
+Biotinylated proteins were detected by Western blotting .
+Note that 37E1 is specific to alphavbeta8 because the two immunoprecipitated bands , corresponding to the alphav subunit or the beta8 subunit , were not seen in mock transduced cells .
+Also , note that the TM construct was expressed at lower levels on the cell surface compared with 759 and FL .
+To determine the absence of the intracellular epitope in TM expressing cells , cell lysates were immunoprecipitated with 37E1 and analyzed by Western blotting using a polyclonal anti-beta8 antibody directed against the entire beta8 cytoplasmic domain .
+In b ( bottom ) , note that no signal for beta8 is seen in the beta8 immunoprecipitates of the truncation mutant ( TM ) , indicating absence of the beta8 cytoplasmic domain .
+( c ) FACS ( R ) of cytoplasmic deletion mutants ( TM and 759 ) versus the wild type ( FL ) beta8 subunit expressed in SW480 cells .
+Note the TM mutant is expressed at sixfold lower levels than the 759 or FL constructs .
+Histograms using arbitrary fluorescence units are shown .
+Adhesion assays of SW480 cells expressing beta8 truncation mutants demonstrate that the cytoplasmic domain of beta8 is not required for adhesion to LAP-beta1 .
+Note that despite lower levels of surface expression of the TM construct , all constructs bound well to LAP-beta1 , whereas mock transduced SW480 cells do not adhere to LAP-beta1 .
+( e-f ) Demonstration that the beta8 cytoplasmic domain is not required for activation of TGF-beta .
+SW480 or HT1080 cells expressing the wild-type or truncation mutants were cocultured with TMLC reporter cells in the presence or absence of anti-beta8 ( 37E1 ) or pan anti-TGF-beta ( 1D11 ) .
+Relative luciferase units are shown .
+Single and double asterisks indicate increased luciferase activity of untreated wild-type or mutant beta8 expressing cells compared with antibody treated or mock controls ( * p < 0.01 ; ** p < 0.001 ) .
+SW480 and HT1080 cells expressing the FL subunit and the TM and 759 mutants also mediated significant activation of TGF-beta compared with mock transduced cells ( ) .
+Concordant with sixfold lower levels of surface expression , SW480 cells expressing the TM mutant did not activate TGF-beta1 as well as cells expressing either 759 mutant or the FL subunit ( b ) .
+However , cells expressing the TM mutant adhered to LAP-beta1 and activated TGF-beta only twofold less than the 759 or FL constructs ( , c-e ) .
+This discordance may be due to dependence on the ligand concentration rather than the receptor number in these assays ( e.g. , saturation ) .
+Alternatively , it is possible that the cytoplasmic domain of beta8 actually plays a negative regulatory role in alphavbeta8-TGF-beta interactions .
+This latter possibility is consistent with the hypothesis that the divergent cytoplasmic domain of beta8 plays a general inhibitory role ( ) .
+Together these findings suggest that the cytoplasmic domain of beta8 is not required for either adhesion to LAP-beta1 or activation of TGF-beta .
+Thus , it is likely that the mechanism of alphavbeta8 mediated activation of TGF-beta1 is distinct from the mechanosignal transduction mechanism described for alphavbeta6 ( ) .
+alphavbeta8 mediated activation of TGF-beta requires localization to the cell surface and metalloprotease activity
+The fact that the cytoplasmic domain of beta8 is not required for activation of TGF-beta1 suggests that alphavbeta8 mediated activation of TGF-beta might be regulated extracellularly either in the extracellular space or on the cell surface .
+To test these possibilities , we first tested the ability of soluble secreted alphavbeta8 to activate TGF-beta .
+We found no evidence , using a variety of receptor preparations ( supernatant containing secreted alphavbeta8 or lectin- or antibody purified receptor ) , that soluble secreted alphavbeta8 could activate TGF-beta ( with supernatant containing secreted alphavbeta8 or media control ; relative luciferase units : alphavbeta8 , 7.8 + /- 0.1 ; media control , 11.8 + /- 1.2 , p > 0.05 ) .
+This suggests that cell surface localization of alphavbeta8 is required for TGF-beta activation .
+Because proteolytic cleavage is a common mechanism of regulating cytokine activity , we tested the ability of protease inhibitors to block alphavbeta8 mediated activation of TGF-beta .
+GM6001 , a member of the hydroxamate class of protease inhibitors specific to metalloproteases , but not a control peptide lacking the metal binding hydroxamate modification ( C1006 ) , significantly blocked alphavbeta8 mediated TGF-beta activation in SW480 and HT1080 cells ( 59.0 + /- 10.0 % inhibition using 5 muM GM6001 ; 0.0 + /- 0.9 % using 5 muM C1006 , p < 0.01 ) .
+This inhibition was specific to alphavbeta8 because alphavbeta6 mediated activation of TGF-beta was not inhibited by GM6001 ( 5 muM ) in SW480 cells or HT1080 cells ( 1.0 + /- 0.1 % inhibition , p > 0.05 ) .
+Finally , other peptide and chemical inhibitors of aspartyl ( pepstatin A ) , serine ( PMSF , CK-23 , aprotinin , and leupeptin ) , or cysteine ( leupeptin and E64 ) proteases had no effect on alphavbeta8 mediated activation of TGF-beta1 when used at the maximal nontoxic doses ( b ) .
+Together these data suggest a novel mechanism of alphavbeta8 mediated activation of TGF-beta1 requiring both the cell surface and metalloprotease activity .
+Figure 4 .
+Activation of TGF-beta1 by alphavbeta8 is dependent on metalloprotease activity .
+GM6001 , a hydroxamated metalloprotease inhibitor , but not C1006 , a nonhydroxamated control peptide , inhibits alphavbeta8 mediated but not alphavbeta6 mediated activation of TGF-beta in SW480 cells .
+The asterisk indicates significant inhibition by GM6001 of beta8 mediated activation compared with the other three groups ( p < 0.01 ) .
+( b ) Only metalloprotease inhibitors inhibit alphavbeta8 mediated TGF-beta activation .
+Inhibitors to aspartyl ( pepstatin A ) , serine ( PMSF , CK-23 , aprotinin , and leupeptin ) , or cysteine ( leupeptin and E64 ) proteases do not inhibit alphavbeta8 mediated TGF-beta activation in SW480 cells .
+beta8- and beta6 mediated activation was determined by neutralization with 37E1 or 10D5 in a or 37E1 in b .
+The asterisk indicates significant inhibition by GM6001 compared with other inhibitors ( p < 0.01 ) .
+Cell surface expression of alphavbeta8 is associated with liberation of active TGF-beta
+All previously described mechanisms of cell associated protease dependent activation of TGF-beta involve liberation of active TGF-beta from SLC , presumably as a result of degradation of LAP .
+Therefore , we hypothesized that if a cell surface proteolytic event was involved in alphavbeta8- but not alphavbeta6 mediated activation of TGF-beta then active TGF-beta should be released by beta8- but not beta6 expressing cells into the cell culture supernatant .
+To test this hypothesis , we assayed the supernatants of beta8 expressing , beta6 expressing , or mock transduced HT1080 cells for active TGF-beta .
+In HT1080 cells , beta8 was expressed at lower surface levels than beta6 .
+Concordant with lower expression levels , alphavbeta8 expressing cells activated less TGF-beta than alphavbeta6 expressing cells in coculture assays ( b ) .
+However , when supernatants of beta8 expressing , beta6 expressing , and mock transduced HT1080 cells were tested only supernatant from beta8 expressing cells contained a significant amount of active TGF-beta ( c ) .
+The presence of active TGF-beta in the cell supernatant of beta8 expressing cells was confirmed by inhibition with anti-TGF-beta antibodies ( c ) .
+Specificity was demonstrated by inhibition with anti-beta8 antibodies and by the relative lack of active TGF-beta in the supernatant of mock transduced HT1080 cells ( c ) .
+Supernatant from beta6 expressing HT1080 cells also had a slight but insignificant ( p > 0.05 ) increase in active TGF-beta compared with mock transduced cells ( c ) .
+However , the presence of active TGF-beta in the cell supernatant of beta6 expressing cells was not beta6 specific , since it was not blocked by anti-beta6 antibodies .
+The presence of active TGF-beta in the supernatant of this beta6 expressing cell pool is likely due to random differences in integrin independent release of active TGF-beta by different cell pools , but we can not exclude that it is due to an indirect effect of beta6 expression in HT1080 cells .
+Consistent with the above HT1080 cell data , we also found that a small but significant amount of TGF-beta1 was present in the cell culture supernatant of beta8 expressing SW480 cells ( relative luciferase units , 0.92 + /- 0.23 ; +37 E1 , 0.26 + /- 0.08 ; p < 0.05 ) .
+In summary , active TGF-beta is released into the supernatant of beta8 expressing cells through a beta8 dependent mechanism , suggesting that alphavbeta8 binds SLC to the cell surface , which facilitates the metalloprotease dependent release of active TGF-beta into the cell supernatant .
+Figure 5 .
+Active TGF-beta is liberated into the supernatants of alphavbeta8 expressing cells .
+Expression of beta8 and beta6 on the cell surface of beta8 - , beta6 - , and mock transduced HT1080 cells using monoclonal antibodies specific for the beta8 ( 14E5 ) or beta6 ( E7P6 ) integrin subunits .
+( b ) Comparison of beta8- and beta6 mediated activation of TGF-beta in cocultures with TMLC reporter cells .
+( c ) Detection of active TGF-beta liberated into the supernatant from beta8 expressing but not beta6- or mock transduced HT1080 cells .
+Neutralizing antibodies to TGF-beta were 1D11 , or to beta8 or beta6 were 37E1 or 10D5 , respectively .
+Relative luciferase units are shown in b and c .
+The asterisk indicates increased luciferase activity from supernatants of untreated beta8 expressing cells compared with antibody treated or mock controls ( p < 0.01 ) .
+Expression of membrane-type 1-MMP is sufficient to support alphavbeta8 mediated activation of TGF-beta
+In the course of screening cell lines for this study , we identified one squamous lung carcinoma cell line , H1264 , that expressed a low level of alphavbeta8 on the cell surface but did not activate TGF-beta .
+The inability of H1264 cells to activate TGF-beta was not due to low expression levels of alphavbeta8 , since overexpression of beta8 by retroviral transduction did not rescue activation ( relative luciferase units ; beta8 transduced , 3.0 + /- 0.3 ; +37 E1 , 2.2 + /- 0.5 ; mock transduced , 3.0 + /- 0.4 ; + / -37 E1 , 2.6 + /- 0.2 ) .
+Since our current findings suggested that cell surface expression of a metalloprotease cofactor was likely involved in alphavbeta8 mediated activation of TGF-beta , we used H1264 cells to facilitate the identification of the specific metalloprotease ( s ) involved in alphavbeta8 mediated activation of TGF-beta .
+Thus , we generated a metalloprotease expression profile of H1264 cells and compared it to profiles of the other tumor cell lines used in this study .
+We concentrated on metalloproteases known to localize to the cell surface ( MMP-2 [ ] , MMP-7 [ ] , MMP-9 [ Yu and Stamenkovic , 1999 ] , membrane-type 1 [ MT1 ] - MMP , and a disintegrin and a metalloprotease domain [ ADAM ] -9 , -10 , and -17 [ Primakoff and Myles , 2000 ] ) .
+Using reverse transcriptase ( RT ) - PCR and gelatin zymography ( unpublished data ) , we found that the only metalloprotease that was deficient in H1264 cells , relative to the other tumor cell lines used in this study , was MT1-MMP .
+To reconstitute MT1-MMP expression in H1264 cells , we introduced either a full-length ( MT1-MMP ) or a transmembrane deleted secreted form of MT1-MMP ( DeltaMT1-MMP ) .
+Expression or lack of expression of MT1-MMP in transduced or mock transduced H1264 cells was verified by immunoblotting ( b ) .
+Immunoblots revealed an appropriate 63-kD band in cell lysates from MT1-MMP-transduced H1264 cells ( b ) and a 54-kD band from the supernatant of DeltaMT1-MMP-transduced cells ( b ) .
+The absence of any bands in mock transduced cells confirmed the absence of MT1-MMP in the parental H1264 cell line ( b ) .
+Reconstituted MT1-MMP was active in H1264 cells as determined by the ability of MT1-MMP-transduced but not DeltaMT1-MMP-transduced or mock transduced H1264 cells to cleave pro-MMP-2 to its fully active ( 59 kD ) form ( c ) .
+Secreted DeltaMT1-MMP possessed gelatinolytic activity as determined by zymography ( unpublished data ) .
+Figure 6 .
+MT1-MMP is deficient and can be reconstituted in the human lung carcinoma cell line H1264 .
+RT-PCR screening of tumor cell lines with MT1-MMP-specific primers demonstrates an absence of MT1-MMP in H1264 cells .
+A control amplification performed in parallel using beta-actin primers is shown .
+( b ) Western blotting confirms the expression of MT1-MMP and DeltaMT1-MMP in transduced H1264 cells .
+Cell lysate from MT1-MMP or mock transduced H1264 cells ( 40 mug protein ) or cell supernatant from DeltaMT1-MMP-transduced H1264 cells was resolved by 10 % SDS page , and proteins were detected by Western blotting using an anti-MT1-MMP monoclonal antibody .
+The expected migration of the full-length form of MT1-MMP is 63 kD .
+Note that the secreted form ( DeltaMT1-MMP ) migrates faster ( 54 kD ) , and the mock infected cells express no MT1-MMP .
+( c ) MT1-MMP , DeltaMT1-MMP , or mock transduced beta8 overexpressing H1264 cells were plated onto 96-well dishes in serum-free medium containing recombinant pro-MMP-2 .
+After an overnight incubation at 37degreesC in 5 % CO 2 , the supernatants were subjected to gelatin zymography ( 1 mg gelatin and ml , 10 % SDS-PAGE ) .
+Pro-MMP2 migrates at 66 kD , and the fully activated form migrates at 59 kD .
+Note that only MT1-MMP-transduced H1264 cells activate MMP-2 .
+MMP activity is shown as lucent bands against a dark Coomassie stained background .
+H1264 cells transduced with either MT1-MMP , DeltaMT1-MMP , or vector alone ( mock ) underwent a second transduction to overexpress similar levels of alphavbeta8 as determined by flow cytometry using the anti-beta8 antibody , 14E5 , or SN1 ( unpublished data ) .
+For beta8 overexpressing H1264 cells , only those transduced with MT1-MMP and not DeltaMT1-MMP or vector alone ( mock ) were able to support activation of TGF-beta ( b ) .
+H1264 cells transduced with MT1-MMP alone supported a low level of alphavbeta8 mediated activation of TGF-beta ( relative luciferase units ; no monoclonal antibody , 2.7 + /- 0.2 ; +37 E1 , 1.3 + /- 0.0 ; +1 D11 , -0.3 + /- 0.01 ) , which is consistent with their lower levels of surface expression of alphavbeta8 .
+A significant portion of the TGF-beta activation was specific to beta8 and to metalloproteases because it was inhibited by anti-beta8 antibodies ( 37E1 ) , TIMP-2 , and GM6001 .
+37E1 , TIMP-2 , and GM6001 were less efficient than the pan-TGF-beta antibody ( 1D11 ) in inhibiting TGF-beta activity .
+TIMP-2 , a relatively specific inhibitor of MT1-MMP ( ) , inhibited TGF-beta activation equally well as 37E1 ( c ) .
+The inability to completely block the beta8 - , MT1-MMP-dependent activation of TGF-beta with anti-beta8 antibodies and MMP inhibitors is likely due to a combination of factors : antibody efficacy , steric hindrance on the cell surface ( ) and and or the high heterologous expression levels of both beta8 and MT1-MMP .
+Figure 7 .
+alphavbeta8 mediates activation of TGF-beta in beta8 overexpressing H1264 cells reconstituted with MT1-MMP activity .
+Flow cytometry of beta8 transduced MT1-MMP , DeltaMT1-MMP , or mock transduced H1264 cells demonstrates equivalent levels of surface expression of beta8 using an anti-beta8 antibody ( 14E5 ) .
+Histograms using arbitrary units are shown .
+( b ) beta8 overexpressing H1264 cells transduced with either MT1-MMP , DeltaMT1-MMP , or the retroviral vector alone ( mock ) ( 1.6 x 10 4 ) were cocultured with TMLC ( 1.6 x 10 4 ) reporter cells in the presence or absence of inhibitors : anti-beta8 ( 37E1 ) , control peptide ( C1006 ) , GM6001 , or the pan-TGF-beta1 antibody ( 1D11 ) .
+Asterisks indicate significantly different than untreated MT1-MMP-expressing cells .
+( c ) The endogenous inhibitor TIMP-2 but not TIMP-1 inhibits alphavbeta8 mediated activation of TGF-beta in H1264s cells .
+beta8 overexpressing , MT1-MMP-expressing H1264s cells were cocultured with TMLC in the presence or absence of TIMP-1 ( 1 mug and ml ) , TIMP-2 ( 1 mug and ml ) , GM6001 ( 5 muM ) , anti-beta8 ( 37E1 ) , or pan-TGF-beta1 ( 1D11 ) .
+Relative luciferase units are shown ( light units of cocultured cells in the presence or absence of inhibitors minus light units of TMLC cells alone ) in b and c. Negative luciferase values were occasionally observed due to a small background of TGF-beta activation by the TMLC cells .
+Single and double asterisks indicate treated cells compared with untreated cells ( * p < 0.01 ; ** p < 0.001 ) .
+alphavbeta8 and MT1-MMP colocalize in substrate contacts
+Our cell biologic and biochemical data indicated that alphavbeta8 and MT1-MMP were likely to associate on the cell surface .
+Thus , we hypothesized that upon ligation with LAP-beta1 , alphavbeta8 and MT1-MMP would cocluster in membrane complexes .
+To address this hypothesis , we expressed an MT1-MMP fusion construct with a COOH-terminal green fluorescent protein ( GFP ) tag .
+The purpose of the GFP tag was to obviate the use of available commercial anti-MT1-MMP antibodies , which we found unsuitable for immunocytochemistry ( unpublished data ) .
+MT1-MMP-GFP was expressed on the cell surface of beta8 expressing HT1080 cells as determined by surface labeling followed by immunoprecipitation with anti-GFP antibodies .
+Anti-GFP antibodies immunoprecipitated two bands from MT1-MMP-GFP-expressing cells , the upper band representing the catalytically active form of MT1-MMP-GFP and the lower band the degraded form , lacking the catalytic domain ( ) ( a , top ) .
+Furthermore , MT1-MMP-GFP was found to be functionally active as determined by potentiation of the zymographic conversion of pro-MMP2 to active MMP2 ( a , bottom ) .
+Figure 8 .
+alphavbeta8 and MT1-MMP colocalize in substrate contacts .
+( a , top ) Immunoprecipitation of MT1-MMP-GFP from 125 I cell surface labeled MT1-MMP-GFP-expressing HT1080 cells .
+The catalytically active 90-kD MT1-MMP-GFP fusion protein ( asterisk ) was immunoprecipitated with anti-GFP antibodies from MT1-MMP-GFP-expressing HT1080 beta8 cells but not mock transduced HT1080 beta8 cells .
+The 70-kD MT1-MMP-GFP band represents a catalytically inactive degradation product .
+( a , bottom ) Gelatin zymography of supernatants from MT1-MMP-GFP-transduced or mock transduced HT1080 beta8 cells .
+The migration of Pro ( Pro- ) and active ( Act .
+- ) forms of MMP-2 are shown .
+( b-m ) Confocal images of immunofluorescence microscopy .
+beta8 expressing , MT1-MMP-GFP-expressing HT1080 cells ( b-d and k-m ) ; beta8 expressing HT1080 cells ( e-g ) ; GFP expressing HT1080 cells ( h-j ) .
+Cells were allowed to attach 4 h to LAP-beta1 ( 10 mug and ml coating concentration ) - coated slides .
+After fixation and permeabilization , colocalization of beta8 and GFP was determined using polyclonal anti-beta8 and monoclonal anti-GFP antibodies .
+Pseudocolored confocal images of beta8 ( red ) and GFP ( green ) staining taken in the plane of the substrate are shown .
+Bar , 7.5 muM .
+We determined using confocal microscopy that beta8 and MT1-MMP-GFP exactly colocalized in discrete clusters in the plane of an LAP-beta1 substrate using anti-beta8 and GFP antibodies ( , b-d ) .
+The localization of beta8 to these substrate contacts was not due to " bleed-over " of the MT1-MMP-GFP signal , since the GFP signal was not intense enough to visualize without staining with an anti-GFP antibody and beta8 localization was seen in beta8 expressing HT1080 cells not transduced with MT1-MMP-GFP ( , e-g ) .
+As expected , antibodies against the alphav subunit colocalized with antibodies against the beta8 subunit in these contacts when cells were plated on LAP-beta1 ( unpublished data ) .
+Localization of beta8 was not dependent on MT1-MMP expression , since beta8 was found in substrate contacts in MT1-MMP-deficient beta8 expressing H1264 cells plated on an LAP-beta1 substrate ( unpublished data ) .
+Localization of MT1-MMP-GFP to substrate contacts was not due to nonspecific accumulation of GFP or to a staining artifact , since no substrate contacts were found with anti-GFP antibodies in GFP transduced non-beta8-expressing HT1080 cells plated on LAP-beta1 ( , h-j ) .
+Localization of MT1-MMP to LAP-beta1 substrate contacts was dependent on beta8 expression , since no contacts were found in non-beta8-expressing , MT1-MMP-GFP-expressing HT1080 cells ( unpublished data ) .
+Finally , the colocalization of beta8 and MT1-MMP to substrate contacts required ligand engagement , since no such contacts were found when beta8 - , MT1-MMP-GFP expressing HT1080 cells were plated on an irrelevant ligand , collagen I ( , k-m ) .
+In conclusion , ligation of alphavbeta8 with LAP-beta1 results in the specific colocalization of alphavbeta8 and MT1-MMP in substrate contacts , suggesting a biologically relevant and close physical interaction .
+Overexpression of MT1-MMP is sufficient to cleave and inactivate LAP-beta1
+To determine if proteolysis of LAP-beta1 could be a mechanism of alphavbeta8 mediated activation of TGF-beta , we incubated recombinant LAP-beta1 with beta8 overexpressing H1264 cells transduced with either MT1-MMP , DeltaMT1-MMP , or vector alone .
+After incubation of LAP-beta1 with mock or DeltaMT1-MMP-expressing H1264 cells , LAP-beta1 remained intact ( 32 kD ) .
+In contrast , we found that almost all of the LAP-beta1 incubated with MT1-MMP-expressing H1264 cells was smaller ( 26-28 kD ) than intact LAP-beta1 , suggesting proteolytic cleavage ( a , lane 4 ) .
+LAP-beta1 cleavage was dependent on the metalloprotease activity of MT1-MMP , since the metalloprotease inhibitor GM6001 but not a control peptide C1006 completely blocked cleavage ( a , lanes 5 and 6 ) .
+To determine if LAP-beta1 cleavage was also dependent on alphavbeta8 , we developed a peptide based on the human LAP-beta1 sequence , which was a relatively specific inhibitor of alphavbeta8-LAP-beta1 interactions .
+In the H1264 system , the GRRGDLATIH peptide completely blocked alphavbeta8-LAP-beta1 interactions while having a minimal effect on the binding of other RGD dependent integrins to VN or fibronectin ( b ) .
+Using these peptide inhibitors , we determined that LAP-beta1 cleavage was also dependent on alphavbeta8 , since GRRGDLATIH but not the RGE mutant peptide inhibited LAP-beta1 cleavage ( c ) .
+Thus , in the H1264 cell system , alphavbeta8 and MT1-MMP together are required for LAP-beta1 cleavage .
+Finally , alphavbeta8 - , MT1-MMP-dependent cleavage of LAP-beta1 is functionally relevant , since LAP-beta1 , after cleavage , loses the ability to inhibit the function of the recombinant mature TGF-beta1 peptide .
+Figure 9 .
+Cell surface associated MT1-MMP cleaves and inactivates LAP-beta1 .
+LAP-beta1 is cleaved by incubation with beta8 overexpressing MT1-MMP but not DeltaMT1-MMP or mock transduced H1264 cells .
+LAP-beta1 ( 10 mug and ml ) was incubated overnight with either no cells ( lane 1 ) , mock transduced beta8 overexpressing H1264 cells ( lane 2 ) , DeltaMT1-MMP transduced , beta8 overexpressing H1264 cells ( lane 3 ) , MT1-MMP transduced , beta8 overexpressing H1264 cells ( lane 4 ) , 500 mug and ml of control peptide ( C1006 ; lane 5 ) , or 500 mug and ml hydroxymate inhibitor GM6001 ( lane 6 ) .
+20 ng of the input LAP-beta1 was resolved by 12.5 % SDS-PAGE under reducing conditions .
+After immunoblotting with an anti-LAP antibody , the migration of the cleavage products calibrated to molecular weight standards ( GIBCO BRL ) is shown .
+Note that only LAP-beta1 incubated in the presence of MT1-MMP is cleaved and that this cleavage is blocked by GM6001 .
+( b ) The TGF-beta1 peptide GRRGDLATIH selectively inhibits alphavbeta8-LAP-beta1 function .
+Adhesion assay of beta8 overexpressing , MT1-MMP expressing H1264 cells ( 4 x 10 4 ) to LAP-beta1 , VN , or fibronectin ( FN ) ( 10 mug and ml coating concentrations ) in the presence or absence of 50 mug and ml of GRRGDLATIH .
+( c ) LAP-beta1 cleavage by MT1-MMP-transduced , beta8 overexpressing H1264 cells is inhibited by GRRGDLATIH but not GRRGELATIH peptide ( 10 mug and ml ) .
+The degradation assay was performed and analyzed by immunoblotting as in a. No-cell control ( lane 1 ) ; no-inhibitor control ( lane 2 ) ; control GRRGELATIH peptide ( lane 3 ) ; GRRGDLATIH peptide ( lane 4 ) .
+LAP-beta1 is inactivated by beta8 overexpressing , MT1-MMP-expressing H1264 cells .
+LAP-beta1 ( 5 mug ) incubated overnight with beta8 overexpressing , MT1-MMP-expressing or beta8 overexpressing , mock transduced H1264 cells was added to TMLC reporter cells in the presence of recombinant TGF-beta1 .
+As a control ( white bars ) TMLC reporter cells were incubated with only recombinant TGF-beta and no LAP-beta1 .
+Relative luciferase units are shown .
+The asterisk indicates LAP-beta1 incubated with mock control cells is not cleaved and decreases TGF-beta activity compared with other groups ( p < 0.05 ) .
+TGF-beta activated by the integrin alphavbeta8 in human lung cancer xenografts results in growth inhibition and tumor fibrosis
+To test the physiologic relevance of alphavbeta8 mediated activation of TGF-beta1 , we employed the H647 lung carcinoma cell system , which we have described recently ( ) .
+We employed this system because beta8 is expressed mainly by the basal cells of the human airway ( ) , a cell type that is difficult to isolate in sufficient numbers for our studies and difficult to maintain in culture ( ) .
+Because we have demonstrated recently that the growth of beta8 expressing H647 cells was inhibited relative to mock transduced H647 cells ( ) , we asked if TGF-beta might be a mediator of that growth inhibition .
+To address this question , we determined BrdU incorporation as a measure of DNA synthesis in beta8 expressing and in mock transduced H647 cells .
+We determined that the growth of beta8 expressing H647 cells was potently inhibited relative to mock transduced control cells as reflected by reduced BrdU incorporation .
+In addition , since TGF-beta characteristically induces a cell cycle arrest late in G1 ( ) we studied the cell cycle defect in H647 cells .
+Nonsynchronized beta8 expressing H647 cells displayed a partial G1 arrest when compared with mock transduced H647 cells ( G1 fraction of beta8 expressing H647 cells , 62 % + /- 3 % ; mock transduced H647 cells , 47 + /- 3 % , p < 0.05 ) .
+Furthermore , we found that this beta8 dependent growth inhibition was also TGF-beta-dependent because it could be reversed by TGF-beta antibodies or by recombinant LAP-beta1 ( for beta8 expressing H647 cells without LAP-beta1 , G1 fraction , 61 % ; with LAP-beta1 , 51 % , in a representative experiment ) .
+Thus , TGF-beta is a mediator of beta8 induced growth inhibition in vitro .
+Figure 10 .
+The activation of TGF-beta by alphavbeta8 is associated both with growth inhibition and with fibrogenesis in lung cancer tumor xenografts .
+DNA synthesis is inhibited in alphavbeta8 expressing H647 cells , and the inhibition is reversed by TGF-beta blocking antibodies ( 1D11 ) .
+The asterisk indicates increased BrdU incorporation of antibody treated beta8 expressing cells compared with untreated beta8 expressing cell ( p < 0.05 ) .
+( b ) Histologic analysis of tumors grown in nude mice derived from either beta8 expressing or mock transduced H647 cells .
+Trichrome stained sections highlighting dense collagen ( green area between arrows ) between islands of tumor cells ( t ) are shown .
+Bar , 75 mum .
+( c ) Determination of active and SLC in beta8 expressing and mock transduced lung tumor xenografts .
+Relative luciferase units are shown .
+The asterisk indicates increased active TGF-beta from beta8 expressing tumors compared with mock transduced tumors ( * p < 0.01 ) .
+To address if alphavbeta8 also mediated TGF-beta activation in vivo , we used beta8 expressing or mock transduced H647 cells , which are tumorigenic in nude mice ( ) .
+Using this system , we have found beta8 expressing tumors to be significantly smaller than their mock transduced counterparts ( ) .
+Because fibrosis is one of the histologic hallmarks of increased TGF-beta activity ( ) , we examined beta8 expressing tumors histologically for evidence of fibrosis .
+We found that beta8 expressing tumors were not only smaller but were more fibrotic than tumors derived from mock transduced cells ( b ) .
+To determine if the reduction in tumor size and the increase in stromal fibrosis were associated with increased active TGF-beta , we used the TMLC reporter cells to determine the active and SLC activities associated with beta8 expressing and mock transduced H647 tumor xenografts .
+Using this bioassay , there was a significant increase in the amount of active TGF-beta present in the aqueous fraction of beta8 expressing tumors relative to control tumors ( c ) .
+In contrast , the latent component of TGF-beta did not differ between tumors derived from beta8 expressing or mock transduced H647 cells ( c ) .
+Thus , in vivo alphavbeta8 can liberate physiologic levels of TGF-beta activity .
+Moreover , these data suggest that in normal tissues alphavbeta8 mediated activation of TGF-beta must be more tightly regulated than in the tumor xenograft model , since fibrosis is only associated with pathologic states ( ) .
+Discussion
+We have found previously that the integrin alphavbeta8 inhibits epithelial cell growth ( ) .
+Furthermore , alphavbeta8 is expressed in either quiescent cells or cells with a low rate of turnover and is lost in the process of neoplastic transformation ( ) .
+These findings led us to hypothesize that beta8 plays a role in the homeostatic control of normal tissues .
+In support of this hypothesis , we now demonstrate that the integrin alphavbeta8 mediates growth inhibition through a novel mechanism of activation of TGF-beta1 , a cytokine with a central role in homeostatic cellular processes ( ) .
+Two molecular mechanisms have been proposed that may lead to the activation of TGF-beta1 : conformational change leading to activation of the SLC complex or proteolysis of LAP-beta1 leading to the release of active TGF-beta1 .
+Our data demonstrate that a mechanism of conformational change leading to activation of TGF-beta , as proposed for the alphavbeta6 integrin ( ) or TSP-1 ( ) , is not responsible for alphavbeta8 mediated activation of TGF-beta1 .
+Specifically , alphavbeta8 mediated activation of SLC does not require the beta8 cytoplasmic domain in contrast to the mechanism of alphavbeta6 mediated activation of TGF-beta , which requires the beta6 cytoplasmic domain ( ) .
+Furthermore , alphavbeta8 is unlikely to bind directly or indirectly to LAP-beta1 through a TSP-1-dependent mechanism because alphavbeta8 lacks the defined TSP-1 binding site for LAP-beta1 ( ) and alphavbeta8 does not bind to TSP-1 ( unpublished data ) .
+Moreover , unlike secreted TSP-1 ( ) secreted alphavbeta8 can not activate TGF-beta1 .
+Thus , the mechanism by which alphavbeta8 activates TGF-beta1 is not dependent on conformational changes , resulting from " inside-out " signal transduction as mediated by the beta6 cytoplasmic domain ( ) or direct physical interaction as mediated by TSP-1 ( ) .
+Our findings support a biologically relevant mechanism whereby SLC binds with high affinity to alphavbeta8 on the cell surface , which results in the metalloprotease dependent release of active TGF-beta .
+Evidence to support this mechanism follows : secreted alphavbeta8 binds to LAP-beta1 with a high affinity with a dissociation constant similar to other TGF-beta receptors ( ) ; ( b ) both synthetic and endogenous MMP inhibitors block alphavbeta8 mediated activation of TGF-beta1 ; ( c ) reconstitution of MT1-MMP into the H1264 MT1-MMP-deficient cell line rescues alphavbeta8 mediated TGF-beta activation ; alphavbeta8 and MT1-MMP specifically colocalize in LAP-beta1 substrate contacts ; ( e ) consistent with a proteolytic event , active TGF-beta is liberated by an alphavbeta8 dependent mechanism into the supernatants of tumor cell lines and into the aqueous phase of lung cancer xenografts ; ( f ) the proteolytic substrate of alphavbeta8 - , MT1-MMP-dependent activation of TGF-beta1 is likely to be LAP-beta1 , since beta8 overexpressing , MT1-MMP-expressing H1264 cells cleave and inactivate LAP-beta1 , whereas beta8 overexpressing , MT1-MMP-deficient H1264 cells do not ; ( g ) cleavage of LAP-beta1 requires the concomitant activity of both beta8 and MT1-MMP , since beta8 specific RGD inhibitors and metalloprotease inhibitors both block cleavage .
+Precedent for such a proteolytic mechanism is that plasmin ( ) and MMP-9 ( ) have each been shown to activate TGF-beta1 and TGF-beta2 , respectively , by cleavage of LAP .
+It is also possible that MT1-MMP acts indirectly by proteolytically modifying the activity of alphavbeta8 as suggested recently for the MT1-MMP-dependent modification of the integrin alphavbeta3 ( ) .
+However , this is unlikely because of the following : cell lines expressing alphavbeta8 attach to LAP-beta1 equally well whether or not they express MT1-MMP ( unpublished data ) , suggesting that coexpression of MT1-MMP does not modify the activity of alphavbeta8 ; ( b ) flow cytometry of H1264 cells overexpressing both beta8 and MT1-MMP using two different anti-beta8 monoclonal antibodies shows no alteration in surface expression of alphavbeta8 , indicating that antibody epitopes are preserved along with adhesive capability ; ( c ) immunoprecipitations or Western blots of cells coexpressing alphavbeta8 and MT1-MMP , using polyclonal antibodies against the cytoplasmic domain of beta8 , show no electrophoretic shift or proteolytic degradation products .
+Therefore , we have no evidence of modification of alphavbeta8 by MT1-MMP .
+How does MT1-MMP interact with the alphavbeta8-TGF-beta1 complex ?
+Our data suggest that upon ligation of alphavbeta8 with SLC , alphavbeta8 and MT1-MMP become closely associated to form a complex on the cell surface .
+The cell surface appears to be required for productive interactions , since the secreted forms of alphavbeta8 and MT1-MMP do not mediate activation of TGF-beta .
+Evidence for a physical association on the cell surface is that alphavbeta8 and MT1-MMP colocalize in substrate contacts specifically on LAP-beta1 .
+The nature of the MT1-MMP-beta8 interaction awaits elucidation by coimmunoprecipitation and domain interaction studies .
+Because the localization of MT1-MMP in LAP-beta1 substrate contacts is dependent on the presence of beta8 , it is likely that alphavbeta8-SLC interactions are required to initiate the recruitment of MT1-MMP .
+The dynamic recruitment of MT1-MMP to alphavbeta8-TGF-beta complexes could provide a basis for the homeostatic regulation of TGF-beta activity in cellular microenvironments .
+Although reconstitution of wild-type MT1-MMP is sufficient to support alphavbeta8 mediated activation , other metalloproteases could potentially be involved .
+For instance , MT1-MMP binds to and is potently inhibited by TIMP-2 ( ) , but MT1-MMP-TIMP-2 complexes also serve as a cell surface receptor for MMP-2 , and the function of this complex is activation of MMP-2 ( ) .
+As such , it is not inconceivable that MMP-2 could also be involved in alphavbeta8 mediated activation of TGF-beta .
+However , in H1264s cells MMP-2 is unlikely to be involved , since TIMP-1 , a potent inhibitor of MMP-2 and weak inhibitor of MT1-MMP ( ) , has no effect on alphavbeta8 mediated activation of TGF-beta .
+In contrast , beta8 mediated TGF-beta activation is inhibited by TIMP-2 , suggesting that MT1-MMP may alone be sufficient to support beta8 mediated activation of TGF-beta .
+Although formally we can not exclude additional roles for other MMPs or related metalloproteases such as ADAMs or ADAMTS , family members in alphavbeta8 mediated activation of TGF-beta in other systems or cell types .
+The beta8 subunit appears to be the only integrin subunit capable of coordinating metalloprotease activity with SLC bound to the cell surface because the other LAP-beta1 binding integrins are either incapable of activating TGF-beta ( ) or , in the case of alphavbeta6 , activating TGF-beta via a metalloprotease independent pathway ( ) .
+Furthermore , alphavbeta8 mediated TGF-beta activation is solely dependent on metalloproteases and not other proteases because inhibitors of aspartyl , serine , and cysteine proteases do not inhibit activation .
+Thus , alphavbeta8 mediated activation of TGF-beta1 is not dependent on other proteases that have been implicated in SLC activation , including plasmin ( ) , calpain ( ) , and cathepsin ( ) .
+Integrins ( ) and other cell surface molecules ( ) have also been shown to localize MMP activity to the cell surface .
+For instance , the integrin alphavbeta3 has been shown to form an SDS stable cell surface complex with MMP-2 ( ) and to colocalize with MT1-MMP ( ) , whereas CD44 has been shown to mediate localization of MMP-9 ( ) to the cell surface .
+However , alphavbeta3 and CD44 are unlikely to be required for alphavbeta8 mediated activation of TGF-beta because alphavbeta3 is not expressed in multiple cell lines that support alphavbeta8 mediated activation of TGF-beta ( ) and because anti-CD44 antibodies do not inhibit alphavbeta8 mediated activation of TGF-beta ( unpublished data ) .
+The selective MMP dependence of alphavbeta8- but not alphavbeta6 mediated activation of TGF-beta1 clearly demonstrates that the mechanisms of alphavbeta8- and alphavbeta6 mediated activation of TGF-beta1 are different .
+A structural basis for these different mechanisms may be the striking difference in the predicted secondary structure of the extracellular domains of the beta8 and beta6 subunits ( ) .
+Different integrin mediated mechanisms of TGF-beta activation may have evolved to support distinct biologic functions .
+For instance , in the airway epithelium , a site where beta8 is normally expressed ( ) , a mechanism to support a low and persistent level of activation of TGF-beta1 is necessary for homeostasis ( ) .
+We speculate that alphavbeta8 could sequester SLC to the cell surface where , in response to an environmental cue , changes in the local balance of MMP and TIMP activity could lead to alphavbeta8 dependent liberation of active TGF-beta1 .
+Thus , alphavbeta8 mediated activation of TGF-beta1 might liberate the low levels of active TGF-beta1 sufficient to promote local paracrine effects but insufficient for undesirable local and systemic fibrogenic effects of TGF-beta1 ( ) .
+Conversely , if alphavbeta6 were to liberate TGF-beta by an MMP dependent mechanism undesirable pathologic levels of TGF-beta might be released locally and into the systemic circulation because after injury expression of alphavbeta6 and MMPs ( ) are both strongly and rapidly induced .
+In summary , abundant evidence implicates the cytokine TGF-beta1 , integrins , and MMPs as important mediators of homeostatic cell behaviors .
+This article provides the first evidence of the coordination of activity of members of these three major multigene families in the maintenance of homeostasis .
+Materials and methods
+Cell lines and reagents
+Cell lines used include SW480 , HT1080 , H1264 , HepG2 , 293 , SP2 and 0 ( American Type Culture Collection ) , NCI H647 ( ) , the amphotrophic retroviral packaging line Phoenix ( ) , MvLu mink lung epithelial cells stably transfected with a plasminogen activator inhibitor promoter-1-luciferase construct ( TMLC cells [ ] ) , and High-Five ( Invitrogen ) .
+Early passage parental H1264 cells deficient in MT1-MMP were subcloned by limiting dilution to achieve a phenotypically stable MT1-MMP-negative subclone ( H1264s ) .
+LAP-beta1 was produced using recombinant baculovirus expressing wild-type simian LAP-beta1 and mutant ( RGE ) LAP-beta1 as described ( ) .
+LAP-beta1-Sepharose was prepared by cross linking 2 mg of protein A tagged LAP-beta1 to 1 ml of IgG Sepharose using 20 mM dimethylpimelimidate ; VN-Sepharose was prepared as described ( ) .
+Human recombinant active TGF-beta1 , SLC , monoclonal anti-TGF-beta ( 1D11 ) and affinity purified anti-TGF-beta1 , -beta2 , and -beta3 were purchased from R&D Systems .
+The following proteases and protease inhibitors were also purchased : GM6001 ( ) and control C1006 ( AMS Scientific , Inc. ) , PMSF , E-64 ( Sigma-Aldrich ) , CK-23 ( Enzyme Systems Products ) , leupeptin , aprotinin , and pepstatin A ( Boehringer-Mannheim ) , and human recombinant TIMP-1 , TIMP-2 , and Pro-MMP-2 ( Chemicon ) .
+The following previously characterized antibodies were used : anti-beta8 , SN1 ( ) , anti-beta6 , 10D5 ( ) , E7P6 ( ) , polyclonal affinity purified rabbit anti-beta8 ( ) , anti-LAP-beta1 ( VB3A9 ) ( ) , and anti-CD-44 ( ) ( Developmental Studies Hybridoma Bank ) .
+The following commercial antibodies and conjugates used were : anti-alpha5 ( P5D10 ; Chemicon ) , anti-beta1 ( P5D2 ; Chemicon ) , pan-anti-TGF-beta ( 1D11 ; R&D Systems ) , mouse or rabbit anti-MT1-MMP ( Calbiochem and Chemicon ) , mouse anti-BrdU ( Dako ) , phycoerythrin goat anti-mouse , rhodamine donkey anti-rabbit ( Chemicon ) , phycoerythrin goat anti-mouse , rhodamine goat anti-mouse ( Jackson ImmunoResearch Laboratories ) , HRP conjugated sheep anti-mouse ( Amersham Pharmacia Biotech ) , HRP anti-rat ( Cappel ) , HRP protein A ( Amersham Pharmacia Biotech ) .
+VN was prepared from outdated fresh frozen human plasma ( ) .
+Collagen type 1 was prepared from rat tails ( ) .
+Peptides ( GRGDSNK and GRGESNK ) were purchased ( BioMol ) or were commercially synthesized ( GRRGDLATIH and GRRGELATIH ) ( BioSyn ) .
+The following antibiotics were used : puromycin , chloroquine ( Sigma-Aldrich ) , geneticin ( G418 ; GIBCO BRL ) , hygromycin ( Calbiochem ) , and Fungizone , penicillin , and streptomycin ( University of California at San Francisco cell culture facility ) .
+Retroviral vectors , constructs , and RT-PCR
+Retroviral vectors used were pLXSN ( CLONTECH Laboratories , Inc. ) , pBabe Puro ( a gift from Dr. Hartmund Land , Imperial Cancer Research Fund , London , UK ) ( ) , pBabebeta8Puro , pLXSNbeta8Neo ( ) , and pBabebeta6Puro .
+The beta6 cDNA was subcloned from beta6-Peak10 ( a gift from R. Pytela , University of California at San Francisco ) into pBabe Puro .
+Plasmids were purified using the QIAGEN plasmid purification system .
+beta8 truncation mutants were constructed using a PCR strategy introducing COOH-terminal truncations ( amino acids 712 and 758 of the beta8 ORF [ ] ) , which replace the cytoplasmic domain of full-length beta8 cDNA in pcDNAIneo ( Invitrogen ) .
+The mutant constructs were subcloned into pLXSN ( CLONTECH Laboratories , Inc. ) .
+Truncated beta8 with a COOH-terminal AP tag ( AP-alphavbeta8 ) was produced by in-frame blunt end ligation of the BspE1-Xho1 placental fragment from AP tag ( ) into a chimeric pcDNAIbeta8 and 3neo construct ( ) .
+Full length MT1-MMP or transmembrane and cytoplasmic domain deleted MT1-MMP ( DeltaMT1-MMP ) ( a gift from Stephen Weiss , University of Michigan , Ann Arbor , MI ) were subcloned into pBabe Puro or pLXSN .
+A construct creating a MT1-MMP-GFP fusion protein ( MT1-MMP-pLEGFP ) was created by destroying the stop codon of MT1-MMP in PCR3 .1 by PCR mutagenesis to create a unique HpaI site .
+The HindIII , HpaI MT1-MMP fragment was then subcloned in-frame into pLEGFP ( CLONTECH Laboratories , Inc. ) between a HindIII and Klenow treated BamHI site .
+Sequencing in both orientations was performed to verify the fidelity of each construct .
+Transfection of packaging cells and retroviral transduction was performed as described ( ) .
+Pools of beta8 expressing cells were either used within 72 h for short term experiments or were sorted for uniform expression of beta8 and propagated on type I collagen coated plates for long term experiments ( ) .
+The ( SBE ) 4 -Lux reporter , which contains 4 CAGACA repeats of the SMAD binding element of the JunB promoter ( ) , was a gift of Peter ten Dijke ( Ludwig Institute for Cancer Research , Uppsala , Sweden ) .
+Total cellular RNA was harvested using a commercial kit ( QIAGEN ) , and RT-PCR was performed as described ( ) .
+Primers , based on published sequences to MMP-2 , -7 , and -9 , MT1-MMP , ADAMS-9 , -10 and -17 , and beta-actin were purchased ( Operon Technologies ) .
+Annealing temperatures were based on published reports .
+Affinity chromatography , ligand binding , and adhesion assays
+125 I surface labeling and affinity chromatography was performed as described ( ) .
+Plasmids containing inserts for AP tagged truncated secreted beta8 and truncated secreted alphav in pCDM8 ( ) were stably expressed in 293 cells and characterized by immunoprecipitation ( ) .
+Serum-free supernatant containing AP tagged alphavbeta8 ( alphavbeta8-AP ) was applied to 96-well plates precoated with LAP-beta1 ( wild-type and mutant ) , VN , or BSA for 1 h at 37degreesC in the presence and absence of monoclonal antibodies .
+Bound receptor was detected colorimetrically with pNPP ( Sigma-Aldrich ) at A405 .
+For affinity measurements , serum-free supernatant containing secreted AP-alphavbeta8 was concentrated 40-fold ( Vivaspin 100 ; Vivascience ) and was applied to 10 mul of LAP-beta1-Sepharose , VN-Sepharose , or IgG-Sepharose ( Amersham Pharmacia Biotech ) in the presence or absence of 1 mg and ml RGD peptide and incubated overnight at 4degreesC .
+The receptor concentration was determined against a standard curve generated using placental AP ( Applied Biosystems ) .
+The samples were washed three times in wash buffer ( Tris , 50 mM , pH 7.4 , NaCl , 150 mM , CaCl 2 , 1 mM ) .
+Luminescence was determined using disodium 3 - ( 4-methoxyspiro ( 1,2-dioxetane-3 ,2 ' - [ ( 5 ' - chloro ) tricyclo ( 3,3.1.13.7 ) decan ] -4 - yl ) phenyl phosphate ( CSPD ) as a substrate ( Tropix ; Applied Biosystems ) according to the manufacturer 's instructions .
+Specific binding was defined as binding that remained after incubation with a 200-fold excess of RGD peptide .
+Binding curves were generated using nonlinear regression ( Prism ; GraphPad Software ) from three independent experiments .
+Adhesion assays were performed as described ( ) .
+Production of monoclonal and polyclonal beta8 antibodies
+Balb and C mice were immunized by standard protocols with truncated secreted alphavbeta8 according to the University of California at San Francisco Committee on Animal Research guidelines .
+Splenocytes were fused with SP 2 and 0 myeloma cells using commercial protocols ( Boehringer ) .
+Clones were screened by immunoprecipitation and flow cytometry to detect alphavbeta8 ( ) .
+Antibodies were purified by ionic exchange chromatography using FPLC or used as supernatants for flow cytometry .
+Polyclonal anti-beta8 antiserum was generated and characterized as described ( ) by immunization of rabbits with a cytoplasmic peptide ( TRAVTYRREKPEEIKMDISK ) corresponding to amino acids 740-759 of the beta8 ORF ( BioSyn ) .
+Fluorescence activated cell analysis , sorting , and immunocytochemistry
+For FACS ( R ) , beta8 expressing and mock transduced cells were detached using 7 mM EDTA in DME , incubated with primary antibodies for 30 min at 4degreesC , and detected with phycoerythrin conjugated secondary antibodies ( Chemicon ) .
+Stained cells were analyzed using a FACsort ( R ) flow cytometer and CellQuest software ( Becton Dickinson ) .
+Immunofluorescence microscopy was performed essentially as described with the following modifications ( ) .
+HT1080 cells transduced with either pBabe Puro-beta8 or pBabe Puro underwent a second transduction with either MT1-MMP-pLEGFP or pLEGFP and were selected with G418 .
+LAP-beta1 was used to coat glass chamber slides at a concentration of 10 mug and ml , and cells were allowed to attach to coated slides for 4 h before fixation .
+Antibodies used were a polyclonal anti-beta8 antiserum and a monoclonal anti-GFP antibody ( CLONTECH Laboratories , Inc. ) .
+Secondary reagents were AlexaFluor 595 goat anti-rabbit ( Molecular Probes ) and biotinylated sheep anti-mouse ( Amersham Pharmacia Biotech ) followed by Oregon green Streptavidin ( Molecular Probes ) .
+Confocal images were obtained using a Bio-Rad Laboratories MRC-1024 laser scanning confocal system and LaserSharp2000 software ( Bio-Rad Laboratories ) .
+Pseudocolored images and composites were generated in Adobe Photoshop ( R ) ( v. 6.0 ) .
+Immunoprecipitation , Western blotting , and zymography
+beta8 expressing or mock transduced cells in confluent 10-cm dishes were either surface labeled with 125 I , biotin , or were directly lysed in PBS with 1 % Triton X-100 with 1 mM PMSF as described .
+Immunoprecipitations and Western blots were performed as described .
+For LAP-beta1 degradation experiments , LAP-beta1 ( 10 mug and ml ) was added to individual wells of a 96-well plate containing beta8 overexpressing , MT1-MMP - , DeltaMT1-MMP - , or mock transduced H1264 cells ( 4 x 10 4 ) in complete medium .
+For GM6001 and C1006 inhibition experiments , 10 4 cells were added , and for RGD peptide blocking experiments 2 x 10 4 cells were added .
+After a 12-16-h incubation , the medium was collected and either added to TMLC reporter cells in the presence or absence of recombinant TGF-beta1 ( 10 pM ) or was subjected to 12.5 % SDS-PAGE and Western blotting as above .
+For zymography , cells were incubated in serum-free media overnight in the presence or absence of pro-MMP-2 ( 10 ng and well ) .
+Supernatants were harvested and loaded without heating or reduction and resolved by 10 % SDS-PAGE ( 1 mg and ml gelatin ) .
+After three washes in 2.5 % Triton X-100 , the gels were incubated in substrate buffer ( 50 mM Tris-HCL , 5 mM CaCl 2 , 0.01 % NaN 3 , pH 8.0 ) and incubated overnight at 37degreesC .
+Lucent bands of gelatinolytic activity were revealed by Coomassie staining .
+Digital images were acquired using Eastman Kodak Co. 1D 3.5.3 Imaging system .
+Composites were assembled in Adobe Photoshop ( R ) ( v. 6.0 ) .
+TGF-beta bioassay
+To determine TGF-beta activation in a coculture assay , TMLC cells were cultured with beta8 expressing or mock transduced cells in the presence or absence of anti-TGF-beta-blocking antibody ( 10 mug and ml , 1D11 ; R&D Systems ) , anti-beta8 ( 100 mug and ml , 37E1 ) or anti-beta6 ( 150 mug and ml , 10D5 ) as described .
+To measure active TGF-beta in tumor tissue , equal weights of tumors were minced and incubated in sterile DME for 30 min at 4degreesC .
+The supernatants containing active TGF-beta were harvested after centrifugation ( 20 g ) at 4degreesC .
+The pellets were then incubated in serum-free DME for 20 min at 80degreesC to activate SLC after which the supernatants were harvested .
+The supernatants containing active or heat activated ( latent ) TGF-beta were then added to preplated TMLC cells with or without 1D11 .
+For protease inhibitor assays , inhibitors were added at the initiation of the coculture .
+The maximal dose of each inhibitor was defined as the highest concentration that did not inhibit the ability of the TMLC cells to respond to recombinant active TGF-beta .
+To measure soluble TGF-beta activity from cultured cells , 10 6 HT1080 or SW480 cells , either beta8 expressing , beta6 expressing , or mock transduced , were incubated in 100 mul of complete medium with or without 37E1 or 10D5 for 1 h at 37degreesC with gentle rotation .
+Cell-free supernatants were harvested by centrifugation ( 20 g ) for 5 min at 4degreesC and then added to preplated TMLC cells in the presence or absence of 1D11 .
+For soluble receptor assays , conditioned medium obtained from overnight cultures of 293 cells expressing truncated alphavbeta8 was used .
+Relative luciferase units were defined as activity minus the background activity of the TMLC reporter cells .
+In some experiments , the TMLC reporter cells themselves activated a small amount of TGF-beta as determined by inhibition with anti-TGF-beta-blocking antibodies .
+In these experiments when the test cells did not activate TGF-beta the relative luciferase units ( sample minus the TMLC background ) were less than zero .
+Cell proliferation assays and lung tumor xenographs
+Cell cycle analysis was performed as described previously ( ) with the exception that some cells were treated overnight with 10 mug and ml LAP-beta1 .
+BrdU incorporation assays were performed as described ( ) .
+H647 tumor xenografts were established in nude mice as described ( ) , and experiments were performed in full compliance with institutional guidelines and the University of California at San Francisco Committee on Animal Research .
+Statistical analysis
+Student 's t test was used for comparison of two datasets ; analysis of variance ( ANOVA ; for parametric data ) or the Kruskal-Wallis test ( for nonparametric data ) were used for more than two datasets .
+Tukey 's or Dunn 's test was used for parametric or nonparametric data , respectively , to determine where the differences lay .
+Significance was defined as p < 0.05 .
+Data are shown as means + /- 1 SEM unless otherwise noted .
+Statistical software used was InStat v2 .03 ( GraphPad Software , Inc. ) .

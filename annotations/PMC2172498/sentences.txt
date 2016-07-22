@@ -1,0 +1,331 @@
+Netrins and neogenin promote myotube formation
+Differentiation of skeletal myoblasts into multinucleated myotubes is a multistep process orchestrated by several families of transcription factors , including myogenic bHLH and NFAT proteins .
+The activities of these factors and formation of myotubes are regulated by signal transduction pathways , but few extracellular factors that might initiate such signals have been identified .
+One exception is a cell surface complex containing promyogenic Ig superfamily members ( CDO and BOC ) and cadherins .
+Netrins and their receptors are established regulators of axon guidance , but little is known of their function outside the nervous system .
+We report here that myoblasts express the secreted factor netrin-3 and its receptor , neogenin .
+These proteins stimulate myotube formation and enhance myogenic bHLH- and NFAT dependent transcription .
+Furthermore , neogenin binds to CDO in a cis fashion , and myoblasts lacking CDO are defective in responding to recombinant netrin .
+It is proposed that netrin-3 and neogenin may promote myogenic differentiation by an autocrine mechanism as components of a higher order complex of several promyogenic cell surface proteins .
+Introduction
+During skeletal muscle development mesodermal precursor cells give rise to committed myoblasts that , after proliferation and migration to appropriate sites in the embryo , exit the cell cycle , express muscle specific genes , and fuse into multinucleated myofibers ( ) .
+This process is coordinated by a family of myogenic bHLH transcription factors that includes Myf5 , MyoD , myogenin , and MRF4 ( ) .
+These factors function in concert with additional families of transcription factors , including MEF2 and NFAT .
+The activity of such transcription factors can be regulated by signal transduction pathways , although the mechanisms involved are not fully understood .
+Cell culture systems have proven very useful in analyzing the processes by which myoblasts differentiate into multinucleated myotubes .
+Differentiation of myoblast cell lines is induced by transferring confluent cultures into mitogen deficient differentiation medium ( DM ) , after which they induce the differentiation factor myogenin , withdraw from the cell cycle , elongate and align , express muscle specific proteins , and fuse ( ) .
+Several signaling pathways have been implicated in promoting myogenic differentiation ; however , because the most commonly used stimulus for in vitro differentiation is removal of serum , the extracellular factors and receptors that initiate these pathways during myogenesis are largely unknown .
+Differentiation of cells in the skeletal muscle lineage is also positively regulated by cell-cell contact .
+We have been studying this process with particular emphasis on the role of CDO , an orphan receptor of the Ig and fibronectin type III ( FNIII ) repeat family ( ) .
+CDO is expressed at high levels in the myogenic compartment during embryogenesis , and mice lacking CDO via targeted mutagenesis display delayed muscle development .
+CDO also promotes myogenesis in vitro , signaling through a yet-to-be-identified pathway to posttranslationally activate MyoD family members through increased heterodimerization with their E protein partners .
+CDO is a component of a cell surface complex found at sites of cell-cell contact that also includes the related Ig and FNIII protein BOC and the promyogenic cell adhesion molecules , N- and M-cadherin .
+We have proposed that this complex mediates some of the positive effects of cell-cell contact on myogenesis .
+Netrins comprise a small family of secreted proteins related to laminins that associate with cell membranes and ECM .
+Netrins function as evolutionarily conserved axon guidance cues able to trigger both attractive and repulsive responses mediated via two classes of cell surface receptors .
+The first class belongs , like CDO , to the Ig and FNIII repeat family and includes DCC and neogenin ; the second class contain Ig and thrombospondin repeats and includes the UNC-5H proteins ( ) .
+DCC receptors mediate attractive responses to netrins , whereas complexes of DCC and UNC-5 mediate repulsion ( ) .
+Functions for netrins and netrin receptors outside the nervous system have received much less attention .
+Several observations make netrins and their receptors interesting candidates as regulators of myogenesis .
+First , mRNAs for netrin-1 , netrin-3 , and neogenin are expressed in somites and developing skeletal muscle between E10 .5 and E14 .5 during murine embryogenesis .
+Second , netrin-1 signals in neurons to activate several pathways also implicated in promoting myogenesis , including the calcineurin , p38 and p42 and 44 MAPK , and phosphatidylinositol 3-kinase pathways .
+Third , guidance of axons by extracellular cues requires localized alterations in the actin cytoskeleton of growth cones , and DCC can signal to modulate the activity of specific Rho GTPases , known regulators of actin dynamics ( ) .
+It seems highly likely that the elongation , alignment , and fusion steps that occur during myotube formation also require alterations of the cytoskeleton ( ) .
+Finally , netrin-1 and neogenin function in an adhesive , rather than a guidance , role during mammary gland morphogenesis ( ) , an activity that could contribute to the promyogenic effects of cell-cell contact .
+Interestingly , neogenin morphant zebrafish were recently reported to display defects in somitogenesis ( before muscle development ) that are consistent with a potential role for neogenin in convergent extension ( ) .
+We report here that cultured myoblasts express neogenin and netrin-3 .
+Up- or down modulation of neogenin levels increases or decreases myotube formation , respectively , and neogenin can enhance the activity of myogenic bHLH- and NFAT dependent reporter constructs .
+Treatment of myoblasts with recombinant netrin promotes myotube formation and NFAT activation in a neogenin dependent manner .
+Finally , neogenin and CDO form a complex , and CDO modulates netrin signaling .
+These results suggest that netrin-3 and neogenin promote myogenic differentiation by an autocrine mechanism , possibly as components of a higher order complex of several promyogenic cell surface proteins .
+Results
+Expression of netrins and netrin receptors in cultured myoblasts
+Our interest in Ig and FNIII repeat proteins led us to examine expression of netrin receptors of this class during myogenic differentiation in vitro .
+Western blot analyses of C2C12 myoblasts revealed a uniform level of neogenin in cells cultured in growth medium ( GM ) and cells transferred into DM over a period of 4 d ( A ) .
+This contrasts with expression of CDO , which was transiently up regulated during the differentiation time course ( A ; ) .
+Duplicate blots probed with an antibody against DCC revealed only trace levels of this protein ( unpublished data ) .
+F3 , a myoblast line derived by treatment of 10T1 and 2 fibroblasts with 5-azacytidine , also expressed neogenin under both GM and DM conditions ( B ) .
+10T1 and 2 fibroblasts and 10T1 and 2 cells converted to myoblasts by stable expression of MyoD expressed indistinguishable levels of neogenin ( C ) ; again , this contrasts with CDO expression , which was induced by MyoD ( C ; ) .
+Finally , expression of oncogenic Ras in C2C12 cells , which results in reduction of MyoD and CDO and blocks differentiation ( ) , had no effect on neogenin levels ( unpublished data ) .
+Together , these results indicate that neogenin is expressed in the myogenic lineage , but its expression is not dependent on myogenic factors .
+Figure 1 .
+Expression of neogenin , netrin-3 , CDO , and muscle specific proteins in C2C12 , F3 , and 10T1 and 2 cells .
+( A ) Western blot analysis of C2C12 cell differentiation .
+Cultures were brought to ~ 90 % confluence ( day 0 ) and shifted into DM for the indicated period of time and harvested .
+Western blots were probed with antibodies against the indicated proteins .
+Immunoblotting for myogenin and MHC indicates the progression of cell differentiation ; immunoblotting with a pan-cadherin antibody serves as a loading control ( ) .
+( B ) Western blot analysis of F3 myoblasts cultured in GM ( G ) or DM ( D ) for 2 d. Blots were probed with antibodies against the indicated proteins .
+( C ) Western blot analysis of 10T1 and 2 cell derivatives .
+10T1 and 2 cells stably transfected with a control expression vector ( - ) or with a MyoD expression vector ( + ) were cultured in DM for 24 h. Blots were probed with antibodies against the indicated proteins .
+( D ) Northern blot analysis of netrin-3 mRNA expression during C2C12 cell differentiation .
+The ethidium bromide stained gel is shown as a loading control .
+Specific netrins were examined in a similar fashion .
+Netrin-3 was expressed in both C2C12 and F3 cells under GM conditions and levels increased when cells were transferred into DM ( ) .
+This increase was also apparent at the mRNA level , with C2C12 cells displaying a single netrin-3 transcript of ~ 7 kb ( D ) .
+In contrast , duplicate Western and Northern blots probed for expression of netrin-1 protein and mRNA , respectively , did not reveal a signal , despite the ability to detect netrin-1 produced transiently ( unpublished data ) .
+Netrin-3 produced by C2C12 cells was not observed in the culture medium supernatant ( unpublished data ) , suggesting that , like endogenous netrins-1 and -2 in chick floor plate and netrin-1 in adult rat spinal cord , it is likely to be associated with cell membranes and and or ECM .
+10T1 and 2 and 10T1 and 2-MyoD cells also expressed netrin-3 ( C ) .
+It is concluded that myoblast cell lines and 10T1 and 2 cells express both netrin-3 and one of its receptors , neogenin , raising the possibility that an autocrine signaling pathway may exist in these cells .
+Neogenin levels regulate myotube formation
+To assess a role for neogenin in myogenesis , we transfected different " strains " of C2C12 cells and F3 cells with a vector engineered to drive expression of a human neogenin cDNA and a puromycin resistance gene .
+Transfected cultures were selected and analyzed for neogenin expression .
+Stable overexpression of neogenin was achieved only in one strain of C2C12 cells .
+These cells , previously described by us and designated as C2C12 ( E ) cells ( ) , are highly differentiation-proficient in that they : expressed detectable myogenin before a shift into DM ; ( b ) were less sensitive to inhibition of differentiation by moderate levels of serum ( e.g. , 5 % FBS ) ; and ( c ) completed the differentiation process over a 2-d time period .
+These cells were used for all subsequent experiments and are simply referred to as C2C12 cells .
+Neogenin vector transfectants ( C2C12 and neogenin cells ) produced two- to threefold more neogenin than control vector transfectants ( C2C12 and puro cells ; A ) .
+Overproduction of neogenin modestly decreased proliferation of C2C12 cells in GM , relative to vector controls , and did not alter their morphology in GM ( not depicted ) .
+When observed 24 h after shifting the cultures to medium containing 5 % FBS ( a time at which the differentiation process was in mid-progression ) , C2C12 and neogenin cells had formed larger myotubes with more nuclei than did C2C12 and puro cells ( B ) .
+C2C12 and neogenin cultures displayed an increase in the total number of nuclei present in myosin heavy chain ( MHC ) - positive cells and in the average number of nuclei and myotube ( C ) .
+When analyzed for expression of muscle specific proteins , including MyoD , myogenin , MHC , and troponin T ( TnT ) , C2C12 and neogenin cells showed accelerated expression of TnT , but otherwise were similar to C2C12 and puro cells ( D ) .
+Overexpression of neogenin therefore resulted in enhanced formation of myotubes without dramatic changes in several biochemical markers of differentiation .
+Figure 2 .
+Overexpression of neogenin promotes myotube formation by C2C12 cells .
+( A ) C2C12 cells were stably transfected with a control expression vector lacking a cDNA ( - ) or with an expression vector harboring a neogenin cDNA ( + ) .
+Western blots of the indicated cells were probed with neogenin or , as a control , pan-cadherin antibodies .
+The exposure of this film was for a shorter duration than the neogenin blot shown in , so as to more clearly highlight the quantitative difference between the transfectants .
+( B ) Photomicrographs of C2C12 and puro and C2C12 and neogenin cells were cultured in 5 % FBS for 24 h , and fixed and stained with an antibody to MHC .
+Bar , 0.2 mm .
+( C ) Quantification of myotube formation .
+Values represent means of triplicate determinations + /- 1 SD .
+( D ) Western blot analysis of muscle specific proteins by C2C12 cell transfectants over a 2-d time course of differentiation .
+To assess the effect of reducing neogenin levels on myotube formation , an RNAi approach was taken .
+A sequence from the mouse neogenin coding region was inserted into the pSilencer vector , and was cotransfected with a GFP expression vector into C2C12 cells ; the pSilencer vector without an insert was used as a control .
+Transfected cultures were sorted for the presence of GFP and assessed for reduction of neogenin levels .
+A representative Western blot is shown in A. GFP sorted cells that received the neogenin RNAi vector produced fewer and smaller myotubes than sorted control transfectants .
+To more precisely quantify this effect , C2C12 cells were cotransfected with the neogenin RNAi vector or the vector lacking an insert , plus a plasmid directing expression of nlacZ ( encoding nuclear localized beta-galactosidase ; beta-gal ) .
+2 d later , the cultures were transferred to 5 % FBS for 24 h , and then fixed and double stained for MHC and beta-gal activity .
+When control vector-transfectants fused with nontransfected cells , many ( often most ) of the nuclei in the myotube became positive for beta-gal activity , presumably because the cytoplasmically translated protein diffused within the myotube ( B ) .
+When the number of nuclei in beta-gal + cells was scored , ~ 56 % had more than five nuclei , ~ 21 % had two to four nuclei and ~ 23 % had a single nucleus ( C ) .
+In contrast , the distribution of beta-gal + cells that received the neogenin RNAi vector was strongly skewed toward single nucleus containing cells , with only about ~ 5 % displaying more than five nuclei ( C ) .
+Cells that received an RNAi vector containing a neogenin sequence that was ineffective at reducing neogenin protein levels behaved equivalently to those that received the vector lacking an insert ( unpublished data ) .
+Figure 3 .
+RNAi mediated reduction of neogenin levels blocks myotube formation .
+( A ) Western blot analysis of RNAi mediated " knockdown " of neogenin .
+C2C12 cells were transiently transfected with a GFP expression vector and either pSilencer ( - ) or pSilencer containing neogenin RNAi sequences ( + ) .
+GFP positive cells were sorted and cell lysates probed with antibodies to neogenin or , as a control , a pan-cadherin antibody .
+( B ) C2C12 cells were transiently transfected with pSilencer ( control ) or pSilencer containing RNAi sequences targeted against neogenin , plus an expression vector for nlacZ ( nuclear targeted beta-gal ) .
+Cultures were fixed and double stained for MHC and beta-gal activity .
+Bars : ( top ) 0.2 mm ; ( bottom ) : a higher magnification micrograph , 0.1 mm .
+( C ) Quantification of myotube formation .
+Values represent means of triplicate determinations + /- 1 SD .
+( D ) C2C12 cells were transiently transfected with pSilencer and pBabePuro ( pSil and pBP ) ; pSilencer containing neogenin RNAi sequences and pBabePuro ( RNAi and pBP ) ; or pSilencer containing neogenin RNAi sequences and pBabePuro harboring a human neogenin cDNA ( RNAi and hNeogenin ) , in each case plus an expression vector for nlacZ .
+Cultures were fixed and double stained for MHC and beta-gal activity .
+Bar , 0.2 mm .
+( E ) Quantification of myotube formation .
+Values represent means of triplicate determinations + /- 1 SD .
+The transfection efficiencies for these experiments were ~ 10 % , a value chosen to minimize fusion of independent beta-gal + transfectants .
+As a further test of specificity , we sought to rescue the cell fusion defect produced by neogenin RNAi via ectopic expression of the human neogenin cDNA .
+The sequence of the RNAi used to target endogenous mouse neogenin is not fully conserved in the human cDNA , and therefore the human neogenin expression vector should be impervious to RNAi mediated " knockdown " .
+Three conditions were studied : ( 1 ) C2C12 cells cotransfected with pSilencer lacking RNAi sequences and the control vector for human neogenin expression ( pSil and pBP ) ; ( 2 ) cells cotransfected with pSilencer containing neogenin RNAi sequences and the control vector for human neogenin expression ( RNAi and pBP ) ; and ( 3 ) cells cotransfected with pSilencer containing RNAi sequences and the human neogenin expression vector ( RNAi and hNeogenin ) .
+For unknown reasons , the pSil and pBP transfectants reproducibly produced fewer myotubes with more than five nuclei than cells that received only the control pSilencer vector ( ~ 30 % vs. ~ 56 % , respectively ; compare D with ) .
+Importantly , however , RNAi and pBP transfectants were strongly blocked from forming myotubes , whereas the RNAi and hNeogenin transfectants closely resembled the control pSil and pBP cultures ( ) .
+Therefore , forced expression of neogenin rescued the effects of RNAi to neogenin , further indicating that the effects of the RNAi were specific .
+It is concluded that reduction of neogenin levels reduced myoblasts ' ability to participate in the formation of myotubes .
+Together , with the overexpression data in , these results strongly suggest that neogenin levels are rate limiting for this aspect of C2C12 myogenesis .
+Recombinant netrin promotes myotube formation
+To assess the effects of netrin-3 on myoblast cell lines , we initially attempted to synthesize recombinant mouse protein in COS and 293T cells but , similar to the findings of , were unable to produce sufficient quantities of secreted , soluble material .
+Mouse netrin-3 is orthologous to human netrin-2L and , although not orthologous to chicken netrin-2 , is grouped with both these proteins by dendrogram analyses in a sub-category designated " netrin-2-like " , distinguishable from a " netrin-1-like " group ( ) .
+Therefore , we chose to use recombinant chicken netrin-2 for this work as it is commercially available .
+C2C12 cells were cultured in GM , then transferred into 5 % FBS plus or minus chicken netrin-2 , and observed 24 h later .
+C2C12 cell proliferation was not altered by netrin-2 treatment .
+However , although the control cultures displayed small MHC + myotubes under these conditions , the netrin-2-treated cultures showed distinctly larger myotubes with increases in the total number of nuclei in MHC + cells and in the average number of nuclei and myotube ( ) .
+When analyzed for expression of muscle specific proteins , the cells that received netrin-2 produced significantly more TnT than control cells , but the levels of MyoD , myogenin , MHC , and CDO were unchanged ( C ) .
+Thus , similar to overexpression of neogenin , treatment of C2C12 cells with a neogenin ligand resulted in enhanced myotube formation and alterations in expression of TnT , but not several other muscle markers .
+Figure 4 .
+Netrin-2 promotes myotube formation .
+( A ) Photomicrographs of C2C12 cells were treated with 5 % FBS plus or minus recombinant chicken netrin-2 for 24 h , and fixed and stained with an antibody to MHC .
+Bars : ( top ) 0.5 mm ; ( bottom ) 0.2 mm .
+( B ) Quantification of myotube formation .
+Values represent means of triplicate determinations + /- 1 SD .
+( C ) Western blot analysis of muscle specific proteins by C2C12 cells treated with 5 % FBS plus or minus recombinant chicken netrin-2 for 24 h. Cell lysates were probed with the indicated antibodies .
+To assess whether netrin-2 exerted its effects on myotube formation in a manner dependent on neogenin , a C2C12 cell derivative that stably expressed the neogenin RNAi vector was generated ; these cells expressed considerably less neogenin than control transfectants and produced fewer and smaller myotubes than control transfectants when shifted to DME and 5 % FBS for 24 h ( , A-C ) .
+When the control cells were treated with netrin-2 under these conditions they behaved similarly to parental C2C12 cells , forming larger myotubes with more nuclei .
+In contrast , the neogenin RNAi expressing cells were not affected by netrin-2 ( ) .
+Therefore , it is concluded that the ability of netrin-2 to promote myotube formation by C2C12 cells depends on the netrin receptor , neogenin .
+Figure 5 .
+Netrin-2 requires neogenin to stimulate myotube formation .
+( A ) Western blot analysis of neogenin production by stable control ( - ) and neogenin RNAi ( + ) vector transfectants .
+( B ) Photomicrographs of the cells from A were treated with 5 % FBS plus or minus netrin-2 for 24 h , and fixed and stained with an antibody to MHC .
+Bar , 0.2 mm .
+( C ) Quantification of myotube formation .
+Values represent means of triplicate determinations + /- 1 SD .
+Neogenin activates myogenic bHLH factor- and NFAT dependent reporter constructs
+CDO signals to enhance myogenic bHLH factor dependent transcription ( ) , and netrin-1 signals through DCC to stimulate NFAT mediated transcription ( ) .
+Therefore , we assessed whether neogenin could stimulate reporter constructs specific for myogenic bHLH factors and NFAT .
+In transient assays of C2C12 cells , cotransfection of the neogenin expression vector enhanced activity of a reporter construct driven by four reiterated myogenic E-boxes ( 4Rtk-luc ) , approximately threefold above that seen with a control vector lacking a cDNA insert ( A ) .
+Cotransfection of 10T1 and 2 fibroblasts with expression vectors for MyoD and its heterodimeric partner E12 led to activation of 4Rtk-luc , and this activity was also enhanced approximately threefold by coexpression of neogenin ( B ) .
+However , neogenin could not activate the reporter in the absence of MyoD ( unpublished data ) .
+Figure 6 .
+Neogenin enhances myogenic bHLH factor- and NFAT dependent transcription .
+( A ) C2C12 cells were transiently transfected with 4Rtk-luc and either a control or neogenin expression vector and analyzed for luciferase reporter activity .
+( B ) 10T1 and 2 cells were transiently transfected with 4Rtk-luc , expression vectors for MyoD and E12 , and either a control or neogenin expression vector and analyzed for luciferase reporter activity .
+( C ) C2C12 cells were transiently transfected with NFAT-luc and a control , neogenin or CDO expression vector and analyzed for luciferase reporter activity .
+( D ) 10T1 and 2 cells were transiently transfected with NFAT-luc and either a control or neogenin expression vector and analyzed for luciferase reporter activity .
+( A-D ) Values are means + /- 1 SEM from three experiments , each performed in triplicate .
+( E ) Western blot analysis of NFATc3 in C2C12 and 10T1 and 2 cells treated with 5 % FBS plus or minus recombinant chicken netrin-2 for 6 or 30 h. Cell lysates were probed with the indicated antibodies .
+The top and bottom arrows indicate the presumptive phosphorylated and dephosphorylated forms of NFATc3 , respectively .
+( F and G ) Netrin-2 requires neogenin to stimulate NFATc3 levels .
+( F ) Western blot analysis of NFATc3 in C2C12 cells transiently transfected with control ( - ) or neogenin RNAi ( + ) vectors that were sorted and treated with 5 % FBS plus or minus netrin-2 .
+( G ) Similar to F except that the cells were the stable neogenin RNAi transfectants shown in .
+Cotransfection of the neogenin expression vector into either C2C12 or 10T1 and 2 cells enhanced NFAT-luciferase reporter activity approximately twofold ; in contrast , a CDO expression vector had no effect on NFAT dependent transcription ( ) .
+Of the various NFATc isoforms implicated in myogenesis , only NFATc3 is activated in differentiating C2C12 myoblasts ( ) .
+To assess whether netrin-neogenin signaling could activate NFATc3 , C2C12 and 10T1 and 2 cells were treated with recombinant chicken netrin-2 for 6 or 30 h. Immunoblots probed with an antibody specific to NFATc3 revealed increased levels of NFATc3 after 6 h of netrin-2 treatment , including a more quickly migrating form that presumably represents dephosphorylated , activated NFATc3 ( E ) .
+This response returned to baseline , or lower , within 30 h. Consistent with this relatively short duration of action , addition of netrin-2 to control or neogenin transfected cultures enhanced NFAT-luciferase reporter activity by only ~ 40 % in each case ( unpublished data ) .
+To assess whether the effects of netrin-2 on NFATc3 were dependent on neogenin , C2C12 cells were transiently transfected with neogenin RNAi or control vectors plus a GFP expression vector , sorted , and treated with medium containing 5 % FBS , plus or minus netrin-2 .
+Netrin-2 treatment of control transfectants resulted in increased levels of NFATc3 , similar to parental C2C12 cells ; in contrast , neogenin RNAi transfectants failed to respond to netrin-2 ( F ) .
+The C2C12 derivative that stably expressed neogenin RNAi ( ) displayed a similar lack of response ( G ) .
+Thus , as seen with enhancement of myotube formation , netrin-2 required neogenin to exert its effects on NFATc3 levels .
+Neogenin forms a complex with CDO
+Ig and FNIII proteins can bind in a cis fashion to additional members of this family to form complexes that regulate their function .
+For example , Robo receptors bind to DCC to silence netrin-1-mediated attraction ( ) , and BOC binds CDO to stimulate myogenesis ( ) .
+To test whether neogenin might also interact with CDO , lysates from C2C12 and F3 cells were immunoprecipitated with antibodies to CDO or neogenin and blotted with the reciprocal antibody .
+Neogenin was present in CDO immunoprecipitates , and CDO in neogenin immunoprecipitates , from both cell lines , suggesting that these two proteins do indeed form a complex ( ) .
+More neogenin co-immunoprecipitated with CDO under DM than GM conditions , although this enhanced association in DM was not evident in the reciprocal co-immunoprecipitation ( ) .
+Co-immunoprecipitation of neogenin and CDO was not diminished when C2C12 cells were collected as a single-cell suspension in the presence of EDTA ( which blocks cadherin mediated adhesion ) , suggesting that the interaction occurs in a cis fashion ( C ) .
+CDO associates with N- and M-cadherins in myoblasts ( ) , and cadherins also co-immunoprecipitated with neogenin ( B ) , suggesting these proteins may interact together in a higher order structure .
+Furthermore , consistent with netrin-3 functioning as a neogenin ligand in C2C12 cells , it too was observed in neogenin immunoprecipitates ( B ) .
+Figure 7 .
+Neogenin and CDO form complexes .
+Lysates from the indicated cell lines were immunoprecipitated ( IP ) and Western blotted ( WB ) with the indicated antibodies .
+Immunoblotting of straight lysates with antibodies to nonimmunoprecipitated proteins are shown as a control .
+( A and B ) C2C12 cells were cultured in GM ( G ) or DM ( D ) .
+Immunoblotting of straight lysates to MHC in A indicates the degree of differentiation of the cells .
+( C ) C2C12 cells were cultured on plastic dishes ( - ) or as a single cell suspension in the presence of EDTA ( + ) .
+( D and E ) 293T cells were transiently transfected with expression vectors for neogenin and and or CDO as indicated .
+( F ) 293T cells were transiently transfected with expression vectors for neogenin and CDO and cultured on plastic dishes ( - ) or as a single cell suspension in the presence of EDTA ( + ) .
+( G ) 293T cells were transiently transfected with expression vectors for neogenin and either full-length CDO ( CDO ) or CDO deletion mutants as indicated .
+To investigate complex formation between CDO and neogenin in more detail , transient transfections in 293T cells were performed .
+Neogenin was brought down by CDO antibodies when CDO was coexpressed , but not when CDO was omitted ; analogously , CDO was brought down by neogenin antibodies in a neogenin dependent fashion ( ) .
+As seen with C2C12 cells , collection of transiently transfected 293T cells as a single-cell suspension in EDTA did not diminish the association between neogenin and CDO ( F ) .
+Additionally , when 293T transfectants that expressed only CDO were cocultured with transfectants that expressed only neogenin , immunoprecipitation of either protein failed to coprecipitate the other , an interaction expected to be observed if the binding occurred in a trans manner ( unpublished data ) .
+Together , the transient expression data : establish the specificity of the antibodies ; ( b ) confirm the cis nature of the CDO-neogenin association ; and ( c ) indicate that additional , cell type specific factors are not likely to be required for this interaction .
+CDO contains an ectodomain comprised of five Ig and three FNIII repeats , a single pass transmembrane region , and a 270-amino acid cytoplasmic tail ( ) .
+To identify regions of CDO involved in complex formation with neogenin , a series of CDO deletion mutants that lack each individual Ig and FNIII repeat were tested for their ability to co-immunoprecipitate neogenin .
+293T cells were transiently transfected with expression vectors for neogenin and either wild-type CDO or individual CDO mutants ( designated by the symbol " Delta " followed by the deleted domain ) .
+Cell lysates were precipitated with antibodies to the CDO intracellular region , and the immunoprecipitates blotted and probed with antibodies to neogenin or CDO ( G ) .
+The CDO mutants DeltaIg1 and DeltaFN2 were deficient ( though not completely defective ) in their ability to associate with neogenin , relative to full-length CDO .
+In contrast , DeltaIg2 , DeltaIg4 , DeltaIg5 , and DeltaFN1 displayed no significant reduction in this property .
+DeltaFN3 gave somewhat variable results over multiple experiments , suggesting it may be involved in neogenin binding but is not as important as Ig1 or FN2 .
+Deletion of Ig repeat 3 apparently resulted in destabilization of CDO , as only very weak expression of this protein was observed .
+A construct in which the CDO signal sequence was linked directly to its transmembrane and cytoplasmic regions ( designated CDO ( TMintra ) ; Kang et al. , 2002 ) was brought down in neogenin immunoprecipitates , albeit inefficiently , suggesting that the intracellular regions of CDO and neogenin may also associate ( unpublished data ) .
+Together , the results in are consistent with the conclusion that neogenin and CDO form complexes in cis and that this interaction is dependent on the presence of specific repeats in the CDO ectodomain .
+Despite its sequence similarity to , and ability to interact with , neogenin , CDO seems not to be an independent netrin receptor , in that it was unable to bind a netrin-1-Fc fusion protein under conditions where neogenin did .
+Furthermore , BOC was also unable to bind netrin-1-Fc , and coexpression of CDO and and or BOC did not appear to alter netrin-1-Fc binding to neogenin ( unpublished data ) .
+To gain insight into whether neogenin 's ability to bind to CDO is important for netrin-neogenin signaling , primary myoblasts derived from wild-type mice and mice homozygous for a targeted mutation of Cdo were analyzed for their response to recombinant chicken netrin-2 .
+Cdo + / + and Cdo - / - myoblasts express similar levels of MyoD , but during differentiation Cdo - / - cells produce lower levels of myogenin and form myotubes very inefficiently ( ) .
+Like myoblast cell lines , primary myoblasts expressed netrin-3 and neogenin , regardless of their Cdo genotype ( A ) .
+Before treatment with netrin-2 , Cdo + / + and Cdo - / - myoblasts were similar in that each expressed somewhat higher levels of the more slowly migrating form of NFATc3 than the more quickly migrating , presumably activated , form ( B ) .
+After 3 h of exposure to netrin-2 , the Cdo + / + cells showed a pronounced shift to the more quickly migrating form , consistent with activation of NFAT signaling ; in contrast , the Cdo - / - myoblasts showed no response and the ratio of the two forms of NFATc3 resembled that seen in untreated cells ( B ) .
+Therefore , loss of CDO resulted in loss of responsiveness to netrin-2 despite the presence of normal levels of its receptor , suggesting that neogenin 's interaction with CDO is important for signaling by this pathway .
+Figure 8 .
+CDO is required for netrin-2 to produce the activated form of NFATc3 .
+( A ) Western blot analysis of neogenin , CDO , netrin-3 , and MyoD in primary myoblasts isolated from wild-type ( + /+ ) and Cdo - / - (-/- ) mice .
+( B ) Western blot analysis of NFATc3 in primary myoblasts of the indicated Cdo genotype treated with or without netrin-2 for 3 h .
+The top and bottom arrows indicate the presumptive phosphorylated and dephosphorylated forms of NFATc3 , respectively .
+Discussion
+Skeletal myogenesis is widely studied as a model system for the study of lineage specification and cell differentiation .
+One reason for this is the tractability of myoblast cell lines , which are easily induced to differentiate into myotubes by removal of serum from the culture medium .
+Consistent with serum deprivation promoting myogenic differentiation is the observation that many commonly studied growth factors are antagonistic to this process ( ) .
+However , the positive regulation of myogenesis by signal transduction pathways strongly suggests that myoblast differentiation is promoted by extracellular signaling ligands working via cell surface receptors .
+Although a few such factors have been identified , including IGF1 , prostaglandin F 2alpha , and interleukin-4 , the small number currently known is striking by comparison with the advanced state of knowledge on transcriptional regulation of differentiation .
+Here , it is demonstrated for the first time that netrins and the netrin receptor , neogenin , promote myotube formation in vitro .
+Furthermore , this is one of the only reports of a function for netrins outside the nervous system , broadening their potential roles in morphogenesis .
+Netrins and neogenin promote myotube formation
+Several lines of evidence indicate that netrin-neogenin signaling promotes specific aspects of myoblast differentiation : myoblast cell lines and primary myoblasts express both netrin-3 and neogenin ; ( b ) overexpression of neogenin enhanced myotube formation by C2C12 cells , whereas RNAi mediated " knockdown " of neogenin inhibited it ; ( c ) exogenous chicken netrin-2 enhanced myotube formation in a neogenin dependent fashion ; neogenin increased the activity of myogenic bHLH factor- and NFAT dependent reporters ; and ( e ) netrin-2 treatment increased the levels of the activated form of NFATc3 , again in a neogenin dependent fashion .
+Taking these results together , we propose that netrin-3 and neogenin function in an autocrine loop to stimulate myotube formation .
+Although exogenously supplied chicken netrin-2 and both endogenous and exogenously expressed neogenin clearly stimulated myotube formation , certain aspects of this putative autocrine loop remain to be established .
+First , the level of neogenin produced by C2C12 cells did not change during differentiation , and , whereas netrin-3 did increase in DM , it was also produced by cells in GM .
+Thus , something in addition to the amounts of these proteins may keep their signaling activities in check when the cells are in GM .
+Because netrins are not freely soluble , but rather are associated with cell membranes and ECM , one possibility is that netrin-3 on the surface of one cell and neogenin on the surface of another may only encounter each other as a consequence of close cell-cell proximity .
+Consistent with this possibility , netrin-3 produced by C2C12 cells was not detected in cell culture supernatants ( unpublished data ) .
+Cell-cell contact is a promyogenic condition , and netrin-neogenin interactions may contribute to this phenomenon ( see next sub-section of Discussion ) .
+Second , it should be noted that our evidence for netrin function in myoblasts relies on the use of exogenously provided chicken netrin-2 , and it has not yet been possible to generate direct evidence that endogenous netrin-3 works identically .
+Unfortunately , none of several different netrin-3 RNAi sequences resulted in reduction of netrin-3 protein levels ( unpublished data ) , and neutralizing antibodies to netrin-3 are not available .
+However , netrin-2 required neogenin for its effects on C2C12 cells ; netrin-3 fusion proteins bind to neogenin ; and endogenous netrin-3 co-immunoprecipitated with endogenous neogenin in C2C12 cell extracts .
+Therefore , it seems likely that netrin-3 is a functional neogenin ligand in myoblasts , particularly as these cells did not express detectable netrin-1 .
+Another interesting aspect of netrin-2 and neogenin activity in myoblasts was that these factors stimulated myotube formation without significantly altering the level of several muscle specific gene products , including MyoD , myogenin , and MHC .
+In contrast , the levels of another muscle specific protein , TnT , were increased by treatment of C2C12 cells with netrin-2 , and induction of TnT was accelerated in C2C12 and neogenin cells .
+It is possible that TnT represents a specific target of netrin and neogenin signaling .
+Consistent with this possibility are the observations that neogenin enhanced myogenic bHLH factor- and NFAT dependent transcription in reporter assays , and netrin-2 treatment led to production of the activated form of NFATc3 .
+Alternatively , it is possible that TnT expression is maximized within the cellular environment of the myotube , and that the elevated levels of this protein seen in netrin-2-treated cells occur secondarily to enhancement of myotube formation .
+It may be that , while transcriptional regulation plays a role in netrin-neogenin-mediated myotube formation , the most important pathways involved in this process are similar to those used by these families of molecules to alter the cytoskeleton in migrating and turning growth cones ( ) .
+Dynamic changes in cytoskeletal architecture are highly likely to be necessary for the elongation , alignment , adhesion and fusion steps of myotube formation ; although these processes occur simultaneously with induction of muscle specific gene expression , they may not be strictly dependent on transcriptional regulation .
+The established ability of netrins and their receptors to signal locally at the tips of axonal growth cones makes them appealing candidates as regulators of the morphological changes that occur during formation of myotubes , independent of their ability to stimulate transcription .
+Cell surface receptor complexes and regulation of myogenic differentiation
+It has long been appreciated that cell-cell contact and and or high cell density positively regulates myogenesis .
+This is apparent in disparate phenomena , such as the community effect in determination of the muscle lineage and the need for aggregation for differentiation of certain myogenic cell lines .
+We have been studying a cell surface complex found at sites of cell-cell contact which is depicted as a model in and that includes : the related Ig and FNIII proteins CDO and BOC ; and ( b ) the promyogenic cell adhesion molecules , N- and M-cadherin , and the cadherin associated proteins beta- and alpha-catenin ( , ; and unpublished data for alpha-catenin ) .
+This complex is well situated to coordinate multiple aspects of myogenesis .
+CDO signals to posttranslationally activate MyoD family members through increased heterodimerization with E proteins , most likely via CDO directed phosphorylation of E12 and E47 ( ) .
+Cadherins mediate cell-cell adhesion via tethering to the actin cytoskeleton and signal to increase the activity of the promyogenic small GTPase , RhoA .
+This work demonstrated that neogenin also binds to CDO in a cis fashion .
+Furthermore , netrin-3 and cadherins co-immunoprecipitated with neogenin .
+By analogy with netrin-1 and DCC ( ) , it seems likely that netrin-3 binds directly to neogenin ; however , the neogenin-cadherin interaction might occur directly or indirectly via neogenin binding to CDO and and or BOC , which may provide direct association with cadherins .
+The formation of such a receptor complex or complexes in myoblasts resembles an emerging picture of axon guidance receptor complexes in growth cones .
+DCC and UNC -40 family proteins ( which include neogenin ) interact in cis with netrin receptors of the UNC5 family ; with Robo proteins , which are Ig and FNIII domain containing receptors for the Slit family of ligands ; and with an Ig and FNIII domain containing receptor tyrosine phosphatase .
+Robo receptors , in turn , can form cis complexes with N-cadherin ( ) .
+Figure 9 .
+A working model for a promyogenic cell surface complex .
+A complex of cell surface receptors and adhesion molecules found at sites of myoblast cell-cell contact includes CDO and BOC , which may function as a receptor for a yet-to-be identified ligand .
+CDO and BOC interact in cis with N- and M-cadherins , which bind beta- and alpha-catenin .
+CDO and BOC also interact with neogenin , a receptor for netrin-3 .
+Multiple signals appear to emanate from this complex , resulting in activation of myogenic bHLH and NFAT transcription factors and alteration of the actin cytoskeleton in preparation for fusion .
+Note that although cis dimers of cadherins are shown , no stoichiometry of complex formation between CDO , BOC and neogenin , or between these proteins and cadherins , is implied by the figure .
+Note also that the experiments that support this working model do not distinguish between the existence of a single complex containing each protein shown or multiple complexes in which some components may be mutually exclusive .
+See text for further details .
+The dynamics of neither the axon guidance receptor complexes nor the complexes in myoblasts that we have described are well understood .
+Purification and analysis of native complexes will be required to address how many transmembrane components can be part of a single complex and whether some interactions are mutually exclusive .
+However , a key aspect of the myoblast model is that the components of the complex or complexes display interdependence in some of their promyogenic activities .
+Examples include : CDO must be capable of binding to cadherins to stimulate differentiation of C2C12 cells ; ( b ) BOC is dependent on CDO to promote differentiation of C2C12 cells ; and ( c ) netrin-3 ( assuming it acts similarly to netrin-2 ) requires not only its receptor , neogenin , but also CDO , to stimulate myotube formation .
+Assembly of a multiprotein complex localized at sites of cell-cell contact and containing multiple signaling and adhesive components is an appealing notion , as such complexes could permit diverse signaling events that regulate both morphological and transcriptional responses to be coordinated during differentiation from a site in the cell that must undergo dramatic changes as myoblasts elongate , align , and ultimately fuse .
+Complete identification of the components and dynamics of such complexes should provide important insights into myogenesis in particular and cell differentiation in general .
+Materials and methods
+Cell culture
+C2C12 , F3 , and 10T1 and 2 cells were cultured as described previously .
+Differentiation of C2C12 and F3 cells was induced by switching cultures from DME and 15 % FBS to either DME and 2 % horse serum ( DM ) or DME and 5 % FBS as indicated .
+All quantified myotube formation assays were performed at least four times with similar results .
+COS and 293T cells were cultured in DME and 10 % FBS .
+Primary myoblasts were obtained from the hind limbs of wild-type and Cdo - / - mice ( ) at postpartum day 21 by the methods of and .
+In brief , muscle tissue was collected , connective tissue and fat removed , and muscles dissociated mechanically and enzymatically .
+Cells were plated on tissue-culture plastic in Ham 's F10 medium with 20 % FBS , 10 ng and ml hepatocyte growth factor , 5 mg and ml heparin , and 2.5 ng and ml bFGF .
+Floating cells were collected 24 h later , inoculated on collagen coated plates and cultured in the same medium without hepatocyte growth factor .
+Several rounds of selective adhesion were performed until a pure population of myoblasts ( as assessed by immunocytochemistry for MyoD ) was obtained .
+Cultures were treated with recombinant chicken netrin-2 ( R & D Systems ; 25 ng and ml ) in fresh DME and 5 % FBS .
+Stable expression of , and RNAi against , neogenin
+A cDNA comprising a complete human neogenin ORF was provided by E. Fearon ( University of Michigan , Ann Arbor , MI ) and inserted into the expression vector , pBabePuro .
+C2C12 cells were transfected with this vector or a vector lacking a cDNA insert with the FuGene6 reagent ( Roche ) , and puromycin resistant colonies selected and pooled for analysis .
+For RNAi studies , three sequences against mouse neogenin were tested initially .
+Oligonucleotides corresponding to the neogenin sequences were cloned into the pSilencer 2.0-U6 vector ( Ambion ) , and 9.0 mug of the individual vectors or parental vector were transfected with 1.0 mug of an EGFP expression vector ( CLONTECH Laboratories , Inc. ) into C2C12 cells with FuGene6 .
+GFP positive cells were isolated 24 h later , with a FACDiVa flow cytometer ( Becton Dickinson ) and identical numbers of cells replated .
+The cultures were harvested 48 h later and analyzed for neogenin expression by Western blotting .
+The most effective sequence was chosen for further use and corresponds to nucleotides 3180-3198 of the GenBank sequence of murine neogenin ( GenBank/EMBL/DDBJ accession no .
+NM_008684 : ACCTAGAACCATCATAGTG ) .
+To test the effects of RNAi to neogenin on myotube formation , 10-cm plates of C2C12 cells were cotransfected with 9.5 mug of control or neogenin RNAi vector with 0.5 mug of pQ-lacZ , a vector driving expression of nuclear localized beta-gal ( provided by D. Sassoon , Mount Sinai School of Medicine ) .
+48 h after transfection , the cultures were transferred to DME plus 5 % FBS to stimulate differentiation ; 24 h later the cells were fixed with 4 % PFA , permeabilized with 0.01 % NP-40 and stained for beta-gal activity with X-gal .
+The cultures were subsequently immunostained for MHC expression as described previously ( ) .
+For rescue experiments , the transfections included 4.5 mug control or neogenin RNAi vector , 4.5 mug pBabePuro or pBabePuro-hNeogenin vector , and 0.5 mug pQ-lacZ ; the remainder of the protocol was identical .
+Protein and RNA analysis
+Western blot analyses were performed as described in .
+Antibodies used were antineogenin ( Santa Cruz Biotechnology , Inc. ) ; antinetrin-3 ( provided by H. Cooper , Walter and Eliza Hall Institute , Victoria , Australia ; ) ; anti-DCC ( Santa Cruz Biotechnology , Inc. ) ; anti-NFATc3 ( Santa Cruz Biotechnology , Inc. ) ; anti-CDO ( Zymed Laboratories ) ; antipan cadherin ( Sigma-Aldrich ) ; anti-MHC ( MF20 ; Developmental Studies Hybridoma Bank ) ; anti-MyoD ( Santa Cruz Biotechnology , Inc. ) ; antimyogenin ( F5D ; Santa Cruz Biotechnology , Inc. ) ; and anti-TnT ( Sigma-Aldrich ) .
+To study neogenin and CDO complex formation , co-immunoprecipitation techniques were performed as described previously ( ) .
+CDO deletion mutants lacking each individual ectodomain repeat were constructed by a combination of PCR and conventional cloning techniques and verified by sequence analysis .
+The CDO ( TMintra ) mutant was previously described ( ) .
+Details on the construction of these mutants are available on request .
+Total cellular RNA was isolated with the TRIzol reagent ( Life Technologies ) .
+Northern blot analyses with 32 P labeled probes were performed as described previously ( ) .
+Mouse netrin-1 and netrin-3 cDNA probes were derived from mouse EST clones obtained from Open Biosystems .
+Luciferase assays
+C2C12 and 10T1 and 2 cells cultured in 6-well plates were cotransfected with 4Rtk-luc or NFAT-luc reporters ( 500 ng ; provided by A. Lassar , Harvard University , Cambridge , MA , and G. Crabtree , Stanford University , Stanford , CA , respectively ) , pBabePuro or pBabePuro-neogenin ( 500 ng ) , and pCMV-lacZ as an internal control ( 50 ng ) using FuGene6 .
+In the case of 4Rtk-luc assays in 10T1 and 2 cells , 5 ng each of MyoD and E12 expression vectors were also included .
+48 h after transfection , cells were harvested and luciferase activity assessed with the Promega luciferase assay system kit .
+Microscopy
+Cultures were processed for MHC expression and and or beta-gal activity as described above and examined on a phase contrast microscope ( model Eclipse TS100 ; Nikon ) with Plan Fluor 10x and 0 .3 and 20x and 0 .45 objectives ( Nikon ) , at RT. .
+Images were captured with a Spot RT Color camera ( model 2.2.1 ) using Spot software ( version 3.5.9 ) and Adobe Photoshop 7.0 .
+Online supplemental material
+Fig .
+S1 shows growth curves of C2C12 and puro and C2C12 and neogenin cells .
+Fig .
+S2 shows that expression of neogenin RNAi reduces myotube formation in GFP sorted cells .
+Fig .
+S3 shows growth curves of C2C12 cells treated with 5 % FBS plus or minus netrin-2 .
+Online supplemental material is available at http://www.jcb.org/cgi/content/full/jcb.200405039/DC1 .

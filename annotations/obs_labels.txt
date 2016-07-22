@@ -1,0 +1,13329 @@
+incipient cellular bud site
+Golgi cis cisterna
+Golgi trans cisterna
+Golgi membranes
+cellular bud neck contractile ring
+cellular bud neck septin rings
+nuclear chromosome
+cytoplasmic chromosome
+pericentriolar material
+mitochondrial chromosome
+extrinsic component of vacuolar membranes
+storage vacuole
+lytic vacuoles
+fungal-type vacuole
+plant-type vacuoles
+protein storage vacuoles
+lytic vacuole within protein storage vacuoles
+fungal-type vacuole lumens
+fungal-type vacuole membrane
+plant-type vacuole lumen
+contractile vacuoles
+cellular bud neck septin structures
+pre-autophagosomal structures
+autophagic vacuole membrane
+chromosome, centromeric region
+condensed chromosome, centromeric regions
+condensed nuclear chromosome, centromeric regions
+chromosome, telomeric regions
+nuclear chromosome, telomeric regions
+condensed chromosome
+condensed nuclear chromosomes
+synaptonemal complex
+lateral element
+central elements
+transverse filament
+sex chromosome
+W chromosome
+X chromosome
+Y chromosome
+Z chromosomes
+spindle poles
+equatorial microtubule organizing center
+adventitious septum
+porous cell septum
+barrier septum
+primary cell septum
+dolipore septums
+retrotransposon nucleocapsid
+mating projection base
+hyphal tip
+outer dense fiber
+microfibril
+cornified envelope
+fibrillar centers
+dense fibrillar components
+granular components
+acrosomal vesicles
+male germ cell nucleuses
+female germ cell nucleus
+stress fibers
+ruffle
+Barr bodies
+XY body
+photoreceptor outer segments
+immunological synapses
+phagocytic cup
+photoreceptor inner segments
+uropod
+female pronucleus
+male pronucleus
+inner acrosomal membranes
+acrosomal membrane
+outer acrosomal membrane
+stereocilia coupling links
+stereocilia tip link
+stereocilia ankle link
+manchettes
+extracellular region
+proteinaceous extracellular matrixs
+basement membrane
+basal laminas
+interstitial matrix
+extracellular space
+cell walls
+ascospore walls
+cellular bud scar
+intracellular
+prospore membrane
+dityrosine layer of spore wall
+chitosan layer of spore walls
+inner layer of spore wall
+ascus lipid particles
+nucleus
+nuclear envelopes
+nuclear inner membrane
+integral component of nuclear inner membranes
+nuclear outer membranes
+nuclear envelope lumen
+annulate lamellae
+nuclear laminas
+nucleoplasms
+replication forks
+chromosome
+polytene chromosome
+polytene chromosome chromocenters
+polytene chromosome weak points
+polytene chromosome puff
+polytene chromosome band
+polytene chromosome interbands
+polytene chromosome ectopic fibers
+chiasma
+recombination nodules
+early recombination nodule
+late recombination nodules
+extrachromosomal circular DNA
+extrachromosomal rDNA circles
+2-micrometer circle DNA
+nucleolus
+cytoplasm
+mitochondrion
+mitochondrial envelope
+mitochondrial outer membrane
+mitochondrial inner membranes
+mitochondrial respiratory chain
+mitochondrial intermembrane space
+mitochondrial matrix
+lysosomes
+lysosomal membranes
+primary lysosomes
+secondary lysosomes
+endosome
+early endosomes
+late endosome
+multivesicular bodies
+vacuole
+vacuolar membrane
+vacuolar lumens
+autophagic vacuole
+peroxisome
+peroxisomal membrane
+integral component of peroxisomal membrane
+extrinsic component of intraperoxisomal membrane
+peroxisomal matrix
+endoplasmic reticulum
+endoplasmic reticulum lumen
+endoplasmic reticulum membrane
+smooth endoplasmic reticulum
+rough endoplasmic reticulums
+endoplasmic reticulum-Golgi intermediate compartments
+Golgi apparatus
+Golgi stacks
+Golgi lumens
+Golgi medial cisternas
+Golgi-associated vesicles
+cis-Golgi networks
+trans-Golgi networks
+lipid particle
+centrosomes
+centriole
+microtubule organizing centers
+spindle pole bodies
+spindles
+intermediate layer of spindle pole body
+inner plaque of spindle pole body
+central plaque of spindle pole bodies
+outer plaque of spindle pole body
+half bridge of spindle pole bodies
+actomyosin contractile rings
+cytosols
+cytoskeleton
+muscle thin filament tropomyosins
+striated muscle thin filaments
+plasma membrane
+integral component of plasma membranes
+caveola
+microvillus
+brush border
+coated pit
+cell-cell junction
+adherens junctions
+cell-cell adherens junction
+spot adherens junctions
+zonula adherenses
+fascia adherenses
+nephrocyte diaphragms
+septate junction
+pleated septate junctions
+smooth septate junction
+gap junctions
+bicellular tight junctions
+cell-substrate adherens junction
+focal adhesion
+connecting hemi-adherens junction
+muscle tendon junction
+apical hemi-adherens junction
+cilium
+axoneme
+cellular buds
+cellular bud tip
+cellular bud neck
+mating projection
+cell cortexs
+septin rings
+lamina lucida
+lamina densa
+lamina reticularises
+synaptic vesicles
+spectrin
+peptidoglycan-based cell wall
+Gram-positive-bacterium-type cell walls
+Gram-negative-bacterium-type cell wall
+fungal-type cell walls
+cell outer membranes
+bacterial-type flagellum
+pilus
+nucleoids
+pilus shafts
+pilus tip
+bacterial-type flagellum filament
+bacterial-type flagellum filament caps
+bacterial-type flagellum hook-filament junction
+bacterial-type flagellum hook
+bacterial-type flagellum basal bodies
+bacterial-type flagellum basal body, distal rod
+bacterial-type flagellum basal body, distal rod, L ring
+bacterial-type flagellum basal body, distal rod, P rings
+bacterial-type flagellum basal body, proximal rods
+bacterial-type flagellum basal body, MS ring
+bacterial-type flagellum basal body, C rings
+amyloplast
+cell plates
+plant-type cell wall
+plasmodesma
+chloroplasts
+plastid chromosome
+chromoplast
+plasmodesmatal desmotubule
+plasmodesmatal endoplasmic reticulums
+etioplast
+glyoxysome
+granal stacked thylakoids
+leucoplasts
+middle lamellas
+phragmoplasts
+phragmosomes
+plastid envelope
+plastid outer membrane
+plastid inner membrane
+plastid intermembrane spaces
+primary cell wall
+secondary cell wall
+plastid stroma
+chloroplast stromal thylakoids
+chloroplast thylakoids
+chloroplast thylakoid membranes
+plastid
+proplastids
+etioplast prolamellar body
+granums
+chloroplast thylakoid lumen
+elaioplast
+plasmodesmatal cytoplasmic sleeve
+plasmodesmatal plasma membrane
+cellulose microfibril
+primary plasmodesmas
+secondary plasmodesma
+amyloplast starch grain
+chloroplast starch grains
+chloroplast stromas
+proplastid stromas
+preprophase bands
+chromoplast stroma
+leucoplast stromas
+elaioplast stromas
+etioplast stromas
+thylakoid
+plant-type vacuole membranes
+chloroplast inner membrane
+chloroplast outer membranes
+cyanelles
+cyanelle thylakoids
+external side of plasma membrane
+cytoplasmic side of plasma membranes
+basal plasma membranes
+longitudinal side of cell surface
+chloroplast envelopes
+cell surfaces
+endosome membranes
+cytoplasmic side of endosome membrane
+ER body
+senescence-associated vacuoles
+plastoglobules
+stromule
+external side of cell wall
+chromocenter
+perinucleolar chromocenter
+nuclear dicing bodies
+endomembrane system
+vesicle membranes
+ER to Golgi transport vesicle membranes
+Golgi to ER transport vesicle membranes
+inter-Golgi transport vesicle membrane
+trans-Golgi network transport vesicle membranes
+monolayer-surrounded lipid storage bodies
+postsynaptic density
+junctional sarcoplasmic reticulum membrane
+free sarcoplasmic reticulum membranes
+intercalated discs
+C zones
+spectrin-associated cytoskeleton
+longitudinal sarcoplasmic reticulum
+terminal cisternas
+longitudinal sarcoplasmic reticulum lumens
+terminal cisterna lumens
+Cajal body
+actin cytoskeleton
+microtubule cytoskeletons
+Nebenkern
+mitochondrial derivative
+major mitochondrial derivatives
+minor mitochondrial derivatives
+membrane
+integral component of membranes
+cytoplasmic membrane-bounded vesicles
+rhabdomere
+subrhabdomeral cisternas
+inclusion body
+aggresomes
+basolateral plasma membranes
+apical plasma membranes
+apicolateral plasma membranes
+lateral plasma membranes
+nuclear matrix
+sarcoplasm
+sarcoplasmic reticulum
+nuclear bodies
+PML bodies
+LYSP100-associated nuclear domain
+nuclear speck
+hosts
+virions
+viral nucleocapsids
+viral genome
+non-segmented viral genome
+segmented viral genomes
+bipartite viral genome
+tripartite viral genome
+multipartite viral genome
+DNA viral genomes
+RNA viral genome
+dsRNA viral genomes
+ssRNA viral genome
+positive sense viral genome
+negative sense viral genome
+ambisense viral genome
+viral capsids
+helical viral capsid
+icosahedral viral capsid
+viral envelopes
+viral tegument
+viral replication complexs
+viral assembly intermediate
+proviruses
+P1 peroxisome
+P2 peroxisome
+P3 peroxisomes
+P4 peroxisomes
+P5 peroxisomes
+P6 peroxisomes
+organelle inner membrane
+outer membrane
+extrinsic component of plasma membrane
+extrinsic component of membranes
+host cell plasma membranes
+symbiont-containing vacuoles
+symbiont-containing vacuolar spaces
+symbiont-containing vacuole membrane
+symbiont-containing vacuolar membrane networks
+apical complex
+rhoptries
+micronemes
+conoid
+apicoplast
+glycosomes
+ciliary pocket
+ciliary pocket membranes
+food vacuoles
+acidocalcisomes
+kinetoplast
+merozoite dense granules
+infected host cell surface knobs
+polar ring of apical complexs
+basal ring of apical complexs
+Maurer's clefts
+subpellicular networks
+pellicle
+myofibrils
+sarcomeres
+Z disc
+lamellipodiums
+cell junctions
+cell-substrate junctions
+hemidesmosome
+desmosome
+mitochondrial crista
+bacterial thylakoids
+glycocalyx
+slime layer
+S-layer
+transport vesicles
+ER to Golgi transport vesicles
+coated vesicle
+clathrin-coated vesicle
+COPI-coated vesicles
+endocytic vesicle
+trans-Golgi network transport vesicles
+secretory granules
+Golgi to ER transport vesicle
+inter-Golgi transport vesicle
+integral component of Golgi membrane
+filopodium
+integral component of endoplasmic reticulum membranes
+integral component of synaptic vesicle membranes
+cell wall-bounded periplasmic space
+outer membrane-bounded periplasmic spaces
+external encapsulating structure
+cell envelope
+T-tubule
+axons
+dendrite
+growth cones
+site of polarized growths
+cell septums
+host cell cytoplasm
+yeast-form cell wall
+hyphal cell wall
+actin cap
+actin cortical patch
+smooth muscle contractile fiber
+smooth muscle dense body
+midbodies
+transport vesicle membrane
+cytoplasmic vesicle membrane
+Golgi-associated vesicle membranes
+chitosome membrane
+coated vesicle membrane
+COPI-coated vesicle membrane
+clathrin-coated vesicle membrane
+endocytic vesicle membranes
+secretory granule membranes
+merozoite dense granule membranes
+clathrin-coated endocytic vesicle membrane
+phagocytic vesicle membranes
+clathrin-coated phagocytic vesicle membranes
+synaptic vesicle membrane
+axolemma
+bacterial-type flagellum basal body, rods
+autosomes
+cortical cytoskeleton
+cortical actin cytoskeletons
+rough endoplasmic reticulum membranes
+smooth endoplasmic reticulum membranes
+cortical microtubule cytoskeleton
+linear element
+actin rods
+actin tubule
+extracellular matrixs
+interphase microtubule organizing centers
+macronucleus
+micronucleuses
+dense core granule
+platelet dense granule membranes
+platelet dense granule lumens
+organelle membranes
+platelet alpha granules
+platelet alpha granule membrane
+platelet alpha granule lumens
+platelet dense tubular networks
+platelet dense tubular network membrane
+platelet dense tubular network lumens
+medial cortex
+pseudopodium
+spore wall
+contractile vacuolar membranes
+integral component of contractile vacuolar membrane
+integral component of vacuolar membrane
+intrinsic component of membrane
+anchored component of membrane
+intrinsic component of plasma membranes
+intrinsic component of endoplasmic reticulum membranes
+intrinsic component of Golgi membranes
+intrinsic component of nuclear inner membrane
+intrinsic component of cell outer membrane
+intrinsic component of peroxisomal membranes
+extrinsic component of external side of plasma membranes
+intrinsic component of external side of plasma membrane
+extrinsic component of cytoplasmic side of plasma membranes
+intrinsic component of the cytoplasmic side of the plasma membrane
+extrinsic component of periplasmic side of plasma membranes
+intrinsic component of periplasmic side of plasma membrane
+external side of cell outer membrane
+periplasmic side of cell outer membrane
+extrinsic component of external side of cell outer membranes
+intrinsic component of external side of cell outer membrane
+extrinsic component of cell outer membrane
+extrinsic component of periplasmic side of cell outer membranes
+intrinsic component of periplasmic side of cell outer membranes
+cell leading edge
+cell projection membranes
+cell trailing edge
+lateral part of motile cell
+leading edge membranes
+cell trailing edge membranes
+lamellipodium membrane
+uropod membrane
+pseudopodium membranes
+intrinsic component of organelle membranes
+integral component of organelle membrane
+intrinsic component of endosome membrane
+integral component of endosome membranes
+intrinsic component of mitochondrial inner membrane
+integral component of mitochondrial inner membranes
+intrinsic component of mitochondrial outer membrane
+integral component of mitochondrial outer membranes
+intrinsic component of nuclear outer membranes
+integral component of nuclear outer membranes
+intrinsic component of vacuolar membrane
+intrinsic component of contractile vacuolar membrane
+extrinsic component of organelle membrane
+extrinsic component of endosome membrane
+extrinsic component of mitochondrial inner membranes
+extrinsic component of mitochondrial outer membranes
+extrinsic component of nuclear outer membranes
+intrinsic component of plastid membrane
+integral component of plastid membrane
+intrinsic component of plastid inner membrane
+integral component of plastid inner membranes
+intrinsic component of plastid outer membrane
+integral component of plastid outer membrane
+intrinsic component of chloroplast inner membranes
+integral component of chloroplast inner membranes
+intrinsic component of chloroplast outer membrane
+integral component of chloroplast outer membranes
+intrinsic component of thylakoid membrane
+integral component of thylakoid membrane
+anchored component of external side of plasma membranes
+cytoplasmic vesicles
+gas vesicle
+M band
+polyhedral organelle
+carboxysomes
+ethanolamine degradation polyhedral organelle
+propanediol degradation polyhedral organelle
+motile primary ciliums
+nonmotile primary cilium
+motile cilium
+plasma membrane of cell tip
+brush border membrane
+filopodium membranes
+microvillus membranes
+centrosomal coronas
+neuromuscular junctions
+spindle pole centrosome
+xanthophore
+A bands
+H zones
+I band
+plasma membrane-derived thylakoid membrane
+chromoplast envelopes
+chromoplast inner membrane
+chromoplast outer membranes
+early endosome membranes
+late endosome membrane
+microbody membranes
+endosome lumens
+early endosome lumens
+late endosome lumen
+microbody lumen
+glyoxysomal lumen
+cytostomes
+cytoprocts
+oral apparatus
+nuclear membranes
+mitochondrial membranes
+organelle envelope
+organelle outer membrane
+chloroplast membranes
+organelle envelope lumens
+chloroplast intermembrane space
+chromoplast intermembrane spaces
+membrane-enclosed lumen
+envelope
+plastid thylakoid
+thylakoid lumens
+plastid thylakoid lumens
+plasma membrane-derived thylakoid lumens
+nuclear lumen
+vesicles
+vesicle lumens
+organelle subcompartment
+Golgi cisterna
+proteinoplasts
+membrane-bounded vesicles
+early phagosomes
+phagolysosomes
+mitochondrial clouds
+micropexophagy-specific membrane apparatus
+mitosomes
+blebs
+deep fiber
+eisosome
+dense core granule membrane
+cell division site
+cleavage furrows
+cell division site parts
+septin cytoskeleton
+prospore contractile ring
+septin bands
+septin caps
+septin filament array
+cleavage apparatus septin structures
+mating projection septin band
+hyphal septin bands
+hyphal septin caps
+prospore septin filament array
+chlamydospore septin filament array
+hyphal septin rings
+prospore septin ring
+pseudohyphal septin rings
+germ tube septin caps
+germ tube septin rings
+septin collars
+cellular bud neck septin collar
+mating projection septin ring
+split septin rings
+cellular bud neck split septin rings
+medial membrane band
+germ tubes
+post-lysosomal vacuoles
+asymmetric synapses
+symmetric synapse
+photoreceptor connecting cilium
+extrinsic component of lysosome membranes
+stereocilium
+stereocilium bundle
+stereocilium bundle tips
+actin filament bundles
+filopodium tip
+cuticular plates
+cytoplasmic side of mitochondrial outer membranes
+cortical endoplasmic reticulums
+aleurone grain membrane
+apical lamina of hyaline layer
+Golgi cisterna membranes
+growth cone membranes
+multivesicular body membrane
+protein storage vacuole membranes
+ruffle membrane
+trans-Golgi network membranes
+neuron projection membrane
+dendrite membrane
+dendritic spine membrane
+integral component of mitochondrial membrane
+insulin-responsive compartment
+neuronal cell body membrane
+cell projection cytoplasms
+dendrite cytoplasms
+macromolecular complex
+nucleomorphs
+paranodal junction
+perinuclear theca
+porosomes
+rhoptry membranes
+sarcoplasmic reticulum membranes
+sarcoplasmic reticulum lumens
+Weibel-Palade body
+aleurone grain
+amyloplast envelope
+amyloplast membranes
+amyloplast inner membrane
+attachment organelles
+cellular bud membranes
+acidocalcisome membranes
+chlorosome envelope
+cis-Golgi network membranes
+CVT vesicle
+Cvt vesicle membranes
+attachment organelle membrane
+cyanelle envelope
+cyanelle membranes
+cyanelle thylakoid lumen
+cyanelle thylakoid membranes
+endoplasmic reticulum-Golgi intermediate compartment membranes
+esterosomes
+esterosome membrane
+cytoskeletal calyx
+melanosome membrane
+microneme membrane
+interphotoreceptor matrix
+hyaline layer
+gas vesicle shell
+axon part
+node of Ranvier
+internode region of axon
+paranode region of axons
+rhabdomere membranes
+host cell parts
+host cell membrane
+host cell endomembrane system
+host intracellular part
+host intracellular organelle
+host intracellular membrane-bounded organelle
+host cell mitochondrion
+host cell plastids
+host cell chloroplasts
+host cell chloroplast parts
+host cell chloroplast thylakoid membranes
+host cell cytoplasm part
+pericanalicular vesicles
+basal labyrinths
+acidocalcisome lumen
+pre-autophagosomal structure membranes
+cyanelle stromas
+photosynthetic membranes
+nuclear peripheries
+gerontoplasts
+aleurone grain lumens
+autophagic vacuole lumen
+etioplast envelopes
+etioplast membranes
+monolayer-surrounded lipid storage body outer lipid monolayer
+centriolar satellite
+chromaffin granule lumen
+esterosome lumens
+glycosome lumens
+Golgi stack lumens
+hydrogenosome lumens
+melanosome lumens
+microneme lumen
+protein storage vacuole lumen
+chromosome, centromeric core domains
+chromosome, centromeric outer repeat regions
+rhoptry lumen
+synaptic vesicle lumens
+organelle-enclosing lipid monolayers
+secretory granule lumens
+recycling endosome lumens
+microtubule organizing center attachment site
+polytene chromosome, telomeric region
+interchromatin granules
+omega speckles
+female germline ring canal outer rims
+female germline ring canal inner rims
+cytoneme
+ciliary rootlet
+male germline ring canals
+female germline ring canals
+histone locus body
+extrinsic component of thylakoid membranes
+extrinsic component of plastid thylakoid membranes
+extrinsic component of lumenal side of plastid thylakoid membranes
+extrinsic component of stromal side of plastid thylakoid membrane
+extrinsic component of plastid membrane
+extrinsic component of plastid inner membrane
+extrinsic component of stromal side of plastid inner membrane
+azurophil granule membranes
+azurophil granule lumen
+specific granule membranes
+specific granule lumen
+root hairs
+root hair tip
+sperm fibrous sheaths
+myelin sheath abaxonal regions
+myelin sheath adaxonal region
+other organism postsynaptic membranes
+egg coats
+growing cell tips
+non-growing cell tips
+old growing cell tips
+new growing cell tip
+old cell tip after activation of bipolar cell growth
+endonuclear canals
+site of double-strand breaks
+ciliary transition zones
+meiotic spindle pole body
+rhabdomere microvillus
+rhabdomere microvillus membrane
+mucocyst
+scintillons
+cyanelle inner membranes
+cyanelle outer membranes
+cyanelle intermembrane spaces
+endolysosomes
+endolysosome membrane
+endolysosome lumens
+filtration diaphragm
+slit diaphragm
+presynaptic periactive zones
+acroblast
+ciliary basal body
+hyaluranon cables
+sperm flagellum
+early phagosome membranes
+muscle cell projection
+muscle cell projection membranes
+pairing center
+septal periplasms
+viral membranes
+ascus membrane
+myofilament
+medial cortex septin rings
+anchored component of cell outer membrane
+anchored component of periplasmic side of cell outer membrane
+mycolate outer membrane
+intrinsic component of mycolate outer membrane
+integral component of mycolate outer membrane
+extrinsic component of mycolate outer membrane
+extrinsic component of external side of mycolate outer membrane
+keratohyalin granule
+somatodendritic compartment
+TOR complex
+T=1 icosahedral viral capsids
+T=2 icosahedral viral capsid
+T=3 icosahedral viral capsids
+T=pseudo3 icosahedral viral capsids
+T=4 icosahedral viral capsid
+T=7 icosahedral viral capsid
+T=13 icosahedral viral capsids
+T=16 icosahedral viral capsids
+T=25 icosahedral viral capsids
+viral outer capsids
+viral inner capsids
+viral intermediate capsid
+T=147 icosahedral capsid
+T=169 icosahedral viral capsids
+T=219 icosahedral capsids
+viral inner membranes
+virion nucleoid
+host cell viral nucleoids
+host organelle outer membranes
+host cell outer membranes
+viral capsid, turret
+viral occlusion bodies
+viral factories
+cytoplasmic viral factories
+nuclear viral factory
+viroplasm viral factory
+spherule viral factories
+double membrane vesicle viral factory
+tube viral factory
+virogenic stroma
+peristromal region viral factory
+host cell nucleuses
+nematocyst
+plastid membrane
+nuclear outer membrane-endoplasmic reticulum membrane network
+paraspeckles
+sarcolemmas
+nuclear inclusion bodies
+extrinsic component of endoplasmic reticulum membrane
+melanosomes
+hydrogenosome
+microbody
+mannosomes
+specific granule
+azurophil granule
+chromaffin granule
+chromaffin granule membranes
+germinal vesicles
+glycogen granule
+zymogen granule
+zymogen granule membrane
+periplasmic spaces
+lamellar bodies
+chorions
+endospore-forming forespores
+capsule
+photoreceptor outer segment membranes
+mast cell granules
+actomyosin
+chloroplast nucleoids
+mitochondrial nucleoid
+plastid nucleoid
+proplastid nucleoid
+chloroplast chromosomes
+prothylakoid
+prothylakoid membranes
+thylakoid membrane
+plasma membrane-derived chromatophores
+plasma membrane-derived chromatophore membrane
+yolk granules
+presynaptic membrane
+protein bodies
+giant axons
+intracellular immature spores
+ascospore-type prospore
+central vacuole
+platelet dense granules
+cell projections
+neuron projection
+neuronal cell body
+costamere
+starch grain
+germ cell nucleus
+megasporocyte nucleus
+polar nucleuses
+antipodal cell nucleus
+megagametophyte egg cell nucleus
+synaptic cleft
+acrosomal matrixs
+acrosomal lumens
+cell septum surface
+cell septum edging
+axon initial segment
+terminal bouton
+varicosities
+dendritic spine
+dendritic shafts
+lysosomal lumen
+axon hillock
+perikaryons
+fibrils
+myelin sheath
+compact myelins
+lateral loop
+Schmidt-Lanterman incisure
+organelles
+membrane-bounded organelle
+non-membrane-bounded organelles
+intracellular organelles
+extracellular organelle
+intracellular membrane-bounded organelle
+intracellular non-membrane-bounded organelle
+organelle lumen
+extraorganismal spaces
+megasomes
+cellulosome
+extracellular non-membrane-bounded organelles
+ectoplasm
+contractile fibers
+apical junction complexs
+mating projection tips
+bacterial nucleoid
+endospore external encapsulating structure
+exosporiums
+endospore coats
+outer endospore membranes
+endospore cortexs
+nuclear replication fork
+cytoplasmic replication fork
+extracellular space of host
+intracellular region of hosts
+host cells
+host symbiosome
+symbiosomes
+bacteroid-containing symbiosome
+peribacteroid membranes
+peribacteroid fluids
+host bacteroid-containing symbiosomes
+host peribacteroid membranes
+host peribacteroid fluid
+pollen walls
+exines
+ectexines
+foot layer
+endexine
+nexine
+sexine
+columella
+sculpture elements
+tectums
+germination pore
+intines
+axon terminus
+filiform apparatus
+iridosome
+leucosomes
+pterinosome
+cyanosomes
+carotenoid vesicle
+host cell membrane pore complex
+host cell nuclear part
+host cell nucleoplasms
+type IV piluses
+polar tubes
+sporoplasm
+host caveola
+host cell junctions
+host cell projection
+host cell wall
+host thylakoids
+host thylakoid membrane
+host cell cytoplasmic vesicles
+host cell cytoplasmic vesicle membrane
+host cytoskeleton
+host cell cytosols
+host cell endoplasmic reticulum
+host cell endoplasmic reticulum lumens
+host cell endoplasmic reticulum membrane
+host cell rough endoplasmic reticulum
+host cell rough endoplasmic reticulum membranes
+host cell smooth endoplasmic reticulums
+host cell smooth endoplasmic reticulum membranes
+host cell endoplasmic reticulum-Golgi intermediate compartment
+host cell endoplasmic reticulum-Golgi intermediate compartment membrane
+host cell endosomes
+host cell endosome membranes
+host cell filopodiums
+host cell Golgi apparatus
+host cell Golgi membranes
+host cell late endosome
+host cell late endosome membrane
+host cell lipid particles
+host cell lysosomes
+host cell lysosomal membranes
+host cell mitochondrial envelope
+host cell mitochondrial membrane
+host cell mitochondrial inner membranes
+host cell mitochondrial outer membranes
+cytolytic granules
+nucleoplasmic reticulum
+host cell nucleoluses
+host cell nuclear envelopes
+host cell nuclear membranes
+host cell nuclear inner membranes
+host cell nuclear outer membranes
+host cell nuclear lamina
+host cell nuclear matrixs
+spanning component of plasma membrane
+other organism
+other organism cell
+other organism part
+other organism cell membranes
+host cell plasmodesma
+host cell perinuclear region of cytoplasms
+host cell synapse
+anammoxosome
+pirellulosome
+juxtaparanode region of axon
+apical pole of neurons
+basal pole of neuron
+methane-oxidizing organelles
+host cell surfaces
+host cell periplasmic space
+host cell envelopes
+host cell presynaptic membrane
+organelle membrane contact sites
+ER-mitochondrion membrane contact site
+other organism membranes
+subplasmalemmal coatings
+mitochondrial crista junctions
+bridge contact sites
+peg and socket contact
+puncta adhaerentia
+contact site
+mitochondrial intracristal spaces
+cell-cell contact zone
+dendrite terminuses
+dendriole
+dendritic growth cone
+axonal growth cones
+dendritic tuft
+cell body
+cell body membranes
+C-fiber
+cerebellar mossy fibers
+climbing fibers
+dentate gyrus mossy fiber
+axon collaterals
+main axon
+calyx of Helds
+neuron projection terminuses
+dendritic branch
+axonal spines
+neuron spine
+osmiophilic bodies
+exoneme
+crystalloids
+cone cell pedicle
+rod spherules
+endoplasmic reticulum quality control compartment
+dendritic spine necks
+dendritic spine head
+pinosomes
+micropinosomes
+macropinosomes
+host chromosome
+host outer membrane
+integral to membrane of host cell
+integral to host endoplasmic reticulum membranes
+microspike
+extracellular matrix components
+extracellular region part
+organelle parts
+virion part
+intracellular parts
+membrane parts
+cell wall parts
+chromosomal part
+nuclear part
+mitochondrial parts
+cytoskeletal parts
+Golgi apparatus parts
+endoplasmic reticulum part
+cytoplasmic vesicle parts
+chloroplast parts
+plastid part
+thylakoid parts
+vacuolar part
+microbody part
+peroxisomal part
+endosomal parts
+ciliary part
+pilus part
+cytoplasmic part
+cytosolic part
+intracellular organelle part
+axoneme part
+cell cortex part
+contractile fiber parts
+microtubule organizing center parts
+nucleoplasm parts
+nucleolar part
+nuclear membrane part
+nuclear chromosome parts
+mitochondrial membrane parts
+synapse parts
+cell septum parts
+plasma membrane part
+bacterial-type flagellum parts
+external encapsulating structure parts
+cell projection parts
+cell part
+host cell peripheries
+host-symbiont bicellular tight junction
+mitotic spindle pole body
+amphisome
+autolysosome
+gut granule
+gut granule membranes
+gut granule lumen
+plasma membrane rafts
+chitosome
+intermediate filament cytoskeleton
+pronucleuses
+membrane rafts
+fusomes
+spectrosomes
+intercellular bridges
+germline ring canals
+apical part of cells
+basal part of cell
+apical cortex
+basal cortexs
+synapses
+integral component of cell outer membrane
+postsynaptic membranes
+clathrin-coated endocytic vesicle
+phagocytic vesicle
+clathrin-coated phagocytic vesicles
+pole plasms
+intercellular canaliculus
+anchored component of plasma membranes
+intracellular canaliculus
+capsomere
+viral procapsids
+assemblon
+replication compartments
+virion transport vesicles
+dense nuclear bodies
+extrachromosomal DNA
+chlorosome
+hydrogenosomal membrane
+glycosome membranes
+glyoxysomal membranes
+chromoplast membrane
+mesosomes
+apoplasts
+pectic matrix
+glycoprotein networks
+hemicellulose network
+lignin networks
+suberin networks
+Casparian strip
+rough endoplasmic reticulum lumen
+smooth endoplasmic reticulum lumens
+primary endosperm nucleus
+perinuclear region of cytoplasms
+coated membrane
+generative cell nucleuses
+microsporocyte nucleuses
+pigment granules
+presynaptic active zone
+presynaptic active zone membranes
+presynaptic cytoskeletal matrix assembled at active zones
+secondary cell septums
+spindle midzone
+cell cortex of cell tip
+cell tip
+plastid thylakoid membrane
+virion membrane
+recycling endosome
+recycling endosome membrane
+trichocysts
+periplasmic flagellum
+symplasts
+striated muscle dense bodies
+neurofilament cytoskeletons
+excitatory synapse
+inhibitory synapse
+kinociliums
+collagen and cuticulin-based cuticle extracellular matrix
+collagen and cuticulin-based cuticle extracellular matrix parts
+surface coat of collagen and cuticulin-based cuticle extracellular matrix
+epicuticle of collagen and cuticulin-based cuticle extracellular matrixs
+cortical layer of collagen and cuticulin-based cuticle extracellular matrixs
+annuli extracellular matrixs
+annular furrow extracellular matrix
+medial layer of collagen and cuticulin-based cuticle extracellular matrix
+basal layer of collagen and cuticulin-based cuticle extracellular matrix
+alae of collagen and cuticulin-based cuticle extracellular matrix
+ciliary membrane
+stereocilium membranes
+cell poles
+clathrin-sculpted vesicle
+clathrin-sculpted glutamate transport vesicle
+clathrin-sculpted acetylcholine transport vesicle
+clathrin-sculpted acetylcholine transport vesicle membranes
+clathrin-sculpted acetylcholine transport vesicle lumens
+clathrin-sculpted glutamate transport vesicle membranes
+clathrin-sculpted glutamate transport vesicle lumens
+cytoplasmic membrane-bounded vesicle lumen
+germ plasm
+photoreceptor inner segment membrane
+fertilization envelopes
+vitelline envelopes
+yolks
+yolk plasmas
+cortical granules
+type I terminal bouton
+type II terminal boutons
+type Ib terminal bouton
+type Is terminal bouton
+clathrin-sculpted gamma-aminobutyric acid transport vesicles
+clathrin-sculpted gamma-aminobutyric acid transport vesicle lumen
+clathrin-sculpted gamma-aminobutyric acid transport vesicle membranes
+integral component of muscle cell projection membrane
+plasma membrane part of cell-substrate junction.s
+plasma membrane part of hemidesmosomes
+plasma membrane part of cell junctions
+karyomeres
+phagolysosome membrane
+central plaque of mitotic spindle pole bodies
+half bridge of mitotic spindle pole body
+inner plaque of mitotic spindle pole body
+intermediate layer of mitotic spindle pole body
+outer plaque of mitotic spindle pole bodies
+sublamina densas
+endocytic patchs
+tricellular tight junctions
+extracellular membrane-bounded organelle
+intracellular organelle lumen
+prospore membrane leading edges
+prospore membrane spindle pole body attachment site
+extracellular exosomes
+mononemes
+clathrin-sculpted monoamine transport vesicle
+clathrin-sculpted monoamine transport vesicle lumen
+clathrin-sculpted monoamine transport vesicle membranes
+PHA granule
+metaphase plate
+organellar chromatophores
+organellar chromatophore membranes
+organellar chromatophore inner membranes
+organellar chromatophore outer membranes
+organellar chromatophore intermembrane spaces
+organellar chromatophore thylakoids
+organellar chromatophore thylakoid lumen
+organellar chromatophore thylakoid membranes
+occluding junction
+anchoring junction
+mating projection membrane
+inner membrane complexs
+external side of fungal-type cell wall
+Golgi to plasma membrane transport vesicles
+endosome to plasma membrane transport vesicles
+exocytic vesicle
+cell hair
+respiratory chain
+plasma membrane respiratory chains
+endospore cores
+pollen coat
+Ubisch bodies
+formin-nucleated actin cable
+macropinocytic cups
+macropinocytic cup membranes
+macropinocytic cup cytoskeleton
+mucus layers
+inner mucus layers
+outer mucus layers
+Yb bodies
+spindle envelopes
+tertiary granule
+tertiary granule membranes
+micropyles
+cell body fibers
+mating projection tip membranes
+Golgi-associated vesicle lumen
+contractile ring
+endoplasmic reticulum exit site
+subsynaptic reticulums
+invadopodiums
+invadopodium membrane
+integral component of cytoplasmic side of endoplasmic reticulum membranes
+integral component of lumenal side of endoplasmic reticulum membrane
+nucleus-vacuole junction
+integral component of external side of plasma membranes
+cellular birth scar
+sphere organelle
+integral component of fungal-type vacuolar membranes
+intrinsic component of fungal-type vacuolar membranes
+endocytic vesicle lumens
+sensory dendrites
+horsetail nucleus
+horsetail nucleus leading edge
+endoplasmic reticulum cisternal networks
+endoplasmic reticulum tubular networks
+satellite fibril
+prominosome
+cleavage body
+cell periphery
+elastic fiber
+old mitotic spindle pole body
+new mitotic spindle pole bodies
+ascus epiplasm
+primary ciliums
+host cell mitochondrial intermembrane spaces
+host cell endosome lumen
+host multivesicular body
+host cell Cajal body
+viral assembly compartments
+host cell viral assembly compartments
+perineuronal net
+other organism presynaptic membrane
+blood microparticles
+endothelial microparticles
+mitotic spindles
+meiotic spindles
+host cell PML body
+tubovesicular membrane networks
+haustorium
+extrahaustorial matrix
+extrahaustorial membrane
+extra-invasive hyphal membranes
+extra-invasive hyphal spaces
+arbuscule
+periarbuscular membrane
+spanning component of membrane
+lysosomal glycocalyx
+plant cell papilla
+leaf papillas
+stigma papillas
+pollen tube tips
+unicellular trichome branch
+pollen tubes
+extrinsic component of Golgi membranes
+eisosome membrane domain/MCCs
+Flemming body
+unicellular trichome apex
+unicellular trichome tip
+meiotic spindle poles
+extracellular core region of desmosomes
+outer dense plaque of desmosome
+inner dense plaque of desmosome
+mitochondrial inner boundary membranes
+phagocytic vesicle lumens
+ciliary cytoplasms
+bacterial-type flagellar cytoplasms
+perinuclear endoplasmic reticulums
+extrinsic component of fungal-type vacuolar membrane
+DNA replication termination regions
+synaptic membrane
+apoptotic bodies
+tetraspanin-enriched microdomains
+phagocytic cup lip
+phagocytic cup base
+alveolar lamellar body
+epidermal lamellar bodies
+sieve areas
+sieve plates
+compound sieve plate
+simple sieve plates
+sperm part
+sperm connecting pieces
+sperm midpieces
+sperm mitochondrial sheaths
+sperm annulus
+sperm principal pieces
+sperm end pieces
+lamellar body membranes
+alveolar lamellar body membranes
+epidermal lamellar body membranes
+cytoophidium
+biofilm matrix
+biofilm matrix component
+biofilm matrix surface
+host cell endocytic vesicle membranes
+perinucleolar compartment
+photoreceptor disc membranes
+glial cell projections
+capitate projection
+Bunina bodies
+fibrillary inclusion
+glial cytoplasmic inclusion
+hyaline inclusion
+Lewy body
+classical Lewy body
+cortical Lewy bodies
+Lewy body-like hyaline inclusion
+nematosomes
+neurofibrillary tangles
+Pick bodies
+skein-like inclusion
+tubular endosome
+mitochondrion-associated adherens complexs
+smooth endoplasmic reticulum part
+microtubule bundle
+mitotic spindle poles
+dense body
+apical dendrites
+basilar dendrite
+CA3 pyramidal cell dendrite
+sorting endosome
+spine apparatus
+presynaptic active zone dense projections
+dendritic trees
+spine mat
+astrocyte projections
+astrocyte end-foot
+glial limiting end-foots
+mesaxon
+Schwann cell microvilluses
+spiny bracelet of Nageotte
+terminal loops
+hippocampal mossy fiber
+neuron parts
+Lewy neurite
+gemmule
+thorny excrescences
+somatic spine
+type III terminal bouton
+ribbon synapses
+mossy fiber rosettes
+leaflet of membrane bilayers
+neuronal postsynaptic density
+muscle cell postsynaptic density
+glial cell postsynaptic densities
+multivesicular body lumens
+multivesicular body, internal vesicle
+multivesicular body, internal vesicle membrane
+multivesicular body, internal vesicle lumens
+Gemini of coiled bodies
+dendritic cell dendrites
+cardiac myofibrils
+sexual spore wall
+asexual spore wall
+microvillar actin bundles
+contractile actin filament bundle
+parallel actin filament bundles
+sperm plasma membrane
+axonemal central pairs
+axonemal basal plate
+ciliary tip
+ciliary inversin compartment
+ciliary shafts
+axonemal outer doublet
+ciliary bases
+synaptic vesicle protein transport vesicle
+left anterior flagellum
+right anterior flagellums
+left posteriolateral flagellum
+right posteriolateral flagellum
+left ventral flagellum
+right ventral flagellum
+left caudal flagellums
+right caudal flagellum
+left lateral basal body pairs
+left middle basal body pairs
+right lateral basal body pairs
+right middle basal body pair
+left tetrads
+right tetrads
+median body
+lateral shield
+cyst wall
+left nucleuses
+right nucleus
+lateral part of cells
+lateral cell cortex
+archaeal-type flagellums
+ventral disc lateral crest
+ventral disc overlap zone
+ventral disc microtubule array
+ventral disc dorsal microribbons
+ventral disc crossbridge
+ventral disc supernumerary microtubule array
+ventral disc
+sperm cytoplasmic droplets
+transverse flagellums
+longitudinal flagellums
+cell surface furrow
+dinoflagellate cingulum
+dinoflagellate sulcus
+dinoflagellate epicones
+dinoflagellate hypocone
+dinoflagellate sulcal notch
+extrinsic component of omegasome membranes
+intrinsic component of omegasome membrane
+integral component of omegasome membranes
+extrinsic component of pre-autophagosomal structure membrane
+intrinsic component of pre-autophagosomal structure membrane
+integral component of pre-autophagosomal structure membrane
+extrinsic component of autophagic vacuole membrane
+intrinsic component of autophagic vacuole membrane
+integral component of autophagic vacuole membrane
+unencapsulated part of cells
+other organism cytoplasm
+dinoflagellate apexs
+dinoflagellate antapex
+dinoflagellate apical grooves
+dinoflagellate apical horns
+dinoflagellate antapical horns
+virus tail
+viral capsid, major subunits
+viral capsid, minor subunits
+virus tail, major subunits
+virus tail, minor subunits
+viral capsid, decorations
+viral capsid, fiber
+virus tail, tip
+virus tail, fiber
+virus tail, baseplates
+virus tail, tube
+virus tail, sheath
+virus tail, shaft
+icosahedral viral capsid, spikes
+icosahedral viral capsid, necks
+icosahedral viral capsid, collars
+icosahedral viral capsid, collar fibers
+icosahedral viral capsid, neck fiber
+viral capsid, internal spaces
+excitatory neuromuscular junctions
+inhibitory neuromuscular junction
+neuromuscular junction of skeletal muscle fibers
+neuromuscular junction of myotubes
+neuromuscular junction of somatic muscle myotubes
+excitatory neuromuscular junction of somatic myotube
+inhibitory neuromuscular junction of somatic myotube
+neuromuscular junction of somatic muscle
+deuterosome
+lobed nucleuses
+lumenal side of transport vesicle membrane
+cytoplasmic side of transport vesicle membranes
+lumenal side of trans-Golgi network transport vesicle membranes
+cytoplasmic side of trans-Golgi network transport vesicle membranes
+lumenal side of Golgi membrane
+cytoplasmic side of Golgi membrane
+somatic ring canals
+lumenal side of early endosome membranes
+lumenal side of late endosome membranes
+side of membrane
+lumenal side of endoplasmic reticulum membranes
+cytoplasmic side of endoplasmic reticulum membranes
+lumenal side of rough endoplasmic reticulum membrane
+cytoplasmic side of rough endoplasmic reticulum membranes
+cytoplasmic side of smooth endoplasmic reticulum membranes
+lumenal side of smooth endoplasmic reticulum membranes
+cytoplasmic side of early endosome membrane
+cytoplasmic side of late endosome membrane
+cytoplasmic side of membranes
+intrinsic component of synaptic vesicle membrane
+trans-Golgi network transport vesicle lumen
+lumenal side of endosome membranes
+transport vesicle lumen
+periplasmic side of plasma membrane
+external side of mycolate outer membranes
+internal side of mycolate outer membrane
+stromal side of plastid inner membranes
+lumenal side of plastid thylakoid membranes
+stromal side of plastid thylakoid membrane
+intrinsic component of mitochondrial membrane
+cytoplasmic side of lysosomal membranes
+lumenal side of lysosomal membranes
+lumenal side of membrane
+inactive sex chromosome
+active sex chromosome
+host cell synaptic vesicles
+host cell synaptic vesicle membranes
+bounding membrane of organelle
+membrane regions
+plasma membrane regions
+external side of apical plasma membrane
+cytoplasmic side of apical plasma membrane
+goblet cell thecas
+mucin granule
+perivitelline space
+chromosomal region
+skeletal muscle myofibril
+integral component of the cytoplasmic side of the plasma membrane
+anchored component of the cytoplasmic side of the plasma membrane
+dendritic knob
+Golgi subcompartments
+axon microtubule bundle
+kinociliary basal body
+left anterior basal body
+right anterior basal body
+left posteriolateral basal bodies
+right posteriolateral basal bodies
+left ventral basal body
+right ventral basal bodies
+left caudal basal body
+right caudal basal bodies
+cell cortex of growing cell tips
+dendritic filopodiums
+plasma membrane of growing cell tip
+omegasome membrane
+extracellular vesicles
+axon cytoplasms
+granular vesicle
+amorphous vesicle
+membrane stack
+neurosecretory vesicles
+laminated body
+complex laminated bodies
+presynaptic grid
+orthogonal array
+ensheathing process
+neck portion of tanycytes
+somatic portion of tanycytes
+tail portion of tanycytes
+recurrent axon collaterals
+Schaffer axon collateral
+mitotic spindle midzones
+C boutons
+F boutons
+hippocampal mossy fiber expansions
+S boutons
+pericellular basket
+pinceau fibers
+parallel fibers
+dendritic branch points
+Lewy body cores
+Lewy body coronas
+hypolemmal cisterna
+sub-surface cisterna
+spindle matrix
+perforation plates
+periciliary membrane compartments
+rhoptry neck
+piccolo-bassoon transport vesicle
+post-anaphase microtubule array
+terminal web
+organomineral extracellular matrix
+meiotic spindle midzones
+eyespot apparatuses
+stereocilia tip-link density
+lower tip-link densities
+upper tip-link density
+pexophagosome
+omegasomes
+synaptic vesicle, readily releasable pool
+synaptic vesicle, recycling pool
+synaptic vesicle, resting pools
+dendritic lamellar body
+perinuclear endoplasmic reticulum membranes
+Herring bodies
+proximal dendrite
+intrinsic component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membranes
+Golgi cis cisterna membrane
+Golgi medial cisterna membranes
+Golgi trans cisterna membrane
+intrinsic component of Golgi cis cisterna membranes
+intrinsic component of Golgi medial cisterna membranes
+intrinsic component of Golgi trans cisterna membranes
+integral component of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membrane
+integral component of Golgi cis cisterna membranes
+integral component of Golgi medial cisterna membranes
+integral component of Golgi trans cisterna membrane
+axonemal central apparatus
+axonemal central bridge
+axonemal central pair projections
+cytoplasmic periphery of the nuclear pore complex
+pyrenoid
+Chinese hamsters
+Mice C57BL/6xCBA/CaJ hybrid
+Wistar rats
+C. porcellus
+SFV
+Myxoma virus MYX
+Herpes simplex virus type 1s
+V. rupestris Scheele
+Human cytomegalovirus HCMV
+H. herpesvirus 4
+Gag
+Human hepatitis B virus
+B. sp.
+Thermochromatium tepidum
+Adenovirus
+H. papillomavirus HPV
+Japanese honeysuckle
+Rhodococcus capsulatus
+Rhesus macaque polyomavirus
+Coliphage lambda
+Peleds
+Chlorobaculum tepidum
+Venezuelan equine encephalitis virus VEE
+E. coli
+YFV
+SFV
+H. C virus HCV
+S. virus
+Gatekeeper
+SV-5
+Hordeum sativum Jess.
+P. virus of mice
+I. virus
+I. virus type A
+Cyanobacterium synechocystis
+P. Hill Hantavirus
+TSWV
+EIAV
+H. immunodeficiency virus 1 HIV-1
+Fusarium moniliforme
+M. mammary tumor virus MTV
+B. leukemia virus BLV
+C. necrosis tombusvirus CNV
+T. mosaic virus
+T. Rattle Tobravirus
+Cucumber mosaic virus
+T. basicola
+D. virus
+C. occidentalis
+Ashwagandha
+Human immunodeficiency virus
+S. pyogenes aureus
+R. syncytial virus RS
+M. epidermidis
+S. mutans
+S. agalactiae
+Diplococcus pneumoniae
+S. sp. 'group B'
+C. arabica
+Peronospora farinosa
+C. aromatica
+S. nodorum
+Ramps
+Borrelia burgdorffragment
+Anthrax bacterium
+Borrelia hermsii
+Bacillus licheniformis
+Borrelia turicatae
+Bacillus sp. RSP-GLUs
+Bacillus difficilis
+L. chinensis Sonn.
+M. nematophilum
+Beri
+PCV
+E. nidulans
+Listeria bulgarica
+B. monocytogenes
+H. rhinovirus
+Brevibacterium saccharolyticum
+Propionibacterium acnes
+Mycobacterium bovis subsp. bovis
+Mycobacterium smegmatis
+B. tuberculosis
+Yerba-mates
+Campylobacter jejuni
+M. gallisepticum
+Helicobacter pylori
+Mycoplasma iowense
+Asterococcus laidlawii
+Sulfolobus solfataricus
+Thermotoga maritima
+Bacterium abortus
+Pasteurella novicida
+G. tenuistipitata C.F.Chang & B.M.Xia
+P. limanda
+B. forsythus
+B. whitmori
+Phaeodactylum tricornutum
+Salmonella cholerae-suis
+P. multivorans
+P. amarus
+S. Miletensis
+Borrelia afzeliusii
+Ye xia zhus
+F. semitectum
+Comet
+B. putidus
+Chlamydomonas smithii R.W.Howshaw & H.Ettl
+C. pyrenoidosa
+P. syringae
+Anaerocellum thermophilum
+Retrovirus
+Xanthomonas campestris var. aberrans
+Rickettsia montana
+Fleur-de-lis
+Mentha x piperita glacialis
+T. oryzae
+E. graminis
+Oikopleura dioica
+B. virus
+A. vinelandii
+Giant reeds
+Agrobacterium sp. ISSDS-827
+Wren
+Carica papaya L.
+C. sativus
+Arabidopsis thaliana
+Armoracia rusticana
+MAC
+Shaddocks
+Fragaria virginiana x Fragaria chiloensis
+C. sinensis x Citrus grandis
+Marmosets
+Zea mays subsp. sacharata
+S. meliloti
+Glycine max
+Herpesvirus
+Euphorbia esula
+S. fuckeliana
+Mammalian
+S. lycopersicum
+Anethum graveolens
+Tobaccos
+Nicotiana benthamania
+S. tuberosum subsp. tuberosum
+Dendranthema x grandiflorum
+Dictyostelium discoideum
+Pyrenophora tritici-repentis
+Rice
+Sorghum vulgare Pers.
+Triticum aestivam
+Banana
+A. genomosp. 2
+Lotus corniculatus
+Potato late blight agent
+Micrococcus gonorrhoeae
+Neisseria weichselbaumii
+G. intraradices
+Schizosaccharomyces malidevorans
+K. pastoris
+Brewer's yeasts
+T. nucifera
+Aspergillus niger
+G. fujikuroi
+C. crassa
+H. jecorina
+Ustilago maydis
+P. bacterium
+Bjerkandera versicolor
+C. stellatoidea
+Fusarium sp. PDBC NPFu3s
+Gibberella zeae
+E. carotovora
+Tabena
+L. donovani
+Leishmania major
+L. donovani infantum
+Marine bacterium
+T. brucei subgroup
+K. pneumoniae
+Toxoplasma gondii
+Treponema medium
+Plasmodium chabaudi
+Malaria parasite P. falciparum
+Euplotes aediculatus
+Spot croakers
+Taenia crassiceps
+S. paradysenteriae
+caenorhabditis elegan
+B. malayi
+B. enterocoliticum
+Y. pestis
+Shigella pseudotuberculosis
+Trichinella spiralis
+Drosophila C virus
+Scutellaria baicalensis
+Pantoea stewartii
+Creosote bushs
+Pasteurella parahaemolytica
+D. triauraria
+Green crabs
+Blue crab
+D. hepatitis virus 1
+Boophilus microplus
+Shewanella putrefaciens MR-1
+S. littoralis
+S. aegypti
+African malaria mosquitos
+Drosophila
+Drosophila funebris
+Drosophila melangaster
+Drosophila virilis
+Idiomyia affinidisjuncta
+T. pinnatifida
+H. meningitidis
+Rook
+Pasteurella haemolytica
+Martes pennanti
+Sea lamprey
+Myxine glutinosa
+Rickettsia conorii
+D. rickettsii
+Danio rerio
+Salmo salar
+C. higginsianum
+X. laevis
+X. tropicalis
+B. gingivalis
+L. catesbeianus
+W. succinogenes
+Daboia russelii
+Cairina moschata
+Monascus pilosus
+Chicken
+Thiobacterium thiooxydans
+White ear-tufted marmosets
+Tamarins
+A. trivirgatus
+Burkholderia cepacia genomovar IIIbs
+Gibbons
+Orang utans
+children
+Canis canis
+Giant pandas
+Donkey
+Equus caballus
+Pig
+Gaurs
+Cattles
+O. aries
+Rabbit
+Abdomen
+Abdominal adipose tissue
+Abdominal epidermis
+Abdominal flexor muscle
+Abdominal ganglion
+Abdominal muscle
+Abdominal nerve cord
+Abdominal perisympathetic organs
+Abomasum
+Abscission zone
+Catch muscle
+Adipocyte
+Fat
+Adrenal chromaffin
+Adrenal cortex
+Suprarenal gland
+Zona glomerulosa
+Adrenal medulla
+Adrenal tumour
+Aerial part
+Air root
+Aerial tuber
+Respiratory system epithelial cell
+Airway smooth muscle
+Albedo
+Albumen gland
+Aleurone layer
+Alkaline gland
+Allantoic fluid
+Alveolar macrophage
+Lung alveolar cells
+Enamel cell
+Amnion
+Amniotic fluid
+Amniotic membrane
+Ampulla
+Amygdala
+Anal sac
+Androgenic gland
+Antenna
+Anterior byssus retractor muscle
+Anterior latissimus dorsi muscle
+Anther
+Anther tapetum
+Antler
+Aortic
+Aortic endothelium
+Aortic smooth muscle
+Apical bud
+Apices
+Skin adnexal cells
+Arachnoid
+Arbuscular mycorrhiza
+Artery
+Articular cartilage
+Articular chondrocyte
+Ascending colon
+Ascites
+Ascitic tumour
+Brain astrocyte
+Astrocytoma
+Asynchronous muscle
+Atrial gland
+Atrial tumor
+Cochlear ganglion
+Axillary bud
+B-cell lymphoma
+B cell
+Bag cell
+Barbel
+Bark
+Basilar papilla
+Basophil
+Bean-shaped accessory gland
+Biliary duct
+Blastocyst
+Blastopore lip
+Blastula
+Blood
+Blood vessel
+Blubber
+Body wall
+Body wall muscle
+Bone marrow macrophage
+Bone marrow stroma
+Bone marrow tumour
+Bone marrow
+Bone
+Bowman's gland
+Brain capillary
+Cortex
+Cerebromicrovascular endothelial cell
+Brain stem
+Brain tumor
+Cerebrum
+Branchia
+Branchial arch region
+Branchial gland
+Brown adipocyte
+Buccal ganglia
+Buccal muscle
+Bulb
+Bulbourethral gland
+Bundle sheath cell
+Bundle sheath strand
+Bursa
+Callus
+Skull cap
+Cambium
+Spongy bone
+Mushroom cap
+Capillary endothelial cell
+Carapace cuticle
+Epithelial cancer
+Heart muscle myocyte
+Carotid artery
+Carpel
+Cartilage
+Cartilage chondrocyte
+Caudal fin
+Caudate
+Intestinum caecum
+Cement gland
+Central ganglion
+Cerebellum
+Cerebral artery
+Cerebral ganglion
+Cerebral pedal
+Cerebral vascular smooth muscle
+CSF
+Cervical ganglia
+Cervicothoracic ganglion
+Cervix, uterine
+Cervix adenocarcinoma
+Hela cells
+Cervix epithelial cell
+Chondrocyte
+Chondrosarcoma tumor
+Chorioallantoic membrane
+Amnionic/chorionic membrane
+Choriocarcinoma
+Choriogenic follicle
+Chorionic membrane
+Choroid plexus
+Chromaffin granule
+Chronic myeloid leukaemia cell
+Circumesophageal ganglion
+Vallate papilla
+Central nervous system
+Cochlea
+Cochlear duct
+Celiac ganglion
+Coelomic fluid
+Coelomocyte
+Coleoptile
+Collar
+Colon
+Colonic adenocarcinoma
+Colorectal malignant tumor
+Colorectal carcinoma
+Colorectal endothelial cell
+Colonic epithelial cell
+Colon mucosa
+Colorectal smooth muscle
+Colon tumor
+Colostrum corpuscles
+Conceptus membrane
+Cone
+Conidium
+Cornea
+Cornea endothelial cell
+Cornea epithelial cell
+Flower corolla
+Coronary arterial endothelium
+Coronary artery
+Corpora allata
+Corpora cardiaca
+Corpora quadrigemina
+Corpus callosum
+Corpora lutea
+Corpus cavernosum urethrae
+Corpus striatum
+Cotyledon
+Craniofacial
+Cropsac
+Culm
+Cultured root
+Cuticular epidermis
+Cytolytic T-cell
+Dander
+Dart gland
+Placenta decidual cells
+Dendritic cell
+Tooth pulp
+Dermal melanophore
+Dermoid cancer
+Diaphragm muscle
+Diencephalon
+Digestive gland
+Digestive juice
+Distal colon
+Distal colon epithelial cell
+Distal nephron
+Distal small intestine
+Dormant root
+Dorsal lip
+Dorsal skin
+Dorsal-abdominal integument
+Dry seed
+Ductus ejaculatorius
+Duodenal adenocarcinoma
+Duodenum mucosa
+Duodenum
+Ear of corn
+Embryonic ectoderm
+Ectoplacental cone
+Egg jelly
+Egg white
+Egg yolk
+Egg
+Eggshell matrix
+Ehrlich ascites tumor cell
+Ejaculatory bulb
+Electric lobe
+Electric organ
+Electromotor nucleus
+Electroplax
+Whole embryo
+Embryoid bodies
+Embryonic brain
+Embryonic breast
+Embryonic callus
+Embryonic carcinoma
+Embryonic chondrocyte
+Embryonic claw
+Embryonic epithelium
+Embryonic eye
+Embryonic fibroblast
+Embryonic floor plate
+Embryonic foot
+Embryonic ganglion
+Embryonic germ cell
+Embryonic gizzard
+Embryonic gonad
+Embryonic head
+Embryonic heart
+Embryonic intestine
+Embryonic kidney
+Embryonic lens
+Embryonic limb
+Embryonic liver
+Embryonic lung
+Embryonic lung fibroblast
+Embryonic muscle
+Embryonic ovary
+Embryonic pectoralis muscle
+Embryonic retina
+Embryonic skeletal muscle
+Embryonic skin
+Embryonic spinal cord
+Embryonic spinal ganglion
+Embryonic stem cell
+Embryonic sternal cartilage
+Embryonic tail
+Embryonic testis
+Embryonic testis carcinoma
+Embryonic thymus
+Embryonic tooth
+Enamel epithelium
+Dental organ
+Fruit endocarp
+Embryonic endoderm
+Endometrial adenocarcinoma
+Endometrial tumour
+Uterus endometrium
+Endosperm
+Endothelium
+Eosinophilic granulocyte
+Ependymocyte
+Epicotyl
+Epidermal carcinoma
+Epidermis
+Epididymal fluid
+Epididymis
+Epigonal organ
+Epiphyseal cartilage
+Epithelial
+Erythroblast
+Erythrocyte
+Erythroid lineage cell
+Erythroleukemia
+Etiolated bud
+Etiolated cotyledon
+Etiolated epicotyl
+Etiolated hypocotyl
+Etiolated leaf
+Etiolated plantlet
+Etiolated root
+Etiolated seedling
+Etiolated shoot
+Ewing's sarcoma
+Fruit exocarp
+Extraembryonic tissue
+EOM
+Extrapallial fluid
+Eye disc
+Vitreous humor
+Oculus
+Eye antennal disc
+Eye stalk
+Fast swimbladder muscle
+Fast muscle
+Fat-body cell
+Feather
+Feather calamus
+Feather root
+Female accessory gland
+Female cone
+Femoral artery
+Femoral bone
+Fetal adrenal tissue
+Fetal aorta
+Fetal astrocyte
+Fetal B lymphocyte
+Fetal blood
+Fetal brain
+Fetal cartilage
+Fetal cerebellum
+Fetal colon
+Fetal cotyledon
+Fetal epiphyseal cartilage
+Fetal eye
+Fetal fibroblast
+Fetal gonad
+Fetal head
+Fetal heart
+Fetal gut
+Fetal jaw
+Fetal keratinocyte
+Fetal kidney
+Fetal limb
+Fetal liver
+Fetal lung
+Fetal lung fibroblast
+Fetal muscle
+Fetal pancreas
+Fetal retina
+Fetal blood serum
+Fetal skeletal muscle
+Fetal skin
+Fetal smooth muscle
+Fetal spinal cord
+Fetal spleen
+Fetal breastbone
+Fetal testis
+Fetal thymocyte
+Fetal thymus
+Foetus
+Fiber
+Fibroblasts
+Fibroma
+Fibrosarcoma
+Fibrotic liver
+Fifth instar larvae
+Filter chamber
+Flank organ
+Flavedo
+Flight muscle
+Floret
+Flower bud
+Inflorescence meristem
+Inflorescense
+Foliate papilla
+Follicular cell
+Foot
+Foot muscle
+Foot sole tissue
+Forebrain
+Forebrain cortex
+Forelimb
+Foreskin
+Foreskin fibroblast
+Foreskin keratinocyte
+Foveolar epithelium
+Frond
+Frond tip
+Frontal lobe
+Fruit cortical tissue
+Fruit flesh
+Fruit
+Fruiting body
+Gall bladder
+Gamete
+Gametophyte
+Ganglion
+Stomach adenocarcinoma
+Antrum
+Gastric carcinoma
+Gastric body
+Gastric fundic mucosa
+Stomach fundus
+Antral mucosa
+Oxyntic cell
+Gastrocnemius
+Gastrointestinal tract
+Gastrointestinal tract epithelial cell
+Germ
+Germ cell
+Gill
+Gizzard
+Gizzard smooth muscle
+Neuroglia
+Glioma
+Glioblastoma
+Glucagonoma tumor
+Gonad
+Grain
+Granular dorsal gland
+Granulocyte
+Granuloma
+Adult leaf
+Green siliques
+Epiphyseal plate
+Gut
+Gut juice
+Gynoecia
+Hair
+Dermal papilla
+Hair follicle
+Radix pili
+Harderian gland
+Haustoria
+Head
+Atria
+Left atria
+Left ventricle
+Heart muscle
+Heart Purkinje fiber
+Cardiac right atrium
+Heart right ventricular muscle
+Ventricular muscle
+Cardiac
+Heating tissue
+HE
+Hematopoietic stem cell
+Haematopoietic
+Hemocyte
+Haemolymph
+Hepatic stellate cell
+Hepatoblastoma
+Hepatocyte
+HCC
+Hepato-pancreas
+Hindbrain
+Hindfoot
+Hindgut
+Brain hippocampus
+Histiocytic lymphoma
+Husk
+Hybridoma
+Hyphae
+Hypoblast
+Hypocotyl
+Hypoglossal nuclei
+Hypopharyngeal gland
+Hypothalamus
+Ileal mucosa
+Ileal villus
+Ileum
+Imaginal disc
+Immature flower
+Immature kernel
+Immature seed
+Incisor
+Internal ear
+Vestibule
+Insulinoma tumor
+Integument
+Interalveolar muscle
+Internode
+Interrenal gland
+Intersegmental muscle
+Intestinal crypt
+Intestinal epithelium lining
+Intestinal mucosa
+Intestinal smooth muscle
+Intestine
+Iris
+Iris sphincter muscle
+Jaw
+Jejunal epithelium
+Jejunal mucosa
+Jejunum
+Jugular vein
+Jugular vein endothelial cell
+Juice sac
+Epidermal keratinocyte
+Kernel
+Kidney adenocarcinoma
+Kidney cortex
+Kidney distal convoluted tubule
+Renal epithelial cell
+Renal inner medulla
+Kidney marrow
+Kidney outer medulla
+Renal proximal tubule
+Kidney
+Labial palp
+Lacrimal gland
+Lactating mammary gland
+Lamina
+Lantern
+Larvae
+Larval brain
+Larval CNS
+Larval epidermis
+Larval fat body
+Larval gut
+Larval hemolymph
+Larval liver
+Larval mid-gut
+Larval peritrophic membrane
+Larval plasma
+Larval ring gland
+Larval salivary gland
+Laryngeal carcinoma
+Laryngeal cartilage chondrocyte
+Laryngeal muscle
+Larynx
+Lateral eye
+Latex
+Laticifer
+Leaf lamina
+Leaf gel
+Meristematic leaf
+Leaf mesophyll
+Leaf
+Leiomyosarcoma
+Lens cortex
+Lens epithelium
+Lens fibers
+Lens
+Leptomeninges
+Leukaemia
+Leukaemic T lymphocyte
+Leucocyte
+Light organ
+Light green cell
+Limb
+Embryonic limb bud
+Limb mesenchymal cell
+Limbal epithelium
+Lingual salivary gland
+Lip
+Liver malignant tumour
+Liver epithelium
+Liver tumour
+Liver
+Locus caeruleus
+Longissimus dorsi muscle
+Longissimus muscle
+Lung
+Lung adenocarcinoma
+Bronchiolar epithelial cell
+Lung malignant tumour
+Non-small cell lung carcinoma
+Lung endothelium
+Lung epithelia
+Lung fibroblast
+Lung macrophage
+Lung tumor
+Lupulin gland
+Lymph node
+Lymph
+Transformed lymphocyte
+Lymphoblastoma
+Lymphocytic
+Lymphoid tissue
+Lymphoma
+Lymphosarcoma
+Macrophage
+Male accessory gland
+Male cone
+Malpighian tubule
+Breast cancer
+Mammary carcinoma
+Mammary epithelial cell
+Mammary fibroblast
+Mammary
+Breast tumor
+Mandibular organ
+Mandibular condyle
+Mantle
+Mantle muscle
+Masseter muscle
+Mast cell
+Mast cell tumor
+Maxillary palp
+Median ocelli
+Medulla oblongata
+Medulloblastoma
+Megagametophyte
+Megakaryoblast
+Megakaryocyte
+Meiocyte
+Melanocyte
+Melanoma
+Meningioma
+Meristematic tissue
+Mesangial cell
+Mesenchymal stem cell
+Mesenchymal tumor
+Mesenchymal cell
+Mesocarp
+Mesocotyl
+Mesoderm
+Mesonephros
+Mesophyll cell
+Micelial
+Microglial cell
+Microspore
+Microtuber
+Mid-brain
+Middle ear mucosa
+MSG
+Mid-gut endoderm
+Midgut epithelium
+Mid-gut
+Milk
+Dens molaris
+Monocyte
+Monocytic leukemia
+Morula
+Mucus cocoon
+Muscle
+Muscle fibroblast
+Muzzle epithelium
+Mycelia
+Mycorrhiza
+Myeloid
+Myeloid leukaemia cell
+Myeloma
+Myoblasts
+Myocard
+Myometrium
+Myotomal muscle
+Myotube
+Nasal cartilage
+Nasal epithelium
+Nasal mucosa
+Nasal mucus
+Nasal polyp
+Nasal vestibule
+Nasopharyngeal carcinoma
+Nasopharyngeal epithelial cell
+Nasopharynx
+Natural killer T cell
+Needle
+Cnidoblast
+Neonatal brain
+Neonatal brain stem
+Neonatal atria
+Neonatal macrophage
+Neonatal spleen
+Nerve
+Nerve cord
+Nerve ending
+Neural arch cartilage
+Neural crest
+Neural ganglia
+Neural plate
+Neural stem cell
+Neural tube
+Neuroblastoma
+Neuroepithelium
+Neuronal cell
+Neuropora cardiaca
+Neural retina
+Neurosecretory cell
+Neurula
+Neutrophilic granulocyte
+Nodose ganglia
+Notochord
+Ligamentum nuchae
+Nucleated erythrocyte
+Occipital lobe
+Ciliary body
+Ocular ciliary epithelium
+Odontoblast
+Oesophageal carcinoma
+Esophageal epithelial cell
+Oesophageal fibroblast
+Oesophagus
+Oil gland
+Olfactory bulb
+Olfactory epithelial cell
+Olfactory neuroepithelium
+Olfactory neuron
+Olfactory organ
+Olfactory rosette
+Olfactory sensory neuron
+Oligodendrocyte
+Oocyst
+Oocyte
+Optic lobe
+Optic nerve
+Oral cavity malignant tumor
+Oral cavity epithelial cell
+Oral mucosa
+Organ of Corti
+Oropharynx
+Osteoarthritic cartilage
+Osteoblast
+Osteoclast
+Malignant giant cell tumor
+Osteosarcoma
+Ovarian adenocarcinoma
+Ovarian carcinoma
+Follicle of ovary
+Ovarian follicle membrane
+Ovarian follicular fluid
+Ovarian granulosa cell
+Ovary
+Ovary tumour
+Uterine tube
+Ovotestis
+Ovule
+Palate
+Pancreatic
+Pancreatic acinar cell
+Pancreatic adenocarcinoma
+Pancreas malignant tumor
+Pancreatic carcinoma
+Islets of Langerhans
+Pancreatic tumor
+Panicle
+Paracorolla
+Parathyroid
+Parathyroid adenoma
+Brain parietal cortex
+Parotid gland
+Parotoid gland
+Pars intercerebralis
+Pectoralis muscle
+Pedal disk
+Pedal ganglion
+Pedicel tissue
+Fruit peel
+Peltate glandular trichome
+Pelvis
+Penis
+Flower perianth
+Pericardial organs
+Pericardium
+Fruit pericarp
+Periodontal ligament
+Periodontium fibroblast
+Peripheral blood granulocyte
+Peripheral blood leucocyte
+Peripheral blood lymphocyte
+Peripheral blood monocyte
+Peripheral blood neutrophil
+Peripheral blood T lymphocyte
+Peripheral blood cell
+Peripheral nerve
+Peritoneal cavity
+Peritoneal exudate
+Peritoneal macrophage
+Peritoneal mast cell
+Peritoneal neutrophil
+Petal
+Petiole
+Agregated lymphatic nodule
+Pharate adult cuticle
+Pharate pupal cuticle
+Pharyngeal arch
+Pharyngeal muscle
+Pharynx
+Phaeochromocytoma
+Pheromone gland
+Phloem
+Pineal gland
+Flower pistil
+Pitcher
+Pituitary adenoma
+Anterior pituitary gland tumor
+Pituitary anterior lobe
+Intermediate pituitary
+Pars tuberalis
+Pituitary tumor
+Hypophysis
+Placental
+Blood plasma
+IPC
+Plasmacytoma
+Blood platelet
+Swimming leg
+Pleural sensory cell
+Plumule
+Plutei
+PNS
+Pod
+Male gametophyte
+Pollen tube
+Polyric caeca
+Pons
+Portal vein
+Pituitary pars nervosa
+Posterior salivary gland
+Posterior silk gland
+Posterior tectum
+Pre-B lymphocyte
+Premonocytic leukaemia
+Promonocytic lymphoma
+Preoptic area of hypothalamus
+Prepupa
+Preputial gland
+Promyelocyte
+Promyelocytic leukaemia
+Pronephros
+Prostate
+Prostatic adenocarcinoma
+Prostate carcinoma
+Prothallus
+Prothoracic gland
+Protonema
+Protoplast
+Forestomach
+Proximal small intestine
+Psoas muscle
+Psoriatic skin
+Pulmonary artery
+Pulmonary vein
+Petiolar pulvinus
+Pupae
+Pupal hemocyte
+Pupal mid-gut
+Purkinje neuron
+Pyloric caeca
+Rachis
+Radicle
+Radular muscle
+Rathke's gland
+Receptacle
+Salt gland
+Rectum tumor
+Red muscle
+Regenerating tissue
+Regenerating forelimb blastema
+Regenerating limb blastema
+Regenerating liver
+Nephroblastoma
+Renal collecting duct
+Renal cyst lining cell
+Glomerular tuft
+Reproductive accessory gland
+Reticulocyte
+Retina
+Retinal cone cell
+Retinal ganglia
+Retinal photoreceptor
+Retinal pigment epithelium
+Retinal rod
+Retinoblastoma
+Retrocerebral complex
+Rhabdomyosarcoma
+Rheumatoid arthritic synovial fluid
+Rhizome
+Root cap
+Root cortex
+Root hair
+Root meristem
+Root nodule
+Root tip
+Root tuber
+Root
+Leaf whorl
+Rostral gland
+Round spermatid
+Rumen
+Reticulum
+Ruminal epithelium
+Saccule
+Saliva
+Salivary gland
+Saphenous vein
+Sarcomere
+Scale
+Scalp
+Scapula bone
+Schwann cell
+Sciatic nerve
+Sclera
+Sclerite
+Sclerotium
+Scutellar node
+Scutella
+Seed coat
+Seed cotyledon
+Seed embryo
+Seed endosperm
+Seed nucellus
+Seed
+Seedling
+Seedling cotyledon
+Seedling hypocotyl
+Seedling leaf
+Seedling root
+Seedling shoot
+Semen
+Seminal plasma
+Glandula vesicularis
+Germinal epithelial cell
+Sepal
+Sertoli cell
+Blood serum
+Sheath
+Shell
+Shoot
+Apical shoot
+Shoot meristem
+Silique
+Silk gland
+Single abdominal segment
+Sinus gland
+Striated muscle
+Skin
+Skin fibroblast
+Skin mucus
+Skin secretion
+Slime gland
+Slow skeletal muscle
+Slow-twitch skeletal muscle
+Small intestinal mucosa
+Small intestine
+Smooth muscle
+Soft tissues
+Soleus muscle
+Somatic embryo
+Spear
+Tip section of spear
+Sperm
+Spermatid
+Spermatocytes
+Spermatophorus
+Spinal cord
+Dorsal root ganglia
+Spiral intestine
+Spleen
+Splenocyte
+Spore
+Sporophyte
+Sporozoite
+Sprout
+Sprouting bulb
+Sputum
+Squamous cell carcinoma
+Stamen
+Stannius corpuscle
+Starchy endosperm
+Stem bark
+Stem nodule
+Stem plug
+Stem
+Breastbone
+Sternum cartilage
+Stigma
+Stolon
+Stolon node
+Stolon tip
+Gastric malignant tumor
+Stomach smooth muscle
+Gastric tissue
+Stratum corneum
+Stria vascularis
+Striated adductor muscle
+Stromal cell
+Stylar tissue
+Subcommissural organ
+Sublingual gland
+Submandibular gland
+Suboesophageal ganglion
+Substantia nigra
+Superior cervical ganglion
+Suprachiasmatic nucleus
+Sweat gland
+Sympathetic ganglia
+Synovial cells
+Synovial fluid
+Synovial sarcoma
+Synovium
+T lymphoblast
+T cell lymphoma
+T lymphocyte
+Endozoite
+Tadpole head
+Tadpole liver
+Tadpole tail
+Tail
+Tail bud
+Tail epidermis
+Tail fin
+Tail muscle
+Tap root
+Tapetum
+Tapetum lucidum
+Tassel
+Schwalbe corpuscle
+Tear
+Tegument
+Telencephalon
+Telson
+Brain temporal cortex
+Tendon
+Tendril
+Tentacle
+Tepal
+Teratocarcinoma
+Term myometrium
+Term placenta
+Testa
+Testis carcinoma
+Testis
+Thalamus
+Thallus
+Thigh epidermis
+Thigh muscle
+Thoracic aorta
+Thoracic ganglia
+Thoracic muscle
+Thoracic nervous system
+Thorax
+Thymic epithelial cell
+Thymoma
+Thymocyte
+Thymus
+Thyroid carcinoma
+Papillary thyroid carcinoma
+Thyroid tumour
+Thyroid gland
+Tibia
+Tibial gland
+Tongue
+Lingual epithelia
+von Ebner's gland
+Tonsil
+Tonsillar carcinoma
+Tooth
+Tooth bud
+Tooth enamel
+Eye trabeculum
+Trachea smooth muscle
+Tracheal
+Tracheal epithelium
+Tracheobronchial
+Tracheobronchial epithelium
+Tracheobronchial mucosa
+Trichome gland
+Trigeminal ganglion
+Triturative stomach
+Trophectoderm
+Trophoblast stem cell
+Trophoblast
+Trunk
+Tuber
+Tuber disc
+Tuberous root
+Tubular accessory gland
+Udder
+Umbilical artery
+Umbilical cord
+Umbilical cord blood
+Umbilical smooth muscle
+Umbilical vein endothelium
+Umbilical vein
+Underground adventitious buds
+Ureter
+Ureteric bud
+Urinary bladder carcinoma
+Urinary bladder smooth muscle
+Urinary bladder urothelium
+Urinary bladder wart
+Urinary bladder
+Urinary tract
+Urine
+Urogenital ridge
+Urophysis
+Uropygial gland
+Urothelium
+Uterine adenocarcinoma
+Ectocervix
+Uterine endothelium
+Uterine cornu luminal epithelium
+Uterine leiomyoma
+Womb
+Vagina
+Vaginal fibroblast
+Vas deferens
+Vascular endothelial cell
+Vascular smooth muscle
+Vein
+Venom
+Venom duct
+Venomous gland
+Ventral eye
+Ventral nerve cord
+Ventral spinal cord
+Visceral mass
+Visual cortex
+Wart
+White adipose
+White muscle
+White-root
+Wing
+Wing imaginal disk
+Embryonic Wolffian duct
+Wool
+Wool follicle
+Xiphoid cartilage
+Xylem
+Yolk
+Yolk sac
+Yolk sac carcinoma
+Urethra
+Pharyngeal tissue carcinoma
+Tadpole
+Ciliary ganglion
+Lymphatic tissue epithelium
+Corpora pedunculata
+Corneal stroma
+Embryonic rhabdomyosarcoma
+Muellerian duct
+Organ of Jacobson
+Liposarcoma
+Gastrula
+Fetal pons
+Vomeronasal sensory neuron
+Helper T lymphocyte
+Mesoglea
+Fetal ascending colon
+Basal nuclei
+Interstitial cells of Leydig
+Fifth instar larvae cuticular epidermis
+Embryonic stomach
+Oligodendroglioma
+Corpus Luysi
+Spongiosa bone
+Fetal medulla
+Renal medulla
+Spine
+Corneal fibroblast
+Distal colon mucosa
+Fetal forelimb
+Anterior silk gland
+Sphincter of Oddi
+Cementoblast
+Ear
+Signet ring cell carcinoma
+Osteocyte
+Vulva
+Vulvar carcinoma
+Hind limb
+CR cell
+Gall
+Animal hemisphere
+Ring ganglion
+Spicule
+Bristle
+Meninges
+Mesectoderm
+Milt
+Rectum
+Myelomonocyte
+Preosteoblast
+Mesothelium
+Larval bristle
+Fetal esophagus
+Seminoma
+Dorsal cochlear nucleus
+Hensens node
+B1 motor neuron
+B2 motor neuron
+Neonatal skin
+Otocyst
+Larval eye
+Tadpole corpuscle
+Monoblast
+Pharyngula
+Dorsal ganglionic sheath
+Arterial smooth muscle
+Thoracic ganglionic sheath
+Foam nest
+Otoconium
+Sensory ganglion
+Fetal gastric tissue
+Angioblast
+Satellite cell
+Head kidney
+Tongue keratinocyte
+Crystalline style
+Neuroepithelioma
+Purple fluid
+Fetal cerebral cortex
+Neural ectoderm
+Coagulating gland
+CGS
+Gametangia
+Jejunal smooth muscle
+Vegetal pole
+Parotoid gland secretion
+PFC
+Mother of pearl
+Cervical malignant tumour
+Endometrium cancer
+Ovarian malignant tumor
+Prostatic cancer
+Kidney cancer
+Thyroid malignant tumor
+Skin cancer
+Testicular malignant tumor
+Bronchus
+Lateral ventricle
+Vulva/Anal skin
+Head and neck cancer
+Malignant carcinoid
+Urothelium malignant tumour
+Adrenal gland cortical cells
+Ovarian follicle cell
+Pancreas islet cells
+Lymphoid cell
+Testis cells in seminiferus ducts
+Bronchial epithelial cell
+Exocrine part of pancreas
+Pancreas exocrine glandular cell
+Bone marrow hematopoietic cell
+Skeletal muscle cell
+Smooth muscle myocyte
+Ovary stromal cells
+Cerebellum cells in granular layer
+Cerebellum molecular layer
+Squamous cell
+Esophagus squamous cell
+Uterine cervix squamous cell
+Oral cavity mucosa squamous epithelial cell
+Tonsillar squamous epithelial cell
+Vaginal squamous cell
+Vulva/anal squamous cell
+Brain cortex glial cell
+Hippocampal glial cell
+Lateral ventricle glial cell
+Cerebral cortex neural cell
+Hippocampus neuron
+Lateral ventricle neural cell
+Kidney tubule
+Spleen red pulp
+Spleen white pulp
+Uterus womb
+Uterus endometrium stroma
+Appendix
+Appendix lymphoid
+Lymph node reaction center
+Tonsil lymphoid cell
+Cecal appendix glandular cell
+Mammary glandular cell
+Uterine cervix glandular cell
+Colon glandular cell
+Duodenum glandular cell
+Epididymal glandular cell
+Uterine tube glandular cell
+Gall bladder glandular cell
+Parathyroid gland glandular cell
+Prostate glandular cells
+Rectum glandular cell
+Salivary gland glandular cell
+Seminal vesicle glandular cell
+Stomach glandular cells
+Thyroid gland glandular cell
+Small intestine glandular cells
+Corpus, uterine glandular cell
+Tonsil germinal center
+Lymph gland lymphoid cell
+Tadpole brain
+Perineural cell
+Tadpole heart
+Digestive system
+Anal region
+Ventricular system of brain
+Bronchoalveolar system
+Cardiovascular system
+Colorectal
+Dermal system
+Ductless gland
+Endocrine system
+Endocrine pancreas
+Female reproductive system
+Wall of gallbladder
+Gland
+Large bowel
+Limbic system
+Liver and biliary system
+Lymphoreticular system
+Male reproductive system
+Musculoskeletal system
+Nephron
+Nervous system
+Oesophageal squamous epithelium
+Oral
+Oviduct epithelium
+Malphigian corpuscle
+Reproductive system
+Respiratory system
+Skeletal system
+Squamous epithelium
+Urinary bladder epithelium
+Urinary system
+Urogenital system
+Vaginal epithelium
+Royal jelly
+Antennal lobe
+Corm
+Photogenic organ
+Pseudobulb
+Spike
+Mullerian gland
+Bradyzoite
+Merozoite
+Trophozoite
+Ink gland
+Thoracic perisympathetic organs
+Embryonic spleen
+Seta
+Resin
+SK-N-SH neuroblastoma cells
+myogenic
+cardiomyocyte
+colorectal
+lymphocytic leukemias
+integral to membrane
+trailing edge
+3T3 clone A31
+S1391
+IGF009/78
+EKL
+293T
+558Lmum3
+B cells
+B,
+B.
+B lymphocytes
+B82L
+BMMCs
+Be13
+Bosc23
+CD19-positive and -negative lines
+CD19-positive plasmacytoma line
+CEM
+CHO and smooth muscle
+CHO
+cos
+Chinese hamster ovary (CHO)
+DND41
+Fyn-/-
+Fyn-/- mast
+In breast cancer,
+J558Lmum3
+J558Lmum3CD45+
+KOPTK
+KOPTK1
+LA25
+LAT-/- mast
+Lyn-/- mast
+Mast
+NK
+NK,
+P12-ICHICAWA
+PTEN-deficient
+Purkinje
+RBL-2H3 mast line
+Rat-1
+S2
+SLP-76-deficient T
+Syk-deficient (-Syk)
+T l
+T cell lines
+T-ALL
+T-ALL lines a
+TB1A2
+WT and LAB-/- lines
+alphaIIbbeta3-SYF
+alphaT3-1
+endothelial
+fibroblasts
+mast
+mast is
+mast,
+mast.
+oocytes
+plasmacytoma lines
+rat kidney (NRK)
+smooth muscle.
+C2C12
+j14
+SNU-719
+SUM52
+HDFs
+MCF10As
+imr90
+sw1736
+nih-3t3
+hepg2
+wi-38
+snu-719
+mda435
+mcf7
+h1264
+mcf10a
+hdfs
+mcf-10a
+eol-3
+cos7
+cos1
+hep3b
+pc12
+swa480
+mcf10as
+m307
+mfm223
+oums-23
+skbr3
+C-C95
+c2c12
+f3
+sum52
+raw264.7
+hek293t
+snu719
+s2r+
+BCAP
+BaF3
+Hct-7
+HTh7
+Shp2 -/-
+TMLC
+VPC
+VPCs
+hca2
+ldlF
+tcp-1
+IGF077/86
+IGF023/83
+IGF039/83
+IGF029/99
+IGF013/91
+MVPK-1
+L/neo
+IGF077/87
+IGF021/86
+DE96P
+IGF029/98
+IGF013/94
+CA295
+KB-V1
+IGF042/90
+AKR/11-D
+IGF029/97
+IGF013/93
+MOUSE L (TK+, HBS Ag+)
+FIB-NC22
+IGF042/91
+IGF017/85
+F1-652
+IGF005/00
+IGF007/00
+OE47
+C9PV
+MP 1
+IGF042/92
+IGF006/85
+IGF017/84
+LXF-289
+IGF004/99
+OE50
+C96
+D-R86
+IGF017/83
+MOR/CPR
+IGF042/93
+DR 9
+Ehrlich-Lettre ascites, strain E
+C93
+E1
+L-V94
+L11.3
+IGF017/82
+IGF042/94
+IGF005/01
+F1792
+DPW 5
+IGF030/01
+IGF001/95
+OE33
+E.H.IV (Elaine IV)
+L-V91
+IGF087/81
+COR-L283R
+IGF083/86
+A4-840
+IGF005/77
+IGF092/78
+IGF006/98
+IGF038/96
+WI 1003
+MEWO
+BE10-Intermediate
+COR-L279
+IGF087/82
+A4-951
+IGF021/01
+IGL022/99
+IGF092/82
+IGF006/97
+IGF014/80
+TA3 Hauschka
+MOR/0.4R
+COR-L24
+IGF023/84
+BE10-7
+IGF083/84
+F1293
+IGF005/82
+IGF092/83
+IGL022/98
+IGF019/86
+IGF021/00
+IGF006/96
+DAP-3DRw52b
+IGF083/85
+IGF087/80
+IGF005/80
+BALB/3T3 clone A31
+IGF006/95
+DAP-3DR2b
+IGF020/99
+L165.6
+IGL022/96
+IGF083/82
+IGF039/86
+IGF023/86
+IGF030/77
+IGF020/98
+DAP-3DR2a
+X63AG8.653
+A431
+IGF083/83
+AG95P
+IGF021/90
+IGF023/85
+IGF077/88
+DAP-3DQ1
+IGF020/97
+IGF013/90
+X1/5
+IGF039/84
+IGF087/83
+IGF023/88
+IGF077/89
+COLO 320 DMF
+TA-2
+COR-L47
+META-10
+IGF091/89
+IGF039/85
+IGF087/84
+IGF023/87
+IGF077/91
+META-7
+COR-L311
+IGF001/98
+IGF006/99
+IGF091/92
+L 5.1
+Mv 1 Lu
+MCS94MIL2
+IGF077/95
+IGF013/99
+VG84
+IGF029/89
+IGF039/00
+IGF041/86
+L 929
+CC81
+MUTZ-3
+MCR96M
+EIII
+EJ (MGH-U1)
+IGF077/92
+DOK
+IGF029/91
+8-MG-BA
+IGF014/00
+C91PL
+IGF010/87
+C-C87a
+Lung-second
+T-M95a
+IGF014/01
+OE19
+C91
+C92
+MUTZ-1
+TANOUE
+IGF010/88
+MOR/0.2R
+T-M95f
+IGF029/88
+IGF010/85
+WEHI-3B(D+)
+IGL021/99
+IGF042/86
+F1
+IGF019/85
+IGF004/91
+C8PV
+DP-LL95
+TM96P
+OCI-AML5
+Lung-first
+Lung-fourth
+IGF042/85
+MOPC 31C
+IGF010/86
+IGF014/78
+IGL022/00
+IGF004/93
+DPS84
+TMM
+OCI-AML2
+CP132
+WERI-RB-1
+IGF042/88
+IGF004/94
+F11
+IGF038/97
+O-C94
+IGF029/92
+IGF004/96
+TN-368
+WEHI-3B/CPX
+IGF042/87
+IGF010/84
+F1187
+IGF029/93
+L164.11
+LUDLU-1
+COR-L95
+IGF086/91
+DAP-3DPw2
+A4-1077
+IGL021/96
+WES
+IGF091/85
+IGF006/91
+MFE-319
+TF1
+IGF021/88
+E.Derm
+Lung-third
+A4-1025
+IGF086/90
+IGL021/98
+IGF091/84
+IGF042/89
+IGF006/92
+MFE-296
+IGF023/90
+IA-Xs SBR
+COR-L51
+DAP-3 DR1
+IGF083/92
+IGF004/97
+IGF021/84
+IGF091/87
+IGL020/98
+COR-L88
+IGF023/91
+F0894
+MUTZ-2
+Hs 633T
+DAP-3 DR4
+IGF083/91
+IGF021/85
+Balb/C MSV (AP129)
+IGF091/86
+IGF004/98
+IGL020/99
+IGF083/90
+IGF039/81
+9 BG 5
+M-V94
+BE11 (Early)
+IGF023/93
+IGF078/79
+TAK3
+KATO III
+BE10-Late
+IGF021/82
+BAOEC
+MF92
+IGF006/87
+MV-4-11
+IGF039/80
+IGF083/89
+BE-13
+IGF087/79
+IGF023/94
+IGF078/78
+C-C87f
+IGF021/83
+DAN-G
+AGLCL
+IGF083/87
+IGF039/77
+IGF013/95
+IGF023/95
+IGF087/78
+EJ138
+C-C90
+MFE-280
+IGF091/83
+IGF006/93
+IGF041/87
+KB/cSV
+IGF078/81
+IGF039/01
+IGF013/96
+LNCaP.FGC
+IGF086/92
+VG86
+M-F92
+IGF078/80
+C-C91
+IGF001/97
+MCS94MLEBV
+IGF006/94
+IGF021/78
+FIB-LARSEN1
+IM 9
+IGL015/96
+IGF027/96
+IGF038/82
+IGF115/83
+IGF022/98
+IGF033/93
+IGF027/95
+IGF097/83
+FIB-IP2
+IGL015/97
+IGF038/81
+IGF022/99
+FIB-IP1
+IGL015/98
+IGF060/87
+IGF038/80
+IGF019/84
+IGF027/93
+IGF097/85
+PVBC-OI273
+IGF115/81
+FIB-SCLE20
+FIB-EDIV4
+TTDH8PV
+IGL015/99
+IGF060/86
+IGF038/01
+DG96
+IGF038/98
+DBC95
+IGF027/94
+IGF022/97
+PVBC-OI274
+M1191
+IGF115/82
+LM 6
+FIB-SCLE2
+IGF097/84
+FTC-238
+IGF011/87
+IGF124/80
+KShS
+IGF035/90
+IGF088/79
+FIB-PSE46
+D12/DM
+IGF097/87
+M1392
+FTC-133
+N-C96
+HMVII
+IGF124/81
+IGF035/89
+KTP
+IGF088/78
+IGF097/86
+IGF024/82
+IGF124/82
+IGF124/84
+IGF035/92
+IGF041/84
+KU-19-19
+IGF088/83
+FIB-PSE50
+HN
+IGF038/83
+KU-812
+IGF035/91
+SKW-3
+IGF088/82
+FIB-PSE47
+IGF016/98
+FIB-PSE44
+IGF055/90
+ST-2
+TTDH7PV
+FIB-PSE43
+3T6-Swiss albino
+A3 AAL
+3t3
+IGF035/94
+IGF088/86
+I2586
+IGF124/85
+S-T92a
+IGF035/93
+FIB-PSE45
+IGF088/84
+KRJ-1
+S-T92f
+IGF124/91
+SW626
+FIB-SCLE19
+WEHI-3B
+IGF055/95
+L23
+LM 7
+PVBC-OI275
+IGF027/97
+LC 540
+IGF060/82
+Eos-HL-60
+TTDH3PV
+IGL016/00
+IGF091/79
+3T3-SV40
+IGF055/94
+FIB-SCLE18
+LM 8
+IGF027/98
+PVBC-OI276
+TTDH4PV
+IGF060/81
+3T3-MSV
+Ep 16
+M4
+IGF055/93
+AAA95M
+L21.3
+LM 9
+IGF022/94
+22RV1
+PVBC-OI277
+DBM96
+IGF060/84
+TTDH5PV
+IGF038/99
+LP-1
+FIB-SCLE17
+FIB-EDIV2
+IGF055/92
+A-A94
+IGF022/95
+IGF115/84
+DB-R95
+LM from NCTC clone 929
+IGF060/83
+MB-L2
+L90
+TTDH6PV
+IGF022/96
+FIB-EDIII5
+FIB-MARFAN5
+IGL014/97
+IGF037/97
+IGF023/81
+IGF087/91
+IGF035/87
+IGF097/89
+IGF009/84
+FIB-SCLE16
+LOVO
+FIB-MARFAN6
+IGF037/98
+IGF023/79
+IGF097/90
+AA84F
+IGL014/99
+LOU-NH91
+FIB-MARFAN3
+MP 5
+IGF028/01
+TB6-3
+IGF097/92
+IGF023/78
+IGF028/00
+DB 9 G.8
+IGF055/89
+FIB-SCLE14
+IGF037/95
+FIB-MARFAN4
+IGF041/85
+IGF060/80
+IGL014/98
+TB-5
+IGF023/77
+IGF027/99
+IGF098/78
+FIB-SCLE15
+HL60 M4
+FRTL-5
+D0994
+IGF011/86
+IGF125/81
+IGF087/85
+IGF098/79
+HL60 M2
+IGF035/82
+FRT-U10
+FIB-MARFAN1
+IGF125/80
+IGF087/86
+IGF035/83
+SK MES 1
+D 17
+S-L95a
+FS6
+IGF037/99
+IGF019/92
+IGF035/85
+IGF087/87
+S-L90f
+STA88M
+IGF038/00
+MES-SA/Dx5
+SW-948
+IGF125/82
+IGF035/86
+IGF087/89
+S-L90a
+FIB-PSE51
+IMG-1233
+A2780ADR
+IGF125/84
+L94
+IGF016/97
+IGF060/79
+LM 5
+IGF040/84
+IMG-1230
+FIB-PSE52
+SGS
+A2780cis
+CAL-85-1
+IMG-1217 XP8MO
+IGF040/85
+IGF091/81
+SGE-1
+IGF126/80
+IMG-1216
+IGF035/88
+FRT-L KiMol wt
+SGA96M
+L201.15
+IGF040/86
+IGF087/92
+IGF125/85
+IGF021/91
+FRT-L KiMolts
+IMG-1215
+IGF040/87
+S-G94
+IGF055/87
+4/4 R.M.-4
+LBE88
+LM 2
+T-C90
+IGF059/93
+A-P92
+L89P
+FIB-SCLE12
+IGL015/01
+IGF040/89
+FIB-SCLE13
+SG94
+IGF055/88
+LM 13
+IGF059/95
+IGL015/00
+TC86P
+S-C93
+L-2
+A9HT
+Loucy
+IGF055/84
+IGF028/77
+D-B87
+LM 4
+IGF059/97
+FIB-LARSEN2
+Aa
+F2586
+IGF055/86
+LM 3
+IGF023/00
+IGF023/01
+IGF060/78
+TC96
+IGL017/98
+FH 51
+IGF027/82
+M-07e
+IGF009/82
+FH 50
+IGL017/96
+FIB-DUP5
+LS1
+IGF035/81
+TCCSUP
+23CLN
+IGF027/83
+IGF027/85
+FH 5
+CPA
+FIB-DUP4
+IGL017/97
+GT186ls
+IGF035/80
+FH 49
+IGF022/87
+IGF027/84
+D-C95
+IGF019/99
+IGL017/00
+CPC-N
+IGF027/86
+CAL-72
+IMG-1211
+FH 47
+IGF035/77
+A2780
+IGF020/00
+IGL017/01
+CAL-78
+LAMA-87
+IGF011/90
+CVD89M
+IGF035/01
+SK-N-F1
+IGF126/81
+CAL-54
+IGF089/80
+KYSE-30
+IGF035/00
+IGF126/83
+LS 123
+IGF006/84
+CAL-62
+IGF089/79
+34-5-8S
+CX-1
+KYSE-410
+IGF045/00
+IGF040/79
+IMG-1164
+IGF019/97
+KYSE-180
+MP 6
+IGF044/99
+LAN-5
+G cells
+IGF040/78
+IGF044/98
+A24
+IGF019/98
+KYSE-270
+IMG-1165
+IMG-1008
+IGF053/86
+PVBC-OI234
+IGF044/97
+S-G87
+IMG-1176
+LM 11
+CAL-39
+IGF059/92
+LAN-1
+IGF126/84
+IGF019/93
+DS22-4
+IGF091/76
+IGF044/96
+KYSE-150
+SG88P
+IMG-1181
+LM 12
+CAL-51
+LAN-188
+IGF059/91
+EREp
+IGF019/96
+T-F96
+IGF126/85
+PVBC-OI228
+LM 1
+GT186f
+FIB-DUP15
+ES-095
+IGF059/90
+IGF022/83
+253D
+PVBC-OI230
+IGF009/81
+LM 10
+IGF040/83
+AC-1M32
+FIB-DUP14
+IGF059/89
+DC96
+PVBC-OI217
+IGF022/84
+FIB-DUP3
+IGF040/82
+S-C88
+GS-9L
+IGF022/85
+IGF059/87
+IGF113/91
+L-M (TK-)
+PVBC-OI227
+S-F95
+T-D94
+IGF040/80
+FIB-DUP2
+L89M
+GS93
+IGF022/86
+GH 3
+IGF093/87
+LR3.1/3
+IGL016/99
+IGF034/99
+A-B92v
+M. dunni (Clone III8C)
+IGF114/83
+IGF006/83
+23132/87
+GH 1
+IGF027/88
+PVBC-OI250
+IGF093/89
+IGL016/98
+LPRB3 112
+FIB-ED3
+TE
+ABC-1
+IGF041/81
+IGF114/82
+IGF027/87
+IGF114/85
+FH 55
+IGF027/91
+LR6.3/52C
+FIB-EDII1
+IGL016/97
+IGF093/90
+IGF034/97
+IGF053/87
+IGF022/93
+FH 56
+IGF027/90
+JK-1
+IMG-1007
+LR6.2/52a
+IGL016/96
+IGF093/91
+FIB-EDII11
+IGF034/98
+IGF011/89
+IGF027/89
+IGF022/92
+IGF114/84
+IGL016/01
+IGF020/84
+CAL-33
+FH 52
+IGF088/90
+IMG-1163
+IGF034/95
+MP 8
+IGF020/83
+CAL-27
+FH 54
+IMG-1161
+FH 53
+M0092
+Sf9 (IPLB-21)
+IGF034/96
+KYSE-140
+IGF020/82
+IGF026/87
+IGF091/78
+LPP 3-6
+CAL-148
+GG87
+KU812F
+IGF088/87
+KU812E
+CV96F
+GGP87F
+3611 MSV (4070A)
+IGF088/89
+IGF009/80
+IGF088/92
+SF-21
+LC540
+IMG-1149
+IGF059/86
+FU-OV-1
+3T3 NIH TK-
+IGF025/82
+PVBC-EDS285
+58967 NRK
+MEL-JUSO
+A-2
+IGF020/80
+Sf1Ep
+IGF089/78
+FV93
+CAL-12T
+GT86f
+PVBC-EDS27
+IGF020/78
+L-C90
+L89.2
+IMG-1156
+IGF059/84
+CAL-120
+PVBC-EDS528
+E-P95
+SF-9
+IGF088/91
+LLC-RK1
+IMG-1154
+IGF059/85
+DFK3
+PVBC-EDS487
+IGF020/01
+LCLC-103H
+IGF022/89
+DBV95
+A-B92a
+PVBC-OI272
+IGF040/01
+EPI
+H 9
+CaSki
+IMG-1006
+FIB-DUP6
+Jiyoye
+IGF022/90
+IGF022/88
+PVBC-OI271
+A-B92f
+IGF040/77
+FIB-DUP7
+IMG-1003
+AR91
+LP96
+IGF059/83
+PVBC-OI265
+IGF027/92
+IGF114/91
+DBTRG.05MG
+IGF039/99
+JIII
+FIB-DUP9
+EPNT-5
+IGF081/78
+IMG-1002
+GT86ls
+PVBC-OI254
+IGF114/87
+IGF040/00
+JII1
+EPLC-272H
+H 16-L10-4R 5
+IGF022/91
+MN96
+IGL005/93
+IGF063/87
+IGF044/89
+IGF057/81
+FH 57
+G-F92a
+IGF148/82
+IGF054/95
+IGF101/90
+LL29 (AnHa)
+IGF037/78
+IGF081/80
+LAT 1
+PVBC-EDS546
+LS174T
+IGF025/83
+IGF044/88
+MN95
+IGF063/86
+IGF057/80
+B-S95
+IGF148/83
+IGF053/83
+TFK-1
+LAT II
+IGF101/89
+IGF037/77
+PVBC-EDS547
+IGF025/84
+IGF054/94
+LS180
+IGF034/90
+IGF063/85
+IGF025/85
+MP 3
+M-N91
+FH 6
+SF-158
+FH 60
+IGF037/76
+Lb 224
+BC-3C
+IGF044/90
+FH 156
+FH 59
+IGF036/01
+IGL029/98
+IGF063/84
+IGF037/01
+Lb 23
+7-TD-1
+IGF054/97
+SMC-YOS2
+FH 155
+IGF034/92
+7TD1
+L1296
+IGF047/00
+L5178Y-R (LY-R)
+IGF034/91
+FH 154
+MA94LEBV
+Shs
+IGF102/80
+IGF046/99
+FH 61
+IGF149/82
+IGF053/90
+G-F95
+IGF034/94
+SMC-RV
+IGF054/93
+IGF102/78
+FH 153
+GF-D8
+IGF046/98
+G-F92f
+IGF149/83
+IGF016/99
+IGF063/90
+IGF034/93
+L5178Y
+SMC-YOS1
+IGF101/91
+IGF054/92
+FH 152
+IGF046/97
+IGF046/96
+FIB-NC66
+CRE BAG2
+FIB-CL3
+FH 157
+A-172
+IST-SL2
+FIB-NC65
+JM
+FIB-CL2
+A1594
+SMC-RG
+FIB-NC64
+CAT-13.0B10
+FIB-CL10
+FLYA13
+G1094
+JM2
+Flow 6000
+G0895
+LL47 (MaDo)
+PVBC-MF115
+FLOW 2002
+Lb 24
+DG 1
+IGF063/91
+LL86 (LeSa)
+IGF057/78
+IGF025/86
+T2389
+G1291
+IGF057/77
+PVBC-EDS550
+FLC clone M2
+A7573
+32D
+IGF025/87
+SE95ls
+FIB-NC63
+FIB-CL6
+IGF057/76
+A15
+IGF044/87
+PVBC-I385
+IGF025/88
+IV95
+IGF036/80
+AR84S
+SER-W3
+IGF037/80
+FIB-NC62
+IGF056/97
+FIB-CL5
+IGF044/86
+IGF063/79
+IGF044/94
+IGF025/90
+DS 92
+IGL028/00
+FH 62
+IGF036/97
+LAn96
+IGF055/80
+SIG-M5
+PVBC-MF257
+IGF063/80
+IGF044/95
+GE86
+IGF081/76
+IGL027/99
+IGF056/95
+FH 63
+IGF036/98
+IGF055/83
+MR87
+IGF025/89
+PVBC-MF256
+FH 64
+BRL-1
+F-P96
+M-R89
+LAQ 8251
+FH 65
+SE95IL2
+PVBC-MF255
+SIMA
+LAP 4108-6
+FH 66
+IGF036/96
+BS/BEK
+BL-41
+IGF034/85
+FH 161
+IGF047/84
+BRL-3A
+IGF034/86
+FH 162
+L45
+IGF054/99
+SIRC
+FIB-DUP11
+IGL005/95
+GE95
+L-428
+IGF063/81
+IGF034/87
+FH 16
+XP14PV
+IGF055/77
+IGF047/82
+BS1-B4
+IGF053/89
+GEEP
+SNB-19
+IGF034/88
+IGF063/82
+XP15PV
+FH 160
+IGF055/78
+MR
+IGF047/83
+J 111
+IGF017/00
+JOSK-M
+FIB-PSE12
+IGF061/82
+IGF047/78
+FIB-CL9
+FH 163
+MHH-CALL-2
+IGF034/89
+S-N87
+FLC clone 745
+IGF036/00
+46BR.1N
+26 CB1
+T24
+JOSK-I
+IGF047/80
+FH 164
+FIB-DUP1
+A673
+XP16PV
+F7000
+MP 14
+FIB-CL7
+IGF056/94
+IGF022/77
+JR 1
+FIB-CL8
+FL88
+46Br.1G1
+IGF025/92
+S-D92v
+G 26/24
+CB57/C91PL
+S1295
+NB-4
+IGF056/92
+IGF025/91
+S-D92f
+G/G
+LARB1 1212
+IGL029/00
+G.8
+FIB-NC67
+IGF056/93
+IGF044/91
+IGF009/77
+PVBC-MF268
+IGF025/95
+IGF036/99
+G0086
+S-D92a
+FIB-PROL1
+IGL028/99
+LL24
+IGF044/92
+FIB-DUP10
+Z85
+PVBC-MF267
+IGF025/93
+IGF037/00
+J 774A.1
+FIB-PSE1
+IGL028/98
+FIB-PROL2
+FH 67
+LL/2 (LLC1)
+IGF044/93
+FH 99
+IGF007/96
+IGF056/91
+SM86P
+IGF057/91
+FIB-PSE26
+IGF044/78
+IGF037/93
+SCLC-22H
+IGF054/83
+SM96P
+BL2-8G-E6
+IGF057/90
+FH 7
+IGF044/77
+60H9(9)D10.E6
+S2793
+FH 70
+IGF037/92
+IGF054/82
+FH 69
+IGF044/00
+AR4IP
+IGF057/93
+SD-1
+IGF025/96
+IGF054/80
+SISO
+FH 68
+IGL025/99
+IGF043/99
+IGF057/92
+IGF054/78
+T-P92
+IGF037/94
+IGF034/81
+IGF143/83
+IMG-966
+IGF061/81
+84BR
+IGF034/80
+S-L95f
+IGF144/80
+IGF061/79
+Mc Coy
+IGL014/00
+L3.6.2
+SLC87M
+IGF034/77
+A95
+IGF144/82
+IGF037/91
+IGF061/78
+L35
+IGF044/79
+F2
+IGF144/83
+8505C
+IGF037/87
+IGF061/76
+F89
+XP10PV
+IGL014/96
+A1 ATH
+XP11PV
+PE/CA-PJ41 (clone D2)
+KHOS-321H
+IGF143/80
+L-363
+FIB-SCLE9
+A09194
+FIB-SCLE8
+IGF025/97
+F96
+IGF143/82
+XP13PV
+IGL014/01
+M-P88
+IGF090/92
+F95
+PE96
+IGF060/97
+RBL 1
+JTC-15
+293 N3S
+A94M
+IGF034/84
+F94
+XP12PV
+IGF081/82
+IGL014/95
+PE86P
+IGF060/95
+JTC-19
+IGF034/83
+A94
+A.704
+FIB-PSE2
+JRO1-27
+IGF026/00
+F-P95
+1BR.3.GN
+IGF057/89
+IGL026/00
+FH 72
+FIB-PSE17
+A94P
+1BR.3.G
+IGF026/01
+IGF057/88
+FIB-PSE15
+IGL005/91
+FH 71
+IGL026/99
+IGF054/77
+TGP 54
+1BR3
+LTK-
+IGF025/98
+FIB-SCLE7
+FIB-PSE14
+IGL027/00
+S+L-CAT2
+IGF053/99
+TGP 55
+SCLC-21H
+1BR.3.N
+JR8
+IGF025/99
+FIB-PSE13
+IGL027/98
+JVM-2
+8305C
+OAW28
+FIB-PSE39
+IGF097/82
+IGF044/84
+FH 150
+LT
+IGF054/90
+IGF037/83
+FIB-PSE40
+IGF057/85
+SMC-BN2
+IGF017/01
+IGF044/85
+FH 151
+SJ-N-KP
+IGF054/91
+IGF037/84
+IGF097/80
+IGF145/83
+IGF057/86
+FH 73
+IGF044/82
+MD94SIL2
+IGF054/86
+LT94
+IGF037/85
+IGF097/81
+FH 74
+IGF044/83
+IGF057/87
+LT89
+FH 75
+IGF054/89
+IGF035/99
+Lb 752
+IGF037/86
+SMC87
+FIB-SCLE6
+IGF033/98
+IGF146/82
+IGL013/01
+IGF060/92
+SMC-1
+IGF033/99
+M5076
+IGF146/80
+IGF097/79
+IGF060/93
+XC-clone
+G-292, clone A141B1
+FH 148
+IGF054/85
+SMC-BN1
+IGF147/83
+FH 149
+OC 315
+CRFK (BVD Ag negative)
+XCp
+FH 15
+SMC95S
+L231
+IGF147/82
+M1594
+IGF037/82
+IGF060/91
+IGF026/78
+FIB-SCLE21
+DFGi96
+IGF060/90
+M15
+42-MG-BA
+29.0.C.27
+G25496
+IGF034/76
+L25.4
+IGF026/77
+FIB-SCLE3
+IGF145/80
+IGF057/95
+IGL025/98
+A8/DI
+IGF060/88
+A84M
+FIB-SCLE4
+IGF034/00
+SSN-1
+IGF060/89
+TTDH9PV
+JVM-13
+FH 98
+A84P
+FIB-SCLE5
+IGF034/01
+FIB-PSE35
+IGF057/82
+FIB-PSE34
+FH 77
+IGL024/98
+Jurkat J6
+IGF026/83
+IGF090/91
+IGF044/81
+IGF057/83
+IGL024/96
+FH 78
+JURKAT
+IGF054/84
+SS95
+6-23 (clone 6)
+IGF026/82
+FIB-CL1
+IGF081/81
+IGF057/84
+IGL025/00
+FIB-PSE3
+SS92
+IGF026/80
+JTC-27
+FH 76
+IGL024/99
+FIB-PSE32
+AT2.1
+IGL005/92
+IMG-711
+PVBC-OI
+IGF049/00
+IGF061/83
+FH 18
+J26Cw3
+IGF051/95
+AT-1
+PVBC-OI108
+IGF048/99
+F-P89
+PS
+FH 178
+IGF051/94
+J27.2 43R
+IP1PV
+FH 177
+IGF051/98
+PVBC-MF538
+FH 176
+IGF051/97
+IGF017/76
+A-S91
+IMG-1054
+IGF200/83
+IGF049/79
+IGF201/83
+IGF049/78
+J27.2 Cw7neo
+IGF051/93
+2 BD4 E4 K99
+IGF049/77
+CAS-1
+GOS-3
+PVBC-OI453
+IGF740/88
+IMG-1065
+PVBC-OI460
+FH 111
+FH 106
+IMG-1066
+IMG-787
+IGF046/80
+IGF011/91
+IGF053/91
+PVBC-OI461
+IMG-1068
+IGF043/98
+IGF046/79
+IMG-723
+IMG-1069
+IGF043/97
+IGF046/82
+INT 407
+PVBC-MF448
+S0095
+IGF043/96
+LF-CL2A
+IMG-724
+IGF051/92
+IGF046/81
+Intestine 407
+J27.2 neoB7
+IGF043/94
+IMG-725
+PVBC-OI449
+MP 4
+FH 172
+PVBC-MF423
+IGF043/93
+IMG-726
+IGF046/83
+PVBC-OI452
+FH 171
+PVBC-MF424
+IMG-728
+IMG-1062
+T-G88
+IGL023/00
+IMG-694
+PVBC-MF422
+2.2.15
+P-R90
+FH 17
+B2195
+IGF051/88
+PVBC-MF377
+IMG-691
+IGF003/79
+A-S-30D
+IGF048/94
+FH 170
+PR86S
+IGF051/89
+IGL023/98
+RENE 2
+IGF051/90
+PR82
+IGL023/96
+IGF019/88
+IGF093/92
+FH 169
+IGF051/91
+RENE 1
+Pr8/22
+IGF048/97
+IGL024/00
+HK 0-42
+IGF181/83
+IGF048/98
+Z-C93f
+IGL023/99
+FH 101
+HK 0-43
+REH
+PVBC-OI428
+IGF180/83
+IGF048/95
+FH 103
+RED-6
+IGF048/96
+FIB-NC23
+HK 0-32
+FH 105
+IGF182/83
+IGF183/83
+PVBC-OI440
+G-M95f
+IMG-1111
+FH 1
+IGF043/92
+PVBC-OI437
+FIB-NC24
+FH 100
+IMG-1106
+FH 10
+IGF187/83
+IGF048/91
+PVBC-OI444
+LI
+IGF043/90
+IGF186/83
+IGF045/98
+MD95
+PVBC-OI443
+IMG-1112
+IGF043/91
+L-HSO2
+IGF051/86
+IGF045/99
+GMS-10
+FH 168
+PVBC-MF376
+IGF043/88
+D-G92
+S1088
+IGF051/87
+IMG-706
+IGF046/00
+IGF043/89
+PVBC-MF375
+IMG-695
+IGF046/76
+FH 165
+PVBC-OI433
+PVBC-MF354
+M-T95a
+IMG-1080 XP7MO
+IMG-709
+IGF046/78
+FH 167
+PVBC-MF270
+IMG-707
+Line 14
+IMG-1070
+ARH 77
+P-S90
+L1192
+GM7373
+A4xL
+PS92
+IMG-675
+IGF052/84
+PVBC-MF269
+IMG-676
+IGF052/83
+IMG-678
+T-P90
+200D
+ARLJ 301-3
+FGF96
+IGF048/86
+IMG-1241
+IGF176/83
+IGF052/82
+FGC95
+ARL-6
+IMG-1247 XP9MO
+IGF003/80
+IGF048/85
+IMG-831
+B6/FA
+IGF177/83
+IGF052/81
+IGF048/90
+IMG-847
+IGF174/83
+FH 26
+IGF052/80
+Z-C93a
+IGF048/89
+IGF175/83
+IMG-856
+FH 25
+IGF046/94
+IGF178/83
+IMG-1250
+IMG-824
+IGF048/84
+IGF043/84
+C7PV
+B50
+IGF133/80
+FGC4
+IGF133/82
+IGF046/93
+IMG-826
+IMG-1266
+IGF179/83
+IGF043/82
+IGF048/83
+IGF019/89
+IGF046/92
+PVBC-OI500
+FG86
+IGF133/83
+IGF043/86
+GM86 Clone 745A
+IMG-827
+FG186
+IGF046/91
+IGF043/85
+MD94SLEBV
+FG/90
+PVBC-OI489
+G-M89
+IMG-683
+PVBC-OI499
+GM87
+IMG-688
+PVBC-OI471
+PS192
+G-M95a
+S-117
+GM95
+PVBC-OI488
+PS87P
+IGF132/83
+IMG-679
+Hep 3B
+IGF052/78
+FH 21
+IMG-667 XP2LE
+IMG-672
+CR86
+MT89
+FH 22
+IMG-656
+IGF052/76
+FH 23
+H-EMC-SS
+IMG-655
+IGF052/77
+FH 24
+IGF172/83
+IGF171/83
+IGL005/01
+IGF051/99
+FG/45
+IGF048/79
+IGF170/83
+IGF052/00
+IGF048/80
+IGF169/83
+IMG-823
+IGF048/82
+FH 20
+C8166
+IGF168/83
+IGF046/85
+FG/25
+IMG-1234
+IGF173/83
+IGF047/98
+FG/223
+IGF046/87
+FG/4
+IGF047/99
+L12.2
+B3/AN
+PVBC-OI467
+R1391
+IGF048/77
+IMG-1048
+IGF046/84
+PVBC-OI466
+FFC87M
+FH 19
+GM06127
+IGF014/89
+PVBC-OI465
+IMG-674
+R1487
+GM08866
+PVBC-OI464
+IMG-673
+PVBC-OI462
+A6 ATL
+IGF046/89
+H33HJ-JA1
+TOU (TOU I-2)
+GM7372
+IGF046/90
+IMG-915
+PVBC-OI197
+I1094
+IMG-920
+PVBC-OI204
+IMG-909
+LNCAP
+IGF163/83
+DG 2
+IMG-911
+IGF164/83
+IGF123/91
+PVBC-OI193
+I1686
+IGF165/83
+IGF045/80
+IGF033/89
+IGF045/81
+IGF166/83
+IGF036/76
+IGF033/88
+IMG-908
+IGF045/79
+IGF137/83
+Hep-2
+IGF033/87
+R/3.2-L
+Hep-2C
+PVBC-OI205
+IMG-1132
+L-1210
+Hep2 (Clone 2B)
+IGF045/82
+PVBC-OI206
+IGF136/82
+IMG-1134
+IGV005/93
+IMG-1135
+IGF136/83
+IGF033/86
+IMG-1136
+FIB-NC26
+IGF135/83
+IGF045/84
+IGF033/85
+IGV003/90
+IMG-1137
+IGF136/80
+IMG-653
+IGF045/83
+IGF033/84
+IGV003/93
+C86P
+BL-70
+R-G196
+IGF035/97
+IGF123/81
+IGF026/92
+IGF035/96
+LN-405
+IGF123/82
+R/R1H-L
+IGV001/99
+IGF026/93
+C83
+IGF026/89
+GS83ls
+IGF123/83
+IMG-907
+LM-M92
+IGF137/80
+IGF026/90
+IGF035/98
+IGF123/85
+GS83f
+DR89P
+IGF123/84
+IGF026/91
+IST-MEL2
+IMG-906
+IGL006/00
+PVBC-OI185
+GR-M
+IMG-905
+IGL005/99
+PVBC-OI184
+IGF019/87
+IMG-895
+IST-MES1
+IST-MEL3
+IMG-884
+IGL006/01
+IST-SL1
+IGF049/95
+IST-MES2
+IGF049/96
+PVBC-OI189
+IGF003/77
+IMG-1143
+Hs1.Tes
+PVBC-OI187
+IGF049/93
+QV-R94
+IMG-1140
+PVBC-OI186
+IGF049/94
+IMG-1145
+IGF134/83
+IGF001/94
+HEP-3B
+IGF123/80
+IGF049/92
+IGF134/82
+IMG-1144
+R D
+IGF134/80
+FH 93
+IGF033/90
+IGV009/96
+ZDF95
+R 9 ab
+IMG-1146
+FH 94
+IGF033/91
+IGV009/90
+R 2 C
+FH 95
+IGV008/94
+FH 96
+IGV006/99
+Fer Ray
+FH 97
+IGL005/98
+IGF122/91
+Grunt Fin (GF)
+IGV005/94
+IMG-858
+IGF122/85
+IGF135/82
+IGL005/97
+IGF122/84
+IGF036/75
+IMG-857
+IGF135/80
+IGF098/80
+IPL-LD-65Y
+IMG-939
+PQ
+RENT 4
+IS94
+PR-1
+IMG-940
+DG 3
+RENT RO1
+IGF049/91
+PVBC-OI383
+RENT RO3
+IGL006/97
+PVBC-OI384
+RENT ts3.1
+FH 84
+PVBC-OI160
+IGL006/98
+IGF091/82
+FIB-NC25
+RENT tsS1.1
+IST-MEL1
+Q-P96
+PVBC-OI161
+PO-2
+IMG-935
+PVBC-OI164
+IGF141/83
+PORTHOS
+Ishikawa (Heraklio) 02 ER-
+IGF003/01
+IGF033/00
+IMG-936
+PVBC-OI165
+IGF142/80
+HK 0-45
+IGF045/91
+PPES
+Ishikawa (London) 02ER+
+IMG-938
+PVBC-OI172
+IGF021/92
+IGF045/92
+IGF142/83
+HK 0-44
+FH 85
+IGF140/83
+IMG-1117
+PVBC-OI159
+IGV025/91
+IGF032/96
+IMG-1119
+C86M
+IGF141/80
+IGF032/94
+IGF141/82
+IGF027/00
+IGF032/98
+IMG-1116
+IGF027/01
+IGF027/77
+IGF045/93
+IGF032/97
+COLO 685
+IGL006/93
+FH 92
+IGF027/78
+PVBC-OI396
+IGV009/99
+IGL006/95
+FH 91
+IGF032/99
+PVBC-OI427
+IGF027/80
+IGF021/93
+GR95
+IGV010/85
+FH 9
+IMG-1121
+PVBC-OI387
+IGV011/92
+IGL006/92
+FH 86
+IMG-1122
+PVBC-OI388
+IGF006/79
+IGV017/91
+GRANTA-519
+HL60 Ast.3
+IMG-933
+I-P94
+IMG-926
+HL60 Ast.4
+RFE88
+IGV028/91
+FH 79
+IGF077/84
+PNT2
+IMG-934
+FH 8
+IGL007/92
+IPLB-Ld-65z
+PVBC-OI133
+RN 22
+IPI-2I
+PVBC-OI129
+IGF045/85
+FER
+IMG-925
+IPI-1
+IGF033/81
+PVBC-OI158
+IGF045/86
+IGF140/80
+L91.7
+IPC-298
+IMG-921
+IGF033/83
+SC-75
+HL60 15-12
+PVBC-OI157
+IGF139/83
+IGF045/87
+IGF138/82
+IMG-1127
+PVBC-OI127
+RMZ
+IGF045/89
+IGF033/01
+IGF036/77
+IGF057/97
+IGF138/80
+IMG-1126
+PVBC-OI121
+IGF045/90
+IGF033/77
+RMR96
+IGF026/95
+IMG-1124
+IGF139/80
+IGF033/78
+IGF001/86
+IGF138/83
+IMG-1123
+IP2PV
+IGF045/88
+IGF033/80
+IGL007/91
+FH 82
+IGF026/98
+PVBC-OI380
+IGV030/84
+ML-1
+GP-16
+IGL007/01
+FH 83
+IGF026/96
+IGF026/97
+GP2d
+IGV029/91
+PVBC-OI379
+IGL007/00
+FH 80
+IGF038/89
+GP5d
+IGL006/99
+IMG-1129
+FH 81
+IGF026/99
+IGV032/91
+AKR-2B
+COR-L 23/CPR
+IGL001/95
+IGF015/80
+IGF014/86
+IGL007/98
+IGL001/93
+IGF015/78
+IGL007/96
+IGF015/01
+IGL008/00
+IGL007/99
+HUP-T3
+IMG-949
+HuP-T4
+IGF021/94
+IGF017/92
+AC2
+IGL001/98
+IMG-484 XP2MO
+HuP-T3
+IGL001/97
+IMG-478
+IGF017/95
+IGL007/94
+AC-1M81
+EGI-1
+IGL001/96
+IMG-375
+IGF017/93
+AC-1M88
+IGF017/91
+HUP-T4
+IMG-965
+IMG-3003
+P1.HTR
+E2
+IGF006/80
+AC-1M59
+IGF017/89
+IGF017/90
+IMG-964
+IMG-1432
+IGF032/87
+E1a
+P1.HTR.TK-
+IMG-963
+IGF032/86
+FIB-NC27
+E5ab2
+IMG-962
+IGF032/85
+E3
+IGF032/84
+COR-L23/R
+IGF032/83
+COR-L23/5010
+P1095
+COR-L23
+IGF041/80
+COR-L105
+AKR/12B-3
+IGL008/94
+IGF029/00
+AKR/14C
+IGL008/98
+AKR/13B
+IGL001/99
+HBL-100
+IMG-1421
+IGF016/96
+IGF077/83
+IMG-1425
+IMG-1419
+IGL008/92
+IMG-1420
+IGF017/87
+Hs 431
+IMG-946
+P1286
+IMG-1418
+IMG-947
+YT
+p120
+EB (JC)
+P1192
+Cor Per
+IMG-941
+IGF032/91
+IMG-944
+IGF032/93
+IGF032/89
+THP-1
+IGF001/87
+IGF028/97
+IGF032/90
+IGF028/98
+P12-ICHIKAWA
+IMG-948
+HT 1197
+COLO-849
+IGF028/99
+IGF032/88
+P1294
+T-P92I
+HT 1376
+IGF018/78
+IGA013/83
+DLL87S
+IMG-650
+IGF032/76
+DLG96IL2
+D-M89
+CF96F
+IGF029/01
+IGF014/87
+IGF031/99
+IMG-638 XP3LE
+HT 1080
+IMG-636
+DLG96f
+IGF032/01
+IMG-649
+IGA015/96
+IGF032/00
+IMG-639
+COLO 677
+AM95
+IGF012/98
+IGF029/81
+IGA017/99
+HSFPD
+OVCAR-3
+IGF029/78
+IGF012/96
+IGA016/84
+AM-C6SC8
+L-B7
+OVCAR-5
+EB-1
+IGF029/77
+IGA020/90
+PVBC-OI284
+OVNIS
+IGF029/75
+AM86
+HSG
+IGA018/85
+IGF021/95
+P 3 HR 1
+AM85
+B/C.Sk
+IMG-610
+DMM87
+IGF018/00
+IMG-630
+IGF018/77
+IGL001/01
+IGF018/01
+IGF006/81
+IGL001/91
+IGF017/98
+IGL001/92
+IGF017/99
+IGF029/82
+IGF012/93
+IGF032/78
+IGF012/94
+C-F89
+IGF029/83
+AJ95
+IGF032/80
+IMG-492
+HSDM1C1
+CF89P
+IGF012/91
+IGF017/96
+IGF032/81
+HSF
+IGA022/82
+IMG-493
+MB-L11
+SK LU 1
+IGF041/78
+CF84f
+IGF017/97
+IGF012/92
+DMBM-2
+IGF032/82
+DM94
+IGA022/99
+IMG-608
+CF84ls
+IGF029/87
+MTC SK
+ALM86M
+IGA024/90
+EoL-1
+ALL-PO
+IGA026/82
+EOL-1
+IGF029/85
+IGA028/83
+Hs913T
+IGF029/86
+V1396
+HSB-2
+IGF032/77
+b.End3
+IGF016/81
+b.End5
+IGF016/80
+IGF016/78
+IGF016/77
+IGF047/94
+IGF047/95
+IGF001/90
+IGF047/91
+IGF047/92
+IGF047/96
+IMG-768
+IMG-767
+P-S96
+IGF015/98
+AV 3
+AUBEK
+PSA1
+SC-1 (F1701 clone 1116A)
+IGF015/99
+PS94
+IGF015/97
+PS95
+IGF047/89
+IMG-761
+IGF047/88
+IMG-763
+IGF047/87
+IMG-765
+FeLV 3281
+IGF047/86
+IGF016/00
+IMG-766
+IGF016/01
+IGF047/90
+PSA1-NG2
+AV3
+IMG-1414
+IMG-1413
+IMG-759
+IGF019/90
+IMG-1416
+IMG-1415
+Y3.AG.1.2.3
+IMG-1417
+IMG-740
+IGF028/81
+NCI-H295R
+FC60B.We
+S9.6
+RKO
+IGF014/84
+MM87f
+GM00863
+IGF122/82
+IGL029/99
+IMG-969
+CH-EB6
+Hs 892.T
+NCI-BL209
+TM4
+L6J1
+FC60A.We
+NCI-H322
+IGF028/82
+MM7-11.Sp
+RKO-AS45-1
+SA13
+GM00639
+DK
+D1589
+IMG-971
+IGF038/91
+IGF122/83
+IGL030/00
+Hs 894(A).T
+IGF024/83
+FC63.Res
+CCD-1141Sk
+NCI-H2081
+IGF008/00
+ψ2 DAP
+IGF028/83
+OC 316
+IGF003/81
+TS1/22.1.1.13
+S6F1
+IGL030/98
+DII 33.1
+NCI-H2073
+Hs 894(B).T
+TM90
+Chang liver
+NCI-H345
+IGF008/01
+COLO 679
+FC61
+MM87IL2
+ψ2 13s1
+S9
+TS1/18.1.2.11
+IGF096/86
+IMG-968
+Chang Liver
+IGF096/90
+IGL030/99
+L132
+FH 119
+TM-7
+Hs 894(C).T
+NCI-H358
+TS/A
+ψ2 12S6
+GM00488C
+Hs 828.Sk
+NCI-BL2009
+IGF021/96
+HP6002
+IGF110/78
+CEM-LAV-2
+W162
+Ru Ra
+NCI-H378
+XP21PV
+IGL031/00
+DHFR-G8
+Hs 894(D).T
+LB7á2mC25
+FH 118
+TS 106
+psi 2 BAG alpha
+Hs 832(C).T
+NCI-BL2028
+HP6001
+IGF110/80
+VX7
+D1B
+CHP 3 (M.W.)
+IGF006/82
+RV-C2
+MLA 144
+IGF121/85
+FH 114
+DHD/K12/TRb
+HP6014
+Hs 822.T
+TRAMP-C3
+GM00638
+NFS-5 C-1
+IGF011/92
+IMG-1046
+IGF028/78
+NCI-BL2052
+XP23PV
+IGA001/83
+M-L95f
+RVH-421
+D-17
+CTLL-2
+CHP 4
+M-T95f
+FH 113
+IGF121/91
+Hs 824.Sk
+GM00637B
+IGF028/80
+HP6003
+IGF109/91
+NCI-BL2087
+M-L95a
+XP22PV
+IGF041/77
+CHP 4 (W.W.)
+D17
+CTLL
+IGF122/81
+FH 112
+Hs 201.Sk
+FH 120
+IG88IL2
+CT6-1D7
+IMG-1036
+IGF001/91
+IGF005/87
+W4F.5B
+M-L94
+IGF002/92
+V91
+IGF089/89
+XP18PV
+IGF109/85
+IMG-1037
+CESS
+S1814.PB5
+IGF038/90
+NR8383
+PA317 LXSN
+WRC
+Hs 833(C).Sk
+Hs 200.T
+CHP 212
+CT26.WT
+ML89S
+W-20-17
+IG88ls
+IGF014/85
+IGF005/89
+CF-1 MEF
+IGF089/90
+IGF002/93
+IMG-1038
+XP17PV
+PA317 LXSN 16E6
+COLO 741
+WR21
+NRbM
+COLO 684
+CCD-11Lu
+HP6016
+Hs 834.T
+Mab 2B5
+Ig(5a)7.2
+Hs 2.We
+CHP 3
+IGF005/91
+CF-10H5
+COLO 720 L
+IGF019/91
+IGF002/94
+Wa Fen
+IGF109/83
+WR19M.1
+Hs 198.Ton
+CT96
+Ig(5b)6.3
+mAb 270
+IGF005/92
+IGF017/78
+W6/32
+IMG-1035
+IGF109/84
+XP19PV
+CF11.T
+COLO 720 E
+IGF002/95
+NCI-BL2107
+TM95
+NCI-H209
+M85
+IGF024/88
+IGF096/91
+mAb 35
+IGF008/80
+RL-65
+IGF090/78
+CCD-186Sk
+IGF002/96
+COLO 699N
+IGF001/93
+TM94
+IGF024/90
+NCI-H2106
+IGF096/92
+mAB 35
+IGF008/81
+S5
+NCI-H2107
+No Per
+IGF011/93
+COLO 699 N
+IMG-972
+IGF097/78
+CH26-1352
+IGF024/85
+NCI-H2085
+IGF008/78
+WS1
+FC71A.We
+NOR-10
+IGF041/01
+CCD-13Lu
+IGF089/91
+IGF005/86
+Hs 894(E).Lu
+IMG-973
+ChaGo-K-1
+MAb 5.2
+NCI-H2087
+Hs 202.Sp
+IGF024/86
+META-1
+NP
+IGF008/79
+WRL 68
+CER
+CCD-16Lu
+NCI-H441
+FC70.We
+IGF089/92
+NCI-H2452
+IGF053/84
+N-B88
+FC77.T
+TRAMP-C2
+IGF028/88
+RLC 27
+MAb 151-45-4
+GM00425
+MM55.K
+D2085
+IGL032/00
+Ch2.D
+IGF053/92
+HFF-1
+IGF024/92
+DH82
+Hs 889.Sk
+IGF012/90
+FC79.We
+IGF028/87
+SA88f
+GM00469
+RLC
+IGF090/89
+MM55.Sp/Thy
+IGL031/99
+Ch13
+D2187
+HFF-2
+IGF024/91
+DH82ECOK
+IGF012/89
+PE/CA-PJ34 (clone C12)
+IGF058/82
+ED1-19-1-6-5
+CCD-1136Sk
+FC81.Sp
+Mm5MT
+TR-Ag-9-HPRT-
+SA88
+RL95-2
+GM00483
+IGL032/99
+IGF009/00
+IGF096/81
+Ch1.Es
+NCI-H28
+TM 903
+Hs 890.Sk
+HP6017
+Hs 821.Sk
+CCD-1135Sk
+NCI-H250
+SA87ls
+L6C5
+TRAMP-C1
+EDS 100
+IGL032/98
+TM1
+Hs 889.T
+IGF067/83
+T-R96f
+Hs 820.T
+IGF028/84
+IGF111/80
+IGF038/93
+WAPS 12.2
+CEF
+HP6020
+GM05870
+Hs 5.T
+NCI-BL2126
+XP9PV
+ML86
+NCI-H295
+FH 125
+CR88P
+Hs 891.T
+Hs 820.Sk
+IGF067/84
+CE9H9
+HP6023
+IGF110/91
+NCI-BL2122
+Hs 890.T
+ML87P
+NF96
+IGF041/00
+XPH10PV
+NCI-H292
+FH 126
+GM00112A
+Hs 819.T
+IGF067/85
+HP6025
+IGF022/79
+IGF110/85
+GM03252
+Meta 7
+VA88
+IGF028/86
+Ig(4a)10.9
+Hs 507.Sk
+ML-2
+XPH11PV
+NF-1
+NCI-BL2171
+FH 121
+D22
+DG-75
+IGF011/94
+GM00135A
+HP6045
+IGF022/78
+IGF067/86
+Hs 815.Pl
+GM05752
+IGF110/83
+XPH12PV
+IGF028/85
+Hs 505.T
+NB41A3
+Ig(1a)8.3
+ML3
+NCI-BL2141
+D24
+FH 124
+Neuro-2a
+CTPS
+NCI-H2108
+FH 129
+GM02848
+IGF090/87
+IFGCP-F1BA10
+WB2054M
+NN-4
+IGF002/86
+CEM/C1
+IGF089/82
+XP24PV
+NFS-25 C-3
+IGF022/81
+V-B95
+B-B88a
+Hs 821.T
+WU E-14
+PA2.1
+IGF067/87
+CTV-1
+FH 13
+WBC264-9C
+NN-3
+XP5PV
+V1790
+NFPE
+IGF022/80
+VBA88Mf
+GM03123
+CEINGE CLONE 3
+PA1-CEF
+VA-ES-BJ
+C13589
+NCI-BL2347
+WBE
+WEHI-164S
+NF96IL2
+IEC-6
+CEM-CM3
+COLO 818
+IGF110/82
+IGF002/88
+PA-1
+WSS-1
+MAb 1812-4-8
+Pa Kel-2
+M83
+NN-5
+VB86P
+C1300 CLONE NA
+NCI-BL2195
+IGF022/82
+CEM/C2
+IGF110/81
+IGF002/87
+COLO 829
+WSU-NHL
+IGF058/80
+TM-28
+IGF012/85
+HFL1
+P-D91
+IGF096/83
+Mab 1E8
+NCI-H2126
+IGF007/99
+IGF002/91
+SA87f
+L6H2
+COLO 792
+P-D89
+CCD-1140Sk
+IGF089/87
+ECV304
+VA94
+TM3
+mAB 24-1
+IGF096/82
+NCI-H2122
+IGF038/92
+CH1
+IGF024/95
+SA22
+IGF007/98
+IGF002/90
+CCD-1139Sk
+COLO 800
+ECV-304
+IGF089/85
+FC81.T
+CR83
+IGF009/01
+PDL-1
+TM-34
+HFFF2
+IGF012/87
+IGF024/94
+IGF102/83
+NCI-H2110
+IGF096/85
+Ch 1 Es (NBL-8)
+mAB 24-2
+CR96
+IGL031/98
+IGF007/97
+WX310
+RLD-1
+FC81.Thy
+IGF089/84
+CCD-1138Sk
+NMuMG
+P-D94a
+WASMC
+IGL005/00
+IGF012/86
+HFL
+IGF024/93
+NCI-H211
+MAb 26-7-5
+CGTH-W-1
+IGF096/84
+RLC-18
+MM54.Sp/Thy
+ECTC
+IGF053/97
+FC83.Res
+NMuLi
+CCD-1137Sk
+IGF089/83
+COLO 775
+Sal Mat
+α-ACE 3.1.1
+FC5.K
+CCD-1127Sk
+Hs 814.Sk
+IGF011/96
+Hs 900.T
+TK6TGR
+NCI-H526
+IGF012/84
+XPH14PV
+IGF120/84
+D2N
+IGL034/99
+RLE-6TN
+HFN 36.3
+MP 12
+NCI-H196
+NCI-H1975
+α Intermediate filament
+Saos-2
+RLSD06
+PtK1
+FC47
+Hs 814.T
+CCD-1128Sk
+IGF024/96
+WEHI-164
+MK-S4
+CII3
+NS20Y
+IGF120/85
+NCI-H1963
+D283 Med
+RLSD09
+αBL5C2.870009
+NCI-H1993
+NC 0467.3.1
+CCD-1129SK
+COLO 858
+IGF028/95
+Fc3Tg
+NCI-H522
+IGF024/97
+hFOB 1.19
+IGF012/82
+Hs 899(C).T
+IGF120/82
+Meta 15
+DD-4
+D3-2H2-9-21
+IGL033/99
+CGBQ
+αBL5C2.870016
+RLTM01
+αBL5C2.870005
+IGF111/83
+M8
+MN-60
+NCI-H524
+IGF012/83
+Hs 899(D).Lu
+IGF120/83
+IGF024/98
+HFN 7.1
+IGL034/00
+CGR8
+D3
+MB-III (de Bruyn Grey)
+TGP 49
+DC-P87
+IMG-1019
+XPH18PV
+IGF028/92
+HO-13-4
+IGF111/84
+GM02824
+TSF86M
+PA 2.6
+FH 131
+IGF090/86
+DCon96
+CKMM 14.15
+ND-U1
+C-S95
+NCI-H1105
+Hs 523.Sk
+RT112/84
+MJ
+IGF081/83
+IMG-1021 XP4MO
+IGF028/93
+HNK-1
+IGF111/85
+Hs 805.T
+tsc2 ang1
+Ne Loc
+Pa Kel-1
+GM02605
+DCo96
+IGF008/98
+NE
+FH 130
+CKMM 14.5
+D341 Med
+IGF120/81
+RT4
+Hs 53.T
+XPH17PV
+mIMCD-3
+IGF058/79
+IGF028/89
+NCI-H1048
+IGF111/90
+IMG-1023
+GM02408C
+TSHR-R5T-44
+NEF26.Ov
+FC57.Thy
+TE 671
+Hs 811.T
+CAT-13.1E10
+DCi96
+Citrullinemia
+XPH16PV
+Hs 52.Sk
+RT101
+IGF028/91
+FC56.Thy
+IGF112/80
+GM02291
+TSHR-R5T-34
+MP 10
+TE 617.T
+Hs 813.Sk
+citrullinemia
+FH 132
+MK-D6
+XPH15PV
+RT-112
+Hs 52.Th
+NCI-H1092
+CS87
+IGF053/94
+IGA005/98
+FH 133
+GM02290
+TE 84.T
+IGF111/82
+IGF002/80
+NCI-H1184
+P92
+CS1PV
+TGP 52
+OKT 5
+IGA007/96
+TE 76.T
+HOPC 1F/12
+IGF002/81
+COLO 857
+NCI-H1238
+Hs 517.Sk
+WEHI 3B
+IGA008/82
+Meta 10
+IGF096/80
+FH 135
+OKT 6
+CII
+CS191
+NEF36.Sg
+P93
+OKT 8
+WMP-2
+IGF053/85
+IGF006/77
+HO-22-1
+IGF008/92
+T-S90
+CF30.Mg
+IMG-1009
+Hs 518.T
+WEHI 22.1
+FH 134
+CRO-AP5
+TE 90.Sk
+IGF011/97
+P95
+OKT 9
+HO-2.2
+IGF008/94
+NCI-H1155
+IMG-1018
+XPH13PV
+CF33.MT
+Pt K1 (NBL-3)
+C-G86
+B-B87
+IGF096/78
+N-S.8.1
+IGF024/99
+IGF012/80
+TM 902
+Hs 903.T
+WEHI 164
+NCI-H596
+COLO 832
+NS0
+IGF008/99
+IGF008/96
+Wo Jo
+Cf2Th
+RLTM02
+IGL033/00
+IGF002/85
+IGF096/79
+PT67
+SA88ls
+CG89
+IGF058/78
+IGL033/98
+ZR-75-30
+IGF025/00
+HG-261
+IGF012/81
+Hs 904.Sk
+WCH-17
+TLA96M
+CF3.Th
+CCD-1131Sk
+L-68
+NCI-H630
+COLO 829BL
+Wo Fel
+NS0/1
+IGF008/97
+NCI-H1994
+D-36
+N-S.4.1
+IGF095/89
+IGA004/99
+KHOS/NP
+CG94IL2
+IGF119/91
+IGF002/82
+COLO 853
+CCD-1132Sk
+SaI
+PSN1
+NCI-H2009
+CG96
+IGA005/84
+IGF073/95
+N-S.7
+WPE1-NA22
+C-S91a
+IGF095/91
+Hs 903.Sk
+TK-LM clone 1D
+COLO 839
+NCI-H548
+CCD-1134Sk
+IGF002/83
+IGF121/80
+PSP
+CF2Th
+SaI/N
+WOP
+HGC-27
+αM346C7C1
+R-M94
+TS2/9.1.4.3
+NCI-H2030
+FC6.Bm
+CRI-G5
+XPH19PV
+NCI-H508
+IGF012/78
+Hs 540.T
+IGF025/77
+Hs 898.T
+DLD-1
+D5
+αTC1 Clone 9
+S13ba3
+FC96ls
+IGF008/82
+RM91
+NCI-H2029
+HGF
+FC6.K
+IGF012/77
+NCI-H498
+XPH1PV
+Hs 898.Sk
+MiF-6
+O1192
+IGF025/01
+DLF87
+NCI-H2023
+IGF121/84
+D8/17
+IGL013/96
+GM02185
+RMB-1
+γ3-11.1
+FC58.Thy
+IGF016/83
+NCI-H460
+HGF 24
+COLO-699
+IGF112/82
+IGF012/01
+Hs 895.T
+IGF002/97
+CG7C7
+δTA4-1
+D94
+RVP3
+IGL038/99
+De FOW
+IGF025/80
+HGF-1
+IGL013/95
+R-M95
+NCI-H446
+FC59.Thy
+IGF112/81
+COLO-704
+IGF052/91
+IGF012/00
+Hs 895.Sk
+D96
+IGL037/99
+IGF025/78
+HOS
+IGF112/84
+XPH3PV
+IMG-1032
+P815-1-1
+IGF036/92
+GM01606A
+IGL013/98
+TS2/16.2.1
+CSMαβ6C
+FH 136
+ND3
+CIA-E-7.12
+Hs 55.Fs
+IGF002/99
+IGF081/89
+IGF112/83
+IMG-1028 XP6MO
+IGL013/97
+P815
+GM01607
+TS2/18.1.1
+CT26.CL25
+ND27
+DK-MG
+FN86
+FH 137
+CIA-E-4.15
+Hs 548.Sk
+MIA PaCa-2
+IGF002/98
+TS2/4.1.1
+GM00881
+MiCl1
+FC60(A).We
+BLE96
+ND-C
+RM86
+DL86
+DDC95
+NCI-H1299
+XPH20PV
+Hs 545.Sk
+IGF112/85
+Horse
+MiCl1 (S+L–)
+IGF090/82
+TE 354.T
+ND8/34
+TS2/7.1.1
+IGL013/99
+GM01229
+αIR-1
+ND7/23
+R-T96
+IGF036/78
+BL95
+DL87
+NCI-H128
+Hs 544..Sk
+IGF003/00
+XPH2PV
+FH 138
+IGA001/99
+OKT 1
+TE 381.T
+NCI-H1373
+IGF074/74
+CG5
+FH 14
+IGA001/92
+CSMαβ1H
+TE 417.T
+NCI-H1355
+CF28
+IGA004/95
+TK6
+CS96
+KG-1a
+OKT 11
+CHP-212
+ND-E
+FH 140
+IGF095/87
+IGF008/84
+HP
+OKT 3
+TE 418.T
+IGF120/91
+P-815
+CF24.T
+IMG-1027
+NCI-H1341
+IMG-1024 XP5MO
+Hs 531.Sk
+IGA004/90
+FH 141
+PSM-B
+OKT 10
+CRI-G1
+CHP-126
+IGF095/86
+HP6000
+TE 441.T
+P-6
+N-S.2.1
+IMG-1025
+WEHI-231
+CF21.T
+NCI-H1304
+IGF011/80
+NCI-H2052
+IGL036/99
+Psi-CRIP
+CFPAC-1
+IGF095/85
+MM87ls
+WEHI-13VAR
+Sarcoma 180
+IGF011/99
+TK#1
+IGF036/93
+Hs 899(B).T
+Sar Nis
+COLO-206F
+NCI-H520
+IGF002/79
+MM96
+CF-1D12
+NRK-52E
+IGF008/87
+HGH-B
+O88M
+IGF025/81
+Psi-CRE
+CF96P
+NRK 49F
+IGF095/83
+IGL035/99
+TK-1
+Hs 899(A).T
+FC60(B).We
+NCI-H510A
+IGF052/92
+COLO-320
+CF17.T
+NRK-49F
+IGF008/86
+OKT 4
+IGF002/78
+M-M96
+HH
+IGA001/85
+NRK
+IGF090/83
+IGF095/82
+PSI-2
+D98/AH2 Clone B
+NCI-H2066
+CFZT(B)
+SBC-2
+IGF002/77
+CCD-1126Sk
+COLO-678
+PSI 2 BAG alpha
+IGF026/88
+CAT-13.9C1
+IGF074/76
+IGF008/89
+IGL035/00
+CFZT(A)
+Da Bon
+NCI-H2059
+SBAC
+WEHI 7.1
+IGF002/01
+COLO-680N
+CCD-1124Sk
+FBL-J5
+IGF008/88
+XPH8PV
+IGF011/98
+P-NC94
+MH-SVM23
+NCI-H1385
+Subclone 707 BUF
+MM45T.Sp
+665/2
+SW1116
+IGF081/84
+MH-S
+XPH7PV
+IMR-32
+MM45T.Li
+HR/+ C.Sp
+IGF131/82
+PNT1A
+SW10
+C1191v
+DSL-6B/C2
+B-B92c
+R-R92
+PMK
+IGF066/83
+TTD4PV
+SW1353
+PN86
+RRAm1
+FH 142
+HTK-
+IMM002.69.47.4
+IGF121/83
+663 + N
+TTD3PV
+MM46T
+SW-13
+Subclone 707 DKE
+HtTA-1
+IGR-37
+IGF103/85
+GI-ME-N
+Bm
+CRI-D2
+XPH4PV
+HPME
+IGF132/80
+HIAE-38
+IGF118/80
+IGF103/86
+Subclone 707 DKA
+Da Mo
+HTZ17BE
+B-M 92a
+DFA96M
+PVBC-CL247
+MH-SVM33C9
+HIAE-101
+WKD
+IGF132/82
+Subclone 707 DK 4.8
+Da Hol
+IGF118/81
+MH-SVM26
+GIRARDI HEART C2
+IGF036/94
+PVBC-CL248
+HUC-Fm
+XPH6PV
+WISH
+SW 982
+IGF131/83
+HR/+ A.Sp
+HH-16.cl.4
+68-1-2
+IGF011/78
+ND15
+MM45T.Bl
+Subclone 707 DAP8
+Da Cav
+IGF118/82
+GIRARDI HEART
+Hs 165.Fs
+MH-SVM25
+huFasM3
+XPH5PV
+IGF003/97
+PVBC-EDS120
+Win Mec
+6A7M
+IGF131/84
+HH-16 cl.2/1
+HPVE-26
+MM44.Sp
+IGL039/99
+RG7/7.6 HL
+PUTKO
+IGF016/95
+IGF090/84
+WM-115
+Hs 156.T
+GI-CA-N
+IGF061/87
+FH 143
+IGF103/89
+IGF117/84
+IGL040/99
+RG7/9.1 HLK
+FH 4
+IGF073/92
+PV1
+WM 266-4
+GI95
+IGF061/86
+IGF103/90
+Hs 154.Fs
+IGF117/85
+Cri du Chat
+BLn
+HR/+ D.Sp
+IGF081/86
+PV95
+IGF131/80
+C1191f
+IGF061/85
+TI-4
+WM 1043
+IGF117/91
+IGF103/91
+IGF094/91
+BLN96M
+B-B88f
+IGL041/99
+Hs 15.T
+HIAE-55
+NCI-H1395
+TI-1
+IGF061/84
+IGF006/89
+IGR-1
+IGF094/92
+BLO-11
+AF-2 clone 9B5
+IGF104/78
+Hs 144.We
+GI-LI-N
+c1 (B6NLxv1c2)
+NCI-H1404
+TTD2PV
+R-G94f
+IGF066/85
+FH 147
+IGF153/83
+IGF121/82
+IGF095/78
+TIMI.4G.1.3
+Mel Neg
+IMR-5
+C1.18.4
+NCI-H1417
+TTD1PV
+IGF066/84
+IGF095/79
+FH 146
+CRI-D11
+TIMI.4
+RS
+C0092
+NCI-H1435
+TTD11PV
+IGF066/87
+IGF095/80
+FH 145
+RS4;11
+CD88ls
+D-F94
+C0994IL2
+R-G94a
+IGF066/86
+CRFK
+FH 144
+NCI-H1436
+RS-537
+IMG-996
+CL18/6
+IGF152/82
+IGF052/90
+639-V
+MM3MG
+TTD10PV
+SW 872
+DS-5
+PMA95M
+MHH-CALL-3
+IMG-995
+NCTC 2544
+IGF094/84
+AF-1 (MHV)
+IGF151/83
+MM4.We
+6-23 (Clone 6)
+SW 900
+HIAE-65
+DS-6
+RSC96
+PM95
+IGF153/82
+TSHR-T5U-317
+NC95
+NG96IL2
+MM41We
+DSDh
+SW 948
+R-S95
+IGF152/83
+CL2
+TT
+MM43T
+SW 954
+HTC
+IGF041/93
+IGF119/83
+MHH-NB-11
+XPH9PV
+HR/+ E.Sp
+IGF130/91
+HII3
+IGF104/79
+HT55
+IGF118/91
+Detroit 562
+IGF011/77
+MHH-PREB-1
+B-M91a
+IMG-999
+HR/+ F.Sp
+650E2-2B12
+IGF130/84
+IGF061/88
+IMG-998
+WM1552C
+IGF119/85
+IGF003/96
+hTERT RPE-1
+MHH-CALL-4
+Cl. Ly1+2–/9
+Pu-518
+GH354
+IGF130/83
+HIAE-78
+647-V
+HR/+ G.Sp
+IGF119/84
+IGF081/87
+HTC (BUdR)
+IMG-997
+PU5-1.8 (PU5-1R)
+CKMM 14.52
+MHH-ES-1
+GH4-C1
+IGF130/82
+HR/+B.Sp
+HIG-82
+IGF004/00
+MM37T
+63D3
+RH
+IGF066/82
+NTERA-2 cl.D1
+WM35
+PtK2 (NBL-5)
+IGF061/92
+NT2-D1
+C6PV
+Bm N
+IGV001/90
+WM39
+IGF118/85
+IGF104/83
+Hs 173.We
+IGROV-1
+RGE
+FeT-1C
+Hs 174.We
+IGF021/98
+IGF061/93
+GH1
+hTERT-HME1
+Ptk2
+B-M 92f
+WM793B
+NSO
+IGF118/84
+IGF104/82
+IGF107/90
+NGM96
+WM-266-4
+R-G96
+NCI-H146
+P-tyr-1
+IGF129/84
+BM87
+GH3
+IGF061/90
+Detroit 573
+BEWO
+Hs 172.T
+IGF094/85
+IGF104/85
+IGV001/96
+WM278
+PT-K75
+NCI-H1437
+IGF107/89
+IGF129/82
+IGF061/91
+IGF019/82
+FIB-NC54
+GH329
+Hs 173.Sp
+IGF104/84
+IGV001/92
+BM-1604
+IGF107/85
+SW 962
+NCI-H1563
+TSHR-T3-365
+DFF87
+IGF066/77
+MM36We
+IGF151/82
+C 211
+IGF094/87
+RT 1
+IGF107/84
+PM91
+NCI-H1522
+IGF066/78
+DFC96
+TSHR-T5-51
+IGF094/86
+IGF150/83
+Hs 168.Fs
+C 1271
+RSOI
+IGF061/89
+FeLV-3281
+IGF107/83
+PM89
+DSL-6A/C1
+IGR-39
+IGF066/79
+Ri-1
+IGF094/90
+IGF104/81
+NCI-H1568
+PM87IL2
+IGF066/80
+IGF094/89
+Hs 888Lu
+T-P92II
+IE-10
+Hs 917.T
+Ce Geg
+IGF067/78
+GL7
+IMG-819 XP8CA
+PVBC-EDS203
+IGF003/99
+IE-3
+C1293
+WiDr
+Hs 919.Sk
+IGF066/95
+HP6058
+167.2
+PM85
+KHOS-312H
+IEC-18
+Hs 888.Sk
+hIL-15-M110
+HP6054
+DS-1
+IMG-817
+C1294a
+SW579
+C-E 92
+Hs 919.T
+C6-BU-1
+81.3
+IGF066/93
+Hs 888.T
+BFTC-909
+IMG-988
+CHO DP-12, clone#1934 alL8.92 NB 28605/14
+PM87f
+HP6053
+IGF108/84
+IGF021/97
+HIL12R1.2B10
+Ce Ar
+C1294f
+SW527
+IMG-819
+Hs 924.Sk
+IGF015/00
+MM54.K
+PVBC-EDS220
+IGF003/98
+IGF102/86
+IMG-989
+CHO DP-12, clone#1993 alL8.92 NB 28605/12
+BG194
+MM53.Sp
+GM 490
+Hs 888.Lu
+FH 33
+WI-38 VA-13
+SW480
+IGF033/94
+FIB-NC55
+IMG-810
+HP6050
+WI-38 KTr
+HT29 gluc C1
+SW48
+B-G92
+IGF102/87
+IMG-990 XP3Br2
+IGF116/83
+glomotel
+NGP96
+MM52.T
+NC-NC
+IMG-811
+PVBC-EDS223
+SW-480
+FH 32
+hIL-15-M111
+HP6047
+IGF128/85
+PVBC-EDS211
+TE671 Subline No.2
+IGF070/86
+IMG-991 XP3ORO
+BGC-823
+IGF102/84
+MM52.Sp
+NCTC 2071
+GLC-82
+IGF128/91
+FH 31
+F-C87
+FIB-NC30
+WI-38 VA-13 Subline 2RA
+IMG-994
+PVBC-EDS213
+IGF070/85
+IGF102/85
+G-L88
+MM51.Sp
+HIVE-26
+IGF129/80
+WI-38 VA-13 subline 2R
+Z-M94
+HT-29
+IGF108/83
+IGF128/80
+Hs 295.T
+C6/CH
+NCI-H1581
+MeT-5A
+IGF115/91
+IGF102/89
+NCI-H2170
+IGF085/89
+Hs 184.Sk
+IGF070/88
+IGF128/83
+FH 30
+NCI-H1618
+MES-SA/MX2
+IGF116/81
+IGF102/90
+Hs 181.Tes
+NCI-H2171
+TR33B
+IGF070/87
+IGF128/84
+PVBC-EDS188
+FH 29
+C5PV
+IGF115/85
+NCI-H2172
+WIL2 NS
+HT29/219
+C6
+FBT
+FH 27
+NCI-H1573
+GL-6 (251-MG)
+IGF115/90
+HT-3
+IGF070/89
+MES-SA
+Hs 184.T
+Hs 319.T
+TTDH12PV
+DSH4PV
+Hs 925.Sk
+CE-1
+IGF107/91
+C127:LT
+RPMI 7932
+VP94P
+IGF094/81
+TTDH11PV
+IGF108/80
+PLC/PRF/5 (Alexander)
+NGUK-1
+CE-3
+Hs 313.T
+C127I
+RPMI 8226
+VP-8
+TTDH10PV
+IGF094/83
+IGF067/82
+TTDH2PV
+DS-3
+IGF003/87
+TE-671
+NCI-H1623
+C129
+IGF098/81
+Hs 3.T
+IGF108/81
+RPMI 6666
+Hs 181.Sk
+IGF116/82
+NCI-H2135
+ICR MEF
+IGF052/93
+IGF094/78
+IGF067/81
+TTDH1PV
+NCI-H1648
+Hs 3.Sk
+PM195
+Ce Wal
+IGF098/82
+IGF108/82
+RPMI 7666
+FIB-NC42
+NCI-H2141
+Hs 18.Fs
+IGF094/80
+33D1
+Hs 885.T
+CDM96
+vT{2}
+IGF098/84
+SW403
+FC96IL2
+IMG-809
+RPMI 8402
+TTD9PV
+IGF066/88
+Hs 883.T
+33B
+SGS/3A
+CDC 1C42H11
+DREG200
+HIVE-55
+IGF085/90
+IGF098/83
+IMG-807
+IGF066/89
+339-1
+Hs 880.T
+PLB-985
+SW-1710
+C-D92
+C127 ts
+IMG-797
+IGF031/77
+VS86
+HPB-ALL
+IGF109/81
+HIVE-65
+MM5.1
+Hs 88.T
+IGF098/85
+IMG-796
+SW-403
+C127
+DSH3PV
+CD89P
+IGF109/80
+HIVE-78
+MM5/C1
+IGF031/86
+Hs 879(B).T
+IGF117/83
+BFA
+IMG-982
+MM48T
+CC-1
+HT-1376
+HIVS-125
+FH 38
+HPAE-26
+IMG-788
+PVBC-EDS170
+WIL2.NS.6TG
+C5MJ
+PVBC-EDS155
+SW1417
+MT2
+CHL-1
+BF96
+IGF117/81
+IGF103/79
+IMG-978
+MM49T
+GL1
+HPAF-II
+WI-L2-729HF2
+NH17
+HT-1197
+FH 39
+SW1463
+IMG-984
+PVBC-EDS150
+IGF103/78
+BF-G6
+RK 13
+WIL2-NS
+IGF127/91
+FEL
+DFGe96
+FH 36
+IGF070/80
+PVBC-EDS149
+BF-F3
+IMG-983
+IGF102/91
+GK-5
+MM47T
+WIL2-S
+HPAC
+IGF006/01
+FH 37
+IGF127/85
+C58(NT)D.1.G.OVAR.1
+NCI-H1672
+IGF127/80
+Hs 324.T
+Hs 193.Sp
+IGF117/80
+IGF103/84
+IGF070/81
+FIB-NC46
+Hs 325.Ln
+C57SV
+IGF126/91
+NCI-H1666
+RK 13/1
+HT-2 clone A5E
+IGF103/82
+Hs 195.T
+IGF116/91
+BFTC-905
+IGF052/94
+IMG-985
+IGF070/82
+FH 34
+IGF127/83
+PVBC-EDS148
+NCI-H1651
+C57L/J.We
+HT2 Clone A5E
+IGF116/85
+IGF103/81
+MT3
+GIRARDI HEART C7
+IGF070/83
+WILCL
+PVBC-EDS147
+NCI-H1650
+FH 35
+C57/B1
+IGF127/82
+RK13
+HT-144
+IGF006/00
+IGF116/84
+G-401
+GK1.5
+WI-MN-1
+IGF070/84
+IGF066/92
+RR1022
+IGF098/86
+Hs 344.T
+EFM-192C
+C1195
+IGF108/90
+CDR2
+VVP86M
+RPMI-7951
+TTD6PV
+Vx2
+IGF108/85
+CDR1
+V-C89a
+C1192
+TTD5PV
+Hs 186.Sk
+IGF066/90
+TTD7PV
+RPMI-2650
+IGF109/79
+IGF098/89
+c12 (B15ECiii2)
+DREG56
+WEHI 3BD
+Hs 329.T
+34-1-2S
+Hs 188.T
+TTD8PV
+DRS
+IGF066/91
+RPMI 8866
+IGF108/91
+C11C1
+NCI-H1688
+IGF031/85
+C5B7
+IGF098/87
+Hs 343.T
+VVM94M
+Hs 190.T
+BONNA-12
+IGF105/91
+SK-UT-1
+LCL-WEI
+L138.8A
+IGF014/92
+74-12-4
+IGF062/89
+C5/MJ
+IGF099/82
+SVG p12
+UACC-893
+IGF105/89
+B192
+IGF055/99
+L-DQw1-Dw12
+L6.G8.C5
+IGF062/90
+74-11-10
+FR
+Hs 268.T
+C5
+MB III   (de Bruyn-Gey)
+IGF099/80
+R-B92
+SV-HUC-1
+IGF038/84
+UC10-4F10-11
+CNC 127I
+SK-OV-3
+BP86
+IGF106/79
+fR2
+LCL-HO
+7-34-1
+IGF062/87
+IGF070/78
+Ron Har
+IGF099/79
+Hs 27
+UC1B
+MDA-MB-330
+BP107.2.2
+SK-PN-DW
+UC1BC2
+CN96
+IGF106/78
+3.334 SC5/8
+fR5
+RO82-W-1
+IGF062/88
+LCL-N
+IGF099/78
+Hs 274.T
+424 MPSV wt
+LA-4
+UC1BC1
+IGF065/77
+IGF009/90
+SP87M
+R-P 91f
+IGF069/95
+GA-10
+B16VDxR
+C-N95
+B-P94
+IGF065/79
+IGF071/92
+BW5147
+IGF001/83
+LA7
+S-P95
+C44
+Daoy
+IGF070/76
+LCL-HIV
+R-P 91a
+B16V
+C-N90
+IGF085/85
+IGF106/80
+B-P91
+IGF065/80
+L-A86
+BW1J
+IGF071/93
+SPC-BM-36
+IGF062/91
+IGF069/92
+B19
+IGF005/99
+VM-CUB1
+IGF065/81
+LA92
+SPEV
+BA-G5
+BVD2-23B6.4
+C4PV
+RP88
+IGF069/93
+MT-3
+SWLA3
+B18
+LA96
+IGF065/83
+BVD2-21C11.3
+C-4I
+BCL1 Clone CW13.20-3B3
+HeLa229
+IGF064/95
+CAT-13.6E12
+IGF022/01
+LA3ß2mHC2
+V-M88
+IGF071/95
+55-83
+11B11
+G-8
+SW948
+HRT-18
+IGF077/79
+V-C89IL2
+Swiss SFME
+HELA-S3
+IGF072/76
+VM89
+Ga Va
+Swiss-3T3
+55-6
+P3.6.2.8.1
+HRT-18G
+IGF077/80
+EFM-192B
+SWLA1
+B-CPAP
+VLN6H2
+HE-LU(Rifkin)
+IGF072/77
+B1B3
+HR5
+P3 NS1 Ag4
+G-402
+IGF031/84
+559/64-D 100, 10, 1
+116-13.1
+SPEV-13-D5-TK-
+SWLA2
+BCP-1
+BW5147(T200–a) 5.2
+VM-2
+IGF072/78
+M195
+IGF077/78
+L6.G8
+558-D 100, 10, 1
+P3 8D2 (SCRF 43.1)
+HR5-CL11
+G-7
+SPI-801
+MDA-MB-175-VII
+SKW 6.4
+Hs 275.Sk
+Hs 67.Th
+IGF014/91
+424 MPSV ts
+May Roy
+MB 157
+A431NS
+P3 88 D1
+11-5.2.1.9
+PAB-100
+IGF056/80
+SVEC4-10EE2
+IGF039/98
+IGF038/85
+MDA-MB-231
+Murphy
+42.08.07
+Hs 67
+Hs 277.T
+BD-215
+P3 6D4 (SCRF 43.1)
+MB 40.3
+IGF056/81
+IGF001/81
+A-431
+SVEC4-10EHR1
+416B
+SVCT
+MAT-LyLu
+IGF098/92
+HeLa S3
+PAB-1620
+Hs 1.Int
+74-22-15A
+BF-32
+LCLC-97TM1
+IGF056/78
+IGF077/81
+SK-UT-1B
+M2-10B4
+413-15D12
+MDA-MB-157
+MAT-Ly-Lu-B-2
+HeLa TK-
+IGF098/90
+IGF085/86
+74-22-15
+IGF056/79
+PAB-122
+MDA-MB-134-VI
+SVEC4-10
+SKNSH88
+IGF106/82
+BP96
+IGF063/78
+FRT
+MCT95M
+SBV86M
+IGF056/83
+IGF099/87
+Hs 281.T
+C-4 I
+B-A95
+UC1BC5
+IGF058/87
+IGF106/81
+SV7tert
+707B1011C3
+MT4
+SK-N-SH
+BPAEC
+IGF106/83
+PA90P
+IGF063/77
+L-DR2-Dw12
+IGF056/82
+RPC5.4
+IGF099/89
+BA96
+IGF005/98
+C-4 II
+Hs 280.T
+IGF058/86
+70Z/3
+UC1BC4
+IGF106/84
+BPE
+SK-N-MC
+RPE-J
+IGF063/76
+VBA88MIL2
+IGF069/91
+LDR2B
+FRTL
+153BR
+Hs 294T
+IGF099/85
+C-433
+L-alpha-1a L-cells
+41-2
+MDA-kb2
+EFM-192A
+UC7
+IGF106/85
+BPH-1
+IGF062/97
+IGF069/90
+RPMI 1788
+LDR2A
+FRT-Fibro KiMSV
+Hs 284.Pe
+IGF099/86
+IGF022/00
+MDA PCa 2b
+SK-N-FI
+LADMAC
+IGF058/89
+UC3-10A6
+41-3.48
+GAa85F
+LDR+25
+55-2
+SP2/0-Ag14
+IGF014/94
+IGF069/89
+BpRcl
+Hs 1.Lu
+IGF064/90
+IGF071/86
+L-alpha-2C L-cells
+SP2/0-AG14
+155BR
+Bu25 TK-
+IGF069/88
+IGF009/92
+GA96
+L-DQw4-Dw15
+55-36
+RPMI 2650
+Sp2/01-Ag
+L-alpha-2A L-cells
+IGF071/85
+IGF064/89
+BUD-8
+IGF099/84
+IGF001/80
+GA93
+IGF069/87
+IGF064/93
+IGF058/85
+C3PV
+BA-D5
+10P2
+IGF064/91
+LAMA-84
+IGF031/83
+IGF058/84
+c4 (B13NBii1)
+IGF071/87
+Sp2/0-Ag14
+IGF064/88
+HeLa NR1
+IGF071/88
+FIB-SCLE11
+Hs 104.Sp/Th
+IGF076/92
+IGF053/81
+IGF026/84
+TR6Bc1
+P25.48
+SW620
+11-4.1
+HeLa M
+MPC 11 OUAr
+FIB-SCLE10
+IGF064/87
+Hs 103.Sp/Th
+IGF076/91
+P2594
+IGF005/97
+53-7.313
+11-26c
+G-A88
+BC96
+SW837
+HeLa S 3
+IGF071/90
+FIB-SCLE1
+VBA88Mls
+BV-173
+BGP94
+Fao
+1116NS-3d
+GA87
+P2190
+Sp2/mIL-6
+53-S
+Hs 1.Tes
+BC9-E5
+IGF021/99
+CC63
+SW756
+IGF071/89
+HeLa Ohio
+FIB-PSE54
+B-V92
+Hs 1.Sk/Mu
+SV63
+MAT-Lu
+1116-NS-19-9
+C6-Russian
+40.10.09
+FIB-PSE53
+SKO-007 [clone J3]
+CC8
+bcd mab23
+73/1
+110-5
+PA94
+MARC S5
+IGF014/93
+IGF062/95
+SV40LT-SMC Clone   HEP-SA
+BGF96M
+Hs 295.Sk
+Mv 1 Lu (NBL-7)
+411-14E10
+BCE C/D-1b
+MARC 29F8
+PA95P
+FRAN4
+IGF009/91
+IGF056/90
+IGF077/77
+MARC 2B7
+P2189
+SV40 MES 13
+UC1BC3
+71A7
+IGF099/83
+HeLa LChm
+SC 11
+IGF077/76
+IGF056/87
+PA96
+SV3T3B
+72A1
+IGF056/85
+IGF076/95
+B-R92
+L-DR92a
+P-L92
+TR6.1/52b
+IGF069/84
+IGF076/83
+B-M91f
+IGF104/90
+BALB/c 10ME HD A.5R.1
+UCD/PR 10.11
+IGF065/92
+C3H/MCA clone 16
+MD2
+IGF031/81
+SK-N-AS
+IGF100/79
+Mvi/It   MX
+PL90
+IGF069/85
+L-DR92f
+SK-N-BE(2)
+IGF104/89
+BALB/c 10CrMCA A.2R.1
+IGF065/93
+COLO 668
+IGF085/84
+Hs 230.Sp
+IGF100/78
+C3H/MCA clone 15
+IGF061/95
+IGF069/86
+BHY
+10t1/2
+SK-N-BE(2)-C
+6LBLN
+IGF058/95
+IGF038/88
+UCD/AB 6.01
+BxPC-3
+BHT-101
+IGF061/97
+C3A
+BALB/c AMuLV A.3R.1
+SK-N-DZ
+IGF065/91
+IGF058/97
+UCD/AB 6.11
+BB96P
+CC58
+BWTG3
+IGF100/80
+SK-NEP-1
+B-Z94
+C38
+Gam Per
+IGF062/78
+BM-N
+10C7
+IGF041/94
+T2 (174 x CEM.T2)
+IGF058/91
+VIII-6G10
+L-929
+AKR/12B-2
+DA4-4
+IGF105/81
+BME/CTVM 4
+10D2F6
+Caki-1
+IGF016/87
+IGF062/79
+GAMG
+L-DR4-Dw15
+T2385
+IGF058/93
+L929(NCTC)
+Hs 112.Sk
+BM95
+IGF105/80
+IGF062/81
+IGF011/01
+IGF069/80
+GAP 8.3
+LDR7
+C 108
+IGF099/92
+SR95F
+HeLa DH
+IGF065/95
+VK2/E6E7
+Hs 115.Lu
+MPL96M
+BZR
+IGF104/91
+B-M93
+T1-73
+GAP A3
+LDR8
+IGF069/82
+IGF099/90
+IGF066/76
+IGF058/90
+IGF031/80
+L929
+IGF072/91
+HeLa 432
+BC3H1
+Hs 127.T
+GAD-1
+10E5
+Hs 766T
+IGF042/95
+S-S.1
+IGF009/94
+Mar Ton
+SUP-T1
+HeLa B
+SS86
+Hs 764.Mu
+5c8
+Hs 13.Sk
+Mar Vin
+GAi85F
+IGF081/90
+10F7MN
+S-S.3
+SV3T3
+IGF072/89
+T11D7e2
+HeLa 382
+A4.74
+Hs 762.Sk
+S-R96
+10H2.12.1
+IGF019/80
+B-B92s
+T1 (174 x CEM.T1)
+Hs 132.T
+5C6 Clone 1
+IGF072/90
+Mouse
+HeLa 422
+T-1387
+Src++
+5A1
+MPP 89
+Hs 757.T
+10P12
+A388
+IGF017/86
+IGF076/84
+CA-HPV-10
+HCC1187
+M3/84.6.34
+B-C89
+IGF016/86
+CC57
+IGF072/87
+Hs 232.Th
+UC7-13D5
+HCC1187 BL
+IGF076/85
+MYA-1
+59M
+CCRF-CEM
+A375
+IGF041/95
+BC87ls
+CC56
+Hs 234.Th
+UC8-1B9
+7 D4
+IGF072/88
+SUP-B15
+HCC1395
+IGF076/87
+IGF011/00
+A-375
+598_81H
+Hs 230.Th
+CC55
+MAM94M
+BC87IL2
+RWPE-1
+707 DAP10
+Super Dome
+CCRF-SB
+IGF009/93
+HCC1395 BL
+IGF076/89
+PL45
+PA-TU-8988S
+My 43.51
+CC51
+B-C86
+MAR 18.5
+PK-2a/CL 13
+MD
+IGF081/91
+703D4
+RW.4
+Hs 232.Sp
+Super Tube
+HCC1419
+CCRF-HSB-2
+PK-82
+IGF076/90
+Mar Nol
+PA-TU-8902
+EFO-27
+MY904
+IGF076/76
+IGF068/93
+IGF062/82
+3T3(+3)
+IGF105/83
+C-33 A
+BNL 1ME A.7R.1
+IGF065/86
+CCO
+O88P
+RWPE-2
+Hs 238.Sk
+IGF100/85
+IGF068/92
+IGF075/95
+3T3B-SV40
+c35 (B16GBi1c3)
+IGF105/84
+BNL 1NG A.2
+RWPE2-W99
+IGF041/96
+IGF065/84
+Hs 235.Sk
+IGF100/86
+3T3-L1
+IGF062/84
+IGF069/78
+G-B90
+C32
+MC-SV-HUC T-2
+UM-UC-3
+IGF033/95
+IGF001/85
+CC39
+BALB SFME Serum Free Mouse Embryo
+IGF068/95
+IGF062/83
+C32TG
+IGF105/82
+CC42
+IGF059/82
+UMR-108
+DAN
+IGF016/85
+BALB/3T12-3
+BW5147.3
+Hs 137.Fs
+Bo Gin
+10-2.16
+T/G HA-VSMC
+IGF062/86
+GBM
+Le Ana
+BW5147.3(Thy-1-e).10
+IGF036/89
+DAL K45
+La1
+IGF059/80
+VLN3G2
+10-1.D.2
+T 98 G
+GB95
+L-DRw53-Dw15
+IGF062/85
+BW5147.G.1.4
+D-T93
+IGF100/81
+La Bel II
+IGF065/90
+DAL K29
+IGF059/79
+VLM
+BNL CL.2
+Hs 142.Sp
+IGF105/85
+G-C195
+CRI-10P
+IGF068/91
+DAL K20
+SQMK-FP
+IGF100/83
+BW5147.G.1.4.OUA/R.1
+La Bel
+HeLa 229
+IGF059/78
+IGF065/88
+BNL SV A.8
+L6.C11
+10-3.6.2
+IGF105/87
+Hs 14.T
+GC-1 spg
+SPI-802
+DAKIKI
+S-PS
+IGF100/84
+BW5147.G.1.4.OUAR.1
+IGF059/76
+IGF038/86
+IGF065/87
+IGF072/81
+VK-B 92a
+IGF072/86
+M-24 (M138)
+6G4.2.5
+SR-786
+MALME-3M
+104C1
+HeLa
+IGF014/90
+SR-4987
+58D3C9
+Hs 143.We
+Subclone 707 TG2
+IGF072/85
+T 24
+SR4987
+Malme-3
+Gap Per
+IGF055/97
+B-L94
+Hs 142.Th
+58-S
+HEL92.1.7
+Subclone 707 TG1
+M2-1C6-4R3
+VL96
+IGF072/84
+SYF + c-Src
+SYF
+SR
+SBC-7
+10C4.1.3
+A-427
+HEL 92.1.7
+L929S
+VK-B 92f
+IGF072/83
+10B9
+Malme-3M
+SWR/J.We
+MKN-45
+IGF090/79
+SU-DHL-1
+CC30
+UMR-106
+IGF072/82
+6A8.6F10.1A6
+IGF076/79
+CC38
+M3/38.1.2.8 HL.2
+UMNSAH/DF-1
+EFO-21
+Hs 257.T
+6D8MB4
+56B3
+IGF068/90
+IGF076/78
+MAC 2-48
+Hs 255.T
+UMC-11
+CCK061
+MCL-5
+SK-MEL-30
+Subclone 707 DKJ
+c37 (B7IFi1)
+A4.840
+IGF076/82
+MADISON LUNG TA-109
+PK 15
+Hs 24.Fs
+CC29
+6F4C5
+M-2E6
+IGF016/84
+Subclone 707 DKH
+BALB/B 0.75BAE A.1R.1 HD A.8
+A4.951
+IGF076/81
+7D2-1.4.1.5
+SW 620
+HLF-a
+IGF100/91
+NCI-H719
+IGF041/97
+4F2C13
+U cell line
+WEHI-265.1
+G-C95
++/+ MGT
+7C8
+SW 626
+RED-5
+IGF100/90
+NCI-H716
+IGF036/90
+WEHI-274.1
+IGF005/85
+4E8C12
+U 937
+Fugu eye
++/+ SCT
+7C6.5.4
+NCI-H727
+U-118 MG
+IGF100/89
+IGF001/84
+A11
+G-C94
+vEPT
+WEHI-279
+PBR86M
++/+ (B)
+M90
+Fugu fry
+IGF005/84
+NCI-H720
+L6.C10
+IGF100/87
+U-138 MG
+4H1-A7
+GC95
++/+ Li
+WEHI-3
+IGF005/83
+A10-85
+CCF-STTG1
+SW 837
+IGF038/87
+C2BBe1
+GC-2spd(ts)
+CM86
+BSC40
+IGF068/88
+MM2MTC
+PI86
+CCD-986Sk
+4T1
+IGF068/89
+MELC DS19
+FW11-10-3
+G-C92
+NCI-H711
+HL-60/MX1
+7D4
+SW 684
+CCD-944Sk
+C2-Rev 7
+IGF068/86
+C87
+IGF074/83
+IGF064/78
+PI1
+IGF100/92
+HL-60/MX2
+CCD-8Lu
+7D3A.2
+SW 780
+C2PV
+TWERC
+IGF068/87
+FIB-NC56
+IGF063/96
+C3-124
+BT
+CCD-43Sk
+IGF073/83
+IGF064/76
+C305
+BSp
+IGF073/84
+IGF063/93
+IGF016/89
+IGF068/84
+BT-474
+IGF073/85
+Hs 698.T
+Me Jon
+JF1
+MBA C57.We
+IGF113/82
+IGF063/95
+IGF053/00
+Clone L
+IGF068/85
+BT-20
+19X14
+Hs 697.Sp
+NCI-H1870
+IGF073/86
+JF5
+IGF113/81
+MDTC-RP19
+IGF036/86
+PC 61-5-3
+022HU-NSO
+IGF113/80
+MH1C1
+Hs 697.Ln
+IGF073/87
+19F8
+NCI-H187
+C-B94
+RED.1
+RDP 45/20
+NCI-H1838
+ME
+NCI-H69/LX20
+10.014 pRSV-T
+PC 61 5.3
+IGF112/91
+MH-22a
+IGF074/84
+Hs 696.Sk
+ME 1
+NCI-H1869
+1939-8G2
+NCI-H1836
+1939-3G5
+PC12
+IGF112/87
+RED-4
+M86
+FM3A
+Hs 696
+MDTC RP 19
+18C2.8.3
+PC-12
+RED-1
+M9
+R-DC90f
+KARPAS-422
+SW 1783
+T27A
+MELC DR10
+NCI-H660
+U-251 MG
+IGF101/81
+#490
+FW11-9-2
+KARPAS-299
+T24/83
+NCI-H661
+IGF101/82
+U-2197
+IGF074/82
+7A9
+NCI-H1944
+FW11-24-17-36
+T36274
+IGF101/79
+NCI-H676B
+CCD-42Sk
+IGF003/86
+C-B95
+FW4-101-1-1
+T3-3A1
+U-266
+IGF101/80
+NCI-H69
+WERI-Rb-1
+GDM-1
+FW3-218-1
+M-B95f
+SK-MM-2
+SW 480
+BT-483
+CM91IL2
+IGF050/00
+Gd1WE
+IGF068/83
+LB9.Sp/Thy/Bm
+M-B95a
+HMCB (Human Melanoma Bowes)
+SW 48
+IGF016/90
+CM91ls
+IGF049/99
+Gd1T
+LB9.Sp
+Phi 1
+IGF068/82
+M-B87f
+SW 403
+IGF050/77
+GCT
+IGF052/99
+IGF068/81
+7AC5/EYFP
+U-2 OS
+M-B87a
+SW 1990
+CCD-37Lu
+HMy2.CIR
+IGF050/76
+CM88M
+IGF036/84
+U-138-MG
+P-B92
+IGF064/83
+CM87IL2
+C2
+BICR/M1Rk
+IGF072/92
+Hs 222.Sp
+C211
+IGF064/82
+TEK
+IGF068/80
+P3NP/PFN
+M-7
+171BR
+Hs 221.Th
+IGF068/79
+IGF064/81
+IGF049/98
+CM87
+MDOK
+NV96IL2
+IGF073/76
+Hs 228.T
+HM2
+IGF064/80
+MB4B4
+A3
+IGF068/78
+BI96
+C-M87
+FLYRD18
+SW 1573
+MDCK-I
+P3H3
+IGF072/95
+Hs 225.Th
+MB40.5
+M5/114.15.2
+MDCK (NBL-2)
+11E10
+IGF074/81
+KASUMI-1
+PA-TU-8988T
+IGF064/79
+h647
+IGF113/85
+NCI-H1926
+1A3.3.13
+IGF073/82
+MDCK-A315
+KARPAS-45
+IGF011/84
+MDCK
+11F11
+IGF101/78
+A3.4H2
+NCI-H650
+PB-1
+IGF113/87
+NCI-H1930
+Hs 229.T
+IGF073/78
+YO
+M3 Clone M-3
+1A2
+NCI-H1876
+P-B88
+A3.6B10
+IGF113/83
+CAL 27
+RD91
+P3U1
+NCI-H1882
+1A3.1
+NV96
+P-B91
+IGF113/84
+M5/49.4.1
+IGF040/90
+R-DC90a
+NCI-H1915
+Sol8
+IGF101/86
+IGF064/85
+IGF036/88
+IGF084/84
+12.1
+Genox 3.53
+PCV87M
+SOM-4D10
+PCA90M
+IGF101/85
+IGF084/85
+RCE
+IGF064/86
+KELLY
+11P0-1
+53-6.72
+PCC4 aza1
+BT-B
+Mpf
+R-C96
+MPC-11
+76-5-28
+IGF052/97
+WFL4F12.3
+U-373 MG
+52-S
+U-698-M
+BT-549
+SODK1 [SODK1293]
+IGF064/84
+R-C95a
+IGF082/80
+12/44
+Wgd5
+SW 1353
+J-96
+76-7-4
+U-343 MGa
+P-G96
+BRISTOL 8
+F-M91
+SW 1417
+MB352
+LBRM TG6
+U373 MG
+76-6-7
+BR96P
+CM94P
+IGF107/82
+SW 1463
+BBM.1 clone E9
+MB355
+LBRM-33 clone 4A2
+IGF067/93
+786-O
+IGF107/81
+CML-T1
+B-R93f
+SW 156
+MB40.2
+IGF067/95
+IGF074/79
+PGA86M
+LBRM-33-1A5
+769-P
+U266B1
+IGF107/80
+B-R93a
+CMK
+CM94
+SW 1271
+MDBK
+MEL-HO
+IGF106/91
+Hs 795.Pl
+LB9.Thy
+IGF067/89
+MB16tsA, clone 1B5
+IGF106/90
+MDBK (NBL-1)
+P388/DX
+C-M92
+SW 13
+S1887
+IGF081/92
+BRL 3A
+C1PV
+IGF067/90
+Hs 793.T
+175BR
+MDBK(BU 100)
+IGF067/91
+LBLN
+Hs 793.Sk
+FRT-L KiKi
+IGF011/85
+MDCC MSB1
+IGF067/92
+Hs 792(C).M
+520C9
+12/49
+P388D1 (IL-1)
+IGF084/86
+R-C95
+WFL3C6.1
+KF1SV
+RC-4B/C1
+P388D1
+IGF084/89
+BThy
+PD5
+MA91
+121-19B10
+IGF084/90
+174BR
+IGF052/95
+IGF101/84
+PD 5
+Hs 798.Pl
+IGF101/83
+F98
+MDA-MB-468
+1205Lu
+IGF084/91
+MA94IL2
+BTV10XSp2/0-Ag-14-10D4.90
+SK-MES
+SNU-C1
+PG-4
+12-2-2S (clone 5F11)
+MA86
+PC-14
+51.1
+FSHR-323
+IGF102/82
+SNU-5
+WI-38 (HSV-2)Tr
+IGF036/87
+FSHR-18
+123-10
+SNU-475
+PC-3
+VD-10
+PG91
+U937(CD59+)
+IGF084/80
+J774.2
+FM3Ats C1.T85
+CMR94M
+UACC-812
+50-6
+182.1
+SV-T2
+J-774
+IGF073/88
+745C2
+CMT 93
+IGF082/76
+74-9-3
+U-937
+LC-540
+CMT64/61
+J558L
+SW 1116
+IGF045/78
+SNU-C2B
+MB-04
+Fc 3 Tg
+U-87 MG
+GFPu-1
+IGF067/88
+CMT-93
+SW 1088
+SNU-C2A
+FT
+U87 MG
+CMT93/69
+IGF003/88
+MH-7777A
+SVR A221a
+MB-03
+NCI-BL1514
+HR/HR 3.Sp
+76-2-11
+C1595f
+F9
+MB-021
+161BR
+AFA95M
+F-D96
+MDA-MB-435S
+MHEC5-T
+NCI-H1793
+184B5
+MDA-MB-361
+P3/NS1/1-Ag4.1
+AC-1M46
+C16
+L2
+NCI-BL1607
+TR88
+HR/HR 2.Sp
+MB-020
+MDA-MB-415
+IGF073/91
+SVR
+NCI-H1819
+187.1
+MH-22A
+L203
+IGF003/92
+P3/NSI/1-Ag4-1   (NS-1)
+Hs 68
+IGF073/90
+MDA-MB-453
+SVR bag4
+C1595a
+NCI-BL1450
+IGF073/89
+MDA-MB-436
+PCA 33.28
+IGF003/89
+hr/hr (WE) A
+F5-A-1/22.8.13
+123-28
+IGF084/81
+P388
+B-DP85
+5 C 9
+180BR
+127H
+P388.D1 (Clone 3124)
+L17.8
+WI 38
+IGF007/93
+NCI-BL1672
+HR/HR 1.Sp
+P-C96
+127TAg
+F8
+182-PF SK
+NCI-H1770
+NCI-H1781
+BF-34
+P388.D1 (clone 3124)
+IGF084/83
+B-D93
+NCI-BL1770
+hr/hr (WE) B
+IGF007/95
+PCA 31.1
+AC133.1
+129A3/1
+184A1
+NFS-70 C-10
+NCI-H1792
+IGF084/82
+IMG-1404
+MCF-10-2A
+IGF070/95
+IGF019/78
+PEER
+IGL002/98
+142BR
+BC3
+CRO-AP3
+IMG-1403
+83-12-5
+MCF-12A
+IGL002/96
+IGF019/77
+IGL002/94
+anti-SRp20
+HT115
+BC-2
+L235
+IGF085/82
+M-R95
+IGF051/77
+86D
+IGL003/00
+IGF019/01
+anti-SR
+BC3A
+L243
+MCF-12F
+208F
+DSH1PV
+PEG 1-6
+IGL002/99
+IGF019/00
+BC-3
+MCF-7
+Anti-SC35
+IGF070/90
+ME361S2a
+L2I-6
+IGF051/82
+IGF036/79
+COLO 357
+F-M96
+ME195
+ME96
+B12
+IGF070/91
+L2-RYC
+B92
+IGF051/83
+IGF070/92
+B9
+KU812
+IGF003/93
+IGF051/78
+Me Mon
+CLM96M
+IGF070/93
+B86M
+IGF051/80
+143 B
+ME-180
+CLC
+IMG-771
+TR96
+IGF042/98
+PVBC-OI340
+PVBC-OI332
+LLC-WRC 256
+IMG-769
+ME96P
+G14D
+K129SV
+IGF042/99
+IGF031/88
+DS-G23
+G1B
+IGF043/00
+B11
+K1
+IGF071/76
+Anti-My-10 clone 28/8/8/
+NCI-BL1184
+IGF031/91
+Detroit 6
+PEK
+NCI-BL128
+IMG-1408
+Antibody 2.06
+IMG-775
+IGF031/92
+88B
+PVBC-OI350
+NCI-BL1339
+IMG-1407
+92BR
+K22
+IMG-774
+IGF018/99
+NCI-BL1395
+PVBC-OI348
+PF187
+IGF042/96
+IGF031/89
+MCF7
+IMG-1410
+FIB-NC60
+IMG-773
+NCI-BL1437
+PVBC-OI347
+IGF018/98
+IGF042/97
+IGF031/90
+MCF7-382
+IMG-1409
+B104-1-1
+MCF7-432
+IGF085/81
+IMG-1370
+RAJI TK-
+PF-382
+IGF018/96
+IGF156/82
+MCF7-422
+IMG-1371
+IGF018/97
+PF90F
+IGL002/01
+IGF003/94
+IGF156/83
+CL95
+anti-130-kDa Mesothelial-Ciliated
+IGL002/00
+ER4.7G.11
+IMG-1373
+IGF154/83
+IGL002/91
+KMP
+CL96f
+IGF030/96
+Anr4
+L227
+IGF155/82
+MBC(5)
+IGF018/95
+IGL002/92
+MEFs
+CL96IL2
+MCF7-488X1
+B/C3T3.We
+FB2.Sp
+T-R96a
+IGF071/80
+R-A95
+L230
+BA193
+IGF050/99
+B/CMBA.Ov
+IGF071/78
+PVBC-OI531
+IGF050/98
+B/CWE
+L166.1
+IGF071/82
+PVBC-OI535
+IGF050/97
+Ba Pot
+B104
+IGF071/81
+BA/F3
+IGF050/93
+PVBC-OI540
+IMG-778
+FIB-NC59
+IGF040/93
+PVBC-OI55
+IGF043/81
+PVBC-OI370
+IGF031/94
+K562 cl.6
+IMG-780
+BA 93
+PVBC-OI553
+IGF040/92
+CB58/MT2
+IGF043/80
+IGF031/93
+PVBC-OI371
+KMOE-2
+NCE-F161
+IGF040/91
+K2B-12H
+IGF071/84
+IMG-776
+IGF051/00
+PVBC-OI356
+K29
+IGF071/83
+DT40
+IGL002/93
+IGF018/94
+IGF043/77
+MCF7-490X1
+HCT-8
+ANN-1
+NG115-401L
+NC-37
+DSN
+IGF031/98
+IGF154/82
+IMG-1388
+IMG-785
+IGF040/95
+IGF043/79
+IGF031/97
+H3.1
+IGF005/95
+IGF018/92
+NCCIT
+PVBC-OI373
+IMG-1401
+MCH-7 (MX-7)
+IGF040/94
+KM-H2
+IGF043/78
+IGF031/96
+IGF018/93
+DF
+MBL-Sm-1A6
+PVBC-OI378
+IMG-1402
+MCF7-492X1
+FIB21
+IGF158/83
+An Zan
+M-C95
+IGF085/80
+IMG-1359
+L5.1
+B72.3
+FIB504.64
+PVBC-OI307
+SNU-1
+AMS 9.1.1.1
+IGF158/82
+IMG-1347
+FDCP-1
+L5178-R (LY-R)
+MC96
+B6H12.2
+MS1
+IGF018/91
+IGL004/00
+SMT/2A LNM
+IMG-1344
+IGF080/90
+AN86P
+IGF003/85
+FIB-NC57
+IGF018/90
+MS1 VEGF
+IGF159/82
+AN3 CA
+IGL003/99
+IMG-1311
+HDLM-2
+MC94
+Clone H
+IGF080/91
+IGF030/97
+L5
+B7-24-E1G4
+IGL003/98
+Clone D
+IGL003/97
+IMG-1053
+IGF080/87
+PVBC-OI82
+IGF046/95
+Clone C6/36
+IGF053/78
+1321N1
+ANJOU 65
+IMG-1049
+IGL003/96
+IGF080/89
+IGF050/86
+PVBC-OI65
+SNU-16
+MCA-RH 7777
+B69
+FIB-NC58
+PVBC-OI559
+IGF050/87
+IGF050/90
+McA-RH7777
+PVBC-OI555
+B65
+Clone I
+IGF050/91
+LB9.Ln
+HF1
+L168.2
+IGF050/92
+HF1-5
+IGF058/83
+NBT-II
+G-361
+HF19
+PVBC-Pr110
+HF2x653
+KPL-1
+CB59/MT2
+CCD 16Lu
+IMG-1366
+PVBC-OI299
+IGF018/87
+MRSS-1
+IGF089/81
+CCD 13Lu
+IMG-1360
+IGF018/86
+PVBC-OI291
+IGF005/96
+MRSS-1 (D22D44)
+KNA
+CCD 19Lu
+HD-MY-Z
+FHs 738Lu
+IGF018/89
+IGF157/83
+MRSV (AP170)
+PVBC-OI306
+FHs 74 Int
+D-F92
+IGF157/82
+PVBC-OI305
+IGF018/88
+IGF161/83
+FHCR-1-2813/FDC-6
+IGL003/95
+R74
+MCF 10A
+CCD 25Lu
+IGF005/93
+R86
+B84
+IGF162/83
+FHCR-1-2624/FH6/FHOT-1-3019
+McCoy
+AML12
+R9
+PVBC-Pr152
+B85
+IGL003/92
+IGF014/97
+FHs 173We
+MRC-9
+IMG-1235
+R95
+AML14.3D10/CCCKR3 Clone 16
+Clone 707
+IGL003/91
+IGF018/85
+MRC-7
+IGL003/93
+IGF014/83
+L54.5
+IMG-1239
+Clone 81
+12A5B7
+AML-193
+LB10.Thy
+G26.4.1C3/86
+PVCB-EDS516
+Ampli-GPE
+IGL003/01
+L-M
+IGF031/00
+13.90.2
+Clone 1-5c-4 WKD of Chang Conjunctiva
+B78H1
+LB11.Sp
+B16-F0
+130-3-F7-5
+IGF050/80
+G253
+B82
+PVBC-Pr260
+IGF085/78
+LB11.Ln
+B16-F1
+B8-24-3
+PVBC-Pr98
+IGF050/78
+NAMALWA.KN2
+L368
+12-A-3
+IGF050/84
+B16 melanoma 4A5
+NG96
+IGF018/84
+HECV
+NB3
+IGF050/83
+B16-A
+LB11.Thy
+Nb2-11
+IGF047/85
+JVM-3
+NB-100
+IGF041/92
+IGF050/85
+G28-5
+PVBC-OI313
+NAMALWA.PNT
+HEL 299
+MCF 7
+MRC-5 SV1 TG1
+IGF018/80
+PVBC-OI314
+K 562
+IGF005/94
+MRC-5
+CCD 8Lu
+IGF159/83
+HEL 12469
+IGF018/81
+PVBC-OI317
+MRC-5 SV2
+IGF160/82
+FHCR-1-2516/FH7
+HEL
+DSH2PV
+PVBC-OI325
+IGF018/82
+IGF160/83
+IGF018/83
+MRC-5 SV1 TG2
+PVBC-OI330
+5D5.11.6
+IGL004/98
+NALM-1
+IGF079/91
+EDS 101
+H69
+HEP-G2
+92TAg
+5D4-11
+RAT-2
+PYS
+IGL004/97
+IGF080/76
+MOPC-31C
+LB10.Bm
+IGF014/98
+Rat1-R12
+5C9
+FHCR-1-2075/FH5
+IGF080/78
+9-A5
+Raszip 6
+MC3
+IGL004/99
+IGF080/80
+RASMC
+L-540
+9-4-3
+OMEGA-E
+TD.1
+MT1.K
+MC3T3-E1
+FHC
+9AE10
+FHCR-1-2075/FH4
+5E9C11
+Py 1-18 MuLV
+EHEB
+IGF031/01
+PX92
+MOP-8
+TE 115.T
+5E4
+F1.652
+LHR-1055
+IGF049/80
+MOPC 315
+mSXL 5
+Detroit 548
+IC86
+LHR-29
+IGL013/00
+IGL012/99
+L-M(TK-,APRT-)
+LHR-74
+IGF049/82
+IGL012/98
+Detroit 532
+LM TK negative
+NALM-6
+IGF084/92
+IGF049/83
+AD94IL2
+IGL012/97
+L-M(TK–)
+Detroit 539
+RATV-NRK
+H5
+IGF079/89
+LB10.Sp
+NAMALWA
+IGF001/00
+Rat2
+IGF079/90
+LM2/1.6.11
+H4S
+9-B1
+LB10.K
+NAMALWA.CSN/70
+Detroit 551
+L-M92
+LB10.Ln
+B-F91
+ACT 1
+IGF074/86
+NAMALWA.IPN/45
+QIMR-WIL
+5G5
+H-A88
+IGF080/84
+NA C 1300 clone
+ST
+5H8
+IGF009/85
+Ha Fe
+F11B
+IGL004/01
+MOLT-4
+IGF080/83
+N92
+HF 19
+9.3F10
+5F12 AD3
+IGL004/91
+COL-10
+MC57G
+IGF080/86
+RAW 264
+H9c2(2-1)
+9.4
+RAW 264.7γNO(–)
+IGL004/93
+IGF080/85
+IGL004/94
+H9/HTLV-IIIB
+L57.23
+90.74
+RAW 264.7
+OPM-2
+IGF075/76
+90196B
+AC84
+IGL004/96
+IGF049/85
+MC86
+MSVIF-TK+
+IGF014/99
+B-63
+L5178Y TK+/–   (clone 3.7.2C)
+91MS441
+MSV.B
+IGF049/84
+MC-6
+B505
+Lei Cap
+5LBLN
+Q1785
+IGF030/98
+MOLT-3
+IGF080/82
+B6.2
+ST486
+F1-3G8-1
+MC88
+IGF049/86
+MS95
+IGF049/87
+AC95
+AP95
+BF93
+IGL011/99
+LEK
+Detroit 510
+IGF074/90
+ACH1P
+IGL012/00
+LEII
+Dempsey
+IGF074/89
+IGF049/90
+F4/4.K6
+MS751
+LFC16.Ln
+IGF074/88
+B5 NIH
+MS-5
+IGF049/89
+IGL011/98
+ACN
+IGF074/87
+L-F95
+COL-7
+L5178-S (LY-S)
+N-A90
+LB 27.4
+NA101
+IGF080/81
+NAD-118-E95-STO
+Detroit 529
+IGL012/01
+H69V
+A-C88
+IGF009/86
+NA95P
+IGF074/92
+Detroit 525
+IGL012/95
+RAJI TK+
+8E7
+44aacb
+IGF079/78
+N3.36
+EH17a
+BF95
+Mab 62B1-PC
+IGF045/94
+8E5
+448-D 100, 10, 1
+IGF079/80
+Mab 8A-PC
+IGF045/95
+Sl/Sl4 hSCF248
+N2.261
+IGF030/99
+RAMOS
+443-15D3-2F12
+RAJI_A_
+IGF045/96
+Mab 8F6-PC
+STK 1
+42TA
+N22
+STO
+IGF045/97
+EFM-19
+SU.86.86
+MTKP 97-12
+IGF075/82
+ES-D3
+MCH-82 (MX-82)
+LN-18
+IGF075/84
+ES-D3 GL
+149BR
+Fc 2 Lu
+MBL-Sm-4B1
+2A1
+LN-229
+IGF075/77
+ES-2
+AR42J
+IGF075/78
+IGL011/00
+MC/9
+IGF075/80
+IGF053/80
+ES-C57BL/6
+IGL010/99
+De Te
+MC/CAR
+IGF075/81
+N418
+IGL011/96
+IGF040/96
+EGC/PK060399egfr
+MP95P
+DEC-205
+N4TG3
+AE84S
+IGF079/77
+IGL011/01
+IGF040/97
+MOG-G-CCM
+IGF040/98
+Sl/Sl4
+MOG-G-UVW
+IGF011/82
+N3-36
+IGL011/97
+Sl/Sl4 hSCF220
+IGF040/99
+OM87P
+Mo-B
+IGF079/87
+N1E-115
+46/4
+88TAg
+IGF001/78
+RAMOS-AW
+IGF079/86
+N18TG2
+Mo
+EHS
+RAMOS-EHRB
+MNNG/HOS (TE85, Clone F-5)
+IGF079/84
+454C11
+N-18
+IGF041/89
+OM87
+N18
+OL95
+IGF075/89
+LI 66
+MC17-51
+45.6.TG1.7
+UTHs
+IGF016/93
+8A3B.6
+LI 27
+Ar Ke-2
+451Lu
+MC116
+8B1B.1
+UT-7
+IGF051/85
+F.thy 62891
+IGF075/91
+IGF082/83
+MC-116
+UT-1
+89MS30
+IGF051/84
+IGF075/90
+USASK/DSIL-  LHRH-A1
+IGF049/97
+8A2N
+LMas96
+ESK-4
+MLA87M
+IGF075/87
+LM96
+IGF075/86
+AP.6
+ES-E14TG2a
+AE 2
+LMH/2A
+AP-3
+LMH
+AE 3
+IGF009/87
+IGL009/99
+IGF075/88
+ADF
+N1-S1 Fudr
+IGL010/00
+H454
+N1-S1
+AE 1
+IGF079/83
+IGL010/92
+IGF011/83
+IGF079/82
+H4II
+IGL010/94
+AD94LEBV
+IGF079/81
+H460
+Rasheed Sarcoma Virus
+IGL010/98
+EH7a
+IGL009/92
+M-P91f
+DMS 79
+EB-3
+IGL009/96
+DMS 53
+EB2
+EIAV 12E8.1
+IGL009/00
+N1.551
+L18
+IGL009/01
+IGF041/88
+EB176 (JC)
+IGF016/82
+P0894
+MYC CT 9-B7.3
+HC-1
+IGF047/97
+MYB 2-7.77
+EB1
+MYB 2-3.76
+EJG
+Tn5 B1-4
+IGF082/82
+MYC CT 14-G4.3
+IGL009/97
+F45J
+EJ-6-2-Bam-6a
+MYC 1-9E10.2
+F4/80
+IGL008/96
+IgG-1D2
+Ect1/E6E7
+IGF009/88
+IGL008/93
+EBTr (NBL-4)
+EC
+NM95
+NM94
+EL 1
+EBL
+El Don
+I 10
+EBTr
+FMG87
+EL4
+IGL008/99
+IGF012/99
+IGF013/00
+IGF013/01
+IgG-5D7
+NIH EGFR-T17
+E6(2)2
+OT87M
+DoTc2 4510
+I-B92
+E5BB3IIA2
+F21-1D3G7C8
+EL4.BU.1.OUAr.1.1
+OV-CA 432
+EL4.BU
+OTH-74D4
+F18 AF1
+F1A3-23
+EL4.IL-2
+PVBC-OI522
+F4N (MEL)
+F19
+E-8
+9TR#1
+9L/lacZ
+EB
+NIH-3T3D4
+NIH-3T3 4-2
+F3B6
+EDS 105
+9F12
+F24
+9D9
+F25
+9D10
+9BG5
+F32 VIII C4
+IgG-7D4
+E.G7-OVA
+IgG-9D5
+IGF036/83
+IGA009/84
+IgG-B16
+IGA009/98
+IgG-IB7
+IGA010/89
+IGF015/82
+IGF015/83
+Fc2Lu
+FC28.Lu
+AtT20
+IGF001/01
+FC2.Lu
+FC2.K
+ZF4
+ZR-75-1
+IgG-6A6
+ZFL
+COLO-783
+AT-3.1
+IGF015/85
+IMG-734
+IGF041/91
+YPEN-1
+COLO-824
+IGF015/84
+YS001
+IMG-733
+IMG-730 XP3MO
+IGF015/87
+E13 161-7
+IGF015/86
+M-P91a
+E.H. IV
+IGF015/90
+ILB1-H67
+ILB1-H6
+IM7.8.1
+AT6.1
+IMG-729
+IM-9
+IGF015/91
+IGF033/96
+IGF016/91
+ATHOS
+AT95
+IMG-743
+IGF015/96
+YB2/0
+IMG-747
+YAC-1
+IMG-758
+YAPC
+IGF015/94
+L5178Y-S (LY-S)
+IGF015/95
+IL-A42
+IL-A51
+IL-A30
+IMG-736
+YN1/1.7.4
+ILB1-H21
+A11.1 M
+CF52.Tr
+PG-4 (S+L–)
+IGF014/95
+Fcwf-4
+MM27.We
+4C
+CF8.Thy
+IGEL a2
+MM29.We
+FD441.8
+KMA
+4C2.4A7.5H11
+CRO-AP2
+MM22.We
+CF49.Mg
+A101D
+RT4-D6P2T
+CF4-C4
+15-5-5S
+4C4
+MM23.We
+NCI-H2286
+MELC
+CVC.4
+PA317 line   containing JR-gal
+FDC-P1
+KMC8.8
+MM5MT
+CVC.7
+NCI-H2291
+PA317 cyclin E-L
+CF48.Mg
+IGF009/89
+MM5MTC
+Panc 04.03
+NCI-H23
+MM5MTM
+CCD-18Co
+KMI6
+CVC.1
+PA317
+CCD-19Lu
+IGF082/81
+XB-2
+CCD-25Lu
+2.28 M1
+IB4
+PANC-1
+FC100.Sp
+CCD-25Sk
+36F-18C
+J82
+AA5
+IGF074/78
+IB3-1
+2.43
+FC100.T
+CCD-27Sk
+X22
+MeWo
+F5
+NCI-H2228
+PA317 cyclin E-S
+Panc 05.04
+Panc 08.13
+Ca Ski
+IA-XsSBR
+Bi Fin
+36.5 (CD8+)
+RL
+MF 116
+EFE-184
+NCI-H226
+Ja Bos
+Panc 10.05
+FC100.Ln
+DBTRG-05MG
+BE2
+4C5G
+RKO-E6
+151TAg
+4C9
+FE92
+IB-RS-2
+15-3-1S
+X16C8.5
+2.03.7
+AA224
+MM2MT
+2.040 pRSV-T
+BE29G1
+151-6-A7-9
+J774A.1
+IGF016/92
+RK3E
+A123
+4D11
+NULLI-SCC1
+CF46.Tr
+PLC/PRF/5
+C166
+4D1.5.7
+CF45B.Mg
+IGF001/77
+Fe Bos
+RTG-P1
+CF44.Mg
+4D9D4
+4D12
+CF43.Mg
+FC102
+KNRK
+DB9G8
+NCI-H2198
+IGF011/81
+2C1H7
+151-5-G2-12
+37.04.12
+FC101
+2BD4E4 K99
+NCI-H2196
+14E5
+2B8
+KR-12
+NCI-H2227
+IGF041/90
+DBA C.Sp
+MMA
+15-1-5P
+2B7
+NCI-H220
+DBA A.Sp
+151-5-G3-5
+CTX TNA2
+3-83P
+JAWSII
+MP90
+1H3
+38-1
+WU E-4
+147-67C6
+Jay Sen
+BE3F9
+1H10-6
+1H11
+P1.17
+FC107.We
+IBRS-2 D10
+38.1
+CAB 117-12D10
+NCI-H2195
+BEAS-2B
+FC106.We
+BJ-5ta
+IGEL b4
+IC-21
+L52
+FC104.We
+BEND
+Bing
+Ja Coo
+bEnd.3
+4E11
+NCTC clone 929
+BJ
+A-9
+C1498
+IGF014/96
+1G8
+JAA-F11
+CA46
+A9 L hD2 S.C. 18
+NCTC clone 2555
+PHL
+P1 1Ut (NBL-9)
+JAR
+CF47.Mg
+CA3-F4
+Detroit 550
+RIN-m5F
+NCTC clone 2472
+P-1
+A-10
+ABE-8.1/2
+MPRO Line,   Clone 2.1
+NCTC clone 1469
+Cyt c–/–
+CF34.Mg
+46-2
+IGF016/94
+FIB-MOR1
+MONO-MAC-1
+MR1
+D 14
+BD5-2d
+MLH2
+CF35.Mg
+MLTC-1
+CF37.Mg
+MN-11
+WPMY-1
+DB
+IGF030/88
+D1 ORL UVA
+FC108.We
+CCD-39Lu
+WR19L
+PAb 100
+FC109.We
+M-MSV-BALB/3T3
+39-S
+CCD-34Lu
+FC11.BM
+IGF039/93
+MMT 060562
+CCD-34Sk
+P-9
+Daudi
+FC83.Sp
+RIN-5F
+3A(tPA-30-1)
+FC110.We
+1G2
+AK-D
+IGF013/80
+PI 153/3
+RBA
+RIN-14B
+3A5
+FC112
+MMQ
+1G3
+C8-B4
+C166-GFP
+PAb 101
+2M6
+1G1
+3A8
+MG38
+CCD-39Sk
+Kasumi-1
+PAb 108
+C8-D1A
+1G10
+MG-63
+KE-37
+RIN-m
+Jensen Sarcoma
+PAb 122
+1G12
+C8-D30
+15F3-1
+CF38.Mg
+MM14.Lu
+IGF010/93
+JEG-3
+Be Ar
+P116
+RC-4B/C
+15F7
+CF41.Mg
+JC
+P116.cl39
+C1R-B7
+MONO-MAC-6
+MM14.OT
+Kasumi-3
+RBL-2H3
+46-4
+RIIIMT
+15P-1
+JB6 Cl 41-5a
+BDCM
+MM14.Ov
+C171
+IGF093/86
+BL3.1
+NCTC 3749
+RBL-1
+46-5
+16-10A1
+JB6 Cl 30-7b
+PI-11
+C180
+AB1-2
+BL-3
+V-D95f
+NCTC 4093
+Ab 23.1
+FC95.Thy
+MM15.Sp/Thy
+4A4B11
+AB.9
+intestine 407
+FC94.T
+IGF002/00
+P2092
+DATK32
+15C6
+PMC2
+CW13.20-3B3 (clone of BCL 1)
+MM16.Ov
+FC87.Sk
+Be Sal
+IP-1B
+PMJ2-PC
+MM15OT
+ELM-I-1
+Cy34.1.2
+FC114E.Tr
+3A-sub E [post crisis of 3A(tPA-30-1)]
+CCD-32Sk
+PMJ2-R
+IP2-E4
+MNNG/HOS (Cl #5)
+FC113
+CCD-32Lu
+M-NFS-60
+M-G89
+NCI-H2444
+FC118
+3B-11
+Ainv15
+CCD-29Lu
+1F5
+NCI-H2405
+FC115.K
+3B11
+PK(15)
+IGF030/87
+AGS
+3C10
+WPE1-NB11
+BLK SV HD.2 A.5R.1 A.3R.1
+NCI-H2347
+1D4
+C1R-sB7
+PK(D1)
+Panc 02.03
+NCI-H2342
+IGF039/94
+Be Tim
+A-HER2
+3B18
+RAW 309 Cr.1
+C1R-neo
+FC119
+1D3
+NCI-H2330
+1C6
+IGF013/78
+CCD-33Lu
+WPE1-NB26
+AHH-1
+Panc 03.27
+1D11.16.8
+WPE1-NB14
+CCD-33Co
+Panc 02.13
+Ray Hot
+15-79-2
+L cells
+4B2-6C3-1C9
+JH4 clone 1
+MM19.Lu
+Ab 21.1
+C273
+15B2
+RAW 309F.1.1
+NCI-N87
+4B2
+BE(2)-C
+KD2SV
+JES3-19F1.1.1
+C8-S
+PK136
+NCI-H969
+158.2
+RAW 8.1
+4A6
+BE(2)-M17
+P1985f
+PK13
+NCI-H929
+BLK CL.4
+3C7.2
+J11d.2
+7E3
+OA4.Bm
+Co88BV59H21-2V67-66
+290-4E10
+IGF039/95
+A2B5 clone 105
+PEA 10
+J1
+3C9-D11-H11
+7E12H12
+OA4.K/S1
+A704
+BF-45
+CO 88BV59-1
+FIB-NC13
+IGF013/77
+7F2-6D4-8E7
+14.8
+3C11
+61/7
+Co88BV59H21-2
+OA3.Ts
+J1-31
+7F2
+1410 KG7
+IGF078/83
+3C5.1
+OA1
+Hs 860.T
+NCI-H920
+IMR-90
+NCI-H1693
+NCI-H1703
+EOMA
+NCI-H1694
+293 c18
+EM-3
+NCI-H865
+7E11C5
+L6
+EOMA-GFP
+FaDu
+CCD-1065Sk
+NCI-H847
+293 EcR Shh
+NCI-H889
+CCD-1068Sk
+P1Bb1.1 (DBA/2)
+A2E11
+Hs 746T
+Farage
+MEF (CF-1)
+CCD-1059Sk
+Prost 410
+Hs 864.T
+NCI-H841
+MEF-1
+KCSV
+CCD-1064Sk
+FAT 7
+ProPak-X.36
+226H
+Hs 864.Sk
+FAK+/+
+P3X63Ag8U.1
+ProPakA.6
+MEG-01
+Hs 749.Sk
+F0091
+K-562
+16H3
+Hs 863.T
+NCI-H1734
+CCD-1058Sk
+Hs 748.T
+ProPak-A.52   Clone #52
+16M3F10
+Hs 861.T
+IGF030/89
+NCI-H1755
+A-673
+60bca
+C6/lacZ7
+16-3-22S
+Hs 755(B).T
+RG9/6.13 HLK
+13-5-9-6-2
+P3X63Ag8
+6.12
+IGF039/96
+P3X63Ag8.653
+13C4
+Hs 751.T
+FAK–/–
+13762 MAT B III
+166-ME SK
+COLO 201
+AFT024
+A7
+J.γ1.WT
+BAE
+3E1
+CCD-1123Sk
+C6/LacZ
+OM 3-1.1
+A68177
+J.γ1
+16-3-1N
+RG7/11.1
+AF6-88.5.3
+COLO 320HSR
+EM-2
+3H5-1
+28-16-8S
+PA317 LXSN 6E7
+COLO 320DM
+3G9F3
+PA317 LXSN 6E6
+133-10F6
+3G5
+PA317 LXSN 16E7
+COLO 205
+OAW42
+IGF004/86
+A2058
+3G3
+PA317 LXSN 16E6E7
+D1-4G2-4-15
+NCI-H838
+Hs 865.Sk
+3F6
+28S.3
+Hs 866.T
+NCI-H835
+IGF007/90
+PEA 13
+CCD-1037Sk
+NCI-H820
+28-8-6S
+A253
+CPAE
+D10.G4.1
+NCI-H82
+PEAKrapid
+IGF082/85
+20H2
+A-253
+CCD 841 CoTr
+CPA 47
+D1.1
+283TAg
+NCI-H810
+Ep-16
+CCD 841 CoN
+DMS-79
+MLH1
+20B8
+Hs 870.T
+FB2.Thy
+MLg
+162-46.2
+K6H6/B5
+Hs 740.T
+MLE 12
+L-Z93f
+AF6-122.2.5
+Hs 867.Sk
+162-21.2
+FB2.Ln
+Hs 741.Sk
+20H11
+20C2
+AF6-78.25.4
+Hs 868.T
+L 132
+Hs 741.T
+FB2.K
+16-1-2N
+131-94H4
+AF4-73.3.1
+Hs 742.Sk
+FB2
+K66
+J1j.10
+IGF010/90
+16-1-11N
+A549
+130C3/2B/8
+AF6-120.1.2
+MEL-14
+J26
+132C4A/4
+Hs 742.T
+IGF042/81
+A6
+C7
+132-1C8
+p53NiS1
+AF3-12.1.3
+Calu-6
+NCI-H774
+145-2C11
+2A2-6E10-1D8
+CAMA-1
+Duck embryo
+146-03E04
+2A3A1H
+3T3 MEFs KO
+143B PML BK TK
+OP9
+2A5
+17D
+14-4-4S
+80T
+Calu-3
+CADO-ES1
+J5-1
+331.12
+2AB1-IA10
+FL 62891
+A1G3
+Hs 737.T
+2B5
+FL74-UCD-1
+IGF036/81
+IGF020/86
+807.33
+Hs 871.Sk
+32B11
+A20
+20-8-4S
+FL83B
+NG108-15
+NCI-H740
+807.31
+IGF082/84
+NCI-H735
+CRE BAG 2
+K:Molv NIH/3T3
+L8
+807.15
+NCI-H747
+Hs 874.T
+3LBLN
+CCD 18Lu
+NCI-H748
+IGF004/87
+Hs 873.T
+Per Sel
+32.2
+3Pt12B8
+A-204
+203-7D10
+Hs 738.Lu
+FB4.Sp/Thy
+Hs 877.T
+Hs 621.Sk
+EZZ (TOU II-4)
+202-11A8
+204-4
+FB5.Bm
+Pfeiffer
+Hs 875.T
+Hs 62.Fs
+201-45E9
+K 114
+IGF004/85
+Hs 63.T
+CCD 1108Sk
+Beta-TC-6
+Hs 622.Sk
+Hs 740.Sk
+17-3-3S
+Os Te
+J45.01
+FB3.Ln
+IGF020/85
+Hs 739.T
+J27-neo
+Calu-1
+OSU1
+Bet-2
+143B
+J27-B7
+Hs 739.Sk
+IGF010/89
+FB3.Thy
+A9
+Or De
+Bet-1
+Hs 618.T
+143-4-2
+2B5.3
+FB4.Ln
+Hs 738.St/Int
+L 1210
+PS/2
+Ber Lin
+17aba
+803-15.6
+143-2-A6-11
+293/CHE-Fc
+143.98.2
+CCD 1106 KERTr
+31E9
+IGF042/82
+DC101
+LB3.1
+173-1C11
+2A
+3197-3
+80 V 5B4
+A124
+NZP-46
+293T/17
+L-Z93a
+L612
+7G7B6
+2A11
+31-90-25
+CCD 1102 KERTr
+317G5.C1D3
+CC9C10
+PFSK-1
+FIGR
+CCD 1105 KIDTr
+IGF026/86
+Caco-2
+PFHR 9
+CCD 1103 KIDTr
+A172
+PS 41
+P3HR-1
+AE-1
+200-3-G6-4
+PS 45
+J5-2
+A-704
+IGF004/84
+FL
+AE-2
+PG13/LN c8
+172-12A4
+20.3
+K117
+PS 60
+PG13
+2.4G2
+EVSA-T
+PS 67
+AE9D6
+K204
+171-11B9
+Hs 734.Sk
+FB8H3 [Mab8H3]
+BF-2
+17/14
+LB9.Bm
+FB5.Ln
+Nthy-ori 3-1
+Hs 735.T
+A7r5
+J558
+OVB-3
+P3D
+Hs 731.Sk
+A717
+BeWo
+LB9.D
+142-24E5
+L 243
+FBHE
+171-4
+20-10-5S
+OV-90
+PS 38
+A-72
+Hs 733.Sk
+BF-11
+141PF11
+IGF007/92
+CAR
+Hs 677.Tg
+RFGd12WE
+Hs 219.T
+OKM 1
+Hs 836.Sk
+CCD-1099Sk
+Hs 912.T
+S49.1G.3
+B5
+IGF010/92
+Hs 221.Sp
+S49.1G.3 PHA.100/0
+Hs 839.T
+Hs 913(B).T
+TA 99
+Rn2T
+BB7.1
+CCD-1098Sk
+Hs27
+Hs 913(C).T
+IGL020/96
+Rn6T
+CCD-1097Sk
+M18/2.a.12.7
+Hs 835.T
+Hs 677.Sk
+Kasumi-4
+Ro Bon
+Hs 913(D).T
+DoCl1 (S+L–)
+Kasumi-6
+BB
+SCC-PSA1
+L Wnt-5A
+S49.1TB.4 DEX R.63
+Hs 792(A).T
+Hs 401.Lu
+Hs 573.Lu
+L.N. 4159
+TGP47
+3A sub E
+25-9-3S
+B35
+Hs 573.T
+Hs 792(B).T
+Hs 680.Rec
+S49.1H.1AG.6/2
+25-9-17S II
+KB
+BB7.2
+B38.1
+DS19
+IGF013/82
+Hs 397.Lu
+Hs 574.Sk
+CCD-1101Sk
+Hs 680.Sk
+25-5-16S
+S49.1TB.2
+BB7.5
+L Wnt-3A
+B3D
+Hs 574.T
+CAKI-1
+CCD-1100Sk
+Hs 399.Li
+Ltk-11
+Hs 578Bst
+R6.5.D6.E9.B2
+Hs 394.Lu
+TE3
+NIH:OVCAR-3
+NIH-3T3
+IGF007/91
+Te39
+R63
+Hs 789.Sk
+HS-27A
+Hs 394.Sk
+TE4
+LTPA
+CL-S1
+Hs 789.T
+IGF004/83
+R3327-G
+JSC-1
+310-29F7
+LTR228
+R-3327-AT-3.1
+Hs 791.Sk
+R4-6A2
+SCP
+Clone M-3
+Nthy-ts1
+Lu Rob
+Hs68
+312-13E8
+Hs888Lu
+311-3D4
+Hs 215.Th
+RFGd10WE
+Hs432.T
+TA-1
+Hs 216.We
+MOM89M
+31-42-19
+HS-5
+Hs 910.Thm
+31-3-4S
+Hs 218.Lu
+RFGd11WE
+30-H12
+Hs 215.Ln
+T-AL/N
+IGF010/91
+Hs 915
+Tal Jo
+CCD-1092Sk
+TGP49
+B3/25
+BALB/c CL.7
+Hs 21.Fs
+Hs 846.Sk
+Ro Vid
+Hs 914
+IGF042/80
+B-3
+CCD-1093Sk
+BALB/c AMuLV A.6R.1
+Caov-3
+Hs 845.T
+S4B6-1
+Hs 215.Sp
+Caov-4
+Hs 844.Sk
+L 21.6
+Hs 916
+Ma San
+LS3-10
+Hs 841.T
+ACT I
+SCaBER
+B27M1
+Hs 565(D).Mg
+CCD-1096Sk
+Hs 782.T
+IGF013/81
+Hs 392.Sk
+Hs 675.T
+Hs 840.T
+240-13D10
+SCA-9 clone 15
+L11/135
+K-BALB (K-234)
+TGP61
+Hs 391.We
+Hs 782.Sk
+IGF003/83
+ESS-1
+Hs 674.Sk
+23A-5-21S
+B29
+TGP55
+Hs 568.We
+CCD-1094Sk
+Hs 39.T
+TE7
+NIT-1
+KC-4G3
+IGF082/86
+23B6
+B27M2
+TGP52
+SCC-15
+CCD-1095Sk
+Hs 566(B).T
+Hs 788.Sk
+Hs 389(B).Lu
+Hs 389(A).Lu
+BAE-1
+R-3327-AT-1
+Hs 571.T
+L101
+SCC-25
+LS513
+NIT-2
+Tep Be
+TE8
+NK-92
+Hs 57.T
+IGF023/98
+LS411N
+R3 [33-10ras3]
+236L
+R2LBLN
+Hs 781.T
+NK-92MI
+SCC-9
+Ad Hot
+R2C
+NL20
+M 1
+Hs 781.Sk
+SCC-4
+ACT IV
+Jurkat, Clone E6-1
+Tera-1
+M17/5.2
+30/15
+Ro Shi
+Capan-1
+NUC-1
+M17/4.4.11.9
+Capan-2
+Ro Dow
+30-5-7S
+CLT 152
+Hs 913T
+308TAg
+Hs 209.Sp
+CLT 85
+IGL019/96
+Hs 913(F).T
+R-3327-AT-2.1
+HSDM11C11
+TALL-104
+30-C7
+Hs 208.Th
+Hs 852.T
+Hs 204.Sp
+A-498
+IGA063/80
+Hs 69.Fs
+CBL-1
+B25.2
+Hs 854.Sk
+Hs 208.Sp
+Hs 692(A).T
+THB-5
+Hs 695.Sk
+Hs 203.Sp
+IGF007/87
+B21-2
+MA2.1
+CCD-1077Sk
+THB-7
+Hs 695T
+Hs 203.Th
+3.155
+MA1-6
+BBm
+IGF004/89
+KC-4M1
+S194/5.XXO.BU.1
+THLE-2
+HECA-452
+FOX-NY
+LS132.1D9
+Tera-2
+CCD-1086Sk
+Hs 416.T
+BL-20
+IGF020/88
+Hs 556.Sk
+Hs 778(A).T
+B2.Sp/Thy
+Hs 846.T
+28-14-8S
+S194/5.XXO-1
+THLE-3
+NL20-TA
+TF-1
+Hs 559.Sk
+IGF082/87
+CCD-1079Sk
+Hs 778(B).T
+B2-1
+Hs 849.T
+S1A(Thy-1–b)
+LS-125-2D4-11-10-1
+CCD-1090Sk
+Hs 774.Pl
+Hs 904.T
+S1A.TB.4.8.2
+IGF023/97
+Hs 851.T
+LS129-3C3-E3-1
+CCD-1087Sk
+Hs 777.T
+Hs 905.T
+JLS-V5
+Hs 565(A).Mg
+T529-15D3-2E5-  4G12-1
+Hs 412.Lu
+LS-136
+IGA058/80
+I-10
+26ic
+T84
+JLS-V9
+26CB-1
+Hs 413.We
+NMu3Li
+Hs 77.Fs
+R187
+DVA96
+RG11/39.4
+R1E/TL8x.1
+Hs 56.Fs
+Hs 414.T
+Sf 1 Ep (NBL-11)
+NMU
+TF-1.CN5a.1
+HEK001
+IVD12
+ACHN
+IGF078/84
+I(TL.m9)
+28-13-3S
+R1E/TL8x.1.G1.   OUAr.1
+LS132.8G2
+SF1-1.1.10
+Hs 564(E).Mg
+HS-Sultan
+Hs 415.Sk
+TF-1a
+JM1
+NUC-5
+28-11-5S
+I/24.D6
+HT
+R2-10F6
+OD-3
+I 2.1
+RG7/1.30
+T4 Clone 5   (10-0101, 0062-83)
+DOHH2
+R2-9A5
+I 9.2
+Hs 202.Th
+IVA12
+2V6.11
+A5.12.14
+T529-15D3-18-  1A3-1B7
+IV.3
+Hs 688(B).T
+IGF007/86
+A5.4
+RG2
+Hs 680.Tr
+2T8-3E10
+Cates-1B
+G-3-5
+BB7.7
+B2.Sp
+mAb 13-1
+Hs 908.Sk
+IGL019/00
+G2b.2
+Hs 86.Fs
+CATH.a
+Hs 680.Tg
+FO-4
+BB7.6
+B2.Ln
+Hs 907.Lu
+G2a.5
+2PK-3
+IGF014/82
+IGF020/87
+Hs 687.Sk
+Mab 108
+B1B6
+BB88
+Hs 906(B).T
+Hs 683
+Mab 126
+Hs 769.T
+Hs 906(A).T
+26-7-11S
+T-47D
+Hs 855.T
+S3D3
+TFTB1
+Hs 410.We
+TFTA1
+CCD-1069Sk
+26-8-16S
+Hs 855.Sk
+LS 180
+Hs 688(A).T
+IGF082/89
+CCD-1070Sk
+Hs 409.We
+S49.1
+FO
+Hs 859.T
+LS 174T
+CCD-1072Sk
+Jo Per
+Hs 856.T
+FNS
+DV-90
+G355-5
+S49 (Thy-1-a)
+KEL FIB
+CCD-1074Sk
+Hs 910.Sk
+RFGd2WE
+Rn 4T
+CCD-1076Sk
+Hs 402.Sk
+LS123
+IGF023/96
+JO1-1
+Rn 3T
+SE-1.3
+LS1034
+S1E4
+HT 29/26
+Hs 405.Sk
+260-33C4
+I1-Hybridoma
+Rn1T
+Caki-2
+Rn 5TES
+Hs 404.Sk
+HT 1417
+266-6
+CMH1a
+RFL-6
+J.RT3-T3.5
+I-13.35
+2LBLN
+HT 29/36
+IGF042/83
+RFGd5WE
+J.CaM1.6
+T84.66A3.1A.1F2
+I-11.15
+RFGd4WE
+RFGd3WE
+SK-MEL-5
+(BF1) 8A3.31
+CC21
+RD-ES
+IGF020/90
+HT 297.T
+LNCaP clone FGC
+P19
++/+ (A)
+Ramos (RA 1)
+M059J
+SK-MEL-31
+L-NGC-alpha2B   L-cells
+2H6-C2
+B16-F10
+IGL019/98
+RD
+M/K-2.7
+LNZTA3WT11
+2H-11
+SK-MES-1
+Hs 701.T
+KG-1
+L-NGC-5HT2
+IGF093/85
+M/K-1.9
+Hs 704.Sk
+HF 322.Sk
+HD2-4
+Hs 700.Sk
+H16-L10-4R5
+mh
+1C3
+H18/7
+MP 9
+IGF033/97
+CD86
+HF 333.We
+Hs 700T
+SFR3-DR5
+M059K
+SFR8-B6
+MH1
+2G8.D6
+HF 282.Sp
+IGF082/90
+Hs 70.Fs
+2G3
+HCT-15
+HT 768.M
+RmcB
+HT-1080
+HCT-8 (HRT-18)
+HF 345.We
+HT 728.T
+HF 358.We
+IGF086/80
+LS 102.9
+HD168
+HT 762.T
+RMC
+CL3
+SK-MEL-24
+Raji
+Lp1 MAB 2
+RAG
+IGA188/78
+SNU-423
+SK-MEL-2
+CL37
+RAB-9
+SNU-398
+M. dunni   (Clone III8C)
+BA7.3C.9
+LP3IIG2
+CC 49
+M 144
+IGF007/89
+Lp1 MAB 3
+SNU-449
+2F.11.15
+M 111
+CC15
+2F-2B
+KHOS-240S
+CC17
+KHOS/NP (R-970-5)
+LP4.4
+IGF042/84
+H2.35
+SK-MEL-3
+1A6
+2F7
+L-α-1b
+CC20
+SNU-387
+H1HeLa
+2FLB.Ln
+1B2-1B7
+CD88f
+SK-MEL-28
+SNU-182
+H19-7/IGF-IR
+H25B10
+1B2A3
+H21F8-1
+MH55
+1B7.11
+H2.8
+1B8-F11
+IGF082/91
+2E8
+He We
+HEC-1-B
+HEC-1-A
+HFAE-2
+Hs 371.T
+L1210
+22Rv1
+Hs 372.Sk
+CLN H11.4
+IGF020/89
+Hs 38.T
+CLN
+R9ab
+Ra Lot
+2E6
+Hs 383.Sk
+SK-ES-1
+23 ScCr
+Ra Bot
+IGL019/97
+M1/69.16.11.HL
+CCD-1120Sk
+SK-HEP-1
+2E10-H2
+Hs 387.T
+Lp1 MAB 1
+CCD-112 CoN
+M1/70.15.11.5.HL
+IGF001/99
+IGF086/84
+2E.6
+SK-LMS-1
+M1/75.16.4.HLK
+SK-LU-1
+CCD-1122Sk
+HCC38 BL
+2D7F10
+LoVo
+IGF030/91
+Reh
+KL304
+SK-MEL-1
+CCD-1121Sk
+2D-7
+PWR-1E
+KLE
+Hs 709.T
+MB23G2
+BAG-12G2
+hCD40L-M90
+SK-CO-1
+KL277
+Hs 72.Fs
+MB19tsA, clone 2B2
+ARPE-19
+Hs 799.Pl
+hCD40L-M91
+KL295
+2Hx-2
+M1/87.27.7.HLK
+Hs 722.T
+ARPE-19/HPV-16
+PYS-2
+HCC70
+M1/89.18.7.HK
+Hs 726.Pl
+AS 33
+HCC827
+IGF039/97
+M1/9.3.4.HL.2
+Clone 1-5c-4
+RA3-2C2/1
+Hs 803.Sk
+As4.1
+HCC4006
+Clone 15 HL-60
+IGF010/83
+RA3-3A1/6.1
+Hs 803.T
+CLNH5.5
+Hs 80.Fs
+Hs 709.Sk
+Hs 801.Pl
+CCD-1117Sk
+Hs 350.T
+Lo Ren
+LNZTA3WT4
+IGF093/83
+L-14
+CON.1
+Hs 362.T
+2D12
+ConA-B1-VICK
+Hs 357.T
+2D4
+ConA-C1-VICK
+M1
+CCD-1109Sk
+IGF078/87
+Hs 365.Ct
+2C5-6
+CCD-1112Sk
+Hs 364.Ct
+2D10
+SJSA-1
+Hs 707(B).Ep
+CCD-1113Sk
+MG-1361
+M1.4
+LO-22
+SK-BR-3
+M-1
+Lo Wen
+2C4
+CCD-1114Sk
+KM81
+Hs 706.Sk
+IGF086/85
+SJRH30
+KM703
+Hs 704.T
+KM201
+Hs 707(A).T
+ARH-77
+HCT 116
+FEA4 + PFSC/C1
+BA-F8
+M1/42.3.9.8.HLK
+KM114
+Hs 706.T
+TE19
+KLN 205
+CCD-1118Sk
+HCN-2
+M1/22.25.8.HL
+IGF078/89
+TE16
+Clone C
+L-132
+HCN-1A
+TE15
+ARIP
+hce
+TE 98.T
+TE 91.Sk
+Clone 9
+IGF010/81
+R-970-5
+MAb 951-5-1
+AL 1-27
+Al Ke
+H57-597
+Y13-259
+HEp-2
+AKR1.G.1.OVAR.1.26
+DV68F
+IGL019/99
+SL-29
+Hs 578T
+H69AR
+Mab 543
+HCC2935
+SiHa
+Hs 579.Mg
+MC-IXC
+Hs 58.Fs
+HCC38
+IGF093/84
+UVE-10
+H9
+ASK
+AL/N
+HCC2218
+Hs 587.Int
+SIRC (Statens Se-   ruminstitut Rabbit   Cornea)
+AsPC-1
+HCC2218 BL
+Hs 588.T
+IGF024/00
+LL 24
+TE 199.T
+34-4-20S
+LYK-7
+LL 29 (AnHa)
+TE 206.T
+34-2-12S
+LYK-8
+BAEC-1
+LL 47 (MaDo)
+TE 170.M
+QPN1 22F5   (SCRF 43.2)
+Hs 469.Sk
+HCC2157
+LYK-16
+TE 175.T
+Hs 479.T
+HCC2157 BL
+IGA040/82
+SJD.1
+LYK-5
+Hep G2
+XVI E6E6G10
+EMT6
+Hs 467.Sk
+HEP G2/2.2.1
+EML Line, Clone 1
+IGF086/86
+LYK-12
+Hs 468.Lu
+Y13-238
+LK 35.2
+TE 353.Sk
+End1/E6E7
+34-5-3S
+LK-4
+Y-1
+EN9F10
+IGF030/94
+Hs 466.Sk
+34-4-21S
+MEF (C57BL/6)
+Am Ric
+Hs 60.Fs
+Am Coo
+Hep 3B2.1-7
+H4-II-E-C3
+MECA-79
+AG 5025
+IGF010/80
+Hs 590.We
+SM27-1045
+H-4-II-E
+E. Derm (NBL-6)
+MECA-89
+HCC202
+SJK-237-71
+Hs 602
+H4TG
+MFM-223
+HCC1954 BL
+SJK-132-20
+Hs 600.T
+MECA-367
+AT3B-1
+HCC1954
+Hs 604.T
+SJK-287-38
+TE 149.T
+IGF093/81
+34-7-23S
+SJL/JB
+TE 130.T
+35.1
+HCC1937 BL
+TE 125.T
+HCC1937
+HCC1806
+Y-17
+SJL/JC
+IGF078/85
+Hs 491.T
+Lym-2
+LL 86 (LeSa)
+Lym-1
+Hs 49.Fs
+Y-3
+E 20
+EL-NC-1S
+LYK-9
+IGF086/89
+Hs 483.T
+Y3-Ag 1.2.3
+Em Ar
+Hs 483.Sk
+TE 161.T
+Y-3P
+356-1
+LL 97A (AlMy)
+TE 159.T
+IGF023/99
+Hs 48.Fs
+Hs 605.T
+Hs 729
+Hs 606
+GMMe [EPI]
+H36.12j
+Hs 729.T
+GMMs [STR]
+Shh Light II
+HE-SK
+IGF030/92
+Hs 730.Pl
+Hs 605.Sk
+Het-1A
+DT95
+Hermes-3
+AtT-20ins (CGT-6)
+hES BG01V
+Hs 606.Sk
+HCC1599 BL
+H4
+IGF010/78
+Hs 728.Sk/Mu
+AtT-20
+Hs 61.Fs
+SH-4
+HCC1739 BL
+Hs 728.Sp
+AtT-20/D16v-F2
+ATRFLOX
+HCC1428 BL
+Lu Vin
+BEN
+Hs 443.T
+HCC1500
+H36.12e
+HCC1569
+Hs 445
+HCC1599
+Hs 446.Sk
+QCRL-1
+QCRL-3
+PZ-HPV-7
+BAEC
+Hs 417.Lu
+Hs 616.T
+MAb104
+mAb BB7
+HEPM
+DU 145
+McA-RH8994
+mAb35
+Hs 613.Sk
+FIB-NC15
+mFS6
+DU1-29
+Hepa-1c1c7
+Hs 611.T
+mAb64
+Hs 610.Sk
+Dubca
+AKR/JA.Sp
+H36.12d
+Hepa 1-6
+SH-SY5Y
+IGF093/82
+SHP-77
+LYK-1
+MCF 10F
+H36.12b
+HCC1428
+H36.12a
+SHM-D33
+Hs 617.Mg
+IGF078/86
+EOC 13.31
+Hs 456.Sk
+EOC 2
+Hs 456.Bt
+AU565
+Hs 46.Fs
+XS63
+QPN1 12C9   (SCRF 43.2)
+MOLT-16
+EOC 20
+Hs 454.T
+Mab 96
+Hs 45.Fs
+Ran De
+mSXL 18
+Ran-2
+mSXL 114
+HY3-11.27
+mSXL 104
+IGF052/88
+BBM
+Hs 934.T
+HCC1143
+HCC1143 BL
+Ramos.2G6.4C10
+Hybridoma 231
+GPC-16
+Hybridoma 234 s.2a
+KCB 89001
+GR-20
+Hs 933.T
+TOV-112D
+HX
+HCC1007 BL
+TOV-21G
+HCC1008
+Hs 925.T
+AVE-115
+BC-1
+IGF030/78
+Hs 926.T
+Aw3.18.14
+BC16A
+Hs 929.Sk
+MSTO-211H
+Hs 93.T
+G-Olig2
+Go Je
+SH2
+HBE4-E6/E7-C1
+IGF039/87
+SH4
+TO 203.T
+HUVS-112D
+HBE4-E6/E7
+SH-34
+TO 175.T
+SH3
+GP+envAM-12
+HUV-EC-C
+GP+E-86
+IGF013/86
+HUVE-12
+TB 28-2
+Toledo
+tao BpRcl
+HL-60
+HuTu 80
+TO 166.M
+HBE135-E6E7
+HB
+HS-21   (subclone 1H3)
+MOLT-14
+R1-2
+MTC-M
+GS-109-IV-8
+Hs 97.Fs
+GS-109-V-20
+Amdur II
+AMJ2-C11
+HuT 102
+HAAE-1
+O-B94a
+P-19
+HuT 78
+HAAE-2
+HAA1
+R1/E
+SC
+R1.1
+HK-2
+Hs 944.T
+IGF052/87
+R1.G1
+HKB-11
+MT-6
+Hs 940.T
+HK-PEG-1
+TCMK-1
+R1
+Hs 941.T
+Hs 94.T
+TUR
+A 72
+Hs 939.T
+Gr431
+MC/CAR-Z2
+GR-96
+HuNS1
+huFasM38
+TR 310
+MGP96Na
+AMJ2-C8
+SC-1
+SC-71
+R17 208.2
+Hs 938.T
+R1-5D9
+Hs 936.T(C1)
+Tu To
+IGF013/87
+TC-1
+Hs 936.T
+Hs 935.T
+DR4 MEF
+IgG-1C6
+IgG-1B3
+IgG-11H9
+FeT-J
+IgG-11H4
+DPSO 114/74
+IGF030/80
+FC16.Sp
+XC
+XC1.5/51
+GS-109-V-21
+GS-109-V-34
+IgG-4A4
+IgG-2F1
+IgG-3B2
+IgG-2A4
+XMMCO-791
+IGF086/79
+XMMME-002
+GS-109-V-63
+XMMME-001
+XMMEN-OE5
+MM31.We
+MM34.We
+MM36T(C)
+MM2SCT
+XP17BE
+H1.6
+3 E 1
+ZEM2S
+DMS 114
+DMS 153
+YI 328-18
+Y79
+ILB1-H34
+IL-A11
+IL-A29
+IGF010/77
+A 375
+MD86
+P1393
+V-C91
+IGF013/84
+IGF039/90
+IGF030/83
+IGF004/82
+3 C9-D11-H11
+EL4.BU.OU6
+V-C89ls
+IGF052/89
+L14
+A 172
+MOLT-17
+P1392
+IGF013/85
+IGF030/84
+IGF039/88
+DEL
+IGF004/78
+IGF041/99
+IGA040/78
+IGF026/85
+IGF010/96
+IGF020/91
+KYSE-450
+DA94
+IGF004/79
+IGF010/97
+IGF041/98
+IGF004/81
+wi-38 fibroblasts
+KYSE-510
+IGF003/82
+IGF007/84
+DMS 273
+IGF052/86
+CA95
+MOLT-13
+IGF010/98
+KYSE-520
+DMS 454
+IGF013/89
+wi-26
+OC 314
+B-K88
+OKP-GS
+IGF004/01
+IGF007/85
+CA96
+IGF052/85
+MOH (TOU II-3)
+WI-1003
+P-190
+IGF010/99
+KYSE-70
+IGF021/87
+IGF083/78
+IGF024/78
+IGA031/82
+IGF007/01
+T98G
+IGF078/91
+IGF020/93
+DU4475
+DMS 92
+IGF083/76
+MD94PLEBV
+IGF024/79
+BAG-85D10
+IGF078/90
+IGL017/99
+IGA031/87
+IGF007/79
+IGF042/77
+IGF020/94
+DA-1
+D-A92a
+9.0.4.C43
+IGF083/81
+T84M
+IGF010/00
+IGF024/01
+IGF042/01
+IGA033/83
+IGF007/80
+IGL018/96
+IGF093/80
+IGF020/95
+IGF006/86
+IGF083/80
+D-A92f
+T93
+IGF024/77
+IGF010/94
+IGF042/00
+IGF007/81
+IGA036/83
+IGF093/78
+IGL018/97
+FIB-NC16
+IGF020/96
+CCRF S-180 II
+EL4.NOB-1
+IGF085/92
+IGF009/98
+IGF039/92
+P1985a
+IGF092/87
+IGL018/98
+MGL95
+IGF001/96
+IGF085/91
+M-M196
+IGF009/99
+IGF039/91
+IGL018/99
+V-C92
+MGF89P
+IGF092/86
+IGF079/76
+CCM89M
+FDCP-Mix cl.A4
+BALB 3T12-3
+IGF030/85
+IGF086/78
+BETA-TC-3
+IGF009/96
+IGF024/81
+IGF082/92
+IGF078/95
+MG96No
+IGF092/84
+IGF014/81
+IGF086/76
+2T
+IGF030/86
+IGF009/97
+M-G93
+IGF020/92
+V-D95a
+IGF078/92
+AKR/12B-1
+IGF038/95
+L105.1
+CC96
+KB-3-1
+IGF077/85
+IGF017/80
+EL 2
+IGF013/92
+IGF030/00
+VIP-VIIIC8
+IGF039/82
+langerhan cell
+wild-type or TAK-/- DT40 cells
+fibroblasts
+hematopoietic and nonhematopoietic cells
+human and mouse platelets
+immature and naive B lymphocytes
+mouse embryonic fibroblasts
+nonlymphoid cells
+oocyte
+osteoclast
+wild-type platelets with MnCl2 and fibrinogen
+phagocytic cell
+parafollicular cells
+parathyroid chief cell
+phagocytic cell
+thyroid epithelial cells
+macrophages
+pinealocytes
+islet of langerhans cells
+granulocytes
+spleens
+myeloid
+pneumocyte
+spermatogonial
+histiocyte
+lymphocytes
+megakaryocyte
+monocytes
+thrombocytes
+lymphatic tissues
+subcutaneous tissue
+plasma cells
+hscs
+htc-7
+huvecs
+microbial electrolysis cells
+astrocytoma
+enterocyte
+epithelial
+le cell
+helum
+hematopoetic
+mda231
+muscle tissue
+semen
+villa
+pericardial fluids
+pleural fluid
+red blood cells
+synovial fluid
+white blood cell
+hair cells
+immune cell
+Abdominal Aortas
+Acoustic Nerve
+Bone
+Thyroid gland
+Thyroid Isthmuses
+Tibia
+Tibialis Anteriors
+Tibialis Anterior Tendon
+Tibialis Posteriors
+Tibialis Posterior Pulse
+Tibialis Posterior Tendon
+Toenails
+myeloid
+Tongue
+Tonsillar Crypts
+Tonsillar Lymph Node
+Tonsil
+Tooth Enamels
+Tooth Neck
+Tooth Roots
+Tooth Socket
+Tooth Structure
+Touch Receptors
+Bones of the Feet
+Trabeculae
+Tracheas
+Transitional Epithelium
+Transverse Abdominis
+Transverse Colon
+Transverse Humeral Ligaments
+Trapezium
+Trapezoid
+Triangular Bone
+Triceps
+Bones of the Lower Extremities
+Tricuspid valves
+Trigeminal Nerve
+Trigone
+Trochlea of the Humerus
+Trochlear Nerve
+True Rib
+Tubal Tonsil
+Tunica Externas
+Tunica Intimas
+Tunica Media
+Bony Labyrinths
+Turbinate
+Tympanic Membranes
+Ulna
+Ulnar Artery
+Ulnar Collateral Ligaments
+Ulnar nerves
+Ulnar Vein
+Umbilical cord
+Upper arm
+Upper Fibers of the Pectoralis Major
+Bony Pelvis
+Ureters
+Urethra
+Urethral Sphincters
+Urinary tract
+Uteruses
+Utricles
+Uvea
+Vaginas
+Vagus Nerves
+Valve Cusp
+Brachial Arteries
+Valves of Heisters
+Valves of the Hearts
+Vas deferen
+Vastus Intermedius
+Vastus Lateralises
+Vastus Lateralis Tendon
+Vastus Medialis
+Veins
+Vena cavas
+Vena Cavae
+Brachial Veins
+Ventral Cavity
+Ventral Root of Spinal Nerves
+Ventricles
+Venule
+Vestibules
+Vestibulocochlear Nerve
+Virchow's Lymph Nodes
+Visceral Pericardiums
+Visual Receptor
+Vitreouses
+Brachialises
+Volar Arch
+Volar Carpometacarpal Ligaments
+Von Ebner's Gland
+Vulva
+endothelium
+Wharton's Duct
+White Pulp of the Spleen
+Wisdom Teeths
+Wrist Extensor Muscles
+Brachialis Tendon
+Wrist Flexor Muscle
+Zygomatic Bone
+Zygomaticus Majors
+Zygomaticus Minors
+vascular smooth muscle
+bronchial gland
+Acromial End of the Clavicles
+Brachiocephalic Artery
+Brachiocephalic Vein
+Brachioradialises
+Brachioradialis Tendons
+Brains
+Brainstems
+Breasts
+Broncha
+Bronchial Arteries
+Bronchial Trees
+Acromioclavicular Ligaments
+Bronchiole
+Buccinators
+Bursa
+Caecum
+Calcaneuses
+Calf muscle
+Capillaries
+Capitates
+Capitulum of the Humerus
+Adam's apple
+Capsular Ligament of the Sternoclavicular Joint
+Cardia
+Cardiac muscles
+Cardiac Septums
+Cardiac Skeletons
+Cardiopulmonary Systems
+Carotid Pulse
+Carpal
+Carpometacarpal Joint of the Thumb
+Carpometacarpal Joints
+Adductor Brevises
+Carpometacarpal Ligament
+Cartilage
+Catecholamines
+Cavity of the Lesser Pelvises
+Cecums
+Celiac Arteries
+Cementums
+Central nervous system
+Cephalic Vein
+Cerebellum
+Adductor Brevis Tendons
+Cerebral Cortex
+Cerebral Hemisphere
+Cerebrum
+Cervical Lymph Node
+Cervical vertebra
+Cervixs
+Chambers of the Hearts
+Cheekbones
+Adductor Longuses
+Chordae Tendineaes
+Choroid Layers
+Choroid Plexus
+Chyme
+Ciliary Bodies
+Circulatory system
+Circumvallate Papillaes
+Cisterna Chyla
+Clavicle
+Clitoris
+Adductor Longus Tendons
+Coccyx
+Cochlea
+colorectal
+Columnar Epithelium
+Common Hepatic Ducts
+Common Iliac Artery
+Common Iliac Lymph Node
+Common Iliac Veins
+Common Iliac Veins
+Condyles of the Femurs
+Adductor Magnuses
+Condyles of the Tibia
+Condyloid Joints
+Cones
+Conjunctival membranes
+Coracoacromial Ligament
+Coracobrachialis
+Coracoclavicular Ligaments
+Coracohumeral Ligaments
+Cornea
+Coronary Arteries
+Adductor Magnus Tendons
+Coronary Capillaries
+Coronary Circulatory Systems
+Coronary Sinus
+Coronary Vein
+Coronoid Fossa
+Corpus Callosum
+Corrugator Supercilii
+Costoclavicular Ligaments
+Coxal Bone
+Cranial Cavity
+Abdominopelvic Cavities
+Adenoid
+Cranial Nerve
+Cranial Suture
+Cranial Venous Sinuse
+Crista
+Crown
+Cuboids
+Cuboidal Epithelium
+Cuneiform Bone
+Cystic Duct
+Deciduous Teeth
+Adrenal cortexs
+Deep Femoral Artery
+Deltoids
+Deltoid Tendon
+Depressor Anguli Oris
+Depressor Labii Inferiorises
+Dermises
+Descending Aortas
+Descending Colons
+Diaphragm
+Digastric Muscle
+Adrenal glands
+Digestive tracts
+Dorsal Carpometacarpal Ligaments
+Dorsal Cavities
+Dorsal Radiocarpal Ligaments
+Dorsal Root Ganglion
+Dorsal Root of Spinal Nerves
+Dorsalis Pedises
+Dorsalis Pedis Pulse
+Duct of Bartholins
+Duodenum
+Adrenal medulla
+Dura Mater
+Ear canal
+Eardrum
+Earlobes
+Efferent Lymph Vessels
+Elastic Cartilage
+Elbow
+Elbow Ligaments
+embryonic
+Afferent Lymph Vessels
+Eminence
+Endocardium
+Endocrine Glands
+Endocrine system
+Endolympth
+Endometrium
+Eosinophils
+Epicardiums
+Epidermis
+Epididymis
+Ala of the Ilium
+Epiglottis
+Epiphyse
+Epitheliums
+Esophageal Arteries
+Esophagus
+Ethmoid Bone
+Ethmoid Labyrinths
+Ethmoid Sinuse
+Eustachian tubes
+Exocrine Glands
+Aldosterone
+Exocrine systems
+Extensor Carpi Radialis Longus
+Extensor Carpi Radialis Longus Tendon
+Extensor Carpi Ulnaris
+Extensor Carpi Ulnaris Tendons
+Extensor Digitorum
+Extensor Digitorum Brevises
+Extensor Digitorum Brevis Tendon
+Extensor Digitorum Longus
+Extensor Digitorum Longus Tendons
+Alimentary Canals
+Extensor Digitorum Tendons
+Extensor Hallicus Longus
+Extensor Hallucis Brevis
+Extensor Hallucis Brevis Tendon
+Extensor Hallucis Longus Tendons
+Extensor Pollicis Brevis
+Extensor Pollicis Brevis Tendons
+Extensor Pollicis Longus
+Extensor Pollicis Longus Tendons
+External Auditory Meatuses
+Alveola
+External Iliac Arteries
+External Iliac Lymph Node
+External Iliac Veins
+External Intercostal Muscles
+External Jugular Vein
+External Meatus
+External Obliques
+External Urethral Sphincter Muscle
+Eyes
+Eyeballs
+Ampullas
+Eyebrows
+Eyelashs
+Eyelids
+Facial Nerves
+Fallopian tubes
+False Ribs
+Female Bony Pelvis
+Female sex organ
+Femoral Artery
+Abducens Nerve
+Amylase
+Femoral Nerve
+Femoral Pulses
+Femoral Vein
+Femurs
+Fetal Remnant Ligament
+Fetuses
+Fibrocartilages
+Fibulas
+Fifth Metacarpals
+Fifth Metatarsals
+Anal Canals
+Filiform Papillaes
+Fingernails
+First Metacarpals
+First Metatarsals
+Fixed Joint
+Flat Bone
+Flexor Carpi Radialis
+Flexor Carpi Radialis Tendon
+Flexor Carpi Ulnaris
+Flexor Carpi Ulnaris Tendon
+Flexor Digitorum Longuses
+Flexor Digitorum Longus Tendons
+Flexor Digitorum Profunduses
+Flexor Digitorum Profundus Tendon
+Flexor Digitorum Superficialis
+Flexor Digitorum Superficialis Tendons
+Flexor Hallicus Longuses
+Flexor Hallucis Longus Tendon
+Flexor Pollicis Brevis
+Anterior Cervical Lymph Node
+Flexor Pollicis Longus
+Flexor Pollicis Longus Tendons
+Floating Ribs
+Foliate Papillaes
+Fontanelles
+Forearms
+Foreskins
+Fourth Metacarpal
+Fourth Metatarsals
+Anterior Crest of the Tibias
+Fovea
+Free Edge of a Nail
+Frontal Belly of the Occipitofrontalis
+Frontal Bone
+Frontal Lobe
+Frontal Sinuse
+Fundus
+Fungiform Papillae
+Gall bladders
+Ganglion Neuron
+Anterior Cruciate Ligaments
+Gastric Glands
+Gastric Mucosas
+Gastric Pit
+Gastrocnemiuses
+Gastroesophageal Junction
+Gastroesophageal Sphincters
+General Sensory Area
+Geniohyoid Muscle
+Genitourinary Systems
+Germinal Centers
+Anterior Ethmoid Sinuse
+Glands
+Glan
+Glenohumeral Ligaments
+Glenoid Fossa
+Globe of the Eyes
+Glossopharyngeal Nerve
+Glucagon
+Glucocorticoid
+Gracilises
+Gracilis Tendons
+Anterior Fibers of the Deltoids
+Great Saphenous Vein
+Great Vessels
+Greater Pelvis
+Greater Trochanters
+Green-Absorbing Cones
+Gums
+Gyra
+Hamate
+Hamstring Tendon
+Anterior Interventricular Artery
+Hamstrings
+Head of the Femur
+Head of the Fibulas
+Heart
+Heart valve
+Heel Bones
+Hepatic Arteries
+Anterior Leg Muscle
+Hepatic Veins
+Hilar Lymph Node
+Hinge Joints
+Hippocampus
+Hormonal system
+Humeral Heads
+Humeruses
+Hyaline Cartilage
+Hymen
+Abductor Pollicis Brevises
+Anterior Lobe of the Pituitary Gland
+Hypoglossal Nerve
+Hypothalamus
+Ileocecal Valves
+Ileum
+Iliac Crest
+Ilium
+Immune system
+Immunoglobulin
+Incisors
+Incus
+Anterior Sacroiliac Ligaments
+Inferior Acromioclavicular Ligaments
+Inferior Conchas
+Inferior Glenohumeral Ligaments
+Inferior Mesenteric Artery
+Inferior Nasal Meata
+Inferior Obliques
+Inferior Phrenic Artery
+Inferior Pubic Ligaments
+Inferior Ramus of the Ischium
+Inferior Ramus of the Pubises
+Anterior Scalenes
+Inferior Rectuses
+Inferior Tarsuses
+Inferior Transverse Ligaments
+Inferior Turbinate
+Inferior vena cava
+Infrahyoids
+Infraspinatus
+Infraspinatus Tendon
+Innermost Intercostal Muscles
+Integumentary Systems
+Anterior Sternoclavicular Ligament
+Interatrial Septums
+Interclavicular Ligaments
+Intercostal Artery
+Intercostal muscle
+Intercostal Nerves
+Intercostal Spaces
+Intermediate Cuneiform
+Intermediate Lobe of the Pituitary Glands
+Internal Iliac Arteries
+Internal Iliac Lymph Nodes
+Anterior Thigh Muscles
+Internal Iliac Veins
+Internal Intercostal Muscle
+Internal Jugular Vein
+Internal Obliques
+Internal Urethral Sphincter Muscle
+Interneuron
+Interosseous Carpometacarpal Ligaments
+Interosseous Membrane of the Forearms
+Interosseous Membrane of the Lower Leg
+Interosseous Membrane
+Anterior Tibial Arteries
+Interventricular Septums
+Intestines
+Iris
+Irregular Bone
+Ischiums
+Islets of Langerhans
+Jejunums
+Joint Capsules
+Joint Space
+Anterior Tibial Veins
+Joints
+Kidneies
+Knee Ligaments
+Kneecap
+Knuckles
+Labias
+Lacrimal Gland
+Lacriminal Bones
+Laminae of the Ethmoid Sinuse
+Anular Ligament of the Radius
+Large intestine
+Laryngopharynx
+Larynx
+Lateral Aortic Lymph Nodes
+Lateral Collateral Ligament
+Lateral Condyle of the Femurs
+Lateral Condyle of the Tibias
+Lateral Cuneiform
+Lateral Fibers of the Deltoid
+Lateral Head of the Triceps Brachii
+Anus
+Lateral Leg Muscles
+Lateral Malleoluses
+Lateral Pterygoid
+Lateral Rectus
+Latissimus Dorsi
+Latissimus Dorsi Tendons
+Left Anterior Descending Arteries
+Left atrium
+Left Axillary Artery
+Left Bundle Branch
+Aorta
+Left Circumflex Artery
+Left Common Carotid Arteries
+Left Coronary Arteries
+Left External Carotid Artery
+Left Gastric Artery
+Left General Sensory Areas
+Left Internal Carotid Artery
+Left Lobe of the Thyroids
+Left Ophthalmic Artery
+Left Pulmonary Arteries
+Abductor Pollicis Brevis Tendons
+Aortic Archs
+Left Subclavian Arteries
+Left Superficial Temporal Arteries
+Left ventricle
+Left Vertebral Arteries
+Leg Muscle
+Lens
+Lesser Pelvis
+Lesser Trochanter
+Levator Anguli Oris
+Aortic valves
+Levator Labii Superiorises
+Levator Labii Superioris Alaeque Nasa
+Levator Palpebrae Superioris
+Ligaments
+Ligamentum Arteriosum
+Ligamentum Teres Hepatis
+Ligamentum Venosum
+Lingual Tonsil
+Lip
+Lipases
+Apical Pulses
+Liver
+Lobes
+Lobes of the Brain
+Lobes of the Cerebrum
+Lobes of the Pituitary Gland
+Lobes of the Thyroid
+Lobule
+Long Bone
+Long Head of the Biceps Brachia
+Long Head of the Triceps Brachia
+Appendicular Skeleton
+Longus Capitises
+Longus Colla
+Lower Fibers of the Pectoralis Majors
+Lower legs
+Lumbar Artery
+Lumbar vertebra
+Lunates
+Lungs
+Lunula
+Lymph
+Appendix
+Lymph Capillaries
+Lymph Node Capsule
+Lymph node
+Lymph Organs
+Lymphatic systems
+Lymphatic vessel
+Lymphatic
+Macrophage Systems
+Maculas
+Major Peripheral Nerves
+Arachnoid Mater
+Major Salivary Glands
+Major Sublingual Ducts
+Male Bony Pelvis
+Male sex organ
+Malleoli
+Malleuses
+Mandibles
+Masseter Muscles
+Maxilla
+Maxillary Sinuses
+Areola
+Meatuses
+Mechanoreceptors
+Medial Collateral Ligaments
+Medial Condyle of the Femur
+Medial Condyle of the Tibia
+Medial Cuneiform
+Medial Head of the Triceps Brachia
+Medial Malleoluses
+Medial Pterygoids
+Medial Rectuses
+Medial Thigh Muscles
+Median Nerve
+Medical Umbilical Ligament
+Medulla Oblongatas
+Meissner's Corpuscles
+Membranous Labyrinths
+Meninges
+Merkel's Disk
+Metacarpal
+Metacarpophalangeal Joint
+Arterioles
+Metatarsals
+Metatarsophalangeal Joint
+Microglias
+Midbrains
+Middle ear
+Middle Ethmoid Sinuse
+Middle Fibers of the Pectoralis Major
+Middle Glenohumeral Ligament
+Middle Nasal Meati
+Middle Sacral Arteries
+Arteries
+Middle Scalene
+MiddleTurbinates
+Milk teeth
+Mineralocorticoid
+Minor Salivary Glands
+Mitral valve
+Motor Neurons
+Muscle
+Accessory Digestive Organs
+Articular Ligaments
+Muscle Attachment
+Muscular System
+Musculoskeletal System
+Mylohyoid Muscles
+Myocardiums
+Nail Bed
+Nail Body
+Nail Matrix
+Nail Roots
+Ascending Aortas
+Nasal Bones
+Nasal Cartilage
+Nasal Cilias
+Nasal Meata
+Nasal Muscles
+Nasal Septum
+Nasopharynx
+Naviculars
+Nephron
+Ascending Colons
+Nerve Axons of the Pituitary Glands
+Nerve Fiber
+Nerve
+Neuron
+Neutrophils
+Nipples
+Node
+Nostrils
+Obliques
+Atlas Axis Joints
+Obliquus Capitis Inferiors
+Obliquus Capitis Superiors
+Occipital Belly of the Occipitofrontalises
+Occipital Bones
+Occipitofrontal Muscles
+Occipitofrontalises
+Oculomotor Nerve
+Olecranon Fossas
+Olfactory area
+Olfactory Nerve
+Atrias
+Omohyoid Muscles
+Opponens Pollicis
+Opponens Pollicis Tendon
+Optic Chiasmas
+Optic nerve
+Orbicularis Ocula
+Orbicularis Orises
+Orbitofrontal Cortex
+Organ of Corti
+Oropharynx
+Atrioventricular Bundles
+Otoliths
+Outer ear
+Ova
+Oval Window
+Ovarian Arteries
+Ovarian Veins
+Ovary
+Pacinian Corpuscles
+Palatine Bones
+Palatine Tonsils
+Atrioventricular Node
+Palmar Radiocarpal Ligament
+Palmaris Longuses
+Palmaris Longus Tendon
+Palpable Pulses
+Palpebral Apertures
+Pancrea
+Pancreatic Acini
+Pancreatic ducts
+Pancreatic juice
+Atrioventricular valve
+Papillae
+Paranasal Sinus Ostias
+Paranasal Sinuses
+Parasympathetic nervous system
+Parathyroid glands
+Parietal Bone
+Parietal Lobes
+Parotid Ducts
+Patellar Ligaments
+Patellar Ligaments
+Auditory Bones
+Patellar Tendons
+Pectineuses
+Pectineus Tendon
+Pectoral Girdle
+Pectoralis Major
+Pectoralis Minors
+Pectoral
+Pelvic Cavity
+Pelvis
+Pelvis Ligaments
+Auricles
+Penis
+Pericardial Arteries
+Pericardial Cavity
+Pericardial Sac
+Pericardial Space
+Pericardium
+Perilymph
+Perineum
+Periodontal Membranes
+Periosteum
+Accessory Nerve
+Autonomic nervous systems
+Peritoneal Ligaments
+Peritoneum
+Permanent teeth
+Peroneal Artery
+Peroneal Tendon
+Peroneus Brevis
+Peroneus Brevis Tendon
+Peroneus Longuses
+Peroneus Longus Tendon
+Peyer's Patches
+Axial Skeleton
+Phalanges
+Phalanx
+Photoreceptors
+Phrenic Nerves
+Pia Maters
+Pineal gland
+Pinnas
+Pisiforms
+Pituitary gland
+Pituitary Infundibulum
+Axilla
+Pivot Joints
+Placentas
+Plane Joint
+Plantarises
+Planter Arch
+Plasma
+Platelet Plug
+Platelets
+Platysma
+Platysma Muscle
+Axillary Lymph Node
+Pleuras
+Pleural cavity
+Pleural membrane
+Pleural Space
+Pon
+Popliteal Arteries
+Popliteal Lymph Node
+Popliteal Pulses
+Popliteal Veins
+Popliteus
+Axillary Veins
+Popliteus Tendon
+Portal veins
+Posterior Cervical Lymph Nodes
+Posterior Cruciate Ligaments
+Posterior Ethmoid Sinuse
+Posterior Fibers of the Deltoids
+Posterior Lobe of the Pituitary Gland
+Posterior Sacroiliac Ligaments
+Posterior Scalenes
+Posterior Sternoclavicular Ligament
+Axis
+Posterior Thigh Muscle
+Posterior Tibial Arteries
+Posterior Tibial Vein
+Prefrontal Cortexs
+Premolar Teeths
+Premotor Area
+Primary Auditory Cortex
+Pronator Tere
+Pronator Teres Tendon
+Prostate
+Azygos Veins
+Pseudostratified Epithelium
+Pterygoid Muscles
+Pubic areas
+Pubis
+Pulmonary artery
+Pulmonary Capillaries
+Pulmonary Systems
+Pulmonary Trunk
+Pulmonary valve
+Pulmonary vein
+Balances
+Pulps
+Pupil
+Purkinje Fibers
+Pyloric sphincters
+Pyramidal Lobe
+Quadratus Lumborum
+Quadriceps
+Quadriceps Tendons
+Radial Arteries
+Radial Collateral Ligament of the Elbow
+Ball and Socket Joints
+Radial Collateral Ligament of the Wrist
+Radial Head
+Radial Nerve
+Radial Pulse
+Radial Veins
+Radiuses
+Ramus
+Rectum
+Rectus Abdominises
+Rectus abdominuses
+Bartholin's gland
+Rectus Capitis Anterior
+Rectus Capitis Lateralis
+Rectus Capitis Posterior Majors
+Rectus Capitis Posterior Minor
+Rectus Femoris
+Rectus Femoris Tendons
+Rectus Muscle
+Red Pulp of the Spleen
+Red-Absorbing Cones
+Renal Artery
+Acetabulum
+Basal Ganglia
+Renal Vein
+Reproductive Systems
+Respiratory system
+Reticular Fiber
+Reticuloendothelial System
+retinal progenitors
+Rhomboid Major
+Rhomboid Minors
+Rhomboid
+Ribs
+Base pair
+Rib cages
+Right and Left Hepatic Ducts
+Right Atrioventricular Grooves
+Right atrium
+Right Axillary Arteries
+Right Bundle Branchs
+Right Common Carotid Artery
+Right Coronary Artery
+Right External Carotid Arteries
+Right General Sensory Areas
+Basilic Vein
+Right Internal Carotid Arteries
+Right Lobe of the Thyroids
+Right Motor Areas
+Right Ophthalmic Arteries
+Right Pulmonary Artery
+Right Subclavian Artery
+Right Superficial Temporal Arteries
+Right ventricle
+Right Vertebral Artery
+Risorius
+Basophil
+Rod
+Root Canals
+Rotator Cuff
+Ruffini Corpuscle
+Saccule
+Sacrospinous Ligaments
+Sacrotuberous Ligament
+Sacrum
+Saddle Joint
+Salivary Duct
+Bicep
+Sartorius
+Sartorius Tendon
+Scalene Muscle
+Scalene Tendons
+Scalenus Anteriors
+Scalenus Medius
+Scalenus Minimus
+Scalenus Posterior
+Scaphoids
+Scapulas
+Biceps Brachia
+Sciatic Nerve
+Scleras
+Scrotum
+Semicircular Canals
+Semilunar Notchs
+Semimembranosus
+Semimembranosus Tendons
+Seminal ducts
+Semitendinosus
+Semitendinosus Tendons
+Biceps Brachii Tendons
+Sensory Neuron
+Sensory Receptors
+Sentinel lymph node
+Serratus Anteriors
+Sesamoid Bone
+Sex chromosome
+Sexual organ
+Sharpey's Fiber
+Shins
+Biceps Femoris
+Short Bones
+Short Head of the Biceps Brachii
+Shoulder
+Shoulder Joints
+Shoulder Ligaments
+Sigmoid Colon
+Simple Epitheliums
+Sinoatrial node
+Sinuses
+Skeletal muscles
+Biceps Femoris Tendon
+Skeletal System
+Skeletons
+Skins
+Skin fold
+Skulls
+Slightly Movable Joint
+Small intestine
+Small Saphenous Vein
+Smooth muscles
+Soleuses
+Big toes
+Somatosensory Cortexs
+Sphenoid Bones
+Sphenoid Sinuse
+Sphincter Urethraes
+Spinal Cavities
+Spinal cord
+Spinal Nerve
+Spinal Nerves of the Cervical Regions
+Spinal Nerves of the Lumbar Region
+Spinal Nerves of the Sacral Region
+Achilles tendons
+Biliary Systems
+Spinal Nerves of the Thoracic Regions
+Spines
+Spine of the Scapulas
+Spleens
+Splenic Arteries
+Splenius Capitises
+Splenius Cervicis
+Splenius Muscle
+Squamous Epitheliums
+Stapes
+Bladder
+Stensen's Ducts
+Sternal End of the Clavicles
+Sternocleidomastoid
+Sternocleidomastoid Tendon
+Sternohyoid Muscles
+Sternothyroid Muscles
+Sternum
+Stomachs
+Stratified Epitheliums
+Structure of Artery
+Blood
+Structure of Veins
+Stylohyoid Muscles
+Sub-mental Lymph Node
+Subarachnoid Spaces
+Subclavian Artery
+Subclavian Vein
+Subclaviuses
+Subclavius Tendon
+Sublingual Duct
+Sublingual Gland
+Blood vessels
+Submandibular Ducts
+Submandibular Glands
+Submandibular Lymph Node
+Subscapularises
+Subscapularis Tendons
+Sulca
+Superior Acromioclavicular Ligament
+Superior Glenohumeral Ligament
+Superior Mesenteric Artery
+Superior Nasal Meati
+Blue-Absorbing Cone
+Superior Oblique
+Superior Phrenic Artery
+Superior Pubic Ligament
+Superior Ramus of the Ischiums
+Superior Ramus of the Pubis
+Superior Rectuses
+Superior Tarsuses
+Superior Transverse Ligament
+Superior Turbinate
+Superior vena cava
+Body of the Ilium
+Supinators
+Supinator Tendons
+Supraclavicular Lymph Node
+Suprahyoids
+Suprarenal Artery
+Supraspinatus
+Supraspinatus Tendon
+Suspensory Ligament
+Suspensory Ligament
+Sympathetic nervous systems
+Body of the Ischiums
+Synovial Joint
+Synovial Membranes
+Talus
+Tarsal Plate
+Tarsals
+Tarsus
+Temporal Bone
+Temporal Lobe
+Body of the Pubises
+Temporal Muscles
+Temporal Pulse
+Tendon
+Teres Major
+Teres Major Tendons
+Teres Minor
+Teres Minor Tendon
+Teres Muscles
+Testes
+testis
+Body of the Stomachs
+Testicles
+Testicular Arteries
+Testicular Vein
+Thalamuses
+Thenar Muscle
+Thigh
+Third Metacarpal
+Third Metatarsals
+Thoracic Aorta
+Thoracic Cavity
+Body Systems
+Thoracic Diaphragms
+Thoracic Duct
+Thoracic vertebrae
+Thorax
+Throats
+Thymus
+Thyroids
+Thyrohyoid Muscle
+Thyroid Follicles
+Acidocalcisomes
+Acidocalcisome membranes
+acrosome inner membranes
+acrosome lumen
+acrosome membrane
+acrosomes
+actin patch
+adherens junctions
+aleurone grain
+aleurone grain membrane
+amyloplast
+amyloplast inner membrane
+amyloplast membranes
+Apical cell membranes
+apical laminas
+Apicolateral cell membrane
+apicoplast
+apoplasts
+attachment organelles
+attachment organelle membrane
+autophagosome membrane
+autophagosome
+Basal cell membranes
+basement membrane
+Basolateral cell membrane
+Bud
+Bud membrane
+Bud neck
+Bud tips
+Cajal body
+calyxs
+capsule
+Carboxysomes
+caveola
+Cell envelope
+Cell inner membrane
+Cell junctions
+Cell membranes
+Cell outer membranes
+cell walls
+Cellular chromatophore membranes
+Cellular thylakoid
+Cellular thylakoid lumen
+Cellular thylakoid membrane
+centriole
+centromere
+centrosomes
+chloroplasts
+chloroplast envelopes
+chloroplast inner membrane
+chloroplast intermembrane space
+chloroplast membranes
+chloroplast outer membranes
+chloroplast stromas
+chloroplast thylakoids
+chloroplast thylakoid lumen
+chloroplast thylakoid membranes
+Chlorosome
+chlorosome envelope
+chromaffin granule
+chromaffin granule membranes
+chromoplast
+chromoplast membrane
+chromoplast stroma
+cilium
+cis-Golgi networks
+cis-Golgi network membranes
+clathrin-coated pits
+clathrin-coated vesicle
+clathrin-coated vesicle membrane
+coated pit
+Contractile vacuoles
+Contractile vacuole membrane
+COPI-coated vesicles
+COPI-coated vesicle membrane
+COPII-coated vesicle
+COPII-coated vesicle membranes
+Cornified envelope
+cvt vesicle
+cvt vesicle membranes
+cyanelles
+cyanelle membranes
+cyanelle thylakoid lumen
+cyanelle thylakoid membranes
+Cytoplasm
+cilium basal body
+Cytoplasmic vesicles
+Cytoplasmic vesicle membrane
+cytoskeleton
+cytosols
+desmosome
+Early endosome membranes
+Early endosomes
+Endoplasmic reticulum
+Endoplasmic reticulum lumen
+Endoplasmic reticulum membrane
+Endoplasmic reticulum-Golgi intermediate compartments
+Endoplasmic reticulum-Golgi intermediate compartment membranes
+Endosome membranes
+Endosome
+esterosome membrane
+esterosomes
+etioplast
+extracellular matrixs
+extracellular space
+Fimbriums
+flagellum axonemes
+flagellum membrane
+Flagellar pocket
+flagellum
+focal adhesion
+Forespores
+Forespore inner membrane
+Forespore intermembrane spaces
+Forespore membranes
+Forespore outer membrane
+gap junctions
+gas vesicle
+gas vesicle membrane
+gems
+Glycosome membranes
+Glycosomes
+Glyoxysome membrane
+Glyoxysome
+Golgi apparatus
+Golgi apparatus lumens
+Golgi apparatus membrane
+Golgi stacks
+Golgi stack membranes
+hemidesmosome
+cell cortexs
+chloroplast nucleoids
+plastid nucleoid
+uropodiums
+Bacterial flagellum basal bodies
+hyaline layer
+Hydrogenosome membrane
+Hydrogenosome
+interphotoreceptor matrix
+Endomembrane system
+invadopodiums
+kinetochores
+kinetoplast
+Late endosome membrane
+Late endosome
+Lateral cell membrane
+Lipid droplets
+Lysosome lumens
+Lysosome membranes
+Lysosomes
+Lytic vacuoles
+Melanosome membrane
+Melanosomes
+Membrane
+micronemes
+microneme membrane
+Microsome membranes
+Microsome
+Mitochondrion envelope
+Mitochondrion inner membranes
+Mitochondrion intermembrane spaces
+Mitochondrion matrix
+Mitochondrion membrane
+Mitochondrion outer membrane
+Mitochondrion
+multivesicular bodies
+multivesicular body membrane
+Myelin membranes
+Nematocyst
+Nucleus envelopes
+Nucleus inner membrane
+Nucleus laminas
+Nucleus matrixs
+Nucleus membranes
+Nucleus outer membrane
+Nucleus intermembrane space
+nuclear pore complexs
+Nucleus speckles
+nucleoids
+nucleolus
+Nucleomorphs
+nucleoplasms
+Nucleus
+paranodal septate junction
+Parasitophorous vacuole membrane
+Parasitophorous vacuoles
+peribacteroid membranes
+peribacteroid spaces
+Perikaryons
+perinuclear region
+perinuclear theca
+Periplasm
+Periplasmic flagellum
+Peroxisome matrixs
+Peroxisome membrane
+Peroxisome
+phagosome membrane
+phagosomes
+phragmoplasts
+plasmodesma
+Plastid
+Plastid envelope
+Plastid inner membrane
+Plastid intermembrane spaces
+Plastid membrane
+Plastid outer membrane
+Plastid stroma
+Plastid thylakoid membrane
+plastoglobules
+porosomes
+postsynaptic cell membrane
+Preautophagosomal structures
+Preautophagosomal structure membranes
+presynaptic cell membranes
+Prevacuolar compartment
+Prevacuolar compartment membranes
+primary cell wall
+prolamellar body
+Protein storage vacuole membranes
+Protein storage vacuoles
+Protoplasm
+P-bodies
+Recycling endosome membrane
+Recycling endosome
+rhoptries
+rhoptry membranes
+Rough endoplasmic reticulums
+Rough endoplasmic reticulum lumen
+Rough endoplasmic reticulum membranes
+sarcolemmas
+Sarcoplasmic reticulum
+Sarcoplasmic reticulum lumens
+Sarcoplasmic reticulum membranes
+secondary cell wall
+Secreteds
+secretory vesicle
+secretory vesicle membranes
+septate junction
+slime layer
+Smooth endoplasmic reticulum
+Smooth endoplasmic reticulum lumens
+Smooth endoplasmic reticulum membranes
+spindles
+spindle pole bodies
+Spore core
+Spore wall
+surface films
+Symbiosomes
+Symplasts
+synapses
+synaptic vesicles
+synaptic vesicle membrane
+synaptosomes
+S-layer
+Teguments
+Tegument membranes
+tight junction
+trans-Golgi networks
+trans-Golgi network membranes
+Trichocysts
+mitochondrion nucleoids
+Vacuole lumen
+Vacuole membranes
+Vacuole
+Virion teguments
+Virions
+Virion membrane
+telomere
+cyanelle thylakoids
+Plastid thylakoid
+axons
+Cell projections
+Cytoplasmic granules
+Cytoplasmic granule membrane
+dendrite
+dendritic spine
+dendritic spine membrane
+filopodium
+filopodium membranes
+growth cones
+growth cone membranes
+invadopodium membrane
+lamellipodiums
+lamellipodium membrane
+microvillus
+microvillus membranes
+podosome
+podosome membranes
+postsynaptic density
+pseudopodium
+pseudopodium membranes
+ruffle
+ruffle membrane
+stereocilium
+stereocilium membranes
+cilium axoneme
+cilium membranes
+Archaeal flagellum
+Bacterial flagellums
+flagellum basal body
+Plastid thylakoid lumens
+Cell surfaces
+sarcoplasm
+myofibrils
+sarcomeres
+Z line
+M line
+Acidocalcisome lumen
+aleurone grain lumens
+autophagosome lumens
+clathrin-coated vesicle lumens
+Contractile vacuole lumen
+COPI-coated vesicle lumens
+COPII-coated vesicle lumens
+cvt vesicle lumens
+Cytoplasmic granule lumen
+Cytoplasmic vesicle lumen
+Endoplasmic reticulum-Golgi intermediate compartment lumens
+Endosome lumens
+esterosome lumens
+etioplast membranes
+etioplast stromas
+gas vesicle lumens
+Glycosome matrixs
+Glyoxysome matrix
+Golgi stack lumens
+Hydrogenosome lumens
+Late endosome lumen
+Early endosome lumens
+Melanosome lumens
+microneme lumen
+multivesicular body lumens
+Parasitophorous vacuole lumens
+phagosome lumen
+Prevacuolar compartment lumens
+Protein storage vacuole lumen
+Recycling endosome lumens
+rhoptry lumen
+secretory vesicle lumens
+synaptic vesicle lumens
+chromaffin granule lumen
+cyanelle stromas
+organellar chromatophores
+organellar chromatophore membranes
+organellar chromatophore stroma
+organellar chromatophore thylakoids
+organellar chromatophore thylakoid lumen
+organellar chromatophore thylakoid membranes
+Bacterial flagellum hook
+Bacterial flagellum filament
+organellar chromatophore inner membranes
+organellar chromatophore intermembrane spaces
+organellar chromatophore outer membranes
+Inner membrane complexs
+Spore core membranes
+spore cortex
+spore outer membrane
+spore coats
+perispores
+Prospore membrane
+Prospore
+Membrane rafts
+pollen coat
+Host apical cell membrane
+Host cell inner membrane
+Host cell junctions
+Host cell membrane
+Host cell outer membranes
+Host cell projection
+Host cell surfaces
+host filopodium
+Host membranes
+Host cytoplasms
+host perinuclear regions
+host cytoskeleton
+host cytosols
+host plasmodesmas
+Host cytoplasmic vesicles
+Host cytoplasmic vesicle membranes
+Host endoplasmic reticulum
+Host endoplasmic reticulum lumen
+Host endoplasmic reticulum membranes
+Host endoplasmic reticulum-Golgi intermediate compartments
+Host endoplasmic reticulum-Golgi intermediate compartment membrane
+Host endosomes
+Host endosome membranes
+Host Golgi apparatuses
+host cis-Golgi networks
+host cis-Golgi network membrane
+Host endomembrane system
+Host late endosomes
+Host late endosome membrane
+Host lipid droplets
+Host lysosomes
+Host lysosome membrane
+Host microsome
+Host microsome membranes
+Host mitochondrions
+Host mitochondrion envelope
+Host mitochondrion inner membranes
+Host mitochondrion membrane
+Host mitochondrion outer membranes
+host nucleoluses
+host nucleoplasm
+Host nucleus
+Host nucleus envelope
+Host nucleus lamina
+Host nucleus matrix
+Host nucleus membrane
+Host nucleus inner membrane
+Host periplasm
+Host cell envelopes
+Host rough endoplasmic reticulums
+Host rough endoplasmic reticulum membranes
+Host cell wall
+Host extracellular space
+Host Golgi apparatus membranes
+Host cells
+host caveola
+Host cellular thylakoids
+Host cellular thylakoid membranes
+Hosts
+host phagosomes
+host phagosome membranes
+host presynaptic cell membrane
+host synapse
+Spore polar tubes
+Mitosomes
+Mitosome envelope
+Mitosome inner membranes
+Mitosome intermembrane space
+Mitosome matrixs
+Mitosome membranes
+Mitosome outer membranes
+Host smooth endoplasmic reticulum
+Host smooth endoplasmic reticulum membrane
+Host nucleus outer membranes
+acrosome outer membrane
+spindle poles
+Host thylakoids
+Thylakoid
+Target cell membranes
+Target membranes
+host multivesicular body
+Barrier septum
+Cell septums
+Cell tip
+Photoreceptor inner segments
+photoreceptor outer segments
+Host basolateral cell membranes
+kinociliums
+Host early endosome
+Host early endosome membranes
+host trans-Golgi network
+host trans-Golgi network membrane
+PML bodies
+exosomes
+Cleavage furrows
+Chromosome
+Midbodies
+filopodium tip
+pseudopodium tips
+blebs
+phagocytic cup
+Host glyoxysome
+Host peroxisomes
+A bands
+H zones
+I band
+cyanelle envelope
+cyanelle inner membranes
+cyanelle intermembrane spaces
+cyanelle outer membranes
+Host chloroplast envelope
+microtubule organizing centers
+centriolar satellite
+target cell cytoplasm
+Target cell

@@ -1,0 +1,133 @@
+A MEK independent role for CRAF in mitosis and tumor progression
+RAF kinases regulate cell proliferation and survival and can be dysregulated in tumors , .
+A role for RAF in cell proliferation has been linked to its ability to activate MEK and ERK .
+Here , we identify a MEK independent role for RAF in tumor growth .
+Specifically , in mitotic cells , CRAF becomes phosphorylated on serine 338 and localizes to the mitotic spindle of proliferating tumor cells in vitro and in murine tumor models or biopsies from cancer patients .
+Treatment of tumors with allosteric , but not ATP-competitive RAF inhibitors prevents CRAF phosphorylation on serine 338 , localization to the mitotic spindle and causes cell cycle arrest at pro-metaphase .
+Furthermore , we identify phospho-S338 CRAF as a potential biomarker for tumor progression and a surrogate marker for allosteric RAF blockade .
+Mechanistically , CRAF , but not BRAF associates with Aurora-A and Polo like kinase 1 at the centrosomes and spindle poles during G2 and Mitosis .
+Indeed , allosteric or genetic inhibition of phospho-S338 CRAF impairs Plk1 activation and accumulation at kinetochores causing pro-metaphase arrest , while a phospho-mimetic S338D CRAF mutant potentiates Plk1 activation , mitosis and tumor progression in mice .
+These findings reveal a previously undefined role for RAF in tumor progression beyond the RAF-MEK-ERK paradigm , opening new avenues for targeting RAF in oncology .
+ATP-competitive RAF inhibitors have shown clinical activity in cancers with activating RAF mutations - .
+However , in RAS driven tumors , these agents surprisingly promote CRAF serine 338 phosphorylation and tumor progression - .
+We described an allosteric inhibitor of RAF ( compound 6 , referred to here as KG5 ) that does not compete for ATP but inhibits phospho-S338 CRAF and tumor growth .
+KG5 exerted broad growth inhibitory activity against the NCI-60 panel ( ) suggesting that KG5 influences a general mechanism that is independent of RAS or RAF activation status .
+Tumor cells exposed to KG5 appeared rounded and arrested in mitosis , whereas cells treated with ATP-competitive RAF or MEK inhibitors maintained adhesion and mitosis ( ) .
+KG5 inhibited phospho-S338 CRAF causing mitotic arrest at pro-metaphase followed by cell death in multiple tumor cell lines ( ) , mimicking the effects of paclitaxel .
+As for most kinase targeted drugs , KG5 inhibits other targets ( c-Kit , Flt-3 and PDGFR ) that might contribute to the anti-proliferative effects observed .
+To address this , we evaluated KG1 , a structural analogue of KG5 that inhibits the same targets except RAF .
+KG1 did not inhibit cell proliferation , indicating the effects of KG5 are due to RAF inhibition ( ) .
+Phosphorylation of CRAF on serine 338 has been linked to cancer progression - , - .
+To determine whether KG5 could suppress this activity in vivo , we analyzed orthotopic breast and brain tumor tissues for phospho-S338 CRAF before or after systemic delivery of the drug .
+A single KG5 treatment led to a qualitative decrease in phospho-S338 CRAF and an accumulation of cells at pro-metaphase .
+Importantly , while ectopic expression of active MEK failed to rescue the effects of KG5 on cell proliferation , cells expressing a phospho-mimetic S338D CRAF mutant showed resistance to KG5 ( ) suggesting CRAF S338 plays a MEK independent role in cell proliferation that can be reversed by an allosteric inhibitor .
+We next examined mouse embryonic fibroblasts ( MEFs ) derived from CRAF knockout embryos ( Craf -/ - ) .
+Asynchronized Craf -/ - MEFs showed a significant increase in the number of cells in G2 and M and pro-metaphase , compared to wildtype ( WT ) MEFs .
+Following synchronization , Craf -/ - MEFs accumulated in pro-metaphase with a dramatic delay in mitotic progression ( ) .
+Depletion of CRAF in tumor cells , similarly led to an accumulation of cells in G2 and M ( ) .
+Importantly , expression of kinase dead ( K375M ) , phospho-mimetic S338D or WT CRAF rescued this mitotic defect , whereas a non phosphorylatable ( S338A ) CRAF mutant , failed to do so , even though this mutant maintains kinase activity and can dimerize with BRAF ( data not shown ) .
+Accordingly , XPA-1 human pancreatic cancer cells expressing WT CRAF completed mitosis in twenty minutes whereas cells expressing CRAF S338A did so in 120 minutes ( ) providing genetic evidence to support a kinase independent role for phospho-S338 CRAF in mitosis .
+Furthermore , phospho-S338 CRAF was strongly increased in mitosis where it co-precipitated with gamma-tubulin ( ) and localized in G2 and M to the centrosomes and mitotic spindle poles of tumor cells in vitro , or breast cancer tissues from mice or patients .
+Importantly , KG5 , but not ATP-competitive RAF inhibitors , prevented this localization ( ) .
+Moreover , in cells treated with the microtubule stabilizing agent paclitaxel , CRAF remained localized to the mitotic spindle suggesting that KG5 and paclitaxel arrest cells at pro-metaphase via distinct mechanisms ( ) .
+Previous studies have revealed that CRAF and BRAF can form heterodimers and that BRAF can play a role in mitosis - .
+Interestingly , while BRAF and CRAF heterodimers could readily be detected in asynchronized cells we could not detect such heterodimers in mitotic cells ( ) .
+In fact , phospho-S338 CRAF localized to the spindle pole in cells lacking BRAF ( ) .
+These results suggest that the role that CRAF plays in mitosis is distinct from that of BRAF .
+Mitosis is regulated by various mitotic kinases such as Aurora kinases , Plk1 , and CDK1 - .
+Plk1 becomes activated by Aurora-A in G2 , localizes to centrosomes , spindle poles and accumulates at kinetochores at pro-metaphase- ( ) .
+Accordingly , tumor cells expressing oncogenic RAS are particularly dependent on Plk1 activity for mitotic progression and survival , , and inhibition or depletion of Plk1 causes cell cycle delay and arrest at pro-metaphase , - .
+Interestingly , both Aurora-A and Plk1 co-precipitated with CRAF but not BRAF and CRAF co-localized with Aurora-A and Plk1 at the centrosomes in G2 and spindle poles in mitotic tumor cells .
+Interestingly , CRAF , but not BRAF , co-precipitated with Plk1 ( ) and this could be detected in cells expressing WT or kinase dead ( K375M ) CRAF ( ) .
+However , this complex was minimally detected in cells expressing the S338A RAF mutant ( ) suggesting that the interaction between CRAF and Plk1 requires serine 338 phosphorylation but not kinase activity .
+Thus , CRAF may serve as a scaffold bringing Aurora-A and Plk1 into a functional mitotic complex .
+To determine whether the kinetics of CRAF serine 338 phosphorylation during cell cycle progression correlated with Plk1 activation , we analyzed CRAF ( S338 ) and Plk1 ( T210 ) phosphorylation throughout the cell cycle from G1-M .
+Interestingly , phospho-S338 CRAF levels were increased in G1 , as expected , but showed a second wave of phosphorylation at G2 and M beginning immediately prior to Plk1 phosphorylation ( ) , consistent with the notion that CRAF phosphorylation on serine 338 precedes Plk1 activation .
+To further explore a role for CRAF in Plk1 activation , lysates from WT and Craf -/ - MEFs were subjected to immunoblotting for phospho-Plk1 or evaluated for Plk1 enzymatic activity .
+Indeed , Craf -/ - MEFs demonstrated minimal Plk1 activity compared to WT MEFs .
+Furthermore , tumor cells arrested in pro-metaphase with KG5 showed decreased Plk1 activity compared to cells arrested with nocodazole or paclitaxel ( ) .
+While treatment of cells with KG5 had no effect on Plk1 localization to the spindle pole , it prevented the subsequent accumulation of active Plk1 at the kinetochores ( ) and similar findings were observed in Craf -/ - MEFs ( ) .
+These findings were substantiated since an active form of Plk1 was able to rescue the G2 and M delay caused by CRAF depletion ( ) .
+Together , these results indicate that CRAF potentiates Plk1 or Aurora-A activation leading to accumulation of active Plk1 at the kinetochores .
+This process facilitates mitotic progression through pro-metaphase and can be blocked by inhibition of phospho-S338 CRAF via allosteric RAF blockade .
+To investigate the impact of the CRAF and Plk1 signaling module in tumor progression , we evaluated the tumor growth capacity of human colon carcinoma and glioblastoma cells stably expressing the phospho-mimetic S338D CRAF mutant .
+HCT-116 colon cells expressing the S338D CRAF mutant showed accelerated mitosis and a significant increase in tumor growth relative to cells expressing WT CRAF and this was associated with increased phospho-Plk1 but not phospho-MEK expression in these tumors ( ) .
+Similarly , U-87 glioblastoma cells expressing S338D CRAF produced a significant increase in brain tumor growth relative to cells expressing WT CRAF ( ) .
+Furthermore , cells expressing a double mutant S338D kinase dead ( S338D and K375M ) also showed increase Plk1 activity and tumor growth in mice but failed to activate MEK ( ) .
+These results demonstrate that phospho-S338 CRAF is an important mediator of tumor progression based on its capacity to promote mitosis in a manner that is independent of active MEK .
+While RAF is an essential component of the canonical MAPK signaling pathway various reports reveal that RAF exerts kinase independent functions , - .
+We previously showed that CRAF , independent of its kinase activity , could translocate to the mitochondria and protect cells from apoptosis by inhibiting the pro-apoptotic protein ASK1 , .
+Here , we reveal a kinase independent function of CRAF in cell proliferation and demonstrate that phospho-S338 CRAF localizes to centrosomes and mitotic spindle poles in G2 and M , where it interacts with Aurora-A and Plk1 , promotes Plk1 activation and thereby mitotic and tumor progression ( ) .
+Whether CRAF interaction with Aurora-A and Plk1 is direct or indirect still needs to be determined .
+However , these data support the conclusion that CRAF may act as an adaptor protein to promote Aurora-A or Plk1 activation facilitating mitosis and tumor progression .
+While our findings may be relevant to all cells undergoing mitosis , targeting this pathway with allosteric RAF inhibitors , like KG5 , might be particularly effective during angiogenesis and tumor growth , processes characterized by highly proliferative cells .
+Finally , our studies reveal that allosteric inhibitors designed to block phospho-S338 CRAF and its function in mitosis represent a new therapeutic approach to inhibit the growth of a wide range of cancers .
+Methods
+Methods and any associated references are available in the online version of the paper at http://www.nature.com/naturemedicine/ .
+Supplementary Material
+1
+Figure 1
+CRAF is required for mitotic progression
+Cell cycle analysis of WT and Craf -/ - MEFs .
+Left graph , Cells in G2 and M were quantified by flow cytometry .
+Right graph , Cells at pro-metaphase were quantified using confocal microscopy .
+Error bars represent s.d. ( n = 4 ) ; * P = 0.0079 ( left graph ) and P = 0.0055 ( right graph ) using a Mann Whitney U test .
+( b ) WT and Craf -/ - MEFs were synchronized at pro-metaphase with a thymidine-nocodazole block and subsequently released from the blockade and allowed to progress through mitosis .
+Quantification of cells in G2 and M was performed by flow cytometry .
+Error bars represent s.d. ( n = 3 ) .
+( c ) Confocal microscopy images of WT and Craf -/ - cells progressing through mitosis at 0 , 60 and 360 min after release from pro-metaphase blockade .
+Cells were stained for alpha-tubulin ( in red ) and DNA ( TOPRO-3 in blue ) .
+Scale bar , 10 mum .
+WT and Craf -/ - MEFs were transfected with vector control , WT CRAF , kinase dead ( K375M ) CRAF , phospho-mimetic ( S338D ) CRAF or non phosphorylatable ( S338A ) CRAF mutants .
+Cell cycle analysis and quantification of cells in G2 and M was performed by flow cytometry .
+Error bars represent s.d. ( n = 3 ) ; * P = 0.0084 using a Mann Whitney U test .
+( e ) Immunohistochemical staining of phospho-S338 CRAF and phospho-histone H3 ( mitotic marker ) in orthotopic breast and tumor xenografts untreated or treated systemically with 50 mg kg -1 KG5 for 3 d. Scale bar , 50 mum .
+Circles indicate cells in pro-metaphase .
+Right , Quantification of cells in pro-metaphase .
+Error bars represent s.d. ( n = 12 ) ; * P = 0.006 using Student 's t-test .
+Figure 2
+Phospho-serine 338 CRAF is upregulated in mitosis and localizes to mitotic spindles in human cell lines and tumor biopsies
+Immunoblot analysis of human colon carcinoma HCT-116 cells asynchronized and synchronized at pro-metaphase .
+pS338 refers to phospho-S338 CRAF , pMEK refers to phospho-MEK and pHH3 refers to phospho-histone H3 .
+Data are representative of three independent experiments .
+( b ) Confocal microscopy images of human pancreatic XPA-1 and glioblastoma U251 cells during mitosis , stained for phospho-S338 CRAF ( in green ) , alpha-tubulin ( in red ) and DNA ( TOPRO-3 in blue ) .
+Scale bar , 10 mum .
+White arrows indicate localization of phospho-S338 CRAF at the mitotic spindle .
+( c ) Immunoblot analysis of gamma-tubulin immunoprecipitates from human colon carcinoma HCT-116 cells asynchronized and synchronized at pro-metaphase .
+Data are representative of three independent experiments .
+Immunohistochemical staining of phospho-S338 CRAF in tumor biopsies from breast cancer patients .
+Scale bar , 10 mum .
+( e ) Confocal microscopy images of XPA-1 cells treated with KG5 , sorafenib , ZM336372 , L779450 or paclitaxel and stained for CRAF ( in green ) , gamma-tubulin ( in red ) and DNA ( TOPRO-3 in blue ) .
+Scale bar , 10 mum .
+White arrows indicate localization of CRAF at the spindle pole .
+White circle indicates the absence of CRAF at the spindle pole .
+Figure 3
+CRAF interacts with Plk1 and promotes its activation and accumulation to the kinetochores at pro-metaphase
+Immunoblot analysis of CRAF immunoprecipitates from HCT-116 asynchronized and synchronized at pro-metaphase cells .
+Data are representative of three independent experiments .
+( b ) Confocal microscopy images of HCT-116 cells synchronized at G2 and pro-metaphase ( as described in Methods ) and stained for CRAF ( in green ) , phospho-T210 Plk1 ( in red ) and DNA ( TOPRO-3 in blue ) .
+White arrows indicate co-localization of CRAF with phospho-Plk1 at the centrosomes and mitotic spindle poles .
+( c ) Immunoblot analysis of Plk1 immunoprecipitates from WT , Craf -/ - and Braf -/ - MEFs .
+Data are representative of three independent experiments .
+Immunoblot analysis from G1-M , of phospho-S338 CRAF , total CRAF , phospho-T210 Plk1 , total Plk1 , cyclin B and tubulin of HCT-116 cells synchronized at the G1 and S boundary .
+Cells were synchronized at the G1 and S boundary by a double thymidine block as described in Methods .
+Data are representative of two independent experiments .
+( e ) Immunoblot analysis of asynchronous and mitotic WT and Craf -/ - MEFs .
+( f ) Confocal microscopy images of WT and Craf -/ - MEFs at pro-metaphase .
+Cells were stained for alpha-tubulin ( in green ) , phospho-T210 Plk1 ( in red ) and DNA ( TOPRO-3 in blue ) .
+Thick white arrows indicate localization of phospho-Plk1 at the mitotic spindle pole and narrow white arrows indicate localization of phospho-Plk1 at the kinetochores .
+Scale bar , 10 mum .
+Figure 4
+Phospho-mimetic CRAF S338D mutation drives tumor growth and activates Plk1 in vivo
+HCT-116 human colon carcinoma cells ectopically expressing either WT RAF or S338D mutant CRAF were arrested in pro-metaphase as described in Methods , and subsequently allowed to progress through mitosis .
+Cells were stained for alpha-tubulin ( in red ) and DNA ( TOPRO-3 in blue ) at 0 , 10 , 20 , 40 , 60 and 120 min after release from pro-metaphase blockade and mitotic progression was analyzed by confocal microscopy .
+Scale bar , 10 mum .
+Data are representative of three independent experiments .
+( b ) Plk1 kinase activity assay performed in HCT-116 cells expressing WT CRAF or a phospho-mimetic S338D CRAF mutant .
+Error bars represent s.d. ( n = 3 ) ; * P = 0.011 using a Mann Whitney U test .
+( c ) HCT-116 cells expressing WT or S338D CRAF Flag tagged were injected subcutaneously in the flank of immune compromised nude mice .
+Tumor images , average weights + /- s.e. and tumor size measurements are shown ( n = 20 ) .
+Immunohistochemical staining of phospho-Plk1 and phospho-MEK in mouse tissues from tumors expressing WT or S338D CRAF .
+Scale bar , 100 mum .
+( e ) Immunoblot analysis of phospho-T210 Plk1 , Plk1 , phospho-MEK , MEK and FLAG in tumor lysates from HCT-116 cells expressing WT or S338D CRAF .
+Data are representative of five independent experiments .

@@ -1,0 +1,349 @@
+Qualitative Regulation of B Cell Antigen Receptor Signaling by CD19 : Selective Requirement for PI3-Kinase Activation , Inositol-1 ,4,5 - Trisphosphate Production and Ca 2+ Mobilization
+Genetic ablation of the B cell surface glycoprotein CD19 severely impairs the humoral immune response .
+This requirement is thought to reflect a critical role of CD19 in signal transduction that occurs upon antigen C3dg coligation of antigen receptors with CD19 containing type 2 complement receptors ( CR2 ) .
+Here we show that CD19 plays a key accessory role in B cell antigen receptor signaling independent of CR2 coligation and define molecular circuitry by which this function is mediated .
+While CD19 is not required for antigen mediated activation of receptor proximal tyrosines kinases , it is critical for activation of phosphatidylinositol 3-kinase ( PI3-kinase ) .
+PI3-Kinase activation is dependent on phosphorylation of CD19 Y484 and Y515 .
+Antigen induced CD19 dependent PI3-kinase activation is required for normal phosphoinositide hydrolysis and Ca 2+ mobilization responses .
+Thus , CD19 functions as a B cell antigen receptor accessory molecule that modifies antigen receptor signaling in a qualitative manner .
+CD19 is a B-lymphocyte-specific transmembrane glycoprotein that is expressed from the pro-B cell until the plasma cell stage .
+CD19 appears to function in multiple capacities .
+It is a component of the type 2 complement receptor ( CR2 ) 1 complex that contains CD19 , CD21 ( CR2 ) , CD81 , ( TAPA-1 ) , and Leu-13 .
+CR2 is expressed by mature B cells and is activated upon binding of C3dg ( reviewed in reference ) .
+Evidence indicates that CD19 may also be a constitutive component of the B cell antigen receptor ( BCR ) complex and is phosphorylated upon BCR crosslinking ( ) .
+Finally , although its ligand has not been identified , CD19 appears to function as a transducer in pro- and pre-B cells where it is expressed in the absence of CD21 and the BCR .
+The function of CD19 in these various contexts is poorly understood .
+CD19 is a highly conserved protein containing two immunoglobulin like domains in its extracellular aspect and nine potential tyrosine phosphorylation sites in its cytoplasmic tail ( ) .
+It is tyrosine phosphorylated upon cell activation in all three of the signaling contexts described above , presumably by Lyn , Fyn , or Lck associated with unligated CD19 ( - ) .
+After phosphorylation , tyrosines Y 484 XXM and Y 515 XXM motifs have been shown to mediate the association of the p85-subunit of PI3-kinase with CD19 ( ) .
+In addition the proto-oncogene product Vav has been shown to associate with phosphorylated CD19 ( ) , presumably through the Y 393 EEP motif which is predicted once phosphorylated to bind Vav ( ) .
+In vitro studies involving CD19 coimmunoprecipitated from stimulated Ramos B cells have demonstrated that tyrosine phosphorylated CD19 can interact with PI3-kinase , Fyn , PLCgamma1 and GAP SH2 domains suggesting the interaction of multiple signaling molecules with the CD19 cytoplasmic tail .
+CD19 function has been studied primarily in the context of its role as a member of the CR2 receptor complex ( 14- 16 ) .
+CD19 signal transduction is activated by binding of the C3dg fragment of the C3 component of complement to CD21 .
+Coligation of CD19 or CD21 with BCR causes a synergistic increase in a number of intracellular BCR mediated signaling events , including Shc and Syk tyrosine phosphorylation , PLC activation and calcium mobilization ( ) .
+Coligation also lowers the threshold for antigen stimulation of B cell proliferation ( ) and enhances by < = 10,000-fold the immunogenicity of antigen-complement complexes ( HEL-C3dg ) ( ) .
+Antibody crosslinking of CD19 on certain immature B cell lines that do not express mIg has been shown to induce activation of Src family kinases and tyrosine phosphorylation of CD19 and Vav .
+In this context CD19 crosslinking also results in PLC activation , calcium mobilization and activation of the MAP kinase cascade .
+Finally , anti-Ig stimulation of the BCR without CD19 cocrosslinking results in tyrosine phosphorylation of CD19 , indicating that CD19 is a target of BCR activated kinases .
+Also , anti-IgM stimulation of Daudi B cells leads to an increase in CD19 association with PI3-kinase ( ) .
+Consistent with this finding , several studies indicate that CD19 may be physically associated with the BCR .
+Incubation of B cells with Ig specific mAb leads to mIg and CD19 comodulation and cocapping .
+In Daudi B cells CD19 can be coimmunoprecipitated with mIgM ( ) .
+Whether CD21 , Leu-13 and CD81 are required for the constitutive association of CD19 with the BCR is unknown ; however CD19 expression levels in mature B cells appear to be about fivefold higher than CD21 expression levels ( ) suggesting that CD19 occurs in both CD21 associated and -nonassociated forms .
+Recent production of CD19 knockout mice have provided an opportunity to analyze B cell function in the absence of CD19 .
+B cell development appears normal in these mice , but humoral immune responses are defective and B cells are unresponsive to antigen receptor stimulation as indicated by proliferation .
+In this study we have investigated the constitutive role of CD19 in BCR mediated signal transduction using CD19 deficient and -sufficient J558Lmum3CD45 + plasmacytoma variants and primary B lymphocytes from CD19 -/ - and CD19 + /+ mice .
+Our results demonstrate a critical role for CD19 in antigen mediated BCR activation of multiple signaling events .
+CD19 expression is required for detectable BCR mediated PI3-kinase activation and for maximal phosphoinositide hydrolysis and calcium mobilization .
+The latter effects appear causally linked to failed PI3-kinase activation .
+Other more subtle effects of CD19 on BCR signaling include increased antigen mediated Lyn and Syk tyrosine phosphorylation , but these are not attributable to enhanced PI3-kinase activation .
+Materials and Methods
+Reagents and Antibodies .
+The murine B cell plasmacytoma J558Lmum3 was provided by M. Reth ( Max-Planck Institute for Immunology , Freiburg , Germany ) .
+We transfected this cell line previously to obtain a mouse full-length ( B220 ) CD45 + -expressing variant ( ) .
+The human CD19 cDNA employed was provided by T. Tedder ( Duke University Medical Center , Durham , NC ) .
+Rabbit polyclonal antibodies against CD19 , Ig alpha , Syk , and Lyn , were prepared using GST fusion proteins produced in bacteria , purified by glutathione-Sepharose chromatography and cleaved with Factor Xa .
+Immunogens included the complete cytoplasmic tail for Igalpha , residues 1-131 for Lyn , the linker region for Syk ( ) , the SH3 domain for p85 , and residues 411-547 of the CD19 cytoplasmic tail .
+The polyclonal antibody to the p85 subunit of PI3-kinase and mixed mouse monoclonals to PLCgamma1 were purchased from UBI ( Lake Placid , NY ) , anti-phosphotyrosine ( AB-2 ) from Oncogene Science ( Uniondale , NY ) , monoclonal anti-human CD19 from DAKO ( Carpinteria , CA ) , and rabbit polyclonal to PLCgamma2 from Santa Cruz Biochemicals ( Santa Cruz , CA ) .
+Rabbit F ( ab ' ) 2 antibody fragments to mouse IgG ( H+L ) ( F ( ab ' ) 2 RAMIG ) was purchased from Zymed Labs .
+( South San Francisco , CA ) .
+HRP conjugated protein A ( Zymed ) and rat anti-mouse IgG1 ( Zymed ) were used for detection using the ECL detecting system ( Amersham Corp. , Arlington Heights , IL ) .
+R-phycoerythrin conjugate ( PE-streptavidin ) was from Biosource ( Camarillo , CA ) .
+Indo-1 AM was from Molecular Probes Inc. ( Eugene , OR ) .
+The inositol-1 ,4,5 - trisphosphate [ 3 H ] radioreceptor assay kit and Myo - [ 2- 3 H ( N ) ] - inositol ( 21.0 Ci and mmol ) was purchased from DuPont-NEN ( Boston , MA ) .
+Geneticin G418 was from GIBCO BRL ( Gaithersburg , MD ) .
+Wortmannin was from Sigma Chem .
+Co. ( St. Louis , MO ) .
+Nitrophenol ( NP ) 9 BSA was prepared by coupling of BSA ( 10 mg and ml ) in 3 % NaHCO 3 to NP-CAP-OSu ( Cambridge Research Biochemicals , Cambridge , UK ) ( 40 mg and ml ) in N,N-dimethyl formamide ( DMF ) .
+After dialysis in NaHCO 3 and PBS the molecular ratio of NP to BSA was determined by measurement of the absorbance at OD 430 with an extinction coefficient of 4230 , pH 8.5 ( NP molarity ) and by Bradford analysis ( BSA molarity ) .
+CD19 -/ - mice ( ) were provided by R.C. Rickert and K. Rajewsky ( University of Cologne , Cologne , Germany ) .
+Cell Culture and Infection .
+The human CD19 cDNA was isolated from pMT2 by EcoR1 digest and subcloned into pSK Bluescript ( Stratagene Inc. , La Jolla , CA ) .
+The CD19 cDNA was then removed from pSK with HindIII and ClaI restriction digest and cloned into pLNCX ( Williams , Fred Hutchinsen Cancer Center , Seattle , WA ) .
+This construct was electroporated into GP+E / NIH3T3 cells and cell supernatant collected at 72 h. To increase the virus titer , GP+E / NIH3T3 cells were incubated for 12 h in tunicamycin ( 1 mug and ml ) , and reinfected with pLNCX and hCD19 retrovirus by incubating with the cell supernatant collected above .
+After G418 selection ( 1 mg and ml ) , virus expressing clones were selected .
+Virus collected from these cells was then used to infect J558LmumCD45 + myeloma cells .
+Polyclonal human CD19 positive J558Lmum 3CD45 + cells were obtained after G418 selection by cell sorting of the bulk infected population with a mouse monoclonal to human CD19 .
+The cells were propagated in IMDM supplemented with 5 % heat inactivated FCS ( Hyclone Labs .
+Inc. , Logan , UT ) , 50 U and ml penicillin and 50 mug and ml streptomycin and 1 mg and ml G418 ( J558Lmum3CD45 + CD19 + ) at 37degreesC with 7 % CO 2 .
+Mutation of CD19 tyrosines 484 and 515 to phenylalanines was performed by PCR using the primers TCCCAGTCCTTTGAGGATATG / CATATCCTCAAAGGACTGGGA for Y 484 and GCAGACTCTTTTGAGAACATG and CATGTTCTCAAAAGAGTCTGC for Y 515 .
+Mutated CD19 was inserted into pLNCX , packaged and used for infection as described above .
+Analysis of Protein Tyrosine Phosphorylation .
+For stimulation cells were harvested , washed once in IMDM and resuspended at 10 7 cells and ml in IMDM .
+After 5 min incubation at 37degreesC , cells were stimulated with NP 9 BSA ( 2.5 mug and ml ) , pelleted in a picofuge , resuspended in lysis buffer ( 10 mM Tris , pH 7.5 , 150 mM NaCl , 1 mM EDTA , 1 mM Na 3 VO 4 , 10 mM NaF , 1 % NP-40 , 1 mM PMSF , and 2 mug and ml each of leupeptin , aprotinin , and alpha-1 antitrypsin ) , and then incubated on ice for 10 min .
+Lysates were centrifuged for 5 min at 14,000 rpm .
+Cleared lysates were incubated with antibodies to signaling molecules and protein A-Sepharose or protein G-Sepharose at 4degreesC , washed four times in lysis buffer , boiled with reducing SDS sample buffer , and then fractionated on 10 % SDS-PAGE .
+SDS-PAGE-fractionated proteins were subjected to electrophoretic transfer to PVDF membranes .
+Transfers were probed with antibodies and developed using the ECL detection system .
+Sequential immunoblotting for phosphotyrosine and effector was performed .
+For this purpose PVDF membranes were stripped in stripping buffer ( 100 mM 2-mercaptoethanol , 2 % SDS , 62.5 mM Tris-HCl , pH 6.7 ) for 30 min at 54degreesC , washed and blocked before immunoblotting .
+Flow Cytometric Analysis of [ Ca 2+ ] i Mobilization .
+Cells were loaded with indo-1 AM and the intracellular [ Ca 2+ ] i was monitored by flow cytometry ( model 50H ; Ortho Diagnostic Systems , Westwood , MA ) as previously described ( ) .
+The mean [ Ca 2+ ] i and percent of cells responding was determined with an appended data acquisition system and the MultiTIME software ( Phoenix Flow Systems , San Diego , CA ) .
+Measurement of Inositol Phosphate Generation .
+Inositol-1 ,4,5 - trisphosphate generation was measured using a [ 3 H ] radioreceptor assay kit ( DuPont-NEN ) according to the manufacturer 's instructions .
+Generation of total inositol phosphates was measured as follows : cells were labeled for 18 h in 2 muCi and ml of myo - [ 2- 3 H ( N ) ] - inositol in inositol-free medium containing dialyzed 5 % FCS before being washed in inositol-free media and incubated with inositol-free media containing 20 mM LiCl for 5 min .
+Cells were then stimulated for 25 min , lysed in 2 ml of methanol and HCl ( 99:1 ) , and then 2 ml of chloroform was added .
+The aqueous phase was extracted , applied to a formate anion-exchange column , and then inositol phosphates were eluted with elution buffer ( 0.1 M formic acid , 1.0 M ammonium formate ) .
+Total [ 3 H ] inositol incorporation was determined by measuring the radioactivity in the organic phase .
+Assay for PI3-Kinase Activity .
+Cells were stimulated , lysed , and then immunoprecipitated for 1 h at 4degreesC using anti-p85 antibodies and protein A-Sepharose .
+PI3-kinase activity was measured as previously described ( ) .
+Samples were dried and reaction products resolved by thin-layer chromatography on precoated TLC Silica Gel 60 plates in CHCl 3 / MeOH and 2 .5 M NH 4 OH ( 9:7 : 2 ) .
+The incorporation of 32 PO 4 into phosphatidylinositol 3-phosphate was determined using a PhosphorImager .
+Isolation of Splenic B Cells .
+Splenic B cells were prepared as previously described ( ) .
+In brief , spleens were excised from mice and cells were dispersed through a 100-mum mesh in IMDM .
+Red blood cells were lysed using Gey 's solution .
+Total nucleated spleen preparations were depleted of T lymphocytes by complement mediated lysis using HO13 .4 and T24 antibodies and dense cells ( rho < = 1.066 ) isolated by discontinuous Percoll density gradient centrifugation .
+Results
+Although tyrosine phosphorylation of CD19 after BCR ligation is well documented , the contribution of CD19 to BCR signaling is not defined .
+To study the role of CD19 in antigen induced signal transduction we generated a wild-type CD19 positive and Y 484 and Y515 to F CD19 positive variant of the J558Lmum3CD45 + plasmacytoma .
+The parent clone expresses a NP specific BCR and CD45 , but does not express CD19 .
+Human CD19 ( hCD19 ) was introduced into this clone by retroviral infection , and lines ( polyclonal populations ) were isolated by G418 selection and fluorescence activated cell sorting of cells .
+Flow cytometric analysis revealed similar expression levels of sIgM , CD45 and CD19 in the plasmacytoma cell lines .
+Human CD19 was utilized since antibodies to mouse CD19 were not available at the time the studies were undertaken , and human and mouse CD19 are highly homologous ( 79 % in nucleotide sequence , 75 % in amino acid sequence ) particularly in the cytoplasmic domain .
+Recent studies indicate that human CD19 complements B cell function in CD19 -/ - mice ( ) .
+In addition , using a recently generated rat mAb , 1D3 , specific for murine CD19 ( ) , Krop et al. .
+( ) have demonstrated that murine CD19 shares with human CD19 an association with complement receptor CD21 and CD81 , tyrosine phosphorylation , binding of PI3-kinase , and synergistic signaling with membrane IgM .
+Antigen stimulated Intracellular Ca 2+ Release and Extracellular Ca 2+ Influx Is Increased in Cells Expressing CD19 .
+To investigate the differences in BCR signaling in the CD19 negative and -positive contexts , we loaded the J558Lmum3 CD45 + CD19 negative and CD19 positive variants with indo-1 AM and analyzed changes in intracellular free calcium concentration ( [ Ca 2+ ] i ) in response to antigen stimulation .
+Initially , this was done under conditions where the free calcium concentration in the medium ( [ Ca 2+ ] o ) was maintained at physiological levels of 1.3 mM .
+As shown in Fig .
+( solid lines ) , antigen stimulation induced a rise in [ Ca 2+ ] i in both cell lines ; in the CD19 positive cell line the maximal mean [ Ca 2+ ] i reached 430 nM while it was 260 nM in the CD19 negative cells .
+In the CD19 positive cell line , antigen stimulation also induced a much more prolonged increase in [ Ca 2+ ] i than in the CD19 negative clone .
+To determine whether intracellular or extracellular calcium was responsible for the respective [ Ca 2+ ] i increases , we added 3 mM EGTA at the time of initiation of analysis of [ Ca 2+ ] i .
+This results in buffering of [ Ca 2+ ] o to a concentration of 65 nM ( which corresponds to the [ Ca 2+ ] i in resting cells ) and prevents influx of extracellular calcium into the cell .
+Comparison of antigen induced responses of CD19 negative and CD19 positive cells in low [ Ca 2+ ] o indicated that optimal receptor mediated release of calcium from intracellular stores requires CD19 .
+Comparison of responses in high [ Ca 2+ ] o revealed that influx is also dependent on the expression of CD19 .
+Antigen Stimulation of Inositol-1 ,4,5 - trisphosphate ( IP 3 ) Production Is Dependent on CD19 Expression .
+To study CD19 dependence of signaling events upstream from calcium mobilization , we first compared antigen stimulation of IP 3 production in CD19 positive and -negative cells .
+IP 3 binds to its receptors on the ER leading to release of Ca 2+ into the cytoplasm .
+Emptying of the ER stores triggers entry of calcium from the extracellular space by a mechanism known as capacitative Ca 2+ entry ( ) .
+Thus , CD19 dependence of IP 3 generation induced response by antigen could explain the dependence of both intracellular calcium release and extracellular calcium influx on CD19 expression .
+Stimulation of the cell lines led to a very rapid and sustained rise in IP 3 production in the CD19 positive clone as measured using an IP 3 -receptor binding inhibition assay .
+Antigen stimulation of the CD19 negative clone led to rapid , but much more modest and only transient generation of IP 3 .
+The kinetics and magnitude of IP 3 generation was consistent with those of calcium mobilization responses shown in Fig .
+supporting the possibility that the attenuated calcium mobilization response may be caused by the attenuated BCR mediated hydrolysis of PIP 2 .
+We also measured the generation of [ 3 H ] - inositol mono- and polyphosphates after antigen stimulation of myo - [ 2- 3 H ( N ) ] - inositol labeled cell lines .
+As shown in Fig .
+B the fold increase in total inositol mono- and polyphosphates generated during a 25-min stimulation was consistent with the mass measurement of IP 3 production ; stimulation of the CD19 positive clone led to an ~ 250 % increase in inositol phosphate generation , while stimulation of the CD19 negative cell line induced an ~ 30 % increase .
+CD19 Expression Enhances BCR mediated Protein Tyrosine Phosphorylation .
+Antigen stimulation is known to induce recruitment of Src- and Syk family tyrosine kinases to Ig-alpha and Ig-beta components of the BCR ( - ) .
+The tyrosine kinases bind via their SH2-domains to immunoreceptor tyrosine based activation motif ( ITAM ) phosphotyrosines and this leads to secondary recruitment , phosphorylation , and activation of downstream signaling molecules such as PLCgamma1 , PLCgamma2 , and PI3-kinase ( reviewed in reference ) .
+To define the effects of CD19 expression on these phosphorylation events we stimulated CD19 negative and -positive cell lines , immunoprecipitated intracellular signaling molecules and conducted anti-phosphotyrosine immunoblotting analysis .
+The spectra of phosphoproteins in whole cell lysates from the J558Lmum3CD45 + CD19 - and the J558Lmum3CD45 + CD19 + cell lines looked similar with the exception of the presence of a tyrosine phosphorylated CD19 in the CD19 positive cell lysate ( results not shown ) .
+Induced phosphorylation of several signaling molecules was analyzed after stimulation with normalization of immunoprecipitation and lane loading by sequential antieffector immunoblotting .
+We studied tyrosine phosphorylation after 1 min of antigen stimulation since we have shown previously that effector enzymes under study are maximally phosphorylated at this time in the J558Lmum3CD45 + plasmacytoma ( ) .
+As shown in Fig .
+, CD19 expression led to modest increases in antigen induced tyrosine phosphorylation of Ig-alpha , Lyn , Syk , PLCgamma1 , and PLCgamma2 .
+Quantitation of tyrosine phosphorylation by scanning densitometry ( at least three independent experiments for each effector enzyme ) and normalization to effector levels revealed increased phosphorylation of Ig-alpha , Lyn , and Syk by 1.5-2-fold in the CD19 positive line .
+Induced PLCgamma1 and PLCgamma2 tyrosine phosphorylation was 2.5-3-fold higher in the CD19 positive cell line than in the CD19 negative cell line .
+These results suggest that CD19 functions in part by increasing the magnitude of certain proximal BCR coupled tyrosine phosphorylation events .
+Antigen Stimulation of PI3-Kinase Activation Is Severely Impaired in the CD19 negative J558Lmum3CD45 + Plasmacytoma .
+CD19 contains two cytoplasmic YXXM motifs that mediate its association with the p85 subunit of PI3-kinase after phosphorylation of the tyrosines ( ) .
+The phosphorylation of these tyrosines may contribute to BCR mediated PI3-kinase activation .
+We determined the activity of PI3-kinase in the cell lines by measuring the PI3-kinase activity associated with anti-p85 immunoprecipitates after stimulation with NP 9 BSA for 2 min .
+The results shown in Fig .
+demonstrate a 250 % increase in PI3-kinase activity in the CD19 positive cell line after antigen stimulation , but only a 40 % increase in the CD19 negative variant .
+The residual activation of PI3-kinase in the absence of CD19 expression is probably a result of PI3-kinase activation through interaction with SH3 domains of Src family kinases ( ) .
+The results described above are summarized in the two first columns of Table .
+It is clear that CD19 influences multiple intracellular signaling events .
+Some signaling events are only slightly increased in the CD19 positive cell line , ( i.e. , Ig-alpha , Lyn , and Syk tyrosine phosphorylation ) while others are almost totally dependent on expression of CD19 ( i.e. , IP 3 generation , calcium influx , and PI3-kinase activation ) .
+Wortmannin Inhibits Antigen induced [ Ca 2+ ] i Mobilization and IP 3 Generation in the J558Lmum3CD45 + CD19 + Plasmacytoma .
+To begin to dissect the relationship among the observed CD19 effects , we assessed the effects of the PI3-kinase inhibitor wortmannin on signaling events .
+Wortmannin has been shown to inhibit PI3-kinase activity by covalent modification of a lysine residue in the PI3-kinase catalytic subunit , p110 ( ) .
+We also used the competitive PI3-kinase inhibitor Ly294002 ( ) and obtained similar results as in our studies with wortmannin ( results not shown ) .
+The effect of wortmannin on antigen induced activation of PI3-kinase was determined .
+The results shown in Fig .
+A demonstrate the inhibitory effect of wortmannin on antigen mediated PI3-kinase activation in the J558Lmum3CD45 + CD19 + plasmacytoma .
+Cells were pretreated for 30 min with DMSO ( vehicle ) or increasing concentrations of wortmannin , stimulated with antigen for 2 min , washed , and then lysed before PI3-kinase was immunoprecipitated and activity measured in an in vitro kinase assay with phosphatidylinositol ( PI ) containing vesicles as substrate .
+Consistent with its previously established IC 50 , 10 nM wortmannin inhibited the antigen mediated PI3-kinase activation by 54 % , and 25 nM wortmannin inhibited 75 % of antigen induced PI3-kinase activity .
+Wortmannin added to the cells immediately before washing and lysis did not effect the PI3-kinase activity ( data not shown ) indicating that the inhibitor was acting intracellularly .
+To investigate the influence of PI3-kinase on the BCR mediated calcium mobilization seen in the CD19 positive cell line , we preincubated the cells with increasing concentrations of wortmannin and measured the antigen induced increase in [ Ca 2+ ] i .
+As shown in Fig .
+B , wortmannin strongly inhibited Ca 2+ mobilization in the J558Lmum3CD45 + CD19 + cells .
+Sensitivity to wortmannin was also evident in the IP 3 generation response .
+A wortmannin concentration of 25 nM strongly inhibited IP 3 production in the J558Lmum3 CD45 + CD19 + cell line after 1 minute of antigen stimulation .
+In both cases wortmannin at a concentration of 25 nM converted the phenotype of the CD19 positive cells essentially to that of the CD19 negative cells .
+This result was consistent with the 75 % inhibition of PI3-kinase activation by 25 nM wortmannin in Fig .
+A and indicates that the CD19 requirement for IP 3 production and calcium mobilization may be attributable to PI3-kinase activation .
+Interestingly , wortmannin inhibited the residual antigen stimulated PI3-kinase activation , IP 3 production , and Ca 2+ mobilization of the CD19 negative cell line ( data not shown ) consistent with the possible absolute dependence of these responses on PI3-kinase activation .
+Induced Tyrosine Phosphorylation of Intracellular Effector Enzymes Is Insensitive to Wortmannin .
+To investigate the potential role of CD19 activated PI3-kinase on early BCR mediated protein tyrosine phosphorylation events , CD19 positive cells were preincubated for 30 min with DMSO ( vehicle ) or increasing concentrations of wortmannin and stimulated for 1 min with antigen before effectors were immunoprecipitated and analyzed .
+As shown in Fig .
+, antigen induced tyrosine phosphorylation of Ig-alpha , Lyn , and Syk was insensitive to wortmannin .
+PLCgamma1 and PLCgamma2 tyrosine phosphorylation was somewhat sensitive to wortmannin preincubation although the decrease in induced tyrosine phosphorylation was modest ( 35 % inhibition at 25 nM wortmannin , Table ) compared with the degree of wortmannin inhibition of IP 3 generation and calcium mobilization ( 91.5 % inhibition , Table ) .
+It seems very unlikely that the > 90 % inhibition of PLCgamma activity could be caused by a 35 % inhibition of PLCgamma phosphorylation Thus , as summarized in Table , CD19 expression by the J558Lmum3 CD45 + plasmacytoma is required for optimal antigen stimulation of multiple intracellular signaling events , but only some of these are secondary to the nearly absolute dependence of PI3-kinase activation on CD19 .
+Mutation of p85 Binding Sites Destroy the Ability of CD19 to Mediate an Increase in BCR mediated [ Ca 2+ ] i Mobilization .
+To further explore the requirement of CD19 for PI3-kinase activation and optimal antigen mediated [ Ca 2+ ] i mobilization , we introduced a double point mutant of CD19 , CD19Y 484 F , Y 515 F , into the J558Lmum3CD45 + plasmacytoma .
+The expression levels of sIgM , CD45 and CD19 ( Y 484 F , Y 515 F ) in this cell line is shown in Fig .
+.
+It has previously been demonstrated that the mutations Y 484 F and Y 515 F abrogates the ability of CD19 to interact with the p85-subunit of PI3-kinase ( ) .
+Like the CD19 negative cell line , the CD19 mutant cell line , showed no significant antigen mediated activation of PI3-kinase ( results not shown ) .
+When we assayed the ability of the cell line expressing the mutant CD19 to mobilize [ Ca 2+ ] i in response to antigen stimulation , we found that the mutant CD19 cell line behaved equivalently to the J558Lmum3CD45 + cell line .
+This suggests that both CD19 mediated increase in BCR induced PI3-kinase activation and Ca 2+ mobilization require phosphorylation of CD19 Y 484 and Y 515 .
+Wortmannin Inhibits Antigen stimulated [ Ca 2+ ] i Mobilization in Splenic B Cells .
+To investigate the role of PI3-kinase in antigen induced signaling in a more physiological system , we purified splenic B cells ( rho < = 1.066 ) from spleens of normal mice and assessed the effects of wortmannin on BCR signaling .
+After preincubation for 30 min with DMSO or wortmannin , splenic B cells were stimulated with 13.2 mug and 10 6 cells F ( ab ' ) 2 RAMIG .
+As observed in the J558L mum3CD45 + CD19 + cell line , wortmannin inhibited , as a function of its concentration , the antigen mediated calcium mobilization in these primary B cells .
+Wortmannin also inhibited the residual antibody mediated Ca 2+ mobilization in CD19 -/ - splenic B cells ( data not shown ) .
+Thus , BCR signaling in J558Lmum3CD45 + CD19 + and normal B cells is similarly sensitive to PI3-kinase inhibition and CD19 function ( see below ) .
+CD19 Is Required for Anti-BCR Stimulation of PI3-Kinase Activation and Ca 2+ Mobilization in Splenic B Cells .
+To extend our observations regarding CD19 dependence of BCR mediated signaling in B lymphocytes we compared BCR mediated PI3-kinase activation and calcium mobilization responses of B cells from CD19 knockout mice and normal mice .
+It has previously been reported that no distinguishable difference can be seen between CD19 deficient and normal B cells in the pattern or the degree of substrate phosphorylation after surface immunoglobulin stimulation ( ) .
+We obtained the same results when comparing whole cell lysates from CD19 -/ - and CD19 + /+ cells ( results not shown ) .
+However , careful investigation of several signaling events revealed that rho < = 1.066 resting splenic B lymphocytes from CD19 -/ - mice are impaired in their response to surface immunoglobulin crosslinking when compared with CD19 + /+ littermates .
+F ( ab ' ) 2 RAMIG mediated PI3-kinase activation was severely diminished in the CD19 -/ - B cells , reminiscent of the situation in the plasmacytoma cell lines .
+As shown in Fig .
+, absence of CD19 also clearly affects BCR mediated calcium mobilization .
+A decrease in calcium mobilization was seen in B lymphocytes from the CD19 -/ - mice in response to stimulation with an optimal dose of antibody .
+At suboptimal concentrations of antibody ( 1.3 mug F ( ab ' ) 2 RAMIG ) almost no BCR mediated calcium mobilization was seen in cells from CD19 -/ - mice , while cells from the CD19 + /+ littermates still responded well .
+We obtained equivalent results in 10 independent experiments .
+Our results appear to conflict with those of Sato et al. ( 34 ) , who observed enhancement of later phase Ca 2+ mobilization in CD19 -/ - cells .
+These contrasting findings may result from technical differences in the respective studies .
+Discussion
+Recent studies of CD19 -/ - mice and CD19 transgenic mice have demonstrated the importance of CD19 in B cell development , but particularly in the immune response of mature B cells .
+In human CD19 transgenic mice B cell development is impaired ( ) as indicated by the fact that these mice have dramatically fewer B cells in the periphery .
+In these transgenic animals proper B cell development is very sensitive to even small increases in CD19 expression levels ( ) .
+CD19 -/ - mice also have lower levels of B cells in the periphery , and mature B cells from these animals mount a poor proliferative response to anti-BCR antibodies .
+These animals respond only weakly to T cell dependent antigens , germinal center formation is lacking or diminished , and the serum immunoglobulin levels are significantly reduced .
+Based on these findings , it has been suggested that CD19 functions by enhancing the cellular sensitivity to antigen , setting the threshold for antigen mediated signaling ( ) .
+This may reflect a CR2 dependent coreceptor function and and or an accessory function of CD19 in BCR signal transduction .
+Here we have defined an important accessory function for CD19 in antigen induced BCR signal transduction and described a molecular basis for this accessory function .
+CD19 was found to influence the magnitude of activation of multiple intracellular signaling pathways after antigen stimulation of the BCR .
+While expression of CD19 leads to modestly enhanced antigen induced Ig-alpha , Lyn , Syk , PLCgamma1 , and PLCgamma2-inductive tyrosine phosphorylation , CD19 is absolutely required in order to obtain substantial PI3-kinase activation , IP 3 generation , and maximal calcium mobilization .
+Thus , CD19 modifies BCR signaling in a qualitative manner .
+Using the PI3-kinase inhibitor wortmannin we further determined that while the increased antigen induced tyrosine phosphorylation of Ig-alpha , Lyn , and Syk is independent of PI3-kinase activation , differences in IP 3 turnover and calcium mobilization are a function of PI3-kinase activation .
+Results obtained in CD19 positive and -negative variants of the J558Lmum3CD45 + plasmacytoma cells were confirmed using primary B lymphocytes from CD19 -/ - mice and wild-type littermates .
+Thus , CD19 functions in promoting BCR mediated phosphoinositide hydrolysis via activation of PI3-kinase , and also supports antigen induced phosphorylation of BCR receptor components and receptor activated kinases by an unknown mechanism .
+Since the src family kinases Lyn and Lck are found associated with CD19 in unstimulated cells , CD19 may mediate the latter effect via an increase in Ig-alpha phosphorylation by these kinases .
+It has been demonstrated previously that wortmannin can inhibit angiotensin II mediated IP 3 production in adrenal glomerulosa cells ( ) as well as anti-DNP-IgE-mediated IP 3 production in RBL-2H3 cells ( ) .
+The mechanisms by which PI3-kinase affects inositol lipid hydrolysis is unclear .
+PLCgamma1 and PLCgamma2 are highly homologous enzymes ; both contain two SH2 domains and one SH3 domain .
+In vitro studies suggest that tyrosine phosphorylation of the enzymes is required to increase the catalytic activity , but phosphatase treatment of phosphorylated PLCgamma1 only partially inhibits PLCgamma1 mediated inositol trisphosphate production ( ) , indicating that mechanisms other than tyrosine phosphorylation may regulate PLCgamma1 activation .
+Our studies using the PI3-kinase inhibitor , wortmannin , indicate that antigen stimulated inositol lipid turnover and calcium mobilization are dependent on PI3-kinase activation in B cells .
+Interestingly , induction of PLCgamma1 and PLCgamma2 tyrosine phosphorylation is relatively insensitive to wortmannin .
+As shown in Table , IP 3 production is substantially inhibited by 10 nM wortmannin , while this concentration of wortmannin has a neglectable effect on PLCgamma1 and PLCgamma2 tyrosine phosphorylation .
+PI3-kinase phosphorylates the phosphoinositol containing lipids ; PI , PI ( 4 ) P and PI ( 4,5 ) P 2 at the D3 position of the inositol ring ( ) .
+Two of the products of this phosphorylation , PI ( 3,4 ) P 2 and PI ( 3,4,5 ) P 3 , are important regulators of cell proliferation ( ) .
+Recently it was suggested that PI ( 3,4,5 ) P 3 may play a role in signaling by associating with SH2 domains , and thereby modulating PI3-kinase association with tyrosine phosphorylated proteins ( ) .
+PI ( 3,4,5 ) P 3 could thereby regulate the activity of SH2 containing effector enzymes either directly or indirectly by relocating them .
+We suggest that this may reflect PI ( 3,4,5 ) P 3 , the product of PI3-kinase , association with the SH2 domain of PLCgamma1 and translocation of the enzyme to the plasma membrane where its substrate resides .
+Indeed addition of PI ( 3,4,5 ) P 3 to substrate vesicles has been shown to increase PLCgamma hydrolysis of PI ( 4,5 ) P 2 ( ) .
+It has been demonstrated in other cell types that cell stimulation results in translocation of PLCgamma1 and PLCgamma2 from the cytosol to the membrane .
+This suggests that activation of phosphatidylinositol hydrolysis involves both a PLCgamma tyrosine phosphorylation event and a translocation event .
+Alternatively , or additionally , interactions between PI ( 3,4,5 ) P 3 and pleckstrin homology ( PH ) domains could be involved in translocation of effector proteins to the membrane to obtain optimal phosphoinositide hydrolysis and Ca 2+ mobilization .
+A likely candidate is Bruton 's tyrosine kinase , Btk , which has been shown to selectively interact with PI ( 3,4,5 ) P 3 vesicles via its PH domain ( ) .
+Indeed recent findings suggest that Btk is required for BCR mediated Ca 2+ mobilization ; in particular for extracellular influx ( Rawlings , D. , personal communication ) .
+In this regard we do see a higher antigen mediated inductive tyrosine phosphorylation of Btk in our CD19 positive plasmacytoma cell line than in the CD19 negative line , suggesting that CD19 may influence the activation of Btk ( results not shown ) .
+Recently it was shown in both T cells and B cells that under certain circumstances cell stimulation can lead to tyrosine phosphorylation of PLCgamma , but no IP 3 production or calcium mobilization ( , - ) .
+These examples further underscores the concept that tyrosine phosphorylation of PLCgamma is not in itself sufficient to induce maximal IP 3 generation .
+A critical role for CD19 phosphorylation in BCR activation of PI3-kinase , IP 3 production , and calcium mobilization is also supported by studies of FcgammaRIIB1 signal transduction .
+We and others have recently shown that coligation of BCR with FcgammaRIIB1 leads to rapid dephosphorylation of CD19 and failed PI3-kinase activation .
+Therefore , FcgammaRIIB1 mediated CD19 dephosphorylation appears to prevent the normal contribution of CD19 to BCR signaling .
+Importantly , FcgammaRIIB1 cocrosslinking with BCR also results in aborted IP 3 production and reduced calcium mobilization .
+Thus , the calcium mobilization and IP 3 production phenotypes of the CD19 positive and -negative cell lines are clearly reminiscent of the signaling phenotypes of B cells stimulated with F ( ab ' ) 2 or intact antibodies , respectively .
+F ( ab ' ) 2 stimulation leads to a strong increase in both intracellular and extracellular [ Ca 2+ ] i mobilization , comparable to the antigen mediated calcium mobilization in the CD19 positive cells , and a strong and sustained IP 3 production .
+In contrast coengagement of the FcgammaRIIB1 receptor by stimulation with intact antibodies only induces a transient production of IP 3 , and calcium mobilization as seen in the CD19 negative B cell line ( Figs .
+and ) .
+These data support a role for CD19 and its effector PI3-kinase in BCR mediated PLCgamma activation and calcium mobilization .
+Since our studies indicate that CD19 is required for maximal ( i.e. , both primary and secondary phase ) Ca 2+ mobilization , modulation of CD19 tyrosine phosphorylation , and resulting modulation of [ Ca 2+ ] i mobilization pattern may be important in differentially regulating downstream signaling pathways such as activation of MAP kinase pathways , transcription factors , and proliferation and apoptosis responses .
+Recently it was demonstrated that the amplitude and duration of Ca 2+ signals contribute to transcriptional specificity ( ) .
+Such effects could at least in part be a consequence of the contribution of CD19 , i.e. , stimulation of B lymphocytes with F ( ab ' ) 2 RAMIG , in which case CD19 is highly tyrosine phosphorylated , leads to a Ca 2+ spike and a constant elevated second phase Ca 2+ response .
+In contrast binding of immune complexes to FcgammaRIIB1 and the BCR , in which case CD19 tyrosine phosphorylation is decreased , results in a Ca 2+ spike , but no prolonged second phase Ca 2+ response triggering an effector output different from the F ( ab ' ) 2 RAMIG stimulation .
+These modulations of the Ca 2+ response may result in modulation of cell proliferation and apoptosis .
+Splenic B cells proliferate in response to B cell mitogens such as Staphylococcus aureus ( SA ) and anti-IgM .
+The SA proliferation response is partially inhibited by the PI3-kinase inhibitor wortmannin ( ) , consistent with a role of PI3-kinase in BCR mediated proliferation responses .
+CD19 activation may also be important for the regulation of apoptosis .
+When immune complexes are bound to the FcgammaRIIB1 and the BCR , in which case CD19 tyrosine phosphorylation is decreased , B cell proliferation is inhibited and cells undergo apoptosis ( ) .
+We hypothesize that this inhibition of proliferation and induction of apoptosis is a consequence of inhibition of PI3-kinase activity associated with CD19 , leading to inhibition of downstream signaling pathways .
+Potentially FcgammaRIIB1 mediated inhibition of CD19 tyrosine phosphorylation and PI3-kinase activation could result in a failure to activate the serine / threonine protein kinase Akt and PKB , which has been shown to be a target of PI3-kinase ( - ) , and is known to protect cells against apoptosis ( - ) .
+Here we have demonstrated a potential molecular basis for the essential role played by CD19 in antigen mediated B cell activation , germinal center formation and generation of immune responses .
+CD19 functions as a constitutive component of the BCR signaling apparatus and is required for antigen mediated BCR stimulation of PI3-kinase activation and , via PI3-kinase activation , phosphoinositide hydrolysis , and calcium mobilization .
+In fact , this is the first formal demonstration that CD19 modifies BCR signaling directly .
+The findings have important biological implications since CD19 and BCR expression are differentially regulated during B cell development .
+Variation of the ratio of expression of these molecules may provide a mechanism to vary the output of the receptor as a function of cell differentiation stage .
+Of potential importance in this context is the fact that the contribution of CD19 to BCR signaling is qualitative ; it does not simply change the magnitude of the signal .
+Figures and Tables
+Figure 1
+Expression levels of surface markers on the plasmacytoma cell lines .
+Flow cytometric analysis was performed on the J558Lmum3CD45 + ( dotted lines ) , J558Lmum3CD45 + CD19 + ( thick lines ) , and J558L mum3CD45 + CD19 + ( Y 484 F , Y 515 F ) ( thin lines ) cell lines .
+Shown is staining with secondary alone ( A ) , biotinylated b-7-6 anti-IgM ( B ) , biotinylated I32 .5 anti-CD45 ( C ) , or biotinylated HD37 anti-hCD19 ( D ) followed by PE conjugated streptavidin .
+Figure 2
+The CD19 negative and -positive J558Lmum3CD45 + plasmacytoma variants mobilize [ Ca 2+ ] i to different extent after antigen stimulation .
+J558Lmum3CD45 + CD19 - and J558Lmum3CD45 + CD19 + cells were loaded with indo-1 AM , and analysis of [ Ca 2+ ] i initiated before antigen stimulation ( 250 ng NP 9 BSA / 10 6 cells and ml ) .
+Mean [ Ca 2+ ] i ( top ) and cells responding ( bottom ) after antigen stimulation of J558Lmum3CD45 + CD19 - and J558Lmum3CD45 + CD19 + .
+The analysis was conducted under conditions of 60 nM ( dotted line ) or 1.3 mM ( solid line ) extracellular free calcium concentration buffered as calculated by the CalCalc program ( ) .
+[ Ca 2+ ] i was calculated according to Grynkiewicz et al. .
+( ) .
+Approximately 600 cells were analyzed per second .
+[ Ca 2+ ] i in resting cells is 100 nM .
+Figure 3
+Antigen induced IP 3 and total inositol phosphate release is greater in the CD19 positive than in CD19 negative J558Lmum3CD45 + cells .
+( A ) Cells ( 10 x 10 6 / ml ) were stimulated with 2.5 mug NP 9 BSA for various times and the responses terminated by addition of 100 % TCA ( 20 % TCA final ) .
+After organic extraction the aqueous phase was assayed for IP 3 content in a [ 3 H ] IP 3 receptor binding inhibition assay ( NEN-DuPont ) .
+The results are expressed as fold increase of IP 3 release over basal ( 3 pmol IP 3 / 2.5 x 10 6 cell equivalents ) .
+Shown is mean fold increase from three independent experiments + /- standard error .
+( B ) Cells were labeled with Myo- [ 2- 3 H ( N ) ] - inositol ( 21.0 Ci and mmol ; 2 muCi and ml ) in inositol-free medium containing 5 % FCS at 10 6 cells and ml for 18 h and the generation of inositol phosphates was measured after stimulation of cells for 25 min with 2.5 mug NP 9 BSA and 10 7 cells and ml .
+The fold increase in inositol phosphate release was calculated ; the two cell lines had comparable basal rates of inositol turnover as determined by the basal inositol phosphate release .
+Shown are the mean fold increases from three independent experiments + /- standard error .
+Statistical significance was determined by JMP version 3.16 statistical software ( SAS Institute , Cary , NC ) .
+Figure 4
+Tyrosine phosphorylation of signaling molecules upon antigen stimulation of the CD19 negative and CD19 positive cell lines .
+J558Lmum3 CD45 + variants were stimulated for 1 min with 2.5 mug NP 9 BSA and 10 7 cells and ml , lysed , and intermediary signaling molecules immunoprecipitated with various antibodies and fractionated on 10 % SDS-PAGE .
+After electrophoretic transfer to PVDF membrane , both anti-phosphotyrosine and anti-effector immunoblotting were performed .
+Data are representative of at least three independent experiments .
+Figure 5
+PI3-kinase activity is significantly increased only upon antigen stimulation of the CD19 positive J558Lmum3CD45 + cells .
+CD19 negative and CD19 positive J558Lmum3CD45 + cells were stimulated for 2 min with 1 mugNP 9 BSA and 4 x 10 6 / ml , lysed and PI3-kinase immunoprecipitated with anti-p85 antibody .
+Immunoprecipitates were washed and assayed for P-I3 kinase activity .
+Fold increase in PI3-kinase activity after stimulation was determined using a PhosphorImager .
+The data shown is the mean fold increase over basal in eight independent experiments + /- standard error of the mean .
+Statistical significance was determined by JMP version 3.16 statistical software ( SAS Institute , Cary , NC ) .
+Figure 6
+Wortmannin inhibits the antigen induced increase in PI3-kinase activity , [ Ca 2+ ] i mobilization and IP 3 generation in the J558Lmum3 CD45 + CD19 + plasmacytoma .
+( A ) Cells were preincubated with DMSO ( vehicle ) or wortmannin at various concentrations ( in 0.2 % final DMSO concentration ) for 25 min at 25degreesC , prewarmed for 4 min at 37degreesC , and then stimulated for 2 min with 1 mug NP 9 BSA and 4 x 10 6 cells and ml before analysis of PI3-kinase activation as described in Fig , 4 .
+Shown is the mean fold increase in activity over basal from four independent experiments + /- standard error of the mean .
+Asterisk indicates a statistical significance of P < 0.05 determined by JMP 3.16 statistical software .
+( B ) To study the effects of wortmannin on the calcium response , J558Lmum3CD45 + CD19 + cells were Indo-1 AM loaded and preincubated with DMSO ( vehicle ) or wortmannin at various concentrations ( resulting in 0.2 % final DMSO ) for 25 min at 25degreesC , prewarmed for 4 min at 37degreesC , and stimulated at arrow with 250 ng NP 9 BSA and 10 6 cells and ml .
+Shown is the mean [ Ca 2+ ] i over time with analysis of ~ 600 cells and s .
+[ Ca 2+ ] i in resting cells is 100 nM .
+( C ) J558Lmum3CD45 + CD19 + cells were preincubated with DMSO or increasing concentrations of wortmannin , prewarmed , and stimulated with 2.5 mug NP 9 BSA and 10 7 / ml for 1 min before IP 3 production was measured by the IP 3 receptor binding inhibition assay .
+Shown is the mean fold increase over basal in three independent experiments + /- standard error of the mean .
+Asterisk indicates a statistical significance of P < 0.05 determined by JMP 3.16 statistical software .
+Figure 7
+In the CD19 positive J558Lmum3CD45 + cells , antigen induced tyrosine phosphorylation of PLCgamma1 and PLCgamma2 is slightly inhibited by wortmannin , while Lyn , Ig-alpha and Syk inductive tyrosine phosphorylation is insensitive to wortmannin .
+J558Lmum3CD45 + CD19 + cells were preincubated with DMSO or increasing concentrations of wortmannin , prewarmed and stimulated for 1 min with NP 9 BSA ( 2.5 mug and 10 7 cells and ml ) and lysed .
+Immunoprecipitation , SDS-PAGE fractionation and electrophoretic transfer were performed .
+For each immunoprecipitation , both anti-phosphotyrosine and anti-effector immunoblots are shown .
+Results are representative of at least three independent experiments .
+Figure 8
+Mutant CD19 ( CD19Y 484 F , Y 515 F ) does not support antigen induced [ Ca 2+ ] i mobilization .
+J558Lmum3CD45 + CD19 - , J558Lmum3CD45 + CD19 + and J558Lmum3CD45 + CD19 + ( Y 484 F , Y 515 F ) cells were loaded with Indo-1 AM , and analysis of [ Ca 2+ ] i initiated before antigen stimulation ( 250 ng NP 9 BSA and 10 6 cells and ml ) .
+Shown is the mean [ Ca 2+ ] i over time with analysis of ~ 600 cells and s .
+[ Ca 2+ ] i in resting cells is 100 nM .
+Figure 9
+Antigen induction of [ Ca 2+ ] i mobilization in splenic B cells from normal mice is sensitive to wortmannin .
+Splenic B cells ( rho < = 1.066 ) were isolated from spleens of normal mice , and loaded with Indo-1 AM .
+The cells were preincubated with DMSO or increasing concentrations of wortmannin for 25 min at 25degreesC .
+They were then warmed to 37degreesC for 4 min and stimulated with 13.2 mug F ( ab ' ) 2 RAMIG and 10 6 / ml ( at arrow ) .
+Shown is the mean [ Ca 2+ ] i over time with analysis of ~ 600 cells and s .
+[ Ca 2+ ] i in resting cells is 70 nM .
+Figure 10
+BCR mediated stimulation of PI3-kinase activation is diminished in splenic B cells from CD19 -/ - mice compared with CD19 + /+ littermates .
+Splenic B cells ( rho < = 1.066 ) were purified from spleens of CD19 -/ - or CD19 + /+ mice , prewarmed , stimulated with F ( ab ' ) 2 RAMIG ( 26.4 mug and 5 x 10 6 / ml ) for 2 min , lysed , and then immunoprecipitated with an anti-p85 antibody .
+Immunoprecipitates were washed and assayed for PI3-kinase activity .
+Fold increase in PI3-kinase activity after stimulation was determined using a PhosphorImager .
+( A ) Primary autoradiographic data from a representative experiment .
+( B ) Mean fold increase over basal in three independent experiments + /- standard error of the mean .
+Statistical significance was determined by JMP version 3.16 statistical software ( SAS Institute ) .
+Figure 11
+BCR mediated [ Ca 2+ ] i mobilization is reduced in splenic B cells from CD19 -/ - mice compared with CD19 + /+ littermates at both optimal and suboptimal doses of antibody .
+B cells ( rho < = 1.066 ) were isolated from spleen of CD19 -/ - and CD19 + /+ mice and loaded with Indo-1 AM .
+[ Ca 2+ ] i mobilization was monitored before and after stimulation of the cells with F ( ab ' ) 2 RAMIG .
+( A ) Cells were stimulated with 13 mug and 10 6 cells and ml ; shown is an overlay of the [ Ca 2+ ] i mobilization pattern in an experiment where splenic B cells from two CD19 -/ - and two CD19 + /+ mice were compared independently .
+This experiment was performed 10 times with similar results .
+( B ) Cells were stimulated with a suboptimal dose of F ( ab ' ) 2 RAMIG ( 1.3 mug and 10 6 cells and ml ) .
+Shown is the mean [ Ca 2+ ] i over time with analysis of ~ 600 cells and s .
+[ Ca 2+ ] i in resting cells is 70 nM .

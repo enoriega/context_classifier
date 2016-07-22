@@ -1,0 +1,244 @@
+A Novel B Lymphocyte Associated Adaptor Protein , Bam32 , Regulates Antigen Receptor Signaling Downstream of Phosphatidylinositol 3-Kinase
+We have identified and characterized a novel src homology 2 ( SH2 ) and pleckstrin homology ( PH ) domain containing adaptor protein , designated Bam32 ( for B cell adaptor molecule of 32 kD ) .
+cDNAs encoding the human and mouse Bam32 coding sequences were isolated and the human bam32 gene was mapped to chromosome 4q25-q27 .
+Bam32 is expressed by B lymphocytes , but not T lymphocytes or nonhematopoietic cells .
+Human germinal center B cells show increased Bam32 expression , and resting B cells rapidly upregulate expression of Bam32 after ligation of CD40 , but not immunoglobulin M. Bam32 is tyrosine phosphorylated upon B cell antigen receptor ( BCR ) ligation or pervanadate stimulation and associates with phospholipase Cgamma2 .
+After BCR ligation , Bam32 is recruited to the plasma membrane through its PH domain .
+Membrane recruitment requires phosphatidylinositol 3-kinase ( PI3K ) activity and an intact PI ( 3,4,5 ) P 3 -binding motif , suggesting that membrane association occurs through binding to 3-phosphoinositides .
+Expression of Bam32 in B cells leads to a dose dependent inhibition of BCR induced activation of nuclear factor of activated T cells ( NF-AT ) , which is blocked by deletion of the PH domain or mutation of the PI ( 3,4,5 ) P 3 -binding motif .
+Thus , Bam32 represents a novel B cell associated adaptor that regulates BCR signaling downstream of PI3K .
+Introduction
+The population of B lymphocytes present in peripheral lymphoid tissues is dynamically maintained by processes that balance the continuous output from the bone marrow and proliferation in response to antigens with B cell terminal differentiation and death .
+The choices between the alternative fates of proliferation , differentiation , and death , are largely determined by intracellular signaling cascades triggered by receptor-ligand interactions .
+The B cell antigen receptor ( BCR ) is a central regulator of B cell fate .
+BCR signaling is required for survival and recirculation of naive B cells as well as for antigen specific immune responses .
+Ligation of the BCR by antigen can have different outcomes depending on the differentiation stage of the B cell , the molecular form of antigen , and the immunological context of the antigen encounter .
+These different outcomes can be due to differences in quality or quantity of signals emanating from the BCR itself and and or differential signaling through other key receptors such as CD19 , CD22 , CD40 , CD72 , CD95 , CDw150 , and FcgammaRII .
+These coreceptors can act by directly modifying receptor proximal events in BCR signaling or by activating additional signaling pathways which influence the outcome of BCR signaling .
+Ligation of the BCR leads to activation of nonreceptor protein tyrosine kinases ( PTKs ) , which regulate several downstream signaling pathways .
+These include phospholipase C ( PLC ) gamma , which , upon activation , hydrolyzes phosphatidylinositol bisphosphate ( PI ( 4,5 ) P 2 ) to produce inositol 1,4,5 trisphosphate ( IP 3 ) , which triggers the release of calcium from intracellular stores , and diacylglycerol ( DAG ) , which can activate protein kinase C isoforms .
+Other pathways that are activated downstream of PTKs include the Ras pathway and the phosphatidylinositol 3-kinase ( PI3K ) pathway .
+Activation of PI3K leads to activation of the serine and threonine kinase Akt and regulates the membrane association and function of the Tec family PTK , Bruton 's tyrosine kinase ( Btk ) .
+Adaptor proteins such as B cell linker ( BLNK ) , which contain protein protein interaction domains but no catalytic activity , play critical roles in linking BCR induced PTK activation to downstream effectors .
+The BCR signaling cascade ultimately leads to activation of transcription factors such as nuclear factor of activated T cells ( NF-AT ) and nuclear factor of kappa binding ( NF-kappaB ) .
+In at least one case , alternative outcomes of BCR signaling correlate with differential activation of these transcription factors .
+During B cell responses to thymus dependent antigens , key B cell activation and differentiation events occur within germinal centers ( GCs ) .
+The GC response is initiated when B cells activated by encounter with antigen and cognate T cell help migrate to the B cell follicles and begin proliferating rapidly in association with the follicular dendritic cell ( FDC ) network to give rise to a GC .
+GC B cells begin a complex differentiation program that incorporates somatic hypermutation coupled with selection for high-affinity antigen specific Ig , Ig class switching , and differentiation into memory B cells or plasma cells .
+GC B cells represent a distinct differentiation state and display several unique properties such as a predisposition to apoptosis and reexpression of genes expressed during early B cell development .
+The molecular basis for B cell activation and differentiation processes occurring within GCs is poorly understood .
+In this study , we have undertaken a screen for GC associated genes and report the identification and characterization of a novel B cell restricted signaling molecule that is highly expressed in GC B cells and appears to regulate B cell activation pathways downstream of PI3K .
+Materials and Methods
+Isolation of the Bam32 cDNA .
+Enriched FDC populations were obtained from human tonsils according to the method of Liu et al. .
+Cells ( 10 6 ) were pooled from three preparations , total RNA was isolated , and double stranded cDNA was produced using the switching mechanism at RNA termini ( SMART ) PCR cDNA synthesis method ( Clontech ) .
+PCR analysis of the resulting cDNA using primers that can distinguish FDC and B cell isoforms of CD21 indicated that both isoforms were present in approximately equal proportions ( data not shown ) .
+A double stranded driver cDNA was concomitantly produced by the same method using an equal mixture of RNA from the fibroblast cell lines HFF and 122 and the epithelial line HeLa .
+A suppression subtractive hybridization ( SSH ) PCR subtraction procedure was carried out according to the manufacturer 's protocol ( PCR Select ; Clontech ) , using the FDC cDNA as tester and the fibroblast and epithelial cell cDNA as driver .
+The pool of differentially expressed gene fragments generated was then cloned into the pCRII vector ( Invitrogen ) , and 60 clones were randomly picked and screened for differential expression using tester and driver cDNA probes .
+Differentially expressed clones were sequenced by dye-terminator sequencing ( PE Biosystems ) .
+The Bam32 SSH fragment was used as a probe to screen a human lymph node cDNA library , and several positive clones were obtained and sequenced .
+A fragment of the murine Bam32 cDNA was obtained by low stringency reverse transcription ( RT ) - PCR , and then the entire cDNA was obtained using rapid amplification of cDNA ends ( RACE ) with an adaptor ligated cDNA template derived from Balb and c spleen ( Clontech ) .
+Fluorescence In Situ Hybridization .
+Plasmids containing 5 ' and 3 ' fragments of the Bam32 cDNA were labeled with biotin-11-dATP by nick translation ( GIBCO BRL ) .
+Metaphase chromosome preparations from lymphocytes of a human male were obtained using 0.075 M KCl as a hypotonic buffer and methanol and acetic acid ( 3:1 vol and vol ) as a fixative .
+Hybridization was carried out as described previously .
+The chromosomes were banded using Hoechst 33258-actinomycin D staining and counterstained with propidium iodide .
+The chromosomes and hybridization signals were visualized by fluorescence microscopy using a dual bandpass filter ( Omega ) .
+Northern Blot and RT-PCR Expression Analysis .
+A 32 P labeled Bam32 cDNA probe was hybridized to human multiple tissue Northern blots ( Clontech ) and to a Northern blot containing 2 mug of poly A + RNA from human tonsils , according to the manufacturer 's protocol .
+For RT-PCR analysis , 2 mug of total RNA from the indicated cell lines was reverse transcribed using Superscript II reverse transcriptase ( GIBCO BRL ) .
+1 and 10 of the resulting cDNA was subjected to PCR amplification for 30 cycles using Bam32 specific primers TGTCTCACAGAGCGAGAAGGTGTCAGG and GAACCATCAGAGTGCCTGTCTCGCTTCC or glyceraldehyde-3-phosphate dehydrogenase ( G3PDH ) control primers TGAAGGTCGGAGTCAACGGATTTGGT and CATGTGGGCCATGAGGTCCACCAC .
+The resulting PCR products were run on agarose gels , Southern blotted , and hybridized with oligonucleotide probes : CTCTACCTCTGTGAAGGGCGCGAATG ( Bam32 ) and TGGGCGCCTGGTCACCAGGGCTGCTT ( G3PDH ) .
+For analysis of Bam32 expression in primary B cell subsets , tonsillar B cells were prepared as described , stained with FITC labeled anti-IgD ( mAb deltaSTA4-1 ) and PE labeled anti-CD38 ( Immunotech ) , and sorted into IgD + CD38 - ( naive ) , IgD - CD38 + ( GC ) , and IgD - CD38 + ( memory ) fractions using a FACStar PLUS ( TM ) instrument ( Becton Dickinson ) .
+For in vitro stimulation experiments , naive ( high density ) B cells were prepared by Percoll fractionation of tonsillar B cells , as described .
+Cells were stimulated with 2 mug and ml anti-CD40 ( mAb G28-5 ) and harvested at the indicated time .
+The indicated dilution of first-strand cDNA was used for PCR amplification as above .
+Expression Constructs and Antibodies .
+Eukaryotic expression vectors were generated by inserting the full-length coding sequence or sequence encoding amino acids 1-142 ( DeltaPH COOH-terminal truncation mutant ) into pcDNA3 ( Invitrogen ) .
+Myc tagged Bam32 expression vector was generated by inserting the Bam32 coding sequence into pcDNA3 .1 myc and hisA ( Invitrogen ) in frame with the myc tag .
+Constructs encoding Bam32 enhanced green fluorescent protein ( EGFP ) fusion proteins were generated by inserting either sequence encoding the full-length protein ( EGFP-Bam32 ) , amino acids 1-142 ( EGFP-SH2 ) , or amino acids 133-280 ( EGFP-PH ) into the pEGFP-C1 vector ( Clontech ) .
+R61K , R184C , and K197E point mutants were generated with mutant PCR primers using the splicing by overlap extension ( SOE ) method and inserted into pEGFP-C1 ( PH domain only ) or pcDNA3 ( full-length ) .
+The Btk PH domain construct contains amino acids 1-195 inserted into pEGFP-C1 .
+Prokaryotic expression vectors encoding a Bam32 SH2 domain ( amino acids 1-142 ) - glutathione S-transferase ( GST ) fusion protein or a full-length Bam32-GST fusion protein were generated by inserting the appropriate Bam32 coding sequence into the pGEX 5-x-2 vector ( Amersham Pharmacia Biotech ) .
+Fusion proteins were purified with glutathione-sepharose beads ( Amersham Pharmacia Biotech ) , according to the manufacturer 's protocol .
+An anti-Bam32 serum ( 4210K ) was generated by immunizing rabbits with a Bam32-GST fusion protein .
+A Bam32 specific mAb ( UW32 ; IgG1 isotype ) was generated by immunizing mice with Bam32-GST fusion protein , followed by fusion with NS-1 cells and ELISA screening of clones for reactivity against Bam32-GST but not GST alone .
+Other antibodies used were biotinylated phosphotyrosine specific mAb 4G10 ( Upstate Biotechnology ) , anti-myc mAb 9E10 , anti-BLNK mAb 2C9 ( Santa Cruz Biotechnology ) , and affinity purified rabbit anti-PLCgamma1 and anti-PLCgamma2 sera ( Santa Cruz Biotechnology ) .
+Transient Transfection of BJAB Cells .
+For transient transfection experiments , BJAB cells were resuspended in tissue culture medium at 3 x 10 7 / ml and 400 mul of cells was mixed with the indicated amount of plasmid constructs in a 0.4-cm-gap electroporation cuvette ( Bio-Rad ) and incubated on ice for 10 min .
+Cells were then electroporated using a Gene Pulser apparatus ( Bio-Rad ) set at 240 V , 960 muF , incubated on ice for a further 10 min , and then transferred to a tissue culture dish containing 20 ml of complete RPMI medium containing 15 % FCS and no antibiotics and incubated overnight in a 37degreesC , 5 % CO 2 incubator .
+Cells were then harvested , counted , and used in the indicated assays .
+Immunoprecipitation and Blotting .
+For stimulation experiments , Ramos cells were resuspended at 2 x 10 7 / ml and stimulated for the indicated periods of time with 10 mug and ml of goat anti-human IgM F ( ab ' ) 2 fragments ( Jackson ImmunoResearch Laboratories ) or 2.5 mM of H 2 O 2 plus 250 muM of sodium orthovanadate ( referred to as pervanadate ) , washed with 10 vol of ice-cold PBS containing 0.1 % sodium azide , and lysed at 4 x 10 7 cells and ml in NP-40 lysis buffer ( 150 mM NaCl , 50 mM Tris , pH 8.0 , 5 mM EDTA , 0.5 % NP-40 , protease inhibitors [ 2 mM PMSF , 10 mug and ml aprotinin , 10 mug and ml leupeptin , and 1 mug and ml pepstatin ] , and phosphatase inhibitors [ 10 mM NaF , 1 mM Na 3 VO 4 , and 5 mM Na 4 P 2 O 7 ] ) .
+Immunoprecipitation , SDS-PAGE , and Western blot analysis were conducted as described .
+Far-Western blotting with the Bam32 SH2 domain-GST fusion protein were performed as described .
+Confocal Microscopy Analysis of GFP Fusions .
+10 mug of the indicated pEGFP vectors was transfected into BJAB cells by electroporation .
+After 18-20 h , cells were harvested , washed , and rested overnight in low-serum medium ( 1.25 % FCS ) .
+This manipulation reduced the basal membrane association of the PH domain containing fusion proteins .
+Cells were then harvested and resuspended at 4-6 x 10 6 / ml in low-serum medium .
+Cells were incubated for 30 min at 37degreesC with or without PI3K inhibitors wortmannin ( 20 ng and ml ; Calbiochem ) or LY294002 ( 25 muM ; Calbiochem ) , and then stimulated with 10 mug and ml goat anti-human IgM F ( ab ' ) 2 fragments for the indicated time .
+Cells were then washed in 10 vol of ice-cold PBS , fixed in 2 % paraformaldehyde and PBS for 30 min at room temperature , washed twice in PBS , and then mounted on slides using an aqueous mounting solution ( Aqua Polymount ; Polysciences , Inc. ) .
+EGFP fluorescence was examined using a scanning laser confocal microscope equipped with LaserSharp software ( MRC-1024 system ; Bio-Rad ) .
+The ratio of membrane to cytoplasmic EGFP fluorescence intensity was determined from digital images using ImageQuant ( R ) software ( Molecular Dynamics ) .
+For each cell , the peak pixel intensity at 4 points on the plasma membrane was averaged and divided by the average pixel intensity within a defined area of cytoplasm ( avoiding the nucleus ) .
+Luciferase Assays .
+BJAB B cells were transfected by electroporation with pcDNA3 expression vectors containing wild-type or mutant Bam32 and an NF-AT-luciferase reporter construct ( gift from Dr. Gary Koretzky , University of Iowa , Iowa City , IA ) .
+After 18-20 h , cells were harvested and plated in 96-well plates at 2 x 10 5 / well .
+Triplicate cultures were incubated in media alone , with 5 mug and ml anti-IgM F ( ab ' ) 2 fragments or 50 nM phorbol-12 ,13 - dibutyrate ( PdBu ; Calbiochem ) and 2.5 muM ionomycin ( Calbiochem ) .
+After 6 h , the cells were lysed and luciferase activity was measured as described .
+Results
+Cloning of Bam32 , A Novel GC associated Signaling Adaptor .
+To identify genes expressed in GCs , we carried out an SSH experiment using an enriched preparation of human FDCs as a source of tester cDNA ( see Materials and Methods ) .
+PCR analysis indicated that our tester cDNA included both transcripts derived from FDCs and transcripts derived from adhering B cells ( data not shown ) .
+One of the differentially expressed clones isolated from this subtraction experiment contained a partial coding sequence for a novel SH2 domain containing protein .
+Several cDNA clones containing the entire protein coding sequence for this gene were obtained by screening a human lymph node cDNA library .
+The cDNA sequence predicts a 32-kD protein containing an NH 2 -terminal SH2 domain and a COOH-terminal PH domain , but lacking any known catalytic domains ( A ) .
+The sequence contains 10 tyrosines , 1 of which matches the consensus motif for a tyrosine phosphorylation site .
+Thus , this molecule represents a new member of the adaptor class of signaling molecules .
+Based on this structure and the restricted expression pattern of this gene ( see below ) , we have designated this molecule Bam32 for B lymphocyte adaptor molecule of 32 kD .
+The murine Bam32 homologue was isolated by low stringency PCR , followed by RACE ( A ) .
+Murine Bam32 shares 96.7 % sequence identity with the human protein within the central portion containing the SH2 and PH domains .
+In contrast , the NH 2 -terminal region is less well conserved ( 76.5 % identity ) , while the COOH-terminal 20 amino acids are completely different than our human clones .
+However , the expressed sequence tag ( EST ) database contains an alternatively spliced human Bam32 cDNA sequence that encodes a COOH-terminal sequence corresponding to our mouse Bam32 clone ( 82.6 % identity ) .
+We designate the two human splice forms hbam1 and hbam2 and the corresponding murine sequence mbam1 ( A ) .
+The chromosomal location of the human Bam32 gene was determined by fluorescent in situ hybridization ( FISH ) on banded human metaphase chromosomes .
+In the majority of cells examined ( 44 and 67 ) , clear signals were observed on both chromatids of chromosome 4 at band q25-q27 ( B ) .
+Bam32 Is Expressed by B Lymphocytes , but Not T Cells or Nonhematopoietic Cells .
+Expression of Bam32 in human tissues was determined by Northern blot analysis ( A ) .
+Our Bam32 cDNA probe detects both a predominant 2.9-kb transcript , corresponding in size to our largest cDNA clones , and a much less abundant 4.4-kb transcript .
+Bam32 transcripts are detected in all hematopoietic tissues tested ( bone marrow , spleen , lymph node , and peripheral blood leukocytes ) with the exception of the thymus , which shows little or no expression .
+Bam32 expression was also observed in trachea and placenta , but not in 14 other nonlymphoid tissues including brain , heart , kidney , liver and skeletal muscle , indicating that expression is largely confined to cells of the immune system .
+Consistent with the restricted tissue distribution pattern , RT-PCR analyses indicated that Bam32 is expressed in all B cell lines examined , but not in T cell , epithelial cell , fibroblast , or myelocytic leukemia lines ( B ) .
+As expected , Bam32 transcripts were detected in the sort enriched tonsillar FDC tester RNA , but not in the fibroblast pool driver RNA .
+Bam32 Expression Is Increased upon B Cell Activation .
+Since Bam32 was isolated as a GC associated gene , it was of interest to compare the expression of Bam32 at different stages of B cell differentiation .
+Therefore , we fractionated human tonsillar B cells into naive , GC , and memory subsets on the basis of CD38 and IgD expression .
+While Bam32 transcripts were detected in all fractions , GC B cells expressed fourfold higher levels than naive B cells ( A ) .
+Furthermore , the memory B cell fraction expressed 15-fold lower levels of Bam32 transcripts than GC B cells .
+These results suggest that Bam32 expression levels are modulated during B cell activation and differentiation .
+To further investigate the activation signals that might regulate Bam32 expression , resting B cells were stimulated in vitro with CD40 antibodies and Bam32 expression was determined .
+CD40 ligation led to a 5-10-fold increase in Bam32 expression , whereas BCR ligation had no significant effect ( B ) .
+Together , these results suggest that Bam32 expression is specifically increased during T cell dependent activation , is maintained at high levels during the subsequent GC response , and then decreases upon differentiation to memory B cells .
+Bam32 Is Phosphorylated on Tyrosine and Associates with PLCgamma2 after BCR Ligation or Pervanadate Stimulation .
+To determine whether Bam32 associates with tyrosine phosphorylated proteins after B cell activation , Bam32 was immunoprecipitated from lysates of resting or activated B cells and the precipitates were run on SDS-PAGE and blotted with biotinylated phosphotyrosine specific mAb followed by streptavidin-peroxidase ( A ) .
+Two predominant tyrosine phosphorylated proteins running at ~ 140 and 35 and 36 kD were detected in Bam32 immunoprecipitates from BCR- or pervanadate stimulated Ramos cells .
+As expected , neither of these bands was observed in immunoprecipitates from pervanadate stimulated Jurkat cells , which do not express Bam32 .
+We found no evidence for a phosphoprotein running at 32 kD ; however , when Bam32 immunoprecipitates were blotted with polyclonal Bam32 antibodies , an additional band of ~ 35 and 36 kD was detectable after BCR or pervanadate activation ( A , bottom ) .
+This band was not present in unstimulated cells and comigrated with the 35 and 36 kD band detected by antiphosphotyrosine blotting , indicating that it represents tyrosine phosphorylated Bam32 .
+Consistent with this conclusion , myc epitope tagged Bam32 also underwent a bandshift and was tyrosine phosphorylated after pervanadate stimulation ( B ) .
+Western blot analyses identified the 140-kD associated protein as PLCgamma2 , whereas neither PLCgamma1 nor BLNK could be detected in Bam32 immunoprecipitates ( A ) .
+Although we can detect some constitutive association of Bam32 with PLCgamma2 , association is substantially increased after activation ( B ) .
+A Bam32 SH2 domain fusion protein bound in vitro to tyrosine phosphorylated PLCgamma2 immobilized on a nitrocellulose membrane , but not to CD22 ( C ) , syk , or SH2 domain containing inositol 5-phosphatase ( SHIP ) ( data not shown ) , suggesting that the Bam32-PLCgamma2 interaction is direct and mediated by the SH2 domain .
+Weak binding of the Bam32 SH2 fusion protein to PLCgamma1 was also detected under these conditions ( C , and data not shown ) .
+These results indicate that Bam32 can interact with tyrosine phosphorylated signaling molecules after B cell activation through its SH2 domain and may function in part by regulating the activity and and or location of PLCgamma2 .
+Bam32 Is Recruited to the Plasma Membrane after BCR Cross Linking Via Its PH Domain .
+We hypothesized that Bam32 may associate with the plasma membrane through binding of its PH domain to phosphoinositides generated by PI3K , as observed with a subset of PH domain containing proteins , including Btk in B cells .
+To determine the subcellular localization of Bam32 before and after BCR cross linking , we transfected BJAB B cells with constructs encoding EGFP or EGFP fused to Bam32 and examined the subcellular localization of the fusion proteins by confocal fluorescence microscopy .
+While the native EGFP showed only diffuse cytoplasmic and nuclear signal , a proportion of the EGFP-Bam32 fusion protein was associated with the plasma membrane ( A ) .
+Membrane localization of Bam32-EGFP was increased by approximately threefold after BCR cross linking ( A , and data not shown ) .
+To determine which domains of Bam32 are required for membrane association , the NH 2 -terminal half of Bam32 containing the SH2 domain or the COOH-terminal half containing the PH domain was independently expressed as a fusion with EGFP .
+We found that the SH2 domain fusion localized to the cytoplasm , whereas the PH domain fusion showed a clear association with the plasma membrane that increased after BCR ligation ( A ) .
+The full-length Bam32 fusion and the PH domain fusion show similar levels of basal and induced membrane association , indicating that the PH domain is both necessary and sufficient for membrane recruitment .
+The surprisingly high basal level of Bam32 membrane association in BJAB B cells , which was not observed with the Btk PH domain in NIH 3T3 cells , prompted us to compare the relative levels and kinetics of membrane association of the Bam32 and Btk PH domains after BCR ligation ( B ) .
+By quantifying relative fluorescence levels in the plasma membrane versus the cytoplasm at various time points after stimulation , we found that membrane recruitment of the Bam32 PH domain was evident within 1 min of BCR stimulation , peaks at ~ 5 min , and then slowly declines back to basal levels .
+The Btk PH domain was recruited with similar kinetics ; however , a significantly lower proportion of the fusion protein is present at the plasma membrane ( relative to the cytoplasm ) at each time point , and membrane association was not observed in unstimulated cells ( B ) .
+Unlike Bam32 , a significant proportion of the Btk PH domain fusion protein localized to the nucleus as observed previously .
+These results suggest that the Bam32 PH domain is rapidly and quantitatively recruited to the plasma membrane after BCR ligation , and may have a higher selectively for binding to the activated plasma membrane than the Btk PH domain .
+Recruitment of the Bam32 PH Domain to the Plasma Membrane Is Dependent on PI3K Activity and an Intact PI ( 3,4,5 ) P 3 -binding Motif .
+We examined whether membrane association of the Bam32 PH domain was dependent on PI3K activity by preincubating cells expressing EGFP-Bam32 or EGFP-Bam32 PH domain fusion proteins with two structurally unrelated PI3K inhibitors , wortmannin or LY294002 , before BCR ligation ( A ) .
+These inhibitors blocked membrane association of both fusion proteins , demonstrating that membrane association of both the PH domain and Bam32 as a whole is dependent on PI3K activity .
+Alignment of the Bam32 PH domain with other PH domains reveals that Bam32 contains a series of amino acids in the beta2 and beta3 strands that are conserved among PI ( 3,4,5 ) P 3 -binding PH domains , including the arginine corresponding to R28 in Btk , which is mutated in human X linked agammaglobulinemia patients and Xid mice , and which forms part of the PI ( 3,4,5 ) P 3 -binding pocket .
+To test whether membrane association of the Bam32 PH domain requires the conserved arginine in this putative PI ( 3,4,5 ) 3 -binding pocket , we generated a construct encoding EGFP fused to the Bam32 PH domain bearing an R184C mutation .
+The R184C mutation completely abrogated membrane association ( B ) , providing support for the hypothesis that the PI3K dependent association of the Bam32 PH domain occurs through direct binding to PI ( 3,4,5 ) 3 .
+Interestingly , when aligned with the Btk PH domain , the Bam32 PH domain also contains an amino acid substitution in the beta3 strand found in a gain-of-function Btk mutant that shows constitutive membrane association ( E41K ; references 14 , 38 ) .
+To examine the role of this residue in Bam32 membrane association , we generated a K197E mutant PH domain and examined membrane association ( B ) .
+Surprisingly , the K197E mutation also completely disrupted membrane association , suggesting that this residue , which is not conserved among phosphoinositide binding PH domains , has a critical role in phosphoinositide binding of the Bam32 PH domain .
+We have confirmed the effect of the R28C and K41E mutations on membrane association by immunofluorescence staining of full-length Bam32 proteins expressed in BJAB cells ( data not shown ) .
+Together , the results in and suggest that , after BCR ligation , Bam32 is recruited to the plasma membrane at sites of PI3K activation through binding to PI ( 3,4,5 ) P 3 in a manner analogous to Btk .
+Bam32 Can Modulate BCR induced Transcriptional Activation .
+To determine whether the presence of Bam32 in membrane associated signaling complexes can regulate signaling through the BCR , we assessed the effect of overexpressing wild-type or mutant Bam32 proteins , using downstream transcriptional activation as a readout for BCR signaling .
+Bam32 expression constructs were cotransfected into BJAB cells with a luciferase reporter construct that allows measurement of transcription mediated by NF-AT , a family of transcription factors that are important regulators of both B and T cell activation responses .
+Strikingly , expression of wild-type Bam32 inhibited BCR induced activation of NF-AT in a dose dependent manner ( A ) , suggesting that modulation of Bam32 dose during B cell differentiation ( ) could affect the outcome of BCR ligation .
+The observed decrease in NF-AT activation is due to modulation of BCR signaling pathways , since Bam32 expression level had no significant affect on cell viabilities or levels of NF-AT activation induced by phorbol ester and ionomycin ( data not shown ) .
+Deletion of the PH domain abrogated the ability of Bam32 to inhibit BCR induced NF-AT activation , whereas mutation of the invariant arginine of the SH2 domain to lysine ( R61K ) had no significant effect ( B ) .
+Cells expressing full-length Bam32 containing the R184C or K197E mutations showed similar or slightly increased BCR induced NF-AT activation compared with controls ( C ) , indicating that PI ( 3,4,5 ) 3 -mediated membrane recruitment of Bam32 is required for the inhibitory effect .
+Since Bam32 functions downstream of PI3K , and the role of PI3K in NF-AT activation has not been examined in B cells , we determined the effect of PI3K inhibitors on BCR induced activation of NF-AT in BJAB cells ( D ) .
+Both wortmannin and Ly294002 inhibited BCR induced NF-AT activation in a dose dependent manner ( D ) , and this inhibition was not due to nonspecific toxicity of the inhibitors , since PdBu plus ionomycin induced NF-AT activation was not significantly affected ( data not shown ) .
+This result indicates that BCR induced NF-AT activation requires effectors downstream of PI3K , as was previously found for TCR induced activation of NF-AT .
+Discussion
+Studies of genetically deficient animals or humans have implicated adaptor proteins as critical regulators and integrators of signaling pathways in lymphocytes .
+The Bam32 molecule described in this report represents a new and unique addition to the growing family of hematopoietic cell restricted signaling adaptor proteins that regulate lymphocyte signal transduction .
+Compared with the known group of hematopoietic cell restricted adaptor proteins , Bam32 is distinguished by its small size and its simple two-domain structure .
+Perhaps due to this compact structure , the Bam32 amino acid sequence is highly conserved between different species , with mouse Bam32 showing > 90 % identity to human ( ) and chicken Bam32 showing > 80 % identity to human ( Maeda , A. , H. Niiro , A.J. Marshall , E.A. Clark , and T. Kurosaki , unpublished data ) .
+Expression and Chromosomal Location of Bam32 .
+Bam32 is clearly expressed in B , but not T lymphocytes ; however , the present data do not rule out expression in myeloid or other hematopoietic lineages .
+Indeed , Bam32 is expressed at high levels in the trachea , which contains few lymphocytes but significant numbers of dendritic cells .
+Our preliminary results suggest that Bam32 is expressed in monocyte derived dendritic cells ( Marshall , A.J. , D. Magaletti , and E.A. Clark , unpublished data ) , which could potentially account for Bam32 expression in the trachea .
+In the B lineage , Bam32 is expressed as early as the pre-B cell stage ( Marshall , A.J. , and E.A. Clark , unpublished data ) .
+Expression in mature B cells is modulated during activation and subsequent differentiation , with a marked increase in expression during the naive to GC B cell transition , and a dramatic decrease in memory B cells ( ) .
+Among human B cell lines , we observe the highest levels of Bam32 protein in the typical Burkitt 's lymphoma lines Ramos and Daudi ( data not shown ) , which share many features with GC B cells .
+Finally , we find that cross linking CD40 on naive B cells , which can turn on some phenotypic characteristics of GC B cells , leads to a rapid increase in Bam32 expression ( B ) .
+Interestingly , BCR ligation alone does not significantly affect Bam32 expression , and does not affect upregulation when used in combination with CD40 ligation , suggesting that transcription of Bam32 is specifically CD40 responsive .
+Together , these data strongly suggest that Bam32 expression is increased during T cell dependent B cell activation and the subsequent GC response .
+It is tempting to speculate that Bam32 upregulation may be an important factor in the cross-talk between CD40 and BCR signaling pathways and and or in tuning B cell responses to antigen during affinity maturation in GCs .
+The human Bam32 gene is located on chromosome 4 q25-q27 , an interval containing several other immunologically relevant genes such as IL-2 , epidermal growth factor , fibroblast growth factor 2 , caspase 6 , I factor ( complement ) , and lymphoid enhancer binding factor 1 .
+Consistent with the chromosomal assignment , the Bam32 cDNA sequence matches a sequence tagged site ( STS ) on chromosome 4 ( data not shown ) .
+Interestingly , loss of this region of chromosome 4 is observed in many Hodgkin 's lymphomas , which are thought to originate from GC B cells .
+Given that Bam32 may negatively regulate NF-AT activation in B cells , it will be important to determine whether defects in Bam32 expression could contribute to increased B cell proliferation and potentially malignant transformation in Hodgkin 's lymphoma .
+Tyrosine Phosphorylation of Bam32 .
+Bam32 is tyrosine phosphorylated after BCR ligation , indicating that it is a target of a kinase activated downstream of the BCR .
+While Bam32 contains 10 tyrosine residues , only 1 ( Y139 ) matches the general consensus motif for a tyrosine phosphorylation site in which a basic followed by an acidic amino acid are present 4-6 residues NH 2 -terminal to the tyrosine .
+This tyrosine lies in an SIYESV motif , which fits the preferred target sequence for src family kinases ( I/L-Y-D/E ) , but not for syk kinase ( D-Y-E ) .
+When phosphorylated , this site could form a target for binding of some SH2 domain containing proteins .
+The phosphorylation of Bam32 correlates with a bandshift of 2-3 kD on our SDS-PAGE gels , suggesting that either phosphorylation at tyrosine 139 leads a stable conformational change that retards the migration of Bam32 , ( b ) phosphorylation at tyrosine 139 is upstream of multiple phosphorylations by serine and threonine kinases , or ( c ) Bam32 is phosphorylated on multiple tyrosines not conforming to the consensus tyrosine phosphorylation site .
+We have found that phosphorylated Bam32 is poorly recognized by our mAb , consistent with a stable conformational change .
+Interestingly , preliminary evidence indicates that Bam32 phosphorylation is inhibited by wortmannin pretreatment ( Niiro , H. , A.J. Marshall , and E.A. Clark , unpublished ) , suggesting that membrane recruitment of Bam32 is required for its phosphorylation and and or that activation of the kinase responsible is dependent on PI3K activity .
+Structure and Function of the Bam32 SH2 Domain .
+BLAST sequence similarity searching ( available at http://www.ncbi.nlm.nih.gov/BLAST ) indicated that the Bam32 SH2 domain is most highly related ( 30-37 % identity ) to those of the adaptor protein Nck , PLCgamma1 , PI3K p85 subunit , and the protein tyrosine phosphatases SHP-1 and SHP-2 .
+The Bam32 SH2 domain shows the greatest overall similarity with the Nck SH2 domain ( 37 % identity , 62 % similarity ) , including identical residues at the betaD3 and betaD5 positions , which are thought to be critical in determining specificity of binding to phosphotyrosine motifs .
+Despite the similarity with the Nck SH2 domain , we have been unable to detect association of Bam32 with proteins known to associate with Nck in activated lymphocytes such as BLNK , p62 DOK , and p120 Ras-GAP ( Niiro , H. , A.J. Marshall , and E.A. Clark , unpublished data ) .
+However , we can clearly detect association of Bam32 with PLCgamma2 in vivo .
+Our results indicate that the Bam32 SH2 domain can directly bind phosphorylated PLCgamma2 in vitro ; however , we can not exclude the possibility that the in vivo interaction is mediated by another protein .
+The finding that PLCgamma2 but not PLCgamma1 can be detected in Bam32 immunoprecipitates is intriguing , and could be due to differences in the tyrosine phosphorylation motifs present in these two isoforms .
+However , we did detect some binding of the Bam32 SH2 domain to tyrosine phosphorylated PLCgamma1 in vitro , so we can not completely exclude the possibility of a low stoichiometry association between Bam32 and PLCgamma1 in vivo .
+Structure and Function of the Bam32 PH Domain .
+The PH domain of Bam32 appears to be both necessary and sufficient for membrane association of Bam32 ( A ) .
+We have observed no significant differences in the behavior of the full-length Bam32 fusion protein and the PH domain fusion protein in terms of the level of basal or induced membrane association or the sensitivity of membrane association to PI3K inhibitors ; however , the present experiments do not rule out a contribution of the SH2 domain in regulating Bam32 localization .
+The PH domain of Bam32 is related ( 39 % identity ) to those of Grp1 , cytohesin-1 , and ADP ribosylation factor nucleotide binding site opener ( ARNO ) , which bind to 3-phosphoinositides generated by PI3K .
+Bam32 , like Grp1 , Akt , and Btk also contains a series of conserved residues in the beta1 and beta2 strands of the PH domain that correlate with the ability to bind 3-phosphoinositides .
+Thus , the structure of the Bam32 PH domain is consistent with the hypothesis that it functions as a mediator of PI3K dependent membrane association through binding of 3-phosphoinositides .
+Indeed , we find that association of Bam32 with the plasma membrane is strictly dependent on PI3K activity and an intact PI ( 3,4,5 ) P 3 -binding motif in the PH domain .
+During preparation of this manuscript , a molecule identical to Bam32 was described under the name DAPP1 , for dual adaptor for phosphotyrosine and 3-phosphoinositides .
+In that report , the PH domain of DAPP1 was found to bind in vitro to the PI3K products PI ( 3,4,5 ) P 3 and PI ( 3,4 ) P 2 , consistent with our in vivo findings of PI3K dependent membrane recruitment .
+Btk is another example of a B cell specific protein that is recruited to the plasma membrane through its PH domain in a PI3K dependent manner , through direct binding to PI ( 3,4,5 ) P 3 .
+PH domain dependent membrane recruitment of Btk is functionally relevant because point mutations that prevent membrane recruitment block Btk activation , leading to defective B cell development in X linked agammaglobulinemia , and point mutations that cause constitutive membrane association lead to constitutively active Btk .
+Interestingly , direct comparison of the membrane recruitment of the Bam32 versus Btk PH domains indicated that the Bam32 PH domain associates with the plasma membrane of activated B cells with higher stoichiometry than the Btk PH domain ( B ) .
+Since our analysis considers the ratio of localization to the membrane versus the cytoplasm , this difference could be accounted for by a difference in their relative affinity for phosphoinositide ligands in the membrane or differences in affinity for potential protein ligands in the membrane or cytoplasm .
+The Bam32 and DAPP1 PH domain was estimated to bind PI ( 3,4,5 ) P 3 with an affinity of 3 nM , compared with 60 nM for 3-phosphoinositide-dependent kinase 1 ( PDK1 ) , which was used as an internal control in that study .
+In contrast , the Btk PH domain was estimated to bind PI ( 3,4,5 ) P 3 with an affinity of 800 nM .
+Thus , the Bam32 PH domain appears to bind PI ( 3,4,5 ) P 3 with an unusually high affinity .
+Role of Bam32 in B Cell Activation .
+The restricted expression pattern of Bam32 , together with its upregulation during B cell activation , strongly suggests that Bam32 functions as a specific regulator of B cell signaling pathways .
+Regulation of Bam32 levels during B cell differentiation ( ) could potentially modulate the stoichiometry and and or kinetics of membrane associated signaling complexes formed downstream of PI3K activation , thus altering the downstream consequences of activation signals .
+Given the apparent hierarchy of affinities present in PI ( 3,4,5 ) P 3 -binding proteins ( Bam32 -- > PDK1 -- > Btk and Akt ) , it seems likely that Bam32 is one of the first proteins recruited during activation of PI3K and and or that Bam32 can be recruited by lower levels of PI3K activation than these other proteins .
+Consistent with this idea , our data indicate that basal levels of PI ( 3,4,5 ) P 3 may be sufficient for some Bam32 to associate with the plasma membrane so that Bam32 is at the membrane before BCR activation .
+Our present hypothesis , which we are currently testing , is that Bam32 regulates the activity of protein kinases that are recruited later in the PI3K dependent cascade , such as Btk or Akt .
+Our results indicate that one downstream effect of increasing Bam32 levels is an inhibition of BCR induced activation of NF-AT .
+Although it is difficult to conclude simply from overexpression studies what precise role Bam32 plays in BCR signaling , it is clear that Bam32 can regulate the BCR signal transduction upstream of NF-AT .
+Activation of NF-AT transcriptional activity in B cells , as in T cells , requires both Ca 2+ mobilization and PKC activation .
+We find that treatment of BJAB B cells with PI3K inhibitors leads to inhibition of BCR induced NF-AT activation ( D ) , indicating that the PI3K pathway recruits essential effectors upstream of NF-AT activation in B cells .
+The requirement for PI3K in NF-AT activation may reflect , at least in part , the role of PI3K in activation of PLCgamma and subsequently Ca 2+ mobilization .
+Recent work has implicated Btk as a PI3K dependent effector which is required for full activation of PLCgamma leading to influx of Ca 2+ across the plasma membrane .
+Since Bam32 binds the same phospholipid as Btk and associates with PLCgamma2 , it is tempting to speculate that Bam32 could regulate the activation of PLCgamma2 by Btk .
+Overexpression of Bam32 in BJAB cells to levels that inhibit NF-AT activation by > 50 % does not lead to detectable changes in BCR induced Ca 2+ flux ( data not shown ) ; however , it remains possible that Bam32 regulates the sustained phase of the Ca 2+ response , which is Btk dependent and critical for full activation of NF-AT-dependent transcription .
+Another possibility is that Bam32 could modulate NF-AT activation by regulating Ca 2+ -independent signaling events downstream of PI3K , such as Akt activation .
+Akt could regulate NF-AT activation through phosphorylation and inhibition of glycogen synthase kinase 3 , whose activity opposes calcineurin dependent translocation of NF-AT to the nucleus .
+Expression of constitutively active Akt enhances TCR induced NF-AT activation , consistent with a role for Akt in NF-AT activation .
+The PI3K pathway has been shown to be essential for B cell activation and differentiation in studies examining the effect of PI3K inhibitors on B cell responses in vitro and the effect of PI3K p85alpha deficiency in mice .
+Furthermore , the PI3K pathway is subject to opposing regulation by the CD19 coreceptor , which recruits PI3K to the antigen receptor complex , and the inhibitory Fc receptor FcgammaRII , which specifically antagonizes the PI3K pathway by recruiting the inositol phosphatase SHIP .
+Bam32 is clearly a novel component of this critical PI3K activation pathway in B lymphocytes , and our results suggest that it may specifically regulate PI3K dependent effectors involved in activation of NF-AT .
+Modulation of BCR induced NF-AT activation by Bam32 could have important functional consequences for B cells , since B cells from NF-ATc-deficient mice have diminished proliferative responses to a variety of stimuli , including BCR or CD40 ligation .
+In contrast , B cells from NF-ATp-deficient mice are hyperproliferative and B cells from NF-AT4-deficient mice show an activated phenotype in vivo .
+We speculate that upregulation of Bam32 during the GC response may lead to qualitative changes in BCR signaling to the nucleus necessary for the exquisitely sensitive process of selection based on affinity for antigen .

@@ -1,0 +1,173 @@
+Complement dependent Clearance of Apoptotic Cells by Human Macrophages
+Apoptotic cells are rapidly engulfed by phagocytes , but the receptors and ligands responsible for this phenomenon are incompletely characterized .
+Previously described receptors on blood- derived macrophages have been characterized in the absence of serum and show a relatively low uptake of apoptotic cells .
+Addition of serum to the phagocytosis assays increased the uptake of apoptotic cells by more than threefold .
+The serum factors responsible for enhanced uptake were identified as complement components that required activation of both the classical pathway and alternative pathway amplification loop .
+Exposure of phosphatidylserine on the apoptotic cell surface was partially responsible for complement activation and resulted in coating the apoptotic cell surface with C3bi .
+In the presence of serum , the macrophage receptors for C3bi , CR3 ( CD11b and CD18 ) and CR4 ( CD11c and CD18 ) , were significantly more efficient in the uptake of apoptotic cells compared with previously described receptors implicated in clearance .
+Complement activation is likely to be required for efficient uptake of apoptotic cells within the systemic circulation , and early component deficiencies could predispose to systemic autoimmunity by enhanced exposure to and and or aberrant deposition of apoptotic cells .
+Although the apoptotic cell death program is executed in hours , the removal of dying cells is normally so rapid that few cells are seen -- even in tissues such as the thymus , where up to 95 % of cells undergo apoptosis ( ) .
+The importance , and complexity , of phagocytosis is highlighted by genetic studies of apoptosis in the nematode , Caenorhabditis elegans .
+Of the 14 genes ( CED 1-14 ) that regulate apoptosis during development of C. elegans , at least 6 encode proteins that are required for engulfment of apoptotic cells ( ) .
+An important stage of apoptosis involves the acquisition of surface changes on the apoptotic cell leading to rapid recognition and phagocytosis by surrounding cells followed by degradation in lysosomes .
+The mechanisms whereby apoptotic cells are efficiently identified , removed , and degraded by phagocytes in mammalian cells are not well understood .
+Several ligands and receptors have been reported to play a role in the initial engulfment of apoptotic cells in vitro .
+These include known receptors such as the alpha v beta 3 integrin ( ) , CD36 ( ) , which share the alpha v beta 3 / CD36 / thrombospondin recognition mechanism , other class A and B scavenger receptors ( - ) , the ATP binding cassette transporter ABC1 ( ) , and CD14 ( ) , as well as unknown receptors that have been characterized by their lectin binding properties ( ) or by specific recognition of phosphatidylserine ( PS ) 1 ( ) .
+In human peripheral blood derived macrophages , the known receptors show a relatively low uptake of apoptotic cells ( average of 40 apoptotic cells per 100 macrophages [ 12 , 13 ] ) and are only partially inhibited by specific blocking agents in vitro .
+Significantly , phagocytic assays of human monocyte derived macrophages have been performed in the absence of serum ( , , - ) .
+We report that a serum factor ( s ) provides a more than threefold increase in the uptake of apoptotic cells by human macrophages and demonstrate that complement components are required for this high level of uptake .
+Materials and Methods
+Phagocytosis Assays .
+Apoptosis of murine thymocytes was induced by gamma irradiation ( 600 cGy from a 137 Cesium source ) .
+The optimal conditions for thymocyte apoptosis without necrosis ( > 60 % cells bound annexin V , but > 95 % excluded propidium iodide and > 98 % trypan blue [ 16 ] ) , after irradiation , was culture for 1 h at 37degreesC and 5 % CO 2 in RPMI medium without serum .
+Apoptosis of human neutrophils was induced by incubation in medium in the absence of serum at 37degreesC and 5 % CO 2 for 6 h , conditions during which > 95 % of neutrophils do not take up propidium iodide , and 20-30 % are annexin V positive .
+The Burkitt B cell line , BL-41 , and normal human mature peripheral T cells were rendered apoptotic by gamma irradiation ( 4,000 cGy ) followed by incubation in the absence of serum as for human neutrophils .
+Interaction between human macrophages and apoptotic cells was performed as described with minor modifications in the presence or absence of 15 % human serum .
+Human macrophages were isolated from peripheral blood monocytes of normal donors as described ( ) and cultured on Chamber-Tek glass slides ( Nunc , Inc. , Naperville , IL ) .
+6-7 d after isolation , macrophages were washed three times with serum-free medium .
+10 6 apoptotic cells were offered to 2.5 x 10 4 macrophages ( approximate ratio of 40:1 ) and incubated for 1 h at 37degreesC and 5 % CO 2 .
+The interaction was terminated by washing with ice-cold PBS as described .
+The slides were fixed with methanol and Wright stained , and the numbers of apoptotic cells , both surface bound and internalized , were scored by light microscopy .
+In each assay , 100-400 macrophages were counted by 2 observers .
+The phagocytic index ( PI , number of apoptotic cells bound to or internalized by 100 macrophages ) was calculated as described .
+Inhibition Studies .
+Macrophages were preincubated with the antibody or tetrapeptide inhibitors for 15 min at 4degreesC followed by washing and exposure to autologous apoptotic neutrophils .
+Each experiment was done in triplicate on at least four separate occasions .
+For each blocking experiment , mAbs were used at a final concentration of 20 mug and ml and the tetrapeptides RGDS and RGES ( Sigma Chemical Co. , St. Louis , MO ) at a final concentration of 2 mM .
+mAbs were obtained from the following sources : anti-CR1 , 3D9 ( R.P. Taylor , University of Virginia , Charlottesville , VA ) , anti-CR3 ( I domain ) , MN-41 ( V. Vetvicka , Louisville School of Medicine , Louisville , KY ) , anti-CR4 ( anti-CD11c ; Sigma Chemical Co. ) , anti-CD36 ( FA6 ; R.L. Silverstein , Cornell Medical College , NY , NY ; and IgM ; Sigma Chemical Co. ) , anti-CD14 , 63D3 ( American Type Culture Collection , Rockville , MD ) , and 61D3 ( C.D. Gregory , University of Birmingham , Birmingham , UK ) .
+Flow Cytometry .
+Apoptotic cells were stained with FITC conjugated annexin V ( Nexins ) , propidium iodide , and PE conjugated IgG 2b kappa mouse monoclonal anti-human-iC3b ( Quidel , San Diego , CA ) .
+Flow cytometry analysis was performed on a FACScan ( R ) ( Becton Dickinson , Mountain View , CA ) .
+Mouse IgG 2b kappa was used as isotype control for anti-C3bi .
+Results
+The Effect of Serum on Uptake of Apoptotic Cells by Human Macrophages .
+To determine the effect of serum factors on the efficiency of phagocytosis of apoptotic cells , the PI was compared between macrophages exposed to apoptotic cells in the presence ( NHS ) or absence ( NoS ) of normal human serum as well as in the presence of heat inactivated serum ( HIS ) .
+Since conditions have been established for reliable induction of apoptosis of murine thymocytes with minimal necrosis ( < 5 % and 2 % uptake of propidium iodide and trypan blue , respectively [ 16 ] ) , initial experiments were performed with murine thymocytes .
+As shown in Fig .
+, A and B , heat-labile serum factor ( s ) induced at least a 10-fold increase in the PI that was dependent on time , temperature , and serum concentration .
+In the presence of 15 % serum , at least 5 apoptotic cells were engulfed by most macrophages as shown in Fig .
+C , whereas 0-1 cells were macrophage associated in the absence of serum .
+Similar results were observed when apoptosis was induced by dexamethasone ( results not shown ) .
+The experiments were then repeated in an entirely autologous system , i.e. , using serum and macrophages as well as apoptotic neutrophils or T cells from the same donor .
+In the absence of serum , the PI was 37 + /- 19 , similar to previous reports , but was 156 + /- 28 in the presence of serum ( representative examples are shown in Fig .
+, E-G ) .
+To distinguish between the requirement for serum factor ( s ) for opsonization ( see below ) versus uptake of apoptotic cells , apoptotic lymphocytes were incubated either with 15 % autologous serum or medium without serum for 1 h at 37degreesC and the phagocytosis assay was performed in the absence of serum ( two step assay ) .
+In the absence of serum at both steps , the baseline PI was 25 + /- 14 compared with 81 + /- 19 when apoptotic lymphocytes had been exposed to serum but the phagocytosis assay performed in the absence of serum .
+These findings indicate that serum factor ( s ) were more important for opsonization of the apoptotic cell than at the stage of phagocytosis .
+Complement Components Are Required for Efficient Uptake of Apoptotic Cells by Human Macrophages .
+The marked enhancement of the PI induced by a serum factor that was abrogated by heating to 56degreesC for 30 min suggested that complement components could be responsible for the uptake of apoptotic cells .
+To determine whether proteins of the classical and and or alternative complement pathways were required for phagocytosis of apoptotic cells , we evaluated the PI in the presence of serum depleted of specific complement components .
+When apoptotic neutrophils or T lymphocytes were used as targets , normal or C9 deficient serum augmented the PI three- to fivefold .
+In contrast , serum depleted of Factor B , C1q , or C3 ( not shown ) had a PI only slightly greater than the NoS control .
+To verify the specificity of these observations , we performed add-back experiments with the purified complement components C1q , Factor B , C3 , and C9 .
+As shown in Fig .
+, when the appropriate complement component was added to the C1q- or Factor B deficient serum , the PI returned to the value observed in the presence of 15 % serum .
+Addition of C1q in the absence of serum did not restore the PI ( data not shown ) .
+Similar results were obtained when murine thymocytes , Jurkat T cells , or BL-41 B cells were used as apoptotic targets in these experiments ( not shown ) .
+PS Exposure Activates Complement .
+To further investigate the mechanism responsible for complement activation , we examined whether the major C3 breakdown product , C3bi , was deposited on the surface of apoptotic neutrophils or lymphocytes by flow cytometry .
+As shown in Fig .
+, apoptotic lymphocytes ( B ) and neutrophils ( E , top right ) but not nonapoptotic lymphocytes ( A ) or neutrophils ( D , bottom left ) stained positively for C3bi .
+Two-color flow cytometry revealed that 31 % of the neutrophils were in the early apoptotic stage ( annexin V positive , PI negative [ not shown ] ; top and bottom right [ 17 ] ) and that C3bi coated 61 % of the apoptotic cells and > 90 % of the annexin V high apoptotic population .
+PS has been shown to serve as a specific ligand for recognition of apoptotic cells ( ) .
+Recognition of PS is particularly relevant to the engulfment of apoptotic cells , since PS is an acidic phospholipid that normally resides on the inside of the cell , but translocates to the outside of the cell membrane when the cell undergoes apoptosis .
+To determine whether blocking PS exposure on the apoptotic cells would inhibit complement activation , we preincubated apoptotic cells with annexin V , exposed the cells to serum , and then quantified C3bi exposure by flow cytometry .
+As shown in Fig .
+, C and D , annexin V substantially reduced , but did not completely inhibit , C3bi deposition .
+These findings strongly suggest that PS on the surface of apoptotic cells is at least partially responsible for complement activation .
+Complement Receptors Are Required for Efficient Uptake of Opsonized Apoptotic Cells .
+Human monocytes and macrophages express three known receptors , CR1 , CR3 , and CR4 , that bind complement proteins or their degradation products .
+CR1 ( CD35 ) binds mainly C3b , C4b , and C1q , whereas CR3 ( CD11b and CD18 ) and CR4 ( CD11c / CD18 ) are relatively specific for C3bi ( ) .
+Since apoptotic cells were coated with C3bi , we performed blocking experiments with mAbs specific to the complement receptors in order to evaluate their role in ligand binding .
+As shown in Fig .
+, mAbs to CR3 , CR4 , and CR1 inhibited uptake of apoptotic neutrophils by 60 + /- 8 , 50 + /- 4 , and 11 + /- 7 % , respectively .
+Since most prior studies of receptors and ligands implicated in engulfment of mammalian apoptotic cells were performed in the absence of serum ( , , - ) , we evaluated their role in the presence of serum using mAbs or ligands to inhibit their binding .
+As shown in Fig .
+A , all three receptors were highly expressed on the surface of human monocyte derived macrophages .
+Only RGDS ( which is thought not to inhibit CD11 and CD18 [ 22 ] ) significantly inhibited uptake of apoptotic cells under these conditions , although specific inhibition ( inhibition by RGDS-RGES ) was only 16 % .
+To definitively test the role of CR3 in the recognition of apoptotic cells , we examined the ability of a Chinese hamster ovary ( CHO ) cell line stably transfected with CR3 ( ) to phagocytose apoptotic cells .
+As shown in Fig .
+C , the PI of nontransfected CHO cells was near baseline in the presence or absence of serum , whereas the CR3 transfected cell line CHO-R3 had a PI approximating that observed in human macrophages in the presence of serum and showed extensive rosetting .
+Discussion
+These studies demonstrate for the first time that both the classical and alternative pathways of complement are activated by apoptotic cells in isologous conditions leading to deposition of C3bi on the apoptotic cell surface , that PS is at least partially involved in this activation , and that recognition of ligand by the macrophage complement receptors CR3 and CR4 is the most efficient mechanism of uptake of apoptotic cells in the presence of serum .
+Since C1q has been reported to bind to apoptotic cells ( ) , the results of our studies suggest that apoptotic cells activate the classical pathway but that amplification via the alternative pathway loop ( ) is required for efficient recognition by macrophages .
+The requirement for both classical and alternative complement pathway activation for efficient uptake of autologous apoptotic cells differs from reports of exclusive alternative pathway activation by the transformed cell lines , Jurkat T lymphocytes ( ) and a lung adenocarcinoma ( ) .
+These differences may be explained by the conditions and / or reagents used .
+For example , the use of serum with selective complement component deficiency revealed that complement activation by hemodialysis membranes , long thought to be mediated exclusively by the alternative pathway , required initiation by the classical pathway ( ) .
+Also , in studies by Nagasawa and colleagues ( ) , apoptosis was induced by antibody ( anti-Fas ) and a transformed macrophage like cell , THP-1 , used for phagocytosis .
+During apoptosis , a key alteration to the cell surface membrane is the translocation of the negatively charged PS from the inside to the outside of the cell .
+In addition , it is known that PS exposure on apoptotic cells is required for efficient uptake of apoptotic cells by phagocytes ( ) .
+To determine whether PS exposure , complement activation , and phagocytic recognition of cell bound complement products could be sequential steps in a physiological pathway for removal of apoptotic cells , we first examined the relationship between PS exposure on the cell membrane and complement activation .
+Annexin V binds to PS on the cell surface in a Ca 2+ dependent manner ( ) .
+Therefore , we examined whether annexin V would compete for complement binding and activation .
+The ~ 40 % reduction in C3bi deposition on apoptotic cells preincubated with annexin V strongly suggests that exposure of PS either directly or indirectly activates complement .
+The detection of C3bi on almost all of the annexin V hi expressing cells and the failure of annexin V to completely inhibit complement activation suggest that the binding sites for complement and annexin V are overlapping but not identical and and or that other molecules contribute to complement activation .
+Negatively charged phospholipids such as cardiolipin have previously been shown to activate C1 in the absence of antibody ( ) .
+Furthermore , clearance of PS containing liposomes by the liver is complement dependent ( ) .
+These observations reinforce the findings that PS activates complement and is required for uptake by fixed macrophages .
+The reason why complement activation on apoptotic cells fails to cause lysis of the cell is uncertain but may be explained by modulation of complement regulatory molecules , binding of additional serum proteins on the surface of apoptotic cells , alteration in the composition of the cell surface membrane , the rapid removal of opsonized cells , or a combination of these factors .
+Complement activation and amplification via the alternative pathway loop rapidly lead to cleavage of C3 and covalent binding of C3b to the activating cell surface .
+In the presence of serum , Factor I proteolytically cleaves C3b to C3bi .
+Whereas C3b has a half-life of only 90 s , the half-life of C3bi is ~ 35 min ( ) , accounting for its major role in opsonization ( - ) .
+To compare the relative roles of the macrophage complement receptors that recognize C3bi ( CR3 and CR4 ) with previously described apoptotic cell receptor and ligand systems , we analyzed the effect of different inhibitory mAbs or peptides on the uptake of apoptotic cells by macrophages in the presence of serum .
+For human peripheral blood derived macrophages , only blockade of CR3 or CR4 reduced the PI by > 50 % , whereas blockade of previously described receptors or ligands had a modest effect ( < 20 % inhibition ) .
+The dominant role of the complement receptors CR3 and CR4 in the uptake of apoptotic cells in the presence of serum suggests that complement may play the most active role in removal of apoptotic cells in vivo ( see below ) .
+In view of the cross-talk between integrins , it is possible that complement receptor engagement suppresses or has a transdominant inhibitory effect on other integrin containing receptors .
+The failure of previous studies to demonstrate a role for complement receptors in the uptake of apoptotic cells in vitro is , most likely , explained by the omission of serum in these assays ( ) or aging of neutrophils in the presence of serum before the phagocytic assay in the absence of serum ( ) .
+In the latter study , complement is likely to have been activated with the deposition of C3bi on the apoptotic neutrophil in the " aging " step and thereby may account for the lack of a requirement for serum in the phagocytosis assay .
+Complement components may also have been secreted by the macrophages ( ) in the 4-h assay period .
+When apoptotic cells were exposed to serum but the phagocytosis step was performed in the absence of serum , we also observed that the PI was increased more than threefold .
+The slightly lower PI in the two step assay compared with the one step assay could be explained by increased proteolysis of C3bi by serum factors such as Factor I , or may indicate that other serum factors are required for optimal phagocytosis .
+CR3 and CR4 have interesting relationships with previously described phagocytic receptors for apoptotic cells .
+The CD14 binding sites for apoptotic cells and LPS on human macrophages are identical or very close ( ) .
+Since CR3 and CR4 ( ) also bind to LPS and LPS-binding protein , these receptors may have a similar hydrophobic lipid binding site or CD14 , a glycosylphosphatidyl inositol ( GPI ) - linked membrane protein , may associate with the exodomains of the complement receptors to promote phagocytosis and / or signal transduction ( ) after exposure to apoptotic cells .
+Another recently described protein proposed to be involved in the engulfment of cell corpses is the C. elegans protein CED-5 ( the mammalian and Drosophila melanogaster homologues are DOCK 180 and Myoblast city , respectively [ 44 ] ) .
+Interestingly , DOCK 180 interacts with CRK , a protein that regulates integrin mediated ras signal transduction ( for a review , see reference ) .
+Taken together with the results reported here , these findings suggest a possible relationship between engagement of the two integrins and activation of apoptotic cell engulfment .
+The requirement for complement activation in the efficient uptake of autologous apoptotic cells appears contrary to the notion that phagocytosis of apoptotic cells is a noninflammatory process ( ) .
+However , binding and phagocytosis via macrophage CR3 do not trigger leukotriene release ( ) or a respiratory burst .
+Furthermore , ligation of CR3 and other complement receptors may actually be immunosuppressive by downregulating IL-12 and IFN-gamma production by human monocytes ( - ) .
+Therefore , it seems likely that the pro- or antiinflammatory consequences of complement activation on macrophages depends on the specific ligands encountered and receptors engaged ( see below ) .
+During the normal turnover of lymphocytes and myeloid cells , billions of apoptotic cells need to be eliminated daily within the circulation ( ) .
+The results of these studies suggest an important homeostatic role for complement in the noninflammatory clearance of apoptotic cells .
+Since complement activation is required for efficient phagocytic uptake of apoptotic cells by macrophages as shown here , deficiencies in the early components of the complement pathway would be predicted to result in impaired clearance of apoptotic cells .
+We have recently shown that exposure to excess numbers of apoptotic cells can induce autoantibody production and glomerular IgG deposition in normal mice ( ) , and Botto et al. ( ) detected abnormal numbers of apoptotic cells in the kidneys of mice deficient in C1q that develop a lupus like disease .
+Taken together , these findings provide a compelling role for complement in the clearance of apoptotic cells in vivo and could explain why humans with early complement component deficiencies develop SLE .
+In contrast to patients with defective expression of the common beta chain ( CD18 ) who develop recurrent bacterial infections ( ) , a patient with a selective deficiency of CD11b epitope 17 expression presented with SLE ( ) .
+However , it is unlikely that lack of CD11b alone is sufficient to develop lupus , as CD11b deficient mice are clinically well ( ) and our in vitro studies indicate that both CR3 and CR4 are involved in uptake of apoptotic cells .
+In addition , apoptotic cell death could also explain why complement is activated in diverse pathologies such as myocardial infarctions , burns , AIDS , and UV irradiation , where significant numbers of apoptotic cells are produced ( - ) .
+Figures and Tables
+Figure 1
+Heat-labile serum factor ( s ) augment the phagocytosis of apoptotic cells in a concentration - , time - , and temperature dependent fashion .
+( A ) Apoptotic murine thymocytes were offered to human macrophages in the presence of 15 % normal non- heat inactivated human serum ( NHS ) , 15 % normal heat inactivated ( 56degreesC for 30 min ) serum ( HIS ) , or without ( NoS ) the addition of serum , as described in Materials and Methods .
+The results are expressed as PI , and the mean + /- SD of five experiments is shown .
+( B ) Phagocytosis of apoptotic cells was compared at 4degreesC and 37degreesC .
+( C-G ) Wright stain of human macrophages after exposure to either murine apoptotic thymocytes ( C and D ) or autologous human apoptotic neutrophils ( E-G ) in the presence ( C , F , and G ) or absence ( D and E ) of 15 % human serum .
+Original magnification : x400 .
+Arrows , some of the apoptotic cells bound or engulfed .
+Figure 2
+Both classical and alternative complement components are required for efficient uptake of apoptotic cells .
+The efficiency of phagocytosis of autologous neutrophils was compared in 15 % human serum that was selectively deficient in the complement components C1q , C3 , Factor B , or C9 ( Sigma Chemical Co. ) .
+To verify that a specific complement component was responsible for the effect observed , add-back experiments were performed with the missing factor ( C1q , 250 mug and ml ; Factor B , 250 mug and ml ; or C9 , 60 mug and ml [ Sigma Chemical Co. ] ) .
+d , deficient .
+The mean + /- SD of four experiments is shown .
+Figure 3
+Autologous apoptotic cells activate serum complement and are coated with the C3 breakdown product , C3bi .
+Lymphocytes ( A-D ) or neutrophils ( E ) were untreated ( A ) or induced to undergo apoptosis ( B-E ) and incubated with 15 % autologous serum for 1 h as described in Materials and Methods .
+Lymphocytes were stained with PE conjugated murine anti-human-C3bi ( Quidel ; bold line ) or PE-IgG 2b kappa as isotype control ( dotted line ) .
+In C and D , apoptotic lymphocytes were incubated with 0.4 or 1.6 mM annexin V , respectively ( provided by Dr. A.E. Gharavi , Louisiana State University Medical Center , New Orleans , LA ) , for 10 min at 4degreesC followed by incubation with RPMI containing 15 % autologous serum for 1 h/37degreesC/5 % CO 2 , and then stained for C3bi as in A and B .
+In E , neutrophils were induced to undergo apoptosis , incubated with 15 % autologous serum for 1 h , and then analyzed by two-color flow cytometry as shown .
+The percent staining in each compartment is shown .
+These results are representative of four experiments .
+Figure 4
+The complement receptors CR3 and CR4 are predominantly responsible for uptake of apoptotic cells in the presence of serum .
+( A ) The expression of the complement receptors was examined on day 7 human macrophages by flow cytometry using specific mouse mAbs ( black histogram ) as described in Materials and Methods .
+The percentage of positive cells compared with the appropriate isotype control ( grey histogram ) is shown for each antibody .
+( B ) Macrophages were preincubated with the antibody or tetrapeptide shown for 15 min at 4degreesC in the presence of 15 % autologous human serum .
+The PI in the presence of the inhibitor was calculated from three separate experiments , and results were compared with the serum control by Student 's t test .
+Inhibition by antibodies to CR3 ( P = 0.0001 ) , CR4 ( P = 0.0001 ) , annexin V ( ANN ; P = 0.001 ) , and RGDS ( P = 0.01 ) was statistically significant , whereas neither anti-CR1 , anti-CD36 , anti-CD14 ( 61D3 and 63D3 ) , nor the control tetrapeptide ( RGES ) significantly inhibited uptake in the presence of serum .
+Figure 5
+CR3 is responsible for recognition of opsonized apoptotic cells .
+CHO cells or CHO cells stably transfected with human CR3 ( CHO-R3 ; provided by Drs. R.R. Ingalls and D.T. Golenbock , Boston Medical Center , Boston , MA [ 23 ] ) were Wright stained and examined for uptake of apoptotic thymocytes in the absence ( A ) or presence ( B ) of serum .
+Original magnification : x400 .
+( C ) The results of four experiments using serum deficient in C3 ( C3 d ) or C9 ( C9 d ) are shown .

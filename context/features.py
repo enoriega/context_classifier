@@ -320,7 +320,7 @@ def postag_path(datum, annotationData):
 
 def get_neighborhood(deps, node):
     ''' Gets the "neigborhood" of dependencyes of a mention '''
-    
+
     neighbors = deps.neighbors(node)
     ret = []
     for n in neighbors:

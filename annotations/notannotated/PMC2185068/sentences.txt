@@ -1,0 +1,341 @@
+Nectin and PRR : An Immunoglobulin like Cell Adhesion Molecule Recruited to Cadherin based Adherens Junctions through Interaction with Afadin , a PDZ Domain containing Protein
+We have isolated a novel actin filament binding protein , named afadin , localized at cadherin based cell-cell adherens junctions ( AJs ) in various tissues and cell lines .
+Afadin has one PDZ domain , three proline rich regions , and one actin filament binding domain .
+We found here that afadin directly interacted with a family of the immunoglobulin superfamily , which was isolated originally as the poliovirus receptor related protein ( PRR ) family consisting of PRR1 and -2 , and has been identified recently to be the alphaherpes virus receptor .
+PRR has a COOH-terminal consensus motif to which the PDZ domain of afadin binds .
+PRR and afadin were colocalized at cadherin based cell-cell AJs in various tissues and cell lines .
+In E-cadherin-expressing EL cells , PRR was recruited to cadherin based cell-cell AJs through interaction with afadin .
+PRR showed Ca 2+ -independent cell-cell adhesion activity .
+These results indicate that PRR is a cell-cell adhesion molecule of the immunoglobulin superfamily which is recruited to cadherin based cell-cell AJs through interaction with afadin .
+We rename PRR as nectin ( taken from the Latin word " necto " meaning " to connect " ) .
+Cell-cell adhesion plays essential roles in various functions , including the maintenance of the integrity of organized tissues , the control of cell growth , and tissue morphogenesis .
+The functional units of cell-cell adhesion are typically composed of cell adhesion molecules ( CAMs ) 1 and cytoplasmic peripheral membrane proteins ( ) .
+CAMs mediate cell-cell adhesion at the extracellular surface by a homophilic or heterophilic interaction and determine the specificity of cell-cell recognition .
+At the intracellular surface , CAMs interact with cytoplasmic peripheral membrane proteins , which are linked to the cytoskeleton , to regulate the functions of CAMs and to transduce signals initiated by CAMs .
+CAMs are classified into groups , including the cadherin family ( cadherin ) , the Ig superfamily ( IgCAM ) , the integrin family , and the selectin family .
+Of the CAM families , cadherin plays crucial roles in cell-cell adhesion of a majority of cell types .
+In polarized epithelial cells , cell-cell adhesion forms a specialized membrane structure , comprised of zonula occludens ( ZO , tight junctions ) , zonula adherens ( ZA ; cell-cell adherens junctions [ AJs ] ) , and desmosome , which is known as the junctional complex .
+These junctional structures are typically aligned from the apical side to the basal side , although desmosome is independently distributed in other areas .
+At ZA , classic cadherins interact with each other at the extracellular surface in a Ca 2+ -dependent manner .
+The cytoplasmic region of cadherin interacts with beta- and gamma-catenins , and beta-catenin interacts with alpha-catenin .
+alpha-Catenin interacts directly with actin filament ( F-actin ) ( ) and indirectly with it through alpha-actinin and vinculin , other F-actin-binding proteins .
+ZA is distinguished from cadherin based cell-cell AJs in nonepithelial cells by having a thick F-actin belt , called the circumferential filament band .
+Furthermore , while ZA is defined as a junctional structure observed by electron microscopy , the cadherin-catenin system is not confined to ZA , but is distributed along the entire lateral membrane .
+alpha-Actinin is also broadly distributed ( ) .
+In this study , therefore , we use " cell-cell AJs " as cell-cell adhesion sites where cadherin is present , and distinguish " cell-cell AJs " from " ZA . "
+Vinculin is more highly concentrated at ZA than the cadherin-catenin system .
+Thus , many cytoplasmic peripheral membrane proteins , which directly or indirectly link CAMs to the actin cytoskeleton , have been identified , but little is still known about the mechanism of how these F-actin-binding proteins are involved in the establishment of the polarized junctional alignment in epithelial cells .
+It has neither been fully understood how these F-actin-binding proteins regulate the function of the adhesion molecules , nor how the adhesion molecule initiated signals are transduced to the F-actin-binding proteins .
+Recently , we have isolated a novel ZA component , named l-afadin ( ) .
+l-Afadin has been isolated as an F-actin-binding protein from rat brain .
+l-Afadin has one PDZ domain at the middle region , three proline rich regions following the PDZ domain , and one F-actin-binding domain at the COOH-terminal region .
+l-Afadin is ubiquitously expressed and specifically localized at ZA in epithelial cells and at cell-cell AJs in nonepithelial cells .
+l-Afadin has a splicing variant , named s-afadin , which has one PDZ domain but lacks the third proline rich region and the F-actin-binding domain ( ) .
+s-Afadin is abundantly expressed in neural tissue .
+s-Afadin is the protein encoded by the AF-6 gene , which is originally found to be fused to the ALL-1 gene ( ) , known to be involved in acute leukemia ( ) .
+The result that l-afadin is specifically localized at ZA in epithelial cells and at cell-cell AJs in nonepithelial cells suggests the presence of an integral membrane protein ( s ) which interacts with l-afadin .
+On this assumption , we have attempted here to isolate an l-afadin-binding integral membrane protein ( s ) specifically localized at ZA in epithelial cells and at cell-cell AJs in nonepithelial cells .
+We have identified it to be the poliovirus receptor related protein ( PRR ) family members , identified recently as the alphaherpes virus receptor .
+The PRR family belongs to the Ig superfamily and consists of PRR1 and -2 , which are ubiquitously expressed .
+PRR2 has two splicing variants , PRR2alpha and -2 delta , shown to serve as homophilic CAMs .
+We describe here that PRR is a cell-cell adhesion molecule of the Ig superfamily which is specifically localized at ZA in epithelial cells and at cell-cell AJs in nonepithelial cells and recruited to cadherin based cell-cell AJs through interaction with l-afadin .
+Therefore , we rename PRR as nectin ( taken from the Latin word " necto " meaning " to connect " ) .
+Materials and Methods
+Yeast Two-Hybrid Screening and beta-Galactosidase Assay
+The bait vectors , pBTM116-l-afadin-1 ( amino acid 1-1015 ) and -2 ( aa 706-1425 ) , were constructed by subcloning the inserts encoding the respective aa residues of l-afadin into pBTM116 ( ) .
+The yeast two-hybrid library constructed from an adult rat brain cDNA was screened using a mixture of pBTM116-l-afadin-1 and -2 as baits as described ( ) .
+beta-Galactosidase assay was performed as described ( ) .
+Construction of Expression Vectors
+The cDNAs of human nectin-1 and mouse nectin-2alpha and -2 delta were obtained by PCR using human and mouse brain cDNAs as templates , respectively .
+Nucleotide sequence analysis was performed by the dideoxynucleotide termination method using a DNA sequencer ( model 373 ; Applied Biosystems Inc. ) .
+The nucleotide sequence of our isolated human nectin-1 cDNA was different from the originally published sequence ( ) , but identical to the recently published sequence ( ) .
+Prokaryote and eukaryote expression vectors , bait vectors , and prey vectors were constructed in pGEX-KG ( ) , pCMV-Myc ( ) , pFLAG-CMV1 ( Eastman Kodak Co. ) , pCAGGS ( ) , pCAGGS-FLAG , pBTM116 , and pVP16-3 ( ) using standard molecular biology methods ( ) .
+pCAGGS-FLAG was constructed by subcloning the insert encoding the preprotrypsin-signal peptide and FLAG epitope of pFLAG-CMV1 into pCAGGS .
+The glutathione S-transferase ( GST ) - fusion vectors , containing alpha - , beta-catenins , and the cytoplasmic region of E-cadherin ( aa 734-884 ) ( ) , were kindly supplied by Drs. M. Itoh and S. Tsukita ( Kyoto University , Kyoto , Japan ) .
+Various constructs of l-afadin and nectin shown in Fig .
+contained the following aa : pBTM116-l-afadin-PDZ , aa 1007-1125 ; pVP16-nectin-2alpha-CP , aa 387-467 ; pVP16-nectin-2delta-CP , aa 403-530 ; GST-nectin-1-CPN , aa 379-438 ; GST-nectin-1-CPC , aa 449-518 ; GST-nectin-1-CPC-DeltaC , aa 449-514 ; GST-nectin-2alpha-CP , aa 387-467 ; GST-nectin-2alpha-CP-DeltaC , aa 387-463 ; GST-nectin-2delta-CP , aa 403-530 ; GST-nectin-2delta-CP-DeltaC , aa 403-526 ; GST-l-afadin-PDZ , aa 1007-1125 ; pFLAG-CMV1-nectin-1 , aa 27-518 ; pFLAG-CMV1-nectin-2alpha , aa 28-467 ; pFLAG-CMV1-nectin-2delta , aa 28-530 ; pCMV-Myc-l-afadin , aa 1-1829 ( full-length ) ; pCMV-Myc-nectin-1-CP , aa 379-518 ; pCMV-Myc-nectin-2alpha-CP , 387-467 ; pCMV-Myc-nectin-2delta-CP , aa 403-530 ; pCAGGS-FLAG-nectin-1 , aa 27-518 ; pCAGGS-FLAG-nectin-1-DeltaC , aa 27-514 ; pCAGGS-nectin-1 , aa 1-518 ; and pCAGGS-nectin-2alpha , aa 1-467 .
+Other constructs contained the following aa : pBTM116-neurabin-II , aa 145-600 ; and pVP16-neurexin-2alpha , aa 1658-1715 .
+The GST-fusion proteins were purified by use of glutathione-Sepharose beads ( Amersham-Pharmacia Biotech Ltd. ) .
+In Vitro Binding of l-Afadin to Nectin
+Affinity chromatographies were done as follows .
+Anti-Myc epitope Ab coupled beads were prepared by cross linking of a mouse anti-Myc mAb with protein A-Sepharose beads ( Amersham-Pharmacia Biotech Ltd. ) via dimethylpimelimidate ( ) .
+COS7 cells transfected with pCMV-Myc-nectin-1-CP , pCMV-Myc-nectin-2alpha-CP , or pCMV-Myc-nectin-2delta-CP were sonicated in a lysis buffer ( 20 mM Tris-Cl , pH 7.5 , 150 mM NaCl , 1 % Triton X-100 , 1 % deoxycholate , 1 mM EDTA , 10 mug and ml of leupeptin , 1 mM PMSF , and 1 mug and ml of pepstatin A ) .
+The lysate was subjected to centrifugation , and the supernatant was incubated with the anti-Myc Ab coupled beads .
+After the beads were washed extensively , the beads were used as an affinity column .
+The purified GST-fusion protein to be tested was applied to the affinity column .
+After the column was washed with PBS containing 0.1 % Triton X-100 , the bound proteins were eluted by boiling the beads in an SDS sample buffer [ 60 mM Tris-Cl , pH 6.7 , 3 % SDS , 2 % ( vol and vol ) 2-mercaptoethanol , and 5 % glycerol ] .
+The sample was then subjected to SDS-PAGE , followed by staining with Coomassie brilliant blue .
+35 S Labeled l-afadin blot overlay was done as described ( ) .
+In brief , 35 S labeled l-afadin was generated using the TNT T7 quick coupled transcription and translation system ( Promega Corp. ) and used as a probe .
+The sample to be tested was subjected to SDS-PAGE and transferred to a nitrocellulose membrane .
+The membrane was blocked in PBS containing 5 % defatted powder milk and 1 % Triton X-100 .
+The membrane was then incubated at 4degreesC for 16 h with 40 mul of the 35 S labeled l-afadin probe in 1 ml of PBS containing 5 % defatted powder milk and 1 % Triton X-100 .
+After the incubation , the membrane was washed with PBS containing 5 % defatted powder milk and 1 % Triton X-100 , followed by autoradiography using an image analyzer ( Fujix BAS-2000II ; Fuji Photo Film Co. ) .
+Antibodies
+Rabbit antisera against nectin-1 , -2 alpha , and -2 delta were raised against GST-nectin-1-CPN , GST-nectin-2alpha-CP , and GST-nectin-2delta-CP , respectively .
+These antisera were separately affinity purified by use of the respective GST-fusion proteins covalently coupled to NHS activated Sepharose beads ( Amersham-Pharmacia Biotech Ltd. ) , and used as pAbs .
+A rat anti-nectin-2 mAb was prepared as described ( ) .
+The specificity of the anti-nectin-2 mAb used here was confirmed as follows .
+Immunofluorescence microscopic analysis showed that an HeLa cell line stably expressing mouse nectin-2alpha reacted with this mAb but wild-type HeLa cells did not ( ) .
+In addition , when a cell lysate from mouse mammary tumor MTD-1A cells , which were metabolically radiolabeled with [ 35 S ] methionine , was subjected to immunoprecipitation with this mAb , followed by autoradiography as described ( ) , a radioactive band with a molecular mass of ~ 70-80 kD was specifically immunoprecipitated ( data not shown ) .
+This band was recognized by another anti-nectin-2 pAb described above ( data not shown ) .
+A rabbit anti-l-afadin pAb and a mouse anti-l-afadin mAb were prepared as described .
+Mouse and rat ( ECCD2 ) anti-E-cadherin mAbs were purchased from Transduction Laboratories and TAKARA Shuzo , respectively .
+Mouse anti-Myc and anti-FLAG mAbs were from American Type Culture Collection and Eastman Kodak Co. , respectively .
+Immunoprecipitation
+The bile canaliculi rich fraction was prepared from mouse liver ( ) .
+This fraction was sonicated in the lysis buffer described above and subjected to ultracentrifugation .
+After the supernatant was diluted with buffer A ( 20 mM Tris-Cl , pH 7.5 , 150 mM NaCl , 1 % Triton X-100 , 1 mM EDTA , 10 mug and ml of leupeptin , 1 mM PMSF , and 1 mug and ml of pepstatin A ) to make a final concentration of 0.2 % deoxycholate , this sample was incubated with the anti-nectin-2 mAb at 4degreesC for 3 h. Protein G-Sepharose beads ( Amersham-Pharmacia Biotech Ltd. ) were added to this diluted sample , and incubation was further performed at 4degreesC for 1 h .
+After the beads were extensively washed with buffer A , the bound proteins were eluted by boiling the beads in the SDS sample buffer , and subjected to SDS-PAGE , followed by Western blot analysis .
+Immunoprecipitation experiments using cultured cells were done as follows .
+Mammary tumor MTD-1A cells were sonicated in buffer A .
+The lysate was then subjected to ultracentrifugation .
+The supernatant was subjected to immunoprecipitation with the anti-nectin-2 mAb as described above .
+For COS7 cells expressing the FLAG tagged protein and and or the Myc tagged protein , the cells were similarly subjected to immunoprecipitation with the anti-FLAG or anti-Myc mAb .
+For EL cells expressing the FLAG tagged protein , the cells were also similarly subjected to immunoprecipitation with the anti-FLAG mAb .
+Cell Culture and DNA Transfection
+MDCK cells were kindly supplied by Dr. W. Birchmeier ( Max-Delbruck-Center for Molecular Medicine , Berlin , Germany ) .
+EL and L cells were kindly supplied by Drs. A. Nagafuchi and S. Tsukita ( Kyoto University , Kyoto , Japan ) .
+EL cells were cloned by introduction of the exogenous E-cadherin cDNA to cadherin deficient L cells ( ) .
+These cells were maintained in DME containing 10 % FCS .
+To prepare COS7 cells transiently expressing the FLAG tagged protein and and or the Myc tagged protein , COS7 cells were transfected with the pFLAG-CMV1 construct and and or the pCMV-Myc construct , respectively , using the DEAE-dextran method and cultured for 2 d ( ) .
+To prepare EL cells transiently expressing the FLAG tagged protein , EL cells were transfected with the pCAGGS-FLAG construct using Lipofectamine reagent ( GIBCO BRL ) according to the manufacturer 's protocol .
+The cells were then cultured for 1 d , replated , and cultured for 4 d .
+An MDCK cell line stably expressing FLAG-nectin-1 was prepared as described ( ) .
+In brief , MDCK cells were transfected with pCAGGS-FLAG-nectin-1 using Lipofectamine reagent ( GIBCO BRL ) .
+The cells were then cultured for 1 d , replated , and selected by culturing in the presence of 300 mug and ml of Geneticin ( GIBCO BRL ) .
+An L cell line stably expressing full-length nectin-1 ( nectin-1-L cells ) or nectin-2alpha ( nectin-2alpha-L cells ) was similarly prepared with pCAGGS-nectin-1 or pCAGGS-nectin-2alpha , respectively , except that the concentration of Geneticin was increased to 500 mug and ml .
+Immunofluorescence and Immunoelectron Microscopy
+Immunofluorescence microscopy of cultured cells and frozen sections of various mouse tissues was done as described ( ) .
+Immunoelectron microscopy of mouse intestine absorptive epithelial cells was done using the silver-enhancement technique as described .
+Cell Aggregation Assay
+Cell aggregation assay was done according to the method described by with slight modifications .
+To obtain a single-cell suspension , cells were washed with PBS , incubated with 0.2 % trypsin and 1 mM EDTA at 37degreesC for 5 min , and dispersed by gentle pipetting .
+Cells were then suspended in HBSS in the presence of 1 mM CaCl 2 or 1 mM EDTA ( ) ( 10 6 cells and ml ) , placed in 12-well plates precoated with BSA , and rotated on a gyratory shaker at 37degreesC for indicated periods of time .
+Aggregation was stopped with the addition of 2 % glutaraldehyde .
+The extent of aggregation of cells was represented by the ratio of the total particle number at time t of incubation ( Nt ) to the initial particle number ( No ) .
+Other Procedures
+Vinculin was purified from chicken gizzard as described ( ) .
+Protein concentrations were determined with BSA as a reference protein ( ) .
+SDS-PAGE was done as described ( ) .
+The protein markers used were myosin ( 197 kD ) , BSA ( 78 kD ) , ovalbumin ( 50 kD ) , carbonic anhydrase ( 33 kD ) , and soybean trypsin inhibitor ( 28 kD ) .
+Results
+Identification of PRR as an l-Afadin-Binding Protein
+We first attempted to identify an l-afadin-binding protein ( s ) by use of the yeast two-hybrid method .
+We screened 2 x 10 7 clones of a prey cDNA library from rat brain with a mixture of two bait constructs , pBTM116-l-afadin-1 ( aa 1-1015 ) and -2 ( aa 706-1425 ) .
+Three independent clones , pPrey 0135 , pPrey 0139 , and pPrey 0140 , were obtained .
+We focused on pPrey 0135 because this clone encoded the cytoplasmic COOH-terminal region of PRR1 .
+pPrey 0135 encoded a 97-aa sequence which was identical to the originally identified human PRR1 ( aa 421- 518 ) except for the absence of a single aa , glutamate , at position 438 ( AF091111 ; GenBank/EMBL/DDBJ ) .
+The clone is likely to encode a rat counterpart of human PRR1 .
+PRR has been identified recently as the alphaherpes virus receptor , and PRR1 and -2 have been designed as HveC and HveB , respectively .
+PRR was here renamed nectin .
+Retransformation of fresh yeast cells confirmed that pPrey 0135 bound to pBTM116-l-afadin-2 containing the PDZ domain .
+Analysis of other clones will be described elsewhere .
+l-Afadin has a PDZ domain and nectin has cytoplasmic regions with a COOH-terminal motif of 4 aa residues , E and A-X-Y - V ( X indicates W , V , and M for nectin-1 , -2 alpha , and -2 delta , respectively ) .
+It has been shown that PDZ domains bind to unique COOH-terminal motifs of 4-aa residues of integral membrane proteins .
+We next examined whether l-afadin specifically binds to nectin through the PDZ domain and the COOH-terminal motif .
+For this purpose , we constructed pBTM116-l-afadin-PDZ containing only the PDZ domain , and pVP16-nectin-2alpha-CP and pVP16-nectin-2delta-CP , both of which contained the cytoplasmic regions with the COOH-terminal motif .
+We also prepared pVP16-neurexin-2alpha ( containing the cytoplasmic COOH-terminal region of neurexin-2alpha ) and pBTM116-neurabin-II ( containing the PDZ domain of neurabin-II ) as controls .
+Neurexin-2alpha has a COOH-terminal motif similar to that of nectin , E-Y-Y-V , which has been shown to bind to the PDZ domain of CASK ( ) .
+Neurabin-II is an F-actin-binding protein with one PDZ domain localized at cadherin based cell- cell AJs , although its PDZ domain binding protein ( s ) has not yet been identified .
+We quantified the yeast two-hybrid interactions by measuring beta-galactosidase transactivation .
+The PDZ domain of l-afadin bound to the cytoplasmic regions of nectin , but not to that of neurexin-2alpha .
+The PDZ domain of neurabin-II did not bind to any of these proteins .
+Direct Binding of l-Afadin to Nectin In Vitro and In Vivo
+We first examined the in vitro direct binding of l-afadin to nectin by affinity chromatography .
+A GST-fusion protein of the PDZ domain of l-afadin ( GST-l-afadin-PDZ ) bound to a Myc tagged protein of the cytoplasmic region of nectin-1 ( Myc-nectin-1-CP ) immobilized on protein A-Sepharose beads through the anti-Myc mAb .
+The stoichiometry of the binding of l-afadin to nectin-1 was ~ 1:1 .
+Similar results were obtained with nectin-2alpha and -2 delta ( data not shown ) .
+To further examine the direct binding of l-afadin to nectin in vitro , GST-fusion proteins of the cytoplasmic regions of nectin were subjected to SDS-PAGE , followed by a blot overlay with 35 S labeled l-afadin .
+35 S Labeled l-afadin bound to the GST-fusion proteins .
+However , when the COOH-terminal motif of 4-aa residues of each GST-fusion protein , which were shown in bold characters in Table , were deleted , 35 S labeled l-afadin did not bind to the GST-fusion proteins .
+Consistent with the earlier observation that PDZ domains bind to unique COOH-terminal motifs of 4-aa residues of integral membrane proteins , these results indicate that the PDZ domain of l-afadin directly binds to nectin and that the COOH-terminal motif of 4-aa residues of nectin is essential for this binding .
+We next examined the binding of l-afadin to nectin in vivo .
+Western blot analysis indicated that nectin-2alpha , but not nectin-2delta , was detected in mouse liver ( data not shown ) .
+An extract from the bile canaliculi rich fraction of mouse liver was subjected to immunoprecipitation with the anti-nectin-2 mAb , which recognizes the extracellular domains of both nectin-2alpha and -2 delta ( ) , followed by Western blot analysis with the anti-l-afadin mAb and the anti-nectin-2alpha pAb .
+l-Afadin was coimmunoprecipitated with nectin-2alpha .
+When a cell extract from mouse mammary tumor MTD-1A cells was similarly subjected to immunoprecipitation with the anti-nectin-2 mAb , l-afadin was coimmunoprecipitated with nectin-2alpha and -2 delta .
+Myc-l-afadin and FLAG-nectin-1 , -2 alpha , or -2 delta were overexpressed in various combinations in COS7 cells and the cell extracts were subjected to immunoprecipitation with the anti-Myc or anti-FLAG mAb , followed by Western blot analysis with these mAbs .
+Myc-l-Afadin and FLAG-nectin-1 were coimmunoprecipitated .
+Myc-l-Afadin and FLAG-nectin-2alpha or -2 delta were also coimmunoprecipitated ( data not shown ) .
+These results indicate that l-afadin binds to nectin in vivo .
+Colocalization of Nectin with l-Afadin at ZA in Epithelial Cells
+We examined by immunofluorescence microscopy of frozen sections of small intestine and MDCK cells whether nectin and l-afadin are colocalized .
+When the frozen sections of small intestine were triply stained with the rat anti-nectin-2 mAb , the rabbit anti-l-afadin pAb , and the mouse anti-E-cadherin mAb , nectin-2 and l-afadin were concentrated with E-cadherin at the junctional complex region of intestine absorptive epithelia , but they were more highly concentrated at the junctional complex region than E-cadherin .
+In MDCK cells , nectin was detected with the anti-nectin-1 , anti-nectin-2alpha , and anti-nectin-2delta pAbs by Western blot analysis , but not with these pAbs by immunofluorescence microscopy ( data not shown ) .
+Canine nectin-2 in MDCK cells was not detected with the anti-nectin-2 mAb by immunofluorescence microscopy either ( data not shown ) .
+Therefore , we prepared a MDCK cell line stably expressing FLAG-nectin-1 .
+In this MDCK cell line , FLAG-nectin-1 was colocalized with l-afadin at the junctional complex region .
+They were more highly concentrated at the junctional complex region than E-cadherin .
+These results indicate that nectin is colocalized with l-afadin at the junctional complex region in epithelial cells .
+To examine the precise localization sites of nectin-2 at the junctional complex region of intestine absorptive epithelia , immunoelectron microscopy was performed .
+Nectin-2 was localized at ZA , but not at ZO or desmosome .
+This result is consistent with our previous observation that l-afadin is localized at ZA ( ) , and indicates that nectin is colocalized with l-afadin at ZA in epithelial cells .
+Colocalization of Nectin with l-Afadin at Cell-Cell AJs in Nonepithelial Cells
+We next examined whether nectin and l-afadin are colocalized in nonepithelial cells .
+When the frozen sections of heart were doubly stained with the anti-nectin-2 mAb and the anti-l-afadin pAb , both of the proteins were colocalized at intercalated discs ( cell-cell AJs ) and not observed at costameres ( cell-matrix AJs ) .
+This result suggests that nectin and l-afadin are colocalized at cell-cell AJs in nonepithelial cells .
+To confirm this result , we examined their colocalization in EL cells expressing E-cadherin .
+EL cells were cloned by introduction of the exogenous E-cadherin cDNA to cadherin deficient L cells ( ) .
+We have shown previously that l-afadin is colocalized with E-cadherin at cell-cell AJs in cultured EL cells .
+In this cell line , nectin-2 was also colocalized with l-afadin at cell-cell AJs .
+These results indicate that nectin is colocalized with l-afadin at cadherin based cell-cell AJs in nonepithelial cells .
+Recruitment of Nectin to Cadherin based Cell-Cell AJs through Interaction with l-Afadin in EL Cells
+We then examined the function of the interaction of nectin with l-afadin .
+We prepared EL cells transiently expressing the FLAG tagged full length of nectin-1 ( FLAG-nectin-1-EL cells ) or the FLAG tagged , COOH-terminal 4 aa- deleted mutant of nectin-1 ( FLAG-nectin-1-DeltaC-EL cells ) .
+Immunoprecipitation analysis revealed that l-afadin was coimmunoprecipitated with FLAG-nectin-1 , but not with FLAG-nectin-1-DeltaC .
+In FLAG-nectin-1-EL cells , FLAG-nectin-1 was colocalized with l-afadin and E-cadherin at cell-cell AJs .
+In FLAG-nectin-1-DeltaC-EL cells , however , nectin-1-DeltaC was not recruited to cell-cell AJs where E-cadherin was localized .
+Nectin-1-DeltaC was not colocalized with l-afadin .
+These results indicate that nectin is recruited to cell-cell AJs through interaction with l-afadin in EL cells .
+Cell Aggregation Activity of Nectin
+It has been shown previously that nectin-2alpha and -2 delta show cell aggregation activity .
+To first confirm this result and to then examine cell aggregation activity of nectin-1 , we prepared L cells stably expressing full-length nectin-1 ( nectin-1-L cells ) and -2 alpha ( nectin-2alpha-L cells ) .
+By use of these cell lines , we examined cell aggregation activity of nectin as described ( ) .
+Nectin-1 as well as nectin-2alpha showed cell aggregation activity in a time dependent manner .
+This activity was not affected by the presence or absence of Ca 2+ in the medium , indicating that cell-cell adhesion activity of nectin-1 and -2 alpha is Ca 2+ independent .
+No Direct Binding of Nectin to Known Components of Cell-Cell AJs
+In the last set of experiments , to understand how nectin is recruited to cadherin based cell-cell AJs through interaction with l-afadin , we examined the in vitro binding of nectin to the known components of cell-cell AJs , including alpha - , beta-catenins , vinculin , and E-cadherin , by affinity chromatography .
+Under the conditions where Myc-nectin-1-CP bound to GST-l-afadin-PDZ , it did not bind to vinculin or any GST-fusion protein of alpha - , beta-catenins , and the cytoplasmic region of E-cadherin ( data not shown ) .
+Similar results were obtained with nectin-2alpha and -2 delta ( data not shown ) .
+Recently , we found that l-afadin does not bind directly to alpha - , beta-catenin , or the cytoplasmic region of E-cadherin ( ) .
+Thus , although nectin is recruited to cadherin based cell-cell AJs through interaction with l-afadin , the mechanism of this recruitment remains unknown .
+Discussion
+Nectin constitutes a family consisting of three members , nectin-1 , -2 alpha , and -2 delta , and belongs to the Ig superfamily .
+The Ig superfamily encompasses diverse molecules that share a common structural homology .
+This superfamily includes CAMs and receptors for cytokines and growth factors .
+In contrast to cadherin , IgCAMs are far less well characterized with respect to their linkage to the actin cytoskeleton ( ) .
+NCAM and L1 , which are major IgCAMs expressed in neural tissue , regulate neurite outgrowth and guidance by the interaction with the actin cytoskeleton ( ) .
+Other several IgCAMs redistribute or form " caps " on the surface of cells in an energy dependent manner when cross linked by divalent Abs ( ) .
+Capping requires the reorganization of the actin cytoskeleton , indicating that IgCAMs are linked to the actin cytoskeleton .
+However , no F-actin-binding protein which interacts with IgCAMs and is specifically localized at cell- cell adhesion sites has been reported .
+We have first shown here that l-afadin , an F-actin-binding protein , binds to the three members of the nectin family both in vitro and in vivo .
+The binding of l-afadin to nectin-1 , -2 alpha , and -2 delta is stoichiometric and their affinities are apparently similar as estimated by the in vitro binding assay using the recombinant proteins and the immunoprecipitation experiment using COS7 cells , although it is not clear why nectin-1 shows ~ 10-fold higher binding activity than nectin-2alpha and -2 delta in the yeast two-hybrid assay .
+We have not directly shown here that nectin is associated with the actin cytoskeleton through l-afadin , but this possibility is likely because l-afadin binds F-actin in vitro and in vivo ( ) .
+We have shown here that nectin is colocalized with l-afadin at cadherin based cell-cell AJs , but not at cell- matrix AJs , in various tissues and cell lines .
+Moreover , we have shown that nectin is recruited to cadherin based cell- cell AJs through interaction with l-afadin .
+It is not known how these two proteins are recruited and colocalized with the cadherin-catenin system at cell-cell AJs .
+We have found recently that l-afadin does not directly bind to alpha - , beta-catenin , or the cytoplasmic region of E-cadherin ( ) .
+We have shown here that nectin does not interact directly with any of these proteins either .
+These results suggest that the nectin-l-afadin system is colocalized with the cadherin-catenin system through a still unidentified factor ( s ) .
+Recently , we have isolated another l-afadin-binding protein , named ponsin , which is ubiquitously expressed and colocalized with vinculin at cell-cell and cell-matrix AJs ( ) .
+Furthermore , ponsin binds vinculin .
+However , because ponsin forms a binary complex with either l-afadin or vinculin but hardly forms a ternary complex with l-afadin and vinculin , there should be an additional system which associates the nectin-l-afadin system to the cadherin-catenin system .
+It may be noted that , in intestinal absorptive epithelial cells where ZO , ZA , and desmosome are well separated , nectin is specifically localized and more highly concentrated at ZA than E-cadherin which is distributed along the entire lateral membrane .
+This unique localization is also found for vinculin , l-afadin ( ) , and ponsin ( ) .
+ZO and ZA in the junctional complex of polarized epithelial cells are closely aligned from the apical side to the basal side , suggesting that there are molecular interactions between these two junctional structures .
+Evidence is accumulating that the cadherin-catenin system plays essential roles for the assembly of the junctional complex .
+It has been shown recently by use of an alpha-catenin-deficient colon carcinoma cell line that the interaction of alpha-catenin with vinculin is required for the organization of ZO ( ) .
+Furthermore , it has been shown that the junctional organization is impaired in vinculin-null F9 cells ( ) .
+The unique localization properties of nectin , l-afadin , ponsin , and vinculin suggest that the nectin-l-afadin system plays a role in the assembly of the junctional complex in cooperation with the cadherin-catenin system .
+We have confirmed that nectin-2alpha has cell-cell adhesion activity as described and have shown that nectin-1 also has this activity .
+In contrast to cadherin , most IgCAMs regulate cell-cell adhesion in a Ca 2+ -independent manner .
+Consistently , both nectin-1 and -2 show Ca 2+ -independent cell-cell adhesion .
+These results indicate that nectin is a Ca 2+ -independent CAM which is associated with l-afadin and specifically localized at ZA in epithelial cells and at cadherin based cell-cell AJs in nonepithelial cells .
+Nectin-1 and -2 have been shown to be expressed in most tissues examined thus far .
+We have found here that the three members of the nectin family are expressed in MDCK cells .
+It remains to be clarified why the different nectin family members are expressed in the same cells , but the three members of the nectin family may be functionally redundant because of their common properties , including Ca 2+ -independent cell-cell adhesion activity , l-afadin-binding activity , and localization at cadherin based cell-cell AJs .
+We have analyzed here the binding regions of l-afadin and nectin and found that the PDZ domain of l-afadin and the cytoplasmic regions of nectin directly interact with each other .
+PDZ domains are modular domains that bind to specific COOH-terminal peptide sequences .
+Many PDZ domain containing proteins and their binding partners have been isolated recently , and peptide sequences for various PDZ domains have been reported .
+Using the oriented peptide library technique , PDZ domains are assigned into classes according to their peptide binding specificities ( ) .
+The PDZ domain of AF-6 ( s-afadin ) is classified as the class II , selecting peptides with hydrophobic or aromatic aa residues at position -2 relative to the COOH terminus .
+The PDZ domain binds preferentially to a peptide which terminates in the sequence , E-F-Y-V ( ) .
+Nectin terminates in the sequence , E and A-X-Y - V ( X indicates W , V , and M for nectin-1 , -2 alpha , and -2 delta , respectively ) .
+Our finding is consistent with these earlier observations ( ) , but we have shown here by the yeast two-hybrid assay that the PDZ domain of l-afadin does not bind to neurexin-2alpha which terminates in the sequence , E-Y-Y-V .
+A recent study of the third PDZ domain of PSD-95 / SAP90 indicates that X residues at position -1 in the consensus sequence ( X-S and T-X-V ) and the upstream residues of the tetrapeptide determine the specificity and affinity for the binding of the PDZ domain to its binding partner ( ) .
+By analogy , unique aromatic or hydrophobic X residues at position -2 in the sequence ( E and A-X-Y - V ) , such as W , V , and M , may be necessary to bind to the PDZ domain of l-afadin .
+It is also possible that the upstream residues of the tetrapeptide are crucial for the specificity and affinity for the PDZ domain .
+It has been shown recently that the PDZ domain of AF-6 ( s-afadin ) binds to neurexin as well as the Eph receptor tyrosine kinase family members ( ) , but this result is not consistent with ours and the reason for this discrepancy is not known at present .
+Figures and Tables
+Figure 1
+Structures of the full length and various fragments of l-afadin and nectin .
+PR , proline rich region ; ABD , F-actin-binding domain ; TM , transmembrane region .
+Figure 2
+Direct binding of l-afadin to nectin in vitro .
+( A ) Affinity chromatography .
+GST-l-afadin-PDZ ( aa 1007-1125 ) or GST alone ( 20 mug of protein each ) was applied to protein A-Sepharose beads on which Myc-nectin-1-CP ( aa 379-518 ) was immobilized through the anti-Myc mAb .
+After the beads were extensively washed , the bound proteins were subjected to SDS-PAGE ( 12 % polyacrylamide gel ) , followed by protein staining with Coomassie brilliant blue .
+Arrow , GST-l-afadin-PDZ ; arrowhead , Myc-nectin-1-CP .
+( B ) 35 S Labeled l-afadin blot overlay .
+GST-fusion proteins of the cytoplasmic regions of nectin ( 0.3 mug of protein each ) were subjected to SDS-PAGE ( 12 % polyacrylamide gel ) , followed by protein staining with Coomassie brilliant blue or by 35 S labeled l-afadin blot overlay .
+( B1 ) Protein staining .
+( B2 ) 35 S Labeled l-afadin blot overlay .
+GST-Nectin-1-CPC , aa 449-518 ; GST-Nectin-1-CPC-DeltaC , aa 449-514 ; GST-Nectin-2alpha-CP , aa 387-467 ; GST-Nectin-2alpha-CP-DeltaC , aa 387-463 ; GST-Nectin-2delta-CP , aa 403-530 ; GST-Nectin-2delta-CP-DeltaC , aa 403-526 .
+Figure 3
+Coimmunoprecipitation of l-afadin and nectin .
+( A ) Immunoprecipitation from the bile canaliculi rich fraction of mouse liver .
+An extract from the bile canaliculi rich fraction was subjected to immunoprecipitation with the anti-nectin-2 mAb or control IgG .
+The immunoprecipitate was then subjected to SDS-PAGE ( 8 or 12 % polyacrylamide gel ) , followed by Western blot analysis with the anti-l-afadin mAb or the anti-nectin-2alpha pAb .
+( B ) Immunoprecipitation from mouse mammary tumor MTD-1A cells .
+A cell extract from MTD-1A cells was subjected to immunoprecipitation with the anti-nectin-2 mAb or control IgG .
+The immunoprecipitate was then subjected to SDS-PAGE ( 8 or 12 % polyacrylamide gel ) , followed by Western blot analysis with the anti-l-afadin mAb , the anti-nectin-2alpha pAb , or the anti- nectin-2delta pAb .
+( C ) Immunoprecipitation from COS7 cells expressing FLAG-nectin-1 and and or Myc-l-afadin .
+FLAG-Nectin-1 alone , Myc-l-afadin alone , or both the proteins were transiently expressed in COS7 cells .
+Each cell extract was subjected to immunoprecipitation with the anti-FLAG or anti-Myc mAb .
+The immunoprecipitate was then subjected to SDS-PAGE ( 8 or 12 % polyacrylamide gel ) , followed by Western blot analysis with the anti-FLAG or anti-Myc mAb .
+IP , immunoprecipitation .
+Figure 4
+Localization of nectin , l-afadin , and E-cadherin in epithelial cells .
+( A ) Localization sites of nectin-2 , l-afadin , and E-cadherin in mouse small intestine .
+The frozen sections of mouse small intestine were triply stained with the rat anti-nectin-2 mAb , the rabbit anti-l-afadin pAb , and the mouse anti-E-cadherin mAb .
+They were visualized with rhodamine conjugated anti- rat IgG , FITC conjugated anti- rabbit IgG , and Cy5 conjugated anti-mouse IgG Abs .
+( A1 ) Nectin-2 ; ( A2 ) l-afadin ; ( A3 ) E-cadherin .
+Asterisks mark the inner space of small intestine .
+Bar , 50 mum .
+( B ) Localization sites of nectin-1 , l-afadin , and E-cadherin in MDCK cells .
+MDCK cells stably expressing FLAG-nectin-1 were triply stained with the mouse anti-FLAG mAb , the rabbit anti-l-afadin pAb , and the rat anti-E-cadherin mAb .
+They were visualized with FITC conjugated anti-mouse IgG , rhodamine conjugated anti-rabbit IgG , and Cy5 conjugated anti-rat IgG Abs .
+( B1 and B4 ) FLAG-nectin-1 ; ( B2 and B5 ) l-afadin ; ( B3 and B6 ) E-cadherin ; ( B1-B3 ) junction-level view ; ( B4-B6 ) cross-sectional view .
+The cross-sectional view was generated by confocal microscopy .
+Arrow , apical level ; arrowhead , basal level .
+Bars , 10 mum .
+Figure 5
+Ultrastructural localization sites of nectin-2 in mouse small intestine absorptive epithelial cells .
+Intestine absorptive epithelial cells were labeled with the anti-nectin-2 mAb using the silver-enhancement technique .
+Open arrow , ZO ; closed arrow , ZA ; asterisk , desmosome .
+Bars , 0.2 mum .
+Figure 6
+Localization of nectin and l-afadin in nonepithelial cells .
+( A ) Localization sites of nectin-2 and l-afadin in mouse heart .
+The frozen sections of mouse heart were doubly stained with the rat anti-nectin-2 mAb and the rabbit anti-l-afadin pAb .
+They were visualized with rhodamine conjugated anti-rat IgG and FITC conjugated anti-rabbit IgG Abs .
+( A1 ) Nectin-2 ; ( A2 ) l-afadin .
+Arrows , intercalated disc .
+Bar , 10 mum .
+( B ) Localization sites of nectin-2 and l-afadin in cultured EL cells .
+EL cells were doubly stained with the rat anti-nectin-2 mAb and the mouse anti-l-afadin mAb .
+They were visualized with FITC conjugated anti-rat IgG and rhodamine conjugated anti-mouse IgG Abs .
+There was nuclear staining with this anti-l-afadin mAb , but its significance is not clear .
+( B1 ) Nectin-2 ; ( B2 ) l-afadin .
+Bar , 10 mum .
+Figure 7
+Recruitment of nectin to cadherin based AJs through interaction with l-afadin .
+( A ) Immunoprecipitation from EL cells expressing FLAG-nectin-1 or FLAG-nectin-1-DeltaC .
+FLAG-Nectin-1 or FLAG-nectin-1-DeltaC was transiently expressed in EL cells .
+Each cell extract was subjected to immunoprecipitation with the anti-FLAG mAb .
+The immunoprecipitate was then subjected to SDS-PAGE ( 8 or 12 % polyacrylamide gel ) , followed by Western blot analysis with the anti-FLAG or anti-l-afadin mAb .
+( B ) Immunofluorescence microscopy of FLAG-nectin-1-EL cells and FLAG-nectin-1-DeltaC-EL cells .
+FLAG-nectin-1-EL cells and FLAG-nectin-1-DeltaC-EL cells were doubly stained with the mouse anti-FLAG mAb and the rat anti-E-cadherin mAb or the rabbit anti-l-afadin pAb .
+They were visualized with FITC conjugated anti-mouse IgG and rhodamine conjugated anti-rat or anti-rabbit IgG Abs .
+There was nuclear staining with this anti-l-afadin pAb , but its significance is not clear .
+( B1-B6 ) FLAG-nectin-1-EL cells ; ( B7-B12 ) FLAG-nectin-1-DeltaC-EL cells ; ( B1 and B4 ) FLAG-nectin-1 ; ( B7 and B10 ) FLAG-nectin-1-DeltaC ; ( B2 and B8 ) E-cadherin ; ( B5 and B11 ) l-afadin ; ( B3 , B6 , B9 , and B12 ) merge .
+Arrows , cell-cell AJs .
+Bars , 10 mum .
+Figure 8
+Cell aggregation activity of nectin .
+( A ) Ca 2+ -independent aggregation activity of nectin-1 and -2 alpha .
+L cells stably expressing nectin-1 or nectin-2alpha were treated with trypsin in the presence of EDTA and then dispersed by pipetting to obtain a single-cell suspension .
+Each single-cell suspension was rotated in HBSS in the presence of 1 mM CaCl 2 or 1 mM EDTA for 15 , 30 , and 60 min .
+The extent of aggregation of cells was represented by the ratio of the total particle number at time t of incubation ( Nt ) to the initial particle number ( No ) .
+( A1 ) Nectin-1-L cells .
+( Filled circles and open circles ) Wild-type L cells ; ( filled triangles and open triangles ) nectin-1-L cells ; ( filled circles and filled triangles ) in the presence of 1 mM CaCl 2 ; and ( open circles and open triangles ) in the presence of 1 mM EDTA .
+( A2 ) Nectin-2alpha-L cells .
+( Filled circles and open circles ) Wild-type L cells ; ( filled triangles and open triangles ) nectin-2alpha-L cells ; ( filled circles and filled triangles ) in the presence of 1 mM CaCl 2 ; and ( open circles and open triangles ) in the presence of 1 mM EDTA .
+The Nt and No values are the means + /- SD of three independent experiments .
+( B ) Cell aggregation of nectin-1-L cells .
+Single cells were rotated in HBSS in the presence of 1 mM EDTA for 60 min .
+( B1 ) Wild-type L cells .
+( B2 ) Nectin-1-L cells .
+Bars , 100 mum .
+These results are representative of three independent experiments .

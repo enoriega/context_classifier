@@ -1,0 +1,361 @@
+Positive and Negative Regulation of FcepsilonRI Mediated Signaling by the Adaptor Protein LAB and NTAL
+Linker for activation of B cells ( LAB , also called NTAL ; a product of wbscr5 gene ) is a newly identified transmembrane adaptor protein that is expressed in B cells , NK cells , and mast cells .
+Upon BCR activation , LAB is phosphorylated and interacts with Grb2 .
+LAB is capable of rescuing thymocyte development in LAT deficient mice .
+To study the in vivo function of LAB , LAB deficient mice were generated .
+Although disruption of the Lab gene did not affect lymphocyte development , it caused mast cells to be hyperresponsive to stimulation via the FcepsilonRI , evidenced by enhanced Erk activation , calcium mobilization , degranulation , and cytokine production .
+These data suggested that LAB negatively regulates mast cell function .
+However , mast cells that lacked both linker for activation of T cells ( LAT ) and LAB proteins had a more severe block in FcepsilonRI mediated signaling than LAT -/ - mast cells , demonstrating that LAB also shares a redundant function with LAT to play a positive role in FcepsilonRI mediated signaling .
+Introduction
+Engagement of the high affinity IgE receptor ( FcepsilonRI ) at the surface of mast cells initiates signaling cascades leading to Ras-mitogen-activated protein kinase ( MAPK ) activation , calcium mobilization , degranulation , and cytokine production ( - ) .
+FcepsilonRI , a member of the immunoreceptor superfamily , is composed of alpha , beta , and the homodimeric gamma chains ( ) .
+The alpha chain binds IgE , and the beta and gamma chains contain a signal transducing immunoreceptor tyrosine based activation motif ( ITAM ) in their cytoplasmic domains .
+Upon activation of FcepsilonRI by multivalent antigens bound on IgE , the Src family tyrosine kinase ( protein tyrosin kinase [ PTK ] ) , Lyn , is activated and phosphorylates the tyrosine residues within the ITAMs of the beta and gamma chains .
+Syk then binds to the phosphorylated ITAMs via its tandem Src homology 2 domains and is further activated by Lyn .
+These activated tyrosine kinases further phosphorylate downstream signaling molecules .
+The importance of these tyrosine kinases in mast cell function has been demonstrated in cells deficient in these PTKs .
+Syk deficient mast cells fail to degranulate and secrete cytokines when stimulated through the FcepsilonRI ( ) .
+Compared with Syk deficiency , Lyn deficiency has a less severe phenotype .
+Lyn -/ - mast cells have impaired tyrosine phosphorylation of proteins and delayed Ca 2+ mobilization , but degranulation , MAPK activation , and cytokine production occur normally ( ) .
+This partial signaling defect caused by Lyn deficiency is likely due to the presence of another Src family PTK , Fyn ( ) .
+Although Fyn -/ - mast cells are relatively normal in FcepsilonRI mediated tyrosine phosphorylation , MAPK activation , and Ca 2+ flux , they are defective in IgE dependent degranulation ( ) .
+Fyn functions to phosphorylate Gab2 , an adaptor molecule that is important in FcepsilonRI mediated phosphotidylinositide 3-kinase activation .
+Therefore , both Lyn and Fyn are required in FcepsilonRI mediated signaling pathway .
+After activation of these PTKs , many signaling proteins are phosphorylated .
+One of the prominently phosphorylated proteins downstream of FcepsilonRI engagement is linker for activation of T cells ( LAT ) .
+LAT function has been clearly demonstrated in T cells .
+Upon T cell activation , it is phosphorylated and interacts with Grb2 , Gads , and PLC-gamma1 ( - ) .
+Through binding to these molecules , LAT couples TCR engagement to MAPK activation and calcium flux .
+In LAT deficient Jurkat cells , TCR mediated MAPK activation and calcium flux are completely blocked .
+LAT is also required during T cell development .
+LAT deficient mice lack mature T cells , and thymocyte development is blocked at the double negative stage ( ) .
+In LAT -/ - mast cells , although tyrosine phosphorylation of FcepsilonRI , Syk , and Vav is intact , FcepsilonRI mediated phosphorylation of SLP-76 , PLC-gamma1 , and PLC-gamma2 , MAPK activation , and calcium mobilization are significantly reduced , leading to a reduction in mast cell degranulation and cytokine production ( ) .
+Mutational studies show that four membrane-distal tyrosines in LAT are required for LAT function in FcepsilonRI mediated signaling ( ) .
+In comparison with the LAT deficient Jurkat cells , FcepsilonRI mediated signaling and effector function in LAT -/ - mast cells are not completely blocked .
+LAT -/ - mast cells still flux calcium and produce cytokines after engagement of FcepsilonRI , albeit at reduced levels .
+These data suggest that FcepsilonRI mediated signaling is not totally dependent on LAT .
+Recently , a novel transmembrane adaptor protein , linker for activation of B cells ( LAB ) / non T cell activation linker ( NTAL ) , was identified .
+Similar to LAT , LAB has multiple tyrosine residues in its cytoplasmic tail , five of which are within a Grb2 binding motif .
+LAB also has a palmitoylation motif and is localized to lipid rafts .
+LAB is expressed in B cells , NK cells , mast cells , and other cell types .
+Upon BCR or Fc receptor engagement , LAB is phosphorylated and interacts with Grb2 ; however , it is incapable of binding PLC-gamma1 or PLC-gamma2 ( - ) .
+Functionally , LAB is able to rescue thymocyte development in LAT -/ - mice .
+However , transgenic mice expressing LAB in T cells develop a Th 2 autoimmune disease similarly to the LAT Y136F knockin mice , suggesting that LAB resembles the LAT mutant without the PLC-gamma1 site ( ) .
+These data suggest that , although LAT and LAB share a subset of functions in signaling , they function differently .
+To study how LAB functions in vivo , we generated LAB deficient mice .
+Although disruption of the Lab gene had no significant impact on T and B cell development , it caused mast cell hyperresponsiveness to stimulation via FcepsilonRI , suggesting that LAB negatively regulates mast cell function .
+Interestingly , mast cells deficient in both Lat and Lab genes had further reduction in FcepsilonRI mediated signaling and mast cell function in comparison with LAT -/ - mast cells .
+Thus , LAB also plays a positive role in FcepsilonRI mediated signaling .
+Material and Methods
+Generation of LAB -/ - Mice by Gene Targeting .
+Lab genomic fragments were amplified from ES cells by PCR and cloned into the XpPNT targeting plasmid .
+Seven exons , which encode the LAB protein from residues 1 to 113 , were deleted .
+After linearized with NotI , this targeting construct was used to transfect embryonic stem ( ES ) cells .
+ES transfectants were selected in the presence of G418 and gancyclovir .
+Out of 250 G418 resistant ES clones , seven positive clones underwent homologous recombination by PCR screening and Southern blot analysis .
+Four of these targeted ES clones were injected into blastocysts from C57Bl and 6 mice to generate chimeric mice .
+These mice were then used to cross with C57Bl and 6 mice to produce LAB + /- mice .
+LAB -/ - mice were obtained by interbreeding LAB + /- mice .
+Southern blot analysis of the genomic DNA from ES cells and mouse littermates was performed using ExpressHyb hybridization solution ( CLONTECH Laboratories , Inc. ) .
+PCR genotyping of littermates was performed using three primers ( 5 ' - GGAAGTAACCAGGAGCCTGATGCTGC-3 ' , 5 ' - CGGGCTAGAGATGTCAGGCTTTATGG-3 ' , and 5 ' - TCGCAGCGCATCGCCTTCTATCG-3 ' ) .
+2KO mice ( LAB -/ - LAT -/ - ) were obtained by breeding LAB -/ - and LAT -/ - followed by interbreeding LAB + /- LAT + /- .
+Fyn -/ - and Lyn -/ - mice were purchased from the Jackson Laboratories .
+All mice were used in accordance with National Institutes of Health guidelines .
+Antibodies and Flow Cytometry Analysis .
+Antibodies used for immunoprecipitation were anti-LAT ( ) , LAB ( ) , Grb2 , SLP-76 , and PLC-gamma2 ( Santa Cruz Biotechnology ) , and PLC-gamma1 ( Upstate Biotechnology ) .
+Antibodies used for immunoblotting were anti-pTyr ( 4G10 ; Upstate Biotechnology , Inc. ) , SLP76 ( Transduction laboratory ) , and Lyn ( Santa Crutz Biotechnology , Inc. ) .
+Monoclonal anti-LAT ( 11B12 ) was generated by fusion of NSO cells with splenocytes from mice immunized with glutathione S-transferase-LAT ( human ) fusion protein .
+Antibodies for the MAPK assay were anti-phospho-Erk , -Jnk , and -p38 MAPK from Cell Signaling .
+Antibodies used in FACS analysis of lymphocyte development were the following : APC conjugated anti-CD8 and B220 , FITC conjugated anti-CD4 ( eBioscience ) , FITC conjugated anti-IgM and IgD , PE conjugated anti-IgM and CD43 ( BD Biosciences ) .
+For IgE receptor expression level , cells were stained with biotin conjugated anti-FcepsilonRIalpha ( eBioscience ) followed by streptavidin conjugated FITC .
+Flow cytometry was performed using the Becton Dickinson FACSCalibur and analyzed by the CELLQuest software .
+BM derived Mast Cells Culture , Activation , Immunoprecipitation , and Western Blot .
+BM cells were taken from WT , LAB -/ - , LAT -/ - , and 2KO mouse femurs and were cultured in mast cell medium ( Iscove 's modified Dulbecoo 's medium supplemented with 10 % FBS , beta-mercaptoethanol , penicillin , and streptomycin ) in the presence of recombinant IL-3 ( 5 ng and ml ) at 37degreesC for 3-6 wk before analysis .
+BM dervied mast cells ( BMMCs ) ( 2-5 x 10 6 / ml ) were preloaded with anti-DNP IgE ( 0.5 mug and ml , SPE-7 mAb ; Sigma-Aldrich ) in IMDM medium without IL-3 for 4 h. Cells were washed with IMDM and then stimulated with DNP-HSA ( 20 ng and ml ) for the indicated time points .
+A total of 1x10 7 cells were lysed in 500 mul of ice cold Brij lysis buffer ( 1 % Brij-97 , 25 mM Tris-Cl , pH 7.6 , 150 mM NaCl , 5 mM EDTA , 1 mM Na 3 VO 4 ) or RIPA lysis buffer ( 1 % Triton , 0.5 % sodium deoxycholic acid , 0.1 % SDS , 25 mM Tris-Cl , pH 7.6 , 150 mM NaCl , 5 mM EDTA , 1 mM Na 3 VO 4 ) .
+Lysates were subjected to immunoprecipitation with protein A beads bound with various antibodies .
+Lipid raft and nonraft fractions were purified as described previously ( ) .
+For Western blotting , samples were separated by SDS-PAGE and transferred to nitrocellulose membranes .
+After incubation with primary antibodies , nitrocellulose membranes were washed three times and probed with either anti-mouse or rabbit Ig conjugated to AlexaFluor 680 ( Molecular Probes ) or IRDye800 ( Rockland ) .
+Membranes were then visualized with the LI-COR Bioscience Odyssey system ( LI-COR ) .
+Passive Systemic Anaphylaxis .
+Mice were sensitized with 2 mug of anti-DNP-IgE by i.v. injection for 20-24 h .
+They were then injected i.v. with 200 mug of DNP-HSA for 1.5 min .
+Mice were killed with CO 2 , and blood was immediately collected by cardiac puncture .
+Histamine concentration in serum was determined using a competitive histamine ELISA assay kit ( Immunotech ) .
+Ca 2+ Flux .
+BMMCs ( 2-5 x 10 6 / ml ) were preloaded with anti-DNP IgE ( 0.5 mug and ml ) in IMDM without IL-3 for 4 h. Cells were washed twice with IMDM and then loaded with 5 muM Fluo-4 AM ( Molecular Probes ) for 30 min .
+Cells were washed again and further incubated in IMDM for 30 min .
+DNP-HSA ( 30 ng and ml ) and thapsigargin ( 1 muM ) were used to induce calcium flux in these cells .
+Ca 2+ flux was measured using a flow cytometer ( FACSCalibur ; BD Biosciences ) to monitor the fluorescence emission .
+Degranulation Assay .
+Degranulation of BMMCs was determined by measuring the release of beta-hexosaminidase .
+Briefly , BMMCs ( 2-5 x 10 6 / ml ) were preloaded with anti-DNP IgE ( 0.5 mug and ml ) in medium without IL-3 for 4 h. Cells were then washed with IMDM .
+Sensitized cells ( 2 x 10 6 cells and ml ) were stimulated with different concentrations of DNP-HSA ( 1 , 10 , 100 , 1,000 ng and ml ) and 1 muM thapsigargin for 10 min in Tyrode 's buffer .
+The reactions were stopped by putting the tubes on ice followed by centrifugation .
+Supernatants were collected , and cell pellets were solubilized with 0.5 % Triton X-100 in Tyrode 's buffer .
+The enzymatic activity of beta-hexosaminidase was measured with p-nitrophenyl N-acetyl-beta-glucosaminide in 0.1 M sodium citrate ( pH 4.5 ) for 60 min at 37degreesC .
+The reaction was stopped by addition of 0.2 M glycine ( pH 10.7 ) .
+The release of the product 4-p-nitrophenol was detected by measuring absorbance at 405 nm .
+The extent of degranulation was calculated by dividing the absorbance in the supernatant by the sum of absorbance in the supernatants and in the cell pellets solubilized in 0.5 % Triton X-100 .
+Detection of Cytokine Production .
+BMMCs were sensitized in 0.5 mug and ml for 4-16 h followed by stimulation with 20 ng and ml of DNP-HSA for 1 h. Total RNAs were isolated with the Trizol reagent ( Invitrogen ) .
+First strand cDNAs were synthesized using the Superscript RT-PCR kit ( Invitrogen ) .
+cDNAs were then used as templates for amplification of various cytokines .
+The primer pairs for amplification of different cytokines were the following : IL-3 , 5 ' - GTGGCCGGGATACCCACCGTTTAAC-3 ' , 5 ' - TGGCAGGGCAGAGTCATTCGCAGA-3 ' ; IL-4 , 5 ' - GTCTCTCGTCACTGACGGCACAGAG-3 ' , 5 ' - GCATGGTGGCTCAGTACTACGAGTA-3 ' ; IL-6 , 5 ' - CGCTATGAAGTTCCTCTCTGCAAG-3 ' , 5 ' - GTAGCATCCATCATTTCTTTGTATC-3 ' ; TNFalpha , 5 ' GCGACGTGGAACTGGCAG-AAGAGG-3 ' , 5 ' - GTACTTGGGCAGATTGACCTCAGC-3 ' ; IFNgamma , 5 ' - CTTCTTCAGCAACAGCAAGGCGAAA-3 ' , 5 ' - CCCCAGATACAACCCCGGAATCA-3 ' ; actin , 5 ' - ACTCCTATGTGGGTGACGAG-3 ' , 5 ' - CAGGTCCAGACGCAGG-ATGGC-3 ' .
+The concentration of cytokines secreted by mast cells into the tissue culture supernatant was determined by mouse 18-Plex cytokine assay according to the manufacturer 's protocol ( Bio-Rad Laboratories , Inc. ) .
+Results
+Generation of LAB deficient Mice .
+To determine LAB function in vivo , we generated LAB deficient mice by gene targeting .
+A 1.6-kb genomic fragment was cloned as the short arm , and a 6-kb genomic fragment was used as the long arm in the targeting construct to delete exons 2 through 8 ( A ) .
+These exons encode the NH 2 -terminal part of LAB protein from residues 1-113 , which includes the transmembrane domain and palmitoylation site .
+This construct was used to transfect ES cells .
+Out of 250 transfected ES clones , seven clones underwent homologous recombination .
+Targeted ES cells were injected into blastocysts to produce chimeric mice .
+Crossing the chimeras with C57Bl and 6 mice produced heterozygous mice ( LAB + /- ) .
+These heterozygous mice ( LAB + /- ) were inbred to obtain homozygous mice for the disrupted Lab gene ( LAB -/ - ) .
+Figure 1 .
+Disruption of the Lab gene in mice .
+( A ) The targeting construct was made to replace seven exons with the Neo cassette .
+( B ) The genomic DNA from four littermates from LAB + /- interbreeding was digested with XbaI and analyzed by Southern blot using a probe as shown in A .
+The sizes of the DNA fragment detected by this probe were expected to be 10.8 kb for the WT allele and 4.6 kb for the targeted allele ( KO ) .
+( C ) PCR products were amplified from the genomic DNA of four littermates using three primers indicated by arrows in A .
+The size of the PCR products was expected to be 500 bp for WT allele and 600 bp for targeted allele ( KO ) .
+( D ) Absence of LAB protein in LAB -/ - mice .
+Postnuclear lysates of splenocytes and BM derived mast cells from WT and LAB -/ - mice were immunoprecipitated with rabbit anti-LAB .
+Immunoprecipitates were then analyzed by Western blotting with monoclonal anti-LAB .
+( E ) .
+Normal T and B cell development in LAB -/ - mice .
+Cells from thymus , spleen , and BM were stained with antibodies as indicated in each panel .
+Flow cytometry was performed and analyzed by the CELLQuest software .
+Southern analysis using a probe in A showed that the Lab gene was successfully targeted and the mutant allele was transmitted from the chimeric mice to their offspring .
+The sizes of DNA fragments of the targeted and WT alleles were the same as predicted ( B ) .
+Littermates were also genotyped by PCR using three primers ( C ) .
+Successful deletion of the Lab gene was further confirmed by immunoprecipitation of LAB from splenocyte and mast cell lysates followed by an anti-LAB blot .
+LAB protein was clearly absent in cells from LAB -/ - mice ( D ) .
+LAB -/ - mice were born at the expected Mendelian frequency and remained viable and apparently healthy in a pathogen-free environment .
+WT and LAB -/ - mice were indistinguishable in terms of their appearance and size .
+To study whether LAT and LAB have any redundant roles in lymphocyte development and signaling , mice deficient in both LAT and LAB genes were generated by crossing LAB -/ - with LAT -/ - to produce LAT + /- LAB + /- mice .
+LAT + /- LAB + /- mice were inbred to produce double deficient mice ( LAB -/ - LAT -/ - , simplified as 2KO mice throughout the text ) .
+Normal T and B Cell Development in LAB -/ - Mice .
+The sizes of thymus , spleen , and LNs from LAB -/ - mice were similar to those from WT mice .
+Analysis of cells from BM , thymus , spleen , and LN by FACS revealed normal development of T and B lymphocytes .
+The percentages of CD4 + CD8 + , CD4 + , and CD8 + cells in the thymus of LAB -/ - mice were similar to those in WT mice ( E ) .
+The percentages of CD4 + and CD8 + T cells were also normal in spleen and LN of LAB -/ - mice ( not depicted ) .
+This result was expected since LAB is not expressed in resting T cells .
+However , even though LAB is expressed in B cells disruption of the Lab gene had no effect on B cell development as the percentages of pro-B cells ( IgM - B220 + CD43 + ) , pre-B cells ( IgM - B220 + CD43 - ) , and immature ( B220 lo IgM + ) and mature ( B220 hi IgM + ) B cells in BM were similar to those in WT mice ( E and not depicted ) .
+No difference was observed in the percentages of splenic B cells expressing IgM , IgD , or both ( E ) .
+Dendritic and NK cell development was not affected in LAB -/ - mice ( not depicted ) .
+LAB function in B cells and immune responses is currently under investigation .
+LAB Is Phosphorylated and Interacts with Grb2 upon FcepsilonRI Ligation .
+Lyn and Fyn tyrosine kinases play important roles in mast cell function .
+Upon FcepsilonRI engagement , these kinases are activated and subsequently phosphorylate downstream signaling proteins .
+Similar to LAT , LAB is also expressed in mast cells and is phosphorylated upon activation of mast cells via FcepsilonRI .
+In fact , LAB protein was more abundant in mast cells than in splenocytes ( D ) .
+We first examined whether disruption of the Lyn or Fyn gene affects phosphorylation of LAB and LAT in mast cells .
+Long-term mast cell lines ( BMMCs ) were derived from BM cells of WT , Lyn -/ - , and Fyn -/ - mice .
+These cells were cultured in the medium with IL-3 for 3-6 wk and were used in subsequent experiments .
+After being sensitized with monoclonal anti-DNP IgE , mast cells were activated by cross linking with DNP-HSA for 2 min before lysis .
+Postnuclear lysates were then subjected to immunoprecipitation with anti-LAB or LAT sera .
+Lysates and immunoprecipitates were resolved on SDS-PAGE and analyzed by Western blotting with anti-pTyr ( phosphotyrosine ) , LAB , and LAT , respectively .
+As reported previously , FcepsilonRI mediated tyrosine phosphorylation of signaling proteins was dramatically reduced in Lyn -/ - mast cells , whereas it was relatively normal in Fyn -/ - cells ( A ) .
+Immunoprecipitation of LAT showed that LAT phosphorylation was significantly reduced in Lyn -/ - cells compared with it in WT and Fyn -/ - cells ; however , it was still phosphorylated .
+Fyn deficiency had no effect on LAT phosphorylation .
+LAB was phosphorylated upon activation of WT mast cells ( A ) .
+Phosphorylated LAB appeared as a doublet on SDS-PAGE .
+Phosphorylation of LAB was almost completely abolished in Lyn -/ - cells .
+In Fyn -/ - cells , phosphorylation of LAB was slightly reduced compared with WT cells .
+These results indicated that Lyn , not Fyn , is required for tyrosine phosphorylation of the transmembrane adaptor proteins LAT and LAB .
+Figure 2 .
+FcepsilonRI mediated LAB tyrosine phosphorylation and association with Grb2 .
+BMMCs were sensitized with anti-DNP IgE and stimulated with DNP-HSA for 1.5 min or the indicated time .
+Postnuclear lysates were immunoprecipitated and blotted with indicated antibodies .
+( A ) Phosphorylation of LAB and LAT in BMMCs from WT , Lyn -/ - , and Fyn -/ - mice .
+( B ) .
+Phosphorylation of LAB in BMMCs from WT and LAT -/ - mice .
+( C ) LAB association with Grb2 in WT and LAT -/ - BMMCs .
+Increased Tyrosine Phosphorylation of LAB in LAT -/ - Mast Cells .
+Previous studies showed that LAT is important in FcepsilonRI mediated MAPK activation , Ca 2+ flux , and degranulation ; however , disruption of the Lat gene in mast cells fails to completely abolish FcepsilonRI mediated signaling as LAT -/ - mast cells still flux calcium and produce some cytokines upon activation ( ) .
+Because LAB and LAT contain similar tyrosine motifs and both are localized to lipid rafts , we speculated that LAB might compensate for the loss of LAT in LAT -/ - mast cells .
+We examined whether phosphorylation of LAB is affected in LAT -/ - mast cells .
+FcepsilonRI mediated tyrosine phosphorylation of proteins was examined similarly as in A .
+As shown in B , although overall tyrosine phosphorylation of proteins in LAT -/ - mast cells was similar to that in WT cells , there was an increase in phosphorylation of proteins with the molecular weight of ~ 30 kD .
+Since LAB migrates on SDS-PAGE as a 30-32-kD protein , it is possible that this protein is LAB .
+Immunoprecipitation with anti-LAB sera revealed that LAB phosphorylation was indeed increased in LAT -/ - mast cells ( B ) .
+Although it appeared that there was less LAB protein precipitated from activated mast cells at 0.75 and 1.5 min as shown in an anti-LAB blot , this was likely because our antibody did not recognize phosphorylated LAB well .
+We also determined whether LAB associates with Grb2 upon FcepsilonRI engagement .
+LAB and Grb2 were immunoprecipitated from lysates of resting and stimulated mast cells , followed by Western blotting with anti-pTyr and anti-Grb2 .
+As shown in C , Grb2 immunoprecipitated both phosphorylated LAT and LAB in WT , and LAB only in LAT -/ - mast cells .
+Grb2 was also detected in anti-LAB immunoprecipitates from both mast cell lines .
+These data indicated that LAB is phosphorylated and interacts with Grb2 upon engagement of FcepsilonRI .
+In the absence of LAT , LAB phosphorylation was increased .
+IgE dependent Anaphylaxis in LAB -/ - Mice .
+Since LAB was phosphorylated and interacted with Grb2 upon FcepsilonRI engagement , we next examined whether disruption of LAB affects mast cell function in vivo .
+Passive systemic IgE dependent anaphylaxis in WT and LAB deficient mice was performed .
+This assay is dependent on in vivo mast cell degranulation and histamine release after engagement of FcepsilonRI .
+Mice were first injected via a tail vein with monoclonal anti-DNP IgE .
+At 20-24 h after injection , mice were challenged with DNP-HSA .
+At 1.5 min after challenge , mice were killed and blood was collected for measuring histamine concentration using competitive ELISA .
+As shown in A , LAB -/ - mice were capable of releasing histamine upon challenging with DNP-HSA similar to WT mice , if not slightly higher .
+These data indicate that LAB deficiency did not lead to a block in mast cell function in vivo .
+Figure 3 .
+The effect of LAB deficiency on IgE mediated systemic anaphylaxis and degranulation .
+( A ) IgE mediated systemic anaphylaxis .
+Mice ( n = 10 ) were sensitized with anti-DNP IgE and challenged with DNP-HSA .
+Histamine concentration in blood was measured by ELISA .
+( B ) Surface IgE receptor expression on BMMCs from WT , LAT -/ - , LAB -/ - , and 2KO mice .
+BMMCs were stained with biotin-anti-FcepsilonRIalpha ( filled curves ) or biotin-IgG1 as an isotype control ( opened curves ) followed by streptavidin-FITC .
+( C and D ) Degranulation was determined by measuring the release of granular beta-hexosaminidase after stimulation with DNP-HSA ( C ) or thapsigargin ( D ) .
+Enhanced FcepsilonRI Signaling in LAB -/ - Mast Cells .
+LAB function in mast cells was further analyzed using mast cells derived from BM cells of WT and LAB -/ - mice .
+We also derived mast cells from LAT -/ - and 2KO mice to compare FcepsilonRI mediated signaling in these cells with it in WT and LAB -/ - cells .
+Mast cells developed normally from BM cells of WT , LAB -/ - , LAT -/ - , and 2KO mice in the presence of IL-3 .
+These mast cell lines expressed similar levels of IgE receptor ( B ) and c-kit ( not depicted ) .
+We first determined whether the effector function of LAB -/ - mast cells is normal by examining antigen induced degranulation .
+Mast cells were sensitized with anti-DNP-IgE and cross linked with different amounts of DNP-HSA .
+Release of beta-hexosaminidase from granules was then assayed .
+As indicated in C , antigen induced degranulation peaked at a concentration of 10 ng and ml for mast cells from WT and LAB -/ - mice ; however , compared with the granule release in WT cells , FcepsilonRI mediated granule release was significantly enhanced in LAB -/ - cells .
+Similar to LAT -/ - mast cells , 2KO mast cells failed to degranulate upon stimulation with DNP-HSA .
+These cell lines released similar amounts of beta-hexosaminidase in response to stimulation by thapsigargin , which bypasses receptor engagement ( D ) .
+Next , we examined FcepsilonRI mediated signaling in WT , LAT -/ - , LAB -/ - , and 2KO cells .
+Mast cells were sensitized with anti-DNP IgE followed by cross linking with DNP-HSA for 0 , 1.5 , and 5 min before lysis .
+Lysates were analyzed by anti-pTyr blotting .
+As shown in A , overall tyrosine phosphorylation of proteins , with exception of LAT and LAB , was similar in mast cells derived from WT , LAB -/ - , LAT -/ - , and 2KO mice .
+However , there was increased phosphorylation of proteins over 90 kD in LAB -/ - cells .
+Immunoprecipitation of PLC-gamma1 and PLC-gamma2 showed that phosphorylation of these two proteins was increased in LAB -/ - mast cells compared with that in WT , LAT -/ - , and 2KO cells .
+Phosphorylation of SLP-76 was similar in WT and LAB -/ - cell lines ( B ) .
+Figure 4 .
+Phosphorylation of signaling proteins downstream of FcepsilonRI engagement .
+BMMCs were sensitized with anti-DNP IgE and then stimulated with DNP-HSA for the indicated time .
+( A ) Protein phosphorylation in whole cell lysates was detected by antiphosphotyrosine ( pTyr ) .
+LAT and LAB proteins were detected by anti-LAT and LAB , respectively .
+( B ) Phosphorylation of PLC-gamma1 , PLC-gamma2 , and SLP-76 in WT , LAT -/ - , LAB -/ - , and 2KO BMMCs .
+Lysates were immunoprecipitated with anti-PLC-gamma1 , PLC-gamma2 , and SLP-76 antibodies .
+Phosphorylation of PLC-gamma1 , PLC-gamma2 , and SLP-76 was detected by Western blotting with anti-pTyr .
+Similar amounts of proteins were immunoprecipitated as indicated by blotting with anti-PLC-gamma1 , PLC-gamma2 , or SLP-76 antibodies .
+LAT plays an essential role in TCR mediated calcium mobilization by recruiting PLC-gamma1 to the membrane for activation .
+In mast cells , LAT deficiency only leads to a modest reduction in FcepsilonRI mediated calcium flux ( ) .
+To examine activation induced intracellular calcium elevation , mast cells were sensitized with anti-DNP IgE , loaded with calcium sensitive dye Fluo-4 , and activated with DNP-HSA .
+LAT -/ - mast cells showed a reduction in calcium flux compared with WT cells ( A ) .
+In contrast , LAB -/ - mast cells showed an increased elevation of intracellular calcium after stimulation compared with WT cells , suggesting that LAB might negatively regulate calcium mobilization .
+Interestingly , 2KO mast cells , in which both genes were deleted , mobilized very minimal calcium upon stimulation .
+Figure 5 .
+MAPK activation and Ca 2+ flux in BMMCs from WT , LAT -/ - , LAB -/ - , and 2KO after FcepsilonRI engagement .
+( A ) Ca 2+ mobilization .
+BMMCs were sensitized with anti-DNP IgE and then loaded with Fluo-4 AM .
+DNP-HSA was used to induce Ca 2+ mobilization .
+( B ) Activation of Erk , p38 , and Jnk in BMMCs .
+Whole cell lysates were blotted with antibodies against the activated forms of Erk , p38 , and Jnk .
+Similar amounts of lysates were loaded on SDS-PAGE as indicated by an anti-Lyn blot .
+Activation via the FcepsilonRI also leads to activation of MAPKs .
+To examine MAPK activation in WT , LAT -/ - , LAB -/ - , and 2KO mast cells , samples from A were also analyzed by blotting with antibodies against active Erk , Jnk , and p38 .
+Equal amounts of proteins loaded on each lane were indicated by an anti-Lyn blot .
+Disruption of the Lab gene in mast cells had no obvious effect on activation of p38 and Jnk ; however , Erk activation in LAB -/ - cells was significantly increased in comparison with Erk activation in WT , LAT -/ - , and 2KO mast cells ( B ) .
+In contrast , LAT -/ - mast cells failed to activate JNK and p38 ; however , Erk activation appeared to be normal in LAT -/ - mast cells .
+Similar to LAT -/ - mast cells , 2KO mast cells had no p38 and Jnk activation , but Erk activation in 2KO cells was reduced compared with activation in LAT -/ - cells .
+FcepsilonRI mediated Cytokine Production .
+Engagement of the FcepsilonRI receptor also leads to production of multiple cytokines .
+To analyze the effect of LAB on cytokine production , mast cells were sensitized with anti-DNP IgE and cross linked with DNP-HSA for 1 h. Total RNAs were then prepared from resting or stimulated WT , LAT -/ - , LAB -/ - , and 2KO cells .
+Cytokine RNA levels for IL-3 , IL-4 , IL-6 , and TNFalpha were determined by RT-PCR .
+Amplification of the actin transcript indicated that similar amounts of cDNAs were used in each reaction ( not depicted ) .
+As shown in A , after being sensitized LAB -/ - mast cells already produced significant amounts of RNAs for IL-3 , IL-4 , IL-6 , and TNF before cross linking .
+After cross linking with DNP-HSA , LAB -/ - cells produced more IL-4 and TNF-alpha than WT cells but similar amounts of IL-3 and IL-6 RNAs .
+Compared with WT cells , production of IL-3 , IL-4 , IL-6 , and TNFalpha RNAs was dramatically reduced in LAT -/ - mast cells as reported previously ( ) .
+Interestingly , production of these RNAs was further reduced in 2KO mast cells .
+We also quantitated the amounts of cytokines secreted into the tissue culture supernatants after stimulation using multiplex cytokine assay .
+As shown in B , LAB -/ - mast cells produced more IL-2 , IL-3 , Il-4 , IL-6 , MIP-1alpha , and TNFalpha after activation for 3 or 8 h than WT cells , whereas LAT -/ - and 2KO cells produced very minimal amounts of cytokines .
+These results suggested that LAB negatively regulates FcepsilonRI mediated cytokine production .
+Figure 6 .
+Increased cytokine production in LAB -/ - mast cells .
+( A ) Semiquantitative RT-PCR for determination of cytokine RNAs .
+BMMCs were sensitized with anti-DNP IgE and stimulated with DNP-HSA for 1 h. RNAs were isolated from sensitized BMMCs before ( - ) and after cross linking with DNP-HSA ( + ) .
+Relative levels of cytokine RNAs were detected by RT-PCR using specific primer pairs for each cytokine .
+For stimulated samples , cDNAs after dilution at 1:5 and 1:25 were also used in PCR reactions .
+( B ) Cytokine production by mast cells .
+Cytokines secreted into the tissue culture supernatant by mast cells before ( 0 h ) and after cross linking for 3 or 8 h were quantitated by a multiplex cytokine assay .
+Competition of LAT and LAB for Raft Localization .
+Our data showed that FcepsilonRI mediated signaling was enhanced in LAB -/ - mast cells .
+To find out how LAB deficiency affects FcepsilonRI mediated signaling , we examined whether removal of either LAT or LAB by gene targeting affects raft localization of LAB or LAT , since both are localized in lipid rafts .
+We isolated lipid raft and nonraft fractions from WT , LAT -/ - , and LAB -/ - mast cells by ultracentrifugation on a sucrose gradient .
+Each fraction was analyzed by Western blotting with LAB , LAT , Lyn , and PLC-gamma2 antibodies .
+In WT mast cells , LAT was present in both lipid raft ( fractions 2-4 ) and nonraft fractions ( fractions 8-12 ) .
+Interestingly , unlike LAB in B cells , most of the LAB protein was present in nonraft fractions in WT mast cells ( ) .
+In LAT -/ - mast cells , most of the LAB protein was detected in raft fractions .
+Compared with WT mast cells , LAB -/ - mast cells had more LAT in lipid raft fractions and less LAT in Triton-soluble fractions .
+The distribution of Lyn and PLC-gamma2 was similar in WT , LAT -/ - , and LAB -/ - mast cells .
+These results suggested that LAT and LAB might compete for raft localization .
+In the absence of LAT , more LAB protein is targeted to lipid rafts , leading to increased tyrosine phosphorylation of LAB as indicated in B .
+In the absence of LAB , more LAT moves into rafts , thus enhancing FcepsilonRI mediated signaling .
+Figure 7 .
+Localization of LAB and LAT in lipid rafts .
+BMMCs from WT , LAT -/ - , and LAB -/ - mice were lysed in 1 % Triton before ultracentrifugation on a sucrose gradient .
+12 fractions were collected starting from the top of the sucrose gradient .
+Each fraction was resolved on SDS-PAGE and blotted with anti-LAB , LAT , PLC-gamma2 , and Lyn , respectively .
+Discussion
+In our study , we used mast cells derived from LAB deficient mice to study how this adaptor molecule functions in FcepsilonRI mediated signaling and effector function .
+Our data suggested that LAB negatively regulates FcepsilonRI mediated signaling .
+We also compared FcepsilonRI mediated signaling in mast cells derived from the WT , LAT -/ - , LAB -/ - , and 2KO mice .
+Our data indicated that , although LAT plays a dominant role , LAB also has a positive role in FcepsilonRI mediated signaling and effector function .
+Disruption of Lat , Lab , or both did not affect IL-3-dependent mast cell growth , suggesting that these two molecules are not required in IL-3 receptor mediated signaling .
+In LAB -/ - mast cells , FcepsilonRI mediated tyrosine phosphorylation of cellular proteins was relatively normal compared with that in WT cells , indicating that proximal PTK activation was not affected by deficiency of LAB .
+However , phosphorylation of PLC-gamma1 and PLC-gamma2 was increased .
+Increased tyrosine phosphorylation of PLC-gamma1 and PLC-gamma2 normally correlates with an increase in its enzymatic activity , leading to increase in inositol 1,4,5-trisphosphate and diacylglycerol ( DAG ) production .
+Indeed , when we measured FcepsilonRI mediated calcium flux we observed a significant increase in LAB -/ - cells , likely caused by increased inositol 1,4,5-trisphosphate production .
+In addition , FcepsilonRI mediated Erk activation was increased , a consequence of PKC or Ras-GRP activation by increased production of DAG .
+Enhanced calcium flux and Erk activation further led to an increase in mast cell effector function , such as degranulation and cytokine production .
+These data suggested that , different from LAT , LAB functions as a negative regulator in FcepsilonRI mediated signaling .
+These results were apparently different from those obtained using siRNA to knock down LAB protein ( ) .
+Reduced LAB expression was found to abolish FcepsilonRI mediated signaling and mast cell function .
+The reason for this discrepancy is not clear .
+One possibility is that LAB siRNA might also affect expression of other protein ( s ) involved in FcepsilonRI mediated signaling .
+Previous studies showed that FcepsilonRI mediated signaling is not completely blocked in LAT -/ - mast cells .
+LAT -/ - cells still flux calcium and produce cytokines , although at reduced levels .
+Thus , the impact of LAT deficiency is less severe on FcepsilonRI mediated signaling compared with its effect on TCR mediated signaling .
+In LAT deficient Jurkat cells , TCR mediated calcium flux and MAPK activation are completely blocked .
+This suggests that coupling of calcium flux and MAPK activation to FcepsilonRI engagement is not solely dependent on LAT .
+Our data indicated that LAB might play a similar role as LAT .
+When both LAT and LAB were deficient in mast cells , FcepsilonRI mediated calcium flux was completely absent and Erk activation was further reduced compared with Erk activation in LAT -/ - mast cells .
+In the LAT -/ - cells , FcepsilonRI mediated IL-3 , IL-6 , and TNF production was reduced .
+Cytokine production in 2KO mast cells was further reduced as detected by RT-PCR .
+These data suggested that LAB also functions positively in FcepsilonRI mediated signaling by coupling FcepsilonRI engagement to MAPK activation and calcium flux .
+LAT and LAB share similar structural motifs .
+Although both adaptor proteins are capable of binding Grb2 , LAB is unable to bind PLC-gamma1 .
+When the Lab gene was used to reconstitute LAT deficient Jurkat cells , it could partially rescue Ca 2+ flux ( ) or MAPK activation ( ) .
+Transgenic mice that express LAB in T cells under the CD2 promoter have a similar autoimmune phenotype as the LAT Y136F knockin mice .
+These mice have splenomegaly and massive lymphocyte infiltration .
+T cells in these mice are hyperactivated and produce large amounts of Th 2 cytokines .
+Therefore , LAB functions like the LAT mutant without the PLC-gamma1 site .
+In LAT -/ - mast cells , more LAB was phosphorylated .
+Although LAB does not bind PLC-gamma1 or PLC-gamma2 directly , perhaps LAB could recruit PLC-gamma1 or PLC-gamma2 to the membrane through binding of the Gads-SLP76-PLC-gamma complex .
+Since recruitment through LAB might be not as efficient as through LAT , FcepsilonRI mediated calcium flux is thus compromised in LAT -/ - cells .
+When both molecules are absent as in 2KO cells , there is no recruitment PLC-gamma1 or PLC-gamma2 to the membrane , resulting in a complete block in FcepsilonRI mediated calcium flux .
+It is surprising that disruption of the Lab gene enhanced FcepsilonRI mediated signal transduction .
+Since LAB and LAT have similar structures , we expected to see reduced FcepsilonRI mediated signaling when the Lab gene was deleted .
+The reason for this enhanced mast cell function is not entirely clear .
+One possibility is that LAB and LAT might compete for binding of Grb2 .
+Without LAB , LAT could bind more Grb2 and their associated proteins , thus enhancing FcepsilonRI mediated MAPK activation and calcium flux .
+A more likely possibility , as suggested in , is that LAT and LAB compete for localization to lipid rafts .
+In WT mast cells , LAT is the dominant one .
+It keeps most of the LAB protein away from lipid rafts .
+In the absence of LAT , more LAB moves into lipid rafts , leading to more tyrosine phosphorylation of LAB and further compensation for loss of LAT .
+This is probably the reason why LAT deficiency only causes a partial block in FcepsilonRI mediated signaling .
+In the absence of LAB , more LAT moves into lipid rafts and binds more signaling proteins , thus enhancing FcepsilonRI mediated phosphorylation of PLC-gamma1 or PLC-gamma2 , MAPK activation , calcium flux , degranulation , and cytokine production .
+Therefore , LAB might negatively regulate FcepsilonRI mediated signaling by competing with LAT to localize to lipid rafts .
+However , whether lipid rafts exist and function still remains controversial ( ) .
+Our data in might simply indicate changes of LAT or LAB in its physical properties , such as palmitoylation , or subcellular localization when the other one is absent .
+How and at what levels LAB competes with LAT to localize to rafts remain to be investigated in the future .
+Although we observed enhanced FcepsilonRI mediated signaling in mast cells derived from BM cells of LAB -/ - mice , we did not see a significant enhancement of anaphylaxis in vivo .
+It is possible that there is a compensatory mechanism in vivo to control hyperactive mast cells .
+Interestingly , the basal IgE level in naive LAB -/ - mice is higher than the basal IgE level in WT mice ( unpublished data ) .
+Mast cells in LAB -/ - mice might bind less anti-DNP-IgE after sensitization than cells in WT mice , since exogenous IgE has to compete with endogenous IgE to bind FcepsilonRI .
+Even though FcepsilonRI mediated signaling is enhanced in LAB -/ - mast cells , engagement of the FcepsilonRI in LAB -/ - mice might not be as efficient as it in WT mice .
+It is also possible that cross linking with DNP-HSA , which induces anaphylaxis in sensitized mice , already causes a very strong stimulation in WT mice ; therefore , it might be difficult to observe enhanced mast cell function using this assay .
+In addition , because there are some variations in the anaphylaxis assay even among different mice with the same genetic background , it is difficult to detect enhanced mast cell mediated anaphylaxis even if it does occur in vivo .
+Compared with the effect of LAT deficiency on T cell development , disruption of Lab did not have a significant impact on B cell development as normal populations of pro- , pre - , and mature B cells are present in LAB deficient mice .
+Therefore , even though LAB can substitute LAT in T cell development and partially rescues calcium flux in LAT deficient cells , LAB does not function like LAT in B cells .
+It is possible that in B cells BCR mediated signaling does not use a LAT like molecule to signal .
+In T cells , recruitment of SLP-76 and PLC-gamma1 to the membrane and further activation of Ras-MAPK and calcium flux depend on LAT ; however , in B cells SLP-65 / BLNK can be recruited to the BCR by interacting directly with the Igalpha chain .
+BLNK then recruits PLC-gamma1 / gamma2 to the membrane by interacting with them directly .
+It is also possible that other membrane associated molecules might exist to function like LAT in B cells .
+Although LAB deficiency had no effect on B cell development , we could not exclude the possibility that B cell function is affected by disruption of Lab .
+We are currently investigating whether BCR mediated signaling , B cell function , and immune responses are normal in these mice .

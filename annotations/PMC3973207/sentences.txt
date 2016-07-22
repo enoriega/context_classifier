@@ -1,0 +1,241 @@
+Blocks to thyroid cancer cell apoptosis can be overcome by inhibition of the MAPK and PI3K and AKT pathways
+Current treatment for recurrent and aggressive and anaplastic thyroid cancers is ineffective .
+Novel targeted therapies aimed at the inhibition of the mutated oncoprotein BRAF V600E have shown promise in vivo and in vitro but do not result in cellular apoptosis .
+TNF related apoptosis inducing ligand ( TRAIL ) induces apoptosis in a tumor selective manner by activating the extrinsic apoptotic pathway .
+Here , we show that a TRAIL-R2 agonist antibody , lexatumumab , induces apoptosis effectively in some thyroid cancer cell lines ( HTh-7 , TPC-1 and BCPAP ) , while more aggressive anaplastic cell lines ( 8505c and SW1736 ) show resistance .
+Treatment of the most resistant cell line , 8505c , using lexatumumab in combination with the BRAF V600E inhibitor , PLX4720 , and the PI3K inhibitor , LY294002 , ( triple-drug combination ) sensitizes the cells by triggering both the extrinsic and intrinsic apoptotic pathways in vitro as well as 8505c orthotopic thyroid tumors in vivo .
+A decrease in anti-apoptotic proteins , pAkt , Bcl-xL , Mcl-1 and c-FLIP , coupled with an increase in the activator proteins , Bax and Bim , results in an increase in the Bax to Bcl-xL ratio that appears to be critical for sensitization and subsequent apoptosis of these resistant cells .
+Our results suggest that targeting the death receptor pathway in thyroid cancer can be a promising strategy for inducing apoptosis in thyroid cancer cells , although combination with other kinase inhibitors may be needed in some of the more aggressive tumors initially resistant to apoptosis .
+The incidence of well differentiated thyroid cancers in United States has increased dramatically in the past decade .
+Patients with the most common type of thyroid cancer , papillary thyroid cancer ( PTC ) , have a low risk of recurrence and high survival .
+However , a subset of patients with anaplastic thyroid cancer ( ATC ) present with large invasive tumors and and or metastases , do not respond to any chemotherapeutic regimen and often die within months .
+New data are emerging on the genetic or epigenetic changes , which seem to contribute to such dramatic worsening of the prognosis in ATC compared with most other thyroid cancers .
+Correlative studies have pointed to increased incidence of mortality in patients who have activating BRAF V600E mutations , , in the mitogen activated protein kinase ( MAPK ) / extracellular signal regulated kinase ( ERK ) signaling pathway. , Therapeutics blocking this signaling pathway are currently in clinical trials .
+Although BRAF V600E inhibitors work well in vitro in an anti-proliferative and anti-invasive capacity and effectively reduce tumor volume in vivo in animal models , they are not capable of inducing apoptosis in thyroid cancer cells. , , Little is known regarding the mechanisms underlying resistance to apoptosis in these thyroid cancer cells .
+Here , we looked at using novel apoptotic agents to increase thyroid tumor apoptosis by activating the death receptor pathway and showed that in some cases combination with anti-BRAF therapies is necessary to fully activate apoptosis .
+TNF related apoptosis inducing ligand ( TRAIL ) ligand is a promising agent that induces apoptosis in a tumor specific manner by interacting with specific death domain receptors , TRAIL-R1 ( DR4 ) and TRAIL-R2 ( DR5 ) .
+Activation of death domain receptors induces formation of the intracellular cytoplasmic Death Inducing Signaling Complex ( DISC ) , which directly activates the extrinsic apoptotic pathway while also crosstalking with the intrinsic pathway through Bid. , Lexatumumab ( HGS-ETR2 ) is a fully humanized agonistic monoclonal antibody that specifically activates the TRAIL-R2 and has never been tested in thyroid cancer in any capacity .
+Lexatumumab is currently in phase I and II trials in advanced malignancy .
+This antibody approach has several advantages over the TRAIL ligand itself including improved pharmacokinetics and lack of decoy receptor binding , , , although some tumors exhibit resistance to apoptosis .
+Resistance mechanisms include activation of c-FLICE-like inhibitory protein ( c-FLIP ) , , reduced expression of TRAIL-R2 and TRAIL-R1 receptors on tumor cell surface , overexpression of anti-apoptotic proteins ( Bcl-2 , Bcl-xL and inhibitors of apoptosis ( IAP ) family members ) and reduced expression of pro-apoptotic proteins ( Bax ) .
+Low Bax and Bcl-xL ratio has also been shown to have a critical role in TRAIL resistance. , , Lexatumumab has been combined with various drugs to overcome resistance to apoptosis in a variety of tumors in vitro and in vivo .
+These have included small molecule inhibitors ( lapatanib , cycloheximide ) , chemotherapeutic agents ( cisplatin , dacarbazine ) , antiangiogenic factors ( 3TSR ) and also PI3K and MAPK inhibitors. , , , However , no studies of apoptosis with lexatumumab have been performed in thyroid cancer .
+Results
+Some thyroid cancer cell lines showed exquisite sensitivity to lexatumumab induced apoptosis
+Treatment with lexatumumab ( 1000ng and ml ) for 24h resulted in significant apoptosis in three of the five thyroid cancer cell lines .
+Apoptosis was measured by annexinV and PE staining for the percent of annexinV positive cells .
+The cell lines TPC-1 ( 98.6.1+ / -1.0 % , P < 0.001 ) , HTh-7 ( 82.9+ / -15.5 % , P < 0.001 ) and BCPAP ( 82.6+ / -22.3 % , P < 0.01 ) showed dramatically higher percentage of apoptosis than the positive control , colon cancer cell line HCT116 ( 38.9+ / -4.6 % , P < 0.01 ; ) .
+TPC-1 was the most sensitive to lexatumumab with an IC50 of ~ 194ng and ml followed by HTh-7 ( ~ 220.4 ng and ml ) and BCPAP ( ~ 401.5 ng and ml ; ) .
+Lexatumumab induced apoptosis was confirmed in all three sensitive cell lines by TUNEL staining , cleavage of caspases-8 / -9 , the effector caspase-3 and PARP , thus demonstrating activation of both extrinsic and intrinsic pathways .
+c-FLIP , the inhibitor of caspase-8 , decreased with lexatumumab treatment ( ) .
+All cell lines had functionally active TRAIL-R2 receptors , with the highest levels present in these sensitive cell lines .
+At 8h there was a decrease in the TRAIL-R2 surface receptor after lexatumumab treatment , perhaps due to the high rate of cell death .
+Normal thyroid cells , HTori , did not undergo apoptosis with lexatumumab treatment ( ) .
+Lexatumumab inhibits BCPAP tumor growth in an orthotropic mouse model
+To evaluate whether the dramatic effect of lexatumumab observed in vitro would also result in tumor volume reductions in vivo , we examined the efficacy of lexatumumab in mice bearing orthotopically implanted BCPAP tumors .
+The BCPAP cell line was chosen for in vivo testing because previous experiments in our laboratory have shown that the other sensitive cell lines ( TPC-1 , HTh-7 ) do not grow well in mice ( unpublished data ) .
+As previously described , BCPAP cells were implanted into the left thyroid lobe of SCID mice .
+Three weeks post implantation when the tumor volume ranged from ~ 30 to 40mm 3 , treatment was started twice weekly for 4 weeks total .
+Six of the mice were treated with intravenous ( IV ) injections of lexatumumab antibody ( 10mg and kg body weight ) and six with saline ( ) .
+Four weeks of lexatumumab treatment significantly reduced tumor volume from 204+ / -42.5 to 66.5+ / -26.7 mm 3 , ( P < 0.001 ) , with a TGI of 67.4 % ( ) .
+Lexatumumab treated tumors were TTF-1-positive and showed significantly higher percentage of apoptotic cells by TUNEL and cleaved caspse-3 staining compared with controls ( 14.59+ / -2.16 % versus 2.47+ / -0.6 % , P < 0.001 ; ) .
+Of note , there are no lung metastases in this BCPAP orthotopic model .
+Some thyroid cancer cell lines were completely resistant to lexatumumab induced apoptosis , whereas others showed intermediate sensitivity
+8505c cells were completely resistant to lexatumumab induced apoptosis ( 4.9+ / -0.9 % ) even at 1000ng and ml ( ) , and there was no caspase cascade activation and no apoptotic cells on TUNEL staining ( ) .
+One other ATC cell line , SW1736 ( BRAF V600E ) showed reduced sensitivity to lexatumumab induced apoptosis ( 23.7 % cell death , P < 0.05 ) with some intermediate activation of the extrinsic and intrinsic pathway caspases ( ) .
+Given a high background in annexinV-PE staining in the SW1736 cell line , the MTS assay was used for determining cell viability in this particular cell line ( ) .
+Baseline expression of pro- and anti- apoptotic proteins was different among sensitive and resistant thyroid cancer cell lines and was altered with lexatumumab treatment
+The baseline expression of pro- and anti-apoptotic proteins was analyzed in detail .
+Generally in the cell lines that responded with high or intermediate rates of apoptosis to the lexatumumab ( HTh7 , TPC-1 , BCPAP and SW1736 ) , the baseline expression of the pro-apoptotic protein , Bax , was high resulting in a high Bax to Bcl-xL ratio .
+The resistant 8505c cells , however , expressed low Bax and high Bcl-xL protein levels , resulting in a low Bax and Bcl-xL ratio ( ) .
+The two sensitive cell lines , HTh7 and TPC-1 , had high baseline pAkt levels , which rapidly went down with lexatumumab treatment ( result not shown ) , whereas the two cell lines , 8505c and SW1736 , had with high pAkt level that increased further with lexatumumab treatment ( ) .
+BCPAP had low levels of pAkt that remained low even after lexatumumab treatment .
+High pAkt levels contribute to resistance to apoptosis in the SW1736 cell line with intermediate sensitivity to lexatumumab , and apoptosis can be enhanced by inhibition of the PI3K pathway
+Given the importance of pAkt in contributing to TRAIL resistance in other malignancies , , we hypothesized that the high baseline pAkt and the further increased levels with lexatumumab treatment contributed to the SW1736 cells ' intermediate sensitivity to this drug .
+While lexatumumab alone triggered a 23 % cell death rate , addition of the PI3K and pAkt inhibitor , LY294002 ( 50muM ) , resulted in a 83.7 % cell death ( P < 0.001 ; ) , with the cells showing cleavage of extrinsic and intrinsic caspases 8/9/3 , PARP and the associated Bid protein ( ) even as early as 8h of treatment .
+Lowering pAkt levels caused an increase in both the L&S forms of the pro-apoptotic protein Bim , which has been important for initiating TRAIL induced apoptosis ( ) .
+The completely resistant 8505c ATC cell line can be triggered to undergo apoptosis by inhibiting two important cell survival pathways
+The proliferation of the ATC cell line 8505c is dramatically affected by the BRAF V600E inhibitor PLX4720 both in vitro and in vivo , , yet ultimately PLX4720 treatment does not cause apoptosis .
+This cell line is also completely resistant to direct induction of apoptosis with lexatumumab ( ) .
+As the baseline pAkt level is already very high and further increases with either lexatumumab or PLX4720 ( 10muM ) treatment , similar to what we saw in the SW1736 cell line , we wanted to test whether the suppression of pAkt alone would trigger apoptosis .
+Furthermore , given previous studies emphasizing the crosstalk between the MAPK and PI3K cell survival pathways in promoting resistance to apoptosis , , , we chose to study whether dual targeting of these pathways could overcome the severe resistance that 8505c cells have to lexatumumab induced apoptosis .
+Therefore , three drugs were used singly or in combination to test our hypothesis : the MAPK and BRAF V600E inhibitor , PLX4720 ( 10muM ) , PI3K and pAkt inhibitor , LY294002 ( 50muM ) , and lexatumumab .
+No drug alone induced apoptosis in 8505c cells with the percentage of apoptotic cells ranging from 4.9+ / -0.9 % ( lexatumumab ) to 5.5+ / -1.5 % ( PLX4720 ( 10muM ) ) .
+Dual inhibition with the MAPK and PI3K inhibitors ( PLX4720 and LY294002 ) without the apoptotic agent also did not boost apoptosis ( 5.9+ / -4.2 % ) .
+However , combining lexatumumab with the inhibitors of either of the two pathways did result in increased apoptosis .
+Dual combination of lexatumumab and LY294002 increased apoptosis to 33.1+ / -13.2 % , P < 0.01 ( ) , whereas the dual combination with PLX4720 caused a moderate increase in apoptosis to 20.9+ / -3.6 % , P < 0.01 .
+Combining all three drugs together , however , resulted in dramatic apoptosis ( 72.1+ / -3.2 % , P < 0.001 ; ) and strong TUNEL staining ( ) .
+Dosing curves were used to calculate optimal dosage and showed that combining these three drugs together allowed a much lower dose of lexatumumab ( IC50 of 200ng and ml , data not shown ) to be effective at inducing apoptosis with maximal apoptosis at 500ng and ml ( ) .
+Analysis of the pro- and anti-apoptotic pathway proteins in 8505c cells treated with the combination of all three drugs : PLX4720 ( 10muM ) , LY294002 ( 50muM ) and lexatumumab ( 1000ng and ml ) in 8505c cells showed ( ) :
+Activation of all extrinsic and intrinsic pathways with significant cleavage of caspase-8 / -9 / -3 and PARP ( ) .
+( b ) Activation of the pro-apoptotic proteins : cleavage of Bid ( indicated by the decrease of pro-Bid protein ; ) and increased expression of Bad , Bak , Bim ( BimL and BimS ) and Bax ( ) .
+The Bim expression was highest after 24h of treatment , whereas Bax increased in expression after 1h and then remained stably elevated till 24h ( ) .
+( c ) Dramatic decrease in anti-apoptotic proteins - Bcl-xL , Mcl-1and c-FLIP - ( ) were reduced with treatment , even as early as after 2h of treatment and remained so up to 48h ( ) .
+TRAIL-R2 expression , on the other hand , increased immediately after the treatment for a short time and then progressively decreased by 48h ( ) .
+Bcl-xL has a significant role in the resistance of 8505c cells to induction of apoptosis
+Our results with the three drug combination confirms the work of other authors in various other malignant lines , indicating that decreased expression of anti-apoptotic protein Bcl-xL is critical in initiation and maintenance of a robust apoptotic response to TRAIL. , , , , The 8505c cells started with a very high baseline Bcl-xL protein level , which was reduced significantly after transfection with Bcl-xL siRNA for 48h ( ) .
+Subsequent treatment of these cells with lexatumumab ( 1000ng and ml ) resulted in 52.3 % apoptosis as measured by annexinV-PE staining as well as caspase 3 and PARP cleavages compared with lexatumumab controls ( 3.4 % apoptosis ) or scrambled siRNA ( 8.4 % ) .
+Dual inhibition of pAkt and MAPK pathways increases the lexatumumab induced apoptosis in 8505c orthotopic thyroid model
+On the basis of our in vitro results , we predicted that the three drug combination would result in tumor apoptosis in an 8505c thyroid orthotopic model of aggressive thyroid cancer with wide spread lung metastases .
+Treatment was initiated 2 weeks post-orthotopic implantation of 8505c-GFP cells and continued for 2 weeks with either lexatumumab ( 5mg and kg body weight , IV twice a week ) , PLX4720 ( 417mg and kg chow diet ) , LY294002 ( 50mg and kg body weight , IP twice a week ) or a combination of all three drugs ( ) .
+Controls received normal chow and saline .
+Results showed that 4 weeks post-tumor implantation , treatment with lexatumumab alone ( 76.8+ / -15.2 mm 3 ) and LY294002 alone ( 72.5+ / -12.0 mm 3 ) did not result in a statistically significant decrease in tumor volume or metastasis as compared with control ( 91.2+ / -20.6 mm 3 ; ) .
+We confirmed that PLX4720 alone reduced primary tumor volume by 95 % and completely treated the lung metastases compared with controls .
+PLX4720 treatment in vivo only resulted in < 4 % of cells showing cleaved caspase-3 by IHC , which was not significantly increased compared with controls .
+The three drug combination resulted in 99 % reduction in primary tumor volume , complete disappearance of lung metastases and elevated cleaved caspase 3 levels to 14+ / -2 % .
+All the tumors in the control group and the treated groups stained positive for TTF-1 ( ) .
+It seemed that , while the reduction in the primary tumor volume was statistically no different between PLX4720 alone and the three drug combination , given the dramatic tumor reductions in both scenarios , apoptosis was clearly only triggered with the three drug combination .
+Human PTC expression profiling of apoptotic genes show a pattern of potential sensitivity to lexatumumab
+If TRAIL based therapies are to be attempted in patients with thyroid cancer , it is important to understand the basal expression of various apoptotic and death receptor gene expression profiles in thyroid cancer patient samples , compared with normal thyroid samples .
+Using microarray genomic data from PTC and normal thyroid samples by Giordano et al. , we analyzed 75 genes related to apoptosis : two of these decreased , whereas seven increased in expression by at least twofold ( P < 0.001 ) .
+Expression profiles for five of these genes were then confirmed by RT-PCR in a cohort of 10 human PTCs and four matched normal thyroid tissues .
+Those that showed more than a twofold difference in relative values of comparisons ( P < 0.05 ) were considered differentially expressed .
+Four of the five genes had higher relative mRNA expressions in PTC samples compared with the matched normal thyroids - TRAIL-R2 ( ~ 3.2+ / -1.4 - fold change , P < 0.05 ; ) , Bax ( ~ 3.0+ / -2.5 - fold change , P < = 0.05 ; ) , Bcl-xL ( ~ 2.7+ / -0.5 - fold change , P < 0.01 ; ) and Bid ( ~ 8.2+ / -2.5 - fold change , P < 0.001 ; ) .
+In contrast , Bim ( 2.9+ / -0.92 - fold change , P < 0.01 ; ) showed a significant decrease in levels between the PTC patient tumors and normal thyroids .
+This pattern is similar to that seen in the sensitive BCPAP cell line .
+Discussion
+Aggressive thyroid cancers remain resistant to traditional chemotherapeutic agents .
+Novel targeted therapies are being tested in the preclinical and clinical setting for the last 5 years .
+Effort has been mostly focused on multikinase inhibitors such as sorafenib or targeting the BRAF or MEK pathways .
+Agents triggering apoptosis have not been well studied in thyroid cancer .
+We report here for the first time the efficacy of the pro-apoptotic TRAIL-receptor 2 agonist , lexatumumab , in inducing apoptosis in a variety of representative thyroid cancer cells with well defined mutations that include BRAF V600E ( BCPAP , 8505c , SW1736 ) , NRAS Q61R ( HTh-7 ) and RET and PTC ( TPC-1 ) .
+We observed a range of apoptotic responses to lexatumumab , with some being exquisitely sensitive ( TPC-1 , HTh-7 and BCPAP ) , whereas others were moderately or completely resistant ( SW1736 and 8505c ) .
+Interestingly , the mutational status alone did not show a direct correlation to lexatumumab sensitivity .
+When exposed to lexatumumab , the sensitive cell lines were able to efficiently and rapidly activate both extrinsic and intrinsic apoptotic pathways .
+As there was a strong apoptotic response ranging from 83 to 99 % in the three sensitive cell lines , we tested the in vivo efficacy of this novel antibody in an orthotopic animal model of thyroid cancer using one of the sensitive cell lines , BCPAP .
+Our results showed that lexatumumab treatment alone induced apoptosis in vivo , which resulted in effective tumor shrinkage of 67 % , indicating the potential utility of this agent in some patients with papillary or ATCs .
+Furthermore , expression profiling of five genes known to be important in regulating the apoptotic response to lexatumumab showed that all 10 PTC samples directly from patients had profiles that were similar to the BCPAP PTC cell line , which we have shown here to be exquisitely sensitive to TRAIL induced apoptosis .
+Not surprisingly , the most aggressive ATC cell line we studied , 8505c , showed remarkable resistance to apoptosis with < 5 % of cells undergoing apoptosis even when exposed to high doses of lexatumumab .
+These data are consistent with our previous studies showing that this cell line is generally resistant to apoptosis when treated with other agents. , , We were able to induce apoptosis in this resistant cell line by combining lexatumumab with a PI3K and Akt inhibitor LY294002 and a BRAF V600E inhibitor PLX4720 .
+Our combinatorial strategy that was guided by known signaling pathway and genomic data led to rapid and sustained apoptosis in vitro and in vivo .
+Although PLX4720 alone effectively reduced the tumor volume and the lung metastasis , it failed to induce apoptosis in the tumor cells in vivo .
+Development of resistance to PLX4720 is a major limitation when it comes to efficacy in treating patients as recurrent tumor growth occurs from the few remaining cells that have not undergone apoptosis .
+This study points to the utility of the three-drug combination in inducing apoptosis in the 8505c orthotopic tumors along with the rapid tumor shrinkage and reduction of lung metastasis .
+This study among others can lead to better long-term outcomes .
+Our data showed that two critical elements had a role in the marked resistance to apoptosis in this cell line ( ) .
+The 8505c cells had both a very high baseline expression of Bcl-xL and a low expression of Bax ( low Bax and Bcl-xL ratio ) and when exposed to lexatumumab treatment mounted a remarkable increase in pAkt levels .
+As pAkt is a well-known anti-apoptotic protein , a sudden increase in pAkt when exposed to the apoptotic agent is in sharp contrast to the sensitive cell lines , which show suppression of pAkt levels .
+Inhibition of pAkt by LY294002 or knockdown of Bax and Bcl-xL protein ratio alone did somewhat increase the apoptotic response to 30 % however , only when the three-drug combination was used were these cells able to mount an apoptotic response up to 68 % .
+The ' crosstalk ' between apoptotic and various kinase pathways is just starting to be studied in other malignancies .
+In colorectal cancer , resistance to apoptosis is thought to be due to dual mutations in the PI3 and MAP Kinase pathways ( PIK3CA H1047 and BRAF V600E ) , which cause high levels of pAkt , thus blocking TRAIL induced apoptosis .
+In melanoma and non small cell lung carcinoma , high basal or induced pAkt protein levels conferred resistance to apoptosis by MEK inhibitors. , , Here we have shown that in thyroid cancer , resistance to apoptosis follows a similar pattern .
+The ATC cell line 8505c demonstrates a remarkable decrease in proliferation when exposed to BRAF V600E inhibitor PLX4720 ; however , unfortunately there is a simultaneous detrimental further increase in pAkt levels that essentially prevents the initiation of apoptosis .
+Our three-drug combination is likely effective due to effects on multiple fronts .
+Most importantly , the inhibition of both pAkt and the MAPK pathway controls the regulatory increase in alternative pathways caused by the other 's negated pathway .
+In addition , beneficial alterations in the ratios of pro-apoptotic proteins , Bax and Bak , protein expressions and the anti-apoptotic proteins , Bcl-xL , Mcl-1 and cFLIP , favors overcoming the resistance to TRAIL. , Finally , elevations in all three isoforms of Bim contribute to a higher apoptotic response. ,
+Interestingly , we also found that one ATC cell line had an intermediate sensitivity to lexatumumab - SW1736 , showing a 24 % cell death response .
+This cell line already has a high Bax and Bcl-xL ratio similar to all the sensitive cell lines ; therefore , we hypothesized that the resistance to apoptosis was likely due to an increase in pAkt when exposed to lexatumumab .
+Dual-drug combination of a pAkt inhibitor along with lexatumumab triggered increased cell death up to 84 % , indicating the importance of inhibition of the pAkt pathway alone in this intermediately sensitive cell line .
+We have shown here that some thyroid cancer cell lines are sensitive to apoptotic agents and these agents should be tried clinically in appropriate patients .
+Appropriate patients may include those with no known mutations , high levels of TRAIL-R2 receptor and a high Bax to Bcl-xL ratio , as these patients have elements to suggest that their tumors will be sensitive to apoptotic agents alone .
+Patients with either activating mutations in the PI3K or MAPK pathways and and or a low baseline Bax to Bcl-XL ratio may need a combination of pro-apoptotic agents such as lexatumumab with kinase inhibitors to show efficacy .
+Further studies in genetically engineered models of aggressive thyroid cancer in mice , which harbor additional mutations such as p53 and BRAF , , will undoubtedly shed light on the true efficacy of a combinatorial strategy .
+Materials and methods
+Cell culture , antibodies and reagents
+Reagents included the following : lexatumumab ( Human Genome Sciences , GlaxoSmithKline , Philadelphia , PA , USA ) , LY294002 ( Cell Signaling Technology , Danvers , MA , USA ) and PLX4720 ( Plexxikon , Berkeley , CA , USA ) .
+Antibodies - beta-actin , phospho-p44 / 42 MAPK ( ERK1 and 2 ) ( Thr202 and Tyr204 ) ( phospho-ERK ) , p44 and 42 MAPK ( ERK1 and 2 ) ( Total ERK ) , total Akt , phospho-Akt ( Ser 473 ) , caspases 3,8,9 , cleaved caspase-3 , PARP , c-FLIP , TRAIL-R2 , Bcl2 , Bcl-xL , Mcl-1 , Bim , Bid , Bax , Bad , Bak were purchased from Cell Signaling Technology .
+ATC cell lines - 8505c ( BRAF V600E /- ) , SW1736 ( BRAF V600E and wt ) , HTh-7 ( NRAS Q61R ) ; PTC cell lines - BCPAP ( BRAF V600E and wt ) , TPC-1 ( RET and PTC -1 ) ; and normal thyroid cell line - HTori were grown in RPMI1640 medium with 10 % FBS and Penicillin ( 100units and ml ) / streptomycin ( 100mug and ml ) ( Gibco , Grand Island , NY , USA ) .
+Apoptosis assays and western blots
+Treatment was carried out at 60-70 % confluency .
+BCPAP , HTh-7 and TPC-1 cells were treated with lexatumumab ( 1000ng and ml ) for 24h , whereas 8505c and SW1736 cells received treatment with lexatumumab alone or in combination with LY294002 ( 50muM ) and PLX4720 ( 10muM ) for 48h .
+The percent of apoptotic cells was assayed by flow cytometry ( BD Sorp 8 Laser LSR II ( BD Biosciences , San Jose , CA , USA ) using annexinV-PE Apoptosis Detection Kit ( BD Biosciences ) .
+Flow cytometry data were analyzed using FlowJo ( Tree Star Inc. , Ashland , OR , USA ) .
+For determining the IC50 and response curves of lexatumumab , 10000 cells were treated with a wide range of lexatumumab concentrations for 72h and cell viability was tested using CellTiter96 Aqueous One Solution Reagent for the MTS assay ( Promega , Madison , WI , USA ) .
+For terminal deoxynucleotidyl transferase mediated dUTP nick end labeling ( TUNEL ) assay , cells were fixed with 1 % paraformaldehyde in cold PBS and processed using the APO-BrdU TUNEL kit ( Invitrogen , Grand Island , NY , USA ) , and apoptotic cells were counted using fluorescence .
+For western blot analysis , all the drug treatments were carried out for 8h at 60-70 % cell confluency .
+At the end of the treatment , the cells were lysed on ice in RIPA buffer containing protease and phosphatase inhibitor cocktail ( Thermo Scientific , Rockford , IL , USA ) .
+Western blot assay was performed using standard procedure .
+siRNA knockdown
+A total of 1 x 10 5 8505c cells were transfected with either 50nM of Bcl-xL siRNA ( siGENOME SMARTpool ) or scrambled siRNA ( Dharmacon and Thermo Fisher Scientific Inc. ) , using Dharmafect2 and incubated for 48h to achieve Bcl-xL protein knockdown .
+Cells were then treated with lexatumumab ( 1000ng and ml ) for 24h and assayed for apoptosis .
+Real-time PCR
+Real-time PCR was performed and analyzed using Lightcycler 96 ( Roche ) qPCR machine and its software , normalized to GAPDH expression as described previously .
+Primer sequences include : TRAIL-R2 ( forward ) : 5 ' - ACCACGACCAGAAACACAG-3 ' and ( reverse ) : 5 ' - CATTCGATGTCACTCCAGGG-3 ' Bcl-xL ( forward ) : 5 ' - GTGGAAAGCGTAGACAAGGAG-3 ' and ( reverse ) : 5 ' - CTGCATTGTTCCCATAGAGTTC-3 ' Bax ( forward ) : 5 ' - AGTAACATGGAGCTGCAGAG-3 ' and ( reverse ) : 5 ' - AGTAGAAAAGGGCGACAACC-3 ' Bid ( forward ) : 5 ' - ATTAACCAGAACCTACGCACC-3 ' and ( reverse ) : 5 ' - TGACCACATCGAGCTTTAGC-3 ' Bim ( forward ) : 5 ' - TCGGACTGAGAAACGCAAG-3 ' and ( reverse ) : 5 ' - CTCGGTCACACTCAGAACTTAC-3 ' .
+Orthotopic thyroid cancer model and pathologic analysis
+All animal work was conducted at the Massachusetts General Hospital in accordance with the federal , local and institutional guidelines .
+For orthotopic tumor implantations , 10-week-old female SCID mice were injected with 10 6 tumor cells as previously described : 12 animals had BCPAP cells implanted ( 6 and group ) , and 40 animals had 8505c-GFP cells injected ( 8 and group ) .
+At the end of treatment , the mice were killed and the tumor volume was calculated as ( pi and 6 ) x length x width x height .
+Tumor growth inhibition ( TGI ) was determined using : TGI = ( 1-treatment and control ) x 100 .
+GFP imaging was performed using multispectral fluorescence scanner ( CRi Maestro 500 , CRi Inc. ) .
+Tumors were collected in 10 % formalin for H&E , TUNEL , TTF-1 and cleaved caspase-3 .
+In case of mice injected with 8505c-GFP cells , the tumors were collected at the end of 1-week treatment for the IHC analysis .
+Statistical analysis
+Statistical analysis was carried out using Microsoft Excel ( Microsoft , Redmond , VA , USA ) and GraphPad Prism ( GraphPad , La Jolla , CA , USA ) .
+All experiments were performed at least three times , and the results were expressed as mean+ /- S.D. of the individual experiments .
+Results were compared using the unpaired , two tailed Student 's t-test ; P-values of < 0.05 were considered significant ( * P < 0.01 , ** P < 0.001 ) .
+The authors declare no conflict of interest .
+Supplementary Material
+Supplementary Results
+Click here for additional data file .
+Figure 1
+Lexatumumab induced apoptosis in various thyroid cancer cell lines .
+TPC-1 , BCPAP , HTh-7 and 8505c human thyroid cancer cell lines were treated with lexatumumab ( 1000ng and ml ) for 24h .
+The apoptotic cell population was assayed by annexinV-PE staining and represented as mean+ / - S.D. of three individual experiments .
+Three cell lines were highly sensitive to lexatumumab induced cell death versus untreated control , TPC-1 ( 98.6.1+ / -1.0 % , P < 0.001 ) , HTh-7 ( 82.9+ / -15.5 % , P < 0.001 ) and BCPAP ( 82.6+ / -22.3 % , P < 0.01 ) .
+HCT116 , a colon cancer cell line , was used as a positive control and had a 38.9+ / -9.2 % , P < 0.01 apoptotic response .
+8505c ATC cells were completely resistant to apoptosis ( 4.9+ / -0.9 % , P > 0.05 ) .
+( b ) IC50 values for lexatumumab were determined using MTS assay for each cell line ; TPC-1 was the most sensitive at 194ng and ml , HTh-7 ( 220.4 ng and ml ) and BCPAP ( 401.5 ng and ml ) .
+( c ) Phase-contrast microscopy showed that lexatumumab treated TPC-1 , BCPAP and HTh-7 cells had a rounded and apoptotic morphology and were positive for TUNEL staining .
+TPC-1 , BCPAP and HTh-7 cells treated with lexatumumab ( 100ng and ml and 1000ng and ml ) for 8h showed caspase 8 , 9 , 3 and PARP cleavage .
+cFLIP and TRAIL-R2 decreased in the lexatumumab treatment groups in all the three cell lines .
+beta-actin was used for loading control .
+( ** P < 0.001 versus control )
+Figure 2
+Lexatumumab inhibited tumor growth in a BCPAP orthotopic thyroid cancer model .
+One million BCPAP human papillary thyroid cancer cells were implanted into the left thyroid of the SCID mouse .
+Three weeks post implantation , mice ( n = 6 ) were injected twice weekly with lexatumumab ( 10mg and kg body weight ) I.V. or saline ( n = 6 ) for 4 weeks .
+( b ) Lexatumumab treatment resulted in a 67.4 % reduction in tumor growth when compared with control ( 204+ / -42.5 to 66.5+ / -26.7 mm 3 , P < 0.001 ) .
+( c ) Orthotopic tumors treated with lexatumumab showed less aggressive histology on H&E but maintained strong staining for TTF-1 and showed significantly higher percentage of apoptotic cells by TUNEL ( 14.59+ / -2.16 % versus 2.47+ / -0.6 % , P < 0.001 ) and cleaved caspse-3 staining , compared with controls .
+A representative of the cells undergoing apoptosis ( TUNEL positive cells and cells showing cleaved caspase ) was indicated by the arrows in the figure .
+( ** P < 0.001 versus control )
+Figure 3
+Further inhibition of the PI3K and MAPK pathways sensitized ATC cell lines , 8505c ( BRAF V600E /- ) and SW1736 ( BRAF V600E and wt ) to lexatumumab induced apoptosis .
+8505c and SW1736 ATC cells were treated with lexatumumab , LY294002 , PLX4720 either alone or in combination as indicated in the Figure for 48h .
+At the end of the treatment , the percentage of cells undergoing apoptosis were assessed using annexinV-PE staining in 8505c cells ( n = 3 ) , whereas the percentages of dead cells were determined using MTS assay for SW1736 cells ( n = 3 ) .
+In the resistant 8505c cells , no single agent induced a significant apoptosis .
+Treatment with the combination of LY294002 ( 50muM ) and lexatumumab ( 1000ng and ml ) resulted in a significant apoptotic cell death ( 33.1+ / -13.2 % , P < 0.01 versus control ) .
+However , the three drug combination of lexatumumab , LY294002 and PLX4720 was most effective with an apoptotic cell population of 72.1+ / -3.2 % ( P < 0.001 versus control ) .
+Western blot at 8h of treatment showed the effective inhibition of pAkt and phospho-ERK by LY294002 and PLX4720 , respectively .
+( b ) Treatment of the intermediately sensitive SW1736 cells with the combination of LY294002 ( 50muM ) and lexatumumab ( 1000ng and ml ) resulted in a very effective cell death at 83.7+ / -5.6 % , P < 0.001 .
+Western blot showed the effective inhibition of pAkt by LY294002 .
+( c ) Comparison of baseline expression of various pro- and anti-apoptotic proteins showed that the resistant 8505 cells had a low Bax to Bcl-xL ratio compared with the other lexatumumab sensitive thyroid cell lines ( BCPAP , TPC-1 and HTh7 ) .
+( * P < 0.01 and ** P < 0.001 versus control )
+Figure 4
+Triple-drug ( LY294002 , PLX4720 and lexatumumab ) and dual-drug combinations ( LY294002 and lexatumumab ) triggered the intrinsic and extrinsic apoptotic pathways in 8505c and SW1736 cells .
+8505c and SW1736 cells were treated for 8h with drug combinations as indicated in the figure and analyzed for pro- and anti-apoptotic proteins by western blot .
+Treatment with triple-drug combination in 8505c and the dual combination in SW1736 resulted in cleavage of caspase 8/9/3 and PARP .
+( b ) Triple-drug combination resulted in the increase in pro-apoptotic proteins Bad , Bim , Bax and Bak in 8505c cells .
+Dual inhibitor combination , on the other hand , resulted in an increase in BimL & S forms in SW1736 cells .
+( c ) Triple-drug combination significantly decreased the anti-apoptotic proteins Bcl-xL and Mcl-1 in 8505c cells at 8h of treatment .
+cFLIP decreased in both the dual and triple-drug combinational treatments of 8505c cells .
+( e ) Treatment of 8505c cells at different time points up to 48h with the triple-drug combination also showed a significant decrease in anti- apoptotic proteins , Bcl-xL , Mcl-1 , cFlip and an increase in pro-apoptotic proteins , Bax and Bim isoforms .
+beta-Actin was used as loading control
+Figure 5
+Knockdown of Bcl-xL sensitized 8505c cells to lexatumumab induced apoptosis .
+Cells were transfected with 50-nM Bcl-xL or control siRNA for 48h and then treated with 1000ng and ml of lexatumumab for another 24h .
+Bcl-xL protein level significantly decreased after 48h of transfection with Bcl-xL siRNA .
+beta-Actin served as a loading control .
+( b ) Treatment of Bcl-xL knockdown cells with lexatumumab showed a significant increase in cell death ( 52.3 % , P < 0.01 versus control ) as measured by annexinV-PE staining ; the treated cells showed the cleavage of caspase-3 and PARP ( c )
+Figure 6
+Treatment with the triple-drug combination ( LY294002 , PLX4720 and lexatumumab ) increased apoptosis in 8505c originated orthotopic thyroid tumors .
+One million 8505c cells were implanted into the left thyroid of the SCID mouse .
+Two weeks post implantation , the mice ( six mice and group ) were treated for another 2 weeks with lexatumumab ( 5mg and kg body weight , I.V twice every week ) , PLX4720 ( 417mg and kg chow diet ) , LY294002 ( 50mg and kg body weight , I.P twice every week ) separately as single agents , whereas one group received the triple combination drugs .
+Control group of mice received saline and fed on the normal chow .
+Treatment with single drug agents did not significantly decrease tumor volume compared with control ( 91.2+ / -20.6 mm 3 ) : lexatumumab ( 76.8+ / -15.2 mm 3 ) and LY294002 ( 72.5+ / -12.0 mm 3 ) .
+Mice receiving either PLX4720 alone or the triple-drug combination showed dramatic decreases in tumor volume ( 4.6+ / -3.1 mm 3 ) .
+( ** P < 0.001 versus control ) .
+( b ) GFP imaging of the thyroid orthotopic tumors and lung confirmed reductions in the primary tumor and metastasis .
+( c ) All tumors showed aggressive histology and expressed TTF-1 .
+Triple-drug therapy significantly increased the levels of apoptotic cells in the tumor , as measured by cleaved caspase-3 IHC staining compared with single agent therapy with PLX4720 ( 14+ / -2 % versus < 4 % )
+Figure 7
+Relative real-time RT-PCR of Bax , Bcl-xL , Bim , Bid and TRAIL-R2 in patient PTC samples ( n = 10 ) compared with matched normal thyroid tissue ( NT ; n = 4 ) .
+TRAIL-R2 was upregulated ~ 3.2+ / -1.4 - fold ( P < 0.05 ) in PTCs versus normal thyroid .
+( b ) Bax was upregulated ~ 3.0+ / -2.5 - fold ( P < = 0.05 ) in PTCs versus normal thyroid .
+( c ) Bcl-xL was upregulated ~ 2.7+ / -0.5 - fold ( P < 0.01 ) in PTCs versus normal thyroid .
+Bim was downregulated ~ 2.9+ / -0.92 - fold ( P < 0.01 ) in PTCs versus normal thyroid .
+( e ) Bid was upregulated ~ 8.2+ / -2.5 - fold ( P < 0.01 ) in PTCs versus normal thyroid .
+( * P < 0.01 and ** P < 0.001 )
+Figure 8
+Schematic diagram showing differences in the thyroid cancer cell lines sensitive or resistant to apoptosis .
+Lexatumumab induced dramatic apoptosis results in sensitive cell lines ( TPC-1 , HTh-7 and BCPAP ) through activation of both intrinsic and extrinsic pathways .
+( b ) 8505c cells show complete resistance to lexatumumab induced apoptosis , but effective apoptosis can be triggered by removing the ' block ' to apoptosis by using addition of PLX4720 and LY294002 , through re-activation of the intrinsic mitochondrial pathway

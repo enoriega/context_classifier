@@ -1,0 +1,364 @@
+Dissection of the Molecular Basis of pp60v-src Induced Gating of Connexin 43 Gap Junction Channels
+Suppression of gap-junctional communication by various protein kinases , growth factors , and oncogenes frequently correlates with enhanced mitogenesis .
+The oncogene v-src appears to cause acute closure of gap junction channels .
+Tyr265 in the COOH-terminal tail of connexin 43 ( Cx43 ) has been implicated as a potential target of v-src , although v-src action has also been associated with changes in serine phosphorylation .
+We have investigated the mechanism of this acute regulation through mutagenesis of Cx43 expressed in Xenopus laevis oocyte pairs .
+Truncations of the COOH-terminal domain led to an almost complete loss of response of Cx43 to v-src , but this was restored by coexpression of the independent COOH-terminal polypeptide .
+This suggests a ball and chain gating mechanism , similar to the mechanism proposed for pH gating of Cx43 , and K + channel inactivation .
+Surprisingly , we found that v-src mediated gating of Cx43 did not require the tyrosine site , but did seem to depend on the presence of two potential SH3 binding domains and the mitogen activated protein ( MAP ) kinase phosphorylation sites within them .
+Further point mutagenesis and pharmacological studies in normal rat kidney ( NRK ) cells implicated MAP kinase in the gating response to v-src , while the stable binding of v-src to Cx43 ( in part mediated by SH3 domains ) did not correlate with its ability to mediate channel closure .
+This suggests a common link between closure of gap junctions by v-src and other mitogens , such as EGF and lysophosphatidic acid ( LPA ) .
+Gap junctions are composed of transmembrane channels that allow low molecular weight molecules to move directly between the cytoplasms of opposed cells .
+This intercellular communication has been implicated in the coordination and regulation of many cellular processes as exemplified by recent knockouts of several connexin genes in mice .
+The regulation of communication through gap junction channels consistently correlates with regulation of normal cell proliferation and differentiation .
+It has long been recognized that most cancer cells have reduced gap junction intercellular communication compared with their normal counterparts , although the mechanism by which this is achieved is unknown in specific cases .
+Support for the hypothesis that reduced coupling plays a contributory role in cell transformation is provided by several studies in which restoration of cell coupling through transfection of connexin cDNA into communication deficient transformed cell lines leads to normalization of cell growth .
+Communication through gap junctions is known to be sensitive to a variety of physiological stimuli , such as changes in intracellular Ca 2+ levels ( ) , pH , transjunctionally applied voltage , and direct expression of some protein kinases .
+Acute regulators of cell mitogenesis , such as PDGF , EGF , and lysophosphatidic acid ( LPA 1 ; ; ; ; ; ; ; ) , or the Rous sarcoma virus oncogene ( pp60v-src ) , have also been found to uncouple cells .
+The disruption of intercellular coupling through gap junctions by temperature sensitive variants of pp60v-src is an early event that precedes phenotypic transformation of cell lines , suggesting a possible causative link between the two events .
+The rapid reduction in junctional coupling in response to pp60v-src expression was correlated with an accumulation of connexin 43 ( Cx43 ) phosphorylated on tyrosine residues , while cells grown at the nonpermissive temperature contained only serine phosphorylated Cx43 ( ) .
+This was supported by studies in Xenopus laevis oocytes where tyrosine phosphorylation of Cx43 was correlated with a dramatic drop in conductance induced by injection of pp60v-src cRNA ( ) .
+Furthermore , they found that this uncoupling response to pp60v-src could be largely eliminated by a point mutation of Cx43 , Y265F .
+Phosphorylation of connexins by various protein kinases has been implicated in the regulation of gap junctions at multiple levels .
+These include the assembly of gap junctions from connexons in the plasma membrane , connexin degradation , and direct effects on gap junction channels .
+Direct modulation of Cx43 channels by kinases has been associated with reduction in single channel conductance associated with Ca 2+ dependent protein kinase ( PKC ) activity or decrease in channel open probability ( P o ) associated with v-src expression ( Moreno , A.P. , and B.J. Nicholson , manuscript submitted for publication ) .
+Several serine residues on the distal portion of the COOH-terminal domain of Cx43 ( aa365-382 ) have been suggested to be the target sites of PKC ( ) , while Tyr265 ( ) , and possibly Tyr247 ( ) , have been implicated as targets of pp60v-src .
+Tyr265 , presumably in the phosphorylated form , has been shown to be important for binding of pp60v-src to Cx43 , as has the second of two proline rich , putative SH3 binding domains in the COOH-tail of Cx43 ( ) .
+Other studies have also identified serines 255 , 279 , and 282 as mitogen activated protein ( MAP ) kinase phosphorylation sites on Cx43 ( ) .
+These sites , or a subset of them , have been demonstrated to be phosphorylated by MAP kinase during EGF induced disruption of cell coupling , and thus have also been implicated as mediators of gap junction gating important in the regulation of cell division .
+The underlying mechanisms that mediate closure of the gap junction channel in response to several stimuli are not well understood .
+In terms of voltage gating , chimeras of Cx32 and 26 were used to implicate the NH 2 -terminal , first transmembrane ( M1 ) , and first extracellular ( E1 ) domains as the voltage sensor of gap junctions ( ) , while a conserved proline residue in M2 has been implicated in transduction of response ( ) .
+Voltage gating parameters can also be influenced by other parts of the sequence , e.g. , the second extracellular loop ( E2 ) .
+This involvement of dispersed domains suggests that voltage gating may involve a global conformational change in the channel .
+In contrast to this general conformational change , pH mediated gating has been associated with the discrete COOH-terminal cytoplasmic domain of Cx43 in a particle and receptor or , ball and chain , model ( ) similar to the inactivation of K + channels ( ) .
+A similar model has been suggested for insulin , and insulin like growth factor ( IGF ) induced Cx43 gap junction closure ( ) .
+The implication of sites on the COOH-terminal domain of Cx43 in its regulation by several kinases raises the question of the degree to which phosphorylation and chemically ( i.e. , pH ) induced gating mechanisms may share common elements .
+We have sought to approach this question in Xenopus oocytes through an extensive series of mutants .
+These demonstrate that , like pH gating , pp60v-src mediated channel closure also appears to occur via a ball and chain mechanism .
+Surprisingly , this appears not to require phosphorylation of tyrosines , which may be more important in channel assembly .
+In contrast , channel gating depends on several serines that have been implicated as sites of MAP kinase phosphorylation .
+Indeed , inhibition of MAP kinase activation prevents cell uncoupling by v-src , supporting the notion that MAP kinase is an important effector of v-src in Cx43 channel closure .
+Materials and Methods
+Construction of Cx43 Mutants
+Rat Cx43 cDNA ( provided by Dr. Eric Beyer ) was subcloned into the PGEM 7Zf ( + ) vector ( Promega Corp. ) at the EcoRI site .
+The deletion mutant of Cx43 Delta245 was made by PCR using primers incorporating a stop codon TGA at amino acid 245 , before subcloning into the pBluescript IISK ( + ) vector ( Stratagene ) .
+The cDNA encoding the COOH-tail of Cx43 244-382 was designed by mutating the codon 5 ' to amino acid 245 to an ATG through PCR amplification , followed by subcloning into the pBluescript IISK ( + ) .
+Mutation at this site also created a consensus Kozak site ( ) for translation initiation .
+The Delta241 280 mutant was made in the PGEM 7Zf ( + ) vector by PCR using outer universal primers to nucleotides 225-243 and 902-922 of the wild-type sequence , and forward and reverse mutagenic primers .
+The mutagenic primers were complementary to nucleotides 5 ' -712 GATCGCGTG 720-3 ' and 5 ' -841 ATGTCTCCTC 850-3 ' , thus causing the intervening 120 nucleotides to be looped out ( making a 40 amino acid deletion ) .
+The double point mutants , S255 and 257A , S279 and 282A , P253 and 256A , and P277 and 280A were also made by PCR using the outer universal primers , and forward and reverse mutagenic primers that mutated both codons .
+The quadruple serine mutant ( S255/257/279 / 282A ) was created by using the mutant S279 and 282A as the template , and primers that mutate S255 and S257 sites .
+Tyrosine mutants of Cx43 , Y265F , and Y265 and 247F were constructed in a similar way from a Cx43 template containing an HA tag at the 3 ' end .
+All other mutants were kindly provided by Drs. Steve Taffet and Mario Delmar ( State University of New York Health Science Center at Syracuse ) .
+Preparation of cRNAs
+The cDNA for pp60v-src was provided by Dr. Marilyn Resh ( Memorial Sloan Kettering Cancer Center , NY ) .
+All cDNAs were linearized with restriction enzymes downstream of the coding region .
+In vitro transcription was performed using mMESSAGE mMACHINE Kits ( Ambion ) according to the manufacturer 's recommendations .
+The resultant cRNAs were quantitated after DNase treatment using both OD 260 nm measurement and estimates from Ethidium Bromide stained nondenaturing agarose gels using an RNA ladder ( GIBCO BRL ) as a standard .
+Xenopus Oocyte Expression System
+Adult female Xenopus toads were unilaterally dissected and approximately one-third of the oocytes on that side were removed .
+The oocytes were treated with 1 mg and ml collagenase ( Sigma Chemical Co. ) to digest most of the follicular cell layers .
+Oocytes were preinjected with 40 nl of 0.2 mug and mul of an oligonucleotide complementary to Xenopus Cx38 nucleotides 5 ' -75 GCTTTAGTAATTCCCATCCTGCCATGTTTC 45-3 ' ( ) .
+After 72-96 h preincubation , 40 nl of cRNA encoding the connexin construct of interest was injected ( 0.5-8 .0 ng cRNA and oocyte , adjusted to produce comparable coupling levels ) .
+The vitelline envelope was than manually stripped before pairing .
+After 18 h at 18degreesC , the coupling of the cells was determined by dual cell voltage clamp as detailed previously ( ) .
+After initial recording of conductances , cRNAs for v-src , or v-src ( + ) , the COOH-terminal domain ( COOH-tail ) of Cx43 ( 7 ng and oocyte for v-src RNA , 2 ng and oocyte for tail RNA ) , or an equivalent volume of dH 2 O were injected into the vegetal poles of the paired oocytes .
+Conductance was recorded again after 6 h incubation at room temperature .
+In some experiments , it was shown that similar results could be obtained with incubations as short as 3 h .
+The ratio of conductance post- and pre-src injection was used to determine the effect of v-src on junctional conductance .
+For more direct comparison with prior studies of , in one set of experiments v-src cRNA was coinjected with cRNA for either Cx43 or Cx43 Y265F at the same levels as described above .
+After pairing and 18 h incubation at 18degreesC , the effects of v-src were expressed as a ratio of the average conductances of oocyte pairs receiving both connexin and v-src cRNAs , and those injected with only connexin cRNA .
+Comparisons were made within the same batch of oocytes .
+To assess the probability that the result obtained with each mutant is the same as seen in wild-type or another mutant construct , a t test was performed to determine the P value at a significance level of alpha = 0.01 .
+Immunoprecipitation and Alkaline Phosphatase Treatment
+Oocytes were injected with RNAs as described above , together with [ 35 S ] methionine ( 2-10 muCi and oocyte ; 250 muCi and mul ; Nycomed Amersham ) , and incubated at room temperature for 6 h. For each experiment , approximately six labeled oocytes were homogenized in 200 mul and oocyte of modified RIPA buffer composed of 0.25 % SDS , 50 mM tris ( hydroxymethyl ) - aminomethane ( Tris ) , pH 7.4 , 100 mM NaCl , 2 mM EDTA , 50 mM NaF , 40 mM beta-glycerophosphate , 1 mM Na 2 VO 4 , 1 mM phenylmethylsulfonyl fluoride , 20 mug and ml pepstatin A , 20 mug and mul leupeptin , and 20 mug and ml aprotinin .
+The homogenate was brought to 2 % Triton X-100 after boiling for 5 min and cleared in a microcentrifuge at 13,000 rpm for 5 min .
+When nondenaturing immunoprecipitation was performed , oocytes were homogenized in the same buffer , except that 0.1 % SDS was used together with 1 % NP-40 and 0.5 % sodium deoxycholate ( final concentration ) in the original homogenization buffer .
+The homogenate was cleared without boiling .
+1 mul primary antibody and oocyte ( either crude antisera against Cx43 residue 302-319 , or monoclonal v-src antibody ; Upstate Biotechnology Inc. ) was added to the supernatant .
+After overnight incubation on a rotator at 4degreesC , preswollen protein A-Sepharose CL-4B beads ( Sigma Chemical Co. ) were added , followed by an additional 1.5 h incubation .
+The beads were then washed three times in the same RIPA buffer used for oocyte lysis , before solubilization of the immunoprecipitated material by boiling for 10 min in 2x SDS sample buffer ( 12.5 mM Tris-HCl , pH 6.8 , 20 % glycerol , 2 % SDS , 20 % 2-mercaptoethanol , 1 mg and 100 ml bromphenol blue ) and subsequent separation by SDS-PAGE ( ) .
+The dried gel was analyzed by autoradiography , or was exposed to a PhosphoImaging cassette ( model 425E using ImageQuant v. 4.2 software ; Molecular Dynamics Inc. ) for several hours and then bands were quantitated after reading on a PhosphoImager .
+For alkaline phosphatase treatments , anti-Cx43 immune complex still bound to Sepharose was washed three times with RIPA buffer and twice with phosphatase reaction buffer ( 50 mM Tris-HCl , 10 mM MgCl 2 , 150 mM NaCl , pH 8.0 ) supplemented with 0.1 % Triton X-100 , 0.05 % SDS , and 2 mM PMSF ; ) .
+The pellets were then resuspended in 10 mul of phosphatase reaction buffer supplemented with 1 % SDS , 1 % 2-mercaptoethanol , and 2 mM PMSF .
+The immunoprecipitated Cx43 was eluted from the beads after heating at 60degreesC for 3 min followed by dilution with 40 mul of phosphatase reaction buffer , and incubated with 10 U of calf intestinal alkaline phosphatase ( Promega Corp. ) at 37degreesC for 4 h. Control samples were incubated under identical conditions without alkaline phosphatase .
+Samples ( 17 mul ) of treated and untreated preparations were then subjected to SDS-PAGE analysis as described above .
+Cx43 Turnover in Xenopus Oocytes
+Oocytes were injected with Cx43 RNA and labeled with [ 35 S ] methionine ( > 1,000 Ci and mmol , 1.7 muCi and oocyte ) as above .
+After 6-7 h of incubation at room temperature , 40 nl of 2.5 mM L-methionine ( ~ 100-fold excess over [ 35 S ] methionine ) was injected into the vegetal pole .
+In some experiments , oocytes were allowed to recover from injection for 30 min before addition of cycloheximide to a concentration of 15 mug and ml , previously shown to fully inhibit total protein synthesis in oocytes .
+Oocytes were incubated at 18degreesC , and oocyte batches were removed at different time points for immunoprecipitation with anti-Cx43 antisera , analysis by SDS-PAGE , and quantitation of bands as described above .
+The half-life of Cx43 was found to be slightly longer in the absence of cycloheximide , suggesting that the latter was needed for complete block of synthesis of new labeled proteins .
+Western Blot
+pp60v-src associated with Cx43 was detected by Western blot after nondenaturing immunoprecipitation using anti-Cx43 antisera .
+The immunoprecipitate was resolved by SDS-PAGE and then transferred to an Immobilon membrane ( Millipore Corp. ) in transfer buffer ( 25 mM Tris-base , 192 mM glycine , 15 % methanol ) at 200 V for 45 min .
+Membranes were blocked for 1 h in 5 % nonfat dry milk in 0.1 % Tween-PBS and washed with the same buffer .
+A 1:500 dilution of anti-v-src mAb was added in 0.1 % Tween-PBS buffer and , after 1 h incubation at room temperature , the membrane was washed extensively in the same buffer .
+Blots were then incubated with a 1:5,000 dilution of sheep anti-mouse secondary antibody conjugated to HRP ( ECL kit ; Nycomed Amersham ) for 1 h .
+After further washings , cross-reactive bands were detected using the enhanced chemiluminescence protocol suggested by the manufacturer .
+Cell Culture and Measurement of Cell Coupling by Dye Transfer
+NRK cells expressing a temperature sensitive form of v-src oncogene ( LA25 ; ) were cultured in DME with 10 % FCS ( GIBCO BRL ) in a humidified 5 % CO 2 incubator .
+LA25-O25 cells are a clone of LA25 cells cotransfected with plasmids containing rat Cx32 cDNA driven by SV40 promoter and hygromycin-B-phosphotransferase by lipofection ( Boehringer Mannheim Corp. ) .
+Clones were selected in DME , 10 % FCS , and 400 mug and ml hygromycin B and maintained in the same medium with 300 mug and ml hygromycin B ( Calbiochem , CA ) .
+The expression of Cx32 was confirmed by Western blot , immunofluorescence , and dye coupling .
+All cultures were started at 37degreesC for 24 h before transfer to the experimental temperatures of 40degreesC or 33degreesC for restrictive or permissive growth , respectively .
+Cells were maintained at either 40degreesC or 33degreesC for at least 24 h before coupling was assessed .
+In some studies , cells were transferred from 40degreesC to 33degreesC and dye coupling was measured at different time points thereafter .
+The MAP kinase kinase ( MEK ) inhibitor PD98059 ( 50 muM ; Calbiochem-Novabiochem ) in DMSO , or DMSO alone as control , both added to 0.1 % ( vol and vol ) in the culture medium , were used to pretreat cells for 1 h before transferring from restrictive to permissive temperature .
+Confluent monolayers maintained at either 40degreesC or 33degreesC were microinjected pneumatically with a glass micropipette containing 10 % lucifer yellow dye ( LY ) dissolved in 0.33 M lithium chloride using a Zeiss micromanipulator and Eppendorf pneumatic injector .
+Dye transfer was assessed on a Zeiss phase-contrast microscope ( Axiovert 10 ) via image capture through MetaMorph Imaging System ( Universal Imaging Corp. ) and quantitation by counting number of surrounding cells receiving LY 2 min after microinjection .
+Results
+Strategy for Analysis of v-src Gating of Cx43 Channels in Oocytes
+Although various studies have implicated phosphorylation as the major event mediating the closure of gap junction channels by the v-src oncogene , they have not established a clear model of how this phosphorylation produces the underlying changes required for gating .
+It is conceivable that such gating could be achieved by initiation of a propagated conformational change , or alternatively , by mediating an interaction between discrete domains of the connexin protein that leads to the occlusion of the channel .
+To distinguish between models , we examined the responses to v-src of a series of Cx43 truncations and site directed mutants of the COOH-terminal domain .
+This region had been previously implicated in pH gating , responses to IGF ( ) , and phosphorylation by and binding to v-src .
+All constructs ( with one exception , ) were expressed in Xenopus oocyte pairs that were first microinjected with wild-type or mutant connexin cRNA that had been titrated to produce similar levels of conductance , and in most cases , protein levels .
+Preinjection of an antisense oligonucleotide to Xenopus Cx38 ~ 4 d before the initial cRNA injection was used to effectively eliminate contributions from endogenous connexin .
+Paired oocytes were allowed to form stable conductance levels ( usually after ~ 16 h of pairing ) before secondary injection of cRNA for pp60v-src .
+The effects of this secondary injection on intercellular conductance were assessed after 6 h and expressed as a fractional decrement of the conductance recorded from the same oocyte pair before introduction of v-src cRNA .
+In some experiments , comparable results were also obtained after incubations as short as 3 h. With this strategy , each oocyte pair serves as its own control , thereby reducing effects of variability between cells .
+Control injections of H 2 O caused no change in conductance over the time frame of our recordings .
+To determine if connexin turnover could play a role during the duration of our experimental paradigm , we measured the half-life of Cx43 in Xenopus oocytes as described in Materials and Methods .
+In oocytes , this proved to be ~ 22 h , or over four times that seen in mammalian cells .
+Initial experiments used a cold methionine chase in concert with cycloheximide treatment to stop synthesis of new protein .
+Given reports that cycloheximide itself could lead to stabilization of Cx43 ( ) , we also performed some experiments in the absence of cycloheximide .
+This resulted in an even larger estimate of half-life ( ~ 30 h ) , a result that probably indicates that incorporation of labeled methionine into newly synthesized proteins was not completely blocked by cold chase alone .
+These measurements demonstrate that our strategy allows us to focus on the gating of established channels during the 3-6-h time period employed , as contributions from protein turnover could be minimal .
+pp60 v-src Induces Closure of Cx43 Gap-junctional Channels Through a Ball and Chain Mechanism
+As reported previously ( ) , expression of pp60v-src in both opposed oocytes caused a dramatic drop ( 200-500-fold ) in conductance formed by wild-type Cx43 .
+Unilateral injection of v-src RNA decreased the conductance by ~ 50-fold ( data not shown ) , a result consistent with the finding that activation of v-src causes a reduction in P o of Cx43 channels ( Moreno , A.P. , and B.J. Nicholson , manuscript submitted for publication ) .
+In contrast , pp60v-src decreased conductance of Cx32 coupled oocytes by only 37 + /- 5 % ( see Figs .
+, , and ) , and cultured cells by ~ 30 % .
+A similar effect of v-src was seen in Cx26 expressing oocytes ( data not shown ) .
+As noted in , Cx32 contains no tyrosine targets for the v-src kinase , or secondary sites such as consensus serine phosphorylation sites for MAP kinase .
+Therefore , the decrement in Cx32 and Cx26 conductances mediated by v-src is likely to reflect non gap junction specific effects on coupling , e.g. , the well characterized perturbation of adhesion to both substrates and cells by v-src expression .
+Truncation of Cx43 at residue 245 ( Delta245 ; Fig . )
+virtually eliminated the v-src response .
+This confirmed that target elements of v-src reside between residues 245 and 382 on the COOH-terminal tail of Cx43 .
+Dramatically , the sensitivity of Cx43 Delta245 to v-src was largely restored when cRNA encoding the COOH-terminal tail of Cx43 ( 244-382 ) was coinjected with pp60v-src cRNA .
+No drop in conductance was shown when the COOH-terminal peptide was coexpressed with Cx43 Delta245 in the absence of v-src ( data not shown ) .
+Thus , the COOH-tail of Cx43 can function as an independent domain that can occlude the channel upon expression of v-src , reminiscent of the ball and chain mechanism proposed for K + channel inactivation ( ) , as well as pH gating and insulin mediated gating of Cx43 .
+The COOH-tail domain appears to show specificity for the Cx43 channel , as expression of the Cx43 COOH-terminal peptide failed to induce a drop in conductance in response to v-src in Cx32 expressing oocytes .
+Sequences from 241 to 280 of Cx43 Are Required for pp60 v-src Gating of Cx43
+Insights into the specific molecular mechanism of how the COOH-peptide can mediate v-src induced gating of Cx43 requires a knowledge of which sequences within the COOH-terminal 138 residues that were removed in the Cx43 Delta245 construct are necessary .
+Initial indications that more than one site might be involved were provided when a less severe truncation of Cx43 at residue 257 ( Cx43 Delta257 ) was tested .
+This truncation had previously been shown to eliminate the more sensitive pH gating response ( ) and insulin induced channel closure of Cx43 ( ) .
+However , it caused only partial reduction of the v-src induced gating of Cx43 compared with that seen with Cx43 Delta245 .
+As was the case with more severe truncation , the partial loss of v-src gating seen with Cx43 Delta257 was restored by addition of cRNA encoding the missing COOH-terminal fragment ( residue 258-382 ) .
+This shorter COOH-terminal fragment , however , only partially restored the response of more severely truncated Cx43 Delta245 construct , suggesting that the 12 missing residues from 245-257 are important in this process .
+In a more systematic approach , we examined a series of 20 residue deletions in the COOH-terminal domain of Cx43 .
+Deletions between 280 and 320 had no effect on v-src induced gating of Cx43 channels .
+However , two constructs , Delta241-260 and Delta261-280 , showed significantly reduced sensitivity to v-src .
+The first deletion construct , Delta241-260 , included the 12-residue site identified from the truncations , although the latter deletion , Delta261-280 , showed a more marked effect .
+A combined deletion from 241 to 280 ( Delta241-280 ) resulted in a greater loss of sensitivity to v-src , yielding a response close to the negative control of Cx32 expressing oocytes .
+This region includes two proline rich , putative SH3 binding domains ( 253-256 and 277-283 ) , along with all of the putative MAP kinase sites ( S255 , S279 , and S282 ; ) , as well as Tyr265 and Tyr247 , putative targets of v-src kinase activity ( ; ; Fig . )
+.
+Since the response of Delta241-280 to v-src is not significantly different than that of the Delta245 truncated mutant ( P > 0.01 ) , it is reasonable to propose that relevant residues for v-src mediated gating are located in this region .
+Furthermore , both of the 20 residue regions identified in the initial deletion series ( each containing one of the proline rich regions and a subset of the serine and tyrosine phosphorylation sites ) contribute cooperatively , or at least additively , to v-src gating of Cx43 .
+This was consistent with the comparison of Delta245 and Delta257 truncations of Cx43 described above .
+Tyr265 and Tyr247 Are Not Required for Gating of Cx43 by pp60 v-src
+Phosphorylation of Cx43 on tyrosines in response to pp60v-src has been correlated with the loss of junctional coupling in several mammalian cell types .
+This is consistent with the more direct approach used in Xenopus oocytes , where a mutation of Tyr265 eliminated closure of Cx43 channels by v-src ( ) .
+However , the implication of at least two sites in v-src gating of Cx43 from the above truncation and deletion studies raised questions about ascribing all effects of v-src to a single tyrosine , although a second potential site of v-src phosphorylation ( Tyr247 ) has subsequently been identified .
+To our surprise , we found that mutants Cx43 Y265F and Cx43 Y247F were inhibited by v-src to the same extent as wild-type Cx43 .
+Even a double mutant of both tyrosines ( Y265 and 247F ) had a similar lack of effect , while Y265F and Y265 and 247F tyrosine mutants with HA tag at the carboxy end generate functional channels with no detectable difference from wild-type Cx43 .
+These results might seem irreconcilable with those of .
+However , in the current experiments we intentionally focused on the acute effects of expressing pp60v-src after gap junction channels had stably formed , so as to examine predominantly gating events on established channels .
+This differs from the previous study where v-src and connexins were expressed together , thereby introducing potentially complicating effects on biosynthesis .
+In a parallel experiment , we attempted to reproduce these conditions by coinjecting cRNAs for v-src and Cx43 or Cx43 Y265F , and recording conductances after 18 h of incubation at 18degreesC .
+In this scenario , the Y265F mutant does show a reduced response to v-src ( about a fivefold decrease ) compared with Cx43 wild-type ( ~ 200-fold decrease ; Fig . )
+, although the loss of responsiveness is still less than that reported previously ( ) .
+Together , these results indicate that the known sites of v-src phosphorylation on Cx43 ( i.e. , Y265 and Y247 ) are not essential for closure of the channels by this oncogene , although they do appear to play some as yet undefined inhibitory role in biosynthesis of the functional channels .
+Putative MAP Kinase Sites Are Implicated in Cx43 Gating by pp60 v-src
+In the absence of evidence relating direct phosphorylation of Cx43 on tyrosines to channel gating by v-src , we turned to an analysis of other sites on Cx43 that could be involved less directly .
+Both proline rich sequences , 253 PLSP 256 and 277 PLSPMSP 283 , lying within the deleted region we have defined as essential for v-src 's action on Cx43 gap junctions , contain potential SH3 binding domains ( PxxP ) and putative MAP kinase sites ( S255 , S279 , and S282 ; Fig . )
+.
+Two mutagenic strategies were employed in an effort to dissect the relevant functions of these domains .
+Mutation of prolines in these sites should compromise their function as SH3 binding domains .
+However , it is also likely to impair their efficiency as targets of MAP kinase , as the prolines form a critical part of the recognition motif for this enzyme .
+Alternatively , mutation of relevant serines in these sites to alanines should directly eliminate them as targets of MAP kinase .
+This should have little effect on the proposed role of these regions as SH3 binding elements , based on known characteristics of consensus SH3 binding sites .
+Thus , one would predict that if the importance of these domains in v-src gating of Cx43 is as a target of MAP kinase , both proline and serine mutations should be equally effective .
+If SH3 binding is a more relevant property , proline mutants should have a much greater effect on v-src induced gating than serine mutants .
+Consistent with the former hypothesis , we found that double mutants of either prolines ( i.e. , P253 and 256A and P277 and 280A ) or serines ( i.e. , S255 and 257A and S279 and 282A ) in either site showed identical refractoriness to inhibition by v-src .
+A mutant combining serine mutations in both sites ( S255/257/279 / 282A ) showed an even greater loss of responsiveness to v-src , compared with mutations within a single site ( P < 0.01 in either case ) .
+At an alpha = 0.01 level of significance , this quadruple serine mutant of Cx43 showed a response to v-src indistinguishable from Cx32 , a connexin containing no consensus sites for v-src or MAP kinase phosphorylation .
+These results strongly suggest that activation of MAP kinase , or a related kinase with a similar recognition motif , is required for the gating effect of v-src on Cx43 .
+pp60 v-src Associates to Variable Extents with Cx43 and its Mutants
+Recent reports have linked the specific binding of v-src to Cx43 , by way of both its SH3 and SH2 domains , to the efficient tyrosine phosphorylation of connexin , although the functional consequences for channel function were not assessed ( ) .
+However , the implication of serine kinase sites in the gating of Cx43 by v-src , rather than tyrosine phosphorylation or SH3 binding , leads to the prediction that v-src binding to Cx43 should not have a dominant role in its gating response .
+This was directly tested by examining the association between pp60v-src and wild-type and mutant forms of Cx43 .
+To document the same association between Cx43 and pp60v-src as seen in mammalian cells , Xenopus oocytes were injected with [ 35 S ] methionine and Cx43 cRNA , with or without pp60v-src cRNA .
+In the absence of pp60v-src , immunoprecipitation with antibodies to Cx43 ( directed to residues 302-319 ) yield a major band on SDS-PAGE of 43 kD , corresponding to the mobility of nonphosphorylated Cx43 as seen in rat brain ( ) , and variable amounts of a lower band of ~ 41 kD .
+This 41-kD band appeared to be a degradation product of the major 43-kD band rather than a phosphorylated variant , as demonstrated by alkaline phosphatase treatment .
+Upon coexpression of pp60v-src , a second band of 60 kD was also precipitated by this antibody , but only in the presence of Cx43 .
+This band comigrates with the pp60v-src precipitated by an anti-src mAb from oocytes injected only with pp60v-src cRNA .
+It was also independently recognized in these Cx43 immunoprecipitates on Western blots probed with v-src antibody ( data not shown ) .
+Coexpression of v-src and Cx43 also resulted in the appearance of minor bands of slightly slower mobility than the major 43-kD band that have been previously associated with serine phosphorylated forms of Cx43 .
+This was directly confirmed by alkaline phosphatase treatments that had no effect on the banding pattern of Cx43 in the absence of v-src , but eliminated the slower mobility species seen in the presence of v-src .
+The increase in intensity of the 41-kD proteolytic product after alkaline phosphatase treatment suggests that this truncated form of Cx43 is also phosphorylated .
+The 60-kD v-src oncogene was also found to coprecipitate with the COOH-terminal peptide of Cx43 when coexpressed in oocytes , indicating that this domain mediates the interaction of Cx43 and pp60v-src .
+As was the case for the full-length connexin , coexpression with pp60v-src also induced the appearance of a second , slower mobility form of the COOH-terminal peptide that likely corresponds to a phosphorylated form .
+Each of the mutant constructs tested above was also precipitated from oocytes in the absence ( - ) or presence ( + ) of coexpressed pp60v-src to assess their potential binding capacity .
+In all mutants , pp60v-src coprecipitated with Cx43 , but in some cases to a much lesser extent .
+This was quantitated by normalizing the ratio of labeled 60-kD product and labeled mutant Cx43 ( in its phosphorylated and partially truncated forms ) to that seen with wild-type Cx43 in the same oocyte batch .
+These results , presented as percentages , are shown in Table .
+Only three mutants showed a dramatic loss of v-src binding : both deletions involving the second putative SH3 binding site ( Cx43 Delta261-280 and Cx43 Delta241-280 ) ; and , to a lesser degree , the double tyrosine mutation Cx43 Y247 and 265F .
+Minor reductions in v-src binding were also detected in each of the single tyrosine mutants , and to a lesser degree in the two double proline mutants .
+No significant reduction in v-src binding was seen in deletions of the first putative SH3 binding domain ( i.e. , Cx43 Delta241-260 ) nor in the various point mutations of serines .
+Consistent with the findings of , these results suggest a degree of cooperativity between potential binding targets for v-src , including both Tyr265 and Tyr247 , and the more COOH-terminal of the putative SH3 binding domains .
+A comparison of the loss of v-src binding to Cx43 and its functional effect on channel gating reveals a distinct lack of correlation .
+Some mutants do affect both binding and gating .
+However , the Cx43 Y265 and 247F mutant shows markedly reduced binding of pp60v-src compared with wild-type , but nonetheless closes in response to v-src indistinguishably from wild-type .
+In contrast , each of the paired site mutants of serines , as well as the Delta241-260 deletion , show significantly reduced gating in response to v-src , but no detectable decrease in v-src binding .
+This comparison supports the initial prediction , based on a mechanism mainly involving a mitogen activated or related kinase , that binding of v-src to Cx43 does not play a major role in direct gating of Cx43 channels .
+Blockage of MAP Kinase Activation in LA25 Cells Prevents v-src Induced Cell Uncoupling
+We attempted to directly address the role of MAP kinase as an effector of v-src mediated closure of Cx43 channels by inhibition of MAP kinase in Xenopus oocytes , using either antisense oligonucleotides against the ERK2 isotype of MAP kinase , or the MEK inhibitor PD98059 .
+Although inhibitory effects on MAP kinase correlate with reduced ability of v-src to close Cx43 gap junction channels , full inhibition of MAP kinase could not be achieved with either approach in oocytes .
+Hence , we turned to better characterized mammalian cell lines , specifically NRK cells expressing a temperature sensitive variant of v-src ( LA25 cells ) , Cx43 , and in some cases , exogenously introduced Cx32 .
+Communication through gap junction in these LA25 cells , as measured by dye coupling , is quickly disrupted upon v-src activation ( ; also , left column ) .
+Consistently , we found cell coupling levels decreased as early as 5 min , and dropped dramatically to 5 % of original levels within 30 min of switching to the permissive temperature .
+Treatment of cells with the PD98059 inhibitor of MEK , before and throughout the shift to permissive temperature for v-src activity , allowed the cells to remain coupled .
+Some reduction in coupling in response to v-src activation ( up to ~ 55 % of original levels ) was evident , even in the presence of inhibitor .
+As with oocyte studies , we employed cells expressing Cx32 ( isolated as a stably transfected clone of LA25 cells designated O25 as a control for effects of v-src not specific to connexins .
+This clone showed only a modest reduction in coupling ( up to ~ 75 % of original levels ) in response to v-src activation that proved insensitive to application of the MEK inhibitor .
+This is comparable to results with Cx32 expressing oocytes , and indicates much of the drop in coupling seen in LA25 cells in the presence of MEK inhibitor is attributable to effects of v-src not specific for gap junctions .
+Discussion
+Inhibition of intercellular communication through gap junction channels has long been linked to enhanced cell division and growth in both normal and transformed cells .
+In the case of several growth factors ( e.g. , EGF [ ] and PDGF ) , the induction of transient uncoupling has been linked to MAP kinase mediated phosphorylation of Cx43 .
+By contrast , in most tumors and transformed cell lines , the mechanism of uncoupling has remained obscure .
+A notable exception is v-src mediated transformation that is associated with rapid uncoupling of cells correlated with the appearance of tyrosine phosphate on Cx43 .
+This phosphorylation of Cx43 apparently requires direct association of Cx43 with pp60v-src ( ) .
+Here we have used the Xenopus oocyte expression system to further investigate the molecular mechanism by which pp60v-src causes closure of Cx43 channels .
+Our results implicate a ball and chain model in this gating process , in that an independently expressed COOH-tail peptide restores the sensitivity to v-src of a COOH-terminally truncated form of Cx43 .
+In the originally proposed ball and chain model of K + channel inactivation ( ) , gating is mediated by interactions between the channel pore and the gating domain .
+In the case of Cx43 , the COOH-terminal tail serves as the gating particle , with the interaction triggered by v-src expression .
+To investigate the nature of this triggering , we employed systematic truncation and deletion mutagenesis of the Cx43 COOH-terminal domain .
+This implicated two regions ( 241-260 and 261-280 ) , each containing potential sites for tyrosine and serine ( e.g. , MAP kinase ) phosphorylation , as well as SH3 binding motifs .
+These regions appeared to act cooperatively to fully account for v-src gating of Cx43 .
+While a similar ball and chain mechanism has been proposed to be triggered by reduced cytoplasmic pH , the COOH-terminal sequences that are required are somewhat different from this study ( ) , and include residues 374-382 , as well as an overlapping domain from 261-300 .
+Thus , it is likely that pH and v-src induced gating utilize different downstream factors requiring distinct structural elements on the COOH-terminal peptide .
+Recently , an insulin stimulated decrease in Cx43 mediated coupling was also shown to occur through a ball and chain mechanism ( ) .
+In this case , one of the two domains implicated here ( 261-280 ) was found to play a role , although no indication of involvement of residues 241-260 was evident , indicating some differences in this case , too .
+Whether different receptors for the ball are needed remains to be determined .
+However , in the case of v-src , this study does demonstrate this receptor is specific for Cx43 , since the addition of the Cx43 COOH-tail cRNA together with v-src cRNA did not induce any change of conductance in Cx32 channels .
+At this point , we can not determine whether the COOH-terminal tail simply occludes the channel , or induces a subsequent conformational change upon interaction with other cytoplasmic domains of Cx43 .
+Using site directed mutagenesis to further define targets of v-src action within the two identified domains , we were surprised to see no significant change in the response of Cx43 to v-src when Tyr265 was changed to phenylalanine .
+This residue has been identified in several studies as the likely substrate for v-src on Cx43 .
+Mutation of a second potential v-src target , Tyr247 ( ) , alone , or in combination with Tyr265 , also failed to decrease v-src gating of Cx43 .
+The disparity between our data and the results of , who had shown a loss of v-src induced gating with the same Y265F mutant , may have resulted in part from differences in experimental design .
+We have focused on the response of preformed gap junction channels by injecting connexin cRNAs into oocytes and allowing formation of stable gap junction conductances before introduction of v-src cRNA .
+To allow for efficient translation of v-src , we measured its effects on Cx43 coupling after 6 h ( although similar results were found as soon as 3 h after src injection ) .
+Although we record a > 200-fold reduction of coupling , given the short half life of Cx43 in other systems , it is possible turnover of the protein could play a role .
+However , we have directly measured Cx43 turnover in oocytes and found it to be ~ 22 h , presumably a reflection of the lower temperature ( ~ 19degreesC ) of this system , and possibly reflecting the semidormant state of these cells .
+Thus , turnover of Cx43 contributed negligibly to the reduction in coupling we observed .
+In contrast , previous studies injected v-src and connexin cRNAs at the same time , and therefore effects of v-src on other phenomena , such as gap-junctional biosynthesis , could have been included during the 24 h incubation employed .
+Although actions of other kinases have been linked to various stages of Cx43 biosynthesis ( Musil et al. , 1991 ; ) , activation of temperature sensitive v-src in mammalian cells appears to have no obvious effect on the distribution of gap junction plaques on the plasma membrane ( data not shown ) .
+However , this does not preclude more subtle changes that could render the docking interface of connexons nonfunctional .
+There is already precedent that cytoplasmic domains of connexins can modify extracellular docking events ( ) .
+By recreating the conditions of the earlier study ( i.e. , coinjection of v-src and connexin cRNAs ) , we do find a significant reduction in the effect of v-src on coupling mediated by Cx43 Y265F ( ~ 6-fold inhibition ) compared with wild-type Cx43 ( > 200-fold inhibition ; Fig . )
+.
+While this reduced response is less than that reported by , where Cx43 Y265F showed less than twofold reduction in conductance in response to v-src , such minor differences could arise from variations in Xenopus strains or the pp60v-src variant .
+Our results support the contention that direct phosphorylation of Cx43 by pp60v-src can inhibit coupling , but this appears to affect some earlier point in channel assembly and can not account for the acute uncoupling of cells in response to v-src expression .
+Such acute gating of Cx43 channels , characterized by a rapid decrease in P o ( Moreno , A.P. , and B.J. Nicholson , manuscript in preparation ) , appears to be induced indirectly through MAP kinase .
+Neither in this nor previous studies , have all possible tyrosine targets in Cx43 been systematically eliminated .
+However , we have tested all tyrosines that have been identified as substrates of v-src in vivo , in vitro ( ) , and that lie within the 241-280 residue domain identified as essential for v-src gating of Cx43 .
+None play a role in acute channel closure .
+Recent studies indicate that tyrosine phosphorylation of Cx43 requires binding to v-src , through an interaction that is dependent on both Tyr265 and the proline rich region from amino acids 271-287 , that appear to serve as targets of SH2 and SH3 domains of v-src , respectively ( ) .
+We have also demonstrated an association between v-src and the COOH-terminal domain of Cx43 in the Xenopus oocyte system dependent on the same sites .
+However , the ability of v-src to bind Cx43 did not correlate with its functional effects on Cx43 , a comparison that was not made in prior studies .
+Some mutants that showed markedly reduced pp60v-src binding were still sensitive to the oncogene ( e.g. , Cx43 Y265 and 247F ) , while others that bound v-src indistinguishably from wild-type Cx43 ( such as Cx43 Delta241-260 , Cx43 S255 and 257A and Cx43 S279 and 282A ) , had markedly reduced gating responses to v-src .
+This further reinforces the contention that direct interaction of v-src with Cx43 may modulate coupling and tyrosine phosphorylation of Cx43 , but not through channel gating .
+If direct phosphorylation of Tyr265 and 247 by v-src or its binding with Cx43 , is not critical to the gating of Cx43 channels , then what is the mechanism ?
+One possible alternative is serine phosphorylation of Cx43 by other kinases that are activated by v-src .
+In several studies examining effects of v-src , Cx43 demonstrated increased levels of phosphoserines in addition to phosphotyrosines ( ; Kurata et al. , 1994 ) .
+Deletion mutants that showed reduced response to v-src contain documented MAP kinase phosphorylation sites ( S255 , S279 , and S282 ) embedded in the MAP kinase recognition motif , PXSP .
+Pairwise point mutations of these serines ( S255 and 257 and S279 and 282 ) , and the surrounding prolines defining the MAP kinase consensus site ( P253 and 256 and P277 and 280 ) , support the involvement of this kinase , or one with a closely related target site , in the v-src induced gating of Cx43 .
+It appears phosphorylation at more than one site is required , as a quadruple serine mutant reflected a cumulative effect of the two double serine mutants .
+Some of these mutants , specifically the prolines , are also likely to have compromised the role of these regions as SH3 binding sites .
+However , as noted above , the effectiveness of various mutants in eliminating v-src gating of Cx43 , and compromising v-src binding to Cx43 , are not closely correlated .
+The most direct case for the requirement for MAP kinase in the gating response of Cx43 to v-src , however , is provided by our studies of acute uncoupling of LA25 cells on activation of v-src .
+Here , a blocker of MEK ( and hence MAP kinase activation ) eliminated much of v-src induced uncoupling .
+As in our oocyte studies , Cx32 expressing cells were used as a control for the effects of v-src not specific to connexins .
+The cells showed ~ 25 % reduction in coupling insensitive to application of MEK inhibitor .
+It is likely this reduction in Cx32 mediated coupling , seen in oocytes and NRK cells , results from the well documented inhibitory effects of v-src on cell adhesion .
+This is believed to occur through disruption of the cadherin-beta-catenin interaction by a mechanism that does not depend on MAP kinase .
+Given the established relationship between cadherin expression and efficient gap junction formation , the small but consistent loss of coupling between Cx32 coupled cells and oocytes is not surprising , despite the lack of potential v-src or MAP kinase targets or binding domains on Cx32 itself .
+All manipulations employed that would be expected to eliminate MAP kinase effects on Cx43 ( i.e. , Delta245 , Delta241- 280 , S255/257/279 / 282A in oocytes , and use of a MEK inhibitor in LA25 cells ) served to largely prevent src induced uncoupling .
+However , we consistently observed a residual uncoupling effect beyond that seen in Cx32 negative controls .
+This suggests that , although MAP kinase may be necessary for v-src induced gating of Cx43 , other factors may also influence coupling .
+Of note is a recent report implicating c-src , rather than MAP kinase , in acute loss of gap junction communication in Rat-1 fibroblast cells in response to G protein receptor agonists such as LPA ( ) .
+Previous studies have not shown direct effects of c-src on cell coupling , but it is possible , in some systems , that c-src may work through effectors different from that activated by v-src .
+The compilation of results presented suggest that MAP kinase , or a related kinase , is necessary for v-src induced Cx43 gating .
+This is consistent with established mitogenic pathways of pp60v-src which associates , and phosphorylates , with the adaptor protein Shc that in turn activates Ras and Raf , leading to activation of MAP kinase .
+This potentially establishes a common element to the regulation of gap junctions during mitogenesis .
+EGF and PDGF also acutely suppress gap-junctional communication in Cx43 expressing cells .
+Although activation of c-src by EGF receptor is central to many of its enhanced mitogenic effects , reduction of Cx43 coupling was correlated with serine , not tyrosine phosphorylation .
+In this case , too , MAP kinase was the prime suspect .
+Therefore , we propose that MAP kinase may act as a common downstream effector of uncoupling for both tyrosine kinase growth factor receptors and the v-src oncogene .
+The study presented here also indicates that this gating is not mediated by a propagated conformational change , but by interactions between discrete domains of Cx43 ( i.e. , ball and chain mechanism ) , apparently triggered by a serine phosphorylation event .
+This potentially represents a common mechanism linking the uncoupling of cells to mitogenesis .
+Figures and Tables
+Figure 5
+Tyr265 and Tyr247 are not required for v-src induced gating of Cx43 channels .
+Mutants of Tyr265 and Tyr247 , individually or together , to phenylalanine ( Y265F , Y247F , and Y265 / 247F ) had similar conductance ratios of post- to pre-src injection as seen with wild-type Cx43 , indicating that they play no role in v-src gating of the channels .
+By contrast , a significantly reduced inhibition by v-src was seen in Cx43 Y265F when its cRNA was coinjected with v-src , suggesting a possible effect on biosynthesis .
+* Conductance ratio in this group was determined by dividing the conductance from each oocyte pair coinjected with cRNAs of v-src and Y265F by the mean conductance from oocytes expressing Y265F alone .
+Figure 8
+Association of v-src with various Cx43 mutants .
+Oocytes were injected with [ 35 S ] - Met and cRNA for wild-type Cx43 or the various mutant Cx43 constructs indicated , with ( + ) or without ( - ) pp60v-src cRNA .
+Immunoprecipitation was performed with anti-Cx43 antiserum .
+The amount of associated v-src protein with Cx43 tyrosine mutants ( A ) , deletion mutants ( B ) , and serine and proline mutants ( C ) could be compared with the amount of v-src protein associated with wild-type Cx43 ( A , first two lanes ) .
+The most dramatic reductions in pp60v-src binding to Cx43 were evident in the overlapping Delta261-280 and Delta241-280 deletion mutants , and in the Y247 and 265F mutant .
+Figure 1
+Cx43 protein turnover in Xenopus oocytes .
+Oocytes were injected with Cx43 cRNA and labeled with [ 35 S ] met as described in Materials and Methods .
+After 6-7 h , each oocyte was injected with 40 nl of 2.5 mM L-methionine and treated with cycloheximide ( 15 mug and ml ) .
+At the time intervals noted , Cx43 was precipitated from the oocyte lysate , and the levels quantitated by PhosphoImage analysis on an SDS gel ( normalized to protein level at 0 h ) .
+Data from three independent experiments are shown , along with a line derived from a linear fit that suggests a half-life of ~ 22 h.
+Figure 2
+A ball and chain model for v-src induced gating of Cx43 channels .
+Xenopus oocytes were first injected with cRNAs encoding the connexin construct indicated , and paired to allow gap-junctional channels to form as described in Materials and Methods .
+Initial conductance recording by dual cell voltage clamp was followed by a secondary injection of cRNA for pp60v-src , or pp60v-src ( + ) the COOH-terminal tail of Cx43 ( C-TERM 244 : residues 244- 382 ) .
+Conductance was recorded again after ~ 6 h incubation , and expressed as a fraction of the conductance before v-src injection .
+Expression of pp60v-src caused almost complete loss of coupling in oocytes expressing wild-type Cx43 ( > 200-fold reduction ) , but only slightly decreased conductances of Cx32 channels .
+COOH-terminal truncation of Cx43 ( Delta245 ) eliminated the response to v-src .
+This was mostly restored by coexpression of C-TERM 244 with pp60v-src .
+Expression of the same domain with pp60v-src had no effect on Cx32 channels .
+Figure 4
+Effects of pp60v-src on Cx43 truncation and deletion mutants .
+The ratio of conductances post- and pre-src injection on the indicated constructs of Cx43 were compared with wild-type Cx43 and Cx32 , the mean conductances and standard errors are indicated on the right .
+Truncation of Cx43 at residue 257 ( Delta257 ) reduced sensitivity to v-src compared with wild-type Cx43 ( but to a lesser degree than in Cx43 Delta245 ; see Fig . )
+.
+Coexpression of the truncated COOH- terminal domain ( C-TERM 258 , 258-382 ) rescued the response of Delta257 to v-src completely , but only partially restored the response of the more severe Cx43 Delta245 truncation .
+Deletion of residues between 281-320 had no effect on v-src induced gating of Cx43 channels , while both Delta241-260 and Delta261-280 deletions showed significantly reduced responses to v-src .
+A combined deletion of these two regions ( Delta241-280 ) showed no response to v-src beyond that of the Cx32 negative control .
+Figure 6
+Effects of v-src on Cx43 serine and proline mutants .
+The ratio of conductances post- and pre-src injection on the indicated Cx43 mutants were compared with wild-type Cx43 and Cx32 , the mean conductances and standard errors of which are indicated on the right .
+Proline mutants ( P253 and 256A and P277 / 280A ) that should disrupt both the MAP kinase recognition site and the consensus SH3 binding motif showed significantly reduced sensitivity to v-src .
+Mutations of potential MAP kinase phosphorylation sites ( S255 and 257A and S279 and 282A ) showed similar reduced responses to v-src .
+A combined mutant of all four serines showed even less inhibition by v-src ( not significantly different to Cx32 ) , indicating that these sites act synergistically .
+Figure 9
+Inhibition of MAPK activation blocks v-src induced cell uncoupling .
+( A ) LA25 cells were treated with DMSO alone ( left column ) or MEK inhibitor in DMSO ( right column ) at 40degreesC for 1 h before analysis of coupling by dye-transfer .
+LY was injected into a single LA25 cell of a monolayer at 0 , 30 , and 60 min ( top to bottom ) after transfer to the permissive temperature of 33degreesC for v-src activation .
+LY diffusion into adjacent cells was counted as digital images from a CCD camera 2 min after injection .
+( B ) The complete time course of coupling ( normalized to the value seen before v-src activation ) is shown for both LA25 cells ( filled symbols ) and a Cx32 expressing LA25 clone ( LA25-O25 ; open symbols ) in the presence ( triangles ) or absence ( squares ) of MEK inhibitor .
+Figure 3
+Potential v-src regulatory sites on Cx43-mutagenic strategy .
+A schematic diagram showing sequences on the COOH-terminal tail of Cx43 related to direct and possible downstream effectors of v-src .
+Tyr265 and Tyr247 are potential tyrosine phosphorylation sites of pp60v-src .
+Proline rich sequences , 253 PLSP 256 and 277 PLSPMSP 283 , represent possible SH3 binding domains , which also contain documented substrate sites of MAP kinase ( S255 , S279 , and S282 ) .
+Also indicated are structures of the truncation ( Delta245 and Delta257 ) and systematic deletion constructs ( Delta241-260 , Delta261-280 , Delta241-280 , Delta281-300 , and Delta301- 320 ) used in the current study .
+Figure 7
+( A ) Association of v-src with Cx43 and its COOH-terminal tail ( 258-382 ) .
+[ 35 S ] - Met labeled oocytes were injected with cRNAs for Cx43 ( lanes 2 and 5 ) or pp60v-src alone ( lanes 1 and 6 ) , or in combination ( lane 3 ) .
+The Cx43 COOH-terminal domain was also expressed in the presence of pp60v-src ( lane 4 ) .
+Lysates of the oocytes were precipitated with either anti-Cx43 antiserum ( lanes 1-4 ) or anti-src mAb ( lanes 5 and 6 ) , separated by SDS-PAGE , and the dried gel exposed to X-ray film .
+The position of pp60v-src , Cx43 , and its COOH-terminal tail are indicated .
+In the latter two cases , bands that correspond to phosphorylated ( P ) , nonphosphorylated ( NP ) , and partially degraded ( * ) products are indicated .
+( B ) Dephosphorylation of Cx43 and COOH-tail by alkaline phosphatase .
+[ 35 S ] - Met labeled oocytes were injected with cRNAs for either Cx43 ( lanes 1-4 ) or Cx43 COOH-tail ( residues 244-382 ; lanes 5-8 ) , alone ( lanes 1 , 2 , 5 , and 6 ) or with pp60v-src ( lanes 3 , 4 , 7 , and 8 ) .
+Lysates of the oocytes were precipitated with anti-Cx43 antiserum ( all lanes ) followed by treatment with alkaline phosphatase ( lanes 2 , 4 , 6 , and 8 ) or phosphatase reaction buffer ( lanes 1 , 3 , 5 , and 7 ) .

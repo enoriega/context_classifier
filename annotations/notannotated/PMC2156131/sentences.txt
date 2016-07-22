@@ -1,0 +1,144 @@
+Employment of the Epidermal Growth Factor Receptor in Growth Factor Independent Signaling Pathways
+The traditional view of growth factor receptors and hormone receptors in general is that a specific ligand directly recognizes a highly selective binding site on its cognate receptor and , thereby , activates receptor dependent signaling and biological responses .
+In the case of the EGF receptor , several structurally related proteins ( EGF , transforming growth factor alpha , amphiregulin , betacellulin , epiregulin , heparin binding EGF ) are recognized as direct agonists .
+Each of these growth factors binds to the ectodomain of the EGF receptor and provokes its activation through a mechanism that involves dimerization , activation of the receptor tyrosine kinase cytosolic domain , and autophosphorylation of the receptor .
+This process initiates signaling pathways that lead to mitogenesis .
+Recently it has become apparent that the EGF receptor is also part of signaling networks activated by stimuli that do not directly interact with this receptor .
+These stimuli include agonists that specifically bind to other membrane receptors , membrane depolarization agents , and environmental stressors .
+The data not only show EGF independent tyrosine phosphorylation of the EGF receptor , but also provide experimental evidence that the EGF receptor participates in the signaling events and cellular responses initiated by these various stimuli .
+Collectively , the results imply that in the absence of direct agonists the EGF receptor is employed in a wide array of biological signaling processes .
+The purpose of this article is to review and evaluate these nonclassical uses of the EGF receptor .
+G Protein coupled Receptor Agonists
+Agonists for a diverse group of G protein coupled receptor ( GPCR ) 1 agonists ( purogenic , muscarnic acetylcholine , angiotensin , lysophosphatidic acid [ LPA ] , thrombin , endothelin , adrenergic , and bombesin ) have been demonstrated to bring about increased levels of phosphotyrosine on the EGF receptor ( reviewed in ; ) .
+Since GPCRs can induce cell proliferation in certain circumstances ( reviewed in Gutkind et al. , 1998 ) , these observations suggest that GPCR dependent mitogenic activity involves receptor networking that couples GPCRs to a growth factor receptor tyrosine kinase .
+The important issue is whether the EGF receptor is a necessary component for GPCR mitogenic signaling .
+Numerous reports have now demonstrated that either over-expression of a dominant negative EGF receptor or the presence of a specific pharmacologic inhibitor of EGF receptor tyrosine kinase activity significantly uncouples GPCR driven mitogenic responses ( , ; ; ; ; ; , ; ; ; ; ; ; Vainganker and Martins-Green , 1998 ; ; ; ; ) .
+In these reports , a variety of biological endpoints ( activation of MAP kinase , tyrosine phosphorylation of known substrates , gene expression , stress fiber formation , DNA synthesis ) have been measured in both transfected and untransfected cell lines as well as primary cells .
+In a different approach , demonstrated that B82L cells ( an EGF receptor negative cell line ) did not produce a mitogenic response to LPA unless exogenous EGF receptors were expressed .
+When kinase negative EGF receptors were expressed in these cells , LPA did not produce a mitogenic response .
+Hence , the capacity of GPCRs to transduce a mitogenic response requires an EGF receptor and its tyrosine kinase activity .
+The consistency of these reports reinforces the overall conclusion and its biological significance .
+Clearly , EGF receptor transactivation may be only one of several independent pathways emanating from GPCRs and inputs from other pathways may also be essential for mitogenic signaling .
+Bradykinin stimulation of protein kinase C seems to be such a required pathway functioning in parallel to EGF receptor dependent signaling ( ) .
+In nearly all examples cited , heterologous modulation of the EGF receptor occurs too quickly to invoke a mechanism involving the induced synthesis of EGF like ligands and in some cases this possibility has been directly tested and ruled out .
+Less well explored , however , is the possibility that heterologous stimuli might stimulate the proteolytic release of cell surface EGF like growth factor precursors to soluble and diffusible receptor agonists .
+Since GPCR activation produces a small amount of EGF receptor tyrosine phosphorylation compared with a saturating dose of EGF , only a low level of growth factor would have to be produced .
+However , in view of other data cited below and in the absence of direct data , this mechanism seems unlikely at present .
+The mechanism by which GPCRs actually bring about tyrosine phosphorylation of the EGF receptor is centered on the mediation of the non receptor tyrosine kinase c-Src , which is reported to be coupled to nearly all GPCRs that lead to EGF receptor phosphorylation ( reviewed in ) .
+Overexpression of either a dominant negative Src construct or Csk , a regulatory kinase that inhibits Src function , decreases EGF receptor tyrosine phosphorylation provoked by activation of LPA or alpha2 adrenergic receptors ( ) .
+The mediator role of Src may , in fact , be direct in that Src is able to associate with and phosphorylate the EGF receptor in vivo and in vitro ( ) .
+This mechanism would predict the existence of Src-EGF receptor complexes provoked by activation of GPCR .
+The evidence for this is shown by the demonstrations that angiotensin II ( ) or LPA ( ) rapidly increase the amount of Src coprecipitated with EGF receptors .
+The EGF receptor autophosphorylates at five known tyrosine residues after the addition of EGF .
+Src induced EGF receptor phosphorylation has been mapped to most of these sites as well as novel sites .
+Of particular interest is phosphorylation of Tyr 845 in the EGF receptor , which has been mapped for both in vivo and in vitro Src phosphorylation and which is not a known autophosphorylation site .
+This residue is highly conserved in tyrosine kinases and in many kinases has a regulatory role .
+In the EGF receptor , Tyr 845 is predicted to be in the activation loop of the tyrosine kinase domain and , therefore , could function as an activation trigger to increase activity of the kinase domain .
+There are several indications that the kinase catalytic activity of the EGF receptor is necessary to mediate GPCR dependent mitogenic responses .
+First , chemical inhibitors reasonably specific for the EGF receptor tyrosine kinase and competitive with ATP , which suggests an active site mechanism , block GPCR induction of mitogenic responses .
+Second , a point mutant , kinase negative EGF receptor does not support GPCR mitogenic signaling ( ) .
+Therefore , it seems unlikely that the receptor is simply phosphorylated by Src and acting as an inert docking site for SH2 containing signal transducers .
+An outstanding issue is whether GPCRs and and or Src induce dimerization of EGF receptors , a hallmark of EGF dependent receptor activation .
+There is but one report ( ) which describes carbachol induced EGF receptor dimerization .
+Mutagenesis of Tyr 845 in the EGF receptor does not attenuate EGF dependent receptor autophosphorylation or signaling , but does prevent DNA synthesis induction by the GPCR agonist LPA .
+However , reports of this mutant include an inconsistency .
+In the latter report this mutant also attenuated EGF induced DNA synthesis , while in the former report it did not .
+Recently , cells genetically deficient for multiple Src family kinase have been described ( ) .
+It will be informative to test the Src requirement for GPCR coupling to the EGF receptor in those cells .
+That Src may act upstream of the EGF receptor is complicated by the fact that EGF often produces Src activation .
+Hence , depending on the agonist Src may be upstream and and or downstream of the EGF receptor .
+The means by which GPCRs activate Src is not understood .
+However , there is sufficient data to support two alternative potential mechanisms .
+Many GPCRs that lead to EGF receptor phosphorylation are coupled to G proteins that activate phospholipase C activity provoking Ca 2+ mobilization .
+Ca 2+ mobilization can lead to the activation of the cytoplasmic tyrosine kinase Pyk2 .
+There is evidence that in certain cell types after GPCR activation , Pyk2 can associate with Src and that this association may lead to Src activation , through a mechanism that is unclear .
+This putative pathway proceeds as follows : agonist -- > GPCR -- > heterotrimeric G protein -- > PLC -- > IP 3 -- > Ca 2+ -- > Pyk2 -- > Src -- > EGF receptor .
+However , this pathway can not explain all GPCR activation of Src , as not all agonists that activate PLC activity bring about Src activation .
+While dominant negative forms of Pyk2 have been shown to block GPCR activation of MAP kinases , these assays have not included tyrosine phosphorylation of the EGF receptor .
+Also , the expression of Pyk2 is not ubiquitous and the above scenario may not be applicable in all cells .
+Recently a second mechanism has received experimental support ( ) .
+In this scheme , developed with beta 2 adrenergic receptors , receptor desensitization is coupled to Src activation .
+After its activation cycle , the beta-adrenergic receptor is phosphorylated by specific serine and threonine protein kinases termed betaark kinases .
+These receptor phosphorylation sites then bring about association of the adaptin-type molecule beta-arrestin , which recruits the receptor into coated pits .
+Evidence is presented that Src is recruited to the adrenergic receptor-beta-arrestin complex by interacting with beta-arrestin and is activated by this interaction .
+Such a pathway would proceed as follows : agonist -- > GPCR -- > heterotrimeric G protein -- > betaark phosphorylation of GPCR -- > arrestin : GPCR complex -- > GPCR-arrestin-Src complex -- > EGF receptor .
+Cytokine Receptors
+This large family of receptors is coupled to JAK family non receptor tyrosine kinases .
+Recently it has been reported that activation of the growth hormone or prolactin receptors leads to Jak2 dependent tyrosine phosphorylation of the EGF receptor ( Yamaguchi et al. , 1997 ) .
+In cells expressing the EGF receptor , growth hormone was able to promote GRB-2 association with the EGF receptor , MAP kinase activation , and c-fos induction .
+These growth hormone dependent events were also produced with a kinase negative EGF receptor indicating that only the adaptor docking function of the EGF receptor was essential and not receptor kinase activity .
+This is in contrast to the previously described EGF receptor kinase activity requirement for GPCR induced mitogenesis .
+The mechanism by which growth hormone stimulates tyrosine phosphorylation of EGF receptor was shown to include JAK-2 activation and the formation of growth hormone receptor-EGF receptor heterodimers .
+Src participation was ruled out .
+In vitro experiments indicated that JAK-2 may directly phosphorylate the EGF receptor at sites that include Tyr 1086 , a known GRB-2-association site .
+Adhesion Receptors
+While there is considerable experimental evidence that activation of integrin receptors and cell adhesion in general can modulate EGF responses and postreceptor signaling events , the possibility that integrins influence EGF receptor function , per se , is suggested by two reports .
+In one study beads coated with ligands that induce integrin aggregation and activation were added to cells and observed to induce the clustering of EGF receptors around the beads ( ) .
+This suggested the coaggregation of integrin and EGF receptors .
+Other growth factor receptors ( platelet derived growth factor , fibroblast growth factor ) were also coclustered with the beads .
+While the EGF receptors that clustered around these beads were not tyrosine phosphorylated , the growth factor dependent activation of the EGF receptor was enhanced by the beads .
+This could be explained either by exclusion of phosphatases from the clusters or by the fact that preclustering increased cross phosphorylation of EGF receptors after ligand addition .
+Beads with ligands that induced only integrin receptor aggregation and not activation did not produce EGF receptor clustering around the beads .
+Subsequently , a second report ( ) presented similar observations from a system in which tenascin C , a collagen binding glycoprotein that also binds to and activates integrin receptors , was added to smooth muscle cells .
+However , in this cell system cross linking of integrin receptors , without activation , was sufficient to induce EGF receptor clustering .
+In a more recent study using fibroblasts and endothelial cells , cell plating on a fibronectin matrix was shown to produce rapid and transient tyrosine phosphorylation of the EGF receptor ( ) .
+Similar results were obtained when the cells were plated on a matrix coated with integrin receptor antibodies that cluster but do not activate integrin receptors .
+Cell adhesion mediated by poly-l-lysine did not activate EGF receptors in this system .
+Mechanistically , it was shown that the beta1 integrin receptor subunit coprecipitated EGF receptors in a manner that depended on cell adhesion , i.e. , coprecipitation did not occur in cells kept in suspension before lysis .
+Also , the capacity of fibronectin to increase EGF receptor tyrosine phosphorylation was abrogated by the EGF receptor selective inhibitor AG1478 and did not occur in cells expressing a kinase negative receptor mutant .
+These results imply that receptor phosphorylation is a consequence of fibronectin enhanced activity of the receptor tyrosine kinase .
+Also , this study used both the AG1478 inhibitor and a dominant negative EGF construct to show that fibronectin activation of MAP kinase requires EGF receptor function .
+Similar reagents also were used to demonstrate that EGF receptor function was necessary to protect cells from apoptosis when plated on fibronectin in the absence of growth factors .
+Further evidence with selective chemical inhibitors indicate the role of the EGF receptor in mediating this resistance to apoptosis was , in fact , not due to MAP kinase activation but rather seem dependent on phosphatidylinositol 3-kinase activity .
+It should be pointed out that integrin dependent tyrosine phosphorylation of PDGF receptors has been reported ( Sunberg and Rubin , 1996 ; ) and the means by which integrins communicate with receptors tyrosine kinases may lead to the activation of multiple growth factor receptors , depending on the cells employed .
+Finally , the collagen binding proteoglycan decorin has been reported to produce in A-431 cells tyrosine phosphorylation of the EGF receptor and to mobilize Ca 2+ and activate MAP kinase in a manner dependent on the tyrosine kinase activity of the EGF receptor .
+Decorin is not known to interact with integrin or other cell adhesion receptors , but a recent report suggest that it may , in fact , interact directly with the EGF receptor as a low-affinity agonist ( ) .
+Membrane Depolarization
+In many cells and , in particular , cells of the nervous system , electrical activity initiates intracellular signaling pathways and the generation of cellular responses , such as secretion .
+In PC-12 cells the application of KCl leads to altered electrical potential across the plasma membrane and activation of the Ras and MAP kinase pathway .
+The initiating event seems to be an influx of extracellular Ca 2+ elicited by the activation of voltage sensitive Ca 2+ channels .
+The artificial influx of Ca 2+ by ionophore treatment can mimic these responses .
+In these cells , increased levels of intracellular Ca 2+ result in enhanced levels of EGF , but not insulin or nerve growth factor , receptor tyrosine phosphorylation ( ) .
+Transient expression of dominant negative EGF receptors or application of the selective EGF kinase inhibitor AG1478 prevents the capacity of KCl or ionomycin to increase EGF receptor tyrosine phosphorylation and activate MAP kinases in PC12 cells ( ) .
+Since the EGF receptor is widely expressed in cells of the nervous system , these results may suggest it has role in either the nonmitogenic signaling events present in these specialized cells or in preventing programmed cell death .
+The means by which intracellular Ca 2+ levels may provoke EGF receptor tyrosine phosphorylation are thought to revolve about the Pyk2 and Src families of tyrosine kinases , which are both known to be activated by membrane depolarization ( ) .
+This pathway ( Ca 2+ -- > Pyk -- > Src -- > EGF receptor ) is analogous to that described previously for GCPRs .
+Interestingly , calmodulin dependent protein kinase has been implicated in EGF receptor tyrosine phosphorylation after membrane depolarization by KCl , but not by GPCRs ( ) .
+Stress Response
+The application of certain exogenous stimuli , both physical and chemical , initiates signal transduction pathways in cells that are part of stress responses .
+Typically , such stimuli activate members of the MAP kinase family and provoke the expressions of genes .
+The following stress stimuli have been shown to increase the level of tyrosine phosphate on the EGF receptor ; arsenite ( ) , sulfhydryl reagents ( ) , UV radiation ( ; Warmuth et al. , 1993 and later references below ) , gamma irradiation , hyperosmotic conditions , oxidants ( ; ; Hoker et al. , 1998 ; ) , and heat shock ( ) .
+The tyrosine phosphorylation of other receptor tyrosine kinases is also affected and the influence on the EGF receptor can not be characterized as specific .
+However , in a number of instances the capacity of these stressors to activate MAP kinases and provoke the expression of certain genes is blocked by selective chemical inhibitors of EGF receptor tyrosine kinase activity and and or by the expression of dominant negative EGF receptors .
+These results imply that EGF receptor involvement is a necessary element for the initiation of signaling in response to such stimuli .
+Perhaps the most investigated stress stimulus , as it relates to the EGF receptor , is UV radiation .
+UVA , UVB , and UVC have all been shown to very rapidly , within seconds , promote enhanced tyrosine phosphorylation of the EGF receptor .
+Also , UV induces the phosphotyrosine dependent association of signaling molecules , such as GRB-2 , with the receptor and induces the tyrosine phosphorylation of EGF receptor substrates , such as Shc and PLC-gamma1 ( ; ; Rosetto and Karin , 1996 ) .
+That functional receptors are produced by UV exposure is also indicated by studies demonstrating the formation of receptor dimers , receptor aggregation , and receptor internalization ( ) .
+Hence , by many parameters , UV seems to provoke receptor activation that mimics addition of a direct ligand .
+It is clear , however , that UV does not provoke receptor activation by a means that involves autocrine production of EGF family agonist .
+Less clear , though unlikely , is the possibility that stressors promote the proteolytic release of an EGF family molecule from cell surface precursors .
+However , as UV activates v-erbB , an oncogenic isoform of the chicken EGF-receptor that lacks a ligand binding domain , the possible role of ligand involvement would seem unlikely ( ) .
+That it is the kinase activity of the EGF receptor that promotes receptor autophosphorylation is indicated by the fact that selective kinase inhibitors , such as AG1478 ( ) and tyrphostin 23 ( ) block UV induced EGF receptor phosphorylation .
+Similarly , expression of a dominant negative EGF receptor prevents UV induced receptor phosphorylation presumably by the formation of dimers incapable of cross phosphorylation ( ) .
+Finally , in cells expressing a kinase negative EGF receptor , UV exposure did not increase receptor tyrosine phosphorylation ( ) .
+Hence , the evidence suggests that UV stress activates the kinase domain and that EGF receptor phosphorylation is not primarily a consequence of phosphorylation by other kinases .
+There is one reported exception in cells expressing kinase negative EGF receptors and wild-type ErbB-2 ( ) .
+UV does activate ErbB-2 and ErbB-2 , which heterodimerizes with EGF receptors , is able to cross-phosphorylate the EGF receptor .
+While UV does seem to mimic growth factor activation of the receptor , no phosphotyrosine maps have been published for UV activated EGF receptors .
+Therefore , it is not clear that UV and growth factors result in identical receptor activation .
+UV treatment of cells activates a plethora of signaling pathways .
+Experiments using chemical inhibitors of the EGF receptor or expression of dominant negative receptor mutants show that the EGF receptor mediates , at least in part , several UV induced signaling events , including activation of erk1 and 2 , production of prostaglandins and leukotrienes , and the expression of several genes including c-fos and erg-1 ( ; ; Sachsenmaier et al. , 1996 ) .
+Less clear is the mechanism by which UV actually activates the EGF receptor .
+The prevailing evidence would suggest that the activation is indirect through inactivation of phosphotyrosine phosphatase activity .
+UV is known to produce reactive oxygen species in cells , perhaps through the generation of H 2 O 2 .
+Interestingly , EGF also promotes H 2 O 2 formation in cells ( ) .
+Several studies have shown that preincubation with antioxidants , such as N-acetylcysteine , prevent UV but not EGF induced receptor autophosphorylation .
+Reducing agents also protect against UV induced receptor activation .
+As the catalytic sites of phosphotyrosine phosphatase have a highly conserved sulfhydryl group as an essential element , this is the likely target for oxidation induced by UV .
+There is experimental evidence at the biochemical level which shows that a phosphatase containing membrane preparation can dephosphorylate a second membrane preparation that contains activated EGF receptor ( ) .
+The rate of receptor dephosphorylation in this system is markedly decreased by UV treatment of the phosphatase preparation before its addition to EGF receptors .
+This result implies that basal EGF receptor kinase activity is quite significant , which is true of purified receptor preparations .
+It is interesting that various stimuli provoke EGF receptor tyrosine phosphorylation by two distinct means .
+While physical and chemical stressors inactivate downstream phosphotyrosine phosphatases , heterologous receptors and membrane depolarization bring about a similar result by activating upstream tyrosine kinases .
+It is possible , however , that this division into separate mechanisms is not absolute and some level of contribution by kinases and phosphatases exists with each stimulus , as recently described for carbachol regulation of the Kv1 .2 potassium channel ( ) .

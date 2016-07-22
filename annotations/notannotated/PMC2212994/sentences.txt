@@ -1,0 +1,241 @@
+PKCbeta regulates BCR mediated IKK activation by facilitating the interaction between TAK1 and CARMA1
+The B cell antigen receptor ( BCR ) - mediated activation of IkappaB kinase ( IKK ) and nuclear factor-kappaB require protein kinase C ( PKC ) beta ; however , the mechanism by which PKCbeta regulates IKK is unclear .
+Here , we demonstrate that another protein kinase , TGFbeta activated kinase ( TAK ) 1 , is essential for IKK activation in response to BCR stimulation .
+TAK1 interacts with the phosphorylated CARMA1 ( also known as caspase recruitment domain [ CARD ] 11 , Bimp3 ) and this interaction is mediated by PKCbeta .
+IKK is also recruited to the CARMA1-Bcl10-mucosal-associated lymphoid tissue 1 adaptor complex in a PKCbeta dependent manner .
+Hence , our data suggest that phosphorylation of CARMA1 , mediated by PKCbeta , brings two key protein kinases , TAK1 and IKK , into close proximity , thereby allowing TAK1 to phosphorylate IKK .
+Triggering of the B cell antigen receptor ( BCR ) leads to the initiation of multiple signaling pathways that regulate cellular proliferation and survival of immature and naive B lymphocytes , and the effector functions of mature B cells ( ) .
+Among them , the signaling pathway that leads to the activation of transcription factors of NF-kappaB has a crucial role in these processes ( - ) .
+NF-kappaB is also activated in response to variety of other stimuli such as CD40 or Toll like receptors , therefore raising the possibility of the existence of signal specific pathways for activation .
+The common feature of signals that induce NF-kappaB is activation of an IkappaB kinase ( IKK ) complex consisting of two catalytic subunits , IKKalpha and IKKbeta , and an essential regulatory subunit NF-kappaB essential modulator ( NEMO ) / IKKgamma .
+In the canonical pathway , IKKbeta activation results in phosphorylation and subsequent degradation of IkappaBs , thereby allowing NF-kappaB proteins to translocate to the nucleus ( - ) .
+BCR signal largely utilizes this pathway to activate NF-kappaB .
+Upon BCR mediated signaling , protein kinase C ( PKC ) beta is activated , which in turn is important for IKK activation ( - ) .
+By other stimuli including IL-1 and TNF-alpha , TGFbeta activated kinase ( TAK ) 1 , another protein kinase and a member of the mitogen activated protein ( MAP ) 3 kinase family , has been reported to participate in IKK activation ( - ) .
+In addition to PKCbeta , BCR stimulation requires adaptor molecules , CARMA1 ( also known as caspase recruitment domain [ CARD ] 11 , Bimp3 ) , Bcl10 , and mucosal associated lymphoid tissue ( MALT ) 1 , to activate NF-kappaB .
+Indeed , B cells lacking any of these proteins are defective in IKK activation in response to BCR stimulation ( - ) .
+CARMA1 contains a set of motifs ( PDZ , SH3 , and GUK domains ) that define the membrane associated guanylate kinase ( MAGUK ) family , peripheral membrane proteins that serve as molecular scaffolds by clustering different signaling and structural proteins into membrane subdomains .
+In overexpression studies , CARMA1 directly binds to Bcl10 through CARD-CARD interactions and Bcl10 interacts with MALT1 ( , - ) .
+Recently , MALT1 and Bcl10 have been shown to mediate IKK activation by facilitating the K63 polyubiquitination of the IKKgamma ( - ) , although it remains obscure whether this polyubiquitination event suffices for IKK activation in the context of antigen receptor signaling .
+Although adaptor proteins that participate in BCR mediated IKK activation have been intensively identified , it remains unclear whether the PKCbeta and CARMA1-Bcl10-MALT1 complex connect and how , if any , these connections lead to IKK activation .
+Here , we report that BCR induced phosphorylation of CARMA1 , mediated by PKCbeta , contributes to bringing two key protein kinases , TAK1 and IKK , into close proximity .
+As a result , TAK1 is able to function as an upstream kinase for IKK activation in BCR signaling context .
+Results
+TAK1 is required for BCR mediated IKK activation
+Given the previous evidence that BCR mediated IKK activation is impaired in protein kinase C ( PKC ) beta- or CARMA1 deficient primary B cells ( , , - ) , we examined whether requirement for these molecules is recapitulated in DT40 B cells .
+For this purpose , we established PKCbeta- or CARMA1 deficient cells .
+As shown in , both of these deficient DT40 cells failed to activate IKK and degrade IkappaBalpha upon BCR engagement .
+The defective NF-kappaB activation in PKCbeta- or CARMA1 deficient DT40 cells was not due to the decreased BCR expression .
+These observations allowed us to choose the chicken DT40 B cell system for elucidating the molecular connections between PKCbeta and IKK in BCR signaling .
+Expression of BCR and signaling molecules in various mutant DT40 B cell lines used in this study are presented in Fig .
+S1 .
+Figure 1 .
+PKCbeta and CARMA1 are essential for IKK activation in DT40 cells .
+BCR mediated IKK activation in DT40 wild-type ( wt ) , PKCbeta- ( PKCbeta -/ - ) , and CARMA1 deficient ( CARMA1 -/ - ) DT40 B cells .
+For IKK activation , 10 7 cells and lane were subjected to IKK kinase assay .
+IKK kinsae activity was measured by phosphorylation of GST-IkappaBalpha as a substrate and detected by anti-phospho-IkappaBalpha mAb ( top ) .
+IkappaBalpha degradation was analyzed by Western blotting with anti-IkappaBalpha Ab ( middle ) .
+NF-kappaB activity was examined by EMSA ( bottom ) .
+Position of the NF and kappaB complex is indicated by arrow .
+Activation of IKK by all proinflammatory and innate immune stimuli depends on phosphorylation of either IKKalpha or IKKbeta catalytic subunits at two conserved serines located within their activation loops ( ) .
+Such phosphorylation could be achieved through the action of an upstream kinase .
+If this is the case in BCR signaling , the aforementioned data suggest that PKCbeta or another kinase functions as the upstream kinase in IKK activation .
+In this regard , recent reports have implicated MAP3 kinases , including TAK1 , as a candidate kinase ( - , ) .
+To address the role played by TAK1 in BCR mediated IKK activation , we first examined whether TAK1 is indeed activated by BCR ligation .
+TAK1 was reported to be activated via autophosphorylation after exposure of cells to IL-1 .
+Therefore , TAK1 was immunoprecipitated from resting and activated primary murine B cells and we measured its in vitro autophosphorylation activity .
+TAK1 was activated at least 3 min after BCR cross linking ( A ) .
+Although we used this assay for DT40 B cells , enhancement of its in vitro kinase activity could not be reproducibly observed .
+To circumvent this potential difficulty in DT40 B cells , we took another approach .
+The status of serine and threonine phosphorylation of Flag tagged TAK1 was monitored in DT40 B cells after BCR cross linking .
+This tagged TAK1 underwent phosphorylation 3 min after BCR cross linking , whereas its kinase deficient mutant barely did ( D , top ) .
+Together , we conclude that TAK1 is activated by BCR ligation in primary B cells and probably in DT40 B cells .
+Figure 2 .
+TAK1 is required for BCR mediated IKK activation .
+( A ) For TAK1 activation , primary B cells from spleens of C57BL and 6J mice were purified and stimulated by anti-mouse IgM F ( ab ) 2 ( anti-mu ) .
+Cytosolic extracts from 4 x 10 7 cells per sample were immunoprecipitated with anti-TAK1 Ab , and the resulting immunocomplexes were subjected to in vitro kinase assay .
+To measure the activity of TAK1 , autophosphorylation of TAK1 was detected by anti-phospho-serine and threonine ( P-ST ) Abs .
+( B ) IKK activity , degradation of IkappaBalpha , and NF-kappaB activation in TAK1 deficient DT40 cells ( TAK -/ - ) or DT40 wild-type cells ( wt ) were determined with the same procedures as in .
+( C ) For ERK activation , whole cell lysates ( 10 6 cells / lane ) were analyzed by Western blotting with anti-phospho-p44 / p42 MAP kinase polyclonal Ab .
+For JNK activation , 2 x 10 7 cells were used for in vitro kinase assay as described in Materials and methods .
+( D ) For TAK1 activity in DT40 cells , Flag tagged wild type TAK1 ( TAK1 wt ) or kinase-dead TAK1 ( TAK1 K63W ) was transfected into TAK1 deficient DT40 cells .
+Cell lysates ( 2 x 10 7 cells / lane ) were immunoprecipitated with anti-Flag mAb and analyzed by Western blotting using anti-phospho-serine and threonine Abs .
+IKK kinase assay and detection of IkappaBalpha degradation were performed as in .
+Next , to directly examine the functional role of TAK1 , we established a DT40 cell line deficient in this molecule .
+As shown in B , BCR mediated NF-kappaB activation was abolished in TAK1 deficient DT40 B cells .
+Effects of TAK1 on key MAP kinases , extracellular signal regulated kinase ( ERK ) and c-Jun NH 2 -terminal kinase ( JNK ) , were also analyzed by Western blotting with antibodies ( Abs ) specific for their phosphorylated forms .
+ERK kinase in TAK1 deficient cells was activated normally by BCR cross linking , but JNK phosphorylation was completely abolished ( C ) .
+Activation of IKK and JNK by BCR ligation was restored by introduction of wild-type TAK1 into TAK1 deficient cells , but not by its kinase mutant ( D ) .
+Thus , we conclude that TAK1 kinase activity is required for BCR mediated IKK and JNK activation in DT40 B cells .
+Normal PKCbeta activation in the absence of TAK1
+As demonstrated before , TAK1 deficient DT40 B cells manifested the similar defect in BCR mediated IKK activation to that in PKCbeta- and CARM1 deficient B cells , suggesting the functional interaction between TAK1 and PKCbeta and CARMA1 .
+Thus , to elucidate the mechanism by which TAK1 participates in BCR mediated IKK activation , we first examined the effects of deletion of TAK1 on PKCbeta and CARMA1 .
+As for its effect on PKCbeta , the activation status of PKCbeta was , as judged by using anti-phospho-PKCbeta Ab , not affected in TAK1 deficient DT40 B cell ( A ) .
+Thus , PKCbeta likely lies upstream of TAK1 , thereby contributing to BCR mediated IKK activation .
+As a readout of CARMA1 action , we considered the possibility that CARMA1 might undergo serine and threonine phosphorylation upon BCR engagement because a physical interaction between CARMA1 with PKCtheta was reported in nonlymphoid cells ( ) .
+Indeed , CARMA1 underwent phosphorylation , as determined by anti-phospho-serine and threonine Ab by BCR cross linking in DT40 B cells .
+This CARMA1 phosphorylation occurred even in TAK1 deficient cells , but the extent was decreased by ~ 20 % at 3 min after stimulation when compared with wild-type cells ( B ) .
+Figure 3 .
+Normal PKCbeta activation in the absence of TAK1 .
+( A ) PKCbeta activity was determined by phosphorylation status using anti-phospho-PKCbeta Ab ( T500 ; corresponding to human PKCbeta threonine 500 ) in wild-type ( wt ) or TAK -/ - DT40 cells .
+( B ) For phosphorylation of CARMA1 in wild-type or TAK -/ - DT40 cells , cytosolic extracts from 4 x 10 7 cells per sample were immunoprecipitated with anti-CARMA1 Ab and analyzed by Western blotting using anti-phospho-serine / threonine Abs ( P-ST ) .
+( C ) For TAK1 activity in various mutant DT40 cells , Flag tagged wild-type TAK1 ( TAK1 wt ) was transfected into TAK -/ - , PKCbeta -/ - , or CARMA1 -/ - DT40 cells .
+Activation status of TAK1 was determined as in D.
+In the absence of PKCbeta or CARMA1 , TAK1 activation , judged by anti-phospho-serine and threonine blotting , was greatly decreased , compared with wild-type DT40 B cells ( C ) .
+These observations suggest that PKCbeta- and CARMA1 mediated events augment TAK1 activity during BCR signaling .
+Interaction of TAK1 with CARMA1
+To further address the mechanism by which TAK1 leads to the activation of IKK , we analyzed whether TAK1 interacts with PKCbeta and and or CARMA1 in DT40 B cells that are unstimulated or stimulated .
+Efficient interaction between TAK1 and CARMA1 was observed in stimulated B cells ( A ) .
+This inducible association was also observed in primary B cells after BCR stimulation ( B ) .
+Although fivefold higher amount of TAK1 was immunoprecipitated , we could not detect reproducible association of TAK1 with PKCbeta ( unpublished data ) .
+To assess the functional importance of this association , we made TAK1 mutants and examined their functions .
+The COOH-terminal region of TAK1 ( 402-579 amino acids ) is thought to bind to a TAK1 binding protein , TAB2 , in the IL-1 signaling pathway ( ) .
+In contrast with the dB mutant , the dA mutant failed to associate with CARMA1 upon BCR engagement and to activate IKK ( ) .
+This failure was not due to its defective kinase activity because the immunoprecipitated dA TAK1 mutant , once overexpressed in 293T cells , exhibited the similar kinase activity to that of wild-type ( D ) .
+Therefore , we conclude that after BCR stimulation , TAK1 is recruited to CARMA1 directly or indirectly , which in turn contributes to subsequent IKK activation .
+Figure 4 .
+TAK1 associates with CARMA1 .
+( A ) For detection of molecular interaction , cell lysates from TAK1 deficient DT40 cells expressing Flag tagged wild-type TAK1 were immunoprecipitated with anti-Flag mAb and analyzed by Western blotting using anti-CARMA1 Ab .
+( B ) The primary B cells from spleens of C57BL and 6J mice were purified and stimulated by anti-mouse IgM F ( ab ) 2 ( anti-mu ) .
+Cytosolic extracts from 4 x 10 7 cells per sample were immunoprecipitated with anti-CARMA1 Ab , and the immunocomplexes were subjected to Western blotting using anti-TAK1 Ab .
+Figure 5 .
+Requirement for interaction between TAK1 and CARMA1 in NF-kappaB activation .
+( A ) Schematic diagram of various TAK1 mutant constructs .
+( B ) Interaction of various mutant TAK1 with CARMA1 .
+TAK1 mutants were transfected into TAK1 deficient DT40 cells .
+Cell lysates ( 2 x 10 7 cells / sample ) were immunoprecipitated by anti-Flag mAb , followed by Western blotting using anti-CARMA1 Ab .
+( C ) Detection of IkappaBalpha degradation was performed as in .
+( D ) For detection of potentiality of these mutant TAK1 kinase activity , each construct shown in A was transiently transfected with TAB1 into 293T cells .
+Cells were lysed and immunoprecipitated by anti-Flag mAb .
+The immunocomplexes were subjected to kinase assay using GST-IKKbeta as a substrate .
+In lane 1 ( asterisk ) , GST-IKKbeta in which S177 and S181 were mutated to A177 and A181 was used as a negative control substrate .
+Interaction of TAK1 with CARMA1 is dependent on PKCbeta
+Having demonstrated the necessity of interaction between TAK1 and CARMA1 in BCR mediated IKK activation , next we determined how this association is formed .
+As CARMA1 was phosphorylated by BCR stimulation , we reasoned that BCR induced interaction between TAK1 and CARMA1 might be associated with CARMA1 phosphorylation status .
+As shown before , phosphorylation of CARMA1 at 3 min after BCR stimulation occurred in TAK deficient DT40 B cells .
+Thus , we considered PKCbeta as a key kinase for initiating phosphorylation of CARMA1 after BCR stimulation .
+In the absence of PKCbeta , the phosphorylation of CARMA1 was not induced by BCR ligation ( A ) .
+Importantly , BCR mediated interaction between TAK1 and CARMA1 was also greatly reduced in PKCbeta deficient DT40 B cells .
+Thus , at 3 min after BCR stimulation , the CARMA1 phosphorylation status appeared to be well correlated with the interaction status between TAK1 with CARMA1 ( ) .
+Moreover , comparison of wild-type and PKCbeta deficient DT40 B cells indicated that inducible association of CARMA1 with Bcl10 and MALT1 was also well correlated with the phosphorylation status of CARMA1 at 3 min after receptor ligation ( C ) .
+Together , these observations suggest that the initial phase of CARMA1 phosphorylation could contribute to its inducible association with TAK1 and Bcl10 .
+Figure 6 .
+Interaction of TAK1 with CARMA1 is dependent on PKCbeta .
+( A ) For phosphorylation of CARMA1 in wild-type or PKCbeta -/ - DT40 cells , immunoprecipitation and Western blotting were performed as B. ( B ) For association of TAK1 and CARMA1 , cell lysates from TAK1- or PKCbeta deficient DT40 cells , both of which expressed Flag tagged wild-type TAK1 , were immunoprecipitated with anti-Flag mAb and analyzed by Western blotting using anti-CARMA1 Ab .
+( C ) For interaction of CARMA1 with Bcl10 or MALT1 in PKCbeta -/ - cells , cytosolic extracts from 4 x 10 7 cells per sample were immunoprecipitated with anti-CARMA1 Ab and analyzed by Western blotting using anti-Bcl10 or -MALT1 Abs .
+Although CARMA1 phosphorylation , judged by anti-phospho-serine and threonine Ab , continued 10 min after BCR ligation , its association with TAK1 and Bcl10 was decreased to an almost resting level ( ) .
+Assuming that CARMA1 undergoes phosphorylation on multiple serine and threonine residues upon BCR stimulation , one of the straightforward explanations for these observations is that the initial phosphorylation sites could contribute to association of CARMA1 with TAK1 and Bcl10 , whereas the sites , being phosphorylated in the later phase ( 10 min after stimulation ) , could play a negative role in its association .
+TAK1 is able to phosphorylate IKK
+Given the importance of the CARMA1-Bcl10-MALT1 complex in IKK activation , the aforementioned data suggest that TAK1 , when interacted with the phosphorylated CARMA1 , gains access to its substrate IKK , which in turn transphosphorylates conserved serines located within the activation loop of IKKbeta and IKKalpha .
+Hence , to test this hypothesis , we examined whether IKK is associated with CARMA1 after BCR cross linking and , if so , whether this association is dependent on PKCbeta .
+As demonstrated in A , this inducible association was detected and dependent on PKCbeta .
+Figure 7 .
+TAK1 is able to phosphorylate IKK .
+( A ) For IKK recruitment to CARMA1 , 2 x 10 7 cell lysates were immunoprecipitated by anti-IKKgamma mAb and analyzed by Western blotting using anti-CARMA1 Ab .
+( B ) Cell lysates from the transfectants , as seen in D , were immunoprecipitated by anti-Flag mAb and performed in vitro kinase assay using GST-IKKbeta as a substrate .
+In the lane 4 ( asterisk ) , GST-IKKbeta in which S177 and S181 were mutated to A177 and A181 was used as a negative control substrate .
+We also tested whether TAK1 is able to phosphorylate IKKbeta .
+For this purpose , transfected Flag tagged TAK1 and its kinase defective mutant were immunoprecipitated from stimulated DT40 B cells , and incubated with recombinant glutathione S-transferase ( GST ) - IKKbeta as a substrate .
+As demonstrated in B , only wild-type TAK1 led to strong phosphorylation of recombinant GST-IKKbeta after stimulation .
+As a further negative control , we also used a recombinant GST IKKbeta mutant in which two conserved serine residues ( S177 and S181 ) in the activation loop of IKKbeta were changed to alanine residues ( B , lane 4 ) , demonstrating that these sites are indeed phosphorylated by immunoprecipitated TAK1 .
+The aforementioned data raised the possibility that either TAK1 , or a kinase that may associate with the TAK1 immunocomplex , is one of the IKK kinases .
+Discussion
+Despite the importance of PKCbeta in BCR induced IKK activation , the underlying mechanism has remained unclear .
+In this study , we provide several lines of evidence in support of the critical role of PKCbeta mediated phosphorylation of CARMA1 in bringing two key enzymes TAK1 and IKK into close proximity with each other , thereby activating IKK by BCR stimulation .
+A model for the mechanism of PKCbeta mediated activation of IKK during BCR signaling , based on the data presented here , is shown in .
+Involvement of PKCbeta in BCR mediated CARMA1 phosphorylation is clear ; however , our data has not addressed the issue of whether PKCbeta phosphorylates CARMA1 after BCR stimulation , directly or indirectly .
+In this regard , as in T cells , PDK1 might facilitate the functional interaction between PKCbeta and CARMA1 in B cells ( ) .
+Figure 8 .
+A model for BCR mediated NF-kappaB activation .
+Stimulation of BCR leads to activation of proximal protein tyrosine kinases including Syk and Btk .
+Btk phosphorylates several tyrosine residues on phospholipase C-gamma2 ( PLC-gamma2 ) , and subsequent activation of protein kinase Cbeta ( PKCbeta ) .
+Activated PKCbeta phosphorylates CARMA1 ( ) , directly or indirectly , which is able to recruit TAK1 to the phosphorylated CARMA1 ( ) .
+Meanwhile , the IKK complex probably through the Bcl10 / MALT1 complex is recruited to the phosphorylated CARMA1 ( 3 and 4 ) .
+These interactions ( CARMA1-IKK and CARMA1-TAK1 ) contribute to access of two key protein kinases , TAK1 and IKK , leading to activation of the IKK complex ( ) .
+The initial phosphorylation of CARMA1 ( 3 min after stimulation ) mediated by PKCbeta is most likely to cause its association with TAK1 and Bcl10 and MALT1 complex , which is supported by two lines of our observations .
+First , the comparison between wild-type and PKCbeta deficient DT40 cells clearly showed the well correlation between the inducible phosphorylation status of CARMA1 and its association with TAK1 , Bcl10 , and MALT1 at 3 min after BCR stimulation ( ) .
+Second , BCR mediated phosphorylation of CARMA1 still occurred in TAK1 deficient DT40 cells ( B ) , implying that the initial CARMA1 phosphorylation precedes its association with TAK1 during BCR signaling .
+Next , the question of how CARMA1 phosphorylation contributes to its association with Bcl10 and TAK1 arises .
+CARMA1 contains a set of motifs ( PDZ , SH3 , and GUK domains ) that define MAGUK family proteins .
+The best characterized member of this family , PSD-95 , forms relatively stable , detergent resistant , and microfilament independent multiprotein aggregations at postsynaptic membrane densities in neurons .
+Furthermore , it has been proposed that the intramolecular interactions of PSD-95 , such as between the SH3 and GUK domains , keep it in a closed , inactive conformation , whereas binding to a regulatory ligand could induce an opening of the conformation that would allow for subsequent intermolecular SH3-GUK interactions and dimerization or multimerization .
+In addition to MAGUK-typical features , CARMA1 contains two additional protein protein interaction domains ; a CARD domain and a coiled-coil domain .
+The CARD domain of CARMA1 is shown to mediate binding to Bcl10 , whereas its coiled-coil domain is thought to mediate homo- and and or hetero-multimerization .
+Thus , it is reasonable to anticipate that the initial phosphorylation of CARMA1 ( 3 min after stimulation ) , like the regulatory ligand , could induce the opening state from its closed conformation , thereby allowing CARMA1 to form homo-oligomerization and hetero-oligomerization with signaling molecules , including Bcl10 and TAK1 .
+However , disparity between phosphorylation status of CARMA1 and its association with Bcl10 and TAK1 ( 10 min after stimulation ) was also observed .
+These data suggest that CARMA1 might undergo phosphorylation on several serine and threonine residues with distinct time kinetics during BCR signaling and that the sites being phosphorylated with later time kinetics could contribute to terminating these associations .
+Although endogenous Bcl10 and MALT1 can be coimmunoprecipitated from lysates of nonstimulated B and T cells , the physical association of Bcl10 and MALT1 is not clear ( ) .
+In the case of DT40 B cells , we observed that this association was inducible ( unpublished data ) .
+Given that Bcl10 undergoes phosphorylation in antigen receptor signaling , this phosphorylation might contribute to further association of Bcl10 and MALT1 , thereby making a stable CARMA1-Bcl10-MALT1 complex upon BCR engagement .
+IKKgamma was recruited to CARMA1 after receptor ligation ( A ) .
+Thus , the IKK complex including IKKgamma might be directly associated with CARMA1-Bcl10-MALT .
+It is also possible that TRAF6 and and or ECSIT ( evolutionarily conserved signaling intermediate in toll pathways ) might function as a connecting molecule between CARMA1-Bcl10-MALT1 and the IKK complex .
+Importance of phosphorylation of the activation loop serine residues of IKKalpha and IKKbeta has been demonstrated in vivo as well as in vitro experiments .
+As these serine residues are not part of a PKC consensus phosphorylation site , two mechanistic ideas have been proposed .
+First , other serine and threonine residues of IKKalpha and IKKbeta may serve as direct substrates of PKCbeta , thereby contributing to IKK activation .
+Alternatively , PKCbeta may regulate IKK indirectly through an intermediate kinase that would be directly or indirectly controlled by PKCbeta .
+Although the first possibility can not be completely excluded , our data highly suggest that the second mechanism mainly operates in the BCR signaling context and that TAK1 corresponds to this intermediate kinase .
+First , consistent with a previous report using Jurkat T cells ( ) , TAK1 was demonstrated to play a critical role in BCR mediated IKK activation in DT40 B cells .
+Second , because PKCbeta activation occurred normally in the absence of TAK1 , TAK1 is likely activated downstream of PKCbeta .
+Third , immunoprecipitated TAK1 , but not its kinase mutant , was able to phosphorylate activation loop serine residues of IKKbeta in in vitro conditions .
+In contrast with wild-type DT40 cells , TAK1 activation status , as judged by antiphosho-serine and threonine Ab , was greatly decreased in both PKCbeta- and CARMA1 deficient cells , suggesting involvement of PKCbeta mediated CARMA1 phosphorylation and probably subsequent association of CARMA1 and TAK1 in its activation .
+In this regard , the dA TAK1 mutant is thought to be devoid of a binding site to TAB2 , an adaptor molecule linking TRAF6 and TAK1 in IL-1 receptor signaling ( ) .
+Thus , TAB2 could be one of the candidates that contribute to association of CARMA1 with TAK1 .
+In addition to TAK1 activation , substrate accessibility is important .
+Association of both TAK1 and IKK complex with CARMA1 and dependency of these associations on PKCbeta were clearly demonstrated by this study .
+Hence , these associations likely allow the activated TAK1 to phosphorylate IKKbeta in in vivo contexts .
+Furthermore , because MALT1 is reported to activate IKK by promoting the ubiquitination of the IKKgamma directly , or indirectly through TRAF6 ( - ) , this IKKgamma ubiquitination may contribute to bringing IKKbeta into a state that is more susceptible to being phosphorylated by TAK1 .
+TAK1 was reported as a kinase coupling innate receptors , Toll like receptors and IL -1 receptors , to IKK activation ( - ) .
+Therefore , involvement of this kinase also in antigen receptor mediated IKK activation is somewhat surprising .
+Here , the relative lack of redundancy in BCR mediated IKK activation in DT40 cells has enabled us to provide an insight into how TAK1 participates in adaptive immune receptor signaling such as through BCR .
+Phosphorylation of a specific scaffold molecule , CARMA1 , recruits actions of two common NF-kappaB players , TAK1 and IKK , into the adaptive immune receptor signaling .
+Thus , the adaptive immune system in vertebrates may have evolved from the more primitive innate immune system through usurping the common key signaling components of the NF-kappaB pathway , including TAK1 and IKK , by using CRAMA1-Bcl10-MALT1 .
+Materials and Methods
+Cells , mice , Abs , and reagents
+Wild-type and various mutant DT40 cells were cultured in RPMI 1640 ( GIBCO BRL and Invitrogen ) supplemented with 10 % FCS , 1 % chicken serum , 50 muM 2-ME ( Sigma-Aldrich ) , 4 mM l-glutamine , and antibiotics .
+Wild-type C57BL and 6J mice were purchased from Clea Japan .
+Anti-CARMA1 Ab and anti-IkappaBalpha Ab were obtained by immunizing rabbits with synthetic peptide ( CLQFVSRSENKYKRMNSNERVRI ) and with bacterially expressed GST fusion proteins containing amino acid sequences coding chicken IkappaBalpha ( amino acids 1-103 ) , respectively .
+Anti-chicken IgM mAb , M4 ( ) , was used for stimulation of BCR and FACS analysis .
+Anti-ERK Ab , anti-JNK Ab , anti-TAK1 mAb ( C9 ) , anti-Bcl10 mAb ( 331.3 ) , and anti-MALT1 Ab were purchased from Santa Cruz Biotechnology , Inc. .
+Anti-phospho-PKCbeta ( T 500 ) Ab , anti-PKCbetaII Ab , anti-CARMA1 Ab , and anti-TAK1 Ab were obtained from Abcam .
+Anti-IKKgamma mAb was obtained from BD Biosciences .
+Anti-phospho-ERK Ab , anti-phospho-IkappaBalpha mAb ( 5A5 ) , anti-phospho-IKKalpha and beta ( S177 / S181 ) , and anti-phospho-threonine Ab were purchased from Cell Signaling Technology Inc. .
+Anti-phospho-serine Ab was obtained from Zymed Laboratories .
+The mixture of anti-phospho-serine and -threonine Ab were used as anti-phospho-serine and threonine Ab .
+Anti-FLAG mAb ( M2 ) was obtained from Sigma-Aldrich .
+Expression constructs and transfection
+Flag tagged mouse wild-type TAK1 and its mutant cDNAs were generated by PCR .
+Each cDNA was cloned into the pApuro with IRES-GFP expression vector ( ) .
+Kinase-dead TAK1 , dA TAK1 , and dB TAK1 harboured K63W point mutation , internal deletion ( amino acids 401-530 ) , and COOH-terminal deletion ( amino acids 531-579 ) , respectively .
+These constructs were transfected into each mutant DT40 cells by electroporation as described elsewhere ( ) .
+Generation of various deficient DT40 cells
+Based on published sequence of murine PKCbetaII , CARMA1 , and TAK1 , we searched each chicken homologue using the expressed sequence tag database and obtained each chicken cDNA by RT-PCR with RNA from DT40 B cells .
+Genomic clones of PKCbetaII , CARMA1 , and TAK1 were obtained by PCR using oligonucleotides ( designed from each cDNA sequence ) and genomic DNA as a template .
+The targeting vector , pPKCbetaII-neo or pPKCbetaII-hisD , was constructed by replacing the genomic fragment containing exons that correspond to murine PKCbetaII ATP binding domain with neo or hisD cassette .
+The targeting constructs for CARMA1 were designed for neo and hisD cassettes to replace the genomic fragment of chicken CARMA1 exons 2-7 .
+The targeting constructs for TAK1 were designed for neo and hisD cassettes to replace the genomic fragment corresponding to murine TAK1 ATP binding domain .
+These targeting vectors were sequentially transfected into DT40 cells , resulting in generation of PKCbetaII - , CARMA1 - , or TAK1 deficient DT40 cells , as described previously ( ) .
+Immunoprecipitation and Western blot analysis .
+For immunoprecipitation , cells were solubilized in NP-40 lysis buffer supplemented with protease and phosphatase inhibitors as described previously ( ) and precleared lysates were incubated with proper Abs and protein G-sepharose ( GE Healthcare ) .
+For Western blot analysis , immunoprecipitates or cleared-cell lysates were resolved on SDS-PAGE , transferred to polyvinyldifluoride ( PVDF ) membrane ( Bio-Rad Laboratories ) , and incubation with secondary horseradish peroxidase labeled ( GE Healthcare ) or alkaline phosphatase labeled ( Santa Cruz Biotechnology , Inc. ) Abs .
+The blots were washed and visualized with the SuperSignal West Dura Extended Duration Substrate ( Pierce Chemical Co. ) or BCIP and NBT Color Development system ( Promega ) .
+Electrophoretic mobility shift assay ( EMSA )
+DNA binding activity of NF-kappaB was analyzed by EMSA as described previously ( ) .
+In brief , the nuclear extracts of DT40 cells ( 2 x 10 6 ) treated with 10 mug and ml M4 were purified , incubated with a specific probe for the NF-kappaB DNA binding site ( 5 ' - CAACGGCAGGGGAATTCCCCTCTCCTT-3 ' ) , electrophoresed , and visualized by autoradiography .
+In vitro kinase assay .
+For IKK and TAK1 kinase assays , 2 x 10 7 DT40 cells stimulated with 10 mug and ml M4 were lysed in 1 % NP-40 lysis buffer .
+Precleared lysates were immunoprecipitated by 1 mug anti-IKKgamma mAb or 1 mug anti-Flag mAb , followed by incubating with 40 mul of protein G-sepharose .
+The beads were washed three times with lysis buffer and two times with kinase buffer ( 25 mM Tris , pH 7.5 , 5 mM beta-glycerolphosphate , 2 mM DTT , 0.1 mM Na 3 VO 4 , 10 mM MgCl 2 ) .
+Immunoprecipitates were resuspended in kinase buffer containing 100 muM ATP .
+GST-IkappaBalpha ( NH 2 -terminal of mouse IkappaBalpha ; amino acids 1-72 ) or GST-IKKbeta ( activation loop of human IKKbeta ; DLGYAKELDQGSLCTSFVGTLQYLAPELLEQQ or its mutant ; DLGYAKELDQGALCTAFVGTLQYLAPELLEQQ ) fusion protein ( 0.2 mug each ) was added as a substrate for IKK or TAK1 , respectively .
+After 30 min incubation at 30degreesC , the reaction was terminated by addition of SDS sample buffer followed by boiling for 5 min .
+The samples were separated by SDS-PAGE gel , transferred to PVDF membrane , and detected by anti-phospho-IkappaBalpha mAb or anti-phospho-IKKalpha and beta respectively .
+For JNK kinase assay , JNK kinase assay kit ( Cell Signaling Technology Inc. ) was used according to the manufacturer 's instructions .
+Flow cytometric analysis
+Cell surface expression of BCR on various mutant DT40 cells was analyzed by FACSCalibur ( Becton Dickinson ) using anti-chicken IgM Ab ( Bethyl ) conjugated with allophycocyanin ( Dojindo ) .
+Online supplemental material .
+Fig .
+S1 A shows protein expression in DT40 wild-type , TAK1 - , PKCbeta - , and CARMA1 deficient DT40 B cells analyzed by Western blot .
+Fig .
+S1 ( B and C ) depicts cell surface expression of BCR on various mutant DT40 cells .
+Online supplemental material is available at http://www.jem.org/cgi/content/full/jem.20051591/DC1 .

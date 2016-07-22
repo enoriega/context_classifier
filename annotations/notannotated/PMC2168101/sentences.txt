@@ -1,0 +1,115 @@
+A Novel Regulatory Mechanism of Map Kinases Activation and Nuclear Translocation Mediated by Pka and the Ptp-Sl Tyrosine Phosphatase
+Protein tyrosine phosphatase PTP-SL retains mitogen activated protein ( MAP ) kinases in the cytoplasm in an inactive form by association through a kinase interaction motif ( KIM ) and tyrosine dephosphorylation .
+The related tyrosine phosphatases PTP-SL and STEP were phosphorylated by the cAMP dependent protein kinase A ( PKA ) .
+The PKA phosphorylation site on PTP-SL was identified as the Ser 231 residue , located within the KIM .
+Upon phosphorylation of Ser 231 , PTP-SL binding and tyrosine dephosphorylation of the MAP kinases extracellular signal regulated kinase ( ERK ) 1 and 2 and p38alpha were impaired .
+Furthermore , treatment of COS-7 cells with PKA activators , or overexpression of the Calpha catalytic subunit of PKA , inhibited the cytoplasmic retention of ERK2 and p38alpha by wild-type PTP-SL , but not by a PTP-SL S231A mutant .
+These findings support the existence of a novel mechanism by which PKA may regulate the activation and translocation to the nucleus of MAP kinases .
+The mammalian mitogen activated protein ( MAP ) kinase pathways are signaling cascades differentially activated by growth factors , mitogens , hormones , as well as by stress and inflammation , which contribute to the control of cell growth , differentiation , and survival .
+Each pathway behaves as a multimolecular complex of receptors and regulatory and adapter proteins , which are functionally assembled around a modular core of three kinases .
+A major mechanism of internal regulation and signal amplification of these cascades is the sequential phosphorylation and activation of the kinases within each three-kinase module , leading to the activation in the cytoplasm of the effector kinases extracellular signal regulated kinase ( ERK ) 1 and 2 , c-Jun NH 2 -terminal kinase ( JNK ) , or p38 , and their translocation to the nucleus , where phosphorylation of transcription factors takes place .
+In addition , the crosstalk between distinct MAP kinases cascades as well as with protein kinases from other pathways , such as protein kinase A or C ( PKA or PKC , respectively ) , cooperates in the integration of the signals delivered through the MAP kinases .
+The participation of the cAMP dependent protein kinase , PKA , in the differential modulation of MAP kinase pathways has been documented .
+For instance , in T lymphocytes , PKA mediates the inhibition of the JNK but not of the ERK1 and 2 pathway ( ) , whereas in Rat1 fibroblasts , adipocytes , and muscle cells , PKA inhibits ERK1 and 2 by interfering with the activation of Raf-1 by Ras .
+Conversely , PKA cooperates in the sustained activation of ERK1 and 2 in pheochromocytoma PC12 cells , in a process that involves the activation of the Rap1 and B-Raf pathway .
+The protein tyrosine phosphatases PTP-SL , STEP , and HePTP have emerged as major regulators of MAP kinase functions on the basis of their association with ERK1 and 2 and p38 through a 16-amino acid kinase interaction motif ( KIM ) , located in their cytosolic noncatalytic regions .
+PTP-SL is encoded by a single gene , although different transcripts have been described that generate distinct transmembrane and nontransmembrane isoforms , which are excluded from the nucleus and whose expression is developmentally regulated in the brain .
+Binding of ERK1 and 2 to the KIM of PTP-SL blocks the nuclear translocation of these MAP kinases , and favors their dephosphorylation and inactivation by the phosphatase in the cytoplasm ( ) .
+Essential residues within the KIM of PTP-SL for the recognition of ERK1 and 2 include those within a PKA consensus phosphorylation sequence , raising the possibility that PKA could regulate the association of PTP-SL with the MAP kinases by KIM phosphorylation .
+In this report , we have investigated the involvement of PKA in the regulation of the association of PTP-SL with ERK1 and 2 and p38alpha .
+We have found that phosphorylation of the KIM of PTP-SL by PKA is a major regulatory mechanism of the activities of these MAP kinases and their translocation to the nucleus .
+Materials and Methods
+Plasmids , Antibodies , and Reagents
+PTP-SL , STEP , and ERK2 cDNA constructs have been previously described .
+pCalphaEV ( cPKAalpha , mouse sequence ; ) was provided by G.S. McKnight ( University of Washington , Seattle , WA ) .
+pECE-HA-p38MAPK ( p38alpha , mouse sequence ; ) was provided by J. Pouyssegur ( Centre de Biochimie-CNRS , Nice , France ) .
+pRK5-GST-PTP-SL mammalian expression vectors were made by PCR with a primer containing a Kozak sequence followed by a start codon and the S. Japanicum glutathione-S-transferase ( GST ) sequence .
+Antibodies and reagents were used as described .
+Rabbit polyclonal anti-p38alpha ( C-20 ) was purchased from Santa Cruz Biotechnology Inc. .
+Dibutyryl-cAMP and okadaic acid ( Boehringer Mannheim ) were used at final concentrations of 2 mM and 1 muM , respectively .
+Forskolin ( ICN Pharmaceuticals Inc. ) was used at a final concentration of 40 muM , in the continuous presence of 1 mM IBMX ( Sigma Chemical Co. ) .
+The PKA inhibitor H89 ( Biomol ) was used at a final concentration of 25 muM .
+When used , IBMX and H89 were added to the cells 30 min before stimulation .
+The bovine PKA catalytic subunit ( cPKA ) was purchased from Promega Corp. .
+In Vitro Kinase and Phosphatase Assays
+For PKA in vitro kinase assays , GST fusion proteins ( 1 mug ) were incubated at room temperature during 1 h with 0.5 U and mul of cPKA in the presence of 2 muCi of gamma - [ 32 P ] ATP , 10 muM ATP , and 8 mM MgCl 2 ( 20 mul final volume ) .
+The reactions were stopped by adding SDS sample buffer and boiling , followed by SDS-PAGE and autoradiography .
+For in vitro association assays ( see A ) , GST fusion proteins were phosphorylated with cPKA as above , in the presence of 200 muM cold ATP , and then mixed with cell lysates and precipitated with glutathione-Sepharose , followed by immunoblotting .
+In vitro phosphatase assays were performed in 25 mM Hepes , pH 7.3 , 5 mM EDTA , and 10 mM DTT ( 40 mul final volume ) , at 37degreesC , during the indicated times , as described in .
+Cell Culture , Transfections , Precipitation with GST Fusion Proteins , Immunoprecipitation , and Immunoblotting
+Rat fibroblast Rat-1 , human embryonic kidney 293 , and Simian COS-7 cell lines , were grown in DME containing high glucose supplemented with 5 % ( for COS-7 cells ) or 10 % heat inactivated FCS .
+Cells were transfected using the DEAE-dextran method ( COS-7 cells ) or the calcium phosphate precipitation method ( 293 cells ) , and were harvested after 48-72 h of culture .
+In cells transfected with pCalphaEV , the expression of cPKAalpha was induced by incubation during the last 24 h of culture in the presence of 100 muM ZnSO 4 .
+For 32 P labeling , transfected COS-7 cells were cultured for 4 h with phosphate-free DME 2 % FCS in the presence of [ 32 P ] inorganic phosphate ( 100 muCi and ml ) , and then cells were treated with dibutyryl-cAMP or forskolin plus IBMX during 1 h , or with okadaic acid during 30 min .
+HA-ERK2 or HA-p38alpha from transfected 293 cells were activated by cell treatment with EGF ( 5 min , 50 ng and ml ) or sorbitol ( 30 min , 0.5 M ) , respectively .
+Cell lysis , precipitation with GST-fusion proteins , immunoprecipitation , and immunoblotting were done as described ( ) .
+Immunofluorescence
+COS-7 cells were processed for immunofluorescence as described ( ) .
+In brief , after transfection , cells were rinsed with IPBS buffer ( 1.5 mM KH 2 PO 4 , 4.3 mM Na 2 HPO 4 , 137 mM NaCl , 2.7 mM KCl , 0.7 mM CaCl 2 , and 0.5 mM MgCl 2 , pH 7.4 ) , and then fixed with methanol .
+Samples were incubated in blocking solution ( IPBS 3 % BSA ) , followed by incubation at 37degreesC for 90 min with the mixture of the anti-HA and anti-PTP-SL primary antibodies .
+After washing with IPBS , cells were incubated for 1 h at room temperature with a mixture of the anti-rabbit fluorescein isothiocyanate- and the anti-mouse tetramethylrhodamine B isothiocyanate conjugated secondary antibodies , followed by washing with IPBS and mounting .
+Results
+PKA Phosphorylates PTP-SL and STEP
+PTP-SL and STEP tyrosine phosphatases contain a conserved KIM in their cytosolic noncatalytic regions that mediates association with MAP kinases ( ) .
+Since a consensus phosphorylation sequence for PKA occurs within the KIM ( Arg 228 Arg 229 Gly 230 Ser 231 ; amino acid numbering is according to PTP-SL ; ) , the phosphorylation of these two phosphatases by PKA was tested .
+GST-PTP-SL or -STEP fusion proteins , were incubated in vitro with cPKA in the presence of gamma - [ 32 P ] ATP , followed by SDS-PAGE and autoradiography .
+As shown , a strong phosphorylation of the PTP-SL and STEP fusion proteins was detected ( A , lanes 2-4 ) , whereas no phosphorylation took place with GST alone or a GST fusion protein containing a nonrelated PTP ( A , lanes 1 and 5 ) , indicating that PTP-SL and STEP are substrates of PKA .
+Substitution by alanine of the Ser 231 residue ( S231A mutant ) , abolished the phosphorylation of PTP-SL by cPKA ( A , lanes 8 and 10 ) , demonstrating that this residue is the target of the kinase .
+Next , the in vivo phosphorylation of PTP-SL upon PKA activation conditions was investigated .
+Phosphorus 32 labeling was carried out on COS-7 cells transfected with plasmids encoding transmembrane ( PTP-SL 1-549 ) or nontransmembrane ( PTP-SL 147-549 ) PTP-SL isoforms , followed by treatment with PKA activators and immunoprecipitation with anti-PTP-SL antibody .
+Incubation in the presence of the cAMP analogous dibutyryl-cAMP or the adenylate cyclase activator forskolin increased the phosphorylation of wild-type PTP-SL isoforms ( B , lanes 3 , 4 , and 8 ) , but not of the S231A mutants ( B , lanes 6 and 10 ) .
+Interestingly , the basal levels of phosphorylation were greatly diminished in the S231A mutants ( B , lanes 5 and 9 ) compared with the wild-type PTP-SL ( B , lanes 2 and 7 ) , indicating that PKA phosphorylates this residue under the normal cell growth conditions of COS-7 cells .
+Furthermore , cell treatment with the PP2A serine and threonine phosphatase inhibitor , okadaic acid ( 1 muM ) , induced the hyperphosphorylation of wild-type PTP-SL , but not of the S231A mutant ( B , lanes 11-14 ) .
+These results demonstrate that the Ser 231 residue of PTP-SL is a substrate of PKA , and suggest a role for PP2A in the in vivo dephosphorylation of such a residue .
+Phosphorylation of the KIM of PTP-SL by PKA Inhibits the Association and the Tyrosine Dephosphorylation of ERK1 and 2 and p38alpha
+Next , the effect of PTP-SL phosphorylation by PKA on its association with MAP kinases was analyzed .
+GST-PTP-SL fusion proteins were phosphorylated in vitro by cPKA as above , in the presence of cold ATP , and the fusion proteins were incubated with Rat-1 cell lysates and precipitated with glutathione-Sepharose .
+Samples were resolved by SDS-PAGE and the presence of the MAP kinases ERK1 and 2 or p38alpha was detected by immunoblot using specific antibodies .
+Remarkably , the phosphorylation of GST-PTP-SL wild type by cPKA abrogated its association with both ERK1 and 2 and p38alpha ( A , lane 2 ) ; however , no changes were observed with the GST-PTP-SL S231A mutant upon incubation with cPKA ( A , lanes 4 and 5 ) .
+To test the effect of PTP-SL phosphorylation by PKA on the association with the MAP kinases in vivo , GST-PTP-SL fusion proteins were overexpressed in 293 cells and precipitated in one-step with glutathione-Sepharose , followed by immunoblot analysis , as above .
+Treatment of cells with dibutyryl-cAMP or forskolin resulted in the lack of coprecipitation of ERK1 and 2 or HA-p38alpha with PTP-SL ( B , lanes 2 and 3 ) ; however , in dibutyryl-cAMP-treated cells that were preincubated with the PKA inhibitor H89 , normal levels of association with the kinases were detected ( B , lane 4 ) .
+Finally , the coprecipitation of ERK1 and 2 and p38alpha with the PTP-SL S231E mutant , which mimics a phosphorylated Ser 231 residue , was also tested .
+As shown , these MAP kinases did not associate in 293 cells with overexpressed GST-PTP-SL S231E ( C , lane 5 ) , whereas association was efficiently detected with the GST-PTP-SL wild type , the S231A mutant or the C480S catalytically inactive mutant ( C , lanes 3 , 4 , and 6 ) .
+The functional consequences of the phosphorylation of the Ser 231 residue of PTP-SL , on the dephosphorylation of ERK1 and 2 and p38alpha by the phosphatase , were analyzed using the S231E PTP SL mutant .
+GST-PTP-SL wild type or S231E fusion proteins were mixed with pellets containing activated HA-ERK2 or HA-p38alpha , and phosphatase assays were carried out , followed by SDS-PAGE and immunoblot with the anti-phosphotyrosine 4G10 mAb .
+As shown , the tyrosine dephosphorylation of HA-ERK2 and HA-p38alpha by GST-PTP-SL S231E mutant was impaired compared with that shown by GST-PTP-SL wild type , whereas equal activities of both fusion proteins were measured towards the nonspecific p-NPP substrate ( D and data not shown ) .
+These findings demonstrate that phosphorylation of the Ser 231 residue of PTP-SL by PKA inhibits its association with ERK1 and 2 and p38alpha , and the subsequent tyrosine dephosphorylation of these MAP kinases .
+Nuclear Translocation of ERK2 and p38alpha , in the Presence of PTP-SL , Is Favored upon Activation of PKA
+PTP-SL retains ERK2 in the cytoplasm in a KIM dependent manner ( ) .
+To study the effect of phosphorylation of PTP-SL by PKA on its ability to retain MAP kinases outside of the nucleus , immunofluorescence analysis was performed on COS-7 cells cotransfected with HA-ERK2 or HA-p38alpha , and PTP-SL .
+Overexpression of HA-ERK2 or HA-p38alpha alone resulted in their accumulation in the nucleus ( see A ; and data not shown ) ; however , in the presence of PTP-SL , the nuclear accumulation of these kinases was abolished , colocalizing with the phosphatase outside of the nucleus ( and A ) .
+Interestingly , neither the PTP activity nor the PTP domain of PTP-SL itself was required to retain HA-ERK2 outside of the nucleus , as observed by coexpression with PTP-SL catalytically inactive mutants ( C480S or R486M ) or with truncated PTP-SL forms lacking the PTP domain ( PTP-SL 1-288 ) ( A ) .
+On the other hand , upon coexpression with the PTP-SL S231E mutant , the cytoplasmic retention of HA-ERK2 or HA-p38alpha was significantly reduced , as compared with wild-type PTP-SL .
+Also , when cells coexpressing wild-type PTP-SL and HA-ERK2 or HA-p38alpha were treated with dibutyryl-cAMP , the nuclear localization of both MAP kinases was partially restored , and such an effect was prevented by cell preincubation with H89 .
+However , no effect was observed upon cell treatment with agents that activate other kinase pathways , such as EGF or PMA ( data not shown ) .
+Furthermore , cotransfection with an inducible expression vector coding the Calpha catalytic subunit of PKA ( cPKAalpha ) , also favored the nuclear localization of these MAP kinases in the presence of PTP-SL .
+Remarkably , the effect of PKA activation on the colocalization of HA-ERK2 and HA-p38alpha with wild-type PTP-SL was not observed with the PTP-SL S231A mutant , demonstrating that phosphorylation of the Ser 231 residue of PTP-SL by PKA inhibits the in vivo association of PTP-SL with HA-ERK2 and HA-p38alpha , and favors the nuclear translocation of these kinases .
+Discussion
+PKA modulates the activity of MAP kinases in a cell type- and stimulus specific manner by interfering with upstream events from signaling cascades activated through distinct Ras like GTPases , including Ras , Rap1 , and RalGDS .
+In addition , PKA activity favors the nuclear translocation of ERK1 and 2 in PC12 and hippocampal neurons , as well as in presynaptic sensory neurons from Aplysia .
+Our results , showing a crosstalk between the PKA and ERK1 and 2 and p38alpha kinases through the tyrosine phosphatase PTP-SL , support the existence of a novel mechanism by which PKA can regulate the activity of the MAP kinases and their translocation to the nucleus ( ) .
+Such a mechanism would involve the existence , in certain cell types , of a pool of inactive MAP kinases outside of the nucleus , which would be complexed with PTP-SL or other KIM containing PTPs , including STEP and HePTP ( see below ) .
+The dissociation equilibrium of the complex would depend upon the cell type- and the stimulus specific conditions of PKA activity , and the lack of association would be favored by the PKA mediated phosphorylation of the KIM regulatory residue on the PTP .
+Thus , upon conditions of PKA activation , both the tyrosine phosphorylation and the entry into the nucleus of the MAP kinases would be prevalent .
+It should be noted that the expression of PTP-SL and related isoforms is restricted to specialized areas of the brain , including the Purkinje cells in the postnatal cerebellum , suggesting the possibility of a differential regulation of MAP kinase functions by PTP-SL and PKA during brain development .
+The mutational analysis of the KIM of PTP-SL has revealed that the residues involved in the PKA phosphorylation consensus sequence are also crucial for the docking of this phosphatase with ERK1 and 2 ( ) .
+Such residues are conserved between the related tyrosine phosphatases PTP-SL , STEP , and HePTP , which have been found to associate with MAP kinases and regulate their activation .
+In this regard , while writing this manuscript , have reported the negative role of PKA phosphorylation of the KIM of HePTP in the physical and functional association of HePTP with MAP kinases .
+Also , a tyrosine phosphatase from Drosophila , PTP-ER , has been found that inactivates MAP kinase , and that contains three KIMs with consensus phosphorylation sites for PKA ( ) .
+Finally , we have found that the retention of ERK2 outside of the nucleus is efficiently achieved by PTP-SL catalytically inactive mutants , as well as by truncated PTP-SL molecules lacking the PTP domain , demonstrating that this domain is dispensable in a such process .
+Thus , PKA mediated KIM phosphorylations could have diverse regulatory effects on MAP kinase functions , depending on the functional properties of the affected KIM containing molecule .
+The involvement of distinct kinases in the in vivo phosphorylation of PTP-SL is likely to exist , which ultimately could control the biological functions of this PTP .
+Thus , the Thr 253 residue of PTP-SL is phosphorylated in vivo by ERK1 and 2 upon EGF cell treatment in a manner dependent of docking through the KIM ( ) .
+Furthermore , the Thr 253 residue is also a putative PKC phosphorylation site , and PTP-SL is phosphorylated in vitro by this kinase ( our unpublished observations ) .
+In this context , the binding of MAP kinases to the KIM of PTP-SL could mask the PKA phosphorylation motif by steric hindrance , hampering the phosphorylation of PTP-SL by PKA ; conversely , phosphorylation of the KIM by PKA difficult the association of MAP kinases and the subsequent phosphorylation of the Thr 253 residue .
+The results presented here indicate a major regulatory role on the PTP-SL functions for the PKA mediated phosphorylation of the Ser 231 residue ; accordingly , the basal phosphorylation of PTP-SL in COS-7 cells is found predominantly in such residue ( B ) .
+On the other hand , the functional significance of the phosphorylation of the Thr 253 residue by ERK1 and 2 remains elusive .
+The possibility exists that phosphorylation of Thr 253 regulates the dissociation of PTP-SL from MAP kinases , as it has been suggested for HePTP ( ) .
+However , the cytoplasmic retention of ERK2 by PTP-SL was efficiently achieved upon conditions of EGF induced phosphorylation of Thr 253 ( our unpublished observations ) .
+In addition , phosphorylation of this residue could account for the regulated binding of PTP-SL to other unidentified molecules .
+The participation of specific serine and threonine phosphatases in the in vivo dephosphorylation of the Ser 231 and Thr 253 residues of PTP-SL is also expected .
+In this regard , we have found that cell treatment with okadaic acid induces hyperphosphorylation of the Ser 231 residue , suggesting an active role for PP2A in the in vivo dephosphorylation of this key residue ( ) .
+Also , PP2A and PP2C have been shown to interfere with the activation of the MAP kinase pathways by affecting the phosphorylation of MAP kinases or upstream phosphorylation events .
+Thus , a complex network of kinases and phosphatases could be envisioned within the MAP kinase pathways , which integrate the different signals to generate specific cell responses .
+The importance of the assembly of the molecular components that regulate the activation of the MAP kinases has been recently outlined .
+The results reported here point to PKA as a major regulator of the physical and functional association between the ERK1 and 2 and p38alpha kinases and their inactivating tyrosine phosphatases .

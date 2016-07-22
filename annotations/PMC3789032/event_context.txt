@@ -1,0 +1,9 @@
+Event	101	Tissue	3161	101
+Event	97	Tissue	3161	99
+Event	31	Cell	3335	31
+Event	22	Cell	3161	17
+Event	81	Tissue	2983	81
+Event	17	Cell	3161	17
+Event	91	Cell	3161	91
+Event	21	Cell	3161	17
+Event	18	Cell	3161	17

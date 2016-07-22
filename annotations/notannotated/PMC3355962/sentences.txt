@@ -1,0 +1,446 @@
+Molecular Basis of Signaling Specificity of Insulin and IGF Receptors : Neglected Corners and Recent Advances
+Insulin and insulin like growth factor ( IGF ) receptors utilize common phosphoinositide 3-kinase and Akt and Ras and extracellular signal regulated kinase signaling pathways to mediate a broad spectrum of " metabolic " and " mitogenic " responses .
+Specificity of insulin and IGF action in vivo must in part reflect expression of receptors and responsive pathways in different tissues but it is widely assumed that it is also determined by the ligand binding and signaling mechanisms of the receptors .
+This review focuses on receptor proximal events in insulin and IGF signaling and examines their contribution to specificity of downstream responses .
+Insulin and IGF receptors may differ subtly in the efficiency with which they recruit their major substrates ( IRS-1 and IRS-2 and Shc ) and this could influence effectiveness of signaling to " metabolic " and " mitogenic " responses .
+Other substrates ( Grb2 associated binder , downstream of kinases , SH2Bs , Crk ) , scaffolds ( RACK1 , beta-arrestins , cytohesins ) , and pathways ( non receptor tyrosine kinases , phosphoinositide kinases , reactive oxygen species ) have been less widely studied .
+Some of these components appear to be specifically involved in " metabolic " or " mitogenic " signaling but it has not been shown that this reflects receptor-preferential interaction .
+Very few receptor specific interactions have been characterized , and their roles in signaling are unclear .
+Signaling specificity might also be imparted by differences in intracellular trafficking or feedback regulation of receptors , but few studies have directly addressed this possibility .
+Although published data are not wholly conclusive , no evidence has yet emerged for signaling mechanisms that are specifically engaged by insulin receptors but not IGF receptors or vice versa , and there is only limited evidence for differential activation of signaling mechanisms that are common to both receptors .
+Cellular context , rather than intrinsic receptor activity , therefore appears to be the major determinant of whether responses to insulin and IGFs are perceived as " metabolic " or " mitogenic . "
+Introduction
+Insulin and the insulin like growth factors together control many aspects of metabolism and growth in a wide range of mammalian tissues and play distinct physiological roles in vivo ( Nakae et al. , ) .
+Insulin is most conspicuously involved in regulating the metabolism of glucose and lipids in muscle , fat , and liver , ensuring the coordinated uptake and storage of the products of digestion .
+However , studies in receptor knockout mouse models reveal key additional roles of insulin in other tissues including brain , pancreatic beta-cells , and vascular endothelium ( Kitamura et al. , ; Kulkarni , ; Plum et al. , ) .
+Insulin like growth factors ( IGFs ) promote both cell growth and differentiation , IGF-2 being most important at the fetal stage and IGF-1 more significant postnatally , at least in rodents .
+Again , knockout mouse models have been important in defining the role of the IGF receptor and its ligands in vivo ( Butler and LeRoith , ) .
+Additionally , signaling by both insulin and IGFs is implicated in the regulation of lifespan ( Narasimhan et al. , ) and in neoplasia ( Pollak , ) .
+Two canonical signaling pathways , usually referred to as the phosphoinositide 3-kinase ( PI3K ) / Akt and Ras and extracellular signal regulated kinase ( ERK ) pathways , are central in mediating actions of both the insulin receptor ( IR ) and type 1 insulin like growth factor receptor ( IGFR ; Adams et al. , ; Cohen , ; Taniguchi et al. , ; Laviola et al. , ; Figure ) .
+Both these pathways act via phosphorylation to regulate multiple targets , with diverse physiological roles .
+Identification of potential Akt substrates has arguably outstripped their validation as important physiological targets ( Manning and Cantley , ) while an extensive mTOR regulated phosphoproteome , itself dependent in part on activation of Akt , has only recently been revealed ( Hsu et al. , ; Yu et al. , ) .
+ERK is also a promiscuous kinase that can phosphorylate more than 100 different substrates ( Ramos , ) .
+It is well established that the PI3K and Akt pathway mediates acute metabolic effects of insulin , and that it also regulates gene expression at the level of both transcription and translation , affecting growth and proliferation as well as metabolism .
+The Ras and ERK pathway has little or no acute metabolic role but mediates effects on proliferation and differentiation through regulation of gene transcription ( Avruch , ; Meloche and Pouyssegur , ) .
+Figure 1
+Canonical pathways of IR and IGFR signaling .
+Receptor proximal components of the PI3K and Akt and Ras and ERK pathways , and relevant receptor interaction domains are shown , with protein protein interaction domains ( JM , juxtamembrane ; TK , tyrosine kinase ; CT , carboxyl-terminal ; PTB , phosphotyrosine binding ; PH , pleckstrin homology , SH2 , Src homology-2 ; KRLB , kinase regulatory loop binding ) .
+It is widely assumed that signaling specificity underlying the largely " metabolic " effects of insulin and " growth promoting " effects of IGFs is conferred by features intrinsic to the ligands or receptors themselves ( Dupont and LeRoith , ; Siddle et al. , ; Kim and Accili , ) .
+However , stimulus and response specificity in vivo must in part reflect the levels of expression of receptors and downstream targets in different tissues ( Dumont et al. , , ) and it should therefore be unsurprising that differentiated tissues respond differently to insulin and IGFs .
+Moreover , it has repeatedly been shown that IR can mediate mitogenic responses and IGFR metabolic responses , both in vitro and in vivo ( Dozio et al. , ; Di Cola et al. , ; Ish-Shalom et al. , ; Louvi et al. , ; Morrione et al. , ; Baudry et al. , ) and that , when studied in the same cell background , the activities of IR and IGFR are very similar ( Weiland et al. , ; Lund et al. , ; Wilson et al. , ; Boucher et al. , ) .
+Nevertheless differences in responses to insulin and IGFs have been reported in a variety of cell types ( Miele et al. , ; Dupont et al. , ; Da Silva Xavier et al. , ; Entingh-Pearsall and Kahn , ; Palsgaard et al. , ) , and the issue of whether and by what mechanisms the IR and IGFR exhibit intrinsic signaling specificity remains contentious .
+The issue is further complicated by the existence of heterodimeric insulin and IGF hybrid receptors alongside classical IR and IGFR homodimers ( reviewed in Belfiore et al. , ) .
+Hybrid receptors bind insulin but not IGFs with high affinity ( Soos et al. , ) , and their assembly appears to reflect the mole fractions of the individual receptors ( Bailyes et al. , ) .
+Thus in cells expressing both IR and IGFR the less abundant receptor is found predominantly in hybrids rather than homodimers .
+Specificity of insulin and IGF signaling might in principle be conferred by the kinetics and mechanism of ligand binding , affecting the duration and precise nature of receptor activation and the cellular itinerary of activated receptors ( reviewed in Jensen and De Meyts , ) .
+It was first shown in relation to NGF and EGF signaling that the kinetics of activation of the ERK pathway can determine distinct biological responses ( Traverse et al. , , ; Tombes et al. , ) .
+There is little published information directly comparing the kinetics of activation of signaling pathways by IR and IGFR , let alone relating this to the kinetics of ligand binding .
+However , studies of different IR ligands indicate that binding kinetics can indeed differentially influence " metabolic " and " mitogenic " potencies .
+The hyper-mitogenic activity of some insulin analogs correlates with slow dissociation kinetics and persistent receptor occupancy , increased phosphorylation of Shc and activation of the Ras and ERK pathway ( Hansen et al. , ) .
+Conversely , an insulin-mimetic peptide S597 that is not internalized has weak mitogenic activity relative to its metabolic potency ( Jensen et al. , ) .
+It has been reported that IGF-2 is a more potent mitogen than insulin when acting on the IR-A isoform , correlating with more persistent ERK activation ( Frasca et al. , ; Sacco et al. , ) .
+In this case it seems unlikely that relative mitogenic potency of the two ligands is related to persistence of receptor occupancy as IR-A binds IGF-2 with lower affinity than insulin .
+It has also been reported that IR-A isoform is more " mitogenic " than the B isoform ( Belfiore et al. , ; Giudice et al. , ) .
+As the isoforms are identical in their intracellular domains , differences in activity can only be due to the small difference in structure of the extracellular domains ( absence or presence of the sequence encoded by IR exon 11 , at the extreme C-terminus of the alpha-subunit ) .
+Insulin dissociates slightly faster from IR-A than from IR-B , at least at neutral pH ( Yamaguchi et al. , ) , and it is therefore unlikely that differences in the persistence of occupancy could account for differential mitogenic signaling by the receptor isoforms .
+However IR-A apparently internalizes more rapidly than IR-B ( Vogt et al. , ; Yamaguchi et al. , ; Giudice et al. , ) and this could lead to more effective phosphorylation of Shc .
+Alternatively , differences in biological responses mediated by IR-A and IR-B in pancreatic beta-cells have been attributed to localization of isoforms in separate lipid raft microdomains within which distinct signaling complexes may be assembled ( Uhles et al. , ; Leibiger et al. , ) .
+However , there is no evidence for differential localization of IR isoforms expressed in HeLa cells ( Giudice et al. , ) , and the capacity of both IR-A and IR-B to form hybrids with IGFR , as well as with each other , argues against substantial segregation of localization in most cell types .
+It should be noted that IGFR lacks the equivalent of IR exon 11 .
+In relation to the wider family of receptor tyrosine kinases ( RTKs ) , signaling specificity is most obviously imparted by structural differences in the intracellular portions of the receptors , and differential interactions with proteins that initiate or modulate signaling pathways ( Scott and Pawson , ; Lemmon and Schlessinger , ) .
+The intracellular portions of IR and IGFR are highly similar in structure and amino acid sequence ( Ullrich et al. , , ) and the major sites of tyrosine autophosphorylation and the motifs that bind phosphotyrosine binding ( PTB ) and SH2 domains of substrates and adaptors are highly conserved .
+Nevertheless , sequence differences , particularly in the carboxyl-terminal ( CT ) region , could well lead to differential interactions with signaling proteins that contribute to specificity of IR compared to IGFR .
+In support of this , differential signaling by the IR and IGFR intracellular domains fused to a common extracellular domain has been reported ( Lammers et al. , ; Urso et al. , ; Mulligan et al. , ) .
+The remainder of this review will focus particularly on receptor proximal events initiating well documented canonical signaling pathways together with some of the additional players whose role remains to be firmly established , highlighting aspects that may contribute to specificity of insulin and IGF action .
+Receptors
+The mammalian IR and type 1 IGF receptor ( IGFR ) are closely related members of the class II RTK family ( van der Geer et al. , ) .
+A third member of the family , the orphan IR related receptor ( IRR ) , has a very restricted tissue distribution and its function remains obscure .
+The distinctive feature of class II RTKs is that the proreceptor polypeptides are post-translationally processed by proteolytic cleavage and disulfide linkage to generate a functionally dimeric structure that is fundamental to the mechanisms of both ligand binding , involving cross linking of alpha-subunits , and tyrosine kinase ( TK ) activation , involving intra-molecular trans-phosphorylation of beta-subunits ( De Meyts , ) .
+Extracellular domains
+The structures of the whole extracellular portion of the IR and a fragment of the IGFR have been determined , revealing close similarity overall but differences in detail that may contribute to specificity of ligand binding ( Lawrence et al. , ) .
+Attempts to co-crystallize ligand-receptor complexes have so far proved unsuccessful , but the mode of ligand binding , involving contacts in trans with both half-receptors , has been deduced from other lines of evidence ( De Meyts and Whittaker , ; De Meyts , ) .
+Despite the dimeric structure of the receptors , only a single molecule of ligand can make all the contacts required to bind with high affinity , and ligand binding demonstrates negative cooperativity fitting a harmonic oscillator model ( Kiselyov et al. , ) .
+Interactions of insulin with IR have been studied in greatest detail , but the mode of binding of IGFs to IGFR appears to be very similar ( Alvino et al. , ) .
+One difference of detail is that interaction of IGF-1 ( but not IGF-2 ) with IGFR involves an additional binding epitope in the IGFR cysteine rich domain ( contacting IGF-1 C domain ) that has no counterpart in insulin-IR interaction ( Sorensen et al. , ; Keyhanfar et al. , ) .
+It is not known what conformational changes are induced by ligand binding to trigger activation of the intracellular tyrosine kinase .
+Intracellular domains
+The intracellular TK domain of ~ 250 amino acids is flanked by a short juxtamembrane ( JM ) domain of ~ 45 amino acids and a longer CT domain of ~ 100 amino acids .
+Structures have been determined for the TK domains of IR and IGFR in basal and activated states , revealing that trans autophosphorylation of three conserved tyrosine residues within the regulatory loop of the TK domain ( IR 1158/62/63 , IGFR 1131/35/36 ) causes substantial conformational change , allowing access of intracellular substrates to the active site ( Hubbard , ; Favelyukis et al. , ) while also creating binding sites for regulatory adaptors of the Grb10 and 14 and APS and SH2-B families ( Hu et al. , ; Depetris et al. , ; Hu and Hubbard , ) .
+The primary sequences of IR and IGFR TK domains are 84 % identical , and the tertiary structures are highly homologous , providing few insights into mechanisms that might confer signaling specificity .
+In particular the activation loop and nucleotide binding cleft are highly conserved , although there are limited sequence differences in the nearby interlobe linker which might allow a degree of specificity in interactions with protein substrates as well as giving encouragement to efforts to design selective inhibitors ( Favelyukis et al. , ) .
+Apart from the conserved cluster of tyrosines in the activation loop , there are several other tyrosines within the TK domain of which four are conserved ( IR 1011 , 1087 , 1122 , 1210 ) while others are unique ( IR 1227 , IGFR 1162 and 1221 ) .
+These residues are not known to be phosphorylated , and no specific function has been ascribed to them .
+The short JM domains of ~ 50 amino acids are ~ 65 % identical between IR and IGFR , and include a conserved NPEY motif that is important for substrate recruitment .
+Autophosphorylation of this motif ( IR Y972 , IGFR Y950 ) creates a binding site for the PTB domains of insulin receptor substrates ( IRSs ) and Shc .
+The binding specificities and mechanisms of IRS and Shc PTB domains differ in detail and , as discussed below , the JM sequences of IR and IGFR appear optimal for binding IRS-1 but sub-optimal for binding Shc .
+Surprisingly , at least in terms of binding of short phosphopeptides by the respective recombinant PTB domains , Shc has a higher affinity than IRS-1 ( Wolf et al. , ; Farooq et al. , ) .
+However , the pleckstrin homology ( PH ) domain of IRSs also plays a key role in membrane recruitment and contributes to the effectiveness of these proteins as IR and IGFR substrates ( Voliovitch et al. , ; Yenush et al. , ) , and in vivo IRSs may be recruited more effectively than Shc .
+Apart from the NPEpY beta-turn motif itself , the residues identified as most important for binding IRS-1 ( Leu at -8 ; Eck et al. , ) and Shc ( Asn at -3 , hydrophobic at -7 and -8 ; Trub et al. , ) are fully conserved between IR and IGFR .
+However , there are non conserved residues at -9 , -4 , and +1 relative to the phosphotyrosine , so it is possible that IR and IGFR may differ subtly in the efficiency with which they recruit their substrates .
+Differential engagement of IRSs and Shc by IR and IGFR could potentially affect the duration or subcellular targeting of signals .
+The JM NPEY motif is also important for IR internalization , although its phosphorylation does not appear to be necessary for this process .
+An adjacent GPLY965 motif that contributes independently and additively with NPEY972 to insulin stimulated IR endocytosis ( Backer et al. , ) is not conserved in IGFR ( GVLY943 ) .
+Two dileucine like motifs that have been implicated in anchoring , endocytosis , and intracellular targeting of IR ( LL998 and 9 and II1018 and 9 ) are also not conserved in IGFR ( MS971 and 2 and VV991 and 2 ; Haft et al. , ; Shackleton et al. , ) .
+Thus there is a potential structural basis for differences in the endocytosis and intracellular itineraries of IR and IGFR , although the molecular mechanisms of IR and IGFR endocytosis and trafficking remain poorly understood .
+The IR and IGFR CT domains of ~ 100 amino acids are even more divergent in sequence and only ~ 48 % identical .
+It has been proposed that the phosphorylatable tyrosines IR1328 and IR1334 play a role in delineating " metabolic " versus " mitogenic " signaling , although in some cells IR appears to function normally without this portion of the CT domain ( reviewed in Tavare and Siddle , ) .
+It is notable however that IR1328 is not conserved in IGFR ( IGFR F1310 ) , while IGFR possesses twin tyrosines ( 1250 and 51 ) that are not conserved in IR ( IR FH1277 and 8 ) .
+These IGFR twin tyrosines have not been shown to be phosphorylated upon receptor activation , but have been implicated in IGFR function by mutational analysis ( Miura et al. , ; Blakesley et al. , , ; Esposito et al. , ; Miura and Baserga , ; Leahy et al. , ; Kiely et al. , ) .
+Other distinctive features of the CT domains are a 12-residue serine rich insertion in IGFR ( including the cluster S1280/1/2 / 3 ) with no counterpart in IR and the terminal sequences ( RSNPS in IR , QSSTC in IGFR ) .
+There is thus clear potential for differential binding of adaptor or regulatory proteins ( particularly those with SH2 or PDZ domains ) that might contribute to differential signaling by IR and IGFR .
+Substrates of the Receptor Tyrosine Kinases
+Insulin receptor substrates and Shc proteins are recognized as the major substrates of the IR and IGFR TKs , through their roles in the canonical PI3K and Akt and Ras and ERK signaling pathways ( Taniguchi et al. , ) .
+However , several other substrates have been characterized .
+Some of these , such as Grb2 associated binder ( Gabs ) and downstream of kinases ( DOKs ) , seem to act as tissue- or pathway specific alternatives to IRSs .
+Others , such as members of the SH2B and Cbl families , engage distinct signaling pathways and may also have roles in receptor regulation .
+Phosphoproteomic analysis of insulin stimulated cells has revealed further tyrosine phosphorylated proteins , including potential signal transducers , but the significance of these substrates and the role of tyrosine phosphorylation in their regulation remains to be determined ( Schmelzle et al. , ; Kruger et al. , ) .
+No comparable analysis of IGF responsive substrates has been published .
+Although there is overwhelming evidence supporting the essential role of RTK activity in almost all insulin and IGF actions , kinase independent signaling by both IR and IGFR has been reported ( Povsic et al. , ; Zhang and Riedel , ) .
+Most recently it has been shown that the unliganded IR and IGFR have a permissive effect on apoptosis that appears to be independent of PI3K and Akt and Ras and ERK signaling , in contrast to anti-apoptotic signaling by the ligand activated receptors ( Boucher et al. , ) .
+The mechanism of kinase independent signaling to apoptosis is unclear but it is apparently shared by both IR and IGFR .
+Insulin receptor substrates
+Insulin receptor substrates are relatively specific substrates of IR and IGFR TKs , reflecting their recruitment by dual interaction of PTB and PH domains with the receptor JM domain and membrane phospholipids and respectively ( Wolf et al. , ; White , ) .
+IRS-1 and IRS-2 are widely expressed in mammalian tissues while IRS-3 and IRS-4 are more restricted in distribution .
+IRS-1 and IRS-2 each contain up to 20 potential tyrosine phosphorylation sites , although not all of these have been formally shown to be phosphorylated following insulin and IGF stimulation .
+For both these IRSs the importance of specific phosphotyrosine containing motifs in binding the SH2 domains of PI3K regulatory subunits and Grb2 is well established , and motifs binding the tyrosine specific phosphatase SHP2 and the TK Fyn have also been identified ( White , ) .
+In the case of PI3K and SHP2 , binding affinity and enzyme activation are enhanced by the simultaneous interaction of two SH2 domains with bisphosphorylated motifs ( Hof et al. , ; Ottinger et al. , ) .
+The role of SHP2 is particularly complex and poorly understood .
+It has been implicated in IRS-1 dephosphorylation ( Myers et al. , ) though this may be site specific as in vascular smooth muscle cells SHP2 selectively antagonized IRS/Grb2/Sos signaling to ERK ( Hayashi et al. , ) .
+However there is evidence that in some circumstances SHP2 can act as a positive effector for insulin signaling via Ras and ERK ( Xiao et al. , ; Yamauchi et al. , ; Fukunaga et al. , ) and for IGF-1 signaling via PI3K and Akt ( Wu et al. , ; Kwon et al. , ) , and that it is required for developmental , migratory , and proliferative responses ( Saxton et al. , ; Kwon et al. , ; Forbes et al. , ) .
+The substrates and mechanisms underlying such paradoxical potentiation of insulin and IGF signaling by SHP2 are unknown .
+Moreover SHP2 also binds to autophosphorylated IR and IGFR ( Rocchi et al. , ) and to the scaffold protein SHPS-1 ( Maile and Clemmons , ) , and it is unclear how its different interactions contribute to its biological effects .
+Application of proteomic techniques has further extended the spectrum of potential IRS interaction partners , although without reference to which sites actually become phosphorylated following insulin and IGF stimulation of intact cells ( Hanke and Mann , ) .
+The partial functional redundancy of IRS-1 and IRS-2 was confirmed by identification of a large number of common interactors , although several proteins involved in signaling and metabolism were found to interact differentially with sites in IRS-1 and IRS-2 , providing potential leads into their specific physiological roles .
+The data also suggested that modules other than SH2 and PTB domains may mediate binding to IRS phosphotyrosines .
+IRS-1 and IRS-2 exhibit distinct patterns of subcellular compartmentalization and trafficking ( Inoue et al. , ; Clark et al. , ) .
+The molecular interactions that determine subcellular localization of IRSs before or after their tyrosine phosphorylation are unclear , but may involve binding of the respective PH domains to specific phosphoinositides ( Razzini et al. , ) .
+Whatever the mechanism , localization of IRSs clearly has the potential to influence both their tyrosine phosphorylation and engagement with signaling proteins .
+Although at a cellular level IRS-1 and IRS-2 mediate very similar signaling pathways that are implicated in both metabolic and growth responses , their physiological roles appear to be distinct .
+At the organismal level this functional specificity presumably reflects differences in tissue distribution as well as molecular interactions .
+The phenotypes of mice with specific gene deletions indicate that IRS-1 is more important than IRS-2 in regulating organismal growth while IRS-2 is more important in glucose homeostasis .
+However , this " metabolic " function of IRS-2 in part reflects a role in mediating growth promoting effects of IGF-1 in pancreatic beta cells ( White , ) .
+At a cellular level , in liver and skeletal muscle IRS-1 appears to be most closely linked to insulin 's regulation of glucose homeostasis and IRS-2 to regulation of lipid metabolism and and or ERK activation ( Huang et al. , ; Taniguchi et al. , ; Bouzakri et al. , ; Thirone et al. , ) , although the mechanisms underlying this specificity are not well understood .
+As discussed above , the JM sequences of IR and IGFR are well conserved but not identical , leaving open the possibility that they might bind the PTB domains of IRSs with slightly different affinity and thus phosphorylate them with slightly different efficiency .
+IRS-2 additionally interacts with the TK domain of IR , though less well with IGFR , via a kinase regulatory loop binding ( KRLB ) region ( Van Obberghen et al. , ; Wu et al. , ) .
+Structural studies suggest this interaction limits rather than facilitates phosphorylation of IRS-2 by IR and the lack of this constraint with IGFR could contribute to differential phosphorylation by the two receptors ( Wu et al. , ) .
+In principle , differences in the mechanism or efficiency of IRS recruitment could affect both the overall extent and the pattern of their phosphorylation by IR compared to IGFR .
+There is evidence that IRS-1 is phosphorylated more effectively by IR than by IGFR ( Urso et al. , ) and , conversely , that IRS-2 is phosphorylated more effectively by IGFR than by IR , consistent with the expected influence of the KRLB domain ( Rakatzi et al. , ) .
+Further , it has been reported that IR induced phosphorylation couples IRS-1 preferentially to PI3K while IGFR induced phosphorylation couples preferentially to Grb2 ( Amoui et al. , ) and such differential effects might contribute to greater mitogenicity of IGFR compared to IR .
+Interestingly , induction of VEGF mRNA in NIH3T3 fibroblasts was reported to be mediated by a PI3K dependent pathway for IR but a MAPK dependent pathway for IGFR ( Miele et al. , ) .
+A recent microarray based study concluded that IR and IGFR act as identical portals to the regulation of gene expression in brown adipocytes , and that quantitative differences between the effects of insulin and IGF-1 reflected the expression levels of the respective receptors ( Boucher et al. , ) .
+However , this study did not investigate the signaling pathways mediating gene expression changes , nor did it completely rule out the possibility that differences between IR and IGFR might exist in regulating genes with unusual kinetics or limited magnitude of expression changes .
+Shc proteins
+Shc proteins are well established alternative substrates of the IR and IGFR .
+The ubiquitous ShcA is expressed as three isoforms , p66 , p52 , and p46 , which are products of alternative splicing and alternative translation initiation ( Luzi et al. , ) .
+Whereas phosphorylation of p52 and 46 leads to activation of the Ras and ERK cascade , p66 is inhibitory to ERK activation by mechanisms that are unclear ( Okada et al. , ; Natalicchio et al. , ) .
+Moreover , the additional N-terminal collagen-homology domain of p66Shc confers unique properties leading to an isoform specific role in the regulation of reactive oxygen species ( ROS ) levels and aging ( Trinei et al. , ) .
+All three ShcA isoforms are tyrosine phosphorylated by multiple RTKs on two distinct sites ( YY239 and 240 and Y317 in p52Shc ) .
+Although both sites are able to recruit the Grb2 and Sos adaptor and GEF complex there is evidence that they are functionally distinct ( Gotoh et al. , ; Thomas and Bradshaw , ; Patrussi et al. , ) .
+At least in fibroblasts , it appears that Y317 of p52Shc is the more important site for activation of ERK by insulin ( Sasaoka and Kobayashi , ) .
+The sequence flanking the JM NPXY motif of IR and IGFR is sub-optimal for binding the PTB domain of Shc because it lacks a hydrophobic residue at -5 relative to phosphotyrosine ( Trub et al. , ) and in consequence , Shc is more efficiently phosphorylated by other RTKs .
+Furthermore phosphorylation of Shc ( but not IRSs ) is dependent on receptor internalization ( Ceresa et al. , ; Chow et al. , ) .
+Nevertheless , there is potential for competition between IRSs and Shc in binding via their PTB domains to the same site on IR ( or IGFR ) , which could influence signaling to " metabolic " versus " mitogenic " responses ( Sasaoka et al. , ) .
+It would be expected that " mitogenic " responses would be favored in cells expressing high levels of Shc compared to IRSs , regardless of whether stimulation is by insulin or IGFs .
+Moreover feedback or cross-talk mechanisms that inhibit association of IRSs with IR and IGFR ( and thus inhibit " metabolic " signaling via the PI3K and Akt pathway , see below ) might be expected to facilitate " mitogenic " signaling by Shc dependent pathways .
+Insulin receptor and IGFR generally induce only modest and transient activation of the Ras and ERK pathway , compared for instance to receptors that signal via the fibroblast growth factor receptor substrates ( FRSs ) which have multiple binding sites for Grb2 and SHP2 ( Gotoh , ) .
+Because both Shc and IRSs can recruit Grb2 and Sos ( Skolnik et al. , ) the question arises as to which substrate plays the more important role in the mitogenic actions of IR and IGFR .
+In some cells it appears that Ras and ERK activation is mediated largely by Shc ( Yamauchi and Pessin , ; Pruett et al. , ; Kim et al. , ; Boney et al. , ; Sasaoka and Kobayashi , ) while in others IRS dependent pathways appear to predominate ( Takahashi et al. , ; Liu et al. , ) .
+This divergence may reflect factors that are variable between cell types , including expression levels of IRS and Shc , and additional components .
+It is unclear whether IRS bound and Shc bound Grb2 and Sos complexes would be equally effective activators of Ras , given potential differences in their subcellular localization and in the co-recruitment of additional signaling components .
+Ras is anchored in the plasma membrane by virtue of its prenylation , and its activation by Sos depends primarily on a proximity effect , although relief of a Sos autoinhibitory domain may also play a role ( Aronheim et al. , ; Boykevisch et al. , ; Gureasko et al. , ) .
+Phosphorylation of IRSs but not Shc leads to recruitment of PI3K and SHP2 as well as Grb2 .
+Interactions between PI3K and Ras reciprocally modulate both components ( Shepherd et al. , ) , while SHP2 can apparently function as an additional adaptor facilitating Grb2 and Sos recruitment ( Dance et al. , ) .
+Gabs and DOKs
+Grb2 associated binders lack a PTB domain but otherwise resemble IRSs in having an N-terminal PH domain and a C-terminal portion containing multiple potential sites of tyrosine phosphorylation ( Nishida and Hirano , ) .
+Unlike IRSs , Gabs have been implicated in signaling via many different receptors , with roles in growth and differentiation of multiple tissues and particularly in immune cell signaling ( Nishida and Hirano , ; Sarmay et al. , ) .
+However , Gab-1 was first characterized as a substrate for IR and EGFR TKs ( Holgado-Madruga et al. , ) .
+The major sites of insulin stimulated Gab-1 phosphorylation have been identified , among which YXXM motifs with capacity to recruit and activate class Ia PI3K are prominent ( Rocchi et al. , ; Lehr et al. , ) .
+Gabs may play a role in insulin and IGF signaling in cells that do not express high levels of IRSs .
+For instance , signaling via Gab-1 has been implicated in control of Egr-1 expression by insulin in fibroblasts ( Harada et al. , ) .
+There is no published information comparing the capacity of IR and IGFR to phosphorylate Gabs .
+Downstream of kinases have N-terminal PH and PTB domains similar to IRSs but with distinct specificity of interaction .
+Like Gabs , DOKs are substrates for a variety of receptor and non receptor TKs , and they appear to be of particular importance in lymphocytes and myeloid cells ( Mashima et al. , ) .
+DOKs are rapidly phosphorylated in response to stimulation by insulin and IGF-1 , although this may be mediated in part by Src family kinases ( Noguchi et al. , ; Wick et al. , ; Cai et al. , ) .
+DOK4 and DOK5 ( also known as IRS-5 and IRS-6 ) are reportedly poor substrates for the IR ( Versteyhe et al. , ) .
+Phosphorylated DOKs recruit a variety of SH2 domain containing proteins but not including PI3K .
+DOK1 and DOK2 are negative regulators of the Ras and ERK pathway , probably dependent on their recruitment of RasGAP ( Mashima et al. , ) .
+DOK4 also associates with RasGAP and with Crk , Src , and Fyn but lacks sites for PI3K , SHP2 , or Grb2 recruitment .
+DOK5 does not associate with any of these proteins ( Cai et al. , ) .
+Diverse roles have been proposed for DOK1 ( p62dok ) in insulin signaling ( Noguchi et al. , ; Wick et al. , ; Hosooka et al. , ) , but it remains unclear whether this or other DOKs play a significant role in insulin and IGF actions in vivo .
+APS and SH2B and Cbl
+The APS and SH2-B ( PSM ) family of proteins are a group of IR substrates ( Kotani et al. , ; Ahmed et al. , ; Moodie et al. , ) that were originally characterized as components of TrkA signaling pathways and regulators of JAK family TKs ( Qian and Ginty , ; O'Brien et al. , ; Maures et al. , ) .
+These proteins have an N-terminal proline rich region and PH domain and C-terminal SH2 domain and tyrosine phosphorylation site .
+The proteins are recruited to the autophosphorylated IR by interaction of their SH2 domains with phosphotyrosines in the kinase regulatory loop , and it would expected ( though this does not appear to have been formally demonstrated ) that they would be similarly recruited by activated IGFR .
+Where both APS ( SHB2 ) and SH2-B ( SH2B1 ) are expressed it would be expected that they would compete for binding to IR and IGFR .
+Although the SH2 domains of APS and SH2B1 share ~ 80 % sequence identity , SH2B1 preferentially binds JAK2 whereas APS has higher affinity for IR , this relative specificity being attributed to the fact that SH2B1 is predominantly monomeric while APS is dimeric ( Hu et al. , ; Hu and Hubbard , ) .
+However , other studies suggested that SH2B1 can both homodimerize and heterodimerize with APS and that activation of JAK2 is promoted within ( SH2B ) 2 - ( JAK2 ) 2 heterotetramers , while kinase activation is blocked at higher relative concentrations of SH2B ( Nishi et al. , ) .
+APS acts as a scaffold , recruiting other proteins to the IR signaling complex , most notably c-Cbl , a multifunctional adaptor with ubiquitin ligase activity , that has been implicated in both signal transduction and degradation of various receptors in different cell types ( Schmidt and Dikic , ; Thien and Langdon , ) .
+Cbl is not a direct substrate of the IR but it binds via its SH2 domain to a phosphotyrosine motif in the C-terminal region of APS , facilitating its own tyrosine phosphorylation ( Ahmed et al. , ; Liu et al. , ; Ahn et al. , ; Hu and Hubbard , ) .
+Cbl associated protein ( CAP ) localizes the complex to lipid rafts by interaction with flotillin , while phospho-Cbl recruits the adaptor Crk which in turn recruits the guanine nucleotide exchange factor C3G , leading to activation of TC10 , a member of the Rho family of small GTPases ( Chang et al. , ) .
+Several effector mechanisms have been proposed to link TC10 to GLUT4 translocation , including actin remodeling ( Kanzaki et al. , ) , targeting of atypical PKC ( Kanzaki et al. , ) , assembly of exocyst complexes ( Inoue et al. , ) , and generation of PtdIns3P ( Falasca et al. , ; Lodhi et al. , ) .
+It has been proposed that this constitutes a key accessory pathway , in addition to the PI3K and Akt pathway , in mediating insulin action on glucose transport .
+However , other data have called into question the importance of the CAP and Cbl pathway in the regulation of glucose transport .
+For instance the pathway does not appear to operate in skeletal muscle ( JeBailey et al. , ) and knockdown of key components of the pathway in adipocytes does not disrupt insulin stimulated glucose transport ( Zhou et al. , ) .
+Indeed , knockout of APS or c-Cbl in mice if anything improves peripheral insulin sensitivity ( Minami et al. , ; Molero et al. , ; Li et al. , ) and protects against diet induced insulin resistance ( Molero et al. , ) .
+The effects of c-Cbl on insulin sensitivity revealed in mouse knockout models appear to be related to its ubiquitin ligase activity ( Molero et al. , ) and it has been shown in cellular overexpression systems that APS mediated recruitment of c-Cbl promotes ubiquitination of IR , enhancing its internalization without inducing degradation ( Ahmed et al. , ; Kishi et al. , ) .
+At the present time the precise role of the APS/CAP/Cbl pathway in IR function remains uncertain .
+Given its mode of interaction with IR , it would be anticipated that APS would also be an IGFR substrate although this has not been reported .
+APS may additionally influence IR function by other mechanisms .
+Over-expression of APS has been reported to enhance IR autophosphorylation and ERK activation ( Ahmed and Pillay , ; Onnockx et al. , ) .
+On the other hand , a splice variant of APS has been identified that lacks the SH2 domain and , by heterodimerization with either APS or SH2B2 , is able to act as a negative regulator of insulin signaling ( Li et al. , ) .
+Other APS binding partners have been reported , including Enigma , a PDZ and LIM domain containing protein with potential involvement in insulin induced actin cytoskeleton remodeling and GLUT4 translocation ( Barres et al. , , ) , Asb6 , an adipocyte specific ankyrin and SOCS box protein that recruits elongins B and C and potentially facilitates degradation ( Wilcox et al. , ) and the inositol polyphosphate 5 ' - phosphatase SHIP2 ( Onnockx et al. , ) .
+APS is a substrate for phosphorylation by Akt ( Katsanakis and Pillay , ) , while expression of APS mRNA is down regulated by a ERK dependent pathway ( Rea et al. , ) suggesting that cross-talk from other insulin signaling pathways may regulate APS function .
+SH2B1 and PSM binds to many RTKs including both IR and IGFR , and to JAK associated with cytokine and leptin receptors ( Riedel et al. , ; Maures et al. , ) .
+Several isoforms of SH2B1 have been identified , differing in C-terminal sequence and possibly in biological activity ( Maures et al. , ; Zhang et al. , ) .
+Deletion of SH2B1 in mice results in severe obesity and both leptin and insulin resistance , supporting a role of SH2B1 as a positive regulator of JAK mediated leptin signaling and possibly also of insulin signaling ( Maures et al. , ) .
+In humans , genetic variation at the Sh2b1 locus has been associated with obesity ( Thorleifsson et al. , ; Willer et al. , ; Bochukova et al. , ; Walters et al. , ) .
+Neuronal SH2B1 is primarily responsible for maintenance of energy balance , body weight , and glucose homeostasis ( Ren et al. , ; Morris et al. , ) , although disruption of the SH2B1 gene in peripheral tissues impairs IR activation and signaling in liver , muscle , and fat and causes age dependent glucose intolerance and insulin resistance ( Duan et al. , ; Morris et al. , ) .
+When overexpressed in cultured cells SH2B1 , like APS , potentiates IR autophosphorylation , TK activity , and signaling ( Zhang et al. , ; Morris et al. , ) .
+Binding of SH2B1 stimulates IR catalytic activity in vitro and the SH2 domain is both necessary and sufficient to promote IR activation ( Morris et al. , ) , although N-terminal regions are additionally required for the maintenance of normal body weight and glucose metabolism ( Morris et al. , ) .
+Promotion of insulin signaling by SH2B1 may also in part reflect enhancement of IRS-1 phosphorylation by JAK2 ( Li et al. , ) .
+It is unclear whether phosphorylation of SH2B1 and and or the recruitment of binding partners is necessary for its function in vivo .
+There have been few studies of the impact of SH2B1 on IGFR function , but there is no reason to suppose its actions would be specific to IR .
+Crk
+Yet another category of substrates is represented by the Crk family of adaptor proteins .
+Crk family adaptors are widely expressed and mediate formation of signaling complexes via their SH2 and SH3 domains in response to a variety of extracellular stimuli ( Feller , ) .
+CrkII was reported to interact with and be phosphorylated by both IGFR and IR , albeit with some differences in detail ( Beitner-Johnson and LeRoith , ; Koval et al. , ; Klammt et al. , ) , but most functional studies have focused on a potential role in IGFR signaling .
+In NIH3T3 fibroblasts , over-expression of CrkII enhanced IGF-1-induced PI3K activation , actin filament reorganization and DNA synthesis but diminished ERK activation and cell cycle progression ( Beitner-Johnson et al. , ; Koval et al. , ; Goh et al. , ) .
+Crk has also been implicated in IGF-1 signaling pathways regulating early stages of adipocyte differentiation ( Jin et al. , ) .
+The mechanisms underlying these effects are unclear , although as discussed above Crk has been invoked as a component of the CAP and Cbl pathway , recruiting the guanine nucleotide exchange factor C3G ( Chang et al. , ) .
+RNAi mediated knockdown studies suggested CrkII is not required for insulin signaling to GLUT4 ( Zhou et al. , ) , but this approach has not been applied to test involvement of Crk in other aspects of insulin and IGF action .
+Non Substrate Receptor Associations : Adaptors and Scaffolds
+Various different classes of proteins have been identified that bind to the IR and IGFR but do not act as substrates for tyrosine phosphorylation .
+In some cases interactions with receptors are direct and have been characterized in considerable molecular detail while in others the mode of interaction with receptors remains obscure .
+These adaptor and scaffold proteins may modulate RTK activity or the interaction of the receptors with substrates , or may themselves recruit additional proteins that can function in downstream signaling .
+Grb7/10/14
+The Grb7/10/14 adaptors were first identified as IR and IGFR binding partners in yeast two-hybrid studies .
+They are similar in overall structure to APS and SH2-B , having an N-terminal PH domain and C-terminal SH2 domain , but represent a distinct protein family .
+Grb7/10/14 exhibit overlapping but distinct patterns of tissue distribution and functional effects ( reviewed in Holt and Siddle , ) .
+They interact with multiple RTKs , but Grb10 and 14 have particular affinity for autophosphorylated IR and IGFR , binding via their SH2 domain to the autophosphorylation sites of the kinase regulatory loop and also via their BPS ( between PH and SH2 ) domain as a pseudosubstrate inhibitor in the kinase active site ( Stein et al. , ; Depetris et al. , , ; Goenaga et al. , ) .
+When assayed in vitro , Grbs inhibit IR TK activity with potency order Grb14 > Grb10 > Grb7 , and this inhibition is also exhibited by isolated BPS but not SH2 domains ( Bereziat et al. , ) .
+There are indications that Grb14 exhibits greater potency for inhibiting IR compared to IGFR ( Bereziat et al. , ) .
+Where Grbs and APS and SH2-B are co-expressed they would be expected to compete for binding to the IR and IGFR kinase regulatory loop , with potential then either to inhibit or activate TK activity depending on the dominant binding partner .
+Unlike APS and SH2-B , Grb10 and 14 are not substrates for the IR and IGFR TKs , although they are phosphorylated by other tyrosine and serine kinases ( Langlais et al. , ; Holt and Siddle , ; Sturk and Dumont , ) .
+In particular , phosphorylation of Grb10 by mTORC1 potentiates its binding to IR and IGFR ( and possibly to other receptors ) and thus results in feedback inhibition of the PI3K and ERK pathways ( Hsu et al. , ; Yu et al. , ) .
+A large body of evidence indicates that binding of Grb10 and 14 by IR and IGFR inhibits TK activity and IRS phosphorylation in intact cells ( reviewed in Holt and Siddle , ) .
+However , other studies suggest Grb10 has the potential to play a positive role in both metabolic and mitogenic signaling depending perhaps on expression levels and cellular context ( Lim et al. , ; Riedel , ) .
+Binding of Grb10 and 14 prolongs receptor activation even while inhibiting phosphorylation of substrates , by site specific protection of phosphotyrosines in the TK regulatory loop ( Nouaille et al. , ; Smith et al. , ) .
+Moreover both Grb10 and Grb14 recruit additional protein binding partners including Ras , PDK1 , NEDD4 , ZIP and PKCzeta , and tankyrase ( Holt and Siddle , ) , some of which could contribute positively to signaling .
+Recruitment of PDK1 by Grb10 has been reported to facilitate Akt activation ( King and Newton , ) but may also be required for maximum inhibition of insulin signaling ( Goenaga et al. , ) .
+Grb14 may have additional actions downstream of IR to influence gene expression ( Carre et al. , ) .
+Gene deletion studies in mice confirm that Grb10 and Grb14 have overlapping but not identical actions , predominantly as inhibitors of insulin signaling , probably reflecting their different tissue distribution as well as their distinct binding partners ( Holt et al. , ) .
+Grb10- and Grb14 deficient mice exhibit improved whole-body glucose homeostasis , reflecting enhanced insulin signaling ( Cooney et al. , ; Smith et al. , ) .
+However in both rodents and humans expression of Grb10 is imprinted in a tissue specific manner ( Blagitko et al. , ) and this , together with its potential to interact with multiple RTKs , complicates interpretation of knockout phenotypes .
+Expression of Grb10 in peripheral tissues during embryogenesis is predominantly from the maternal allele , but within the brain Grb10 is paternally expressed .
+Ablation of the maternal allele results in fetal and placental overgrowth ( Charalambous et al. , , ; Smith et al. , ) while ablation of the paternal allele results in behavioral changes ( Garfield et al. , ) .
+The contribution of altered regulation of IR and IGFR to these phenotypes is unclear , but the data are compatible with a modest inhibitory influence of endogenous Grb10 on both IR and IGFR function .
+Although Grb14 appears primarily to influence IR function , it is unclear whether this simply depends on co-expression or additionally reflects specificity of interaction
+RACK1 and integrins
+Studies in several laboratories have implicated the scaffold protein RACK1 in interactions between IGFR and integrin signaling pathways that regulate cell adhesion and motility .
+Promotion of a metastatic and invasive phenotype is one of the mechanisms by which IGFR signaling contributes to cancer progression .
+RACK1 ( receptor for activated C-kinases ) is a WD repeat family member and homolog of G protein beta-subunits ( Ron et al. , ; McCahill et al. , ) .
+It was identified as an IGFR interacting protein in yeast two-hybrid screens ( Hermanto et al. , ; Kiely et al. , ) .
+Surprisingly , although the interaction of RACK1 with receptors is ligand dependent , it does not require receptor TK activity or autophosphorylation ( Kiely et al. , ; Zhang et al. , ) .
+The interaction is mediated by the WD1-4 domains of RACK1 and S1248 of IGFR ( or corresponding S1275 of IR ) together with Y1250 and Y1251 of IGFR ( which have no counterpart in IR ; Kiely et al. , ; Zhang et al. , ) .
+Thus , although RACK1 does interact with IR , there is clear potential for preferential interaction with IGFR .
+The mechanism of involvement of RACK1 in regulation of focal adhesions is not yet clear .
+It was reported that RACK1 interacted with Src , SHP2 , and p85 in mouse embryonic fibroblasts , and that over-expression of RACK1 inhibited IGF-1-induced Akt phosphorylation and reduced its anti-apoptotic effect but enhanced cellular proliferation ( Kiely et al. , ) .
+The combination of adhesion and IGF-1 signals led to formation of a complex containing IGFR , beta 1 integrin , and RACK1 , together with phosphorylated Shc , Src , SHP2 , and IRSs .
+It was proposed that the IGFR dependent scaffolding function of RACK1 regulates Akt activity and promotes turnover of focal adhesions ( Kiely et al. , ) .
+RACK1 was constitutively associated with the phosphatase PP2A in serum starved cells , and IGF-1-induced ligation of beta 1 integrin was accompanied by dissociation of PP2A ( Kiely et al. , ) .
+The WD7 domain of RACK1 is essential for binding both PP2A and beta 1 integrin and thus for IGF-1-mediated cell migration and proliferation ( Kiely et al. , ) .
+Recent data suggest that RACK1 interacts directly with FAK , and this association is regulated by IGF stimulated , c-Abl-mediated tyrosine phosphorylation to facilitate adhesion signaling ( Kiely et al. , ) .
+It is well known that FAK is tyrosine phosphorylated in response to clustering of integrins , and that IGF-1 and insulin induce dephosphorylation .
+In separate studies RACK1 was reported to interact with IGFR , PKC , and beta 1 integrin in response to IGF-1 and phorbol ester stimulation in NIH3T3 fibroblasts .
+Over-expression of RACK1 reduced IGF-1-induced cell growth and enhanced cell spreading , accompanied by increased tyrosine phosphorylation of FAK but no effect on IRS and PI3K and Shc and MAP kinase pathways ( Hermanto et al. , ) .
+Subsequently , RACK1 mediated STAT3 activation was implicated in insulin and IGF-1-induced anchorage independent growth and protection from apoptosis ( Zhang et al. , ) .
+It has been reported that splice variants of beta 1 integrins selectively modulate IGFR signaling in response to IGF stimulation , forming different complexes with IGFR and IRS-1 ( beta 1A ) or Gab-1 and SHP2 ( beta 1C ; Goel et al. , ) .
+In prostate cancer cells , expression of beta 1A was required for IGFR mitogenic and transforming activities , and colocalized with IGFR in focal contacts .
+However in the presence of beta 1C IGFR did not localize to focal contacts and remained diffuse on the cell surface ( Goel et al. , ) .
+To add further complexity , the composition of RACK1 scaffolding complexes and effects on IGF-1 signaling appear to be different in transformed and untransformed cells .
+In a cardiomyocyte cell line , IGF-1 promoted recruitment of Src and PKCalpha to RACK1 independently of association with IGFR , while still influencing cell survival , adhesion and migration ( O'Donovan et al. , ) .
+Interactions between IGFR and adhesion signaling pathways are not confined to beta 1 integrins .
+In CHO and smooth muscle cells alpha V beta 3 integrin modulates IGFR linked signaling and IGF stimulated cellular growth and migration responses , in association with integrin associated protein and the transmembrane glycoprotein SHPS-1 .
+Ligand occupancy influences recruitment of SHP2 to IGFR and thereby modulates the duration of IGFR phosphorylation ( Clemmons and Maile , ) .
+SHPS-1 is phosphorylated by IGFR and acts as scaffold for recruitment of alpha V beta 3 integrin associated SHP2 and Shc ( Clemmons and Maile , ; Clemmons et al. , ) .
+These interactions may modulate IGFR signaling in response to increased alpha V beta 3 integrin ligands in hyperglycemic stress .
+beta-Arrestins
+beta-Arrestins have primarily been studied in relation to signaling by GPCRs , in which context they act as scaffolds interacting with ERK , Akt , and PI3K ( Lefkowitz and Shenoy , ; DeWire et al. , ) and participate in reciprocal regulation of GPCRs and RTKs ( Hupfeld and Olefsky , ) .
+However , beta-arrestins may have a more direct role in IR and IGFR signaling .
+It has been reported that beta-arrestins promote clathrin mediated endocytosis of ligand occupied IGFR , enhancing activation of ERK and DNA synthesis ( Lin et al. , ) and , more controversially , that beta-arrestin1 can couple IGFR to activation of PI3K and ERK independently of TK activity ( Povsic et al. , ; Girnita et al. , ) .
+There is also evidence that beta-arrestin2 facilitates Akt activation by scaffolding Akt and Src to IR , and that deficiency of this signaling complex in mice contributes to development of insulin resistance ( Luan et al. , ) .
+There have been occasional reports that G proteins themselves may participate in IR and IGFR signaling , and that interaction of IR and IGFR with distinct G proteins may contribute to insulin and IGF signaling specificity .
+It was proposed that Gaq plays a role in IR signaling to GLUT4 , acting upstream of PI3K ( Imamura et al. , ) while Gi and beta-arrestin1 participate in IGFR mitogenic signaling , but not metabolic or mitogenic IR signaling ( Dalle et al. , ) .
+Cytohesins
+A role in insulin signaling has also been proposed for cytohesins , which otherwise act as guanine nucleotide exchange factors for ARF family GTPases ( involved in cytoskeletal organization and integrin activation and signaling ) .
+Cytohesins have a modular domain structure , including a PH domain and Sec7 GEF domain , with potential to act as molecular scaffolds ( Kolanus , ) .
+Cytohesins were implicated by genetic studies in insulin signaling in Drosophila , acting upstream of PI3K and required for regulation of Akt and FOXO ( Fuss et al. , ) .
+Cytohesin function was also shown to be required for FOXO dependent gene regulation in mammalian liver , and inhibition resulted in hepatic insulin resistance ( Hafner et al. , ) .
+It was proposed that cytohesins facilitate formation of the IR and IRS complex and thus to activation of downstream metabolic signaling cascades .
+Cytohesins are binding partners for the CNK family of scaffold proteins , which in turn have multiple protein interaction domains including PH and PDZ domains and contribute to Ras activation by Raf .
+Recent data identified the CNK1 and cytohesin interaction as critical for activation of the PI3K and Akt pathway downstream of IR and IGFR , with evidence that CNK1 acts as a positive regulator of insulin signaling by facilitating insulin induced membrane recruitment of cytohesin , thereby modulating Arf signaling to PtdIns 4-phosphate 5-kinases ( PIP5Ks ) and promoting local generation of the PI3K substrate PtdIns ( 4,5 ) P2 ( Lim et al. , ) .
+IR- and IGFR specific interactors
+For many growth factors , direct recruitment of SH2 domain containing proteins to autophosphorylated RTKs initiates signaling pathways .
+In the case of insulin and IGF signaling , this role is predominantly taken by phosphorylated IRSs and Shc , but activated IR and IGFR also directly recruit some of the same adaptors as well as other proteins that may participate in signaling or modulate receptor function .
+Among these are p85 and SHP2 which bind to the CT tail and RasGAP ( GTPase activating protein ) which binds to the JM region ( Staubs et al. , ; Rocchi et al. , ) .
+These interactions appear to be at phosphorylation sites that are conserved between IR and IGFR , rather than those that are receptor specific .
+Binding of p85 directly to IR and IGFR is probably of minor importance compared to recruitment by phosphorylated IRSs and although it may allow tyrosine phosphorylation of p85 and p110 this is of uncertain significance ( reviewed in Shepherd et al. , ) .
+Proteomic approaches have recently been used to characterize the spectrum of SH2 domains that bind to putative tyrosine phosphorylation sites on IR and IGFR , although these studies took no account of whether these sites are actually phosphorylated upon receptor activation nor of the relative affinities of interactions at different sites .
+Potential IGFR interactors included both substrates and non substrates , most of which could bind also to EGFR and FGFR ( PI3K , Src family kinases , PLCgamma , Grb7/10/14 , SH2-B , JAKs , STATs , Crk ) although interaction of Cbl appeared to be unique to IGFR ( Kaushansky et al. , ) .
+A separate study reported that the major difference between IGFR and IR was in their potential to recruit SHP2 ( Hanke and Mann , ) .
+It has also been reported that 14-3-3 interacts specifically with IGFR , via S1283 , but not with IR ( Furlanetto et al. , ) , and this may contribute to anti-apoptotic signaling ( Peruzzi et al. , ) and transformation pathways ( Spence et al. , ) .
+A PDZ protein IIP-1 / GIPC , identified as a binding partner for the C-terminal tail of IGFR but not IR ( Ligensa et al. , ) , was suggested to couple IGFR to G i ( Booth et al. , ) and more recently was implicated in ROS generation ( Choi et al. , ) .
+Thus there are a number of hints that receptor specific interactors may contribute to signaling specificity of IGFR compared to IR , but these have not been studied in sufficient depth to establish that they play an important role in vivo .
+Other Signaling Pathways
+Several other signaling mechanisms have been implicated in insulin and IGF action , including activation of non RTKs , redox regulation of phosphatases , and generation of alternative phosphoinositides .
+In most of these cases molecular details of the receptor interactions that initiate signaling are unclear , making it difficult to assess whether there is specificity for IR or IGFR .
+Non receptor tyrosine kinases
+JAKs and their transcription factor substrates STATs are most commonly associated with signaling by cytokine receptors ( O'Shea et al. , ) .
+However , several groups have reported phosphorylation and activation of JAK1 and and or JAK2 in response to IR and and or IGFR stimulation , albeit with inconsistencies in detail ( Giorgetti-Peraldi et al. , ; Gual et al. , ; Takahashi et al. , ; Zong et al. , ; Carvalheira et al. , ; Yadav et al. , ) .
+Recruitment of JAKs may be by interaction with phosphorylated IR and IGFR ( Gual et al. , ) , with Grb2 ( Giorgetti-Peraldi et al. , ) or with IRSs ( Velloso et al. , ) .
+Activation of JAKs by insulin and IGF was accompanied by phosphorylation of one or more STATs ( Velloso et al. , ; Takahashi et al. , ; Zong et al. , ; Carvalheira et al. , ; Yadav et al. , ) , but STAT5B was also reported to be phosphorylated as a direct substrate of IR and IGFR TKs independently of JAKs ( Chen et al. , ; Sawka-Verhelle et al. , ) .
+JAKs may also phosphorylate IRS-1 , on distinct sites from the IR and IGFR TKs ( Gual et al. , ; Li et al. , ) .
+Although there is potential for JAK and STAT pathways to augment insulin and IGF signaling in some cell types ( Himpe and Kooijman , ) there is little evidence that they are of widespread importance in mediating insulin and IGF action .
+However , SOCS proteins , which act as feedback inhibitors of JAK and STAT pathways , also bind to IR and IGFR and inhibit IRS phosphorylation and downstream signaling ( Howard and Flier , ; Lebrun and Van Obberghen , ; Himpe and Kooijman , ) and this may provide a mechanism of cross-talk between cytokine and insulin and IGF signaling pathways .
+Src family kinases ( Src , Fyn , and Yes ) are involved in signaling by and regulation of diverse RTKs ( Bromann et al. , ) .
+Studies in a variety of cell lines have shown that rapid activation of Src family kinases by both IGF-1 and insulin contributes significantly to phosphorylation of Shc and downstream mitogenic responses ( Boney et al. , , ; Shumay et al. , ; Sekharam et al. , ; Criswell et al. , ; Lieskovska et al. , ) .
+Activation of Src family kinases by RTKs may in some cases involve recruitment by interaction between SH2 domains and autophosphorylated receptors , but in others the mechanisms appear to be more complex ( Bromann et al. , ) .
+The mechanism of activation by insulin and IGF is unclear , although it is known that Fyn associates with phosphorylated IRS-1 ( Sun et al. , ) .
+It has also been suggested that SHP2 and SHPS-1 may play a role as scaffolds in recruitment and activation of Src by IGFR ( Lieskovska et al. , ) .
+Src family kinases augment signaling from RTKs in a number of ways , participating in pathways required for DNA synthesis , motility and survival ( Bromann et al. , ) .
+Both insulin and IGF-1 have been reported to activate c-Abl ( Frasca et al. , ; Srinivasan et al. , ; Genua et al. , ; Kiely et al. , ) , a non receptor cytoplasmic TK implicated in the regulation of cell growth , survival , and morphogenesis by growth factors and adhesion ( Sirvent et al. , ) .
+In HepG2 and MCF-7 cells , c-Abl was found to be specifically activated by insulin but not IGF-1 , while inhibition of c-Abl modulated effects of insulin but not IGF-1 , attenuating stimulation of the Akt and GSK3 cascade and glycogen synthesis while paradoxically enhancing its stimulation of ERK activation , proliferation , and migration ( Frasca et al. , ) .
+It appeared that effects of c-Abl were mediated in part by FAK ( Genua et al. , ) .
+In breast cancer cells , c-Abl was activated by IGF-1 and was required for IGF-1-stimulated cell cycle progression , mediated in part by phosphorylation of STAT3 ( Srinivasan et al. , ) .
+The mechanism of activation of c-Abl was not investigated in these studies , but in other cells c-Abl is activated downstream of Src family kinases ( Bromann et al. , ) .
+It is unclear whether involvement of c-Abl in insulin and IGF signaling is specific to the cell lines studied .
+Redox regulation : PTPs and PTEN
+The phosphatases that reverse the actions of protein and lipid kinases obviously play important roles in IR and IGFR signaling .
+PTP1B has been identified as a key phosphotyrosine phosphatase responsible for dephosphorylating IR and IGFR and IRSs ( Dube and Tremblay , ) although other phosphatases may also be active in this regard , including SHP2 ( Myers et al. , ) .
+The lipid phosphatases PTEN and SHIP2 both contribute to termination of phosphoinositide signaling , by dephosphorylating PtdIns ( 3,4,5 ) P3 at the 3 and 5 positions respectively ( Vinciguerra and Foti , ) .
+The question then arises whether the activity of these phosphatases is regulated in ways that could sensitize insulin and IGF signaling .
+Work in several laboratories has shown that activation of IR and IGFR ( and certain other RTKs ) promotes generation of reactive oxygen and nitrogen species which , by reversible oxidation of active-site cysteine residues , inhibit phosphatases including PTP1B and PTEN and thereby potentiate the effects of tyrosine phosphorylation and PI3K activation ( Droge , ; Goldstein et al. , ; Rhee et al. , ; Ross et al. , ; Vardatsikos et al. , ; Hsu and Meng , ) .
+Much of the data supporting this concept comes from manipulation of cultured cells , and even then the investigation of redox based regulation is technically challenging ( Janssen-Heininger et al. , ) .
+However there is evidence from mouse knockout models that ROS enhance insulin sensitivity in vivo ( Loh et al. , ) .
+The NAD ( P ) H oxidase homolog Nox4 has been identified as a likely source of insulin and IGF-stimulated H 2 O 2 generation ( Mahadev et al. , ; Meng et al. , ) but the mechanisms linking IR and IGFR signaling to Nox4 remain obscure .
+It has been reported that the PDZ domain protein GIPC is involved in mediating IGFR induced ROS generation , possibly by inhibiting receptor internalization ( Choi et al. , ) .
+However , GIPC was originally identified as a binding partner for the C-terminal tail of IGFR but not IR ( Ligensa et al. , ) and it is difficult to reconcile this specificity with involvement in ROS generation that appears to be similarly triggered by both receptors .
+Many questions regarding the mechanism and significance of ROS generation by IR and IGFR therefore remain to be answered .
+Other phosphoinositides
+Additional to the well established role of PtdIns ( 3,4,5 ) P3 generated by Class Ia PI3Ks , other phosphoinositides generated by class II and class III PI3Ks and PIKfyve may play roles in signaling ( Shisheva , ; Falasca and Maffucci , ) .
+It has been reported that class II PI3Ks , whose sole product in vivo is believed to be PtdIns 3-P , are required for insulin signaling to glucose transport ( Falasca et al. , ) and for regulation of gene expression in pancreatic beta-cells ( Leibiger et al. , ) .
+Activation of PI3K-C2alpha by insulin apparently involves its recruitment to the plasma membrane mediated by the small GTPase TC-10 ( a component of the CAP and Cbl pathway , discussed above ; Falasca et al. , ) .
+PIKfyve , binds to PtdIns 3-P via its fyve domain and synthesizes PtdIns ( 3,5 ) P2 and PtdIns 5-P .
+PIKfyve is phosphorylated and activated by Akt but its mechanism of involvement in GLUT4 translocation is unclear ( Berwick et al. , ) .
+Dysfunction of PIKfyve produces endosome enlargement and cytoplasmic vacuolation ( Shisheva , ) , suggesting that it may have a general role in maintaining subcellular membrane compartments rather than a specific role in insulin signaling .
+To date , it appears that class II PI3K and PIKfyve have only been examined in the context of insulin action on glucose transport , and it is unclear whether these enzymes and their lipid products might play wider roles in insulin and IGF actions .
+Receptor Trafficking
+As well as activating signaling pathways , autophosphorylation of IR and IGFR triggers internalization of the ligand and receptor complex , mainly via clathrin coated pits although receptors are also found associated with caveolae ( Foti et al. , ) .
+One role of this traffic is in signal termination , through dissociation and and or degradation of ligand in the intracellular endosome and lysosome system .
+The receptors are largely recycled , although persistent occupancy and internalization can increase receptor degradation ( down regulation ; Di Guglielmo et al. , ) .
+However , there is evidence that receptor internalization also plays an active role in signaling ( Smith et al. , ; Foti et al. , ) .
+Receptors in endosomes
+Several studies have shown that IR and IGFR-mediated phosphorylation of Shc , but not IRSs , is dependent on receptor internalization ( Biener et al. , ; Ceresa et al. , ; Chow et al. , ; Hamer et al. , ) .
+IR-A internalizes more rapidly than IR-B ( Vogt et al. , ; Yamaguchi et al. , ; Giudice et al. , ) and this could lead to more effective phosphorylation of Shc .
+The mechanism underlying the different internalization rates of IR isoforms is unclear , but might involve their differential autophosphorylation ( Kellerer et al. , ) and and or differential exposure of NPxY or LL motifs ( Foti et al. , ) .
+Internalized endosomal IR remain active , and endosomes may even be the principal site of IRS-1 phosphorylation and PI3K activation as well as signaling to Shc and ERK pathways ( Di Guglielmo et al. , ) .
+Slow dissociating , high affinity insulin analogs induce sustained activation of IR , and this is associated with increased receptor internalization , Shc phosphorylation and ERK activation that may reflect signaling from intracellular sites ( Hansen et al. , ; Rakatzi et al. , ) .
+It has also been reported that internalization and recycling of IGFR is necessary for sustained phosphorylation of Akt ( Romanelli et al. , ) .
+Surprisingly there have been few reports directly comparing the internalization kinetics and intracellular itineraries of IR and IGFR .
+One study with receptors over-expressed in rat-1 fibroblasts concluded that IGF-1 internalizes more slowly than insulin and dissociates more slowly from its receptor in the acidifying endosome , but did not attempt to relate these characteristics to intracellular signaling pathways ( Zapf et al. , ) .
+Receptors in nuclei
+More controversially , studies going back several decades have suggested that IR are found in cell nuclei ( Goldfine et al. , ; Podlecki et al. , ; Smith et al. , ) .
+There is also evidence for insulin and IGF -1 induced nuclear localization of IRSs ( Sun et al. , ; Wu et al. , ; Chen et al. , ) .
+It was initially suggested that nuclear IR might specifically mediate mitogenic responses , although it is now known that downstream signaling components including activated Akt and ERK can also traffic to the nucleus , so that nuclear localization of receptors per se is not necessary for induction of nuclear events .
+However , the idea persists that functional IR and IGFR are localized within cell nuclei .
+Recently it was reported that IR signaling complexes are recruited to specific insulin inducible gene loci ( Nelson et al. , ) and that nuclear IGFR is phosphorylated in response to ligand , binds to chromatin and acts directly as a transcriptional enhancer ( Aleksic et al. , ; Sehat et al. , ) .
+The pathways by which activated receptors might traffic to the nucleus , let alone associate with intranuclear chromatin , are unclear .
+Sumoylation may play a role in nuclear targeting of IGFR ( Sehat et al. , ) .
+Ubiquitination
+Ubiquitination plays a key role in regulating the trafficking and degradation of many proteins ( Acconcia et al. , ; Zwang and Yarden , ) , with potential to act as an inducible , reversible , and flexible signaling device depending on whether proteins are mono- or poly-ubiquitinated and on how ubiquitin chains are linked together ( Kirkin and Dikic , ; Ikeda and Dikic , ) .
+Several different mechanisms have been proposed for ubiquitination of IR and IGFR , but the sites and nature of modifications are poorly characterized .
+Grb10 has been implicated in regulation of ligand induced ubiquitination and stability of both IR and IGFR , mediated by E3 ubiquitin ligase Nedd4 ( Vecchione et al. , ; Ramos et al. , ; Huang and Szebenyi , ) .
+This mechanism may contribute along with direct inhibition of receptor TK activity to negative regulation of IR and IGFR signaling by Grb10 .
+Paradoxically however , insulin and IGF signaling and cell surface expression of IR and IGFR are reduced in Nedd4-null mice , suggesting that in vivo Nedd4 exerts a positive effect on signaling ( Cao et al. , ) .
+This may in part reflect an influence of Nedd4 on Grb10 abundance ( Cao et al. , ) although there is no evidence that Grb10 itself is ubiquitinated by Nedd4 ( Vecchione et al. , ) .
+The E3 ubiquitin ligase activity of Cbl proteins has been implicated in negative regulation of many different receptors with intrinsic or associated TK activity ( Schmidt and Dikic , ; Thien and Langdon , ) , and there is evidence that Cbl , recruited by APS , catalyzes ubiquitination of IR and IGFR with a role in endocytosis ( Ahmed et al. , ; Kishi et al. , ; Sehat et al. , ) .
+A third E3 ubiquitin ligase , Mdm2 , has been implicated in degradation of IGFR ( Girnita et al. , ) following recruitment dependent on beta-arrestin ( Girnita et al. , , ) .
+It is possible that distinct patterns of ubiquitination mediated by different ligases may have different consequences ( Sehat et al. , ) and it has been proposed that under some circumstances ubiquitination plays a positive role in signaling by IGFR and IR ( Sehat et al. , ; Suzuki et al. , ) .
+Downstream of the IR , recent evidence suggests that ubiquitination of GLUT4 may act as signal for trafficking from the endosomal and TGN system to a specific intracellular storage compartment , facilitating insulin stimulation of glucose transport ( Lamb et al. , ) .
+Negative and Feedback Regulation
+Insulin signaling is susceptible to a variety of controls reflecting feedback from the insulin signaling pathway itself and crosstalk from other pathways .
+These mechanisms can in principle be receptor or pathway specific , so that insulin and IGF resistance can be selective in terms of affected tissues and biological responses .
+Phosphorylation
+Prominent among feedback regulatory mechanisms is the phosphorylation of IR and IGFR and IRSs by serine and threonine kinases .
+Both IR and IGFR are susceptible to multisite serine phosphorylation induced by insulin and IGF via unidentified kinases , or by activation of PKCs ( Pillay et al. , ; Tavare et al. , ; Coghlan et al. , ; Liu and Roth , ) .
+Serine phosphorylation of IR may contribute to development of insulin resistance , for instance as a consequence of hyperglycemia ( Kellerer and Haring , ) .
+Serine phosphorylation of IGFR may result in 14-3-3 binding , affecting both signaling and receptor turnover ( Furlanetto et al. , ; Spence et al. , ) .
+However , the sites , mechanisms , and consequences of IR and IGFR serine and threonine phosphorylation have never been well defined and there have been few recent studies in this area .
+In contrast , the phosphorylation of IRS-1 has been intensively studied over the last two decades , in terms of identification of specific phosphorylation sites and responsible kinases and elucidation of functional consequences ( Boura-Halfon and Zick , ; Sun and Liu , ) .
+IRS-1 is a substrate for phosphorylation by several kinases that lie downstream in the insulin signaling pathway , including Akt and PKB , GSK3 , and S6K1 as well as kinases activated by other signals , including AMPK , PKCs , Jnk , and IKKbeta .
+Most commonly , serine and threonine phosphorylation inhibits IRS-1 function ( by inhibiting overall tyrosine phosphorylation , promoting degradation , or inhibiting association of adaptor proteins at specific sites ) although phosphorylation at certain sites can potentiate IRS-1 tyrosine phosphorylation .
+However , given the complexity arising from the number of phosphorylation sites and the potential for interaction between them , understanding is far from complete .
+Serine phosphorylation of IRS-2 has so far been less studied , but is likely to be equally complex ( Boura-Halfon and Zick , ; Fritsche et al. , ) .
+It would be expected that insulin resistance secondary to impairment of IRS function would affect mainly the PI3K and Akt pathway and less so the Ras and ERK pathway which can be alternatively activated via Shc .
+Indeed inhibition of IRS association with receptors may even potentiate Shc and Ras signaling by relieving competition for binding to and phosphorylation by IR and IGFR .
+Subversion of normal feedback and cross-talk IRS regulatory mechanisms by lipid metabolites , adipokines , or inflammatory mediators is believed to contribute to obesity associated insulin resistance ( Boura-Halfon and Zick , ; Sun and Liu , ) .
+However , there is evidence that the most deleterious defects underlying common states of insulin resistance are independent of IRSs ( Hoehn et al. , ; Li et al. , ; Ng et al. , ) and it seems clear that additional regulatory mechanisms remain to be elucidated .
+Recent evidence has revealed mTOR dependent phosphorylation of Grb10 as a key mechanism of negative regulation of IR and IGFR signaling ( Hsu et al. , ; Yu et al. , ) .
+O GlcNAcylation
+Reversible modification of protein serine and threonine residues can occur by O GlcNAcylation , potentially providing a mechanism of cross-talk with phosphorylation ( Copeland et al. , ; Zeidan and Hart , ) .
+A large number of cytoplasmic and nuclear proteins including components of signaling pathways and transcription factors are susceptible to O GlcNAcylation , although relatively few specific sites have been mapped ( Copeland et al. , ) .
+In some proteins O-GlcNAc modification seems to occur at the same sites as are susceptible to phosphorylation , and it can variously block or mimic effects of phosphorylation depending on substrate and site , thereby regulating protein stability and subcellular localization and protein protein interactions ( Slawson et al. , ; Zeidan and Hart , ) .
+Reflecting the origin of the O-GlcNAc moiety as a product of the hexosamine biosynthetic pathway , it has been proposed that O GlcNAcylation is a nutrient and stress sensitive modification , although it is not the only mechanism of hyperglycemia induced insulin resistance ( Copeland et al. , ) .
+Following insulin stimulation , O-GlcNAc transferase ( OGT ) is recruited to PtdIns ( 3,4,5 ) P3 in the plasma membrane via a novel phosphoinositide binding domain ( Yang et al. , ) although it has also been reported that OGT is directly phosphorylated and activated by IR ( Whelan et al. , ) .
+Several components of insulin signaling pathways , including IRbeta , IRS-1 , and Akt , are transiently modified by O-GlcNAc following insulin stimulation , which in turn modulates their serine phosphorylation ( IRS-1 increased , Akt decreased ) and attenuates insulin signal transduction ( Yang et al. , ) .
+IRS-1 is O-GlcNAc modified at multiple sites in close proximity to SH2 domain binding motifs ( Klein et al. , ) , and pharmacological elevation of O-GlcNac inhibited tyrosine phosphorylation of at least one PI3K binding motif ( Whelan et al. , ) .
+A proper understanding of the role of O GlcNAcylation in insulin signaling pathways must await a more detailed description of the sites and consequences of O-GlcNAc modification , and the circumstances under which this is modulated .
+Other mechanisms
+Several other mechanisms have been implicated in modulation of insulin and IGF signaling ( Youngren , ) .
+Some of these , such as the recruitment of SOCS proteins to receptors and IRSs ( Lebrun and Van Obberghen , ) or actions of PKCs ( Sampson and Cooper , ; Farese and Sajan , ) primarily reflect cross-talk from other pathways .
+The efficiency of signaling via the PI3K pathway is critically dependent on the balance of expression of PI3K regulatory and catalytic subunits .
+Free p85 regulatory subunits inhibit signaling by at least two mechanisms , first by competing with active PI3K heterodimer for binding sites on IRSs , and second by facilitating activation of JNK ( Taniguchi et al. , ) .
+A genome-wide scanning approach identified multiple negative regulators of insulin signaling including diverse phosphatases and kinases together with some previously uncharacterized proteins whose mechanism of action remains to be determined ( Huang et al. , ) .
+Receptor specific interactions with plasma membrane glycoproteins has also been linked to efficiency of insulin signaling .
+CEACAM-1 ( also known as C-CAM and HA4 and pp120 ) , a cell adhesion molecule with ecto-ATPase activity that is highly expressed in liver , is a specific IR substrate that has been implicated in positive regulation of IR endocytosis and insulin clearance ( Najjar , ; DeAngelis et al. , ) .
+Plasma cell antigen-1 ( PC-1 ; also known as ENPP1 ) , an ecto-nucleotide pyrophosphatase and phosphodiesterase , binds to the connecting domain of the IR alpha-subunit that is located in residues 485-599 and inhibits insulin induced TK activity .
+Overexpression or overactivity of PC-1 has been proposed to contribute to insulin resistance ( Goldfine et al. , ) .
+There is no evidence that CEACAM-1 or PC-1 interact also with IGFR .
+Conclusion
+It is beyond question that insulin and IGFs fulfill fundamentally different physiological roles in vivo , and this has led to a widespread perception that these distinct actions are somehow dependent on divergent signaling properties of the respective receptors , IR favoring metabolic responses and IGFR growth promoting actions .
+However when studied in defined cellular systems in vitro , the actions of insulin and IGFs appear very similar , although most studies have necessarily relied on cultured cells of rather non descript phenotype rather than systems that preserve the complex differentiated phenotypes that typify responses in vivo .
+The differences that have been observed in vitro are largely quantitative rather than qualitative , and related at least in part to the levels of IR and IGFR expression .
+Certainly there is no convincing evidence that IR can mediate effects that can not also be mediated by IGFR , or vice versa , and the issue of signaling specificity then comes down to the relative efficiency with which the receptors engage different signaling pathways that contribute to " metabolic " or " mitogenic " outcomes .
+It is an artificial question to ask how the activities of IR and IGFR compare when given equal opportunity ( equal receptor expression and equivalent ligand stimulation in defined cell backgrounds ) , because this situation never obtains in vivo , but this is the only basis on which similarities and differences in intrinsic activity can be properly defined .
+One recent study that adopted this approach in relation to regulation of gene expression by insulin and IGF-1 in brown adipocytes concluded that IR and IGFR act as identical portals in terms of signaling , and that quantitative differences between the effects of insulin and IGF-1 reflected the expression levels of the respective receptors and and or ligand profiles ( Boucher et al. , ) .
+This review examines the question of whether there are differences between IR and IGFR at the level of receptor proximal intracellular signaling .
+It is well accepted that the canonical PI3K and Akt and Ras and ERK pathways , initiated by the tyrosine phosphorylation of IRSs and Shc , are central in mediating actions of both insulin and IGFs .
+The PI3K and Akt pathway regulates a broad spectrum of responses , both metabolic and growth related ( as evidenced by the association of aberrant activity of both PI3K and Akt with various cancers ) , while the Ras and MAPK pathway is important in regulating cell proliferation and differentiation but is not involved in acute metabolic regulation .
+Recent reviews of insulin and IGF signaling have focused very much on the canonical pathways ( Adams et al. , ; Cohen , ; Taniguchi et al. , ; Laviola et al. , ) .
+However , as reviewed here , many other components have been implicated in signaling , either independently of or as modulators of the canonical pathways , or as regulators of receptor activation and trafficking .
+In many cases the contributions of these components have been studied only under limited conditions and it remains unclear whether their roles are specialized , and relevant only to particular responses in particular tissues , or more general .
+Some , like the APS/CAP/Cbl pathway , have been studied only in the context of metabolic actions of insulin in adipocytes , while others such as RACK1 , have been studied mainly in relation to actions of IGFs on migration and proliferation of fibroblasts .
+These specificities may have more to do with the functions of differentiated cells than the signaling competences of the receptors , but the issue is largely theoretical unless APS and IGFR , or RACK1 and IR , are shown to be significantly co-expressed in cells in vivo .
+Only a very few interactions have been reported that appear truly receptor specific , notably those of IIP-1 / GIPC and 14-3-3 with IGFR , but the functional significance of these interactions and their role in mediating actions of IGFs is unknown .
+It is possible that other receptor specific interactors may emerge from proteomic studies .
+Certainly there is more than sufficient divergence in the primary sequences of IR and IGFR , particularly in the JM and CT regions , to allow receptor specific covalent modification by phosphorylation , O GlcNAcylation , or ubiquitination , and such modification might in turn mediate specific interactions that could influence receptor activity or subcellular localization .
+Figure 2
+Accessory components of IR and IGFR signaling .
+Substrates , scaffolds , and pathways additional to the canonical PI3K and Akt and Ras and ERK pathways are shown , with protein protein interaction domains ( JM , juxtamembrane ; TK , tyrosine kinase ; CT , carboxyl-terminal ; PTB , phosphotyrosine binding ; PH , pleckstrin homology , SH2 , Src homology-2 ; BPS , between PH and SH2 ; WD , W-D ( Trp-Asp ) dipeptide repeat ) .
+In principle , differential mediation of " metabolic " and " mitogenic " responses by IR and IGFR might reflect differential phosphorylation of substrates in the canonical pathways or selective engagement of accessory pathways or modulators .
+As reviewed elsewhere ( Jensen and De Meyts , ) , the mechanisms and kinetics of ligand binding determine the kinetics of activation and intracellular trafficking of receptors , which in turn can influence the relative phosphorylation of IRSs and Shc in a ligand dependent manner .
+As detailed here , there is also evidence that IR interacts more effectively than IGFR with IRS-1 while the converse may be true for IRS-2 and Shc , and this may be reinforced by receptor-preferential phosphorylation of different sites on these substrates .
+All of these factors might contribute to more effective " mitogenic " signaling by IGFR compared to IR .
+In relation to accessory and modulatory pathways , the proposed mechanism of interaction of RACK1 would be expected to favor IGFR over IR , but Gabs , DOKs , SH2Bs , and Grbs would not be expected to discriminate between the receptors .
+Non RTKs of the JAK , Src , and Abl families , which may contribute to mitogenic responses , can apparently be activated by both IR and IGFR but not enough is known about the activation mechanisms to indicate whether IGFR might activate more effectively than IR .
+The roles and mechanisms of interaction of scaffold proteins such as beta-arrestins and cytohesins are even less clearly defined .
+The most that can be said with certainty is that the signaling mechanisms of IR and IGFR are very much more similar than different , and that cellular context , rather than intrinsic receptor activity , is the major determinant of whether responses to insulin and IGFs are perceived as " metabolic " or " mitogenic . "
+The question remains whether subtle differences in signaling between IR and IGFR also contribute to the specificity of action of insulin and IGFs .
+Resolution of this issue may have to await the further development of methods for global quantification of the phosphorylation , interaction , and activity of signaling networks and for mathematical modeling of the resulting large datasets .
+Such systems approaches are increasingly being applied in an attempt to relate biological outcomes to the complex kinetics of activation of interacting signaling pathways ( Del Rosario and White , ; Morris et al. , ; Vinayagam et al. , ) .
+Although this field is still in its infancy , modeling has already illustrated how subtle differences in the activity of individual signaling components and cross-talk between signaling pathways can affect biological responses ( Cedersund et al. , ; Aldridge et al. , ; Brannmark et al. , ; Morris et al. , ; Rowland et al. , ) .
+In the future it is to be expected that modeling will generate quantitative predictions and testable biological hypotheses about the operation of signaling networks , that will lead to better understanding of signaling specificity .
+Conflict of Interest Statement
+The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest .
+Abbreviations
+APS , adaptor with PH and SH2 domains ; CAP , Cbl associated protein ; Cbl , Casitas B lineage lymphoma ; DOK , downstream of kinase ; ERK , extracellular signal regulated kinase ; Gab , Grb2 associated binder ; IGF , insulin like growth factor ; IGFR , type 1 insulin like growth factor receptor ; IR , insulin receptor ; IRS , insulin receptor substrate ; MEK , MAPK and ERK kinase ; PH , pleckstrin homology ; PI3K , phosphoinositide 3-kinase ; PTB , phosphotyrosine binding ; RTK , receptor tyrosine kinase ; SH2 , Src-homology-2 .

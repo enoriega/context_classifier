@@ -1,0 +1,265 @@
+ARFGAP1 promotes the formation of COPI vesicles , suggesting function as a component of the coat
+The role of GTPase activating protein ( GAP ) that deactivates ADP ribosylation factor 1 ( ARF1 ) during the formation of coat protein I ( COPI ) vesicles has been unclear .
+GAP is originally thought to antagonize vesicle formation by triggering uncoating , but later studies suggest that GAP promotes cargo sorting , a process that occurs during vesicle formation .
+Recent models have attempted to reconcile these seemingly contradictory roles by suggesting that cargo proteins suppress GAP activity during vesicle formation , but whether GAP truly antagonizes coat recruitment in this process has not been assessed directly .
+We have reconstituted the formation of COPI vesicles by incubating Golgi membrane with purified soluble components , and find that ARFGAP1 in the presence of GTP promotes vesicle formation and cargo sorting .
+Moreover , the presence of GTPgammaS not only blocks vesicle uncoating but also vesicle formation by preventing the proper recruitment of GAP to nascent vesicles .
+Elucidating how GAP functions in vesicle formation , we find that the level of GAP on the reconstituted vesicles is at least as abundant as COPI and that GAP binds directly to the dilysine motif of cargo proteins .
+Collectively , these findings suggest that ARFGAP1 promotes vesicle formation by functioning as a component of the COPI coat .
+Introduction
+The ADP ribosylation factor ( ARF ) family of small GTPases instigates the formation of transport vesicles by regulating the recruitment of coat proteins from the cytosol to membranes .
+This function has been best elucidated through studies on ARF1 , the prototypic member , as it has been shown to regulate coat protein I ( COPI ) and different clathrin adaptin complexes .
+Like all small GTPases , cycling of ARF1 between its activated ( GTP bound ) and deactivated ( GDP bound ) states is catalyzed by guanine nucleotide exchange factor ( GEF ) and GTPase activating protein ( GAP ) .
+By catalyzing the exchange of GDP for GTP on ARF1 , GEFs play a critical role during vesicular transport by dictating the membrane region where the cytosolic forms of ARF1 and coat proteins are recruited ( ) .
+Countering this action of GEFs are GAPs that catalyze the hydrolysis of GTP to GDP to deactivate ARF1 ( ) .
+However , this role in the context of vesicular transport still remains to be clarified .
+How GAP for ARF1 acts in vesicular transport has been best studied in the COPI system , where it has been suggested to antagonize coat recruitment during vesicle formation .
+Much of this view has been derived from reconstitution studies that blocked GTP hydrolysis on ARF1 , using either GTPgammaS ( ) or an activating mutant of ARF1 ( ) .
+As vesicles produced in these perturbations can not uncoat , this finding has led to the conclusion that GAP triggers vesicle uncoating .
+Thus , during vesicle formation , GAP activity would be predicted to antagonize the recruitment of coat proteins and thereby abort vesicle production .
+As cargo sorting occurs during vesicle formation , a surprising subsequent observation is that GTP hydrolysis on ARF1 , which reflects the catalytic activity of GAP , is necessary for the proper concentration of cargo proteins in COPI vesicles .
+Recent models of cargo sorting have attempted to reconcile these seemingly contradictory roles of GAP , focusing particularly on how cargo proteins might suppress the catalytic activity of GAP during vesicle formation to prevent uncoating .
+However , what has remained unclear is whether GAP indeed acts to antagonize coat recruitment during vesicle formation , as the original evidence for this role , based on the effect of blocking GTP hydrolysis on ARF1 , is an inference .
+In this study , we have directly assessed the role of GAP in vesicle formation by using a reconstitution system that involves Golgi membrane incubated in the presence of GTP with purified coatomer ( soluble COPI ) and recombinant ARF1 and ARFGAP1 ( the prototypic GAP for ARF1 ; ) .
+This system has also allowed us to examine more precisely how GTPgammaS affected the function of GAP during vesicle formation .
+Our results suggest a surprising conclusion that GAP does not antagonize coat recruitment during vesicle formation , but , rather , functions as a component of the coat to promote this process .
+Results
+The key to reconstituting the formation of COPI vesicles in the presence of GTP is a previous insight that Golgi membrane can be subjected to salt wash to deplete membrane bound factors that enhance vesicle uncoating ( ) .
+Although this insight was used to devise a two-stage incubation system that pinpointed palmitoyl-coenzyme A ( CoA ) to act during the fission step of vesicle formation ( ) , the role of GAP for ARF1 was not studied , as the ability to generate a full-length form of recombinant ARFGAP1 , which also contains its noncatalytic domain for proper localization ( ) , has been achieved only recently ( ) .
+Thus , we used this form of GAP in the two-stage incubation system to assess the role of GAP in vesicle formation .
+Also , full-length myristoylated ARF1 was used , as previous studies indicated the importance of these features in ARF1 for its function on Golgi membrane .
+We initially performed the first stage of the two-stage incubation to verify ARF1 dependent recruitment of COPI to Golgi membrane .
+Both ARF1 and COPI ( assessed through beta-COP ) were shown to pellet with Golgi membrane after a moderate speed centrifugation ( ) .
+The pelleted Golgi membrane was then recovered for a second-stage incubation with GAP followed by another moderate speed centrifugation to repellet the Golgi membrane .
+Incubation with GAP , but not with buffer alone , induced a significant fraction of beta-COP on Golgi membrane to become released to the supernatant ( ) .
+However , as this supernatant fraction could , in principle , contain either soluble COPI or COPI bound to small membranes that can not be pelleted ( such as vesicles ) , we assessed directly for vesicle formation by examining a fraction of the supernatant with EM using a whole mount technique .
+Figure 1 .
+The distribution of ARF1 , COPI , and GAP in the two-stage incubation system .
+Golgi membrane was incubated with ARF1 and coatomer in the presence of GTP for the first stage followed by centrifugation to assess their relative distribution on the Golgi membrane , as reflected in the pellet ( P ) , and the remaining fraction , as reflected in the supernatant ( S ) .
+For the second stage , the pelleted Golgi membrane from the first stage was recovered and then incubated with either GAP or buffer followed by centrifugation to assess again their relative distribution .
+In the incubation with GAP , we detected vesicles that were morphologically similar to COPI vesicles generated by previous methods , either by the two-stage incubation using palmitoyl-CoA in the second stage ( ) or by incubating Golgi membranes with cytosol in the presence of GTPgammaS ( ) .
+Moreover , we found by immunogold labeling that vesicles produced by GAP incubation were labeled to a similar extent for COPI as those produced by the other reconstitutions ( A ) .
+This degree of labeling was specific , because the stringency of the labeling condition resulted in no significant labeling of washed Golgi membrane , which could be used as a negative control as it lacked a significant level of COPI ( , pellet of the first-stage incubation that lacked incubation with ARF1 ) .
+To quantify the level of COPI vesicles produced , we performed quantitative immunogold EM using COPI antibodies .
+Addition of GAP significantly increased the level of COPI vesicles seen over the control incubation ( B ) .
+Moreover , the level of vesicles produced by this reconstitution was similar to the level produced by either palmitoyl-CoA or GTPgammaS , indicating that reconstitution with GAP is as efficient as these other previously established methods .
+Figure 2 .
+GAP induces the formation of COPI vesicles .
+( A ) COPI vesicles reconstituted with GAP appear similar to those formed by previous methods of reconstituting COPI vesicles .
+Supernatant either from the second-stage incubation for conditions involving GAP or palmitoyl-CoA , or from incubating Golgi membrane with cytosol in the presence of GTPgammaS was applied onto EM grids followed by immunogold labeling using antibodies directed against epsilon- or zeta-COP .
+Magnification , 120,000 .
+Bar , 50 nm .
+( B ) The level of COPI vesicles formed by reconstitution with GAP is similar to levels formed by previously established methods .
+A fraction ( 10 % by volume ) of the supernatant from the different incubations was applied onto EM grids for immunogold labeling using antibodies direct against epsilon- or zeta-COP , followed by quantitation for vesicles with gold particles .
+To also assess the relative level of Golgi membranes released as COPI vesicles , we examined the level of phospholipids released after the second-stage incubation .
+Quantitation revealed that ~ 1.5 % of the phospholipids was released from Golgi membrane after the second-stage incubation with GAP ( ) .
+This level of release was similar to that derived by incubating Golgi membrane with cytosol to produce uncoated vesicles that were thought to be formed from vesicles coated by COPI ( ) , as up to 2 % of Golgi membrane was observed to be released in that approach .
+In comparison , higher levels of phospholipids were release from Golgi membrane after incubation with palmitoyl-CoA or GTPgammaS , 4 % and 6 % , respectively .
+Notably , although the relative levels of phospholipid release did not correlate completely with the relative levels of COPI vesicles observed by EM , this seeming disparity could be explained by the observation that membranes other than 50-nm vesicular structures were appreciated at significant levels in incubations using either palmitoyl-CoA or GTPgammaS .
+These results may be explained by additional manipulations that were used previously to generate COPI vesicles in contrast to those induced by incubation with GAP , an issue that was subsequently explored in more detail below ( see description for ) .
+Figure 4 .
+GTPgammaS blocks the formation of COPI vesicles .
+( A ) GTPgammaS inhibits the release of COPI from Golgi membranes induced by GAP .
+The two-stage incubation was performed with the first stage performed in the presence of GTPgammaS .
+The second-stage incubation was performed as indicated , followed by centrifugation to derive Golgi membrane ( P ) and supernatant ( S ) .
+The distribution of COPI was assessed by immunoblotting for beta-COP .
+( B ) GTPgammaS inhibits the formation of COPI vesicles .
+A fraction ( 10 % by volume ) of the supernatant derived from the different conditions of the second-stage incubation was applied onto EM grids for immunogold labeling using antibodies direct against epsilon- or zeta-COP , followed by quantitation for vesicles with gold particles .
+To characterize the behavior of the reconstituted vesicles , we first examined the stability of nascent coated vesicles , as a similar reconstitution performed in the presence of GTP for COPII vesicles had previously revealed that they subsequently underwent uncoating ( ) .
+With increasing time of incubation at the second stage , more COPI was redistributed to the supernatant ( A ) .
+Quantitative EM revealed that this increase also correlated with increasing levels of vesicles observed ( B ) .
+However , immunogold EM using antibodies directed against components of COPI also revealed that the fraction of vesicles coated by COPI decreased with time , as 75 % of all vesicles were coated by COPI after 2 min of incubation , whereas only 25 % of all vesicles were coated by COPI after 15 min of incubation ( C ) .
+As this observation suggested the possibility that the reconstituted vesicles underwent uncoating upon prolonged incubation , we isolated the supernatant generated after 2 min of the second-stage incubation for further analysis .
+Because this fraction contained only vesicles and soluble proteins but not Golgi membranes , analysis of this fraction would rule out the possibility that uncoated vesicles were directly formed from Golgi membrane .
+Further incubation of this isolated fraction at either 4degreesC or 37degreesC resulted in decreased levels of vesicles coated by COPI ( D ) .
+Thus , taken together , these observations suggested that nascent COPI vesicles eventually went on to uncoating at 37degreesC , and this process could be slowed , but not stopped completely , at 4degreesC .
+Of practical consequence , these findings also suggested that the method of taking a fraction of the second-stage supernatant for immediate fixation for examination by EM was also an efficient approach for detecting the maximal level of coated vesicles produced , as such an approach would prevent a significant level of uncoating before vesicles were examined .
+Figure 3 .
+Increasing the time of incubation enhances vesicle production and also vesicle uncoating .
+( A ) COPI is released from Golgi membrane with increasing time of the second-stage incubation .
+The two-stage incubation was performed with the second stage performed for various times , as indicated , followed by centrifugation to segregate Golgi membrane in the pellet ( P ) and unpelleted material in the supernatant ( S ) .
+The distribution of COPI was then assessed by immunoblotting for beta-COP .
+( B ) More vesicles are formed with increasing time of the second-stage incubation .
+The two-stage incubation was performed with the second stage performed for times as indicated .
+A fraction ( 10 % by volume ) of the supernatant derived from the second-stage incubation was applied onto EM grids followed by quantitation for vesicles .
+( C ) Fewer COPI vesicles are observed with increasing time of incubation at the second stage .
+The two-stage incubation was performed with the second stage performed for times as indicated .
+A fraction ( 10 % by volume ) of the supernatant derived from the second-stage incubation was applied onto EM grids for immunogold labeling using antibodies direct against epsilon- or zeta-COP , followed by quantitation for vesicles with gold particles .
+( D ) The isolated supernatant from the second-stage incubation contains fewer COPI vesicles upon further incubation .
+The starting condition was the supernatant from the second-stage incubation performed for 2 min , as described in C .
+This fraction was subjected to an additional 30-min incubation at different temperatures as indicated .
+Samples were then applied onto EM grids for immunogold labeling using antibodies direct against epsilon- or zeta-COP , followed by quantitation for vesicles with gold particles .
+The values derived were then expressed as fractions of the starting level .
+Using this approach , we next examined how GTPgammaS affected the reconstitution , as the traditional method of generating COPI vesicles involved GTPgammaS ( ) , and perturbation by this agent was thought to induce the accumulation of coated vesicles by blocking their uncoating ( ) .
+In the first-stage incubation , ARF1 and COPI were incubated with Golgi membranes in the presence of GTPgammaS .
+The second-stage incubation was then performed in two ways .
+As the formation of COPI vesicles by GTPgammaS entailed further manipulations with high-salt treatment followed by pipette induced shearing ( ) , we compared incubation either with or without these manipulations .
+As assessed biochemically ( A ) , COPI that had been recruited to Golgi membrane by ARF1 in the presence of GTPgammaS during the first-stage incubation became resistant to release from Golgi membrane upon the addition of GAP at the second-stage incubation .
+In contrast , additional manipulations with high-salt treatment and pipette induced shearing overcame this block , whether GAP was present or not .
+To verify that these observations represented effects on the formation of COPI vesicles , we also performed immunogold EM using COPI antibodies ( B ) .
+In the presence of GTPgammaS , the formation of COPI vesicles was reduced , and this block could be relieved by the additional maneuvers of high-salt treatment followed by pipette induced shearing .
+Moreover , the use of GTPgammaS also blocked vesicle formation induced by GAP , and , similarly , this block could be relieved by additional manipulations .
+These findings revealed that GTPgammaS not only blocked uncoating but also vesicle formation , and that previous reconstitution of COPI vesicles using this perturbation overcame the block by additional manipulations .
+We also sought to determine more precisely how GAP participated in cargo sorting and how GTPgammaS affected GAP in this process by comparing cargo sorting either in the presence or absence of GAP and either in the presence of GTP or GTPgammaS .
+The KDEL receptor has been shown previously to be transported in COPI vesicles ( ) .
+Thus , we generated a cell line that stably expressed a myc tagged form of the KDEL receptor , as the tagged receptor has been shown to be functional and its moderate expression in stable cell lines has no discernible perturbations on transport ( ) .
+Golgi membrane was then isolated from the stable cell line for incubation in the two-stage incubation system , and the level of myc tagged KDEL receptor in reconstituted vesicles was then assessed by immunogold EM .
+For these experiments , the effect of GTPgammaS that would block vesicle formation was overcome by using additional manipulations .
+We found that GTPgammaS inhibited cargo sorting as compared with GTP , and the presence of GAP was required for efficient cargo sorting ( ) .
+These findings provided direct confirmation that GAP indeed played an important role in cargo sorting , as suggested from the previous observations that blocking GTP hydrolysis on ARF1 inhibited cargo sorting .
+Figure 5 .
+GAP in the presence of GTP is required for the efficient sorting of the KDEL receptor into reconstituted vesicles , and GTPgammaS inhibits this process .
+The two-stage incubation was performed with the first stage using Golgi membrane derived from CHO cells that had been stably transfected with a myc tagged KDEL receptor .
+The first stage was performed with either GTP or GTPgammaS , followed by the second stage either with or without GAP .
+For the GTPgammaS conditions , the additional manipulations of pipette shearing and salt treatment were used so that similar levels of COPI vesicles could be generated for comparison .
+A fraction ( 10 % by volume ) of the supernatant derived from the different conditions was applied onto EM grids for immunogold labeling with antibody directed against the myc epitope , followed by quantitation for vesicles with gold particles .
+We next scrutinized how GAP acted to promote vesicle formation and how GTPgammaS affected GAP in this process by first determining the relative level of ARF1 and GAP on the reconstituted vesicles .
+Immunogold EM using an antibody directed against ARF1 revealed that vesicles reconstituted with GAP could not be labeled for ARF1 ( A ) , suggesting that GAP acted on ARF1 during vesicle formation to cause its release , as deactivated ARF1 would be predicted to be no longer membrane bound ( ) .
+This observation was not simply due to the ARF1 antibody not being able to work in immunogold EM , as we observed labeling for ARF1 on vesicles produced by palmitoyl-CoA , which had been shown previously to contain levels of ARF1 stoichiometric to COPI ( ) .
+Notably , immunogold labeling with an antibody directed against ARFGAP1 also revealed labeling on the reconstituted vesicles ( A ) , suggesting that GAP may exist in significant levels on these vesicles .
+This labeling was specific , as no significant labeling was observed on vesicles produced by incubation with palmitoyl-CoA , which would be expected , as this incubation did not include GAP as one of its purified components ( ) .
+In contrast , vesicles that were reconstituted in the presence of GTPgammaS showed markedly reduced labeling for GAP ( B ) .
+These findings suggested an unexpected explanation that rather than inhibiting the catalytic activity of GAP during vesicle formation , the presence of GTPgammaS prevented the proper recruitment of GAP during this process .
+Figure 6 .
+Ultrastructural characterization of vesicles for GAP and ARF1 .
+( A ) Vesicles reconstituted in the presence of GTP contain detectable levels of GAP but not ARF1 .
+The two-stage incubation was performed with the second stage using either GAP or palmitoyl-CoA , as indicated .
+A fraction ( 10 % by volume ) of the supernatant derived from the second-stage incubation was then applied onto grids for immunogold EM using antibodies as indicated .
+Magnification , 120,000 .
+Bar , 50 nm .
+( B ) The level of GAP on COPI vesicles is reduced when reconstitution is performed in the presence of GTPgammaS .
+The two-stage incubation was performed with the first stage using either GTP or GTPgamma , and the second stage using GAP .
+A fraction ( 10 % by volume ) of the supernatant derived from the second stage was then applied onto grids for immunogold EM with antibody against GAP , followed by quantitation for vesicles with gold particles .
+As confirmation for the levels of ARF1 and GAP seen by immunogold EM , we next examined their levels on the reconstituted vesicles by a more quantitative biochemical approach .
+The two-stage incubation was performed in the presence of GTP and GAP as before , and then the supernatant of the second-stage incubation was loaded at the bottom of a sucrose gradient .
+After equilibrium centrifugation in such a flotation gradient , soluble proteins had been shown to remain at the bottom , whereas COPI vesicles floated to a density peak of 42 % sucrose .
+Consistent with these previous observations , incubation with GAP resulted in a similar peak for COPI at 43 % sucrose ( A ) .
+This finding also suggested that the degree of coating by COPI on vesicles reconstituted with GAP was similar to that on vesicles reconstituted by either palmitoyl-CoA or GTPgammaS , as the proteinacious coat complex has been suggested to be a main determinant in the observed differential buoyancy of coated versus uncoated vesicles ( ) .
+We also observed a significant level of soluble COPI at the bottom of the gradient .
+This finding could be explained by our previous observation that even at 4degreesC , the reconstituted vesicles underwent some uncoating ( D ) .
+Thus , one would expect to find significant uncoating after 16 h of equilibrium centrifugation .
+Because of this finding , the two-stage incubation was scaled up fivefold to examine the relative levels of ARF1 , COPI , and GAP on reconstituted vesicles .
+Figure 7 .
+Coated vesicles have stoichiometric levels of COP and GAP , and significantly reduced levels of ARF1 .
+For A , the two-stage incubation was scaled up fivefold with the supernatant derived from the second stage and then loaded at the bottom of a continuous sucrose gradient for equilibrium centrifugation followed by fractionation and immunoblotting with antibodies indicated .
+Quantitation of beta-COP , ARF1 , and GAP was performed based on immunoblotting using known amounts of purified proteins , as indicated in B.
+Examining those vesicles that had remained coated ( as indicated by their flotation to 43 % sucrose ) , we found negligible levels of ARF1 .
+This finding supported our observation above that GAP acting during vesicle formation resulted in COPI vesicles with relatively depleted levels of ARF1 .
+Notably , this finding was reminiscent of the behavior of COPII vesicles , as reconstitution in the presence of GTP revealed a markedly reduced level of Sar1p as compared with components of the COPII coat complex ( ) .
+Significantly , we also found that the level of GAP was similar to that of COPI on the coated vesicles .
+Using standards derived by immunoblotting for known amounts of the different purified proteins ( B ) , we estimated that the level of GAP was at least stoichiometric to that of COPI , the molar ratio being ~ 3:1 ( GAP and COPI ) .
+The finding that GAP existed in at least stoichiometric levels to COPI on our reconstituted vesicles raised the possibility that GAP may be acting not just catalytically on ARF1 during vesicle formation , but also as a structural component of the COPI coat .
+As this possibility also predicted that the segregated recruitment of COPI and GAP to Golgi membrane , as done in the two-stage incubation , would hinder coat formation as compared with a one-stage incubation that would allow all components of the coat to be present simultaneously , we compared a one-stage incubation with the two-stage incubation .
+Indeed , the latter situation produced fewer vesicles when examined for either total vesicles or those labeled for COPI ( A ) , indicating that the presence of both GAP and COPI during recruitment was more efficient for vesicle production than when the two were recruited separately .
+Figure 8 .
+Functional evidence that GAP acts as a component of the COPI coat .
+( A ) Simultaneous recruitment of GAP and COPI is more efficient for vesicle formation than separating the two into distinct incubation steps .
+A one-stage incubation was performed by incubating Golgi membrane with ARF1 , coatomer , and GAP in the presence of GTP for 10 min .
+The level of vesicles , total or COPI labeled , from this incubation was compared with that from the standard two-stage incubation using the same amount of Golgi membrane and purified components , where the second stage was performed for 10 min .
+( B ) GAP interacts directly with the cytoplasmic domain of COPI cargo proteins in a dilysine dependent manner .
+GST fusion proteins that contain different cytoplasmic domains of cargo proteins were gathered onto glutathione bound beads followed by incubation with either purified coatomer or GAP .
+Beads were washed and then analyzed by immunoblotting to assess COPI and GAP or by Coomassie blue staining to assess the level of GST fusion proteins on beads .
+Such a finding , although consistent with the possibility of GAP acting as a component of the coat , could also have other interpretations .
+Thus , as another test for whether GAP might act as a component of the coat , we tested whether GAP also interacted directly with the cytoplasmic domain of known cargo proteins , as had been shown for coat proteins .
+When fused to GST and bound to glutathione beads , the cytoplasmic domain of Wbp1 had been shown previously to bind to COPI in a dilysine dependent manner ( ) .
+Examining this protein , we found that it also bound to GAP in a similar fashion ( B ) .
+Moreover , both GAP and COPI bound to the cytoplasmic domain of the KDEL receptor .
+This observation extended the previous finding that had shown GAP to interact with the KDEL receptor , but whether this interaction was direct had remained unclear ( ) .
+We also noted that the KDEL receptor contained a dilysine sequence , but at a position that would be considered as nonclassical , as it was not at positions -3 and -4 from the carboxy terminus ( ) .
+To test whether binding by GAP and COPI required this sequence , we mutated the dilysine in the KDEL receptor to double serine and found that binding indeed required the dilysine sequence .
+Thus , it appeared that the KDEL receptor used a nonclassical dilysine motif for direct interaction with both GAP and COPI .
+However , interactions of cargo proteins with GAP and COPI were not completely similar , as demonstrated by their differential affinity for the cytoplasmic domain of the cargo receptor p23 .
+Discussion
+We have reconstituted the formation of COPI vesicles by incubating Golgi membrane with purified ARF1 , coatomer , and ARFGAP1 in the presence of GTP that allows GAP activity to be manifested .
+GAP is found to promote vesicle formation .
+Moreover , GAP is at least as abundant as COPI on the reconstituted vesicles , suggesting a structural role for GAP during vesicle formation .
+Elucidating this role , we find that the simultaneous recruitment of GAP and COPI was more efficient for vesicle formation and also that GAP interacts directly with cargo proteins in a dilysine dependent manner , as has been shown for COPI .
+Together , these findings suggest that rather than antagonizing coat recruitment during vesicle formation , ARFGAP1 behaves more like a component of the COPI coat during this process .
+For the current study , we have used a combination of biochemical and morphologic approaches to assess the reconstituted vesicles .
+A distinct advantage of the morphologic approach is the ability to ascertain that vesicles are formed and that they are coated by COPI through direct visualization with immunogold labeling .
+Moreover , this approach has provided us with the practical means of stopping the reaction of the second-stage incubation immediately by fixation and directly applying samples onto grids for examination by EM , as we have found that the nascent coated vesicles went on to uncoating .
+Although our approach results in relatively dilute samples , because no further concentration of vesicles is performed before examination by EM , quantitation as substantiated by standard errors reveals that this approach is a reliable means of assessing the relative level of vesicles produced by different conditions and perturbations .
+Using this approach , we have not only elucidated how GAP acts in the presence of GTP , but also how GTPgammaS affects this function .
+Although GTPgammaS has been shown previously to block vesicle uncoating ( ) , we have found that it also blocks an earlier step of transport by blocking vesicle formation .
+The additional maneuvers of salt treatment and pipette induced shearing used in previous reconstitutions of COPI vesicles are able to overcome this block to form coated vesicles .
+This insight has also allowed us to compare the characteristics of GTPgammaS induced vesicles with those reconstituted in the presence of GTP .
+As would be predicted by previous observations , we find that GTPgammaS reduces the efficiency of cargo sorting .
+However , by elucidating how this inhibition occurs , we have discovered an unanticipated finding that vesicles formed in the presence of GTPgammaS have reduced levels of GAP .
+This finding suggests that rather than inhibiting vesicle formation by blocking the catalytic activity of GAP , as would be suggested by the previous studies , GTPgammaS acts by preventing the proper recruitment of GAP during vesicle formation .
+Insight into how this inhibition in GAP recruitment may occur is suggested by studies on the reconstitution of COPII vesicles .
+Stabilization of reconstituted COPII vesicles requires GMP-PNP , not GTPgammaS ( ) , and more recently , GDP in the presence of beryllium fluoride has also been shown to stabilize coating on these vesicles ( ) .
+These findings are reminiscent of the requirement for stabilizing Ras and its GAP in a complex .
+Structural studies suggest that fluoride coordinated to GDP serves as a better mimic of a nonhydrolyzable form of GTP than GTPgammaS , because the contacts that gamma-phosphate has with key residues in the catalytic domain of GAP are better preserved ( ) .
+Collectively , these observations suggest a likely explanation that the inhibition of vesicle formation by GTPgammaS seen in our reconstitution is due to an altered ability of GAP to form a complex with ARF1 , rather than inhibition of the catalytic activity once such a complex has been formed .
+The role of ARF1 in regulating the recruitment of COPI onto Golgi membranes was first elucidated using a reconstitution system , where Golgi membrane was incubated with purified ARF1 and coatomer ( ) .
+Purified GEF was not needed , as the isolated Golgi membrane was found to contain GEF activity for the activation of ARF1 .
+In the presence of GTP , ARF1 and COPI could not be recruited stably onto Golgi membrane .
+Rather , stable recruitment required GTPgammaS , suggesting that the isolated Golgi membrane also had a GAP activity that acted to deactivate ARF1 for its release from membrane .
+However , although the use of GTPgammaS that allowed GEF to function provided direct evidence that the recruitment of ARF1 and COPI was coupled , whether their release from membranes was also coupled could not be assessed directly in this system .
+Nevertheless , in the absence of evidence indicating otherwise , the prevailing view has become that deactivation of ARF1 triggers the release of COPI from membrane ( ) , as such a view has elegance in its simplicity .
+As a consequence , because GAP is responsible for catalyzing ARF deactivation , it has also been assumed to trigger uncoating , a process that would antagonize vesicle formation .
+In light of this view , a surprising turn came from the examination of cargo sorting when GAP activity was blocked by preventing GTP hydrolysis on ARF1 .
+COPI vesicles formed under this circumstance were shown to have reduced ability to concentrate cargo proteins .
+As cargo sorting occurs during vesicle formation , the effects of GAP on cargo sorting and coat recruitment during vesicle formation were seemingly contradictory .
+Recent models of cargo sorting have attempted to reconcile this apparent disparity by building on another set of observations that COPI stimulates the catalytic activity of GAP ( ) and that different cargo proteins modulate this effect .
+However , these models have had to make a key assumption that the recruitment of GAP would antagonize coat recruitment , because the experimental systems used , either soluble proteins recruited onto beads ( ) or examining vesicles after they have shed the COPI coat ( ) , are not capable of examining directly whether GAP triggers uncoating during vesicle formation .
+Moreover , truncated versions of ARFGAP1 that contain only the catalytic domain have been used in some studies , and this form of the protein may not provide a full glimpse into its function , as evidence suggests that the noncatalytic domain plays an essential role in targeting the protein properly .
+Our reconstitution attempts to overcome these caveats by using full-length proteins in devising an approach to assess directly the role of GAP in vesicle formation .
+A key finding is that both GAP and COPI exist in stoichiometric levels on nascent coated vesicles , whereas ARF1 is relatively depleted on these vesicles .
+This observation does not fit well with the currently proposed models .
+Although it can be postulated that GAP activity can be suppressed by cargo proteins during initial coat recruitment to allow GAP and COPI to coexist temporarily as complexes on the recruited membrane , once budding has occurred and the vesicles have formed , current models that assume ARF1 deactivation to trigger uncoating predict that the nascent coated vesicles would contain both ARF1 and COPI in stoichiometric levels .
+As we have found otherwise , we propose an alternate model to better account for the observed behaviors of ARF1 and GAP on COPI vesicles reconstituted by GAP in the presence of GTP .
+For GAP in particular , we also have to explain the observations that GAP exists in stoichiometric levels to COPI on coated vesicles and interacts directly with cargo proteins , and also that its presence on coated vesicles is markedly reduced in the presence of GTPgammaS , which we have elucidated to block vesicle formation .
+Altogether , our observations can be best explained by GAP acting as a component of the COPI coat during vesicle formation .
+Coat proteins have at least three defining characteristics .
+First , they are the structural components of nascent vesicles by being the most abundant proteins on these vesicles .
+Second , they promote vesicle formation .
+Third , they participate in cargo sorting , often by interacting directly with cargo proteins .
+The behavior of ARFGAP1 elucidated in the current paper exhibits all three criteria .
+This proposed function for ARFGAP1 is reminiscent of how Sec23p , the GAP for the small GTPase Sar1p , has been suggested to function in the COPII system ( ) .
+Sec23p associates with another component of the COPII coat ( Sec24p ) , even when they are in the cytosol ( ) .
+Thus , the recruitment of the COPII coat during vesicle formation would necessarily recruit the GAP for Sar1p simultaneously and in stoichiometric levels to other components of the COPII coat .
+During this process , Sec23p has been proposed to act as a component of the COPII coat to drive both vesicle formation and cargo sorting ( ) .
+On the other hand , ARFGAP1 is not part of the cytosolic form of the COPI coat complex ( ) , known as coatomer ( ) .
+Nevertheless , despite differences in the cytosolic compositions of COPI and COPII , we have found that once recruited to membranes , the role of ARFGAP1 during vesicle formation is fundamentally similar to that of Sec23p .
+Thus , mechanisms by which GAPs for the ARF related small GTPases regulate vesicular transport are more conserved than previously thought .
+Materials and methods
+Reagents
+Materials purchased included GTP , GTPgammaS , phosphatidylethanolamine , phosphatidylinositol , BSA , and gold conjugated goat antibodies to either rabbit IgG or mouse IgG ( all from Sigma-Aldrich ) and mouse anti-myc antibody ( 9E10 ) ( American Type Culture Collection ) .
+Other materials were prepared as previously described : CHO Golgi membrane ( ) , rat liver cytosol ( ) , coatomer ( ) , recombinant full-length N myristoylated ARF1 ( ) , full-length ARFGAP1 ( ) , and COPI vesicles derived by incubating Golgi membrane and cytosol in the presence of GTPgammaS ( ) .
+A CHO cell line stably transfected with a myc tagged form of the KDEL receptor was generated using procedures as previously described ( ) .
+Other antibodies were either previously generated or obtained : mouse anti-beta-COP antibody ( M3A5 ; provided by the late T. Kreis , University of Geneva , Geneva , Switzerland ) , rabbit anti-epsilon-COP and rabbit anti-zeta-COP antibodies ( provided by J. Rothman and T. Sollner , Memorial Sloan Kettering Cancer Center , New York , NY ) , rabbit anti-ARF1 antibody ( ) , and rabbit anti-ARFGAP1 antibody ( provided by D. Cassel , Technion Institute of Technology , Haifa , Israel ) .
+Reconstitution system
+The two-stage incubation system was performed essentially as previously described ( ) .
+Specifically , the first-stage incubation involved prewashed Golgi membrane ( 0.2 mg and ml ) , coatomer ( 6 mug and ml ) , ARF1 ( 6 mug and ml ) , and 2 mM GTP or 20 muM GTP-gamma-S in 500 mul of assay buffer ( 25 mM Hepes-KOH , pH 7.2 , 50 mM KCl , 2.5 mM Mg ( OAc ) 2 , 1 mg and ml soybean trypsin inhibitor , 200 mM sucrose ) for 15 min at 37degreesC .
+Reactions were stopped by incubating in an ice water bath for 5 min , and samples were centrifuged for 10 min at 12,000 g and 4degreesC to collect the pellet fraction that contained Golgi membrane .
+This pellet was then resuspended in 100 mul of assay buffer for the second-stage incubation , using ARF-GAP1 ( 6 mug and ml ) , palmitoyl-CoA ( 10 muM ) , or nothing for the mock incubation , for times at 37degreesC as indicated .
+Reactions were again stopped by incubating in an ice water bath for 5 min , and samples were centrifuged for 10 min at 12,000 g and 4degreesC to collect the pellet fraction that contained Golgi membrane or supernatant that contained a mixture of soluble proteins and membrane vesicles .
+To analyze COPI vesicles by flotation gradient , the reactions were scaled up fivefold , and centrifugation was performed at 40,000 rpm for 16 h using a SW55 rotor ( Beckman Coulter ) .
+EM
+Samples at room temperature were first adsorbed onto Formvar carbon coated grids ( Electron Microscopy Sciences ) for 10 min , and then fixed with 2 % paraformaldehyde in PHEM buffer ( 250 mM Pipes , 100 mM Hepes , 8 mM MgCl 2 , 40 mM EGTA , adjust pH to 6.9 with NaOH ) for 10 min .
+Grids were washed four times with PBS and 0 .15 M glycine , incubated for 10 min in PBS and 1 % BSA , and then washed seven times with distilled water .
+Staining was performed using 2 % methyl cellulose and 0 .4 % uranyl acetate in distilled water for 10 min .
+Grids were then air dried for examination by EM ( Jeol ) at 80 kV .
+For immunogold labeling , the following steps were performed before staining with methyl cellulose and uranyl acetate , essentially as previously described ( ) .
+Grids were incubated with primary antibody for 1 h , followed by four washes using PBS and 0 .15 M glycine and six washes using PBS and 0 .1 % BSA .
+Primary antibodies were used at the following dilution in PBS and 1 % BSA : anti-ARF1 at 1:200 , anti-ARFGAP1 at 1:2,500 , anti-epsilon-COP at 1:500 , anti-zeta-COP at 1:500 , and anti-myc at 1:100 .
+Incubation with secondary antibody conjugated to 10-nm gold particles was performed for 30 min , followed by seven washes using PBS and 0 .1 % BSA .
+Grids were then fixed with 1 % glutaraldehyde in PBS for 5 min , followed by seven washes with distilled water .
+Quantitative EM was performed by randomly selecting five meshes from different regions of a grid and then each mesh was scanned as fields of 60,000 magnification .
+For counting , one corner of the mesh was identified as the first field , and then subsequent fields were visualized by moving into adjacent nonoverlapping areas .
+This method resulted in 25 fields counted in each mesh .
+Vesicles identified at 60,000 magnification were further confirmed at 120,000 magnification for labeling with gold particles .
+Total vesicles counted per mesh were then calculated for a mean and standard error .
+The calculated values were derived from a representative experiment of at least two separate experiments .
+Phospholipid analysis
+The different incubation conditions were performed as described above .
+Total protein was extracted by incubating the pellet ( containing Golgi membrane ) resuspended in water and the supernatant ( containing COPI vesicles ) with chloroform and methanol ( 2:1 ) , such that the ratio of aqueous to solvent phase was 3:10 by volume .
+The solvent phase was then dried under nitrogen airflow , dissolved in chloroform and methanol ( 2:1 ) , and resolved on a silica plate by thin layer chromatography using a solvent system that consisted of chloroform/methanol/water ( 65:35:5 ) , as previously described ( ) .
+As phosphatidylethanolamine has been suggested to be one of the major phospholipids of COPI vesicles ( ) , its level in different samples was compared with known levels of purified phosphatidylethanolamine that were run simultaneously on the silica plate as standards .
+Densitometry of the silica plates was performed by image scanning followed by quantitation using Scion Image ( Scion Corporation ) .
+Pulldown assay using GST fusion proteins
+For pulldown experiments using GST fusion proteins , DNA sequences encoding for the cytoplasmic tail of the KDEL receptor , wild-type ( TKVLKGKKLSLPA ) and the dilysine mutant ( TKVLKGSSLSLPA ) , and p23 ( LRRFFKAKKLIE ) were subcloned into the pGEX-4T-3 vector .
+GST-Wbp1 and GST-Wbp1-SS constructs were obtained from P. Cosson ( University of Geneva ) .
+GST fusion proteins were purified using glutathione-Sepharose beads according to the manufacturer 's protocol ( Amersham Biosciences ) .
+Purified coatomer ( 500 ng ) or ARFGAP1 ( 50 ng ) were then incubated with GST fusion proteins ( 5 mug ) on glutathione beads in 0.5 ml incubation buffer ( 50 mM Hepes , pH 7.3 , 300 mM NaCl , 90 mM KCl , 1 mM EDTA , and 0.5 % NP-40 ) at 4degreesC for 1 h. Beads were washed three times with the same buffer and then analyzed by SDS-PAGE followed by Western blotting or Coomassie blue staining .
