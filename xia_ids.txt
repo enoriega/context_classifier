@@ -7,7 +7,7 @@ A375	Cellosaurus:CVCL_0132
 B cells	CellOntology:CL:0000236
 B lymphocytes	CellOntology:CL:0000236
 BCPAP	Cellosaurus:CVCL_0153
-BMMCs	manual:UA-CLine-100011)	# Appears to stand for "Bone marrow-derived mast cells", but species is underspecified. (Was: manual:UA-CLine-100011)
+BMMCs	manual:UA-CLine-100011	# Appears to stand for "Bone marrow-derived mast cells", but species is underspecified. (Was: manual:UA-CLine-100011)
 BaF3 cells	Cellosaurus:CVCL_0161
 C. elegans	taxonomy:6239
 C2C12	Cellosaurus:CVCL_0188
