@@ -44,7 +44,7 @@
 44						moreover , the activity of chokalpha be modulate by known effector of both ra and rhoa , .
 45						pharmacological inhibition of chokalpha have be propose as a novel antitumoral strategy .
 46						a strong support to this strategy be base on the use of mn58b , a well characterize chokalpha inhibitor , which display a potent antiproliferative effect in several tumoral cell line in vitro , and a strong reduction of tumor growth in nude mouse xenograft , - .
-47	uaz:UA-CLine-100104,uaz:UA-CLine-5690	 hek293t, mdck	c1,c2			we have compare the biochemical and biological property of chokalpha and chokbeta , and demonstrate that besides they homology , the latter be not able to induce cell transformation in hek293t or mdck cell .
+47	Cellosaurus:CVCL_0063,Cellosaurus:CVCL_0422	 hek293t, mdck	c1,c2			we have compare the biochemical and biological property of chokalpha and chokbeta , and demonstrate that besides they homology , the latter be not able to induce cell transformation in hek293t or mdck cell .
 48						moreover , we suggest differential behaviour between alpha and beta isoform in phospholipid metabolism .
 49			e16	c1,c2,c3		finally , the antitumoral property of mn58b can be attribute to its specific inhibition of chokalpha .
 50						the implication of these finding be discuss .
@@ -52,7 +52,7 @@
 52						characterization of enzymatic property of chokalpha1 and chokbeta isoform
 53						the activity of both choline kinase isoform , chokalpha1 and chokbeta , have be describe previously in different mammalian tissue , however they choline kinase and and or ethanolamine kinase activity be not fully characterize , , - .
 54	taxonomy:9606	human	s4, e17,e18,e19,e20	s4,c3		thus , we first carry out a comparative analysis of the in vitro kinase activity of the two human chokalpha1 and chokbeta isoform , regard they ability to phosphorylate choline and ethanolamine .
-55	uaz:UA-CLine-100104	hek293t	c3			hek293t cell be transfect with appropriate expression vector carry the human chka or chkb gene or a empty vector , and test for chok and etnk activity .
+55	Cellosaurus:CVCL_0063	hek293t	c3			hek293t cell be transfect with appropriate expression vector carry the human chka or chkb gene or a empty vector , and test for chok and etnk activity .
 56						expression level achieve be check by western blot , and the relative enzymatic activity from cell extract estimate .
 57						both chokalpha1 and chokbeta display choline and ethanolamine kinase activity under these experimental condition , but the rate of conversion be apparently different .
 58						10.1371 / journal.pone .0007819 .
@@ -74,7 +74,7 @@
 74						these result suggest that in cell-free system choline be a better substrate for chokalpha1 ( 2.85 fold ) than chokbeta , whereas ethanolamine be a better substrate for chokbeta ( 5.83 fold ) than chokalpha1 .
 75						chok isoform be differentially regulate by ra and rho gtpase
 76						since ra and rhoa gtpase be upstream regulator of chokalpha1 , , some of the most study protein of the small gtpase family include h-ra , and the rho family member rhoa and cdc42 be test as potential upstream modulator of chokbeta .
-77	uaz:UA-CLine-100104	hek293t	c4			to that end , a in vitro chok and etnk activity assay be perform in hek293t cell transfect with the constitutive active mutant of each gtpase and either chokalpha1 and chokbeta .
+77	Cellosaurus:CVCL_0063	hek293t	c4			to that end , a in vitro chok and etnk activity assay be perform in hek293t cell transfect with the constitutive active mutant of each gtpase and either chokalpha1 and chokbeta .
 78						as show in , none of the gtpase test be able to significantly increase choline or ethanolamine kinase activity of chokbeta .
 79			e21,e22	c4		by contrast , under similar condition , ra and rhoa be able to induce a statistically significant change in the activation of both chok and etnk activity of chokalpha1 .
 80						10.1371 / journal.pone .0007819 .
@@ -128,11 +128,11 @@
 128						chokbeta isoform show preferential etnk activity in vivo
 129						we next investigate if there be any difference in the enzymatic activity of both chok isoform under in vivo condition that could explain they differential biological activity .
 130						thus , the activity of chokalpha1 and chokbeta as chok and and or etnk in a whole-cell system be test .
-131	taxonomy:9606,uaz:UA-CLine-100104	human, hek293t	s5,c5			intracellular lipid of human hek293t overexpress chokalpha1 , chokbeta or transfect with a empty vector , be extract a analyze .
+131	taxonomy:9606,Cellosaurus:CVCL_0063	human, hek293t	s5,c5			intracellular lipid of human hek293t overexpress chokalpha1 , chokbeta or transfect with a empty vector , be extract a analyze .
 132						both , the insoluble lipid fraction contain the hydrophobic lipid and total protein content be use as load control obtain similar result .
 133						as show in , the intracellular phosphoethanolamine level be increase to a similar extent in chokalpha1-_NN or chokbeta transfect cell .
 134			e23	s5,s6,s7,t5,t6,c5,c6,c7	chokalpha1 transfect cell show a increase intracellular pcho level .	however , the intracellular phosphocholine level of chokbeta transfect cell be not significantly different to that of control cell , while chokalpha1 transfect cell show a increase intracellular pcho level .
-135	taxonomy:9606,tissuelist:TS-0595,uaz:UA-CLine-8182,taxonomy:9606,tissuelist:TS-0568,uaz:UA-CLine-3884	human, breast,sk-br-3, human, lung, h1299	s6,t5,c6,s7,t6,c7			similar result be obtain use epithelial cell of different origin : human breast adenocarcinoma cell sk-br-3 or the human Non Small cell lung cancer ( nsclc ) cell line h1299 .
+135	taxonomy:9606,tissuelist:TS-0595,Cellosaurus:CVCL_0033,taxonomy:9606,tissuelist:TS-0568,Cellosaurus:CVCL_0060	human, breast,sk-br-3, human, lung, h1299	s6,t5,c6,s7,t6,c7			similar result be obtain use epithelial cell of different origin : human breast adenocarcinoma cell sk-br-3 or the human Non Small cell lung cancer ( nsclc ) cell line h1299 .
 136						in addition , in all cell line analyze , protein expression be also determine by western blot analysis .
 137						10.1371 / journal.pone .0007819 .
 138						g005
@@ -210,7 +210,7 @@
 210						the above result suggest that the two chok isoform investigate , besides they similarity in they primary sequence , be implicate in different metabolic pathway .
 211			e47,e48,e49	s12,s8	thus while chokalpha1 impinge into both pc and pe synthesis , chokbeta affect only pe synthesis .	thus while chokalpha1 impinge into both pc and pe synthesis , chokbeta affect only pe synthesis .
 212						furthermore , the transformation capacity seem to be exclusive to the chokalpha isoform .
-213	taxonomy:9606,uaz:UA-CLine-100104,uaz:UA-CLine-8182,uaz:UA-CLine-3884	human, hek293t, sk-Br-3, h1299 cell	s13,c8,c9,c10,e50,e51,e52,e53	s13,c8,c9,c10	chokalpha1 overexpression produce elevated level of both pcho and petn , while similar chokbeta overexpression result only in higher level of petn	however , since in the human hek293t , sk-br-3 and h1299 cell line , chokalpha1 overexpression produce elevated level of both pcho and petn , while similar chokbeta overexpression result only in higher level of petn but normal level of pcho , we can not rule out the possibility that cell transformation require both chok and etnk activity .
+213	taxonomy:9606,Cellosaurus:CVCL_0063,Cellosaurus:CVCL_0033,Cellosaurus:CVCL_0060	human, hek293t, sk-Br-3, h1299 cell	s13,c8,c9,c10,e50,e51,e52,e53	s13,c8,c9,c10	chokalpha1 overexpression produce elevated level of both pcho and petn , while similar chokbeta overexpression result only in higher level of petn	however , since in the human hek293t , sk-br-3 and h1299 cell line , chokalpha1 overexpression produce elevated level of both pcho and petn , while similar chokbeta overexpression result only in higher level of petn but normal level of pcho , we can not rule out the possibility that cell transformation require both chok and etnk activity .
 214						consistent with the idea that link oncogenic activity to the function of chokalpha , but not chokbeta , the antiproliferative and antitumoral activity of mn58b be only associate to the activity of chokalpha .
 215						furthermore , as previously report , the in vivo treatment with mn58b result in a specific decrease of pcho level in the tumour but no significant effect on the level of petn .
 216						previous result from we group have demonstrate that mn58b also inhibit choline transport .

@@ -22,8 +22,8 @@
 22						within the body , excessive retinoid be store as re mainly in the liver and to a lesser extent in adipose tissue .
 23						accessibility and distribution of dietary re as well as the mobilization of intracellular re store require enzymatic activity from re hydrolase ( reh ) .
 24						the accessibility of dietary re necessitate extracellular reh in the intestine .
-25	uaz:UA-CT-30005	enterocytes	t1,e1,e2	t1		after uptake in enterocyte , retinol be re-esterified to re and pack into nascent chylomicron ( cm ) together with other dietary lipid such as triacylglycerol ( tg ) .
-26	uaz:UA-ORG-92	circulation	t2,e3	t2		in the circulation , these cm be deplete from lipid by lipoprotein lipase ( LPL ) mediated hydrolysis provide fatty acid ( fa ) and retinol for peripheral tissue .
+25	CellOntology:CL:0000584	enterocytes	t1,e1,e2	t1		after uptake in enterocyte , retinol be re-esterified to re and pack into nascent chylomicron ( cm ) together with other dietary lipid such as triacylglycerol ( tg ) .
+26	manual:UA-ORG-92	circulation	t2,e3	t2		in the circulation , these cm be deplete from lipid by lipoprotein lipase ( LPL ) mediated hydrolysis provide fatty acid ( fa ) and retinol for peripheral tissue .
 27	tissuelist:TS-0564	liver	t3			in liver , re-rich cm remnant be mainly take up by hepatocyte .
 28			e4,e5	t3		intracellularly , these re be hydrolyze and either release into the circulation , or re-esterified and store in cytosolic lipid droplet ( ld ) .
 29						yet , the vast majority of re be store in cytosolic ld of specialize liver cell , designate as hepatic stellate cell ( hsc ) , ito cell , or vitamin a storage cell .
@@ -41,9 +41,9 @@
 41						study in mutant mouse lack CEL ( cel-ko ) reveal unaltered intestinal dietary retinol uptake .
 42						on the other hand , the uptake of a non cleavable retinyl ether substrate be completely blunt confirm earlier study and indicate that the hydrolysis of re be a essential step prior to uptake by enterocyte .
 43	taxonomy:10090	mice	s1			analysis of reh activity in homogenate of pancreas show similar activity in cel-ko mouse compare to wild-type ( wt ) control .
-44	tissuelist:TS-0739	pancreatic	t6,e9,e10	t6,s1		importantly , pancreatic reh activity be stimulate in the presence of di- and trihydroxy bile-salt in both genotype .
+44	tissuelist:TS-0736	pancreatic	t6,e9,e10	t6,s1		importantly , pancreatic reh activity be stimulate in the presence of di- and trihydroxy bile-salt in both genotype .
 45						together , these datum imply that at least one additional bile-salt dependent reh must exist in the murine intestine .
-46	tissuelist:TS-0739,taxonomy:10090,taxonomy:10116	pancreatic, mouse, rat	t7,s2,s3			the pancreatic triglyceride lipase ( PTL ; EC 3.1.1.21 ) have be identify as intestinal reh in mouse and in rat .
+46	tissuelist:TS-0736,taxonomy:10090,taxonomy:10116	pancreatic, mouse, rat	t7,s2,s3			the pancreatic triglyceride lipase ( PTL ; EC 3.1.1.21 ) have be identify as intestinal reh in mouse and in rat .
 47			e11	t7,s2,s3		PTL preferentially hydrolyze tg and its catalytic activity depend on the presence of a co-lipase and millimolar concentration of dihydroxy bile acid such as deoxycholate or taurodeoxycholate ( review in ) .
 48						the characteristic of in vitro activity of PTL and CEL allow distinguish between these enzyme .
 49						under optimal assay condition for PTL ( dihydroxy bile-salt ) and cel ( trihydroxy bile-salt ) a substantial co-lipase-dependent reh activity be detect in pancreatic homogenate of wt and cel-ko mouse suggest a role of PTL as intestinal reh .
@@ -72,7 +72,7 @@
 72						interestingly , bpl-b be express and active at the distal end of the intestine , where enzymatic activity derive from pancreas be decline imply that this enzyme ensure efficient hydrolysis and absorption of vitamin a. however , its in vivo function have not be elucidate to date .
 73						2.2
 74						Retinyl ester hydrolase in the circulation
-75	uaz:UA-CT-30005	enterocytes	e21,e22,t9	t9		once dietary retinol enter enterocyte , it be re-esterified to re and pack together with tg and ce into nascent cm , which be finally release into circulation .
+75	CellOntology:CL:0000584	enterocytes	e21,e22,t9	t9		once dietary retinol enter enterocyte , it be re-esterified to re and pack together with tg and ce into nascent cm , which be finally release into circulation .
 76						two third of cm associate re be clear by the liver , where retinol be subsequently store primarily in ld of hsc .
 77	tissuelist:TS-0013,tissuelist:TS-0933,tissuelist:TS-0440,tissuelist:TS-0510	adipose tissue, skeletal muscle, cardiac muscle, kidney	t10,t11,t12,t13			the remain third of cm associate re be take up by peripheral tissue such as adipose tissue , skeletal muscle , cardiac muscle , and kidney .
 78			e23,e24	t10,t11,t12,t13		thus , peripheral tissue be directly supply by dietary vitamin a although the majority of retinoid be acquire from circulate retinol , complex to serum rbp4 ( review in ) .
@@ -172,7 +172,7 @@
 172	tissuelist:TS-0564	liver	t19			detailed analysis of mrna and protein expression reveal that murine es22 be highly express in liver , specifically in hepatocyte but not in hsc .
 173	tissuelist:TS-0454	hepatocytes	c4			es22 carry a hxel sequence at the c-terminus and overexpression of gfp label es22 confirm that this protein exclusively localize to the er .
 174						importantly , es22 exhibit specific activity toward re but only low or no activity for ce and tg , respectively .
-175	uaz:UA-CLine-100020	Cos-7	c5			most strikingly , es22 overexpression in cos-7 cell attenuate re accumulation in living cell underpin the pivotal role of es22 in re catabolism .
+175	Cellosaurus:CVCL_0224	Cos-7	c5			most strikingly , es22 overexpression in cos-7 cell attenuate re accumulation in living cell underpin the pivotal role of es22 in re catabolism .
 176			e53	t19,c4,c5		together , these datum argue for a role of es22 at the er where it possibly counteract the esterification of retinol .
 177						interestingly , the availability of retinol be show to alter rbp4 secretion .
 178			e54	t19,c4,c5		hence , it can be hypothesize that es22 reh activity promote retinol and rbp4 secretion .
@@ -190,7 +190,7 @@
 190						while the author demonstrate altered ce metabolism in hepatocyte derive from hsl deficient ( hsl-ko ) mouse , no datum be available in regard to re catabolism .
 191						thus , the role of hsl in liver re metabolism and in particular in hepatocyte be unknown and remain to be examine .
 192						3.2
-193	tissuelist:TS-0564	hepatic stellate cells	e55,c6	c6		Retinyl ester hydrolase in hepatic stellate cell
+193	tissuelist:TS-0452	hepatic stellate cells	e55,c6	c6		Retinyl ester hydrolase in hepatic stellate cell
 194						hsc ( also refer to as ito cell , fat store cell , or lipocyte ) play a pivotal role in retinoid metabolism and homeostasis as they store the majority of all re present within the entire body .
 195						hsc be scarce and small in size , represent only 5-8 % of the total number of hepatic cell and account for ~ 1 % of total protein present in the liver .
 196						stellate cell not only exist in liver but also in small number throughout the body , in tissue such as pancreas , brain , kidney , and other .
@@ -198,7 +198,7 @@
 198						hsc contain distinctive cytosolic ld .
 199						a characteristic of these organelle be they unique lipid composition : unlike ld find in cell of other tissue , hsc ld comprise equal amount of re and tg account together for more than 75 % of total lipid content .
 200						the prominent re species be retinyl palmitate ( 70-75 % ) , follow by retinyl stearate , retinyl oleate , and retinyl linoleate .
-201	uaz:UA-CT-30000	HSCs	c7,e56	c7		accord to the physiological function of hsc as major re storage site , these cell contain high level of lecithin : retinol acyltransferase ( lrat ) and crbp1 which be the major protein in liver retinol esterification and intracellular retinoid transport , respectively .
+201	CellOntology:CL:0000037	HSCs	c7,e56	c7		accord to the physiological function of hsc as major re storage site , these cell contain high level of lecithin : retinol acyltransferase ( lrat ) and crbp1 which be the major protein in liver retinol esterification and intracellular retinoid transport , respectively .
 202						the mobilization of hsc re store have be demonstrate to play a major role in the supply of retinol to extrahepatic tissue for conversion to biologically active metabolite , particularly under condition of retinoid insufficiency .
 203						also , liver fibrosis be directly link to hsc re store : hsc be usually inactive or quiescent , but in case of liver injury they undergo a activation process in which they become highly proliferative .
 204						the result activate hsc take on a fibrogenic myofibroblast like phenotype and lose they re-containing ld .
@@ -223,7 +223,7 @@
 223						furthermore , recent study by Mello et al. .
 224						report that the expression of several carboxylesterase ( rat es3 , es4 , and es10 ) be not detectable in hsc , but be rather exclusive in hepatocyte .
 225						several other well describe lipase such as hsl and PTL be not find to be express in hsc .
-226	taxonomy:10116,uaz:UA-CT-30000	rat,HSCs	s11,c70			interestingly , adipose triglyceride lipase ( atgl ) be find to be express in rat hsc .
+226	taxonomy:10116,CellOntology:CL:0000037	rat,HSCs	s11,c70			interestingly , adipose triglyceride lipase ( atgl ) be find to be express in rat hsc .
 227			e58	s11,c70		as atgl have be report to specifically hydrolyze tg but not re or ce it render a role for atgl as reh unlikely .
 228						despite the fact that a number of reh have be show to be express in hsc , the preferred localization in the extracellular space ( see CEL ) , in hepatocyte rather than hsc ( see es10 ) , and they substrate specificity ( see atgl ) challenge they potential role in re mobilization in hsc .
 229						importantly , enzyme ( s ) involve in intracellular mobilization of re from hsc require ( s ) ld localization and lipid and water interphase activation .

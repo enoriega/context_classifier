@@ -136,7 +136,7 @@
 141			e180,e19	c3		parva phosphorylation increase during cell spreading .
 142						phosphorylation during cell attachment and spreading appear to depend on erk activity .
 143						erk be recruit to fa by paxillin during cell spreading .
-144	tissuelist:TS-0723	osteosarcoma (U2OS) cells	c3			a quintuple mutant of PARVA , in which all four n-terminal serine and t16 be mutate , be not phosphorylate and function as dominant negative , inhibit cell spreading and motility but increase f-actin formation in human osteosarcoma ( u2o ) cell .
+144	Cellosaurus:CVCL_0042	osteosarcoma (U2OS) cells	c3			a quintuple mutant of PARVA , in which all four n-terminal serine and t16 be mutate , be not phosphorylate and function as dominant negative , inhibit cell spreading and motility but increase f-actin formation in human osteosarcoma ( u2o ) cell .
 145	tissuelist:TS-0510	kidney podocytes	c4,e20,e21	c4		in kidney podocyte , overexpression of a PARVA mutant , in which the nterminal proline direct serine phosphorylation site be delete , reduce PARVA complex formation with ilk and inhibit podocyte adhesion , spread and survival , suggest a important role of parva phosphorylation in regulation of these process .
 146						the interaction of parva with tesk1 be also regulate by proline direct serine phosphorylation of PARVA .
 147						unphosphorylated parva bind to tesk1 and inhibit its activity , therefore allow cofilin to reduce actin polymerization and spreading .
@@ -179,8 +179,8 @@
 184						consistent with these observation , overexpression of unphosphorylatable PARVA mutant ( by deletion or mutation of n-terminal site ) act as dominant negative inhibitor of cell spreading , presumably by stay lock into a inactive tesk1 complex .
 185						similarly , overexpression of the ch2 domain of PARVA also inhibit cell spreading , despite proper localization to fa .
 186						it be unclear whether ch1 interacting protein , equivalent to the binding of arhgef6 to PARVB , also interact with parva and modulate its function at the fa .
-187	uaz:UA-ORG-727	platelets	c6,e25,e26,e27,e28	c6		in platelet , a ilk and parvb complex be rapidly recruit to integrin beta3 upon thrombin stimulation , result in a transient increase in ilk activity and phosphorylation of parvb follow by translocation of the ILK and PARVB complex to the cytoskeletal fraction , where it may promote integrin-cytoskeleton interaction .
-188	uaz:UA-CLine-100019	CHO cells	c7			in cho cell , overexpression of the ch2 domain of parvb block cell spreading .
+187	CellOntology:CL:0000233	platelets	c6,e25,e26,e27,e28	c6		in platelet , a ilk and parvb complex be rapidly recruit to integrin beta3 upon thrombin stimulation , result in a transient increase in ilk activity and phosphorylation of parvb follow by translocation of the ILK and PARVB complex to the cytoskeletal fraction , where it may promote integrin-cytoskeleton interaction .
+188	tissuelist:TS-0725	CHO cells	c7			in cho cell , overexpression of the ch2 domain of parvb block cell spreading .
 189			e29	c7		this effect be reverse by cotransfection of ilk with intact kinase activity , suggest that phosphorylation of parvb by ILK may play a role in promote cell spreading .
 190						the n-terminus of parvb ch2 domain ( amino acid 249-272 ) interact with alpha-actinin ( n-terminal abd and c-terminal ef-hand domain ) only upon engagement of integrin with the ECM , with a peak at 60 min post-adhesion , when cell spreading be most active .
 191						the interaction with alpha-actinin require phosphorylation of the ch2 domain of parvb by ILK upon cell adhesion .

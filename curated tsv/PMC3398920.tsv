@@ -61,7 +61,7 @@
 61						such activity suggest to we that coro1a could be possibly involve in a cross-talk between the f-actin cytoskeleton and the process of rac1 translocation and and or activation .
 62			E8	C2,C3,C4,S1	coro1a induce the f-actin-dependent translocation and activation of rac1 in the plasma membrane .	consistent with this idea , we could demonstrate that the overexpression of coro1a induce the f-actin-dependent translocation and activation of rac1 in the plasma membrane .
 63					conversely , its inactivation lead to ineffective activation of rac1 and rac1-downstream route .	conversely , its inactivation lead to ineffective activation of rac1 and rac1-downstream route .
-64	uaz:UA-CLine-100091,uaz:UA-CLine-100002,uaz:UA-CLine-2244	COS1, 293T, Jurkat	C2,C3,C4			this pathway be active in a number of cell type ( cos1 , 293t , jurkat cell ) and cellular stimulation condition ( egf signaling , integrin mediate adhesion , t-cell receptor stimulation ) .
+64	Cellosaurus:CVCL_0223,Cellosaurus:CVCL_0063,Cellosaurus:CVCL_0065	COS1, 293T, Jurkat	C2,C3,C4			this pathway be active in a number of cell type ( cos1 , 293t , jurkat cell ) and cellular stimulation condition ( egf signaling , integrin mediate adhesion , t-cell receptor stimulation ) .
 65						figure2 .
 66						scheme of the cellomic screen use in the work review here .
 67						the first screening be conduct use a expression library of 135,000 independent cdna clone obtain from human t cell .

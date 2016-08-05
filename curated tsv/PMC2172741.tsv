@@ -3,7 +3,7 @@
 3						This , in turn , recruits and activates cytosolic effectors with PtdIns-3 ,4,5 - P 3 -binding pleckstrin homology ( PH ) domains , thereby controlling important cellular functions such as proliferation , survival , or chemotaxis .
 4			e2	c2	The class I B p110gamma and p101 PI3Kgamma is activated by Gbetagamma on stimulation of G protein coupled receptors .	The class I B p110gamma and p101 PI3Kgamma is activated by Gbetagamma on stimulation of G protein coupled receptors .
 5						It is currently unknown whether in living cells Gbetagamma acts as a membrane anchor or an allosteric activator of PI3Kgamma , and which role its noncatalytic p101 subunit plays in its activation by Gbetagamma .
-6	uaz:UA-CLine-7847	HEK cells	c1,e3,e4,e5,e6,e7	c1	Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .	Using GFP tagged PI3Kgamma subunits expressed in HEK cells , we show that Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .
+6	Cellosaurus:CVCL_0045	HEK cells	c1,e3,e4,e5,e6,e7	c1	Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .	Using GFP tagged PI3Kgamma subunits expressed in HEK cells , we show that Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .
 7					Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .	Accordingly , p101 was found to be required for G protein mediated activation of PI3Kgamma in living cells , as assessed by use of GFP tagged PtdIns-3 ,4,5 - P 3 -binding PH domains .
 8					Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .	Furthermore , membrane targeted p110gamma displayed basal enzymatic activity , but was further stimulated by Gbetagamma , even in the absence of p101 .
 9					Gbetagamma recruits the enzyme from the cytosol to the membrane by interaction with its p101 subunit .	Therefore , we conclude that in vivo , Gbetagamma activates PI3Kgamma by a mechanism assigning specific roles for both PI3Kgamma subunits , i.e. , membrane recruitment is mediated via the noncatalytic p101 subunit , and direct stimulation of Gbetagamma with p110gamma contributes to activation of PI3Kgamma .
@@ -71,7 +71,7 @@
 71						( C ) Cells were transfected with plasmids encoding fluorescent p110gamma and p101 at different ratios .
 72						The total amount of transfected cDNA was kept constant by the addition of pcDNA3 .
 73						Equal amounts of whole-cell lysates were subjected to SDS-PAGE followed by immunoblotting with an anti-GFP antibody .
-74	uaz:UA-CLine-7847	HEK cells	c2			To explore the possibility that expression levels of p101 could depend on the coexpression of p110gamma , we transfected HEK cells with different ratios of plasmids encoding fluorescent p110gamma or p101 and analyzed total cell lysates by immunoblotting using an anti-GFP antibody ( C ) .
+74	Cellosaurus:CVCL_0045	HEK cells	c2			To explore the possibility that expression levels of p101 could depend on the coexpression of p110gamma , we transfected HEK cells with different ratios of plasmids encoding fluorescent p110gamma or p101 and analyzed total cell lysates by immunoblotting using an anti-GFP antibody ( C ) .
 75						The expression level of p110gamma correlated with the amount of the p110gamma ( but not the p101 ) plasmid .
 76						In contrast , the expression level of p101 was also dependent on the amount of the p110gamma plasmid .
 77						Hence , the stability of p101 depends on the coexpression of p110gamma , but not vice versa .
@@ -120,7 +120,7 @@
 120						To avoid rounding and detachment of the cells , the kinase deficient mutant YFP-p110gamma-K833R was used .
 121						Membrane fractions were prepared and analyzed by immunoblotting with anti-p110gamma and anti-Gbeta antibodies .
 122			e17	c3	p110gamma and p101 heterodimers	Next , we examined the subcellular localization of p110gamma and p101 heterodimers in the presence of free Gbetagamma .
-123	uaz:UA-CLine-7847	HEK cells	c3			When coexpressed with p101 and Gbetagamma , the p110gamma fluorescent signal was at , or close to , plasma and endosomal membranes of HEK cells ( C , top ) .
+123	Cellosaurus:CVCL_0045	HEK cells	c3			When coexpressed with p101 and Gbetagamma , the p110gamma fluorescent signal was at , or close to , plasma and endosomal membranes of HEK cells ( C , top ) .
 124						The same picture emerged when the YFP-tag was fused to p101 ( unpublished data ) .
 125						Correspondingly , CFP tagged Gbeta 1 coexpressed with Ggamma 2 exhibited a similar subcellular distribution like fluorescent heterodimeric PI3Kgamma ( compare C and 4 D ) , and immunoblotting of membrane derived proteins confirmed an enrichment of PI3Kgamma in the membrane compartment after overexpression of Gbetagamma ( E ) .
 126			e18	c3	Gbetagamma directs cytosolic PI3Kgamma to the membrane via interaction with p101 .	Together , these data imply that Gbetagamma directs cytosolic PI3Kgamma to the membrane via interaction with p101 .
@@ -130,7 +130,7 @@
 130			e20	c3	p101 is required for G protein mediated activation of p110gamma in vivo	p101 is required for G protein mediated activation of p110gamma in vivo
 131			e21	c3	phosphorylation of endogenous protein kinase B ( PKB or Akt )	Because changes in morphology are not a very reliable measure of PI3K activity , we examined phosphorylation of endogenous protein kinase B ( PKB or Akt ) as an established PI3K specific read-out system .
 132			e22	c3	PI3Kgamma stimulation by overexpressed Gbetagamma	To avoid detachment of the cells as a consequence of constitutive PI3Kgamma stimulation by overexpressed Gbetagamma , we transiently stimulated the heterologously expressed G i -coupled formyl-methionyl-leucyl-phenylalanine ( fMLP ) receptor , which is known to activate PI3Kgamma .
-133	uaz:UA-CLine-7847	HEK cells	e23,c4	c3	Stimulation with fMLP induced Akt phosphorylation	Stimulation with fMLP induced Akt phosphorylation in HEK cells in the same range as with FCS ( A ) .
+133	Cellosaurus:CVCL_0045	HEK cells	e23,c4	c3	Stimulation with fMLP induced Akt phosphorylation	Stimulation with fMLP induced Akt phosphorylation in HEK cells in the same range as with FCS ( A ) .
 134			e24,e25	c4	Akt phosphorylation was only seen when the receptor was coexpressed with both PI3Kgamma subunits	However , Akt phosphorylation was only seen when the receptor was coexpressed with both PI3Kgamma subunits , and not with p110gamma alone .
 135			e26	c4	 p101 is required for GPCR induced activation of PI3Kgamma in vivo .	These data imply that p101 is required for GPCR induced activation of PI3Kgamma in vivo .
 136						Figure 5 .
@@ -167,7 +167,7 @@
 167			e36	c4	Vice versa , Gbetagamma behaves as a membrane anchor recruiting PI3Kgamma through association with p101 .	Vice versa , Gbetagamma behaves as a membrane anchor recruiting PI3Kgamma through association with p101 .
 168						So far , these experiments did not clarify whether membrane recruitment itself is sufficient for activation of the enzyme or whether additional allosteric stimulation is required .
 169						To tackle this question , we generated p110gamma mutants containing a COOH-terminal isoprenylation signal , i.e. , a CAAX-box motif , which constitutively localizes p110gamma to the plasma membrane .
-170	uaz:UA-CLine-7847	HEK cells	e37,c5	c5	p110gamma-CAAX accumulated at the plasma membrane of HEK cells , and was able to complex with p101 ( , top ) .	p110gamma-CAAX accumulated at the plasma membrane of HEK cells , and was able to complex with p101 ( , top ) .
+170	Cellosaurus:CVCL_0045	HEK cells	e37,c5	c5	p110gamma-CAAX accumulated at the plasma membrane of HEK cells , and was able to complex with p101 ( , top ) .	p110gamma-CAAX accumulated at the plasma membrane of HEK cells , and was able to complex with p101 ( , top ) .
 171						Coexpression of Gbetagamma together with YFP-p110gamma-CAAX increased not only fluorescent staining of endomembranes , but also produced a wortmannin sensitive rounding of the cells ( , bottom ) even in the absence of p101 ( not depicted ) , which was similar to the effect after coexpression of Gbetagamma with p110gamma and p101 dimers ( see C ) .
 172			e39	c5	These observations imply that membrane bound PI3Kgamma is not fully active , but can be further activated by Gbetagamma .	These observations imply that membrane bound PI3Kgamma is not fully active , but can be further activated by Gbetagamma .
 173						Figure 6 .
@@ -228,11 +228,11 @@
 228						Convincing evidence for this assumption has come from reconstitution of purified proteins , demonstrating that in vitro , the enzymatic activity of heterodimeric and monomeric PI3Kgamma is significantly stimulated by Gbetagamma .
 229						However , when we challenged the concept in living cells , marked differences in the sensitivities between heterodimeric and monomeric PI3Kgamma emerged .
 230			e45	c7	The G protein coupled fMLP receptor activated p110gamma and p101	The G protein coupled fMLP receptor activated p110gamma and p101 , but not p110gamma , as evident from the translocation of fluorescent PtdIns-3 ,4,5 - P 3 sensors or the stimulation of Akt phosphorylation .
-231	uaz:UA-CLine-7847	HEK cells	c7			Likewise , coexpressed Gbetagamma recruited p110gamma and p101 , but not p110gamma , to membranes of HEK cells .
+231	Cellosaurus:CVCL_0045	HEK cells	c7			Likewise , coexpressed Gbetagamma recruited p110gamma and p101 , but not p110gamma , to membranes of HEK cells .
 232						Interestingly , PI3Kbeta , another Gbetagamma regulated PI3K , did not translocate to the membrane on GPCRs or Gbetagamma stimulation , whereas RTKs induced membrane recruitment in vivo ( unpublished data ) .
 233						Does membrane recruitment of PI3Kgamma by itself result in constitutive activation of p110gamma ?
 234						To answer this intriguing question , we used an isoprenylated mutant of p110gamma , i.e. , p110gamma-CAAX , which is permanently attached to the membrane , and thereby , is in close proximity to its lipid substrates .
-235	uaz:UA-CLine-7847,uaz:UA-ORG-1094	hek cells, vsm cells	c8,c9			Expression of p110gamma-CAAX only slightly enhanced membrane association of fluorescent PtdIns-3 ,4,5 - P 3 sensors in HEK or VSM cells .
+235	Cellosaurus:CVCL_M624,tissuelist:TS-1107	hek cells, vsm cells	c8,c9			Expression of p110gamma-CAAX only slightly enhanced membrane association of fluorescent PtdIns-3 ,4,5 - P 3 sensors in HEK or VSM cells .
 236						Notably , it did not affect the morphology of HEK cells .
 237						In contrast , coexpression of Gbetagamma together with p110gamma-CAAX induced morphological changes comparable to cells transfected with plasmids encoding Gbetagamma and p110gamma and p101 .
 238			e46	c8,c9	fMLP stimulated Akt phosphorylation	Furthermore , stimulation of the cells with fMLP stimulated Akt phosphorylation and membrane recruitment of PH domains regardless of whether p110gamma and p101 or p110gamma-CAAX was the effector .

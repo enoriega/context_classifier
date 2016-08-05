@@ -213,7 +213,7 @@
 213						Our DXMS results provide a framework for designing further structural and biochemical approaches to understand regulation of the PI3K and PI3K like enzyme families .
 214						Experimental Procedures
 215						Protein Expression and Kinase Assays
-216	uaz:UA-CLine-1696	Sf9 cells	C3			All protein constructs were expressed in Sf9 cells as described for the DeltaABD-p110delta .
+216	Cellosaurus:CVCL_0549	Sf9 cells	C3			All protein constructs were expressed in Sf9 cells as described for the DeltaABD-p110delta .
 217						Full details are described in the .
 218						Lipid Kinase Assays
 219						The lipid kinase activity was determined using a modified membrane capture assay measuring production of 32P labeled PIP3 .

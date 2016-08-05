@@ -1,9 +1,9 @@
 1						a novel neural Wiskott-Aldrich syndrome protein ( n-wasp ) binding protein , Wish , induce arp2 and 3 complex activation Independent of cdc42
 2						we identify a novel adaptor protein that contain a src homology ( sh ) 3 domain , sh3 binding proline rich sequence , and a leucine zipper like motif and term this protein WASP interact sh3 protein ( wish ) .
-3	uaz:UA-ORG-623,tissuelist:TS-1030	neural tissue, testis	e1,t1,t2	t1,t2	wish be express predominantly in neural tissue and testis .	wish be express predominantly in neural tissue and testis .
+3	Uberon:UBERON:0003714,tissuelist:TS-1030	neural tissue, testis	e1,t1,t2	t1,t2	wish be express predominantly in neural tissue and testis .	wish be express predominantly in neural tissue and testis .
 4						it bind Ash and grb2 through its proline rich region and neural wiskott-aldrich syndrome protein ( n-wasp ) through its sh3 domain .
 5			e2	c1	wish strongly enhance n-wasp-induced arp2 and 3 complex activation	wish strongly enhance n-wasp-induced arp2 and 3 complex activation independent of cdc42 in vitro , result in rapid actin polymerization .
-6	uaz:UA-CLine-100020	cos7 cell	c1			furthermore , coexpression of wish and n-wasp induce marked formation of microspike in cos7 cell , even in the absence of stimulus .
+6	Cellosaurus:CVCL_0224	cos7 cell	c1			furthermore , coexpression of wish and n-wasp induce marked formation of microspike in cos7 cell , even in the absence of stimulus .
 7						a n WASP mutant ( h208d ) that can not bind cdc42 still induce microspike formation when coexpress with wish .
 8						we also examine the contribution of wish to a rapid actin polymerization induce by brain extract in vitro .
 9						arp2 and 3 complex be essential for brain extract induce rapid actin polymerization .
@@ -32,7 +32,7 @@
 32						in this study , we identify a novel Ash and grb2 binding protein that contain a sh3 domain , sh3 binding proline rich sequence , and a leucine zipper like motif .
 33			e4	c2	wish bind n-wasp through its sh3 domain .	we name this protein WASP interact sh3 protein ( wish ) , because wish bind n-wasp through its sh3 domain .
 34			e5,e6	c2	 wish further enhance n-wasp-induced arp2 and 3 complex activation	in addition , we demonstrate that wish further enhance n-wasp-induced arp2 and 3 complex activation independent of cdc42 in vitro .
-35	uaz:UA-CLine-100020	cos7 cell	c2			furthermore , coexpression of wish and n-wasp induce marked formation of microspike in cos7 cell even in the absence of stimulus , and a n WASP mutant ( h208d ) that can not bind cdc42 also induce microspike formation when coexpress with wish .
+35	Cellosaurus:CVCL_0224	cos7 cell	c2			furthermore , coexpression of wish and n-wasp induce marked formation of microspike in cos7 cell even in the absence of stimulus , and a n WASP mutant ( h208d ) that can not bind cdc42 also induce microspike formation when coexpress with wish .
 36	tissuelist:TS-0095	brain	e7,t3	t3	 WISH have a alternative route in addition to the route via n-wasp , to activate arp2 and 3 complex	use n-wasp-depleted brain extract , we also show that WISH have a alternative route in addition to the route via n-wasp , to activate arp2 and 3 complex in brain extract induce rapid actin polymerization .
 37						Materials and method
 38						glutathione s-transferase fusion protein
@@ -143,18 +143,18 @@
 143						we then examine expression of WISH in a variety of cell line by western blotting and find that neuronal cell line n1e-115 and pc12 contain larger amount of wish than cos7 cell , balb 3t3 cell , and c3h10t1 and 2 cell ( datum not show ) .
 144						WISH Associates with Ash and grb2 sh3 domain via Proline rich sequence
 145			e12	c4	 association between WISH and Ash and grb2	to confirm the association between WISH and Ash and grb2 , we perform coimmunoprecipitation experiment .
-146	uaz:UA-CLine-100020	cos7 cell	c4			myc tag full-length wish expression plasmid ( myc-wish ) and empty vector ( myc-vec ) be transfect transiently into cos7 cell , and interaction be detect by western blot analysis after precipitation with anti-myc antibody ( a ) .
+146	Cellosaurus:CVCL_0224	cos7 cell	c4			myc tag full-length wish expression plasmid ( myc-wish ) and empty vector ( myc-vec ) be transfect transiently into cos7 cell , and interaction be detect by western blot analysis after precipitation with anti-myc antibody ( a ) .
 147						only immunoprecipitate from myc tag wish transfect cell lysate contain Ash and grb2 ( a , lane 2 ) .
 148						the positive signal be specific , as anti-myc immunoprecipitate from cell transfect with empty vector do not give positive signal ( a , lane 1 ) .
 149						the two band above the Ash and grb2 band in a be the light chain of the anti-myc antibody .
 150						we then examine whether endogenous wish associate with Ash and grb2 by immunoprecipitation with anti-wish antibody use n1e-115 cell lysate .
-151	uaz:UA-CLine-6607	n1e-115	e13,c5	c5	endogenous wish associate with Ash and grb2	b show that endogenous wish associate with Ash and grb2 in n1e-115 cell as well .
+151	Cellosaurus:CVCL_0451	n1e-115	e13,c5	c5	endogenous wish associate with Ash and grb2	b show that endogenous wish associate with Ash and grb2 in n1e-115 cell as well .
 152						wish have putative sh3 binding motif ( proline rich sequence ) as describe above .
 153						to clarify whether these proline rich sequence in WISH can associate with the sh3 domain of Ash and grb2 , we use a variety of gst fusion protein of Ash and grb2 such as full-length Ash and grb2 ( gst-ash ) , the nh2-terminal sh3 domain ( gst-ashn ) , and the cooh-terminal sh3 domain ( gst-ashc ) , and the histidine tag proline rich sequence of WISH ( His-Pro , amino acid 132-268 ) , and carry out in vitro binding assay .
 154			e14,e15	c4,c5	sh3 domain of Ash and grb2 bind strongly to the proline rich sequence in WISH .	as show in c , both sh3 domain of Ash and grb2 bind strongly to the proline rich sequence in WISH .
 155			e16	c4,c5	sh3 domain of the 85-kd subunit of pi 3-kinase and plcgamma1 also bind to the proline rich sequence in WISH in vitro ( datum not show ) .	sh3 domain of the 85-kd subunit of pi 3-kinase and plcgamma1 also bind to the proline rich sequence in WISH in vitro ( datum not show ) .
 156			e17	c6	WISH bind to n-wasp via its sh3 domain	WISH bind to n-wasp via its sh3 domain
-157	uaz:UA-CLine-6607	n1e-115	c6			to investigate wish signaling , we search for wish binding protein in n1e-115 cell lysate prelabele with [ 35 ] methionine by immunoprecipitation with anti-wish antibody .
+157	Cellosaurus:CVCL_0451	n1e-115	c6			to investigate wish signaling , we search for wish binding protein in n1e-115 cell lysate prelabele with [ 35 ] methionine by immunoprecipitation with anti-wish antibody .
 158						as show in a , several protein be find to coprecipitate specifically with wish .
 159						among they , the band at 65 kd be particularly strong .
 160						we postulate that this protein be n-wasp , because n-wasp be a 65-kd protein and possess a proline rich region that may serve as a target for the WISH sh3 domain .
@@ -210,7 +210,7 @@
 210						these finding suggest that wish activate arp2 and 3 complex not only in a n-wasp-dependent manner but also in a n-wasp-independent manner .
 211						wish and n-wasp induce Microspike formation cooperatively in Vivo
 212						to examine whether WISH stimulate n-wasp-induced microspike formation , wish and n-wasp be coexpress in cos7 cell .
-213	uaz:UA-CLine-100020	cos7 cell	c7			expression of wish or n-wasp alone do not cause any morphological change in cos7 cell ( a ) .
+213	Cellosaurus:CVCL_0224	cos7 cell	c7			expression of wish or n-wasp alone do not cause any morphological change in cos7 cell ( a ) .
 214						in response to egf stimulation , however , n-wasp-expressing cell form microspike , whereas wish expressing cell do not .
 215						when WISH and n-wasp be coexpress , microspike formation be induce even in the absence of egf ( b ) , though the structure of actin filament be also alter .
 216						to clarify whether cdc42 be necessary for n-wasp-induced microspike formation when WISH be present , we use a n WASP mutant ( h208d ) that can not bind cdc42 .

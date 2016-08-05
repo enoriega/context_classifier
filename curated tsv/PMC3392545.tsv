@@ -69,7 +69,7 @@
 69						the affinity of these two mutant be reduce to 28 and 52 mum , respectively .
 70						mutation of t263a and pro264a also reduce c-di-gmp binding .
 71						in addition , mutation t267a reduce c-di-gmp binding affinity by nearly 7 fold ( kd of ~ 31 mum , ) .
-72	uaz:UA-CLine-100104	HEK293T	c1			since human sting be not sensitive to c-di-gmp when express in hek293t cell , we establish a ifn-beta luciferase reporter assay for the mouse sting that respond to c-di-gmp .
+72	Cellosaurus:CVCL_0063	HEK293T	c1			since human sting be not sensitive to c-di-gmp when express in hek293t cell , we establish a ifn-beta luciferase reporter assay for the mouse sting that respond to c-di-gmp .
 73						mutation in mouse sting that correspond to the human sting residue involve in c-di-gmp binding be examine use the assay .
 74						consistent with previous study , mutant i199n do not express well and fail to respond to c-di-gmp .
 75						although the remain six mutant express normally , mutant y239 and e259a also fail to respond to c-di-gmp .

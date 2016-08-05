@@ -21,7 +21,7 @@
 21	tissuelist:TS-0595,tissuelist:TS-0095	breast, brain	e13,t1,t2	t1,t2		to determine whether kg5 could suppress this activity in vivo , we analyze orthotopic breast and brain tumor tissue for phospho-s338 craf before or after systemic delivery of the drug .
 22						a single kg5 treatment lead to a qualitative decrease in phospho-s338 craf and a accumulation of cell at pro-metaphase .
 23						importantly , while ectopic expression of active mek fail to rescue the effect of kg5 on cell proliferation , cell express a phospho-mimetic s338d craf mutant show resistance to kg5 suggest CRAF s338 play a mek independent role in cell proliferation that can be reverse by a allosteric inhibitor .
-24	taxonomy:10090,uaz:UA-CLine-100060	mouse, embryonic fibroblasts	s3,c2			we next examine mouse embryonic fibroblast ( mef ) derive from CRAF knockout embryo ( craf-/- ) .
+24	taxonomy:10090,tissuelist:TS-0239	mouse, embryonic fibroblasts	s3,c2			we next examine mouse embryonic fibroblast ( mef ) derive from CRAF knockout embryo ( craf-/- ) .
 25						asynchronize craf-/- mef show a significant increase in the number of cell in g2 and m and pro-metaphase , compare to wildtype ( wt ) mef .
 26						follow synchronization , craf-/- mef accumulate in pro-metaphase with a dramatic delay in mitotic progression .
 27						depletion of CRAF in tumor cell , similarly lead to a accumulation of cell in g2 and m .

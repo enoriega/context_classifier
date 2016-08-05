@@ -36,7 +36,8 @@ def main(ids_path, tsv_path):
 
     # Build the dictionary
     with open(ids_path) as f:
-        ids = {k:v for k, v in [l.strip().split('\t') for l in f]}
+        tokens = [l.strip().split('\t')[:2] for l in f]
+        ids = {k:v for k, v in tokens}
 
     # Read the tsv file
     with open(tsv_path) as f:
