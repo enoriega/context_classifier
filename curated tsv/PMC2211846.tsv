@@ -172,7 +172,7 @@
 172						cytofluorometric analysis show that the number of annexin v bind site increase in wt cell with a maximum reach at 100 ng and ml ( c ) .
 173						activate ntal-/- cell exhibit higher PS externalization than activate wt cell , and again the most dramatic difference be observe at a suboptimal dose of ag ( 10 ng and ml ) .
 174						as expect , no PS externalization in WT or ntal-/- cell be observe in the absence of extracellular ca2+ ( not depict ) .
-175	manual:UA-CLine-100011	BMMCs	c8			tyrosine phosphorylation of lat be enhance in ntal-/- bmmc .
+175	uaz:UA-CLine-100011	BMMCs	c8			tyrosine phosphorylation of lat be enhance in ntal-/- bmmc .
 176						next we assess the tyrosine phosphorylation of several protein know to be involve in the initial stage of fcepsilonrus signaling .
 177						when total lysate from ag activate cell be analyze by immunoblot with py-20 mab , the most significant difference between WT and ntal-/- cell be the absence in ntal-/-_NN cell of a 30-kd phosphorylated protein correspond in molecular weight to ntal ( d ) .
 178						furthermore , ntal-/- cell exhibit a increased tyrosine phosphorylation of a 38-kd protein , correspond to lat ( see end of this paragraph ) .
@@ -219,10 +219,10 @@
 219						total enzymatic activity of shp-2 phosphatase , as detect by in-gel assay , be higher in nonactivated ntal-/-_NN than in wt cell ( 2.8 + /- 0.3-fold increase , n = 3 ) and remain higher after fcepsilonrus triggering at all time interval analyze .
 220			e39	c10	NTAL be a major tyrosine phosphorylate target of grb2 .	NTAL be a major tyrosine phosphorylate target of grb2 .
 221			e40,e41	c10	5 of the total 10 consensus tyrosine phosphorylation site in NTAL , and in lat , be of the YXN type ( where x be any amino acid ) , and be thus potential binding site for the sh2 domain of the cytoplasmic adaptor grb2 .	5 of the total 10 consensus tyrosine phosphorylation site in NTAL , and in lat , be of the YXN type ( where x be any amino acid ) , and be thus potential binding site for the sh2 domain of the cytoplasmic adaptor grb2 .
-222	manual:UA-CLine-100011	BMMCs	e42,c10	c10	 association of ntal and grb2	Anti-NTAL immunoblotting of grb2 immunoprecipitate show a enhanced association of ntal and grb2 after fcepsilonrus engagement in WT BMMCs ( c ) .
+222	uaz:UA-CLine-100011	BMMCs	e42,c10	c10	 association of ntal and grb2	Anti-NTAL immunoblotting of grb2 immunoprecipitate show a enhanced association of ntal and grb2 after fcepsilonrus engagement in WT BMMCs ( c ) .
 223			e43	c10	among the tyrosine phosphorylated protein in activate wt cell , ntal be a major grb2 target	among the tyrosine phosphorylated protein in activate wt cell , ntal be a major grb2 target , as determine by py-20 immunoblotting .
 224			e44,e45	c10	more tyrosine phosphorylated protein of 38 kd , presumably lat , be bind to grb2	interestingly , more tyrosine phosphorylated protein of 38 kd , presumably lat , be bind to grb2 in ntal-/-_NN cell compare with wt cell .
-225	manual:UA-CLine-100011	BMMCs	c11			enhance plcgamma activity and calcium response in ntal-/- bmmc .
+225	uaz:UA-CLine-100011	BMMCs	c11			enhance plcgamma activity and calcium response in ntal-/- bmmc .
 226						the observed increase in tyrosine phosphorylation of lat imply elevated level of plcgamma activity in ntal-/-_NN cell , and we therefore evaluate the property of immunoisolated plcgamma .
 227						datum present in a indicate that tyrosine phosphorylation of plcgamma1 be indeed enhance ; 2 and 5 min after ag trigger the enhancement be , respectively , 4.8- and 4-fold higher in ntal-/-_NN cell than in wt cell .
 228						tyrosine phosphorylation of plcgamma2 isolate from ntal-/- cell be also enhance ( b ) .
@@ -306,20 +306,20 @@
 306						study with lat deficient mouse reveal a complete block in t cell development , and lat negative t cell line show a complete block in tcr signaling .
 307						importantly , transfection of ntal into lat deficient cell or mouse partially restore the defect .
 308						mast cell express both these protein , and lat deficiency have no effect either on mast cell development in vivo or maturation of mast cell in vitro .
-309	manual:UA-CLine-100011,taxonomy:10090	BMMCs,mouse	c12,s3			however , bmmc from lat-/- mouse exhibit defect in pathway know to be downstream of lyn and syk kinase activation .
+309	uaz:UA-CLine-100011,taxonomy:10090	BMMCs,mouse	c12,s3			however , bmmc from lat-/- mouse exhibit defect in pathway know to be downstream of lyn and syk kinase activation .
 310			e49,e50,e51	c12,s3	fcepsilonrus mediated tyrosine phosphorylation of plcgamma , production of ip3 , release of ca2+ from internal store	these include fcepsilonrus mediated tyrosine phosphorylation of plcgamma , production of ip3 , release of ca2+ from internal store , and degranulation .
 311						importantly , though the mast cell effector function be impaired , they be not completely inhibit .
 312	tissuelist:TS-0603	mast cell	e52,c13	c13	 enhance tyrosine phosphorylation of ntal	these datum together with enhance tyrosine phosphorylation of ntal in fcepsilonrus activate mast cell and normal development of ntal-/- mast cell under in vivo and in vitro condition ( this study ) suggest that ntal could be the missing adaptor protein responsible for the remain signaling activity note in lat deficient cell .
 313						however , several line of evidence present in this study indicate that ntal , unlike lat , have a negative regulatory role in fcepsilonrus mediated activation in mouse mast cell .
 314						first , ntal-/- mouse compare with wt mouse exhibit a enhanced passive anaphylactic response .
 315						this systemic reaction reflect the activity of mast cell and be find reduce in lat-/-_NN cell .
-316	manual:UA-CLine-100011,taxonomy:10090	BMMCs,mouse	c14,s4			second , bmmc from ntal-/- mouse exhibit a enhanced degranulation .
+316	uaz:UA-CLine-100011,taxonomy:10090	BMMCs,mouse	c14,s4			second , bmmc from ntal-/- mouse exhibit a enhanced degranulation .
 317						Third , several protein in fcepsilonrus activate ntal-/- cell exhibit a enhanced tyrosine phosphorylation and and or modify subcellular distribution .
 318						these protein include syk kinase , lat , erk , and plcgamma .
 319			e53,e54	c14,s4	plcgamma and pi3k , produce increase level of ip3 and pi 3,4,5-trisphosphate , respectively	fourth , fcepsilonrus activate ntal-/- cell exhibit a enhanced activity of plcgamma and pi3k , produce increase level of ip3 and pi 3,4,5-trisphosphate , respectively .
 320						finally , ntal-/- phenotype be associate with a dramatic increase in calcium response in ag activate cell .
 321						this enhancement be mostly pronounced at suboptimal concentration of the ag and be observe even in the absence of extracellular calcium , suggest that the enhanced release of calcium from intracellular store contribute at least in part to this phenomenon .
-322	manual:UA-CLine-100011	BMMCs	c15			thus , the conclusion base on we datum seem to indicate that fcepsilonrus mediated signaling event in bmmc be negatively regulate by ntal .
+322	uaz:UA-CLine-100011	BMMCs	c15			thus , the conclusion base on we datum seem to indicate that fcepsilonrus mediated signaling event in bmmc be negatively regulate by ntal .
 323						how could NTAL be involve in negative regulation of plcgamma and downstream signaling pathway ?
 324						we propose that the inhibitory role of ntal could result from its competition with lat in lipid raft .
 325			e55	c15	it should be note that a major difference between lat and ntal be in the absence of the tyrosine residue responsible for interaction with plcgamma in the latter .	furthermore , it should be note that a major difference between lat and ntal be in the absence of the tyrosine residue responsible for interaction with plcgamma in the latter .
@@ -337,7 +337,7 @@
 337						mast cell degranulation involve two signaling pathway proximal to fcepsilonrus .
 338						lyn dependent pathway , which involve transmembrane adaptor lat , serve as both kinetic accelerator and negative regulator of signaling , whereas fyn dependent pathway be essential for degranulation .
 339						experiment with human mast cell suggest that ntal could represent the transmembrane adaptor involve in the fyn dependent pathway .
-340	taxonomy:10090,manual:UA-CLine-100011	mouse,BMMCs	s5,c18,e65	s5,c18	 tyrosine phosphorylation of ntal be not dependent on fyn kinase activity but at least partially depend on lyn kinase activity ( unpublished datum ) suggest that ntal be not involve in the fyn dependent pathway .	however , we finding that ntal in mouse bmmc be not essential for degranulation and that tyrosine phosphorylation of ntal be not dependent on fyn kinase activity but at least partially depend on lyn kinase activity ( unpublished datum ) suggest that ntal be not involve in the fyn dependent pathway .
+340	taxonomy:10090,uaz:UA-CLine-100011	mouse,BMMCs	s5,c18,e65	s5,c18	 tyrosine phosphorylation of ntal be not dependent on fyn kinase activity but at least partially depend on lyn kinase activity ( unpublished datum ) suggest that ntal be not involve in the fyn dependent pathway .	however , we finding that ntal in mouse bmmc be not essential for degranulation and that tyrosine phosphorylation of ntal be not dependent on fyn kinase activity but at least partially depend on lyn kinase activity ( unpublished datum ) suggest that ntal be not involve in the fyn dependent pathway .
 341						rather , ntal could contribute in part to the complexity of lyn dependent regulatory mechanism of mast cell signaling .
 342						although both ntal and lat be structurally similar molecule partition into lipid raft in detergent solubilize cell , a detailed analysis of they distribution on sucrose gradient indicate that they differ in physical property , particularly in activate cell .
 343			e66,e67	c18	tyrosine phosphorylated lat | phosphorylate ntal	thus , ~ 60 % of tyrosine phosphorylated lat be find in high density fraction of sucrose gradient , whereas a larger fraction ( ~ 70 % ) of phosphorylate ntal be find in low density fraction .

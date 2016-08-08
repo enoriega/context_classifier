@@ -6,7 +6,7 @@
 6						we use fibroblast isolate from gab1-/- mouse embryo to explore the mechanism of egf stimulation of the pi-3 kinase and akt anti-apoptotic cell signaling pathway .
 7			e2,e3,e4	c1		we demonstrate that gab1 be essential for egf stimulation of pi-3 kinase and akt in these cell and that these response be mediate by complex formation between p85 , the regulatory subunit of pi-3 kinase , and three canonical tyrosine phosphorylation site on gab1 .
 8			e5,e6,e7,e8,e9,e10,e11	c1		furthermore , complex formation between gab1 and the protein tyrosine phosphatase shp2 negatively regulate gab1 mediated pi-3 kinase and akt activation follow egf-receptor stimulation .
-9	manual:UA-CLine-6096	MEFs	c1			we also demonstrate that tyrosine phosphorylation of erbb3 may lead to recruitment and activation of pi-3 kinase and akt in gab1-/- mef .
+9	uaz:UA-CLine-6096	MEFs	c1			we also demonstrate that tyrosine phosphorylation of erbb3 may lead to recruitment and activation of pi-3 kinase and akt in gab1-/- mef .
 10						conclusion
 11			e12,e13	c1		the primary mechanism of egf induce stimulation of the pi-3 kinase and akt anti-apoptotic pathway occur via the docking protein gab1 .
 12			e14,e15,e16	c1		however , in cell express erbb3 , egf and neuroregulin can stimulate pi-3 kinase and akt activation in a gab1 dependent or gab1 independent manner .
@@ -42,9 +42,9 @@
 42						previous study have suggest that erbb3 and gab1 can function as link between egfr and pi-3 kinase .
 43						in this report we use mef derive from gab1 -/ - embryo to explore the contribution of gab1 and erbb3 to egf stimulation of pi-3 kinase and akt in these cell .
 44						gab1 be essential for egf stimulation of pi-3 kinase and akt
-45	manual:UA-CLine-6096,Uberon:UBERON:0000922	MEFs, embryos	c3,t2,e59,e60,e61	c3,t2		mef derive from gab1-/-_NN or wild type ( WT ) embryo be stimulate with egf and assay for gab1 tyrosine phosphorylation , for activation of pi-3 kinase and for akt stimulation .
+45	uaz:UA-CLine-6096,Uberon:UBERON:0000922	MEFs, embryos	c3,t2,e59,e60,e61	c3,t2		mef derive from gab1-/-_NN or wild type ( WT ) embryo be stimulate with egf and assay for gab1 tyrosine phosphorylation , for activation of pi-3 kinase and for akt stimulation .
 46			e62	c3,t2		as show in Figure , the endogenous gab1 present in wt mef be tyrosine phosphorylated in response to egf treatment .
-47	manual:UA-CLine-6096	MEFs	c4,e63	c4		as show in figure , gab1 -/ - mef display very low level of egf induce pi-3 kinase activity relative to cell express gab1 .
+47	uaz:UA-CLine-6096	MEFs	c4,e63	c4		as show in figure , gab1 -/ - mef display very low level of egf induce pi-3 kinase activity relative to cell express gab1 .
 48						we do observe a approximate 2-fold increase in this low-level basal pi-3 kinase activity in gab1 -/ - mef , which represent a gab1 independent signaling pathway .
 49						gab1 -/ - and wt mef be additionally stimulate with egf and the activation of akt be analyze by immunoblot with antibody which recognize specifically the activated form of akt .
 50						as show in Figure ( top and middle panel ) , gab1 -/ - cell display no activation of akt in response to egf , while wt mef show egf stimulate akt activation within two minute of egf treatment .
@@ -53,13 +53,13 @@
 53						as show in Figure , the ectopic gab1 protein be express at slightly lower level in the gab1 -/ - mef relative to endogenous gab1 expression see in the wild type mef .
 54						quantitation by densitometry reveal gab1 expression in wild type mef to be 1.4-fold higher than ectopic gab1 expression in gab1 -/ - mef .
 55						treatment with egf induce tyrosine phosphorylation of the exogenous gab1 protein express in the gab1 -/ - mef at level similar to endogenous gab1 in wild type mef .
-56	manual:UA-CLine-6096	MEFs	c5			as show in Figure , expression of exogenous gab1 in the gab1 -/ - mef result in gab1 associate pi-3 kinase activity that be augmented follow egf treatment .
+56	uaz:UA-CLine-6096	MEFs	c5			as show in Figure , expression of exogenous gab1 in the gab1 -/ - mef result in gab1 associate pi-3 kinase activity that be augmented follow egf treatment .
 57						the low level of egf induce pi-3 kinase activity observe in the gab1 -/ - cell may be due to signaling via a alternate , gab1 independent mechanism .
 58			e64	c5		these cell be additionally treat with egf over a period of time and the activation of akt be assay by immunoblot with antibody specific for the ser473 phosphorylated form of akt .
 59						the experiment present in fig show that ectopic expression of gab1 in the gab1 deficient cell rescue egf induce akt activation to level similar to those observe in egf treat wild type mef .
 60			e65,e66	c5		take together , these result demonstrate that gab1 be require for egf stimulation of pi-3 kinase and akt .
 61			e67,e68,e69	c6		the canonical p85 binding site on gab1 be essential for pi-3 kinase and akt activation in response to egf stimulation
-62	manual:UA-CLine-6096	MEFs	c6			the cdna encode a mutant gab1 protein , contain tyrosine to phenylalanine point mutation at the three bind site for the p85 regulatory subunit of pi-3 kinase ( y446f/y472f/y589f ) ( gab1f446/472/589 ) , be clone into a retroviral vector and use to generate pool of stable mef cell line as describe above .
+62	uaz:UA-CLine-6096	MEFs	c6			the cdna encode a mutant gab1 protein , contain tyrosine to phenylalanine point mutation at the three bind site for the p85 regulatory subunit of pi-3 kinase ( y446f/y472f/y589f ) ( gab1f446/472/589 ) , be clone into a retroviral vector and use to generate pool of stable mef cell line as describe above .
 63						we first assay the cell for gab1 expression , and for the ability of the mutant gab1f446/472/589 protein to become tyrosine phosphorylate in response to egf treatment .
 64			e70	c6		as show in Figure , both wild type gab1 and gab1f446/472/589 undergo tyrosine phosphorylation in response to egf treatment ( upper left panel ) .
 65						quantitation of multiple experiment by densitometry reproducibly demonstrate that gab1f446/472/589 be tyrosine phosphorylated follow egf treatment to similar level when normalize for gab1 expression level .
@@ -75,7 +75,7 @@
 75						we first assay the gab1 associate pi-3 kinase activity directly through a pi-3 kinase assay .
 76						as show in Figure , immunoprecipitation of wild type gab1 follow egf treatment bring down associate pi-3 kinase activity .
 77						however immunoprecipitation of gab1f446/472/589 be not associate with significant level of pi-3 kinase in the presence or absence of egf stimulation .
-78	manual:UA-CLine-6096	MEFs	c7			in order to assay the effect of egf stimulation on signaling downstream of pi-3 kinase , gab1 -/ - mef express no gab1 , wild type gab1 or gab1f446/472/589 be treat with egf over vary time and cell lysate be immunoblot for serine phosphorylate akt .
+78	uaz:UA-CLine-6096	MEFs	c7			in order to assay the effect of egf stimulation on signaling downstream of pi-3 kinase , gab1 -/ - mef express no gab1 , wild type gab1 or gab1f446/472/589 be treat with egf over vary time and cell lysate be immunoblot for serine phosphorylate akt .
 79						mutation of the p85 binding site on gab1 essentially eliminate all egf induce akt activation relative to cell express wild type gab1 .
 80			e77,e78,e79	c7		the binding of p85 be absolutely require for gab1 mediated activation of pi-3 kinase and akt follow egf treatment .
 81			e80,e81	c7		previous work have indicate that treatment of cell with pi-3 kinase inhibitor reduce level of egf induce complex formation between gab1 and the protein tyrosine phosphatase shp2 .
@@ -84,8 +84,8 @@
 84						for this purpose , lysate from unstimulated or egf stimulate cell be subject to immunoprecipitation with anti-gab1 antibody follow immunoblotting with anti-shp2 antibody .
 85						the experiment present in fig show that mutation of the p85 binding site on gab1 do not affect recruitment of shp2 by gab1 follow egf stimulation .
 86						as have be previously observe , we note a low level of basal association between shp2 and both gab1 and gab1f446/472/589 , which may be due to incomplete growth factor starvation prior to egf stimulation in these experiment .
-87	manual:UA-CLine-6096	MEFs	e83,c8	c8		expression of gab1 mutant protein deficient in shp2 binding rescue egf induce pi-3 kinase and akt activation in gab1 -/ - mef
-88	manual:UA-CLine-6096	MEFs	c9			to assess the role of the protein tyrosine phosphatase shp2 in gab1 mediated signaling induce by egf , two gab1 mutant be generate and express in pool of gab1 -/ - mef .
+87	uaz:UA-CLine-6096	MEFs	e83,c8	c8		expression of gab1 mutant protein deficient in shp2 binding rescue egf induce pi-3 kinase and akt activation in gab1 -/ - mef
+88	uaz:UA-CLine-6096	MEFs	c9			to assess the role of the protein tyrosine phosphatase shp2 in gab1 mediated signaling induce by egf , two gab1 mutant be generate and express in pool of gab1 -/ - mef .
 89						the first contain tyrosine to phenylalanine point mutation at the two bind site for the shp2 protein tyrosine phosphatase ( y627f and y659f ) ( designate gab1f627 and 659 ) and the second contain mutation at the shp2 binding site as well as at the three pi-3 kinase binding site describe above ( designate gab1f446/472/589 / 627 and 659 ) .
 90						we first assay the ability of the mutant gab1 protein to become tyrosine phosphorylate in response to egf .
 91			e84,e85	c9		as show in Figure ( top panel ) both wild type gab1 protein and the gab1f627 and 659 protein readily undergo tyrosine phosphorylation when stimulate with egf .
@@ -98,7 +98,7 @@
 98			e93	c9		the experiment present in fig show cell stimulate with egf over vary period of time and cell extract assay for level of egfr tyrosine autophosphorylation .
 99			e94	c9		as have be previously report , recruitment of shp2 by gab1 do not alter the magnitude or kinetics of tyrosine autophosphorylation of egfr .
 100			e95	c9		level of egfr autophosphorylation be represent linearly follow quantitation by densitometry and normalization for protein expression level .
-101	manual:UA-CLine-100111	Shp2 -/- cells	c10,e96	c10		previous work with shp2 -/ - cell demonstrate a elevated and sustained activation of pi-3 kinase and akt in response to egf treatment , and it be propose that shp2 may act to dephosphorylate gab1 at one or both of the p85 binding site .
+101	uaz:UA-CLine-100111	Shp2 -/- cells	c10,e96	c10		previous work with shp2 -/ - cell demonstrate a elevated and sustained activation of pi-3 kinase and akt in response to egf treatment , and it be propose that shp2 may act to dephosphorylate gab1 at one or both of the p85 binding site .
 102			e97,e98,e99	c9		we utilize the gab1 protein deficient in shp2 binding to assay more directly the role of the shp2 and gab1 complex in mediate activation of pi-3 kinase and akt in response to egf stimulation .
 103						as show in Figure , immunoprecipitation of gab1f627 and 659 bring down 1.6-fold higher basal level of pi-3 kinase activity relative to wild type gab1 as assay by pip3 production .
 104						importantly , gab1 mutant defective for shp2 binding show approximately 2-fold higher gab1 associate pi-3 kinase activity in response to egf treatment .
@@ -109,11 +109,11 @@
 109			e100	c9		interestingly , cell express the gab1f627 and 659 protein reproducibly show activation of akt with significantly sustained kinetics relative to cell express wild type gab1 .
 110			e101,e102	c9		as expect , the additional mutation of the p85 binding site ( gab1f446/472/589 / 627 and 659 ) limited akt activation to level similar to those observe in the gab1 -/ - cell , confirm the requirement for pi-3 kinase association with gab1 to induce egf mediated activation of the akt pathway .
 111			e103,e104,e105	c9		take together , these result suggest a role for shp2 in negatively regulate the egf induce activation of the pi-3 kinase pathway via gab1 , possibly by dephosphorylate gab1 at p85 binding site .
-112	manual:UA-CLine-6096	MEFs	e106,c11	c11		expression of erbb3 in gab1 -/ - mef enhance activation of the pi-3 kinase signaling pathway
+112	uaz:UA-CLine-6096	MEFs	e106,c11	c11		expression of erbb3 in gab1 -/ - mef enhance activation of the pi-3 kinase signaling pathway
 113			e107	c11		as describe above , pi-3 kinase be recruit to the egfr via the adaptor protein gab1 .
 114			e108	c11		the result present here demonstrate that gab1 be require for egf induce activation of the pi-3 kinase pathway via the egfr , presumably because this receptor do not contain bind site for the p85 regulatory subunit of pi-3 kinase .
 115						the catalytically inactive erbb3 receptor , however , contain at least six binding site for p85 , and thus may bypass the requirement for gab1 in response to egf by heterodimerize with the catalytically active egfr .
-116	manual:UA-CLine-6096	MEFs	c12			in order to test this hypothesis , retroviral vector be use to introduce either the gab1 or erbb3 gene into gab1 -/ - mef that endogenously express the egfr but not erbb3 , and pool of stable cell line be select for further analysis .
+116	uaz:UA-CLine-6096	MEFs	c12			in order to test this hypothesis , retroviral vector be use to introduce either the gab1 or erbb3 gene into gab1 -/ - mef that endogenously express the egfr but not erbb3 , and pool of stable cell line be select for further analysis .
 117						we first assay the ability of the endogenous egfr to be tyrosine autophosphorylate in response to egf , as well as the ability of the exogenous erbb3 receptor to be tyrosine phosphorylate in response to stimulation with either egf or neuregulin ( nrg ) .
 118			e109	c12		the experiment present in fig show that all cell line exhibit egfr autophosphorylation in response to egf treatment , while only cell express the ectopically introduce erbb3 protein show erbb3 tyrosine phosphorylation in response to egf stimulation .
 119			e110	c12		interestingly , erbb3 reproducibly show constitutive low-level tyrosine phosphorylation that be augmented only 1.3-fold in response to egf treatment .
@@ -121,7 +121,7 @@
 121						expression of egfr and erbb3 in the appropriate cell line be confirm by immunoblot with antibody specific for egfr and erbb3 , respectively .
 122						the apparent decrease in egfr expression in cell co-express egfr and erbb3 follow egf treatment be not observe in repetition of this experiment , and be likely due to a strip anomaly .
 123						additionally , we demonstrate that gab1 -/ - mef that express wild type gab1 display gab1 tyrosine phosphorylation in response to egf treatment , while gab1 -/ - control cell or those express erbb3 do not show gab1 phosphorylation .
-124	manual:UA-CLine-6096	MEFs	e112,c13	c13		in order to test the ability of erbb3 to rescue the egf induce activation of the pi-3 kinase and akt signaling pathway in gab1 -/ - mef , we first assay these cell for egf induce pi-3 kinase activity .
+124	uaz:UA-CLine-6096	MEFs	e112,c13	c13		in order to test the ability of erbb3 to rescue the egf induce activation of the pi-3 kinase and akt signaling pathway in gab1 -/ - mef , we first assay these cell for egf induce pi-3 kinase activity .
 125						cell be either leave unstimulated or be stimulate with egf and cell lysate be immunoprecipitate with anti-phosphotyrosine antibody .
 126						phosphotyrosine associate pi-3 kinase activity be then assay by analysis of pip3 production .
 127						as show in Figure , both cell express wild type gab1 and erbb3 show pi-3 kinase activity , while gab1 -/ - cell do not .

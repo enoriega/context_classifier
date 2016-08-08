@@ -2,7 +2,7 @@
 2	taxonomy:6239,taxonomy:7215	caenorhabditis elegans, Drosophila	s1,s2			notch signaling be critical for cell fate decision during development .
 3						caenorhabditis elegan and vertebrate notch ligand be more diverse than classical drosophilum notch ligand , suggest possible functional complexity .
 4						here , we describe a developmental role in notch signaling for osm-11 , which have be previously implicate in defecation and osmotic resistance in C. elegan .
-5	manual:UA-ORG-1083	vulval precursor cells (VPC)	c1			we find that complete loss of osm-11 cause defect in vulval precursor cell ( vpc ) fate specification during vulval development consistent with decrease notch signaling .
+5	uaz:UA-ORG-1083	vulval precursor cells (VPC)	c1			we find that complete loss of osm-11 cause defect in vulval precursor cell ( vpc ) fate specification during vulval development consistent with decrease notch signaling .
 6			e1,e2,e3,e4	c1,s1		OSM-11 be a secrete , diffusible protein that , like previously describe c. elegan Delta , Serrate , and lag-2 ( dsl ) ligand , can interact with the lineage defective-12 ( lin-12 ) notch receptor extracellular domain .
 7						additionally , osm-11 and similar c. elegan protein share a common motif with notch ligand from other species in a sequence define here as the delta and osm-11 ( DOS ) motif .
 8						osm-11 loss-of-function defect in vulval development be exacerbate by loss of other dos-motif gene or by loss of the notch ligand dsl-1 , suggest that dos-motif and dsl protein act together to activate notch signaling in vivo .
@@ -195,7 +195,7 @@
 195						vpc be polarize epithelial cell ; egf and notch signaling normally occur in separate cellular compartment .
 196						Lethal-23 ( let-23 ) egf receptor be localized to the basolateral surface of the vpc in close proximity to the ac , which be the source of lin-3 egf .
 197						in contrast , lin-12 receptor be primarily localized to the apical surface of the vpc .
-198	manual:UA-CLine-100113	VPCs	e16,c2	c2		the apical localization of osm-11 in vpc during cell fate specification suggest that osm-11 be available to bind to lin-12 receptor in vpc at the time of cell fate specification .
+198	uaz:UA-CLine-100113	VPCs	e16,c2	c2		the apical localization of osm-11 in vpc during cell fate specification suggest that osm-11 be available to bind to lin-12 receptor in vpc at the time of cell fate specification .
 199						osmotic stress response do not alter vulval cell Fate Specification
 200						osm-11 and osm-7 be previously implicate in osmotic stress resistance .
 201						pre-exposure of wild-type c. elegan to high external osmolarity be sufficient to induce osmotic resistance .
@@ -288,7 +288,7 @@
 288						dsl-1 ; osm-11 double-mutant animal have significantly more severe 2degree fate specification defect compare to either single mutant alone ( p < 0.005 by chi2 ) .
 289						n > = 48 for each genotype in all panel .
 290			e19	s11		OSM-11 function with dsl ligand to increase notch signaling
-291		c. elegan	s11			classical c. elegan notch dsl ligand be express in vpc and function redundantly during cell specification .
+291	taxonomy:6239	c. elegan	s11			classical c. elegan notch dsl ligand be express in vpc and function redundantly during cell specification .
 292						accordingly , dos-motif protein may also function redundantly in VPC specification .
 293						one might expect that dsl-domain protein and dos-motif protein would act together to activate notch signaling .
 294						therefore , loss of a dsl protein should exacerbate osm-11 developmental defect .
@@ -300,7 +300,7 @@
 300						eighty-six percent of the double-mutant animal lack lip-1p : : gfp up regulation in either one or both presumptive secondary vpc , indicate a substantial synergistic loss of secondary fate specification ( c ) .
 301						this result be consistent with dos-motif ( i.e. , osm-11 ) and dsl-domain protein work together to increase lin-12 notch signaling .
 302			e20	s11		OSM-11 interact with lin-12 extracellular egf repeat in a yeast two-hybrid assay
-303	manual:UA-CLine-100113	VPC	c3,e21	s11,c3		the cellular nonautonomy of osm-11 , the similarity of osm-11 to notch ligand , the expression pattern of osm-11 , and the genetic implication that osm-11 function before or during lin-12 notch activation in VPC fate specification collectively suggest that osm-11 may function as a lin-12 notch ligand .
+303	uaz:UA-CLine-100113	VPC	c3,e21	s11,c3		the cellular nonautonomy of osm-11 , the similarity of osm-11 to notch ligand , the expression pattern of osm-11 , and the genetic implication that osm-11 function before or during lin-12 notch activation in VPC fate specification collectively suggest that osm-11 may function as a lin-12 notch ligand .
 304						we test the hypothesis that osm-11 directly interact with the lin-12 extracellular domain .
 305						previous study demonstrate that drosophilum and vertebrate dsl ligand bind to the extracellular egf repeat of notch receptor .
 306						in preliminary study , we be unable to demonstrate direct binding between osm-11 and lin-12 biochemically use a heterologous expression system ( unpublished datum ) .
@@ -321,7 +321,7 @@
 321						interaction control be : ( 1 ) empty vector ; ( 2 ) db-prb and ad-e2f ; ( 3 ) db-fo and ad-jun ; ( 4 ) gal4p and ppc86 ; and ( 5 ) db-dp1 and ad-e2f1 .
 322			e27	s13		we find that osm-11 also interact with lin-12 extracellular egf repeat 1 through 6 ; osm-11 do not interact with dsl-1 or lag-2 ligand .
 323	taxonomy:10090	murine	e28,s14	s14		we also confirm previous study in which murine dlk1 egf repeat 1 and 2 contain the DOS motif interact specifically with murine notch1 egf repeat 12 and 13 in the same two-hybrid assay format ( unpublished datum ) .
-324	manual:UA-CLine-100113	VPC	c4,e29	s14,c4		the two-hybrid interaction do not necessarily demonstrate that osm-11 and lin-12 interact in vivo ; however , combine with the genetic interaction , the apical expression pattern of osm-11 in vpc , and previous study of dlk1 and notch interaction , we favor a simple model in which osm-11 bind directly to lin-12 notch egf repeat .
+324	uaz:UA-CLine-100113	VPC	c4,e29	s14,c4		the two-hybrid interaction do not necessarily demonstrate that osm-11 and lin-12 interact in vivo ; however , combine with the genetic interaction , the apical expression pattern of osm-11 in vpc , and previous study of dlk1 and notch interaction , we favor a simple model in which osm-11 bind directly to lin-12 notch egf repeat .
 325						further biochemical study will be require to demonstrate dos-motif protein direct interaction with notch receptor .
 326						the mammalian dos-motif protein dlk1 can substitute for osm-11
 327	taxonomy:6239	C. elegans	e30,s15	s15		we result suggest that the dos-motif protein osm-11 may act as a soluble lin-12 ligand in C. elegan .
@@ -337,7 +337,7 @@
 337						the DOS motif be conserve across species and find in canonical notch ligand .
 338						OSM-11 be a secreted protein that be express in vpc during cell fate specification .
 339						genetic analysis suggest that osm-11 act upstream of lin-12 and that osm-11 normally increase lin-12 notch signaling in vivo .
-340	manual:UA-CLine-100113	VPC	c5,e33	c5		two-hybrid datum and expression on the VPC apical surface suggest that osm-11 may directly bind to the lin-12 extracellular domain , although additional biochemical study will be require to further confirm this .
+340	uaz:UA-CLine-100113	VPC	c5,e33	c5		two-hybrid datum and expression on the VPC apical surface suggest that osm-11 may directly bind to the lin-12 extracellular domain , although additional biochemical study will be require to further confirm this .
 341						finally , we demonstrate that the mammalian dos-motif protein dlk1 can partially substitute for osm-11 in C. elegan vulval development , suggest that dos-motif protein function be conserve across species .
 342	taxonomy:6239	C. elegans	e34,s18	s18		we datum suggest a model wherein osm-11 and c. elegan dsl ligand act together to activate notch receptor , potentially as a c. elegan bipartite ligand that be functionally equivalent to drosophila delta or mammalian jagged1 .
 343	taxonomy:6239	C. elegans	e35,s19	s19		previously describe c. elegan dsl ligand such as lag-2 lack a DOS motif ; C. elegan dsl ligand , such as lag-2 , and dos-motif protein , such as osm-11 , may both be require to activate lin-12 notch receptor signaling in vivo .

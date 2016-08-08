@@ -135,7 +135,7 @@
 135						the cell be incubate either at the permissive temperature of 32degreesc or for 3 h at the restrictive temperature of 40degreesc ( which cause depletion of > 75 % of all cellular coatomer ; ) .
 136						alf be then add for 10 min .
 137						golgus fluorescence be subsequently photobleach and the extent of fluorescence recovery onto the golgus be measure .
-138	manual:UA-CLine-100116	ldlF cells	c3			the effect of alf in ldlf cell incubate at 32degreesc be similar to what we observe for other cell type treat with alf , with ~ 40 % of the golgus pool of arfgap1-yfp fail to recover after photobleach ( d ) .
+138	uaz:UA-CLine-100116	ldlF cells	c3			the effect of alf in ldlf cell incubate at 32degreesc be similar to what we observe for other cell type treat with alf , with ~ 40 % of the golgus pool of arfgap1-yfp fail to recover after photobleach ( d ) .
 139						by contrast , after alf treatment of ldlf cell incubate at 40degreesc , close to 100 % of the golgus pool of arfgap1-yfp recover after photobleach .
 140						recovery in these cell be slightly slower than in cell incubate at 32degreesc in the absence of alf , potentially due to coatomer not be completely deplete during the 3 h of incubation at 40degreesc .
 141			e25	c3		together , these result suggest that depletion of coatomer prevent stabilize fluoride-arf1-arfgap1 complex from form during alf treatment .
@@ -226,7 +226,7 @@
 226			e39	c4,c5		significantly , release of arfgap1 into the cytoplasm from this pathway be dependent on gtp hydrolysis on arf1 .
 227			e40	c4,c5		this be support by we finding that when gtp hydrolysis on arf1 be inhibit by arf1 [ q71l ] expression or by alf treatment , a proportion of the golgus pool of arfgap1 no longer cycle between golgus and cytoplasm .
 228						arfgap1 entry into the arf1 dependent pathway be find to be dependent on coatomer .
-229	manual:UA-CLine-100116	ldlF cells	e41,c6,e42	c6		this be support by we finding that COPI and ArfGAP1 interact in biochemical assay , and ( b ) in ldlf cell deplete of coatomer and treat with alf , no formation of stable complex of fluoride-arf1-arfgap1 occur .
+229	uaz:UA-CLine-100116	ldlF cells	e41,c6,e42	c6		this be support by we finding that COPI and ArfGAP1 interact in biochemical assay , and ( b ) in ldlf cell deplete of coatomer and treat with alf , no formation of stable complex of fluoride-arf1-arfgap1 occur .
 230	taxonomy:4932	yeast	s1,e43	s1		the formation of immobilize pool of arfgap1 and coatomer on the golgus observe normally in cell treat with alf likely correspond to complex of fluoride-arf1-arfgap1-coatomer .
 231						this would be consistent with previous study in yeast show interaction between coatomer subunit and arfgap , and a recent in vitro system report direct binding of coatomer to arfgap1 , as well as with study examine the effect of alf on liposome incubate with arf1 , arfgap1 , and coatomer .
 232						because virtually all coatomer become stabilize on membrane during alf treatment , compare with ~ 40 % of arfgap1 and < 10 % of arf1 ( unpublished datum ) , coatomer would appear to be the rate limit component of the complex of arf1-arfgap1-coatomer in the cell be examine .

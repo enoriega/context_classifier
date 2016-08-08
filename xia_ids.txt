@@ -7,7 +7,7 @@ A375	Cellosaurus:CVCL_0132
 B cells	CellOntology:CL:0000236
 B lymphocytes	CellOntology:CL:0000236
 BCPAP	Cellosaurus:CVCL_0153
-BMMCs	manual:UA-CLine-100011	# Appears to stand for "Bone marrow-derived mast cells", but species is underspecified. (Was: manual:UA-CLine-100011)
+BMMCs	uaz:UA-CLine-100011	# Appears to stand for "Bone marrow-derived mast cells", but species is underspecified. (Was: manual:UA-CLine-100011)
 BaF3 cells	Cellosaurus:CVCL_0161
 C. elegans	taxonomy:6239
 C2C12	Cellosaurus:CVCL_0188
@@ -24,47 +24,47 @@ Daudi	Cellosaurus:CVCL_0008
 Drosophila	taxonomy:7215
 Drosophila melanogaster	taxonomy:7227	# N.B.: Changed from 7215
 Eol-3	Cellosaurus:CVCL_4069
-F3 cells	manual:UA-CLine-100101	# No good match in the dictionaries. Could be an artefact from tokenising "Ba/F3"? (Was: manual:UA-CLine-100101)
-GBM	manual:UA-CLine-5317	# No good match in dictionaries. Cellosaurus lists a bunch of specific GBM sublines, but all have numerical suffixes. Alternatively, could be generic Glioblastoma cells (TS-0417). (Was: manual:UA-CLine-5317)
+F3 cells	uaz:UA-CLine-100101	# No good match in the dictionaries. Could be an artefact from tokenising "Ba/F3"? (Was: manual:UA-CLine-100101)
+GBM	uaz:UA-CLine-5317	# No good match in dictionaries. Cellosaurus lists a bunch of specific GBM sublines, but all have numerical suffixes. Alternatively, could be generic Glioblastoma cells (TS-0417). (Was: manual:UA-CLine-5317)
 H1264	Cellosaurus:CVCL_3970
 H647	Cellosaurus:CVCL_1574
 HCC	tissuelist:TS-0455
 HCC cells	tissuelist:TS-0455
 HCC1143	Cellosaurus:CVCL_1245
-HDFs	manual:UA-CLine-100087	# No good match. Seems to stand for 'human diploid fibroblasts'. (Was: manual:UA-CLine-100087)
+HDFs	uaz:UA-CLine-100087	# No good match. Seems to stand for 'human diploid fibroblasts'. (Was: manual:UA-CLine-100087)
 HEK 293	Cellosaurus:CVCL_0045
 HEK cells	Cellosaurus:CVCL_0045	# Human Embryonic Kidney
 HEK293T	Cellosaurus:CVCL_0063
 HEK293T cells	Cellosaurus:CVCL_0063
 HSCs	CellOntology:CL:0000037
 HT1080	Cellosaurus:CVCL_0317
-HTc-7	manual:UA-CT-30001	# No good matches. (Was: manual:UA-CT-30001)
+HTc-7	uaz:UA-CT-30001	# No good matches. (Was: manual:UA-CT-30001)
 HTh7	Cellosaurus:CVCL_6289
-HUVECs	tissuelist:TS-1081	# Was: manual:UA-CT-30002
+HUVECs	tissuelist:TS-1081	# Was: uaz:UA-CT-30002
 HeLa	Cellosaurus:CVCL_0030
 HeLa cells	tissuelist:TS-0136
 Hela	Cellosaurus:CVCL_0030
 Hela cells	tissuelist:TS-0136	# N.B.: 'Hela' is listed in the tissue-type dictionary as well.
 Hep3B	Cellosaurus:CVCL_0326
 HepG2	Cellosaurus:CVCL_0027
-HepG2-(SBE)4-Lux	manual:UA-CLine-6371	# No good match. (Was: uaz:UA-CLine-6371)
+HepG2-(SBE)4-Lux	uaz:UA-CLine-6371	# No good match. (Was: uaz:UA-CLine-6371)
 IMR-90	Cellosaurus:CVCL_0347
 IMR90	Cellosaurus:CVCL_0347
 Jurkat	Cellosaurus:CVCL_0065
 Langerhans cells	CellOntology:CL:0000453
-M307	manual:UA-CLine-100096	# No good matches. (Was: uaz:UA-CLine-100096)
+M307	uaz:UA-CLine-100096	# No good matches. (Was: uaz:UA-CLine-100096)
 MCF-7 cells	Cellosaurus:CVCL_0031
-MCF10As	manual:UA-CLine-100076	# No good matches. Might be MCF10A (CVCL_0598), but original ID was different. (Was: uaz:UA-CLine-100076)
+MCF10As	uaz:UA-CLine-100076	# No good matches. Might be MCF10A (CVCL_0598), but original ID was different. (Was: uaz:UA-CLine-100076)
 MCF7	Cellosaurus:CVCL_0031
 MDCK cells	Cellosaurus:CVCL_0422
-MECs	manual:UA-CT-30003	# No good matches. Might be MEC (CVCL_B270). (Was: uaz:UA-CT-30003)
-MEFs	manual:UA-CLine-6096	# No good matches. A number of MEF lines are listed on Cellosaurus. (Was: uaz:UA-CLine-6096)
+MECs	uaz:UA-CT-30003	# No good matches. Might be MEC (CVCL_B270). (Was: uaz:UA-CT-30003)
+MEFs	uaz:UA-CLine-6096	# No good matches. A number of MEF lines are listed on Cellosaurus. (Was: uaz:UA-CLine-6096)
 MFM223	Cellosaurus:CVCL_1408
 MOLT-4	Cellosaurus:CVCL_0013
 MRC-5	Cellosaurus:CVCL_0440
-MvLu	manual:UA-CT-30009	# No good matches. Seems to stand for 'mink lung'. (Was: uaz:UA-CT-30009)
+MvLu	uaz:UA-CT-30009	# No good matches. Seems to stand for 'mink lung'. (Was: uaz:UA-CT-30009)
 NIH-3T3 cells	Cellosaurus:CVCL_0594
-NIH3T fibroblasts	manual:UA-CLine-100060	# No good matches. (Was: uaz:UA-CLine-100060)
+NIH3T fibroblasts	uaz:UA-CLine-100060	# No good matches. (Was: uaz:UA-CLine-100060)
 NRK	Cellosaurus:CVCL_3758	#  Normal Rat Kidney
 NRK cells	Cellosaurus:CVCL_3758
 OUMS-23	Cellosaurus:CVCL_3088
@@ -82,27 +82,27 @@ SNU719	Cellosaurus:CVCL_5086
 SUM52	Cellosaurus:CVCL_3425
 SW1736	Cellosaurus:CVCL_3883
 SW480	Cellosaurus:CVCL_0546
-SWA480	manual:UA-CLine-100094	# No good matches. (Was: uaz:UA-CLine-100094)
+SWA480	uaz:UA-CLine-100094	# No good matches. (Was: uaz:UA-CLine-100094)
 Sf9 cells	Cellosaurus:CVCL_0549
-Shp2 -/- cells	manual:UA-CLine-100111	# No good matches. Possibly SHP-2-deficient DT40 (CVCL_2G90)? (Was: uaz:UA-CLine-100111)
+Shp2 -/- cells	uaz:UA-CLine-100111	# No good matches. Possibly SHP-2-deficient DT40 (CVCL_2G90)? (Was: uaz:UA-CLine-100111)
 T-cell	tissuelist:TS-1001
 T24	Cellosaurus:CVCL_0554
 T24 cells	Cellosaurus:CVCL_0554
 TF-1	Cellosaurus:CVCL_0559
 THP-1	Cellosaurus:CVCL_0006
-TMLC	manual:UA-CLine-100112	# No good matches. Possibly YTMLC-90 (CVCL_6959)? (Was: uaz:UA-CLine-100112)
-VPC	manual:UA-CLine-100113	# No good matches. Appears to stand for 'vulval precursor cells' (Was: uaz:UA-CLine-100113)
-VPCs	manual:UA-CLine-100113	# No good matches. As above. (Was: uaz:UA-CLine-100114)
+TMLC	uaz:UA-CLine-100112	# No good matches. Possibly YTMLC-90 (CVCL_6959)? (Was: uaz:UA-CLine-100112)
+VPC	uaz:UA-CLine-100113	# No good matches. Appears to stand for 'vulval precursor cells' (Was: uaz:UA-CLine-100113)
+VPCs	uaz:UA-CLine-100113	# No good matches. As above. (Was: uaz:UA-CLine-100114)
 Vascular smooth muscle ( VSM ) cells	tissuelist:TS-1107
 WI-26	Cellosaurus:CVCL_V826
 WI-38	Cellosaurus:CVCL_0579
 WI-38 cells	Cellosaurus:CVCL_0579
-WI-38 normal HDFs	manual:UA-CLine-100087	# No good matches. May be derived from WI-38. (Was: uaz:UA-CLine-100087)
+WI-38 normal HDFs	uaz:UA-CLine-100087	# No good matches. May be derived from WI-38. (Was: uaz:UA-CLine-100087)
 a20	Cellosaurus:CVCL_1940
 adipocytes	tissuelist:TS-0012
 adipose tissue	tissuelist:TS-0013
 amnioserosa	Uberon:UBERON:0010302
-and alveolar pneumocyte	manual:UA-CT-200010	# No good matches. (Was: uaz:UA-CT-200010)
+and alveolar pneumocyte	uaz:UA-CT-200010	# No good matches. (Was: uaz:UA-CT-200010)
 astrocytomas	tissuelist:TS-0061	# Changed from original UA-CT-30004
 b cells	CellOntology:CL:0000236
 b lymphocyte	CellOntology:CL:0000236
@@ -129,7 +129,7 @@ central nervous system	tissuelist:TS-0150
 chicken	taxonomy:9031
 chondrocytes	tissuelist:TS-0138
 chronic lymphocytic leukemia	tissuelist:TS-0547	# No good matches. (Was: tissuelist:TS-0547)
-circulation	manual:UA-ORG-92	# No good matches. Possibly 'circulatory system' (UBERON:0001009) or 'Circulating blood' (TS-0771)? (Was: uaz:UA-ORG-92)
+circulation	uaz:UA-ORG-92	# No good matches. Possibly 'circulatory system' (UBERON:0001009) or 'Circulating blood' (TS-0771)? (Was: uaz:UA-ORG-92)
 colon	tissuelist:TS-0158
 colon carcinoma cell line	tissuelist:TS-0161
 colorectal	tissuelist:TS-1298	# Changed from original tissuelist:TS-20003. N.B., is an adjective.
@@ -161,8 +161,8 @@ hce cells	Cellosaurus:CVCL_M619
 hek cells	Cellosaurus:CVCL_M624
 hek293	Cellosaurus:CVCL_0045
 hek293t	Cellosaurus:CVCL_0063
-helum	manual:UA-CT-30008	# No good matches. (Was: uaz:UA-CT-30008)
-hematopoetic cells	manual:UA-CT-30009	# No good matches. Seems to be a misspelling of 'Hematopoietic' (Was: UAZ:UA-CT-30009)
+helum	uaz:UA-CT-30008	# No good matches. (Was: uaz:UA-CT-30008)
+hematopoetic cells	uaz:UA-CT-30009	# No good matches. Seems to be a misspelling of 'Hematopoietic' (Was: UAZ:UA-CT-30009)
 hepatic	tissuelist:TS-0564
 hepatic stellate cells	tissuelist:TS-0452	# Changed from the original TS-0564
 hepatocytes	tissuelist:TS-0454
@@ -179,8 +179,8 @@ jurkat cells	Cellosaurus:CVCL_0065
 keratinocytes	tissuelist:TS-0500
 kidney	tissuelist:TS-0510
 kidney podocytes	tissuelist:TS-0510	# No good matches. Closest may be generic 'podocytes' (CL:0000653) (Was: tissuelist:TS-0510)
-ldlF cells	manual:UA-CLine-100116	# No good matches. Appears to be a mutant CHO line. (Was: uaz:UA-CLine-100116)
-le	manual:UA-CT-30007	# No good matches. May stand for 'leading edge cells' (CL:0000730) (Was: uaz:UA-CT-30007)
+ldlF cells	uaz:UA-CLine-100116	# No good matches. Appears to be a mutant CHO line. (Was: uaz:UA-CLine-100116)
+le	uaz:UA-CT-30007	# No good matches. May stand for 'leading edge cells' (CL:0000730) (Was: uaz:UA-CT-30007)
 liver	tissuelist:TS-0564
 liver cells	tissuelist:TS-0564	# No good matches. (Was: tissuelist:TS-0564)
 liver progenitor cell line	tissuelist:TS-0564	# No good matches. (Was: tissuelist:TS-0564)
@@ -209,10 +209,10 @@ myogenic	tissuelist:TS-20001	# No good matches. (Was: tissuelist:TS-20001)
 n1e-115	Cellosaurus:CVCL_0451
 n1e-115 cell	Cellosaurus:CVCL_0451
 nervous system	tissuelist:TS-1313
-neural precursors	manual:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
-neural progenitors	manual:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
+neural precursors	uaz:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
+neural progenitors	uaz:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
 neural tissue	Uberon:UBERON:0003714
-neuronal growth cone	manual:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
+neuronal growth cone	uaz:UA-ORG-623	# No good matches. (Was: uaz:UA-ORG-623)
 neurons	CellOntology:CL:0000540
 nih-3t3	Cellosaurus:CVCL_0594
 nk cell	Cellosaurus:CVCL_1D01	# Synonym of 'Novikoff-Hepatoma'
@@ -236,7 +236,7 @@ prostate cancer	tissuelist:TS-1224
 prostate carcinoma cells (LnCAP)	Cellosaurus:CVCL_0395	# Changed from original tissuelist:TS-0830
 rat	taxonomy:10116
 rats	taxonomy:10116
-retinal neurons	manual:UA-ORG-623	# No good matches. Possibly 'neuroretinal cells' (TS-0685)? (Was: uaz:UA-ORG-623)
+retinal neurons	uaz:UA-ORG-623	# No good matches. Possibly 'neuroretinal cells' (TS-0685)? (Was: uaz:UA-ORG-623)
 retinal progenitors	CellOntology:CL:0002672
 retinas	tissuelist:TS-0865
 s2r+ cell	Cellosaurus:CVCL_Z831
@@ -256,7 +256,7 @@ swiss 3t3 cell	Cellosaurus:CVCL_0120
 synapse	go:GO:0045202	# No good matches. (Was: go:GO:0045202)
 t cell	tissuelist:TS-1001
 t cells	tissuelist:TS-1001
-tcp-1	manual:UA-CLine-100117	# No good matches. Closest may be 'tCPC', but it has no '-1' variant. (Was: uaz:UA-CLine-100117)
+tcp-1	uaz:UA-CLine-100117	# No good matches. Closest may be 'tCPC', but it has no '-1' variant. (Was: uaz:UA-CLine-100117)
 testicular	tissuelist:TS-1030
 testis	tissuelist:TS-1030
 thyroid	tissuelist:TS-1047
@@ -265,9 +265,11 @@ thyroid cancer cells	tissuelist:TS-1226
 tyroid	tissuelist:TS-1047	# Appears to be a misspelling of 'thyroid'
 umbilical vein endothelial cells (HUVECs)	tissuelist:TS-1081	# N.B.: Changed from original TS-0278
 vsm cells	tissuelist:TS-1107
-vulval precursor cells (VPC)	manual:UA-ORG-1083	# No good matches. (Was: manual:UA-ORG-1083)
+vulval precursor cells (VPC)	uaz:UA-ORG-1083	# No good matches. (Was: manual:UA-ORG-1083)
 wi-38	Cellosaurus:CVCL_0579
 wi-38 cells	Cellosaurus:CVCL_0579
-wi-38 fibroblasts	manual:UA-CLine-888	# No good matches. Probably derived from WI-38. (Was: manual:UA-CLine-888)
+wi-38 fibroblasts	uaz:UA-CLine-888	# No good matches. Probably derived from WI-38. (Was: manual:UA-CLine-888)
 yeast	taxonomy:4932
-slp-76	manual:UA-CLine-100047	# No good matches. Appears to be a protein, rather than a cell line. (Was: manual:UA-CLine-100047)
+slp-76	uaz:UA-CLine-100047	# No good matches. Appears to be a protein, rather than a cell line. (Was: manual:UA-CLine-100047)
+bone marrow	tissuelist:TS-0087
+c. elegan	taxonomy:6239

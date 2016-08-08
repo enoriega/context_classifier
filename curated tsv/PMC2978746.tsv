@@ -8,7 +8,7 @@
 8						we demonstrate that mutation of thr235 to alanine in c and ebpbeta1 be sufficient to restore the stability of c and ebpbeta1 expression in the mcf10a-ra ( v12 ) cell .
 9						overexpression of ra ( v12 ) in primary cell induce senescence rather than transformation , thus suppress tumorigenesis .
 10						c and ebpbeta be require for ra ( v12 ) - induce senescence in primary mouse embryonic fibroblast ( mef ) .
-11	manual:UA-CLine-6096	MEFs	e4,c2	c2	upregulation of il6 by c and ebpbeta	upregulation of il6 by c and ebpbeta have be show to be necessary for oncogene induce senescence , but the specific isoform of c and ebpbeta have not be investigate .
+11	uaz:UA-CLine-6096	MEFs	e4,c2	c2	upregulation of il6 by c and ebpbeta	upregulation of il6 by c and ebpbeta have be show to be necessary for oncogene induce senescence , but the specific isoform of c and ebpbeta have not be investigate .
 12	tissuelist:TS-0362	fibroblasts	e5,c3	c3	 c and ebpbeta1 isoform upregulate il6	we show that the c and ebpbeta1 isoform upregulate il6 when introduce into normal fibroblast .
 13						additionally , we show that c and ebpbeta1 induce senescence .
 14			e6	c2	degradation of c and ebpbeta1 by ra activation	take together , degradation of c and ebpbeta1 by ra activation may represent a mechanism to bypass OIS .
@@ -109,7 +109,7 @@
 109						T7-C and ebpbeta1 and t7-c and ebpbeta1t235a be unable to induce senescence in mcf10a cell in part because these cell have the p14arf/p15ink4b/p16ink4a locus delete .
 110						p16ink4a be a important player in OIS , and c and ebpbeta-induced senescence signal through this tumor suppressor during OIS .
 111			e41	c9	 c and ebpbeta have be show to induce p15ink4b 	additionally , c and ebpbeta have be show to induce p15ink4b during OIS .
-112	manual:UA-CLine-100087	WI-38 normal HDFs	e42,c22	c22	c and ebpbeta1 be not degrade upon ra ( v12 ) introduction 	c and ebpbeta1 be not degrade upon ra ( v12 ) introduction into wi-38 normal hdf
+112	uaz:UA-CLine-100087	WI-38 normal HDFs	e42,c22	c22	c and ebpbeta1 be not degrade upon ra ( v12 ) introduction 	c and ebpbeta1 be not degrade upon ra ( v12 ) introduction into wi-38 normal hdf
 113						recently , c and ebpbeta have be show to be essential for ra ( v12 ) - and raf ( e600 ) - induce senescence in mef and hdf , respectively .
 114						we decide to determine which isoform of c and ebpbeta be responsible for induction of senescence .
 115						we hypothesize that since ra negatively regulate c and ebpbeta1 by lead to its degradation during ra transformation , that this full length isoform of c and ebpbeta be responsible for induce senescence .
@@ -122,8 +122,8 @@
 122						as show in , there be significantly fewer wi-38-t7-c / ebpbeta1 colony compare to control ( p = 0.007 ) , indicate t7-c and ebpbeta1 expression in wi-38 cell inhibit growth and be potentially cause these cell to senesce .
 123						to confirm these finding , we perform a bromodeoxyuridine ( brdu ) assay use uninfected wi-38 cell , or sort wi-38 cell express t7-c and ebpbeta1 and gfp or gfp only , as show in .
 124						the wi-38-t7-c / ebpbeta1 cell have significantly less brdu staining than control ( p = 0.027 ) , confirm the result from that c and ebpbeta1 expression in wi-38 cell inhibit they proliferation .
-125	manual:UA-CLine-888	wi-38 fibroblasts	e43,c23	c23	c and ebpbeta1 induce il6	c and ebpbeta1 induce il6 in wi-38 fibroblast
-126	manual:UA-CLine-100087	HDFs	c24			report that activate raf ( e600 ) - induce senescence in hdf be due to activation of a inflammatory transcriptome .
+125	uaz:UA-CLine-888	wi-38 fibroblasts	e43,c23	c23	c and ebpbeta1 induce il6	c and ebpbeta1 induce il6 in wi-38 fibroblast
+126	uaz:UA-CLine-100087	HDFs	c24			report that activate raf ( e600 ) - induce senescence in hdf be due to activation of a inflammatory transcriptome .
 127			e44	c24	 il6 activation by c and ebpbeta .	this elegant study demonstrate that activate raf ( e600 ) - induce senescence be dependent upon il6 activation by c and ebpbeta .
 128						thus we examine if a specific transactivator isoform of c and ebpbeta be induce il6 expression .
 129						rna be prepare six day posti-infection from wi-38 cell infect with lzrs-t7-c / ebpbeta1-ires-egfp , lzrs-t7-c / ebpbeta2-ires-egfp , lzrs-gfp , or pbabe-ras ( v12 ) - puromycin .
@@ -160,7 +160,7 @@
 160			e58	c31	this phosphorylation be specific to the cdk family member cdk2 , and when cell be treat with roscovitine there be a decrease in phosphorylation of thr235 .	this phosphorylation be specific to the cdk family member cdk2 , and when cell be treat with roscovitine there be a decrease in phosphorylation of thr235 .
 161			e59	c31	additionally , knockdown of cdk2 decrease phosphorylation of c and ebpbetathr235 .	additionally , knockdown of cdk2 decrease phosphorylation of c and ebpbetathr235 .
 162						the non phosphorylatable c and ebpbeta1t235a could be stably express in mcf10a-ra cell as compare to wild type c and ebpbeta1 .
-163	manual:UA-CT-30003	MECs	c32,e60,e61,e62	c32	ra pathway in mec negatively regulate c and ebpbeta1 by promote phosphorylation of c and ebpbeta1 on thr235 by cdk2 and subsequently lead to degradation of c and ebpbeta1 .	therefore , activation of the ra pathway in mec negatively regulate c and ebpbeta1 by promote phosphorylation of c and ebpbeta1 on thr235 by cdk2 and subsequently lead to degradation of c and ebpbeta1 .
+163	uaz:UA-CT-30003	MECs	c32,e60,e61,e62	c32	ra pathway in mec negatively regulate c and ebpbeta1 by promote phosphorylation of c and ebpbeta1 on thr235 by cdk2 and subsequently lead to degradation of c and ebpbeta1 .	therefore , activation of the ra pathway in mec negatively regulate c and ebpbeta1 by promote phosphorylation of c and ebpbeta1 on thr235 by cdk2 and subsequently lead to degradation of c and ebpbeta1 .
 164						loss of t7-c and ebpbeta1 do take several day .
 165			e63	c32	ubiquitin e3 ligase necessary for the degradation of c and ebpbeta1 .	this may be due to a initial compensatory mechanism by the cell lead to increase synthesis of c and ebpbeta1 and and or a requirement for expression of a specific ubiquitin e3 ligase necessary for the degradation of c and ebpbeta1 .
 166						although introduction of ra ( v12 ) into many immortalize cell line lead to transformation , introduction of ra ( v12 ) into primary cell have a different effect .
@@ -182,7 +182,7 @@
 182						loss of expression of full length c and ebpbeta1 may be necessary for escape from senescence and a step closer to transformation .
 183						further support of this lie in the expression profile of c and ebpbeta1 in normal versus transform cell .
 184						c and ebpbeta1 be present in normal cell , and be not degrade when ra ( v12 ) be introduce and induce senescence in normal cell .
-185	manual:UA-CLine-100076	MCF10As	e68,c36	c36	c and ebpbeta be negatively regulate by ra during ra ( v12 ) transformation of mcf10a .	additionally , this first isoform of c and ebpbeta be negatively regulate by ra during ra ( v12 ) transformation of mcf10a .
+185	uaz:UA-CLine-100076	MCF10As	e68,c36	c36	c and ebpbeta be negatively regulate by ra during ra ( v12 ) transformation of mcf10a .	additionally , this first isoform of c and ebpbeta be negatively regulate by ra during ra ( v12 ) transformation of mcf10a .
 186						p52-C and ebpbeta1 expression be not observe in breast cancer cell in which the ra pathway be activate .
 187						the expression pattern of c and ebpbeta1 in normal versus transform cell support we current finding that c and ebpbeta1 play a important role in senescence and be negatively regulate during transformation .
 188						it be not surprising that a protein that play a critical role in OIS , a tumor suppressive mechanism , be down regulate during transformation .
@@ -198,7 +198,7 @@
 198						importantly , one study have examine the specific role of c and ebpbeta2 in activate macrophage by generate a knock-in mouse in which the second in-frame methionine necessary for translation of c and ebpbeta2 be replace with a alanine .
 199						this abolish expression of c and ebpbeta2 in these mouse .
 200			e70	c37	 induction of c and ebpbeta target gene , such as il6	the induction of c and ebpbeta target gene , such as il6 , be examine in this study .
-201	manual:UA-CLine-100087	HDFs	c37			activate macrophage in the mouse unable to express c and ebpbeta2 be still able to induce il6 expression , consistent with we current finding that c and ebpbeta2 be not the primary isoform responsible for induction of il6 in hdf .
+201	uaz:UA-CLine-100087	HDFs	c37			activate macrophage in the mouse unable to express c and ebpbeta2 be still able to induce il6 expression , consistent with we current finding that c and ebpbeta2 be not the primary isoform responsible for induction of il6 in hdf .
 202						c and ebpbeta play many functional role in the cell , even role that seem conflict such as cell survival , cell death , proliferation , senescence , and transformation .
 203						this may be explain in part by the presence of the different isoform of c and ebpbeta and they functional difference .
 204						future study on c and ebpbeta will need to take into consideration that the different isoform of this transcription factor be likely playing functionally distinct role .

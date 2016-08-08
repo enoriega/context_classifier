@@ -38,7 +38,7 @@
 38						to identify such instance , we screen a panel of cell line for evidence of map3k8 and cot copy number gain coincident with the b rafv600e mutation .
 39						of 534 cell line that have undergo copy number analysis and mutation profiling , 38 cell line ( 7.1 % ) contain the b rafv600e mutation .
 40	Cellosaurus:CVCL_3088,Cellosaurus:CVCL_1666	OUMS-23,RPMI-7951	c6,c7			within this subgroup , two cell line -- oums-23 ( colon cancer ) and rpmi-7951 ( melanoma ) -- also show evidence of chromosomal copy gain span the map3k8 and cot locus and robust cot protein expression .
-41	manual:UA-CLine-100096	M307	c8,e17	c8		we also screen a panel of melanoma short-term culture for COT protein expression .
+41	uaz:UA-CLine-100096	M307	c8,e17	c8		we also screen a panel of melanoma short-term culture for COT protein expression .
 42						only one of these line express COT : m307 , a short-term culture derive from a b-rafv600e tumor that develop resistance to allosteric mek inhibition follow initial disease stabilization .
 43			e18	c6,c7,c8		all three cell line be refractory to plx4720 treatment , exhibit gi50 value in the range of 8-10 microm and show sustained erk phosphorylation in the context of b-raf inhibition .
 44	Cellosaurus:CVCL_3088,Cellosaurus:CVCL_1666	OUMS-23,RPMI-7951	e19,c9,c10	c9,c10		OUMS-23 and rpmi-7951 be mapk pathway inhibitor-naive cell line , imply that COT may confer de novo resistance to raf inhibition ( a phenomenon observe in ~ 10 % of b-rafv600e melanoma ) .

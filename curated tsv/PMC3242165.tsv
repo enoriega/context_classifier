@@ -23,7 +23,7 @@
 23						accessibility and distribution of dietary re as well as the mobilization of intracellular re store require enzymatic activity from re hydrolase ( reh ) .
 24						the accessibility of dietary re necessitate extracellular reh in the intestine .
 25	CellOntology:CL:0000584	enterocytes	t1,e1,e2	t1		after uptake in enterocyte , retinol be re-esterified to re and pack into nascent chylomicron ( cm ) together with other dietary lipid such as triacylglycerol ( tg ) .
-26	manual:UA-ORG-92	circulation	t2,e3	t2		in the circulation , these cm be deplete from lipid by lipoprotein lipase ( LPL ) mediated hydrolysis provide fatty acid ( fa ) and retinol for peripheral tissue .
+26	uaz:UA-ORG-92	circulation	t2,e3	t2		in the circulation , these cm be deplete from lipid by lipoprotein lipase ( LPL ) mediated hydrolysis provide fatty acid ( fa ) and retinol for peripheral tissue .
 27	tissuelist:TS-0564	liver	t3			in liver , re-rich cm remnant be mainly take up by hepatocyte .
 28			e4,e5	t3		intracellularly , these re be hydrolyze and either release into the circulation , or re-esterified and store in cytosolic lipid droplet ( ld ) .
 29						yet , the vast majority of re be store in cytosolic ld of specialize liver cell , designate as hepatic stellate cell ( hsc ) , ito cell , or vitamin a storage cell .

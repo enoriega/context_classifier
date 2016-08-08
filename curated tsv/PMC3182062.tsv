@@ -279,7 +279,7 @@
 279						this model fit with increase evidence suggest that loss of rb function initiate cancer from specific population of stem and progenitor cell , provide a general model for tumor suppression by the rb pathway .
 280						however , we can not formally exclude at this point that a intermediate cell population ( i.e. , very late progenitor or early hepatocyte ) could also be the cell of origin in TKO HCC .
 281						the recent identification of Cre express mouse strain in liver progenitor population may provide novel means to perform lineage trace experiment and to formerly identify the cell of origin of the tko tumor , include its differentiation potential and the role of the rb pathway in its cell fate .
-282	manual:UA-ORG-623	neural progenitors	C10,E45	C10	repression of notch signaling by p107 .	previous study in neural progenitor have report repression of notch signaling by p107 .
+282	uaz:UA-ORG-623	neural progenitors	C10,E45	C10	repression of notch signaling by p107 .	previous study in neural progenitor have report repression of notch signaling by p107 .
 283	taxonomy:9606,taxonomy:10090,tissuelist:TS-0564	human, mouse, liver	E46,S9,S10,T5	S9,S10,T5	 rb family member directly control the transcription of multiple component of the notch pathway	in this study , we find that rb family member directly control the transcription of multiple component of the notch pathway in human and mouse cell , identify a strong link between these two central cellular pathway in liver cell .
 284						however , the lack of induction of notch pathway gene in tko liver progenitor cell suggest that this link be context dependent .
 285						more work be need to understand the regulation of notch pathway gene by e2f family member in different cell type .
